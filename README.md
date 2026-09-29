@@ -60,7 +60,7 @@ cd api
 ## 언어(i18n)
 
 - 지원: 영어(기본), 한국어, 日本語, 简体中文, 繁體中文, Español, Français, Deutsch, Português, Italiano, Русский, العربية(RTL), हिन्दी, Tiếng Việt, Türkçe, Bahasa Indonesia.
-- 번역이 없는 키는 영어로 표시되어 화면이 깨지지 않습니다. 현재 **완료: en, ko, ja, zh, zh-TW, es, fr, de**. 나머지는 영어로 대체됩니다.
+- 16개 언어 모두 번역이 끝나 있습니다(`npm run i18n:check`가 전 언어 100%). 새 문자열을 추가하다 번역이 비면 그 키만 영어로 표시되어 화면이 깨지지 않습니다.
 - 원본은 `web/messages-src/en/<네임스페이스>.json`, 번역은 `web/messages-src/<로케일>/{a..e}.json`(부분 객체, 깊은 병합)입니다.
 
 ```bash
@@ -73,10 +73,28 @@ npm run i18n:check   # 누락·불필요 키, {placeholder}·<태그> 불일치,
 ④ `messages-src/<코드>/`에 번역 JSON 작성. 복수형은 러시아어 `_one/_few/_many/_other`, 아랍어 `_zero/_one/_two/_few/_many/_other`, 터키어·힌디어 `_one/_other`를 모두 써야 합니다.
 번역은 AI 초안이므로 원어민 검수가 필요합니다. 블로그·법률·플레이북·예시 메일의 본문은 아직 영어만 있습니다.
 
+## 모바일
+
+웹은 휴대폰 화면(320px~)에서 쓰도록 만들어져 있습니다. 데스크톱 디자인은 그대로 두고 좁은 화면·터치 입력에서만 달라지도록 했습니다.
+
+- **터치**: 터치 기기(`pointer: coarse`)에서는 버튼·탭·필·링크가 44px 안팎으로 커지고, 입력창은 16px라 iOS가 확대하지 않습니다.
+- **레이아웃**: 다이얼로그는 폰에서 하단 시트, 대시보드 메뉴는 좌우로 밀어 넘기는 줄(현재 메뉴가 가운데로 오도록 자동 스크롤), 통계는 얇은 행,
+  포지션 상세에는 하단 고정 "지원하기" 바가 붙습니다. 긴 독일어·러시아어 문장도 줄바꿈되어 화면 밖으로 밀려나지 않습니다.
+- **홈 화면에 추가**: `src/app/manifest.ts`와 아이콘(`public/icons/`, `src/app/apple-icon.png`)이 있어 폰에서 앱처럼 설치됩니다. 아이콘을 바꿨다면 `node scripts/make-icons.mjs`.
+
+```bash
+cd web
+node scripts/mobile-audit.mjs --set all --widths 320,390 --locales en,de,ar --drawer --details   # 가로 넘침·작은 터치 영역·16px 미만 입력창·좁은 글 칸·메뉴 서랍·콘솔 오류 점검
+node scripts/mobile-states.mjs shots-states --locale ko                                 # 메뉴 서랍·필터·지원 시트·대시보드를 터치 에뮬레이션으로 캡처
+```
+
+두 스크립트는 시스템 Edge를 쓰며(웹 :3000, API :8000 필요), 로그인이 필요한 화면은 `api/seed.py`의 데모 계정으로 접속합니다.
+Windows Git Bash에서 `/` 같은 경로 인자를 넘길 땐 앞에 `MSYS_NO_PATHCONV=1`을 붙이세요(안 그러면 경로가 변환됩니다).
+
 ## 검증
 
 ```bash
-cd api && .venv/Scripts/python -m pytest                  # 29개 (가짜 OpenAlex + LLM 목, SQLite)
+cd api && .venv/Scripts/python -m pytest                  # 30개 (가짜 OpenAlex + LLM 목, SQLite)
 cd web && npm run typecheck && npm run lint && npm run build
 cd web && npm run e2e                                      # Playwright(시스템 Edge) 시나리오, API가 시드된 SQLite로 떠 있어야 함
 ```
@@ -93,5 +111,5 @@ E2E는 `seed.py`의 전체 데모 데이터를 전제로 합니다. E2E를 돌�
 
 ## 아직 없는 것
 
-Expo 모바일 앱, Alembic 마이그레이션, 이메일 인증·비밀번호 재설정, 파일 업로드 저장소(현재는 링크만), 결제 실서비스 검증.
+Expo 네이티브 모바일 앱(`mobile/`은 스캐폴드뿐 — 모바일 웹/PWA는 위처럼 준비됨), Alembic 마이그레이션, 이메일 인증·비밀번호 재설정, 파일 업로드 저장소(현재는 링크만), 결제 실서비스 검증.
 개인정보처리방침·이용약관은 초안이므로 법률 검토가 필요합니다.

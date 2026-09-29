@@ -292,7 +292,8 @@ export function MockTracker() {
           <Avatar name={r.n} size={30} />
           <div className="min-w-0 flex-1">
             <p className="truncate text-[0.8125rem] font-medium text-ink" dir="ltr">{r.n}</p>
-            {r.s === "sent" && <p className="text-[0.6875rem] text-faint">{t("home.mock.followUpOn", { date: soon })}</p>}
+            {/* The date is built from "now" and the ICU that formats it can differ between Node and the browser (Hindi spells October differently), so hydration must not fail over it. */}
+            {r.s === "sent" && <p className="text-[0.6875rem] text-faint" suppressHydrationWarning>{t("home.mock.followUpOn", { date: soon })}</p>}
           </div>
           <Badge tone={r.tone}>{t(`enums.outreach.${r.s}` as "enums.outreach.sent")}</Badge>
         </div>

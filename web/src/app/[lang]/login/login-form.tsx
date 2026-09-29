@@ -76,7 +76,7 @@ export function LoginForm() {
               <button
                 key={k}
                 type="button"
-                className="rounded-lg border border-line bg-surface px-3 py-1.5 font-medium text-ink hover:border-line-2"
+                className="rounded-lg border border-line bg-surface px-3 py-1.5 font-medium text-ink hover:border-line-2 pointer-coarse:py-3"
                 onClick={() => {
                   setEmail(mail);
                   setPassword("password123");

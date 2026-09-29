@@ -1,0 +1,122 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "نظرة عامة", "matches": "المطابقة الذكية", "talent": "ابحث عن طلاب", "applications": "الطلبات", "invitations": "الدعوات", "outreach": "سجل التواصل", "saved": "المحفوظات",
+      "profile": "ملفي الشخصي", "billing": "الباقة والفوترة", "settings": "الإعدادات", "positions": "الفرص", "lab": "المختبر والأبحاث", "admin": "الإدارة"
+    },
+    "greeting": "مرحبًا، {name}", "welcomeProfessor": "أهلًا بك، {name}",
+    "overview": {
+      "studentSubtitle": "هذا هو وضع بحثك عن فرصة بحثية.", "professorSubtitle": "أدِر مختبرك وفرصك ومتقدميك.", "findPositions": "ابحث عن فرص", "newPosition": "فرصة جديدة",
+      "applications": "الطلبات", "inReview": "قيد المراجعة", "accepted": "مقبولة", "invitations": "الدعوات", "openPositions": "الفرص المفتوحة", "applicants": "المتقدمون", "lab": "المختبر",
+      "live": "منشور", "notSetUp": "غير مُعدّ", "completeTitle": "أكمل ملفك الشخصي",
+      "completeBody": "يرى الأساتذة ملفك مع كل طلب، وتزداد دقة المطابقة كلما شاركت أكثر.", "completeCta": "حدّث الملف",
+      "discoverTitle": "دع الأساتذة يجدونك",
+      "discoverBody": "فعّل خيار الظهور ليتمكن الأساتذة الموثَّقون من دعوتك للتقديم. يبقى بريدك الإلكتروني خاصًا حتى تردّ.", "discoverCta": "اختر من الملف الشخصي",
+      "recentApplications": "أحدث الطلبات", "noApplications": "لم تتقدم لأي فرصة بعد.", "browse": "تصفح الفرص المفتوحة", "matchTitle": "أفضل مطابقاتك",
+      "matchBody": "شاهد الفرص والأساتذة مرتّبين حسب مدى مناسبتهم لك.", "matchCta": "افتح المطابقة الذكية", "yourPositions": "فرصك", "noPositions": "لا توجد فرص بعد.",
+      "createLabTitle": "أعدّ مختبرك لتبدأ الاستقطاب", "createLabBody": "يرى الطلاب ملف مختبرك وأبحاثك في كل فرصة تنشرها.", "createLabCta": "أنشئ ملف المختبر",
+      "unverifiedTitle": "حسابك بانتظار التوثيق", "unverifiedBody": "نراجع حسابات الأساتذة قبل أن تصبح المختبرات والفرص عامة. يمكنك تجهيز كل شيء في هذه الأثناء.",
+      "talentTitle": "اعثر على الطلاب المناسبين", "talentBody": "صِف طالبك المثالي ودع الذكاء الاصطناعي يرتّب الطلاب الذين وافقوا على الظهور.", "talentCta": "ابحث عن طلاب",
+      "pendingInvitations_zero": "لا توجد دعوات بانتظارك", "pendingInvitations_one": "لديك دعوة واحدة بانتظارك", "pendingInvitations_two": "لديك دعوتان بانتظارك",
+      "pendingInvitations_few": "لديك {count} دعوات بانتظارك", "pendingInvitations_many": "لديك {count} دعوة بانتظارك", "pendingInvitations_other": "لديك {count} دعوة بانتظارك",
+      "viewInvitations": "عرض الدعوات",
+      "applicantsCount_zero": "لا متقدمين", "applicantsCount_one": "متقدم واحد", "applicantsCount_two": "متقدمان", "applicantsCount_few": "{count} متقدمين", "applicantsCount_many": "{count} متقدمًا", "applicantsCount_other": "{count} متقدم",
+      "newForYou": "جديد لك"
+    },
+    "profile": {
+      "title": "ملفي الشخصي", "subtitle": "يراه الأساتذة مع طلبك، وتستخدمه المطابقة الذكية لإيجاد ما يناسبك.", "strength": "اكتمال الملف",
+      "basics": "الأساسيات", "university": "الجامعة", "major": "التخصص", "year": "السنة الدراسية", "selectYear": "اختر…", "about": "عنك", "bio": "نبذة قصيرة",
+      "bioHint": "من أنت، وما الذي يثير فضولك؟", "skills": "المهارات", "skillsHint": "مفصولة بفواصل، مثل: Python، PyTorch، R، السلامة في المختبر",
+      "interests": "الاهتمامات البحثية", "interestsHint": "مواضيع تحب العمل عليها، مثل: الرؤية الحاسوبية، مصير الخلايا.",
+      "experience": "ما أنجزته حتى الآن", "experienceHint": "مشاريع ومقررات وأبحاث سابقة — كلما كان أوضح، كانت المطابقة أفضل.",
+      "availability": "ساعات أسبوعيًا يمكنك تخصيصها", "workStyle": "كيف تحب أن تعمل", "workStyleHint": "حرّك كل مؤشر إلى حيث تشعر بأكبر قدر من الراحة. يُستخدم لمقارنتك بالمختبرات.",
+      "links": "الروابط", "resume": "رابط السيرة الذاتية", "resumeHint": "رابط إلى ملف PDF (Drive أو Dropbox أو موقعك).", "website": "الموقع الشخصي", "github": "ملف GitHub",
+      "visibility": "الظهور", "discoverable": "اسمح للأساتذة الموثَّقين بالعثور علي",
+      "discoverableDesc": "يمكن للأساتذة رؤية ملفك ودعوتك للتقديم. يبقى بريدك الإلكتروني خاصًا حتى تردّ. يمكنك إيقاف هذا في أي وقت.",
+      "save": "حفظ الملف", "saved": "تم حفظ الملف", "welcome": "أهلًا بك في Labora! حدّثنا عن نفسك لتحصل على مطابقات أفضل."
+    },
+    "applications": {
+      "title": "الطلبات", "subtitle": "كل ما تقدمت إليه في مكان واحد.", "emptyTitle": "لا توجد طلبات بعد", "emptyBody": "عندما تتقدم لفرصة، ستظهر هنا لتتابع حالتها.",
+      "browse": "تصفح الفرص", "applied": "تقدمت {when}", "withdraw": "سحب", "withdrawConfirm": "هل تريد سحب هذا الطلب؟", "withdrawn": "تم سحب الطلب",
+      "invited": "مدعو", "decided": "تم البت {when}"
+    },
+    "invitations": {
+      "title": "الدعوات", "subtitleStudent": "أساتذة يرغبون في أن تتقدم.", "subtitleProfessor": "طلاب دعوتَهم.", "emptyStudentTitle": "لا توجد دعوات بعد",
+      "emptyStudentBody": "فعّل خيار الظهور في ملفك ليتمكن الأساتذة الموثَّقون من دعوتك.", "emptyProfessorTitle": "لم تدعُ أحدًا بعد",
+      "emptyProfessorBody": "استخدم «ابحث عن طلاب» لاكتشاف من يناسب مختبرك.", "from": "من {name}", "to": "إلى {name}", "match": "تطابق {score}%",
+      "accept": "قبول والتقديم", "decline": "رفض", "replyPlaceholder": "أضف ملاحظة للأستاذ (اختياري)", "accepted": "قبلتَ الدعوة — تم إنشاء طلب.", "declined": "تم رفض الدعوة",
+      "withdraw": "سحب الدعوة", "receivedAgo": "أُرسلت {when}", "findStudents": "ابحث عن طلاب"
+    },
+    "outreach": {
+      "title": "سجل التواصل", "subtitle": "دوِّن من تواصلت معهم، ومتى تتابع، وما حدث.", "emptyTitle": "لا شيء قيد التتبع بعد",
+      "emptyBody": "أضف باحثين من ملفاتهم لتتبع تواصلك والحصول على مواعيد المتابعة.", "find": "ابحث عن أساتذة", "followUpDue": "المتابعة {when}",
+      "overdue": "المتابعة متأخرة", "sentOn": "أُرسلت في {date}", "repliedOn": "تم الرد في {date}", "notes": "ملاحظات", "notesPlaceholder": "أي شيء يستحق التذكّر…",
+      "status": "الحالة", "remove": "إزالة", "removeConfirm": "هل تريد إزالة هذا الباحث من سجلك؟", "planFollowUp": "خطِّط للمتابعات",
+      "helpTitle": "سجلاتك تساعد الجميع",
+      "helpBody": "تأتي معدلات الرد المعروضة في ملفات الباحثين من سجلات تواصل مجهولة ومجمَّعة مثل سجلاتك — ولا يُعرض أي سجل فردي أبدًا.",
+      "stats": { "total": "قيد التتبع", "sent": "مُرسَلة", "replied": "تم الرد", "due": "متابعات مستحقة" }
+    },
+    "saved": {
+      "title": "المحفوظات", "subtitle": "الباحثون والفرص التي أضفتها إلى المفضلة.", "professors": "الباحثون", "positions": "الفرص",
+      "emptyProfessors": "لا يوجد باحثون محفوظون بعد", "emptyProfessorsBody": "اضغط على علامة الحفظ لدى أي باحث لإضافته إلى قائمتك.",
+      "emptyPositions": "لا توجد فرص محفوظة بعد", "emptyPositionsBody": "اضغط على علامة الحفظ في فرصة للاحتفاظ بها لوقت لاحق."
+    },
+    "billing": {
+      "title": "الباقة والفوترة", "subtitle": "وصولك واستخدامك ومكافآت الدعوات.", "currentPlan": "الباقة الحالية",
+      "plan": { "free": "مجاني", "weekly": "باقة الأسبوع", "semester": "باقة الفصل الدراسي", "lifetime": "مدى الحياة" },
+      "activeUntil": "فعّالة حتى {date}", "lifetimeNote": "لديك وصول مدى الحياة.", "freeNote": "أنت على الباقة المجانية.", "upgrade": "عرض الباقات",
+      "usage": "الحد المجاني", "usageItem": "استُخدم {used} من {limit}", "unlimited": "غير محدود",
+      "features": { "summary": "ملخصات الأساتذة", "email_check": "فحص الرسائل", "follow_up": "خطط المتابعة", "match_positions": "مطابقات الفرص", "match_professors": "مطابقات الأساتذة" },
+      "referral": "ادعُ صديقًا", "referralBody": "شارك رمزك. عندما يسجّل صديق به، يحصل كلاكما على {days} أيام من Pro.", "yourCode": "رمزك",
+      "copyCode": "نسخ الرمز", "copyLink": "نسخ رابط الدعوة", "copied": "تم النسخ",
+      "redeemed_zero": "لم ينضم أي صديق باستخدام رمزك", "redeemed_one": "انضم صديق واحد باستخدام رمزك", "redeemed_two": "انضم صديقان باستخدام رمزك",
+      "redeemed_few": "انضم {count} أصدقاء باستخدام رمزك", "redeemed_many": "انضم {count} صديقًا باستخدام رمزك", "redeemed_other": "انضم {count} صديق باستخدام رمزك",
+      "redeem": "هل لديك رمز من صديق؟", "redeemPlaceholder": "أدخل الرمز", "redeemCta": "استبدال", "redeemedOk": "تم استبدال الرمز — أُضيفت {days} أيام من Pro.",
+      "checkoutSuccess": "شكرًا! ستُفعَّل باقتك بعد لحظات.", "devMode": "المدفوعات غير مفعّلة في هذه البيئة — تُفعَّل الباقات فورًا للاختبار."
+    },
+    "settings": {
+      "title": "الإعدادات", "subtitle": "حسابك ولغتك وأمانك.", "account": "الحساب", "name": "الاسم الكامل", "email": "البريد الإلكتروني", "emailNote": "لا يمكن تغيير بريدك الإلكتروني.",
+      "language": "اللغة", "languageHint": "تُستخدم أيضًا في الملخصات والملاحظات التي يكتبها الذكاء الاصطناعي.", "saveChanges": "حفظ التغييرات", "saved": "تم حفظ الإعدادات",
+      "password": "كلمة المرور", "currentPassword": "كلمة المرور الحالية", "newPassword": "كلمة المرور الجديدة", "changePassword": "تغيير كلمة المرور", "passwordChanged": "تم تحديث كلمة المرور",
+      "danger": "حذف الحساب", "dangerBody": "سيؤدي هذا إلى إزالة ملفك الشخصي وطلباتك وكل ما يتعلق بحسابك نهائيًا. لا يمكن التراجع عنه.",
+      "dangerConfirm": "أدخل كلمة المرور للتأكيد", "deleteCta": "احذف حسابي", "deleted": "تم حذف حسابك."
+    },
+    "lab": {
+      "title": "المختبر والأبحاث", "subtitle": "هذا ما يراه الطلاب عندما ينظرون في فرصك.", "createTitle": "أنشئ مختبرك", "profileTitle": "ملف المختبر",
+      "name": "اسم المختبر", "university": "الجامعة", "department": "القسم", "description": "الوصف", "descriptionHint": "على ماذا يعمل مختبرك؟ اجعله مفهومًا لطلاب البكالوريوس.",
+      "keywords": "كلمات مفتاحية بحثية", "keywordsHint": "مفصولة بفواصل", "website": "موقع المختبر", "culture": "كيف تبدو بيئة العمل هنا",
+      "cultureHint": "أسلوب الإشراف، وإيقاع الاجتماعات، وما يتولاه الطلاب. يقدّر الطلاب الصراحة.", "teamSize": "حجم الفريق", "workStyle": "كيف يعمل مختبرك",
+      "workStyleHint": "يُستخدم لمقارنة أساليب العمل مع الطلاب.", "openalex": "معرّف المؤلف في OpenAlex", "openalexHint": "اختياري. يربط مختبرك على Labora بملف منشوراتك (يبدأ بحرف A…).",
+      "saveLab": "حفظ المختبر", "createLab": "إنشاء المختبر", "created": "تم إنشاء المختبر — أضف الآن مواد بحثية وانشر فرصة.", "updated": "تم تحديث المختبر",
+      "materials": "المواد البحثية", "materialsHint": "شارك أبحاثًا أو مجموعات بيانات أو ملصقات علمية ليتعرف الطلاب على عملك.", "nothingShared": "لم يُشارَك شيء بعد.",
+      "addMaterial": "إضافة مادة", "materialTitle": "العنوان", "materialType": "النوع", "materialLink": "الرابط", "materialLinkHint": "arXiv أو DOI أو Google Drive أو GitHub…",
+      "materialDescription": "وصف قصير", "removeMaterial": "هل تريد إزالة هذه المادة؟", "verificationTitle": "التوثيق قيد الانتظار",
+      "verificationBody": "يصبح مختبرك عامًا بعد أن نوثّق حساب الأستاذ الخاص بك. أضف موقع المختبر لتسريع ذلك."
+    },
+    "positions": {
+      "title": "الفرص", "subtitle": "فرصك ومن تقدّم إليها.", "new": "فرصة جديدة", "emptyTitle": "لا توجد فرص بعد", "emptyBody": "انشر فرصة وابدأ باستقبال الطلبات.",
+      "emptyLab": "أنشئ ملف مختبرك أولًا.", "post": "انشر فرصتك الأولى", "open": "مفتوحة", "closed": "مغلقة", "close": "إغلاق", "reopen": "إعادة فتح",
+      "edit": "تعديل", "delete": "حذف", "deleteConfirm": "هل تريد حذف هذه الفرصة؟ لا يمكن التراجع.", "applicants": "المتقدمون", "postedAgo": "نُشرت {when}",
+      "viewPublic": "عرض الصفحة العامة", "newTitle": "فرصة جديدة", "newSubtitle": "صِف الفرصة. يمكنك تعديلها في أي وقت.", "editTitle": "تعديل الفرصة",
+      "needLab": "تحتاج إلى ملف مختبر قبل النشر.", "createLab": "أنشئ مختبرك", "noApplicants": "لا يوجد متقدمون بعد",
+      "noApplicantsBody": "شارك فرصتك أو ادعُ الطلاب المناسبين عبر «ابحث عن طلاب».", "decline": "رفض", "accept": "قبول", "email": "راسل المتقدم", "resume": "السيرة الذاتية",
+      "invitedBadge": "دعوتَه أنت", "profileIncomplete": "الملف غير مكتمل",
+      "form": {
+        "title": "عنوان الفرصة", "titlePlaceholder": "مساعد بحث لمرحلة البكالوريوس: الرؤية ذاتية الإشراف", "description": "الوصف", "descriptionHint": "على ماذا سيعمل الطالب؟ وماذا سيتعلم؟",
+        "requirements": "المتطلبات", "requirementsHint": "مقررات أو خبرة (اختياري)", "skills": "المهارات المطلوبة", "skillsHint": "مفصولة بفواصل — تُستخدم في المطابقة، مثل: python، pytorch",
+        "compensation": "المقابل", "hours": "ساعات / أسبوع", "term": "الفصل", "location": "المكان", "slots": "عدد الشواغر", "deadline": "آخر موعد للتقديم", "keywords": "كلمات مفتاحية",
+        "keywordsHint": "يساعد الطلاب على العثور على فرصتك", "publish": "نشر الفرصة", "saveChanges": "حفظ التغييرات", "saved": "تم حفظ الفرصة", "notSpecified": "غير محدد"
+      }
+    },
+    "admin": {
+      "title": "الإدارة", "subtitle": "وثِّق الأساتذة وراجع ما يرسله الناس.", "overview": "نظرة عامة",
+      "stats": {
+        "users": "المستخدمون", "students": "الطلاب", "professors": "الأساتذة", "pending_professors": "بانتظار التوثيق", "labs": "المختبرات", "open_positions": "الفرص المفتوحة",
+        "applications": "الطلبات", "invitations": "الدعوات", "feedback": "منشورات الملاحظات", "waitlist": "قائمة الانتظار", "paid_users": "المستخدمون المدفوعون"
+      },
+      "verification": "توثيق الأساتذة", "onlyPending": "المعلَّقة فقط", "verify": "توثيق", "unverify": "إلغاء", "verifiedAt": "تاريخ التوثيق", "pendingBadge": "معلَّق", "lab": "المختبر",
+      "waitlist": "قائمة الانتظار", "contact": "رسائل التواصل", "empty": "لا شيء هنا بعد.", "notAdmin": "هذا القسم مخصص للمشرفين فقط.",
+      "verifiedToast": "تم توثيق الأستاذ", "revokedToast": "تم إلغاء التوثيق"
+    }
+  }
+}

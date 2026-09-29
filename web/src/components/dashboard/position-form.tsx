@@ -120,7 +120,7 @@ export function PositionForm({ position }: { position?: Position }) {
           <Input value={f.keywords} onChange={set("keywords")} placeholder="computer vision, robotics" />
         </Field>
         {error && <Alert>{error}</Alert>}
-        <div className="flex gap-3">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button type="submit" size="lg" loading={busy}>
             {position ? t("dash.positions.form.saveChanges") : t("dash.positions.form.publish")}
           </Button>

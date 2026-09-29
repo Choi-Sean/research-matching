@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "Bir sonraki atılımınız doğru laboratuvarla başlar.",
+      "p1": "Dünyanın akademik kayıtlarından araştırmacıları keşfedin", "p2": "Tek kelime yazmadan önce çalışmalarını anlayın", "p3": "Becerilerinize ve nasıl çalışmayı sevdiğinize göre eşleşin",
+      "footer": "Öğrenciler ve profesörler için, kendi dilinizde."
+    },
+    "login": {
+      "title": "Tekrar hoş geldiniz", "subtitle": "Devam etmek için giriş yapın.", "email": "E-posta", "emailPlaceholder": "siz@universite.edu", "password": "Parola",
+      "submit": "Giriş yap", "noAccount": "Hesabınız yok mu?", "signUp": "Kaydolun", "forgot": "Parolanızı mı unuttunuz?",
+      "forgotHelp": "Bize ulaşın, tekrar erişmenize yardımcı olalım.", "demo": "Demo hesapları (parola: password123)",
+      "demoStudent": "Öğrenci", "demoProfessor": "Profesör", "demoAdmin": "Yönetici"
+    },
+    "register": {
+      "title": "Hesabınızı oluşturun", "subtitle": "Üniversite e-postanızla katılın. Bir dakika sürer.", "iAm": "Ben…", "student": "Öğrenci", "studentDesc": "Araştırma bulun ve eşleşin",
+      "professor": "Profesör", "professorDesc": "Öğrenci kazanın, çalışmanızı paylaşın", "fullName": "Ad soyad", "fullNamePlaceholderStudent": "Jamie Park", "fullNamePlaceholderProfessor": "Prof. Dr. Jane Smith",
+      "email": "Üniversite e-postası", "emailHint": ".edu, .ac.uk veya benzeri bir akademik alan adıyla biten bir adres kullanın.", "password": "Parola", "passwordHint": "En az 8 karakter.",
+      "referral": "Arkadaş kodu", "referralHint": "Bir arkadaşınızdan kod mu aldınız? İkiniz de bir hafta Pro kazanırsınız.",
+      "consent": "Hesap oluşturarak <terms>Koşullarımızı</terms> ve <privacy>Gizlilik Politikamızı</privacy> kabul etmiş olursunuz.",
+      "submit": "Hesap oluştur", "haveAccount": "Zaten hesabınız var mı?", "signIn": "Giriş yap",
+      "professorNote": "Laboratuvarınız ve pozisyonlarınız herkese açık olmadan önce profesör hesapları ekibimiz tarafından doğrulanır."
+    }
+  },
+  "discover": {
+    "title": "Araştırma profesörünüzü bulun", "subtitle": "Dünyanın akademik kayıtlarından, önem verdiğiniz konuda aktif olarak yayın yapan araştırmacıları arayın.",
+    "modeInterest": "İlgi alanına göre", "modeName": "İsme göre", "interestLabel": "Araştırma ilgisi", "interestPlaceholder": "örn. hesaplamalı sinirbilim", "nameLabel": "Araştırmacı adı", "namePlaceholder": "örn. Jane Smith",
+    "universityLabel": "Üniversite", "universityPlaceholder": "Herhangi bir üniversite", "universityHint": "Tek bir kurumda aramak için listeden seçin.", "search": "Ara", "searching": "Aranıyor…",
+    "sortBy": "Sırala", "minH": "En düşük h-indeksi", "minHAny": "Fark etmez", "filters": "Filtreler", "resultsFor": "«{q}» için araştırmacılar", "resultsAt": "· {university}",
+    "resultsCount_one": "{count} araştırmacı", "resultsCount_other": "{count} araştırmacı", "noResults": "Araştırmacı bulunamadı", "noResultsBody": "Daha geniş bir ilgi alanı veya başka bir yazım deneyin ya da üniversite filtresini kaldırın.",
+    "startTitle": "Merak ettiğiniz bir şeyle başlayın",
+    "startBody": "«Protein katlanması» veya «iklim politikası» gibi bir konu deneyin, aklınızda bir üniversite varsa ekleyin; o konuda kimlerin yayın yaptığını gösterelim.",
+    "noteTitle": "Sonuçlar nasıl sıralanır",
+    "noteBody": "Araştırmacılar, konunuzda yakın zamanda ne kadar yayın yaptıklarına göre, alandaki konumlarıyla ağırlıklandırılarak sıralanır. «Profesör» gibi unvanlar akademik veri tabanlarında kaydedilmez; bu yüzden uyumu değerlendirmek için özeti ve makaleleri kullanın.",
+    "hIndex": "h-indeksi", "papers": "makale", "citations": "atıf", "recentWorks": "Son 3 yıl", "onTopic": "Bu konuda", "onLabora": "Labora'da", "viewProfile": "Profili gör",
+    "save": "Kaydet", "saved": "Kaydedildi", "loadMore": "Daha fazla araştırmacı göster", "yourInterest": "İlginiz",
+    "disclaimer": "Veriler OpenAlex'ten. Kurum bilgileri en son yayın kayıtlarını yansıtır ve gerçeğin gerisinde kalabilir.", "signInToSave": "Araştırmacıları listenize kaydetmek için giriş yapın.",
+    "savedToast": "Listenize kaydedildi", "removedToast": "Listenizden kaldırıldı", "clearFilters": "Filtreleri temizle", "universityAny": "Herhangi bir üniversite",
+    "searchingAt": "{university} araştırmacıları aranıyor", "lookingUp": "Kurumlar aranıyor…"
+  },
+  "professor": {
+    "back": "Aramaya dön", "notFoundTitle": "Bu araştırmacıyı bulamadık", "notFoundBody": "Bağlantı yanlış olabilir veya akademik veri tabanı meşgul olabilir. Aramayı tekrar deneyin.",
+    "orcid": "ORCID", "openalex": "OpenAlex profili", "onLabora": "Labora'da bir laboratuvar yürütüyor", "viewLab": "Laboratuvarını gör",
+    "stats": { "hIndex": "h-indeksi", "papers": "Makale", "citations": "Atıf", "recent": "Son 3 yıl", "i10": "i10-indeksi" },
+    "tabs": { "overview": "Genel bakış", "papers": "Makaleler", "contact": "İletişim" },
+    "summary": {
+      "title": "Çalışması, sade dille", "cta": "Çalışmasını açıkla", "ctaBody": "Neyi incelediğine dair kısa bir özet, yakın tarihli bir bulgu ve sorulmaya değer sorular alın.",
+      "loading": "Son makaleleri okunuyor…", "overview": "Ne inceliyor", "keyFinding": "Yakın tarihli bir bulgu", "fromPaper": "Kaynak: {title}", "topics": "Araştırma alanları, basitçe",
+      "goodFit": "Şu durumdaysanız iyi bir uyum olabilirsiniz…", "starters": "Sormaya değer sorular", "startersHint": "Bunları kendi merakınız için başlangıç noktası olarak kullanın — profesörler bir sorunun samimi olup olmadığını anlar.",
+      "aiBadge": "Yapay zekâ özeti", "extractiveBadge": "Otomatik özet", "extractiveNote": "Bu sunucuda yapay zekâ özetleri etkin değil; bu yüzden bu özet doğrudan yayın verilerinden derlendi (İngilizce).",
+      "aiNote": "Herkese açık özetlerden yapay zekâ tarafından yazıldı. Makaleleri her zaman kontrol edin.", "quota": "{limit} ücretsiz özetin {used} tanesi kullanıldı", "quotaPro": "Sınırsız özet",
+      "signInTitle": "Özeti okumak için giriş yapın", "signInBody": "Ücretsiz hesaplar birkaç araştırmacı için sade dille özet, ana bulgu ve sohbet başlatıcıları alır.",
+      "upgrade": "Sınırsız özet alın", "limitTitle": "Ücretsiz özetlerinizi kullandınız", "limitBody": "Paketler sınırsız özeti, e-posta bulucuyu ve daha fazlasını açar."
+    },
+    "topics": "Araştırma konuları", "activity": "Yıllara göre yayın",
+    "papers": { "recent": "En yeni", "top": "En çok atıf alan", "empty": "Makale bulunamadı.", "abstract": "Özet", "cited": "{n} atıf", "openAccess": "Açık erişim", "viewPaper": "Makaleyi gör" },
+    "contact": {
+      "title": "E-posta bulucu", "lockedTitle": "E-posta bulucuyu ve yanıt verme puanını açın", "lockedBody": "Olası kurumsal adresleri ve öğrencilerin ne sıklıkla yanıt aldığını görün. Her pakete dahildir.",
+      "seePlans": "Planları gör", "guessNote": "Bunlar yaygın adlandırma kalıplarına dayanan tahminlerdir, doğrulanmış adresler değildir. Göndermeden önce fakülte rehberinden teyit edin.",
+      "pattern": "Kalıp: {pattern}", "mostCommon": "En yaygın", "copy": "Adresi kopyala", "copied": "Adres kopyalandı", "compose": "E-posta uygulamasında aç",
+      "directory": "Fakülte rehberinde ara", "noDomain": "Bu kurumun e-posta alan adını belirleyemedik.", "responsiveness": "Yanıt verme",
+      "resp": { "high": "Sık yanıt verir", "medium": "Bazen yanıt verir", "low": "Nadiren yanıt verir", "unknown": "Henüz yeterli bildirim yok" },
+      "respBody": "{n} öğrenci iletişim kaydına dayanıyor. {rate} yanıt aldı{days}.", "respDays": ", genellikle {days} gün içinde",
+      "respUnknown": "Bunu, en az 3 öğrenci bu araştırmacıyla iletişimini kaydettiğinde gösteririz. Başkalarına yardım etmek için kendi iletişiminizi kaydedin.",
+      "labDays": "Labora'daki laboratuvarı başvurulara genellikle {days} gün içinde yanıt verir.", "logOutreach": "İletişimimi kaydet"
+    },
+    "sidebar": {
+      "writeTitle": "Ulaşmaya hazır mısınız?", "writeBody": "E-postanızı taslak olarak yazın, sonra profesörlerin silindiğini söylediği türden şeylerle karşılaştırın.", "writeCta": "E-postamı denetle",
+      "trackTitle": "İletişim takipçisi", "trackBody": "Kimlerle iletişim kurduğunuzu ve ne zaman takip edeceğinizi izleyin.", "trackStart": "Takipçiye ekle", "status": "Durum",
+      "tracked": "Takipçinize eklendi", "saveError": "Takipçi güncellenemedi"
+    }
+  },
+  "positions": {
+    "title": "Açık pozisyonlar", "subtitle": "Doğrulanmış profesörlerin doğrudan yayımladığı araştırma pozisyonları. Önce çalışmalarını okuyun, sonra başvurun.", "searchLabel": "Ara",
+    "searchPlaceholder": "Konu, beceri veya laboratuvar adı", "filters": "Filtreler", "compensation": "Ücret", "location": "Konum", "term": "Dönem", "university": "Üniversite", "universityPlaceholder": "örn. MIT",
+    "department": "Bölüm", "departmentPlaceholder": "örn. Biyoloji", "any": "Fark etmez", "count_one": "{count} pozisyon", "count_other": "{count} pozisyon", "searching": "Aranıyor…",
+    "noResults": "Aramanıza uyan pozisyon yok", "noResultsBody": "Daha geniş bir anahtar kelime deneyin veya bir filtreyi kaldırın. Ya da doğrudan profesör arayın — ulaşmak için açık bir pozisyona ihtiyacınız yok.",
+    "discoverCta": "Profesör bul", "clear": "Filtreleri temizle", "postedAgo": "Yayımlandı: {when}", "closes": "Kapanış: {when}", "applyBy": "Son başvuru: {date}", "deadlinePassed": "Süre doldu",
+    "slots_one": "{count} kontenjan", "slots_other": "{count} kontenjan", "backToAll": "Tüm pozisyonlar", "about": "Bu rol hakkında", "requirements": "Aradığımız nitelikler", "skills": "Beceriler", "research": "Laboratuvarın araştırmasını okuyun",
+    "researchHint": "Başvurmadan önce çalışmaya aşina olun.", "noMaterials": "Henüz araştırma materyali paylaşılmadı.", "aboutLab": "Laboratuvar hakkında", "viewLab": "Laboratuvar profilini gör",
+    "website": "Laboratuvar web sitesi", "notFound": "Pozisyon bulunamadı", "verifiedLab": "Doğrulanmış laboratuvar",
+    "apply": {
+      "title": "Başvur", "label": "Neden iyi bir uyumsunuz?", "placeholder": "İlginizi, ilgili derslerinizi ve uygunluğunuzu paylaşın…", "submit": "Başvuruyu gönder",
+      "shared": "Profiliniz profesörle paylaşılır.", "sent": "Başvuru gönderildi", "status": "Durum", "track": "Başvuruları takip et", "signIn": "Başvurmak için öğrenci hesabınızla giriş yapın.",
+      "signInCta": "Başvurmak için giriş yap", "newHere": "Burada yeni misiniz?", "createAccount": "Hesap oluştur", "professorNote": "Profesör olarak giriş yaptınız. Yalnızca öğrenciler başvurabilir.",
+      "closedNote": "Bu pozisyon artık başvuru kabul etmiyor.", "completeProfile": "Profesörlerin neler yaptığınızı görebilmesi için profilinizi tamamlayın.", "toProfile": "Profili güncelle",
+      "fitHint": "Somut olun: yaptığınız bir şey, öğrenmek istediğiniz bir şey ve ne zaman uygun olduğunuz."
+    }
+  },
+  "lab": {
+    "notFound": "Laboratuvar bulunamadı", "notFoundBody": "Laboratuvar gizli olabilir veya bağlantı yanlış olabilir.", "openPositions": "Açık pozisyonlar", "noPositions": "Şu anda açık pozisyon yok",
+    "noPositionsBody": "Yakında tekrar bakın — bu laboratuvar yeni pozisyonlar yayımlayabilir. Doğrudan da ulaşabilirsiniz.", "materials": "Araştırma materyalleri", "culture": "Burada çalışmak nasıl",
+    "teamSize": "{count} kişilik ekip", "workStyle": "Laboratuvar nasıl çalışır", "website": "Laboratuvar web sitesi", "professor": "Baş araştırmacı", "verified": "Doğrulanmış"
+  },
+  "community": {
+    "feedback": {
+      "title": "Geri bildirim panosu", "subtitle": "Labora'yı şekillendirmemize yardım edin. Özellik önerin, hataları bildirin veya aklınızdakini paylaşın — ve en önemli olana oy verin.",
+      "kind": { "feature": "Özellik isteği", "bug": "Hata bildirimi", "general": "Genel geri bildirim" },
+      "status": { "open": "Açık", "planned": "Planlandı", "in_progress": "Devam ediyor", "done": "Tamamlandı" },
+      "newPost": "Düşüncelerinizi paylaşın", "postTitle": "Başlık", "postTitlePlaceholder": "Kısa bir özet", "postBody": "Ayrıntılar", "postBodyPlaceholder": "Ne görmek istersiniz veya ne ters gitti?",
+      "post": "Yayımla", "posted": "Teşekkürler — gönderiniz yayında.", "signIn": "Gönderi paylaşmak ve oy vermek için giriş yapın.", "sortVotes": "En çok oy alan", "sortNew": "En yeni", "filterAll": "Tümü",
+      "count_one": "{count} gönderi", "count_other": "{count} gönderi", "empty": "Burada henüz bir şey yok — ilk gönderiyi siz paylaşın.", "vote": "Oy ver", "voted": "Oy verildi", "by": "{name} tarafından"
+    },
+    "contact": {
+      "title": "Bize ulaşın", "subtitle": "Sorular, fikirler ya da hesabınızla ilgili yardım mı gerekiyor? Her mesajı okuyoruz.", "name": "Adınız", "email": "E-postanız",
+      "message": "Mesaj", "messagePlaceholder": "Size nasıl yardımcı olabiliriz?", "send": "Mesajı gönder", "sent": "Teşekkürler — yakında size döneceğiz.",
+      "professorsTitle": "Profesör müsünüz?",
+      "professorsBody": "Laboratuvarlar herkese açık olmadan önce profesör hesaplarını doğruluyoruz. Kurumunuz bizim tanımadığımız bir e-posta alan adı kullanıyorsa bunu buradan bildirin.",
+      "privacy": "Bilgilerinizi yalnızca bu mesaja yanıt vermek için kullanacağız."
+    }
+  }
+}

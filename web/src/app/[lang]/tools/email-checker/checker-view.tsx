@@ -78,7 +78,7 @@ export function CheckerView() {
                   <Sparkles className="size-4" />
                   {t("tools.emailChecker.professorContext", { name: context.name || context.id })}
                 </span>
-                <button onClick={() => setContext(null)} aria-label={t("tools.emailChecker.removeContext")} className="rounded-md p-1 hover:bg-brand/10">
+                <button onClick={() => setContext(null)} aria-label={t("tools.emailChecker.removeContext")} className="rounded-md p-1 hover:bg-brand/10 pointer-coarse:-m-2 pointer-coarse:p-3">
                   <X className="size-4" />
                 </button>
               </div>
@@ -96,7 +96,7 @@ export function CheckerView() {
                   maxLength={8000}
                 />
               </Field>
-              <div className="flex items-center justify-between text-xs text-faint">
+              <div className="flex flex-wrap items-center justify-between gap-x-3 text-xs text-faint">
                 <span className="tabular-nums">{t("tools.emailChecker.words", { count: words })}</span>
                 <span>{t("tools.emailChecker.wordsHint")}</span>
               </div>

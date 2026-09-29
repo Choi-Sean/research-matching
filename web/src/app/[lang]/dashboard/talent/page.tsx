@@ -172,7 +172,7 @@ export default function TalentPage() {
                 <Card key={c.user_id} className="p-6">
                   <div className="flex flex-wrap items-start gap-5">
                     <ScoreRing score={c.score} size={68} stroke={6} label={t("match.strong")} />
-                    <div className="min-w-0 flex-1">
+                    <div className="min-w-0 flex-1 basis-48">
                       <MatchLabel score={c.score} ai={results.ai_used} />
                       <div className="mt-2 flex items-center gap-3">
                         <Avatar name={c.full_name} size={36} />
@@ -184,11 +184,11 @@ export default function TalentPage() {
                         </div>
                       </div>
                     </div>
-                    <div>
+                    <div className="max-sm:w-full">
                       {c.invited ? (
                         <Badge tone="good">{t("match.professor.invited")}</Badge>
                       ) : (
-                        <Button variant="brand" size="sm" onClick={() => setInviting(c)} disabled={openPositions.length === 0 || !verified}>
+                        <Button variant="brand" size="sm" className="max-sm:w-full" onClick={() => setInviting(c)} disabled={openPositions.length === 0 || !verified}>
                           <UserPlus /> {t("match.professor.invite")}
                         </Button>
                       )}
@@ -209,12 +209,12 @@ export default function TalentPage() {
                   <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-faint">
                     {c.availability_hours && <span>{t("match.professor.available", { hours: c.availability_hours })}</span>}
                     {c.github_url && (
-                      <a href={c.github_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline">
+                      <a href={c.github_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline pointer-coarse:min-h-10">
                         GitHub <ExternalLink className="size-3" />
                       </a>
                     )}
                     {c.website_url && (
-                      <a href={c.website_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline">
+                      <a href={c.website_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline pointer-coarse:min-h-10">
                         Web <ExternalLink className="size-3" />
                       </a>
                     )}
@@ -316,7 +316,7 @@ function InviteDialog({
             <Textarea value={msg} onChange={(e) => setMsg(e.target.value)} className="min-h-32" maxLength={4000} />
           </Field>
           {error && <Alert>{error}</Alert>}
-          <div className="flex justify-end gap-2">
+          <div className="flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
             <DialogClose asChild>
               <Button variant="ghost">{t("common.cancel")}</Button>
             </DialogClose>

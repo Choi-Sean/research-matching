@@ -18,7 +18,7 @@ export function MaterialItem({ m, action }: { m: Material; action?: ReactNode })
         <Icon className="size-5" />
       </span>
       <div className="min-w-0 flex-1">
-        <a href={m.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 font-medium text-ink hover:text-brand-text">
+        <a href={m.url} target="_blank" rel="noopener noreferrer" className="-my-2.5 inline-flex max-w-full items-center gap-1.5 py-2.5 font-medium text-ink hover:text-brand-text">
           <span className="truncate">{m.title}</span>
           <ExternalLink className="size-3.5 shrink-0 opacity-50" />
         </a>

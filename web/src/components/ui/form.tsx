@@ -6,13 +6,14 @@ import {
   cloneElement,
   isValidElement,
   useId,
-  type InputHTMLAttributes,
+  type ComponentProps,
   type ReactElement,
   type ReactNode,
   type SelectHTMLAttributes,
   type TextareaHTMLAttributes,
 } from "react";
 import { cn } from "@/lib/cn";
+import { useI18n } from "@/lib/i18n/provider";
 
 export const fieldClass =
   "w-full rounded-xl border border-line-2 bg-surface px-3.5 text-[0.9375rem] text-ink shadow-xs " +
@@ -20,7 +21,8 @@ export const fieldClass =
   "hover:border-faint/60 focus:border-brand focus:outline-none focus:ring-4 focus:ring-brand/15 " +
   "disabled:cursor-not-allowed disabled:opacity-60 aria-[invalid=true]:border-bad";
 
-export function Input({ className, ...props }: InputHTMLAttributes<HTMLInputElement>) {
+// ComponentProps (unlike InputHTMLAttributes) includes `ref`, which React 19 passes to function components as a plain prop.
+export function Input({ className, ...props }: ComponentProps<"input">) {
   return <input className={cn(fieldClass, "h-11", className)} {...props} />;
 }
 
@@ -109,7 +111,7 @@ export function Switch({
         id={sid}
         checked={checked}
         onCheckedChange={onCheckedChange}
-        className="relative mt-0.5 h-6 w-11 shrink-0 cursor-pointer rounded-full bg-surface-3 transition-colors data-[state=checked]:bg-brand"
+        className="relative mt-0.5 h-6 w-11 shrink-0 cursor-pointer rounded-full bg-surface-3 transition-colors data-[state=checked]:bg-brand pointer-coarse:after:absolute pointer-coarse:after:-inset-y-2.5 pointer-coarse:after:inset-x-0"
       >
         <SwitchPrimitive.Thumb className="block size-5 translate-x-0.5 rounded-full bg-white shadow transition-transform duration-200 data-[state=checked]:translate-x-[1.375rem] rtl:-translate-x-0.5 rtl:data-[state=checked]:-translate-x-[1.375rem]" />
       </SwitchPrimitive.Root>
@@ -131,6 +133,7 @@ export function Dial({
   value: number | null | undefined;
   onChange: (v: number | null) => void;
 }) {
+  const { t } = useI18n();
   const id = useId();
   return (
     <div className="space-y-2.5">
@@ -139,7 +142,12 @@ export function Dial({
           {label}
         </label>
         {value ? (
-          <button type="button" onClick={() => onChange(null)} className="text-xs text-faint hover:text-ink">
+          <button
+            type="button"
+            onClick={() => onChange(null)}
+            aria-label={t("common.clear")}
+            className="-my-1.5 -me-2 grid size-8 place-items-center rounded-lg text-base leading-none text-faint transition-colors hover:bg-surface-2 hover:text-ink pointer-coarse:-my-3 pointer-coarse:size-11"
+          >
             ×
           </button>
         ) : null}

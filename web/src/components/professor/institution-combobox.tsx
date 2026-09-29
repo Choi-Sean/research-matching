@@ -83,7 +83,7 @@ export function InstitutionCombobox({
                 choose(items[active]);
               } else if (e.key === "Escape") setOpen(false);
             }}
-            className={cn(fieldClass, "h-11 ps-10", value && "pe-9")}
+            className={cn(fieldClass, "h-11 ps-10", value && "pe-9 pointer-coarse:pe-12")}
           />
           {loading ? (
             <Loader2 className="absolute end-3.5 top-1/2 size-4 -translate-y-1/2 animate-spin text-faint" aria-hidden />
@@ -98,7 +98,7 @@ export function InstitutionCombobox({
                   onPick(null);
                   inputRef.current?.focus();
                 }}
-                className="absolute end-2.5 top-1/2 grid size-6 -translate-y-1/2 place-items-center rounded-md text-faint hover:bg-surface-2 hover:text-ink"
+                className="absolute end-2.5 top-1/2 grid size-6 -translate-y-1/2 place-items-center rounded-md text-faint hover:bg-surface-2 hover:text-ink pointer-coarse:size-9"
               >
                 <X className="size-3.5" />
               </button>

@@ -65,7 +65,7 @@ function StudentInvitations() {
             <Card key={inv.id} className="p-6">
               <div className="flex flex-wrap items-start gap-4">
                 <Avatar name={inv.professor.full_name} size={46} />
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 basis-48">
                   <p className="text-sm text-muted">{t("dash.invitations.from", { name: inv.professor.full_name })}</p>
                   <Link href={`/positions/${inv.position_id}`} className="mt-0.5 block text-lg font-semibold tracking-tight text-ink hover:text-brand-text">
                     {inv.position.title}
@@ -152,7 +152,7 @@ function ProfessorInvitations() {
             <Card key={inv.id} className="p-5">
               <div className="flex flex-wrap items-center gap-4">
                 <Avatar name={inv.student.full_name} size={42} />
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 basis-48">
                   <p className="font-semibold text-ink">{t("dash.invitations.to", { name: inv.student.full_name })}</p>
                   <p className="truncate text-sm text-muted">
                     {inv.position.title} · {fmt.relative(inv.created_at)}

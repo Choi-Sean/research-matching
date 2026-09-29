@@ -1,0 +1,143 @@
+{
+  "tools": {
+    "emailChecker": {
+      "title": "Kiểm tra email",
+      "subtitle": "Dán bản nháp của bạn và xem chính xác những cụm từ nào khiến giáo sư ngừng đọc. Chúng tôi không bao giờ viết lại email của bạn — giọng văn vẫn là của bạn.",
+      "subject": "Tiêu đề email", "subjectPlaceholder": "vd: Một câu hỏi về bài báo ước lượng độ sâu của thầy/cô", "body": "Email của bạn", "bodyPlaceholder": "Kính gửi Giáo sư …",
+      "professorContext": "Đang kiểm tra đối chiếu với công trình gần đây của {name}", "removeContext": "Gỡ",
+      "check": "Kiểm tra email của tôi", "checking": "Đang đọc email của bạn…", "example": "Thử một ví dụ có lỗi", "clear": "Xóa",
+      "words": "{count} từ", "wordsHint": "Nên dài 90–180 từ",
+      "resultsTitle": "Kết quả của bạn", "emptyTitle": "Nhận xét của bạn sẽ hiện ở đây", "emptyBody": "Viết hoặc dán email vào bên trái, rồi nhấn «Kiểm tra email của tôi».",
+      "score": "Điểm", "highlights": "Email của bạn, có đánh dấu", "issues": "Cần sửa", "noIssues": "Không có gì cần sửa — đọc rất ổn.", "strengths": "Điều đang hiệu quả",
+      "aiSummary": "Ấn tượng chung", "soundsGeneric": "Có thể gửi cho bất kỳ ai",
+      "soundsGenericHint": "Mức độ dễ dàng để gửi nguyên email này cho bất kỳ giáo sư nào mà không cần sửa.",
+      "aiUsed": "Có kèm thẩm định của AI", "rulesOnly": "Thẩm định theo quy tắc",
+      "englishOnly": "Việc kiểm tra cụm từ hiện chỉ áp dụng cho email tiếng Anh. Việc kiểm tra độ dài và cấu trúc vẫn được áp dụng.",
+      "signInTitle": "Đăng nhập để kiểm tra email của bạn", "signInBody": "Tài khoản miễn phí có một lần kiểm tra. Các gói mở khóa kiểm tra không giới hạn.",
+      "limitTitle": "Bạn đã dùng hết lượt kiểm tra miễn phí", "limitBody": "Các gói mở khóa kiểm tra email không giới hạn, công cụ tìm email và tóm tắt không giới hạn.",
+      "quota": "Đã dùng {used}/{limit} lượt kiểm tra miễn phí", "quotaPro": "Kiểm tra không giới hạn",
+      "noRewrite": "Chúng tôi chỉ ra vấn đề nhưng không bao giờ viết email thay bạn — giáo sư phản hồi những sinh viên viết bằng giọng của chính mình.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": { "tone": "Giọng điệu", "specificity": "Tính cụ thể", "voice": "Giọng văn riêng", "clarity": "Sự rõ ràng", "ask": "Lời đề nghị", "etiquette": "Phép lịch sự", "subject": "Tiêu đề" },
+      "gradeDesc": {
+        "excellent": "Cụ thể, ngắn gọn và rõ ràng. Hãy gửi đi.",
+        "good": "Một bản nháp tốt — vài chỉnh sửa nhanh sẽ giúp ích.",
+        "needs_work": "Có nhiều điểm có thể khiến email bị bỏ qua. Hãy sửa các mục màu đỏ trước.",
+        "risky": "Email này rất có thể sẽ bị xóa. Hãy viết lại trước khi gửi."
+      },
+      "severity": { "high": "Sửa trước", "medium": "Nên sửa", "low": "Nhỏ" },
+      "flags": {
+        "flattery": { "title": "Nịnh nọt", "tip": "Giáo sư nghe từ «đột phá» mỗi ngày. Hãy nêu kết quả hoặc phương pháp cụ thể đã thu hút sự chú ý của bạn." },
+        "generic_phrase": { "title": "Cụm từ chung chung", "tip": "Những câu như «rất có động lực» có thể mô tả bất kỳ ai. Hãy thể hiện bằng điều bạn thực sự đã làm." },
+        "ai_sounding": { "title": "Nghe như do máy viết", "tip": "Cụm từ này thường gặp trong văn bản do AI tạo ra. Hãy nói theo cách bạn nói thành lời." },
+        "bad_salutation": { "title": "Lời chào thiếu cá nhân hóa", "tip": "“Dear Sir” cho thấy đây là email gửi hàng loạt. Hãy dùng “Dear Professor [họ]” và kiểm tra chính tả." },
+        "informal": { "title": "Quá thân mật", "tip": "Giữ giọng thân thiện nhưng chuyên nghiệp — tránh tiếng lóng nhắn tin và từ viết tắt." },
+        "missing_name": { "title": "Lời chào không có tên", "tip": "Hãy gọi giáo sư bằng tên: “Dear Professor Rivera,”." },
+        "name_not_mentioned": { "title": "Chưa dùng tên giáo sư", "tip": "Hãy đảm bảo email rõ ràng gửi cho đúng người này." },
+        "no_specific_reference": { "title": "Không nhắc đến công trình của họ", "tip": "Hãy nhắc đến một bài báo, phương pháp hoặc phát hiện cụ thể của giáo sư này — và hỏi điều mà nó khiến bạn thắc mắc." },
+        "low_specificity": { "title": "Không có gì cụ thể", "tip": "Không có câu nào ở đây mà không thể gửi cho bất kỳ giáo sư nào. Hãy thêm một bài báo, một năm, một kết quả hoặc một câu hỏi cụ thể." },
+        "no_own_work": { "title": "Chưa thể hiện điều bạn đã làm", "tip": "Hãy thêm một việc cụ thể bạn đã xây dựng, phân tích, đọc hoặc học — dù chỉ là một dự án nhỏ." },
+        "no_clear_ask": { "title": "Chưa có lời đề nghị rõ ràng", "tip": "Nói rõ bạn đang đề nghị điều gì: một cuộc trò chuyện, một vai trò tình nguyện hoặc giới thiệu sang người khác." },
+        "no_signoff": { "title": "Thiếu lời kết", "tip": "Kết thúc bằng một lời cảm ơn ngắn và họ tên đầy đủ của bạn." },
+        "exclamation": { "title": "Quá nhiều dấu chấm than", "tip": "Một dấu là ổn; hai dấu trở lên nghe quá hào hứng. Hãy để nội dung thể hiện sự nhiệt tình." },
+        "emoji": { "title": "Biểu tượng cảm xúc", "tip": "Hãy bỏ biểu tượng cảm xúc trong email đầu tiên gửi giáo sư." },
+        "all_caps": { "title": "VIẾT HOA TOÀN BỘ", "tip": "Từ viết hoa toàn bộ nghe như đang hét. Hãy dùng chữ thường bình thường." },
+        "too_short": { "title": "Quá ngắn", "tip": "Dưới khoảng 45 từ hiếm khi đủ ý. Hãy thêm điều bạn đã làm và điều bạn đề nghị." },
+        "too_long": { "title": "Quá dài", "tip": "Nhắm tới 90–180 từ. Cắt bớt phần bối cảnh mà giáo sư không cần để quyết định." },
+        "wall_of_text": { "title": "Khối chữ dày đặc", "tip": "Chia thành 2–3 đoạn ngắn để dễ đọc lướt." },
+        "no_subject": { "title": "Thiếu tiêu đề", "tip": "Một tiêu đề rõ ràng giúp email được mở: hãy nêu chủ đề hoặc bài báo." },
+        "subject_generic": { "title": "Tiêu đề chung chung", "tip": "“Research” có thể là bất cứ điều gì. Hãy thử nêu tên bài báo hoặc chủ đề bạn viết về." },
+        "subject_short": { "title": "Tiêu đề quá ngắn", "tip": "Thêm vài từ ngữ cảnh để giáo sư biết email nói về điều gì." },
+        "subject_long": { "title": "Tiêu đề quá dài", "tip": "Giữ dưới khoảng 90 ký tự." },
+        "subject_shouty": { "title": "Tiêu đề gây chú ý quá đà", "tip": "Tránh chữ viết hoa và những từ như “urgent” — chúng trông như thư rác." },
+        "ai_note": { "title": "Ghi chú của người thẩm định", "tip": "" }
+      },
+      "strengthLabels": {
+        "personal_greeting": "Gọi giáo sư bằng tên", "specific_reference": "Nhắc đến công trình cụ thể của họ", "shows_own_work": "Thể hiện điều bạn đã làm",
+        "clear_ask": "Đưa ra đề nghị rõ ràng", "redirect_offer": "Cho họ cách dễ dàng để giới thiệu bạn sang người khác", "states_availability": "Nêu rõ thời gian rảnh hoặc mốc thời gian của bạn", "concise": "Độ dài hợp lý"
+      }
+    },
+    "followUp": {
+      "title": "Lên lịch email nhắc lại", "subtitle": "Chưa có phản hồi? Dán email bạn đã gửi để nhận hai email nhắc lại đúng thời điểm và mang giọng văn của bạn.",
+      "email": "Email bạn đã gửi", "emailPlaceholder": "Dán email gốc của bạn…", "subject": "Tiêu đề gốc", "sentOn": "Ngày bạn gửi",
+      "professorName": "Tên giáo sư", "professorPlaceholder": "vd: Elena Rivera", "generate": "Lên kế hoạch nhắc lại", "generating": "Đang soạn…",
+      "timeline": "Lịch nhắc lại của bạn", "step": "Nhắc lại {n}", "sendOn": "Gửi vào {date}", "daysAfter": "{days} ngày sau email đầu tiên của bạn",
+      "copy": "Sao chép tin nhắn", "copied": "Đã sao chép", "addToCalendar": "Thêm vào lịch", "editHint": "Cứ thoải mái chỉnh sửa — đây là bản nháp để bạn biến thành của mình.",
+      "emptyTitle": "Lịch của bạn sẽ hiện ở đây", "emptyBody": "Hai lần nhắc lại, cách nhau vừa đủ để bạn vẫn hiện diện mà không gây phiền.",
+      "tipsTitle": "Mẹo về thời điểm", "tip1": "Tránh tuần thi cuối kỳ, hạn nộp xin tài trợ và ngày lễ.", "tip2": "Gửi vào buổi sáng sớm của một ngày làm việc.",
+      "tip3": "Sau hai lần nhắc lại, hãy chuyển sang người khác — và nhờ họ giới thiệu.",
+      "aiUsed": "Được AI cá nhân hóa", "templated": "Dựa trên mẫu", "signInTitle": "Đăng nhập để lên kế hoạch nhắc lại",
+      "limitTitle": "Bạn đã dùng hết kế hoạch nhắc lại miễn phí", "quota": "Đã dùng {used}/{limit} kế hoạch miễn phí"
+    },
+    "framework": {
+      "title": "Khung email làm quen", "subtitle": "Một mẫu điền vào chỗ trống dựa trên điều khiến giáo sư phản hồi. Nhấn vào bất kỳ cặp ngoặc nào để xem hướng dẫn.",
+      "template": "Mẫu", "tapHint": "Nhấn vào cặp ngoặc để xem cách điền.", "guidance": "Hướng dẫn", "redFlags": "Cụm từ đáng báo động",
+      "redFlagsSub": "Chúng cho thấy bạn chưa chuẩn bị kỹ. Hãy thay bằng điều gì đó cụ thể.", "instead": "Thay vào đó:", "cta": "Kiểm tra email của bạn",
+      "b1": { "label": "CHỦ ĐỀ CỤ THỂ", "tip": "Nêu chính xác mảng, phương pháp hoặc câu hỏi — không phải cả ngành. «Củng cố trí nhớ phụ thuộc giấc ngủ» tốt hơn «khoa học thần kinh»." },
+      "b2": { "label": "PHÁT HIỆN HOẶC TRÍCH DẪN CỤ THỂ", "tip": "Chỉ ra một kết quả, hình hoặc câu thật trong một bài báo gần đây của họ. Đây là dòng chứng minh bạn đã đọc." },
+      "b3": { "label": "GÓC NHÌN NGHIÊN CỨU CỦA BẠN", "tip": "Gắn nó với điều bạn đã làm hoặc muốn khám phá — một môn học, bộ dữ liệu, dự án." },
+      "b4": { "label": "MỘT LÝ DO CÁ NHÂN CHÂN THÀNH", "tip": "Một câu thành thật về lý do điều này quan trọng với bạn. Ngắn gọn và thật lòng." },
+      "b5": { "label": "CÂU HỎI THÔNG MINH CHO THẤY BẠN ĐÃ ĐỌC", "tip": "Hỏi điều mà bài báo khiến bạn thắc mắc — một hạn chế, một hướng mở rộng, một bộ dữ liệu. Tránh câu «xin hãy kể thêm về nghiên cứu của thầy/cô»." },
+      "rf1": { "phrase": "I found your work fascinating and groundbreaking", "why": "Giáo sư nghe điều này mỗi ngày.", "instead": "Nêu phát hiện cụ thể đã thu hút sự chú ý của bạn." },
+      "rf2": { "phrase": "I am a highly motivated student", "why": "Câu này chẳng cho họ biết gì.", "instead": "Thể hiện động lực qua những điều bạn đã làm." },
+      "rf3": { "phrase": "Your research aligns perfectly with my interests", "why": "Quá mơ hồ để đáng tin.", "instead": "Giải thích mối liên hệ cụ thể." },
+      "rf4": { "phrase": "I would love to learn from you", "why": "Khiến email nói về bạn thay vì công trình của họ.", "instead": "Hỏi về một phần cụ thể trong nghiên cứu của họ." },
+      "rf5": { "phrase": "I am passionate about this field", "why": "Ai cũng nói vậy.", "instead": "Mô tả những gì bạn thực sự đã làm trong lĩnh vực này." }
+    },
+    "examples": {
+      "title": "Email hiệu quả — có chú thích", "subtitle": "Ba email minh họa do chúng tôi viết để cho thấy những mẫu dễ được phản hồi. Hãy đọc các ghi chú bên cạnh từng dòng.",
+      "disclaimer": "Đây là các ví dụ minh họa do đội ngũ Labora viết, không phải thư từ thật. Tên và chi tiết đều là hư cấu.",
+      "example": "Ví dụ {n}", "cta": "Giờ hãy kiểm tra email của bạn",
+      "e1": { "label": "Năm nhất, tự học", "note1": "Mở đầu bằng sở thích của bạn và một kỹ năng thật, rồi gắn với công trình của họ.", "note2": "Một câu hỏi cụ thể mà chỉ người đã đọc bài báo mới nghĩ ra được.", "note3": "Một đề nghị trực tiếp với yêu cầu nhẹ — và lời nhờ giới thiệu biến «không» thành một manh mối." },
+      "e2": { "label": "Năm ba có dự án riêng", "note1": "Cho thấy một dự án bạn đang làm — bằng chứng cho sự quan tâm mang tính thực hành.", "note2": "Chiều sâu kỹ thuật: câu hỏi cho thấy bạn hiểu phương pháp chứ không chỉ phần tóm tắt.", "note3": "Có mốc thời gian (hè này) và lời đề nghị giúp việc, kể cả với tư cách tình nguyện viên." },
+      "e3": { "label": "Khoa học nhân văn / xã hội", "note1": "Đặt lời đề nghị trên một môn học bạn đã học và một nguồn tư liệu bạn đã đọc.", "note2": "Hỏi về lập luận đằng sau một lựa chọn, thay vì xin bản tóm tắt.", "note3": "Đề xuất điều cụ thể: vài giờ mỗi tuần mã hóa tư liệu lưu trữ." }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Chủ đề chung: {items}", "skills_covered": "Kỹ năng bạn đã có: {items}", "style_aligned": "Phong cách làm việc tương đồng ({items})", "hours_fit": "Thời gian rảnh của bạn đáp ứng số giờ yêu cầu",
+      "bonus_skills": "Kỹ năng cộng thêm: {items}", "published_on_topics": "Công bố về: {items}", "active_recently": "{items} bài báo trong 3 năm qua", "partial_topic_overlap": "Trùng ít hơn ở: {items}",
+      "missing_skills": "Kỹ năng cần rèn: {items}", "style_differs": "Phong cách làm việc khác ({items})", "hours_short": "Số giờ rảnh ít hơn mức vị trí kỳ vọng"
+    },
+    "strong": "Rất phù hợp", "good": "Khá phù hợp", "partial": "Phù hợp một phần", "tip": "Cách để nổi bật", "why": "Vì sao phù hợp", "gaps": "Cần lưu ý",
+    "breakdown": { "topic": "Chủ đề", "skills": "Kỹ năng", "bonus": "Điểm cộng", "style": "Phong cách làm việc", "hours": "Thời gian rảnh" },
+    "aiRefined": "Đã được AI tinh chỉnh", "explainable": "Điểm số có thể giải thích",
+    "student": {
+      "title": "Ghép đôi AI", "subtitle": "Vị trí và giáo sư được xếp theo mức độ phù hợp với kỹ năng, sở thích và cách bạn thích làm việc.",
+      "tabPositions": "Vị trí đang mở", "tabProfessors": "Giáo sư trên toàn thế giới", "run": "Tìm lựa chọn phù hợp của tôi", "rerun": "Làm mới kết quả", "running": "Đang ghép đôi…",
+      "strengthTitle": "Hồ sơ ghép đôi của bạn", "strengthBody": "Bạn chia sẻ càng nhiều, kết quả ghép đôi càng chính xác. Đã hoàn thành {score}%.", "improve": "Cải thiện hồ sơ",
+      "missing": {
+        "skills": "Thêm kỹ năng của bạn", "interests": "Mô tả sở thích của bạn", "experience": "Thêm những gì bạn đã làm", "bio": "Viết giới thiệu ngắn", "major": "Thêm ngành học của bạn",
+        "availability": "Đặt thời gian rảnh hằng tuần", "work_style": "Đặt phong cách làm việc của bạn"
+      },
+      "howTitle": "Cách ghép đôi hoạt động",
+      "how1": "Chúng tôi so sánh sở thích, kỹ năng, kinh nghiệm và thời gian rảnh của bạn với từng vị trí hoặc nhà nghiên cứu.",
+      "how2": "Chúng tôi cũng so sánh phong cách làm việc — tính độc lập, làm việc nhóm, nhịp độ và cấu trúc.",
+      "how3": "Một AI thẩm định tinh chỉnh các kết quả hàng đầu và giải thích từng kết quả. Tên, trường và các đặc điểm cá nhân khác không bao giờ được dùng.",
+      "noResultsTitle": "Chưa có kết quả ghép đôi", "noResultsBody": "Hiện chưa có vị trí nào đang mở để ghép. Hãy thử tìm giáo sư trên toàn thế giới.",
+      "searchedFor": "Đã tìm: {keywords}", "direction": "Định hướng tìm kiếm", "directionPlaceholder": "vd: mã hóa thần kinh, chẩn đoán hình ảnh y khoa",
+      "university": "Chỉ ở một trường đại học", "apply": "Xem & ứng tuyển", "viewProfessor": "Xem hồ sơ", "writeEmail": "Viết email",
+      "quota": "Đã dùng {used}/{limit} lượt ghép đôi miễn phí", "quotaPro": "Ghép đôi không giới hạn", "limitTitle": "Bạn đã dùng hết lượt ghép đôi miễn phí", "limitBody": "Các gói mở khóa ghép đôi không giới hạn, tóm tắt và công cụ tìm email.",
+      "professorsIntro": "Chúng tôi chuyển hồ sơ của bạn thành các chủ đề nghiên cứu và tìm những người đang công bố tích cực về chúng.",
+      "emptyProfile": "Hãy thêm vài kỹ năng và sở thích trước để chúng tôi có căn cứ ghép đôi.", "positionsFirst": "Chạy ghép đôi để xem các vị trí phù hợp nhất."
+    },
+    "professor": {
+      "title": "Tìm sinh viên lý tưởng của bạn", "subtitle": "Mô tả người bạn đang tìm — hoặc để AI soạn nháp từ vị trí của bạn — và xem những sinh viên phù hợp.",
+      "unverifiedTitle": "Đang chờ xác minh", "unverifiedBody": "Tính năng tìm nhân tài sẽ mở khi tài khoản giáo sư của bạn được xác minh. Chúng tôi sẽ sớm xét duyệt.",
+      "step1": "1. Bắt đầu từ một vị trí", "step1Hint": "Tùy chọn. Chọn một vị trí làm cơ sở cho hồ sơ.", "noPosition": "Không theo vị trí cụ thể",
+      "step2": "2. Ứng viên bạn đang tìm", "notes": "Bằng lời của bạn",
+      "notesPlaceholder": "vd: Người tự chủ, thích gỡ lỗi, đã dùng PyTorch và có thể dành 10 giờ mỗi tuần.",
+      "draft": "Soạn nháp hồ sơ bằng AI", "draftRule": "Tạo hồ sơ", "drafting": "Đang soạn…", "personaHint": "Cứ chỉnh sửa mọi thứ — sinh viên sẽ được so sánh với hồ sơ này.",
+      "headline": "Tiêu đề", "summary": "Tóm tắt", "mustHave": "Bắt buộc", "niceToHave": "Nên có", "traits": "Phẩm chất cá nhân", "keywords": "Chủ đề", "addChip": "Nhập rồi nhấn Enter",
+      "workStyle": "Phong cách làm việc bạn tìm kiếm", "step3": "3. Sinh viên phù hợp", "find": "Tìm sinh viên", "finding": "Đang tìm…", "pool": "{count} sinh viên đã đồng ý để được tìm thấy",
+      "poolEmpty": "Chưa có sinh viên nào đồng ý hiển thị. Khi họ bật chế độ hiển thị, họ sẽ xuất hiện ở đây.", "left": "Còn {count} lượt tìm hôm nay", "invite": "Mời ứng tuyển", "invited": "Đã mời",
+      "inviteTitle": "Mời {name}", "inviteBody": "Họ sẽ thấy tin nhắn của bạn và có thể chấp nhận hoặc từ chối. Thông tin liên hệ của họ được giữ kín cho đến khi họ phản hồi.", "position": "Vị trí", "message": "Tin nhắn của bạn",
+      "messageDefault": "Chào {name}, hồ sơ của bạn có vẻ rất phù hợp với vị trí «{position}» tại phòng thí nghiệm của chúng tôi. Bạn có muốn ứng tuyển không? Tôi sẵn lòng giải đáp mọi thắc mắc.",
+      "sendInvite": "Gửi lời mời", "sent": "Đã gửi lời mời", "selectPosition": "Chọn vị trí để mời", "privacy": "Chỉ những sinh viên đã chọn được tìm thấy mới xuất hiện ở đây. Email không bao giờ được hiển thị.",
+      "noStudents": "Chưa có sinh viên phù hợp", "noStudentsBody": "Hãy thử nới lỏng danh sách yêu cầu bắt buộc, hoặc quay lại khi có thêm sinh viên tham gia.", "available": "Rảnh {hours} giờ/tuần", "skills": "Kỹ năng",
+      "createPositionFirst": "Hãy đăng một vị trí để mời sinh viên ứng tuyển.", "labFirst": "Hãy thiết lập hồ sơ phòng thí nghiệm của bạn trước."
+    },
+    "ai": { "notEnabled": "Máy chủ này chưa bật tính năng tinh chỉnh bằng AI — các kết quả ghép đôi dùng điểm số theo quy tắc có thể giải thích." }
+  }
+}

@@ -14,11 +14,12 @@ import { APP_TONE, useLabels } from "@/lib/labels";
 
 function Stat({ icon: Icon, label, value }: { icon: typeof Clock; label: string; value: number | string | undefined }) {
   return (
-    <Card className="p-5">
-      <div className="flex items-center gap-2 text-sm text-muted">
-        <Icon className="size-4 text-faint" /> {label}
+    // Phones: a slim label-left / value-right row, so three stats take ~190px instead of a 320px column of tall cards.
+    <Card className="flex items-center justify-between gap-3 px-4 py-3.5 sm:block sm:p-5">
+      <div className="flex min-w-0 items-center gap-2 text-sm text-muted">
+        <Icon className="size-4 shrink-0 text-faint" /> <span className="min-w-0">{label}</span>
       </div>
-      <div className="mt-2 text-3xl font-semibold tracking-tight tabular-nums text-ink">{value ?? <Skeleton className="h-9 w-14" />}</div>
+      <div className="text-end text-2xl font-semibold tracking-tight tabular-nums text-ink sm:mt-2 sm:text-start sm:text-3xl">{value ?? <Skeleton className="h-8 w-12 sm:h-9 sm:w-14" />}</div>
     </Card>
   );
 }
@@ -65,7 +66,7 @@ function StudentHome({ name }: { name: string }) {
         </Card>
       )}
 
-      <div className="mb-6 grid gap-4 md:grid-cols-2">
+      <div className="mb-6 grid gap-4 empty:hidden md:grid-cols-2">
         {strength.data && strength.data.score < 80 && (
           <Card className="p-5">
             <div className="flex items-start gap-3">
@@ -100,7 +101,7 @@ function StudentHome({ name }: { name: string }) {
         )}
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-2.5 sm:grid-cols-3 sm:gap-4">
         <Stat icon={FileText} label={t("dash.overview.applications")} value={a?.length} />
         <Stat icon={Clock} label={t("dash.overview.inReview")} value={a?.filter((x) => x.status === "pending").length} />
         <Stat icon={CheckCircle2} label={t("dash.overview.accepted")} value={a?.filter((x) => x.status === "accepted").length} />
@@ -207,7 +208,7 @@ function ProfessorHome({ name, verified }: { name: string; verified: boolean }) 
         </Card>
       )}
 
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-2.5 sm:grid-cols-3 sm:gap-4">
         <Stat icon={Briefcase} label={t("dash.overview.openPositions")} value={open} />
         <Stat icon={UsersRound} label={t("dash.overview.applicants")} value={applicants} />
         <Stat icon={FlaskConical} label={t("dash.overview.lab")} value={lab.data === undefined ? undefined : lab.data ? t("dash.overview.live") : t("dash.overview.notSetUp")} />

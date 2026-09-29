@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "Tổng quan", "matches": "Ghép đôi AI", "talent": "Tìm sinh viên", "applications": "Hồ sơ ứng tuyển", "invitations": "Lời mời", "outreach": "Sổ theo dõi liên hệ", "saved": "Đã lưu",
+      "profile": "Hồ sơ của tôi", "billing": "Gói & thanh toán", "settings": "Cài đặt", "positions": "Vị trí", "lab": "Phòng thí nghiệm & nghiên cứu", "admin": "Quản trị"
+    },
+    "greeting": "Chào {name}", "welcomeProfessor": "Chào mừng, {name}",
+    "overview": {
+      "studentSubtitle": "Đây là tiến độ tìm kiếm cơ hội nghiên cứu của bạn.", "professorSubtitle": "Quản lý phòng thí nghiệm, các vị trí và ứng viên của bạn.", "findPositions": "Tìm vị trí", "newPosition": "Vị trí mới",
+      "applications": "Hồ sơ ứng tuyển", "inReview": "Đang xét duyệt", "accepted": "Được nhận", "invitations": "Lời mời", "openPositions": "Vị trí đang mở", "applicants": "Ứng viên", "lab": "Phòng thí nghiệm",
+      "live": "Đang hiển thị", "notSetUp": "Chưa thiết lập", "completeTitle": "Hoàn thiện hồ sơ của bạn",
+      "completeBody": "Giáo sư xem hồ sơ của bạn kèm mỗi đơn ứng tuyển, và việc ghép đôi càng chính xác khi bạn chia sẻ càng nhiều.", "completeCta": "Cập nhật hồ sơ",
+      "discoverTitle": "Để giáo sư tìm thấy bạn",
+      "discoverBody": "Bật chế độ hiển thị để giáo sư đã xác minh có thể mời bạn ứng tuyển. Email của bạn được giữ kín cho đến khi bạn phản hồi.", "discoverCta": "Chọn trong hồ sơ",
+      "recentApplications": "Hồ sơ ứng tuyển gần đây", "noApplications": "Bạn chưa ứng tuyển vị trí nào.", "browse": "Xem các vị trí đang mở", "matchTitle": "Những lựa chọn phù hợp nhất với bạn",
+      "matchBody": "Xem vị trí và giáo sư được xếp theo mức độ phù hợp với bạn.", "matchCta": "Mở Ghép đôi AI", "yourPositions": "Các vị trí của bạn", "noPositions": "Chưa có vị trí nào.",
+      "createLabTitle": "Thiết lập phòng thí nghiệm để bắt đầu tuyển", "createLabBody": "Sinh viên thấy hồ sơ phòng thí nghiệm và nghiên cứu của bạn trên mọi vị trí bạn đăng.", "createLabCta": "Tạo hồ sơ phòng thí nghiệm",
+      "unverifiedTitle": "Tài khoản của bạn đang chờ xác minh", "unverifiedBody": "Chúng tôi xét duyệt tài khoản giáo sư trước khi phòng thí nghiệm và các vị trí được công khai. Trong lúc đó, bạn có thể chuẩn bị mọi thứ.",
+      "talentTitle": "Tìm những sinh viên phù hợp", "talentBody": "Mô tả sinh viên lý tưởng và để AI xếp hạng những sinh viên đã đồng ý hiển thị.", "talentCta": "Tìm sinh viên",
+      "pendingInvitations_other": "Bạn có {count} lời mời đang chờ", "viewInvitations": "Xem lời mời",
+      "applicantsCount_other": "{count} ứng viên", "newForYou": "Mới dành cho bạn"
+    },
+    "profile": {
+      "title": "Hồ sơ của tôi", "subtitle": "Giáo sư xem thông tin này cùng đơn ứng tuyển của bạn, và Ghép đôi AI dùng nó để tìm ra sự phù hợp.", "strength": "Độ hoàn thiện hồ sơ",
+      "basics": "Thông tin cơ bản", "university": "Trường đại học", "major": "Ngành học", "year": "Năm học", "selectYear": "Chọn…", "about": "Về bạn", "bio": "Giới thiệu ngắn",
+      "bioHint": "Bạn là ai, và điều gì khiến bạn tò mò?", "skills": "Kỹ năng", "skillsHint": "Cách nhau bằng dấu phẩy, vd: Python, PyTorch, R, an toàn phòng thí nghiệm",
+      "interests": "Lĩnh vực nghiên cứu quan tâm", "interestsHint": "Những chủ đề bạn muốn tham gia, vd: thị giác máy tính, số phận tế bào.",
+      "experience": "Những gì bạn đã làm", "experienceHint": "Dự án, môn học, nghiên cứu trước đây — càng cụ thể, ghép đôi càng chính xác.",
+      "availability": "Số giờ mỗi tuần bạn có thể dành ra", "workStyle": "Bạn thích làm việc thế nào", "workStyleHint": "Kéo mỗi núm đến vị trí bạn thấy thoải mái nhất. Thông tin này dùng để so sánh bạn với các phòng thí nghiệm.",
+      "links": "Liên kết", "resume": "Liên kết CV", "resumeHint": "Liên kết tới tệp PDF (Drive, Dropbox, trang web của bạn).", "website": "Trang web cá nhân", "github": "Hồ sơ GitHub",
+      "visibility": "Chế độ hiển thị", "discoverable": "Cho phép giáo sư đã xác minh tìm thấy tôi",
+      "discoverableDesc": "Giáo sư có thể xem hồ sơ của bạn và mời bạn ứng tuyển. Email của bạn được giữ kín cho đến khi bạn phản hồi. Bạn có thể tắt bất cứ lúc nào.",
+      "save": "Lưu hồ sơ", "saved": "Đã lưu hồ sơ", "welcome": "Chào mừng bạn đến với Labora! Hãy cho chúng tôi biết về bạn để có những lựa chọn phù hợp hơn."
+    },
+    "applications": {
+      "title": "Hồ sơ ứng tuyển", "subtitle": "Mọi vị trí bạn đã ứng tuyển, ở một nơi.", "emptyTitle": "Chưa có hồ sơ ứng tuyển", "emptyBody": "Khi bạn ứng tuyển một vị trí, nó sẽ hiện ở đây để bạn theo dõi trạng thái.",
+      "browse": "Xem các vị trí", "applied": "Đã ứng tuyển {when}", "withdraw": "Rút", "withdrawConfirm": "Rút hồ sơ ứng tuyển này?", "withdrawn": "Đã rút hồ sơ ứng tuyển",
+      "invited": "Được mời", "decided": "Đã quyết định {when}"
+    },
+    "invitations": {
+      "title": "Lời mời", "subtitleStudent": "Những giáo sư muốn bạn ứng tuyển.", "subtitleProfessor": "Những sinh viên bạn đã mời.", "emptyStudentTitle": "Chưa có lời mời nào",
+      "emptyStudentBody": "Bật chế độ hiển thị trong hồ sơ để giáo sư đã xác minh có thể mời bạn.", "emptyProfessorTitle": "Bạn chưa mời ai",
+      "emptyProfessorBody": "Dùng «Tìm sinh viên» để khám phá những sinh viên phù hợp với phòng thí nghiệm của bạn.", "from": "Từ {name}", "to": "Gửi {name}", "match": "Phù hợp {score}%",
+      "accept": "Chấp nhận & ứng tuyển", "decline": "Từ chối", "replyPlaceholder": "Thêm lời nhắn cho giáo sư (tùy chọn)", "accepted": "Bạn đã chấp nhận — một hồ sơ ứng tuyển đã được tạo.", "declined": "Đã từ chối lời mời",
+      "withdraw": "Rút lời mời", "receivedAgo": "Đã gửi {when}", "findStudents": "Tìm sinh viên"
+    },
+    "outreach": {
+      "title": "Sổ theo dõi liên hệ", "subtitle": "Ghi lại bạn đã liên hệ với ai, khi nào nhắc lại và kết quả ra sao.", "emptyTitle": "Chưa theo dõi gì",
+      "emptyBody": "Thêm nhà nghiên cứu từ hồ sơ của họ để theo dõi các liên hệ và nhận ngày nhắc lại.", "find": "Tìm giáo sư", "followUpDue": "Nhắc lại {when}",
+      "overdue": "Quá hạn nhắc lại", "sentOn": "Đã gửi {date}", "repliedOn": "Được phản hồi {date}", "notes": "Ghi chú", "notesPlaceholder": "Bất cứ điều gì đáng nhớ…",
+      "status": "Trạng thái", "remove": "Gỡ", "removeConfirm": "Gỡ nhà nghiên cứu này khỏi sổ theo dõi của bạn?", "planFollowUp": "Lên kế hoạch nhắc lại",
+      "helpTitle": "Nhật ký của bạn giúp ích cho mọi người",
+      "helpBody": "Tỷ lệ phản hồi hiển thị trên hồ sơ nhà nghiên cứu được tổng hợp từ nhật ký liên hệ ẩn danh như của bạn — không có mục riêng lẻ nào được hiển thị.",
+      "stats": { "total": "Đang theo dõi", "sent": "Đã gửi", "replied": "Đã phản hồi", "due": "Cần nhắc lại" }
+    },
+    "saved": {
+      "title": "Đã lưu", "subtitle": "Các nhà nghiên cứu và vị trí bạn đã đánh dấu.", "professors": "Nhà nghiên cứu", "positions": "Vị trí",
+      "emptyProfessors": "Chưa lưu nhà nghiên cứu nào", "emptyProfessorsBody": "Nhấn vào dấu trang trên một nhà nghiên cứu để thêm họ vào danh sách của bạn.",
+      "emptyPositions": "Chưa lưu vị trí nào", "emptyPositionsBody": "Nhấn vào dấu trang trên một vị trí để giữ lại xem sau."
+    },
+    "billing": {
+      "title": "Gói & thanh toán", "subtitle": "Quyền truy cập, mức sử dụng và phần thưởng giới thiệu của bạn.", "currentPlan": "Gói hiện tại",
+      "plan": { "free": "Miễn phí", "weekly": "Gói tuần", "semester": "Gói học kỳ", "lifetime": "Trọn đời" },
+      "activeUntil": "Có hiệu lực đến {date}", "lifetimeNote": "Bạn có quyền truy cập trọn đời.", "freeNote": "Bạn đang dùng gói miễn phí.", "upgrade": "Xem các gói",
+      "usage": "Hạn mức miễn phí", "usageItem": "Đã dùng {used}/{limit}", "unlimited": "Không giới hạn",
+      "features": { "summary": "Tóm tắt về giáo sư", "email_check": "Kiểm tra email", "follow_up": "Kế hoạch nhắc lại", "match_positions": "Ghép đôi vị trí", "match_professors": "Ghép đôi giáo sư" },
+      "referral": "Mời một người bạn", "referralBody": "Chia sẻ mã của bạn. Khi bạn bè đăng ký bằng mã đó, cả hai cùng nhận {days} ngày Pro.", "yourCode": "Mã của bạn",
+      "copyCode": "Sao chép mã", "copyLink": "Sao chép liên kết mời", "copied": "Đã sao chép", "redeemed_other": "{count} người bạn đã tham gia bằng mã của bạn",
+      "redeem": "Bạn có mã của bạn bè không?", "redeemPlaceholder": "Nhập mã", "redeemCta": "Nhập mã", "redeemedOk": "Đã nhập mã — thêm {days} ngày Pro.",
+      "checkoutSuccess": "Cảm ơn bạn! Gói của bạn sẽ được kích hoạt trong giây lát.", "devMode": "Môi trường này chưa kết nối thanh toán — các gói được kích hoạt ngay để thử nghiệm."
+    },
+    "settings": {
+      "title": "Cài đặt", "subtitle": "Tài khoản, ngôn ngữ và bảo mật của bạn.", "account": "Tài khoản", "name": "Họ và tên", "email": "Email", "emailNote": "Không thể thay đổi email của bạn.",
+      "language": "Ngôn ngữ", "languageHint": "Cũng được dùng cho các bản tóm tắt và nhận xét do AI viết.", "saveChanges": "Lưu thay đổi", "saved": "Đã lưu cài đặt",
+      "password": "Mật khẩu", "currentPassword": "Mật khẩu hiện tại", "newPassword": "Mật khẩu mới", "changePassword": "Đổi mật khẩu", "passwordChanged": "Đã cập nhật mật khẩu",
+      "danger": "Xóa tài khoản", "dangerBody": "Thao tác này sẽ xóa vĩnh viễn hồ sơ, các đơn ứng tuyển và mọi thứ gắn với tài khoản của bạn. Không thể hoàn tác.",
+      "dangerConfirm": "Nhập mật khẩu để xác nhận", "deleteCta": "Xóa tài khoản của tôi", "deleted": "Tài khoản của bạn đã được xóa."
+    },
+    "lab": {
+      "title": "Phòng thí nghiệm & nghiên cứu", "subtitle": "Đây là những gì sinh viên thấy khi xem xét các vị trí của bạn.", "createTitle": "Tạo phòng thí nghiệm của bạn", "profileTitle": "Hồ sơ phòng thí nghiệm",
+      "name": "Tên phòng thí nghiệm", "university": "Trường đại học", "department": "Khoa", "description": "Mô tả", "descriptionHint": "Phòng thí nghiệm của bạn làm về gì? Hãy viết dễ hiểu cho sinh viên đại học.",
+      "keywords": "Từ khóa nghiên cứu", "keywordsHint": "Cách nhau bằng dấu phẩy", "website": "Trang web phòng thí nghiệm", "culture": "Làm việc ở đây như thế nào",
+      "cultureHint": "Phong cách hướng dẫn, nhịp họp, sinh viên phụ trách những gì. Sinh viên đánh giá cao sự thẳng thắn.", "teamSize": "Quy mô nhóm", "workStyle": "Phòng thí nghiệm của bạn làm việc thế nào",
+      "workStyleHint": "Dùng để so sánh phong cách làm việc với sinh viên.", "openalex": "ID tác giả OpenAlex", "openalexHint": "Tùy chọn. Liên kết phòng thí nghiệm của bạn trên Labora với hồ sơ công bố của bạn (bắt đầu bằng chữ A…).",
+      "saveLab": "Lưu phòng thí nghiệm", "createLab": "Tạo phòng thí nghiệm", "created": "Đã tạo phòng thí nghiệm — giờ hãy thêm tài liệu nghiên cứu và đăng một vị trí.", "updated": "Đã cập nhật phòng thí nghiệm",
+      "materials": "Tài liệu nghiên cứu", "materialsHint": "Chia sẻ bài báo, bộ dữ liệu hoặc poster để sinh viên tìm hiểu về công việc của bạn.", "nothingShared": "Chưa chia sẻ gì.",
+      "addMaterial": "Thêm tài liệu", "materialTitle": "Tiêu đề", "materialType": "Loại", "materialLink": "Liên kết", "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Mô tả ngắn", "removeMaterial": "Gỡ tài liệu này?", "verificationTitle": "Đang chờ xác minh",
+      "verificationBody": "Phòng thí nghiệm của bạn sẽ được công khai sau khi chúng tôi xác minh tài khoản giáo sư của bạn. Thêm trang web của phòng thí nghiệm để đẩy nhanh quá trình này."
+    },
+    "positions": {
+      "title": "Vị trí", "subtitle": "Các vị trí của bạn và những người đã ứng tuyển.", "new": "Vị trí mới", "emptyTitle": "Chưa có vị trí nào", "emptyBody": "Đăng một vị trí và bắt đầu nhận hồ sơ ứng tuyển.",
+      "emptyLab": "Hãy tạo hồ sơ phòng thí nghiệm trước.", "post": "Đăng vị trí đầu tiên của bạn", "open": "Đang mở", "closed": "Đã đóng", "close": "Đóng", "reopen": "Mở lại",
+      "edit": "Chỉnh sửa", "delete": "Xóa", "deleteConfirm": "Xóa vị trí này? Không thể hoàn tác.", "applicants": "Ứng viên", "postedAgo": "Đăng {when}",
+      "viewPublic": "Xem trang công khai", "newTitle": "Vị trí mới", "newSubtitle": "Mô tả vị trí. Bạn có thể chỉnh sửa bất cứ lúc nào.", "editTitle": "Chỉnh sửa vị trí",
+      "needLab": "Bạn cần có hồ sơ phòng thí nghiệm trước khi đăng.", "createLab": "Tạo phòng thí nghiệm của bạn", "noApplicants": "Chưa có ứng viên",
+      "noApplicantsBody": "Chia sẻ vị trí của bạn hoặc mời những sinh viên phù hợp bằng «Tìm sinh viên».", "decline": "Từ chối", "accept": "Chấp nhận", "email": "Gửi email cho ứng viên", "resume": "CV",
+      "invitedBadge": "Do bạn mời", "profileIncomplete": "Hồ sơ chưa đầy đủ",
+      "form": {
+        "title": "Tên vị trí", "titlePlaceholder": "Trợ lý nghiên cứu sinh viên: thị giác tự giám sát", "description": "Mô tả", "descriptionHint": "Sinh viên sẽ làm việc về gì? Sẽ học được gì?",
+        "requirements": "Yêu cầu", "requirementsHint": "Môn học hoặc kinh nghiệm (tùy chọn)", "skills": "Kỹ năng yêu cầu", "skillsHint": "Cách nhau bằng dấu phẩy — dùng để ghép đôi, vd: python, pytorch",
+        "compensation": "Thù lao", "hours": "Giờ / tuần", "term": "Học kỳ", "location": "Địa điểm", "slots": "Số suất", "deadline": "Hạn ứng tuyển", "keywords": "Từ khóa",
+        "keywordsHint": "Giúp sinh viên tìm thấy vị trí của bạn", "publish": "Đăng vị trí", "saveChanges": "Lưu thay đổi", "saved": "Đã lưu vị trí", "notSpecified": "Chưa nêu rõ"
+      }
+    },
+    "admin": {
+      "title": "Quản trị", "subtitle": "Xác minh giáo sư và xem những gì mọi người gửi đến.", "overview": "Tổng quan",
+      "stats": {
+        "users": "Người dùng", "students": "Sinh viên", "professors": "Giáo sư", "pending_professors": "Chờ xác minh", "labs": "Phòng thí nghiệm", "open_positions": "Vị trí đang mở",
+        "applications": "Hồ sơ ứng tuyển", "invitations": "Lời mời", "feedback": "Bài góp ý", "waitlist": "Danh sách chờ", "paid_users": "Người dùng trả phí"
+      },
+      "verification": "Xác minh giáo sư", "onlyPending": "Chỉ mục đang chờ", "verify": "Xác minh", "unverify": "Thu hồi", "verifiedAt": "Đã xác minh", "pendingBadge": "Đang chờ", "lab": "Phòng thí nghiệm",
+      "waitlist": "Danh sách chờ", "contact": "Tin nhắn liên hệ", "empty": "Chưa có gì ở đây.", "notAdmin": "Khu vực này chỉ dành cho quản trị viên.",
+      "verifiedToast": "Đã xác minh giáo sư", "revokedToast": "Đã thu hồi xác minh"
+    }
+  }
+}

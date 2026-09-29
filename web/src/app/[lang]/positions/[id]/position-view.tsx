@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowLeft, Building2, CalendarClock, CheckCircle2, Clock, ExternalLink, FlaskConical, MapPin, Send, ShieldCheck, Users } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MaterialList } from "@/components/position/materials";
 import { PositionSaveButton } from "@/components/position/position-card";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ import { Container } from "@/components/ui/layout";
 import { Alert, Avatar, Badge, Card, Chip, EmptyState, Skeleton } from "@/components/ui/surface";
 import { api, type MyApplication } from "@/lib/api";
 import { useAuth } from "@/lib/auth";
+import { cn } from "@/lib/cn";
 import { useApi, useErrorText } from "@/lib/hooks";
 import { Link } from "@/lib/i18n/navigation";
 import { useI18n } from "@/lib/i18n/provider";
@@ -19,7 +20,7 @@ import { useDeadline } from "@/lib/use-deadline";
 export function PositionView({ id }: { id: string }) {
   const { t, fmt } = useI18n();
   const labels = useLabels();
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const deadline = useDeadline();
   const position = useApi(`position-${id}`, () => api.position(id));
   const p = position.data;
@@ -61,7 +62,7 @@ export function PositionView({ id }: { id: string }) {
 
   return (
     <Container className="py-8 sm:py-12">
-      <Link href="/positions" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink">
+      <Link href="/positions" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink pointer-coarse:-mt-3 pointer-coarse:mb-3 pointer-coarse:min-h-11">
         <ArrowLeft className="size-4 rtl:rotate-180" /> {t("positions.backToAll")}
       </Link>
 
@@ -153,7 +154,9 @@ export function PositionView({ id }: { id: string }) {
         </article>
 
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
-          <ApplyCard positionId={p.id} open={p.status === "open"} existing={existing} onApplied={mine.reload} />
+          <div id="apply" className="scroll-mt-24">
+            <ApplyCard positionId={p.id} open={p.status === "open"} existing={existing} onApplied={mine.reload} />
+          </div>
           <Card className="p-5">
             <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold text-ink">
               <FlaskConical className="size-4 text-brand-text" /> {t("positions.aboutLab")}
@@ -164,7 +167,7 @@ export function PositionView({ id }: { id: string }) {
                 <Building2 className="size-4 shrink-0 text-faint" /> {p.lab.university} · {p.lab.department}
               </p>
               {p.lab.website && (
-                <a href={p.lab.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-brand-text hover:underline">
+                <a href={p.lab.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-brand-text hover:underline pointer-coarse:min-h-11">
                   <ExternalLink className="size-4 shrink-0" /> {t("positions.website")}
                 </a>
               )}
@@ -175,7 +178,57 @@ export function PositionView({ id }: { id: string }) {
           </Card>
         </aside>
       </div>
+      {p.status === "open" && !authLoading && !existing && (!user || user.role === "student") && (
+        <MobileApplyBar positionId={p.id} title={p.title} lab={p.lab.name} guest={!user} />
+      )}
     </Container>
+  );
+}
+
+/** Phones only: the apply form sits below the whole description, so keep a one-tap route to it until it scrolls into view. */
+function MobileApplyBar({ positionId, title, lab, guest }: { positionId: number; title: string; lab: string; guest: boolean }) {
+  const { t } = useI18n();
+  const [ahead, setAhead] = useState(false); // the form is still below the screen
+
+  useEffect(() => {
+    const target = document.getElementById("apply");
+    if (!target) return;
+    const io = new IntersectionObserver(([e]) => setAhead(!e.isIntersecting && e.boundingClientRect.top > 0));
+    io.observe(target);
+    return () => io.disconnect();
+  }, []);
+
+  const jump = () => {
+    const target = document.getElementById("apply");
+    target?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.setTimeout(() => target?.querySelector("textarea")?.focus({ preventScroll: true }), 500);
+  };
+
+  return (
+    <div
+      inert={!ahead}
+      className={cn(
+        "fixed inset-x-0 bottom-0 z-30 border-t border-line bg-canvas/90 px-5 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-xl transition-transform duration-300 lg:hidden",
+        ahead ? "translate-y-0" : "translate-y-full",
+      )}
+    >
+      <div className="mx-auto flex max-w-[1200px] items-center gap-3">
+        <div className="min-w-0 flex-1">
+          {/* dir="auto": a title in another script than the page keeps its own direction, so truncation cuts the end of it, not the start */}
+          <p className="truncate text-sm font-semibold text-ink" dir="auto">{title}</p>
+          <p className="truncate text-xs text-muted" dir="auto">{lab}</p>
+        </div>
+        {guest ? (
+          <Button asChild variant="brand">
+            <Link href={`/login?next=/positions/${positionId}`}>{t("positions.apply.signInCta")}</Link>
+          </Button>
+        ) : (
+          <Button variant="brand" onClick={jump}>
+            {t("positions.apply.title")}
+          </Button>
+        )}
+      </div>
+    </div>
   );
 }
 

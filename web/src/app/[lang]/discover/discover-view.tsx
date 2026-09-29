@@ -2,7 +2,7 @@
 
 import { Compass, Info, Search, SlidersHorizontal } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { InstitutionCombobox } from "@/components/professor/institution-combobox";
 import { ProfessorCard, ProfessorCardSkeleton } from "@/components/professor/professor-card";
 import { Button } from "@/components/ui/button";
@@ -49,12 +49,17 @@ export function DiscoverView() {
   const [error, setError] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  // Fetch whenever the active query or page changes.
+  // Start with the cursor in the search box on desktop; on phones that would throw the keyboard over the page before anyone asked for it.
+  const qRef = useRef<HTMLInputElement>(null);
+  const startedEmpty = useRef(!initial.q);
+  useEffect(() => {
+    if (startedEmpty.current && !window.matchMedia("(pointer: coarse)").matches) qRef.current?.focus();
+  }, []);
+
+  // Fetch whenever the active query or page changes (submit / load-more mark the request as pending before they change either).
   useEffect(() => {
     if (!active) return;
     const ctrl = new AbortController();
-    setLoading(true);
-    setError(null);
     api
       .searchProfessors(
         {
@@ -75,13 +80,18 @@ export function DiscoverView() {
       .catch((e) => {
         if ((e as Error).name !== "AbortError") setError(errorText(e));
       })
-      .finally(() => setLoading(false));
+      .finally(() => {
+        // An aborted request belongs to a query that has been replaced; the newer one owns the loading state.
+        if (!ctrl.signal.aborted) setLoading(false);
+      });
     return () => ctrl.abort();
   }, [active, page, errorText]);
 
   const submit = (next: Query) => {
     const query = { ...next, q: next.q.trim() };
     if (query.q.length < 2) return;
+    setLoading(true);
+    setError(null);
     setPage(1);
     setActive(query);
     const params = new URLSearchParams({ q: query.q });
@@ -129,7 +139,7 @@ export function DiscoverView() {
               aria-selected={form.mode === m}
               onClick={() => set("mode", m)}
               className={cn(
-                "h-8 rounded-full px-4 text-sm font-medium transition-colors",
+                "h-8 rounded-full px-4 text-sm font-medium transition-colors pointer-coarse:h-10",
                 form.mode === m ? "bg-ink text-canvas" : "text-muted hover:text-ink",
               )}
             >
@@ -143,7 +153,8 @@ export function DiscoverView() {
               value={form.q}
               onChange={(e) => set("q", e.target.value)}
               placeholder={form.mode === "interest" ? t("discover.interestPlaceholder") : t("discover.namePlaceholder")}
-              autoFocus={!initial.q}
+              ref={qRef}
+              enterKeyHint="search"
             />
           </Field>
           <Field label={t("discover.universityLabel")}>
@@ -178,12 +189,13 @@ export function DiscoverView() {
                   {loading && pages.length === 0 ? t("discover.searching") : meta ? tp("discover.resultsCount", meta.total) : ""}
                 </p>
               </div>
-              <div className="flex items-end gap-3">
-                <Button variant="secondary" size="sm" className="sm:hidden" onClick={() => setFiltersOpen((o) => !o)}>
+              <div className="flex items-end gap-3 max-sm:w-full max-sm:flex-wrap">
+                <Button variant="secondary" size="sm" className="sm:hidden" aria-expanded={filtersOpen} onClick={() => setFiltersOpen((o) => !o)}>
                   <SlidersHorizontal /> {t("discover.filters")}
                 </Button>
-                <div className={cn("items-end gap-3", filtersOpen ? "flex" : "hidden sm:flex")}>
-                  <Field label={t("discover.sortBy")} className="w-40">
+                {/* Phones: the two selects share a row under the button; from sm up they sit inline. */}
+                <div className={cn("items-end gap-3 max-sm:w-full max-sm:grid-cols-2", filtersOpen ? "max-sm:grid sm:flex" : "hidden sm:flex")}>
+                  <Field label={t("discover.sortBy")} className="sm:w-40">
                     <NativeSelect value={form.sort} onChange={(e) => refine({ sort: e.target.value as Query["sort"] })}>
                       {(["relevance", "cited", "recent"] as const).map((s) => (
                         <option key={s} value={s}>
@@ -192,7 +204,7 @@ export function DiscoverView() {
                       ))}
                     </NativeSelect>
                   </Field>
-                  <Field label={t("discover.minH")} className="w-36">
+                  <Field label={t("discover.minH")} className="sm:w-36">
                     <NativeSelect value={form.min_h} onChange={(e) => refine({ min_h: Number(e.target.value) })}>
                       <option value={0}>{t("discover.minHAny")}</option>
                       {[5, 10, 20, 30, 50].map((n) => (
@@ -235,7 +247,16 @@ export function DiscoverView() {
                 </div>
                 {meta?.has_more && (
                   <div className="mt-8 text-center">
-                    <Button variant="secondary" size="lg" loading={loading} onClick={() => setPage((n) => n + 1)}>
+                    <Button
+                      variant="secondary"
+                      size="lg"
+                      loading={loading}
+                      onClick={() => {
+                        setLoading(true);
+                        setError(null);
+                        setPage((n) => n + 1);
+                      }}
+                    >
                       {t("discover.loadMore")}
                     </Button>
                   </div>

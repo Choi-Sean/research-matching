@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "Bước đột phá tiếp theo của bạn bắt đầu từ phòng thí nghiệm phù hợp.",
+      "p1": "Khám phá các nhà nghiên cứu từ kho học thuật toàn cầu", "p2": "Hiểu công trình của họ trước khi viết một chữ", "p3": "Được ghép đôi theo kỹ năng và cách bạn thích làm việc",
+      "footer": "Dành cho sinh viên và giáo sư, bằng ngôn ngữ của bạn."
+    },
+    "login": {
+      "title": "Chào mừng bạn trở lại", "subtitle": "Đăng nhập để tiếp tục.", "email": "Email", "emailPlaceholder": "you@university.edu", "password": "Mật khẩu",
+      "submit": "Đăng nhập", "noAccount": "Chưa có tài khoản?", "signUp": "Đăng ký", "forgot": "Quên mật khẩu?",
+      "forgotHelp": "Hãy liên hệ chúng tôi, chúng tôi sẽ giúp bạn đăng nhập lại.", "demo": "Tài khoản dùng thử (mật khẩu: password123)",
+      "demoStudent": "Sinh viên", "demoProfessor": "Giáo sư", "demoAdmin": "Quản trị viên"
+    },
+    "register": {
+      "title": "Tạo tài khoản của bạn", "subtitle": "Tham gia bằng email của trường đại học. Chỉ mất một phút.", "iAm": "Tôi là…", "student": "Sinh viên", "studentDesc": "Tìm cơ hội nghiên cứu và được ghép đôi",
+      "professor": "Giáo sư", "professorDesc": "Tuyển sinh viên, chia sẻ công trình của bạn", "fullName": "Họ và tên", "fullNamePlaceholderStudent": "Jamie Park", "fullNamePlaceholderProfessor": "GS. Jane Smith",
+      "email": "Email trường đại học", "emailHint": "Dùng địa chỉ có đuôi .edu, .ac.uk hoặc tên miền học thuật tương tự.", "password": "Mật khẩu", "passwordHint": "Ít nhất 8 ký tự.",
+      "referral": "Mã của bạn bè", "referralHint": "Có mã từ bạn bè? Cả hai cùng nhận một tuần Pro.",
+      "consent": "Khi tạo tài khoản, bạn đồng ý với <terms>Điều khoản</terms> và <privacy>Chính sách quyền riêng tư</privacy> của chúng tôi.",
+      "submit": "Tạo tài khoản", "haveAccount": "Đã có tài khoản?", "signIn": "Đăng nhập",
+      "professorNote": "Tài khoản giáo sư được đội ngũ của chúng tôi xác minh trước khi phòng thí nghiệm và các vị trí của bạn được công khai."
+    }
+  },
+  "discover": {
+    "title": "Tìm giáo sư nghiên cứu của bạn", "subtitle": "Tìm những nhà nghiên cứu đang công bố tích cực về điều bạn quan tâm — từ kho học thuật toàn cầu.",
+    "modeInterest": "Theo sở thích", "modeName": "Theo tên", "interestLabel": "Lĩnh vực quan tâm", "interestPlaceholder": "vd: khoa học thần kinh tính toán", "nameLabel": "Tên nhà nghiên cứu", "namePlaceholder": "vd: Jane Smith",
+    "universityLabel": "Trường đại học", "universityPlaceholder": "Bất kỳ trường nào", "universityHint": "Chọn từ danh sách để tìm trong một tổ chức.", "search": "Tìm kiếm", "searching": "Đang tìm…",
+    "sortBy": "Sắp xếp theo", "minH": "Chỉ số h tối thiểu", "minHAny": "Bất kỳ", "filters": "Bộ lọc", "resultsFor": "Nhà nghiên cứu cho «{q}»", "resultsAt": "· {university}",
+    "resultsCount_other": "{count} nhà nghiên cứu", "noResults": "Không tìm thấy nhà nghiên cứu nào", "noResultsBody": "Hãy thử lĩnh vực rộng hơn, cách viết khác, hoặc bỏ bộ lọc trường đại học.",
+    "startTitle": "Bắt đầu từ điều khiến bạn tò mò",
+    "startBody": "Thử một chủ đề như «cuộn gập protein» hoặc «chính sách khí hậu», thêm một trường đại học nếu bạn đã có ý định, và chúng tôi sẽ cho bạn thấy ai đang công bố về đó.",
+    "noteTitle": "Cách xếp hạng kết quả",
+    "noteBody": "Các nhà nghiên cứu được xếp hạng theo mức độ họ đã công bố gần đây về chủ đề của bạn, có tính trọng số theo vị thế của họ trong lĩnh vực. Chức danh như «giáo sư» không được ghi trong cơ sở dữ liệu học thuật, vì vậy hãy dùng bản tóm tắt và các bài báo để đánh giá độ phù hợp.",
+    "hIndex": "chỉ số h", "papers": "bài báo", "citations": "lượt trích dẫn", "recentWorks": "3 năm qua", "onTopic": "Về chủ đề này", "onLabora": "Trên Labora", "viewProfile": "Xem hồ sơ",
+    "save": "Lưu", "saved": "Đã lưu", "loadMore": "Xem thêm nhà nghiên cứu", "yourInterest": "Sở thích của bạn",
+    "disclaimer": "Dữ liệu từ OpenAlex. Đơn vị công tác phản ánh các công bố mới nhất và có thể chậm hơn thực tế.", "signInToSave": "Đăng nhập để lưu nhà nghiên cứu vào danh sách của bạn.",
+    "savedToast": "Đã lưu vào danh sách của bạn", "removedToast": "Đã gỡ khỏi danh sách của bạn", "clearFilters": "Xóa bộ lọc", "universityAny": "Bất kỳ trường nào",
+    "searchingAt": "Đang tìm nhà nghiên cứu tại {university}", "lookingUp": "Đang tra cứu các tổ chức…"
+  },
+  "professor": {
+    "back": "Quay lại tìm kiếm", "notFoundTitle": "Chúng tôi không tìm thấy nhà nghiên cứu này", "notFoundBody": "Liên kết có thể sai, hoặc cơ sở dữ liệu học thuật đang bận. Hãy thử tìm lại.",
+    "orcid": "ORCID", "openalex": "Hồ sơ OpenAlex", "onLabora": "Điều hành một phòng thí nghiệm trên Labora", "viewLab": "Xem phòng thí nghiệm của họ",
+    "stats": { "hIndex": "Chỉ số h", "papers": "Bài báo", "citations": "Trích dẫn", "recent": "3 năm qua", "i10": "Chỉ số i10" },
+    "tabs": { "overview": "Tổng quan", "papers": "Bài báo", "contact": "Liên hệ" },
+    "summary": {
+      "title": "Công trình của họ, bằng ngôn ngữ dễ hiểu", "cta": "Giải thích công trình của họ", "ctaBody": "Nhận bản tóm tắt ngắn về những gì họ nghiên cứu, một phát hiện gần đây và những câu hỏi đáng hỏi.",
+      "loading": "Đang đọc các bài báo gần đây của họ…", "overview": "Họ nghiên cứu gì", "keyFinding": "Một phát hiện gần đây", "fromPaper": "Từ: {title}", "topics": "Các lĩnh vực nghiên cứu, nói đơn giản",
+      "goodFit": "Bạn có thể phù hợp nếu…", "starters": "Những câu hỏi đáng hỏi", "startersHint": "Dùng chúng như gợi ý cho sự tò mò của chính bạn — giáo sư nhận ra khi một câu hỏi xuất phát từ sự chân thành.",
+      "aiBadge": "Tóm tắt bằng AI", "extractiveBadge": "Tóm tắt tự động", "extractiveNote": "Máy chủ này chưa bật tóm tắt bằng AI, nên bản này được tổng hợp trực tiếp từ dữ liệu công bố của họ (bằng tiếng Anh).",
+      "aiNote": "Do AI viết dựa trên các bản tóm tắt công khai. Hãy luôn kiểm tra lại các bài báo.", "quota": "Đã dùng {used}/{limit} bản tóm tắt miễn phí", "quotaPro": "Tóm tắt không giới hạn",
+      "signInTitle": "Đăng nhập để đọc bản tóm tắt", "signInBody": "Tài khoản miễn phí nhận được bản tóm tắt dễ hiểu, một phát hiện chính và gợi ý mở đầu cuộc trò chuyện cho một vài nhà nghiên cứu.",
+      "upgrade": "Nhận tóm tắt không giới hạn", "limitTitle": "Bạn đã dùng hết các bản tóm tắt miễn phí", "limitBody": "Các gói mở khóa tóm tắt không giới hạn, công cụ tìm email và nhiều hơn nữa."
+    },
+    "topics": "Chủ đề nghiên cứu", "activity": "Số công bố mỗi năm",
+    "papers": { "recent": "Mới nhất", "top": "Được trích dẫn nhiều nhất", "empty": "Không tìm thấy bài báo nào.", "abstract": "Tóm tắt", "cited": "{n} lượt trích dẫn", "openAccess": "Truy cập mở", "viewPaper": "Xem bài báo" },
+    "contact": {
+      "title": "Công cụ tìm email", "lockedTitle": "Mở khóa công cụ tìm email và mức độ phản hồi", "lockedBody": "Xem các địa chỉ email của trường có thể dùng và tần suất sinh viên nhận được phản hồi. Có trong mọi gói.",
+      "seePlans": "Xem các gói", "guessNote": "Đây là những phỏng đoán dựa trên quy tắc đặt tên phổ biến, không phải địa chỉ đã được xác minh. Hãy xác nhận trong danh bạ giảng viên trước khi gửi.",
+      "pattern": "Mẫu: {pattern}", "mostCommon": "Phổ biến nhất", "copy": "Sao chép địa chỉ", "copied": "Đã sao chép địa chỉ", "compose": "Mở trong ứng dụng email",
+      "directory": "Tìm trong danh bạ giảng viên", "noDomain": "Chúng tôi không xác định được tên miền email của tổ chức này.", "responsiveness": "Mức độ phản hồi",
+      "resp": { "high": "Thường phản hồi", "medium": "Thỉnh thoảng phản hồi", "low": "Hiếm khi phản hồi", "unknown": "Chưa đủ báo cáo" },
+      "respBody": "Dựa trên {n} nhật ký liên hệ của sinh viên. {rate} đã nhận được phản hồi{days}.", "respDays": ", thường trong vòng {days} ngày",
+      "respUnknown": "Chúng tôi chỉ hiển thị mục này khi có ít nhất 3 sinh viên ghi lại việc liên hệ với nhà nghiên cứu này. Hãy ghi lại của bạn để giúp người khác.",
+      "labDays": "Phòng thí nghiệm của họ trên Labora thường phản hồi hồ sơ ứng tuyển trong vòng {days} ngày.", "logOutreach": "Ghi lại liên hệ của tôi"
+    },
+    "sidebar": {
+      "writeTitle": "Sẵn sàng liên hệ chưa?", "writeBody": "Soạn email của bạn, rồi đối chiếu với những điều giáo sư nói là sẽ bị xóa ngay.", "writeCta": "Kiểm tra email của tôi",
+      "trackTitle": "Sổ theo dõi liên hệ", "trackBody": "Theo dõi bạn đã liên hệ với ai và khi nào cần nhắc lại.", "trackStart": "Thêm vào sổ theo dõi", "status": "Trạng thái",
+      "tracked": "Đã thêm vào sổ theo dõi của bạn", "saveError": "Không thể cập nhật sổ theo dõi"
+    }
+  },
+  "positions": {
+    "title": "Vị trí đang mở", "subtitle": "Các vị trí nghiên cứu do giáo sư đã xác minh đăng trực tiếp. Hãy đọc công trình của họ trước, rồi ứng tuyển.", "searchLabel": "Tìm kiếm",
+    "searchPlaceholder": "Chủ đề, kỹ năng hoặc tên phòng thí nghiệm", "filters": "Bộ lọc", "compensation": "Thù lao", "location": "Địa điểm", "term": "Học kỳ", "university": "Trường đại học", "universityPlaceholder": "vd: MIT",
+    "department": "Khoa", "departmentPlaceholder": "vd: Sinh học", "any": "Bất kỳ", "count_other": "{count} vị trí", "searching": "Đang tìm…",
+    "noResults": "Không có vị trí nào khớp với tìm kiếm của bạn", "noResultsBody": "Hãy thử từ khóa rộng hơn hoặc bỏ bớt một bộ lọc. Hoặc tìm thẳng giáo sư — bạn không cần một vị trí đang mở để liên hệ.",
+    "discoverCta": "Tìm giáo sư", "clear": "Xóa bộ lọc", "postedAgo": "Đăng {when}", "closes": "Đóng {when}", "applyBy": "Ứng tuyển trước {date}", "deadlinePassed": "Đã hết hạn",
+    "slots_other": "{count} suất", "backToAll": "Tất cả vị trí", "about": "Về vai trò này", "requirements": "Chúng tôi tìm kiếm", "skills": "Kỹ năng", "research": "Đọc về nghiên cứu của phòng thí nghiệm",
+    "researchHint": "Hãy làm quen với công việc trước khi ứng tuyển.", "noMaterials": "Chưa có tài liệu nghiên cứu nào được chia sẻ.", "aboutLab": "Về phòng thí nghiệm", "viewLab": "Xem hồ sơ phòng thí nghiệm",
+    "website": "Trang web phòng thí nghiệm", "notFound": "Không tìm thấy vị trí", "verifiedLab": "Phòng thí nghiệm đã xác minh",
+    "apply": {
+      "title": "Ứng tuyển", "label": "Vì sao bạn phù hợp?", "placeholder": "Chia sẻ sở thích, các môn học liên quan và thời gian rảnh của bạn…", "submit": "Gửi hồ sơ ứng tuyển",
+      "shared": "Hồ sơ của bạn được chia sẻ với giáo sư.", "sent": "Đã gửi hồ sơ ứng tuyển", "status": "Trạng thái", "track": "Theo dõi hồ sơ ứng tuyển", "signIn": "Đăng nhập bằng tài khoản sinh viên để ứng tuyển.",
+      "signInCta": "Đăng nhập để ứng tuyển", "newHere": "Bạn mới đến?", "createAccount": "Tạo tài khoản", "professorNote": "Bạn đang đăng nhập với tư cách giáo sư. Chỉ sinh viên mới có thể ứng tuyển.",
+      "closedNote": "Vị trí này không còn nhận hồ sơ.", "completeProfile": "Hoàn thiện hồ sơ để giáo sư thấy những gì bạn đã làm.", "toProfile": "Cập nhật hồ sơ",
+      "fitHint": "Hãy cụ thể: một việc bạn đã làm, một điều bạn muốn học và khi nào bạn có thể tham gia."
+    }
+  },
+  "lab": {
+    "notFound": "Không tìm thấy phòng thí nghiệm", "notFoundBody": "Phòng thí nghiệm có thể ở chế độ riêng tư hoặc liên kết bị sai.", "openPositions": "Vị trí đang mở", "noPositions": "Hiện không có vị trí nào đang mở",
+    "noPositionsBody": "Hãy quay lại sớm — phòng thí nghiệm này có thể đăng vị trí mới. Bạn cũng có thể liên hệ trực tiếp.", "materials": "Tài liệu nghiên cứu", "culture": "Làm việc ở đây như thế nào",
+    "teamSize": "Nhóm {count} người", "workStyle": "Phòng thí nghiệm làm việc thế nào", "website": "Trang web phòng thí nghiệm", "professor": "Trưởng nhóm nghiên cứu", "verified": "Đã xác minh"
+  },
+  "community": {
+    "feedback": {
+      "title": "Bảng góp ý", "subtitle": "Hãy cùng định hình Labora. Đề xuất tính năng, báo lỗi hoặc chia sẻ suy nghĩ của bạn — và bình chọn cho điều quan trọng nhất.",
+      "kind": { "feature": "Đề xuất tính năng", "bug": "Báo lỗi", "general": "Góp ý chung" },
+      "status": { "open": "Đang mở", "planned": "Đã lên kế hoạch", "in_progress": "Đang thực hiện", "done": "Hoàn thành" },
+      "newPost": "Chia sẻ suy nghĩ của bạn", "postTitle": "Tiêu đề", "postTitlePlaceholder": "Tóm tắt ngắn", "postBody": "Chi tiết", "postBodyPlaceholder": "Bạn muốn thấy điều gì, hoặc đã có gì trục trặc?",
+      "post": "Đăng", "posted": "Cảm ơn — bài đăng của bạn đã lên.", "signIn": "Đăng nhập để đăng bài và bình chọn.", "sortVotes": "Nhiều bình chọn nhất", "sortNew": "Mới nhất", "filterAll": "Tất cả",
+      "count_other": "{count} bài đăng", "empty": "Chưa có gì ở đây — hãy là người đăng đầu tiên.", "vote": "Bình chọn", "voted": "Đã bình chọn", "by": "bởi {name}"
+    },
+    "contact": {
+      "title": "Liên hệ với chúng tôi", "subtitle": "Câu hỏi, ý tưởng hoặc cần hỗ trợ tài khoản? Chúng tôi đọc mọi tin nhắn.", "name": "Tên của bạn", "email": "Email của bạn",
+      "message": "Tin nhắn", "messagePlaceholder": "Chúng tôi có thể giúp gì cho bạn?", "send": "Gửi tin nhắn", "sent": "Cảm ơn — chúng tôi sẽ sớm liên lạc lại.",
+      "professorsTitle": "Bạn là giáo sư?",
+      "professorsBody": "Chúng tôi xác minh tài khoản giáo sư trước khi phòng thí nghiệm được công khai. Nếu trường của bạn dùng tên miền email mà chúng tôi chưa nhận ra, hãy cho chúng tôi biết tại đây.",
+      "privacy": "Chúng tôi chỉ dùng thông tin của bạn để trả lời tin nhắn này."
+    }
+  }
+}

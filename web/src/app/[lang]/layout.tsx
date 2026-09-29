@@ -39,6 +39,9 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
     title: { default: t("meta.homeTitle"), template: `%s · ${BRAND}` },
     description: t("meta.homeDescription"),
     applicationName: BRAND,
+    // Home-screen name on iOS, and stop iOS from turning h-indexes, counts and dates into blue phone-number links.
+    appleWebApp: { capable: true, title: BRAND, statusBarStyle: "default" },
+    formatDetection: { telephone: false, email: false, address: false },
     openGraph: { siteName: BRAND, type: "website", locale: localeInfo(lang).intl.replace("-", "_") },
   };
 }

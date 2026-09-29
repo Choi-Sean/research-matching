@@ -57,7 +57,7 @@ export default function ApplicationsPage() {
             <Card key={a.id} className="p-5">
               <div className="flex flex-wrap items-start gap-4">
                 <Avatar name={a.position.lab.owner_name} size={44} />
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 basis-48">
                   <Link href={`/positions/${a.position_id}`} className="font-semibold text-ink hover:text-brand-text">
                     {a.position.title}
                   </Link>
@@ -74,9 +74,12 @@ export default function ApplicationsPage() {
                   <Badge tone={APP_TONE[a.status]}>{labels.appStatus(a.status)}</Badge>
                 </div>
               </div>
-              <p className="mt-4 line-clamp-3 rounded-xl bg-surface-2/70 p-3.5 text-sm leading-relaxed text-muted" dir="auto">
-                “{a.message}”
-              </p>
+              {/* The clamp lives on the inner text: on the padded box itself a fourth line peeks out through the padding. */}
+              <div className="mt-4 rounded-xl bg-surface-2/70 p-3.5">
+                <p className="line-clamp-3 text-sm leading-relaxed text-muted" dir="auto">
+                  “{a.message}”
+                </p>
+              </div>
               {a.status === "pending" && (
                 <div className="mt-4 flex justify-end">
                   <Button variant="ghost" size="sm" loading={busy === a.id} onClick={() => withdraw(a.id)}>

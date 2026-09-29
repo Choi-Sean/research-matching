@@ -6,9 +6,11 @@ import { Slot } from "radix-ui";
 import type { ButtonHTMLAttributes } from "react";
 import { cn } from "@/lib/cn";
 
+// Text sizes use min-height so a long label (German, Russian …) can wrap on a phone instead of running off the screen;
+// on touch screens every size grows to a comfortable 44px target.
 export const buttonVariants = cva(
   [
-    "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl font-medium select-none",
+    "inline-flex items-center justify-center gap-2 rounded-xl font-medium select-none max-sm:text-center max-sm:whitespace-normal sm:whitespace-nowrap",
     "transition-[background-color,color,box-shadow,transform,border-color] duration-200 ease-out",
     "disabled:pointer-events-none disabled:opacity-50 active:scale-[0.985] [&_svg]:size-4 [&_svg]:shrink-0",
   ],
@@ -24,11 +26,11 @@ export const buttonVariants = cva(
         link: "h-auto rounded-md p-0 text-brand-text underline-offset-4 hover:underline",
       },
       size: {
-        sm: "h-9 px-3.5 text-sm",
-        md: "h-11 px-5 text-sm",
-        lg: "h-[3.25rem] px-7 text-base",
-        icon: "size-10",
-        iconSm: "size-8 rounded-lg",
+        sm: "min-h-9 px-3.5 py-1.5 text-sm pointer-coarse:min-h-11",
+        md: "min-h-11 px-5 py-2.5 text-sm",
+        lg: "min-h-[3.25rem] px-7 py-3 text-base",
+        icon: "size-10 shrink-0 pointer-coarse:size-11",
+        iconSm: "size-8 shrink-0 rounded-lg pointer-coarse:size-11",
       },
     },
     defaultVariants: { variant: "primary", size: "md" },

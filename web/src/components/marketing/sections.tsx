@@ -59,7 +59,7 @@ export function Hero() {
       <Container className="pt-16 pb-20 text-center sm:pt-24 sm:pb-28">
         <Link
           href="/ai-match"
-          className="animate-fade-up group mx-auto inline-flex items-center gap-2 rounded-full border border-line bg-surface/80 py-1.5 ps-2 pe-3.5 text-sm text-muted shadow-sm backdrop-blur transition-colors hover:border-brand/40 hover:text-ink"
+          className="animate-fade-up group mx-auto inline-flex items-center gap-2 rounded-full border border-line bg-surface/80 py-1.5 ps-2 pe-3.5 text-sm text-muted shadow-sm backdrop-blur transition-colors hover:border-brand/40 hover:text-ink pointer-coarse:py-2"
         >
           <span className="grid size-6 place-items-center rounded-full bg-accent-soft text-accent-text">
             <Sparkles className="size-3.5" />

@@ -80,7 +80,7 @@ export function AdminView() {
               {professors.data.map((p) => (
                 <Card key={p.id} className="flex flex-wrap items-center gap-4 p-5">
                   <Avatar name={p.full_name} size={42} />
-                  <div className="min-w-0 flex-1">
+                  <div className="min-w-0 flex-1 basis-48">
                     <p className="font-semibold text-ink">{p.full_name}</p>
                     <p className="text-sm text-muted" dir="ltr">{p.email}</p>
                     <p className="mt-0.5 text-xs text-faint">

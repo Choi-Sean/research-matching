@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "Ringkasan", "matches": "Pencocokan AI", "talent": "Cari mahasiswa", "applications": "Lamaran", "invitations": "Undangan", "outreach": "Pelacak kontak", "saved": "Tersimpan",
+      "profile": "Profil saya", "billing": "Paket & penagihan", "settings": "Pengaturan", "positions": "Posisi", "lab": "Laboratorium & riset", "admin": "Admin"
+    },
+    "greeting": "Halo, {name}", "welcomeProfessor": "Selamat datang, {name}",
+    "overview": {
+      "studentSubtitle": "Beginilah perkembangan pencarian riset Anda.", "professorSubtitle": "Kelola laboratorium, posisi, dan pelamar Anda.", "findPositions": "Cari posisi", "newPosition": "Posisi baru",
+      "applications": "Lamaran", "inReview": "Sedang ditinjau", "accepted": "Diterima", "invitations": "Undangan", "openPositions": "Posisi dibuka", "applicants": "Pelamar", "lab": "Laboratorium",
+      "live": "Tayang", "notSetUp": "Belum diatur", "completeTitle": "Lengkapi profil Anda",
+      "completeBody": "Profesor melihat profil Anda pada setiap lamaran, dan pencocokan makin tajam semakin banyak yang Anda bagikan.", "completeCta": "Perbarui profil",
+      "discoverTitle": "Biarkan profesor menemukan Anda",
+      "discoverBody": "Aktifkan keterlihatan agar profesor terverifikasi dapat mengundang Anda melamar. Email Anda tetap privat sampai Anda membalas.", "discoverCta": "Pilih di profil",
+      "recentApplications": "Lamaran terbaru", "noApplications": "Anda belum melamar.", "browse": "Telusuri posisi yang dibuka", "matchTitle": "Kecocokan terbaik Anda",
+      "matchBody": "Lihat posisi dan profesor yang diurutkan berdasarkan seberapa cocok dengan Anda.", "matchCta": "Buka Pencocokan AI", "yourPositions": "Posisi Anda", "noPositions": "Belum ada posisi.",
+      "createLabTitle": "Atur laboratorium Anda untuk mulai merekrut", "createLabBody": "Mahasiswa melihat profil laboratorium dan riset Anda pada setiap posisi yang Anda posting.", "createLabCta": "Buat profil laboratorium",
+      "unverifiedTitle": "Akun Anda menunggu verifikasi", "unverifiedBody": "Kami meninjau akun profesor sebelum laboratorium dan posisi dipublikasikan. Sementara itu, Anda dapat menyiapkan semuanya.",
+      "talentTitle": "Temukan mahasiswa yang cocok", "talentBody": "Gambarkan mahasiswa ideal dan biarkan AI mengurutkan mahasiswa yang bersedia.", "talentCta": "Cari mahasiswa",
+      "pendingInvitations_other": "Anda memiliki {count} undangan yang menunggu", "viewInvitations": "Lihat undangan",
+      "applicantsCount_other": "{count} pelamar", "newForYou": "Baru untuk Anda"
+    },
+    "profile": {
+      "title": "Profil saya", "subtitle": "Profesor melihat ini bersama lamaran Anda, dan Pencocokan AI menggunakannya untuk menemukan kecocokan Anda.", "strength": "Kekuatan profil",
+      "basics": "Dasar-dasar", "university": "Universitas", "major": "Jurusan", "year": "Tahun", "selectYear": "Pilih…", "about": "Tentang Anda", "bio": "Bio singkat",
+      "bioHint": "Siapa Anda, dan apa yang membuat Anda penasaran?", "skills": "Keahlian", "skillsHint": "Pisahkan dengan koma, mis. Python, PyTorch, R, keselamatan laboratorium",
+      "interests": "Minat riset", "interestsHint": "Topik yang ingin Anda kerjakan, mis. visi komputer, nasib sel.",
+      "experience": "Apa yang sudah Anda lakukan", "experienceHint": "Proyek, mata kuliah, riset sebelumnya — makin konkret, makin baik kecocokannya.",
+      "availability": "Jam per minggu yang dapat Anda sisihkan", "workStyle": "Cara Anda suka bekerja", "workStyleHint": "Geser setiap tuas ke posisi yang paling nyaman bagi Anda. Ini digunakan untuk membandingkan Anda dengan laboratorium.",
+      "links": "Tautan", "resume": "Tautan CV", "resumeHint": "Tautan ke PDF (Drive, Dropbox, situs Anda).", "website": "Situs pribadi", "github": "Profil GitHub",
+      "visibility": "Keterlihatan", "discoverable": "Izinkan profesor terverifikasi menemukan saya",
+      "discoverableDesc": "Profesor dapat melihat profil Anda dan mengundang Anda melamar. Email Anda tetap privat sampai Anda membalas. Anda dapat mematikannya kapan saja.",
+      "save": "Simpan profil", "saved": "Profil tersimpan", "welcome": "Selamat datang di Labora! Ceritakan tentang diri Anda untuk mendapat kecocokan yang lebih baik."
+    },
+    "applications": {
+      "title": "Lamaran", "subtitle": "Semua yang pernah Anda lamar, di satu tempat.", "emptyTitle": "Belum ada lamaran", "emptyBody": "Saat Anda melamar sebuah posisi, posisi itu muncul di sini agar Anda dapat memantau statusnya.",
+      "browse": "Telusuri posisi", "applied": "Dilamar {when}", "withdraw": "Tarik", "withdrawConfirm": "Tarik lamaran ini?", "withdrawn": "Lamaran ditarik",
+      "invited": "Diundang", "decided": "Diputuskan {when}"
+    },
+    "invitations": {
+      "title": "Undangan", "subtitleStudent": "Profesor yang ingin Anda melamar.", "subtitleProfessor": "Mahasiswa yang telah Anda undang.", "emptyStudentTitle": "Belum ada undangan",
+      "emptyStudentBody": "Aktifkan keterlihatan di profil Anda agar profesor terverifikasi dapat mengundang Anda.", "emptyProfessorTitle": "Anda belum mengundang siapa pun",
+      "emptyProfessorBody": "Gunakan «Cari mahasiswa» untuk menemukan mahasiswa yang cocok dengan laboratorium Anda.", "from": "Dari {name}", "to": "Untuk {name}", "match": "Kecocokan {score}%",
+      "accept": "Terima & lamar", "decline": "Tolak", "replyPlaceholder": "Tambahkan catatan untuk profesor (opsional)", "accepted": "Anda menerima — sebuah lamaran telah dibuat.", "declined": "Undangan ditolak",
+      "withdraw": "Tarik undangan", "receivedAgo": "Dikirim {when}", "findStudents": "Cari mahasiswa"
+    },
+    "outreach": {
+      "title": "Pelacak kontak", "subtitle": "Catat siapa yang telah Anda hubungi, kapan menindaklanjuti, dan apa yang terjadi.", "emptyTitle": "Belum ada yang dilacak",
+      "emptyBody": "Tambahkan peneliti dari profil mereka untuk memantau kontak Anda dan mendapat tanggal tindak lanjut.", "find": "Cari profesor", "followUpDue": "Tindak lanjut {when}",
+      "overdue": "Tindak lanjut terlambat", "sentOn": "Dikirim {date}", "repliedOn": "Dibalas {date}", "notes": "Catatan", "notesPlaceholder": "Apa pun yang perlu diingat…",
+      "status": "Status", "remove": "Hapus", "removeConfirm": "Hapus peneliti ini dari pelacak Anda?", "planFollowUp": "Rencanakan tindak lanjut",
+      "helpTitle": "Catatan Anda membantu semua orang",
+      "helpBody": "Tingkat balasan yang ditampilkan pada profil peneliti berasal dari catatan kontak anonim dan teragregasi seperti milik Anda — tidak ada entri individual yang pernah ditampilkan.",
+      "stats": { "total": "Dilacak", "sent": "Terkirim", "replied": "Dibalas", "due": "Tindak lanjut jatuh tempo" }
+    },
+    "saved": {
+      "title": "Tersimpan", "subtitle": "Peneliti dan posisi yang Anda tandai.", "professors": "Peneliti", "positions": "Posisi",
+      "emptyProfessors": "Belum ada peneliti tersimpan", "emptyProfessorsBody": "Ketuk penanda pada peneliti mana pun untuk menambahkannya ke daftar Anda.",
+      "emptyPositions": "Belum ada posisi tersimpan", "emptyPositionsBody": "Ketuk penanda pada sebuah posisi untuk menyimpannya nanti."
+    },
+    "billing": {
+      "title": "Paket & penagihan", "subtitle": "Akses, penggunaan, dan hadiah referral Anda.", "currentPlan": "Paket saat ini",
+      "plan": { "free": "Gratis", "weekly": "Sprint mingguan", "semester": "Paket semester", "lifetime": "Seumur hidup" },
+      "activeUntil": "Aktif hingga {date}", "lifetimeNote": "Anda memiliki akses seumur hidup.", "freeNote": "Anda berada di paket gratis.", "upgrade": "Lihat paket",
+      "usage": "Jatah gratis", "usageItem": "{used} dari {limit} terpakai", "unlimited": "Tanpa batas",
+      "features": { "summary": "Ringkasan profesor", "email_check": "Pemeriksaan email", "follow_up": "Rencana tindak lanjut", "match_positions": "Kecocokan posisi", "match_professors": "Kecocokan profesor" },
+      "referral": "Ajak teman", "referralBody": "Bagikan kode Anda. Saat teman mendaftar dengan kode itu, kalian berdua mendapat {days} hari Pro.", "yourCode": "Kode Anda",
+      "copyCode": "Salin kode", "copyLink": "Salin tautan undangan", "copied": "Tersalin", "redeemed_other": "{count} teman bergabung dengan kode Anda",
+      "redeem": "Punya kode dari teman?", "redeemPlaceholder": "Masukkan kode", "redeemCta": "Tukarkan", "redeemedOk": "Kode ditukarkan — {days} hari Pro ditambahkan.",
+      "checkoutSuccess": "Terima kasih! Paket Anda akan segera aktif.", "devMode": "Pembayaran belum terhubung di lingkungan ini — paket langsung aktif untuk pengujian."
+    },
+    "settings": {
+      "title": "Pengaturan", "subtitle": "Akun, bahasa, dan keamanan Anda.", "account": "Akun", "name": "Nama lengkap", "email": "Email", "emailNote": "Email Anda tidak dapat diubah.",
+      "language": "Bahasa", "languageHint": "Juga digunakan untuk ringkasan dan masukan yang ditulis AI.", "saveChanges": "Simpan perubahan", "saved": "Pengaturan tersimpan",
+      "password": "Kata sandi", "currentPassword": "Kata sandi saat ini", "newPassword": "Kata sandi baru", "changePassword": "Ubah kata sandi", "passwordChanged": "Kata sandi diperbarui",
+      "danger": "Hapus akun", "dangerBody": "Ini menghapus secara permanen profil, lamaran, dan semua yang terkait dengan akun Anda. Tindakan ini tidak dapat dibatalkan.",
+      "dangerConfirm": "Masukkan kata sandi Anda untuk mengonfirmasi", "deleteCta": "Hapus akun saya", "deleted": "Akun Anda telah dihapus."
+    },
+    "lab": {
+      "title": "Laboratorium & riset", "subtitle": "Inilah yang dilihat mahasiswa saat mempertimbangkan posisi Anda.", "createTitle": "Buat laboratorium Anda", "profileTitle": "Profil laboratorium",
+      "name": "Nama laboratorium", "university": "Universitas", "department": "Departemen", "description": "Deskripsi", "descriptionHint": "Apa yang dikerjakan laboratorium Anda? Buat mudah dipahami mahasiswa sarjana.",
+      "keywords": "Kata kunci riset", "keywordsHint": "Pisahkan dengan koma", "website": "Situs laboratorium", "culture": "Seperti apa bekerja di sini",
+      "cultureHint": "Gaya bimbingan, ritme pertemuan, apa yang menjadi tanggung jawab mahasiswa. Mahasiswa menghargai kejujuran.", "teamSize": "Ukuran tim", "workStyle": "Cara kerja laboratorium Anda",
+      "workStyleHint": "Digunakan untuk membandingkan gaya kerja dengan mahasiswa.", "openalex": "ID penulis OpenAlex", "openalexHint": "Opsional. Menautkan laboratorium Labora Anda ke profil publikasi Anda (diawali huruf A…).",
+      "saveLab": "Simpan laboratorium", "createLab": "Buat laboratorium", "created": "Laboratorium dibuat — sekarang tambahkan materi riset dan posting sebuah posisi.", "updated": "Laboratorium diperbarui",
+      "materials": "Materi riset", "materialsHint": "Bagikan makalah, dataset, atau poster agar mahasiswa mengenal karya Anda.", "nothingShared": "Belum ada yang dibagikan.",
+      "addMaterial": "Tambah materi", "materialTitle": "Judul", "materialType": "Jenis", "materialLink": "Tautan", "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Deskripsi singkat", "removeMaterial": "Hapus materi ini?", "verificationTitle": "Verifikasi tertunda",
+      "verificationBody": "Laboratorium Anda menjadi publik setelah kami memverifikasi akun profesor Anda. Tambahkan situs laboratorium untuk mempercepatnya."
+    },
+    "positions": {
+      "title": "Posisi", "subtitle": "Lowongan Anda dan siapa yang telah melamar.", "new": "Posisi baru", "emptyTitle": "Belum ada posisi", "emptyBody": "Posting sebuah posisi dan mulai menerima lamaran.",
+      "emptyLab": "Buat profil laboratorium Anda terlebih dahulu.", "post": "Posting posisi pertama Anda", "open": "Dibuka", "closed": "Ditutup", "close": "Tutup", "reopen": "Buka kembali",
+      "edit": "Ubah", "delete": "Hapus", "deleteConfirm": "Hapus posisi ini? Tindakan ini tidak dapat dibatalkan.", "applicants": "Pelamar", "postedAgo": "Diposting {when}",
+      "viewPublic": "Lihat halaman publik", "newTitle": "Posisi baru", "newSubtitle": "Jelaskan posisinya. Anda dapat mengubahnya kapan saja.", "editTitle": "Ubah posisi",
+      "needLab": "Anda perlu profil laboratorium sebelum memposting.", "createLab": "Buat laboratorium Anda", "noApplicants": "Belum ada pelamar",
+      "noApplicantsBody": "Bagikan posisi Anda atau undang mahasiswa yang cocok lewat «Cari mahasiswa».", "decline": "Tolak", "accept": "Terima", "email": "Email pelamar", "resume": "CV",
+      "invitedBadge": "Diundang oleh Anda", "profileIncomplete": "Profil belum lengkap",
+      "form": {
+        "title": "Judul posisi", "titlePlaceholder": "Asisten riset sarjana: visi swa-awasan", "description": "Deskripsi", "descriptionHint": "Apa yang akan dikerjakan mahasiswa? Apa yang akan dipelajari?",
+        "requirements": "Persyaratan", "requirementsHint": "Mata kuliah atau pengalaman (opsional)", "skills": "Keahlian yang dibutuhkan", "skillsHint": "Pisahkan dengan koma — digunakan untuk pencocokan, mis. python, pytorch",
+        "compensation": "Kompensasi", "hours": "Jam / minggu", "term": "Periode", "location": "Lokasi", "slots": "Kuota", "deadline": "Lamar sebelum", "keywords": "Kata kunci",
+        "keywordsHint": "Membantu mahasiswa menemukan posisi Anda", "publish": "Terbitkan posisi", "saveChanges": "Simpan perubahan", "saved": "Posisi tersimpan", "notSpecified": "Tidak ditentukan"
+      }
+    },
+    "admin": {
+      "title": "Admin", "subtitle": "Verifikasi profesor dan tinjau apa yang dikirim orang.", "overview": "Ringkasan",
+      "stats": {
+        "users": "Pengguna", "students": "Mahasiswa", "professors": "Profesor", "pending_professors": "Menunggu verifikasi", "labs": "Laboratorium", "open_positions": "Posisi dibuka",
+        "applications": "Lamaran", "invitations": "Undangan", "feedback": "Kiriman masukan", "waitlist": "Daftar tunggu", "paid_users": "Pengguna berbayar"
+      },
+      "verification": "Verifikasi profesor", "onlyPending": "Hanya yang menunggu", "verify": "Verifikasi", "unverify": "Cabut", "verifiedAt": "Terverifikasi", "pendingBadge": "Menunggu", "lab": "Laboratorium",
+      "waitlist": "Daftar tunggu", "contact": "Pesan kontak", "empty": "Belum ada apa-apa di sini.", "notAdmin": "Area ini hanya untuk administrator.",
+      "verifiedToast": "Profesor terverifikasi", "revokedToast": "Verifikasi dicabut"
+    }
+  }
+}

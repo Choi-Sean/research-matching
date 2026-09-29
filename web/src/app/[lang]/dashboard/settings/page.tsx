@@ -137,7 +137,7 @@ export default function SettingsPage() {
                   <Input type="password" value={delPw} onChange={(e) => setDelPw(e.target.value)} dir="ltr" />
                 </Field>
                 {delError && <Alert>{delError}</Alert>}
-                <div className="flex justify-end gap-2">
+                <div className="flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
                   <DialogClose asChild>
                     <Button variant="ghost">{t("common.cancel")}</Button>
                   </DialogClose>

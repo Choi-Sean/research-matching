@@ -1,0 +1,184 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Mới: ghép đôi bằng AI cho sinh viên và phòng thí nghiệm",
+      "title": "Tìm vị giáo sư <em>phù hợp với bạn.</em>",
+      "subtitle": "Tìm trong kho học thuật toàn cầu, hiểu công trình của bất kỳ nhà nghiên cứu nào bằng ngôn ngữ dễ hiểu, và được ghép đôi với những phòng thí nghiệm phù hợp với kỹ năng và cách làm việc của bạn.",
+      "modeInterest": "Theo sở thích", "modeName": "Theo tên", "interestLabel": "Lĩnh vực quan tâm", "interestPlaceholder": "vd: khoa học thần kinh tính toán",
+      "nameLabel": "Tên nhà nghiên cứu", "namePlaceholder": "vd: Jane Smith", "universityLabel": "Trường đại học", "universityPlaceholder": "vd: MIT, Stanford…",
+      "search": "Tìm giáo sư", "try": "Thử",
+      "trust": "Xây dựng trên dữ liệu học thuật mở: {works} bài báo · {institutions} tổ chức",
+      "trustFallback": "Xây dựng trên dữ liệu học thuật mở: hơn 300 triệu bài báo · hơn 140 nghìn tổ chức",
+      "ex": { "ml": "Học máy", "neuro": "Khoa học thần kinh", "genomics": "Hệ gen học", "climate": "Khoa học khí hậu", "quantum": "Tính toán lượng tử", "psych": "Tâm lý học" },
+      "modeLabel": "Tìm theo"
+    },
+    "mock": {
+      "preview": "Xem trước minh họa", "results": "Nhà nghiên cứu", "summary": "Tóm tắt dễ hiểu",
+      "summaryBody": "Nghiên cứu cách máy móc học nhìn chỉ với rất ít ví dụ được gán nhãn, để robot nhận biết và nhặt được những đồ vật hằng ngày mà nó chưa từng gặp.",
+      "keyFinding": "Phát hiện chính", "keyFindingBody": "Một phương pháp tự giám sát đã giảm 80% số ảnh gán nhãn cần thiết để phát hiện điểm nắm (2025).",
+      "starters": "Những câu hỏi đáng hỏi", "starter1": "Nhóm đã chọn những vật thể nào để thử nghiệm, và chọn thế nào?", "starter2": "Phương pháp có còn hiệu quả bên ngoài phòng thí nghiệm không?",
+      "save": "Lưu", "writeEmail": "Viết email", "match": "Độ phù hợp", "whyFit": "Vì sao bạn phù hợp",
+      "reasonTopics": "Chủ đề chung: thị giác máy tính, PyTorch", "reasonStyle": "Phong cách làm việc tương đồng: độc lập, nhịp độ nhanh", "gap": "Khoảng trống: đại số tuyến tính",
+      "emailScore": "Điểm email", "emailFlags": "2 điều cần sửa", "hIndex": "chỉ số h", "papers": "bài báo",
+      "flagFlattery": "Nịnh nọt", "flagGeneric": "Cụm từ chung chung", "mustHave": "Bắt buộc", "niceToHave": "Nên có", "invite": "Mời",
+      "idealStudent": "Ứng viên lý tưởng", "followUpOn": "Nhắc lại vào {date}", "tracker": "Sổ theo dõi liên hệ", "openPositions": "Vị trí đang mở", "apply": "Ứng tuyển"
+    },
+    "marquee": { "label": "Nhà nghiên cứu từ các tổ chức như" },
+    "problem": {
+      "eyebrow": "Vấn đề", "title": "Phần lớn email gửi giáo sư <em>chẳng bao giờ được đọc.</em>",
+      "description": "Sinh viên gửi email chung chung cho sai người vào sai thời điểm, còn giáo sư chỉ có vài giây để quyết định. Đây là những điều thường xảy ra.",
+      "generic": { "title": "Email nghe giống hệt của mọi người", "body": "Lời nịnh nọt và câu sáo rỗng rất dễ bị nhận ra. Một câu hỏi cụ thể về công trình thật sẽ nổi bật." },
+      "who": { "title": "Không biết ai đang nhận sinh viên", "body": "Trang giảng viên thường lỗi thời, và những phòng thí nghiệm đang tuyển hiếm khi thông báo ở nơi sinh viên tìm." },
+      "read": { "title": "Đọc bài báo mất hàng giờ", "body": "Bạn phải hiểu công trình trước khi viết được điều gì cụ thể — nhưng phần tóm tắt lại rất cô đặc." }
+    },
+    "features": {
+      "eyebrow": "Nền tảng", "title": "Mọi thứ giữa «tôi tò mò» và «tôi đã vào phòng thí nghiệm»",
+      "description": "Một nơi để tìm người, hiểu công trình của họ, liên hệ đúng cách và theo dõi mọi thứ.",
+      "discover": { "title": "Tìm trong kho học thuật", "body": "Nhập bất kỳ sở thích nào và một trường đại học. Chúng tôi hiển thị các nhà nghiên cứu đang công bố tích cực về đó — người thật, bài báo thật." },
+      "summaries": { "title": "Tóm tắt bằng ngôn ngữ dễ hiểu", "body": "Mỗi nhà nghiên cứu có một đoạn giải thích ngắn về những gì họ nghiên cứu và một phát hiện gần đây, viết cho người mới với lĩnh vực." },
+      "email": { "title": "Huấn luyện viên viết email, không phải người viết thuê", "body": "Dán bản nháp của bạn để xem những cụm từ nào nghe chung chung, nịnh nọt hoặc mơ hồ — và vì sao. Giọng văn vẫn là của bạn." },
+      "match": { "title": "Ghép đôi AI hai chiều", "body": "Sinh viên thấy các phòng thí nghiệm và giáo sư phù hợp với kỹ năng và phong cách làm việc. Giáo sư mô tả sinh viên lý tưởng và thấy ai phù hợp." },
+      "positions": { "title": "Vị trí từ các phòng thí nghiệm đã xác minh", "body": "Xem các vị trí do giáo sư đăng trực tiếp, đọc nghiên cứu của họ trước, rồi ứng tuyển chỉ trong một bước." },
+      "tracker": { "title": "Sổ theo dõi liên hệ biết nhắc bạn", "body": "Ghi lại bạn đã gửi email cho ai và chuyện gì xảy ra. Nhận ngày nhắc lại để không bỏ sót điều gì." }
+    },
+    "how": {
+      "eyebrow": "Cách hoạt động", "title": "Từ sự tò mò đến một cuộc trò chuyện thật sự",
+      "s1": { "title": "Tìm kiếm", "body": "Nhập một sở thích và một trường đại học, hoặc tên một nhà nghiên cứu." },
+      "s2": { "title": "Tìm hiểu", "body": "Đọc bản tóm tắt dễ hiểu, các bài báo gần đây và những câu hỏi hay để đặt ra." },
+      "s3": { "title": "Liên hệ", "body": "Tự viết email của bạn, kiểm tra và gửi đi một cách tự tin." },
+      "s4": { "title": "Nhắc lại", "body": "Theo dõi phản hồi và gửi hai email nhắc lại đúng thời điểm." }
+    },
+    "match": {
+      "eyebrow": "Ghép đôi AI", "title": "Phù hợp về kỹ năng — và cả <em>cách bạn làm việc.</em>",
+      "description": "Trùng chủ đề mới chỉ là một nửa câu chuyện. Labora còn so sánh phong cách làm việc: bạn thích độc lập đến đâu, hợp tác thế nào, nhịp độ nào và mức cấu trúc nào giúp ích cho bạn.",
+      "students": "Dành cho sinh viên", "s1": "Vị trí và giáo sư được xếp hạng, mỗi mục kèm lý do rõ ràng", "s2": "Thấy khoảng trống của mình và cách nổi bật", "s3": "Bạn quyết định giáo sư được thấy gì",
+      "professors": "Dành cho giáo sư", "p1": "Mô tả sinh viên lý tưởng — hoặc để AI soạn nháp từ vị trí của bạn", "p2": "Xem các sinh viên đã đồng ý hiển thị, xếp hạng kèm lý do", "p3": "Mời những người phù hợp nhất chỉ bằng một tin nhắn",
+      "privacy": "Việc hiển thị của sinh viên là tùy chọn và có thể tắt bất cứ lúc nào. Thông tin liên hệ không bao giờ hiển thị cho giáo sư cho đến khi sinh viên đồng ý.",
+      "cta": "Khám phá Ghép đôi AI", "styleTitle": "Phong cách làm việc", "candidate": "Ứng viên", "you": "Bạn", "lab": "Phòng thí nghiệm"
+    },
+    "compare": {
+      "title": "Sao không hỏi thẳng chatbot?", "description": "Chatbot đa năng viết rất tốt, nhưng chúng không phải danh bạ của những con người thật.",
+      "colChatbot": "Chatbot đa năng", "colLabora": "Labora",
+      "r1": "Người và bài báo đến từ đâu", "r1a": "Sinh ra từ trí nhớ — có thể bịa ra giáo sư, bài báo và con số.", "r1b": "Lấy từ kho học thuật (OpenAlex). Không có gì bịa đặt.",
+      "r2": "Ai viết email của bạn", "r2a": "Thường viết thay bạn, và giáo sư nhận ra điều đó.", "r2b": "Bạn tự viết. Labora chỉ cho bạn biết cần sửa gì.",
+      "r3": "Tốn bao nhiêu công sức", "r3a": "Nhiều câu lệnh để tìm, đọc và so sánh các nhà nghiên cứu.", "r3b": "Một lần tìm: nhà nghiên cứu, bản tóm tắt và nhận xét email cùng lúc."
+    },
+    "professors": {
+      "eyebrow": "Dành cho giáo sư", "title": "Tuyển những sinh viên <em>thật sự phù hợp.</em>",
+      "description": "Đăng vị trí, chia sẻ nghiên cứu và để AI đưa ra những sinh viên có kỹ năng và phong cách làm việc phù hợp với phòng thí nghiệm của bạn.",
+      "b1": "Miễn phí cho giảng viên đã xác minh", "b2": "Giới thiệu bài báo, bộ dữ liệu và poster", "b3": "Xem hồ sơ ứng tuyển và lời mời ở một nơi", "cta": "Đăng vị trí"
+    },
+    "stats": {
+      "eyebrow": "Xây dựng trên dữ liệu mở", "title": "Một danh bạ thật, không phải do máy tạo ra",
+      "works": "Công trình học thuật được lập chỉ mục", "institutions": "Tổ chức trên toàn thế giới", "researchers": "Nhà nghiên cứu", "labs": "Phòng thí nghiệm trên Labora", "positions": "Vị trí đang mở",
+      "attribution": "Siêu dữ liệu học thuật do OpenAlex cung cấp."
+    },
+    "pricing": {
+      "title": "Bắt đầu miễn phí. Nâng cấp khi bạn sẵn sàng.",
+      "description": "Tìm kiếm luôn miễn phí. Các gói mở khóa công cụ tìm email, tóm tắt không giới hạn và kiểm tra email không giới hạn trong bao lâu tùy nhu cầu của bạn.",
+      "cta": "Xem các gói"
+    },
+    "faq": {
+      "title": "Giải đáp thắc mắc",
+      "q1": "Dữ liệu về nhà nghiên cứu đến từ đâu?",
+      "a1": "Từ OpenAlex, một danh mục mở về công trình học thuật toàn cầu. Chúng tôi chỉ hiển thị những người và bài báo có trong kho đó. Chúng tôi không bao giờ bịa ra giáo sư hay ấn phẩm.",
+      "q2": "Labora có viết email thay tôi không?",
+      "a2": "Không — và đó là chủ ý. Giáo sư nhận ra điều đó, và phản hồi thường dành cho những sinh viên viết bằng giọng của chính mình. Labora giúp bạn tìm người để viết, giải thích công trình của họ và nhận xét cụ thể về bản nháp của chính bạn.",
+      "q3": "Ghép đôi AI hoạt động thế nào?",
+      "a3": "Chúng tôi so sánh kỹ năng, sở thích, kinh nghiệm, thời gian rảnh và phong cách làm việc của bạn với các vị trí, phòng thí nghiệm và nhà nghiên cứu, rồi giải thích từng kết quả. Một AI thẩm định tinh chỉnh các kết quả hàng đầu. Chúng tôi không bao giờ dùng tên, trường, giới tính, quốc tịch hay các đặc điểm được bảo vệ khác.",
+      "q4": "Ai có thể xem hồ sơ của tôi?",
+      "a4": "Không ai cả, trừ khi bạn bật chế độ hiển thị. Khi đó chỉ giáo sư đã xác minh mới xem được hồ sơ của bạn — không bao giờ thấy email của bạn. Họ có thể mời bạn, và bạn quyết định có phản hồi hay không.",
+      "q5": "Giáo sư có bắt buộc phải có mặt trên Labora không?",
+      "a5": "Không. Bạn có thể tìm và liên hệ với các nhà nghiên cứu ở bất kỳ đâu trong kho học thuật. Những giáo sư tham gia có thể đăng vị trí, chia sẻ nghiên cứu và tìm sinh viên.",
+      "q6": "Chi phí là bao nhiêu?",
+      "a6": "Tìm kiếm miễn phí, và tài khoản miễn phí có một phần dùng thử các bản tóm tắt, kiểm tra email và ghép đôi AI. Các gói mở khóa việc dùng không giới hạn — xem Bảng giá."
+    },
+    "cta": { "title": "Vị trí nghiên cứu tiếp theo của bạn bắt đầu từ <em>một email tốt.</em>", "subtitle": "Tìm kiếm miễn phí — không cần thẻ.", "button": "Tìm giáo sư" }
+  },
+  "how": {
+    "eyebrow": "Cách hoạt động", "title": "Bốn bước từ sự tò mò đến một cuộc trò chuyện", "subtitle": "Labora được xây dựng quanh điều thực sự khiến giáo sư phản hồi.",
+    "s1": { "title": "Tìm trong kho học thuật", "body": "Nhập lĩnh vực quan tâm và một trường đại học — hoặc tên một nhà nghiên cứu. Chúng tôi hiển thị những người đang công bố tích cực về đó.", "b1": "Kết quả lấy từ cơ sở dữ liệu học thuật mở", "b2": "Lọc theo trường, sắp xếp theo mức hoạt động gần đây" },
+    "s2": { "title": "Hiểu công trình của họ", "body": "Đọc bản tóm tắt dễ hiểu, một phát hiện gần đây và những câu hỏi đáng hỏi — rồi lướt qua chính các bài báo.", "b1": "Bản tóm tắt viết cho người mới với lĩnh vực", "b2": "Bài báo mới nhất và được trích dẫn nhiều nhất trong nháy mắt" },
+    "s3": { "title": "Viết email để được đọc", "body": "Tự viết rồi kiểm tra. Chúng tôi làm nổi bật lời nịnh nọt, câu sáo rỗng và sự mơ hồ — và không bao giờ viết email thay bạn.", "b1": "Một khung mẫu và ví dụ có chú thích", "b2": "Nhận xét cụ thể, từng dòng một" },
+    "s4": { "title": "Nhắc lại và theo dõi", "body": "Ghi lại những người bạn đã liên hệ, nhận email nhắc lại đúng thời điểm và giữ mọi liên hệ ở một nơi.", "b1": "Hai bản nháp nhắc lại và lời nhắc trên lịch", "b2": "Sổ theo dõi liên hệ giữ điểm cho bạn" },
+    "cta": "Bắt đầu tìm kiếm", "ctaMatch": "Hoặc để AI tìm sự phù hợp cho bạn"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "Ghép đôi AI", "title": "Một sự ghép đôi hiểu <em>cách bạn làm việc.</em>",
+      "subtitle": "Labora so sánh nhiều hơn từ khóa. Nó xem xét kỹ năng, sở thích, thời gian rảnh và phong cách làm việc của bạn — rồi giải thích từng kết quả bằng ngôn ngữ dễ hiểu.",
+      "student": "Tìm lựa chọn phù hợp của tôi", "professor": "Tìm sinh viên lý tưởng của tôi", "signUp": "Tạo tài khoản miễn phí"
+    },
+    "signals": {
+      "eyebrow": "Cách hoạt động", "title": "Bốn tín hiệu, một điểm số có thể giải thích",
+      "topics": { "title": "Chủ đề", "body": "Mức độ sở thích, môn học và kinh nghiệm của bạn trùng với lĩnh vực mà một phòng thí nghiệm hoặc nhà nghiên cứu đang làm." },
+      "skills": { "title": "Kỹ năng", "body": "Bạn đã có những kỹ năng nào mà vị trí yêu cầu — và những kỹ năng nào bạn có thể rèn thêm." },
+      "style": { "title": "Phong cách làm việc", "body": "Tính độc lập, làm việc nhóm, nhịp độ và cấu trúc: bạn thích làm việc thế nào so với cách phòng thí nghiệm vận hành." },
+      "hours": { "title": "Thời gian rảnh", "body": "Số giờ bạn có thể dành ra có đáp ứng được kỳ vọng của vị trí hay không." }
+    },
+    "demo": {
+      "eyebrow": "Dùng thử", "title": "Xem cách ghép phong cách làm việc",
+      "description": "Kéo các núm theo cách bạn thích làm việc. Phòng thí nghiệm mẫu làm việc độc lập, hợp tác và nhịp độ nhanh, với công việc được xác định khá linh hoạt.",
+      "you": "Bạn", "lab": "Phòng thí nghiệm mẫu", "fit": "Độ hợp phong cách", "aligned": "Tương đồng ở: {items}", "differs": "Khác nhau ở: {items}", "none": "Kéo một núm để so sánh."
+    },
+    "directions": {
+      "title": "Hai chiều, một ý tưởng",
+      "students": { "title": "Dành cho sinh viên", "s1": "Điền kỹ năng, sở thích, kinh nghiệm và phong cách làm việc của bạn một lần.", "s2": "Nhận vị trí và giáo sư xếp theo độ phù hợp, mỗi mục kèm lý do và khoảng trống.", "s3": "Dùng mẹo «cách nổi bật» để viết hồ sơ hoặc email thuyết phục hơn." },
+      "professors": { "title": "Dành cho giáo sư", "s1": "Mô tả sinh viên lý tưởng — hoặc để AI soạn nháp từ vị trí và phòng thí nghiệm của bạn.", "s2": "Xem các sinh viên đã đồng ý hiển thị, xếp hạng kèm lý do và khoảng trống.", "s3": "Mời những người phù hợp nhất bằng một tin nhắn. Email của họ được giữ kín cho đến khi họ phản hồi." }
+    },
+    "trust": {
+      "eyebrow": "Công bằng ngay từ thiết kế", "title": "Bạn luôn nắm quyền kiểm soát",
+      "t1": { "title": "Hiển thị tùy chọn", "body": "Sinh viên chỉ có thể được tìm thấy nếu họ bật lên, và có thể tắt bất cứ lúc nào." },
+      "t2": { "title": "Thông tin liên hệ được giữ kín", "body": "Giáo sư không bao giờ thấy email của sinh viên cho đến khi sinh viên ứng tuyển hoặc chấp nhận lời mời." },
+      "t3": { "title": "Không dùng đặc điểm được bảo vệ", "body": "Tên, trường, giới tính, quốc tịch và các đặc điểm tương tự không bao giờ được dùng để chấm điểm bất kỳ ai." },
+      "t4": { "title": "Có lý do, không phải hộp đen", "body": "Mỗi điểm số cho thấy điều gì khớp và điều gì không, để bạn có thể không đồng tình." }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "q1": "Điểm số có phải là dự đoán rằng tôi sẽ được nhận không?",
+      "a1": "Không. Đó là chỉ dẫn về độ phù hợp, không phải dự đoán. Nhiều yếu tố ảnh hưởng đến quyết định thực tế — thời điểm, kinh phí và các ứng viên khác.",
+      "q2": "AI thực sự làm gì?",
+      "a2": "Trước hết chúng tôi tính một điểm số minh bạch từ các tín hiệu ở trên. Sau đó một AI thẩm định xem xét các kết quả hàng đầu, tinh chỉnh thứ hạng và viết lời giải thích. Nếu AI không khả dụng, bạn vẫn nhận được điểm số minh bạch.",
+      "q3": "Tôi có dùng Ghép đôi AI được khi chưa có hồ sơ không?",
+      "a3": "Bạn có thể chạy thử, nhưng kết quả sẽ tốt hơn nhiều với hồ sơ đầy đủ hơn. Chúng tôi sẽ cho bạn biết còn thiếu gì."
+    },
+    "cta": { "title": "Tìm những phòng thí nghiệm — và những người — phù hợp.", "button": "Bắt đầu miễn phí" }
+  },
+  "pricing": {
+    "eyebrow": "Bảng giá", "title": "Chọn gói phù hợp với học kỳ của bạn",
+    "subtitle": "Tìm kiếm nhà nghiên cứu luôn miễn phí. Các gói mở khóa những công cụ giúp bạn tiết kiệm thời gian nhất — thanh toán một lần, không đăng ký định kỳ, không tự động gia hạn.",
+    "plans": {
+      "free": { "name": "Miễn phí", "desc": "mãi mãi" },
+      "weekly": { "name": "Gói tuần", "desc": "Truy cập 1 tuần" },
+      "semester": { "name": "Gói học kỳ", "desc": "Truy cập 4 tháng", "badge": "Đáng giá nhất" },
+      "lifetime": { "name": "Trọn đời", "desc": "Của bạn mãi mãi" }
+    },
+    "cta": { "free": "Bắt đầu miễn phí", "weekly": "Bắt đầu gói tuần", "semester": "Lấy gói học kỳ", "lifetime": "Lấy quyền truy cập trọn đời", "current": "Gói hiện tại của bạn", "signIn": "Đăng nhập để tiếp tục" },
+    "features": {
+      "unlimited_search": "Tìm nhà nghiên cứu không giới hạn", "summaries_2": "2 bản tóm tắt dễ hiểu", "email_check_1": "1 lần kiểm tra email", "ai_match_3": "3 lượt ghép đôi AI",
+      "outreach_tracker": "Sổ theo dõi liên hệ", "positions_board": "Bảng vị trí đang mở", "everything_pro": "Mọi thứ trong gói Miễn phí, cùng với:",
+      "unlimited_summaries": "Tóm tắt không giới hạn", "email_finder": "Công cụ tìm email", "responsiveness": "Điểm mức độ phản hồi", "unlimited_checks": "Kiểm tra email và nhắc lại không giới hạn",
+      "playbook": "Cẩm nang email làm quen", "everything_semester": "Mọi thứ trong Gói học kỳ, cùng với:", "never_pay_again": "Không bao giờ phải trả thêm", "priority_features": "Dùng sớm các tính năng mới"
+    },
+    "payments": "Thanh toán được Stripe xử lý an toàn. Chúng tôi không bao giờ thấy thông tin thẻ của bạn.",
+    "devMode": "Môi trường này chưa kết nối thanh toán — các gói được kích hoạt ngay để bạn thử.",
+    "activated": "Gói của bạn đã được kích hoạt. Chúc bạn dùng vui!",
+    "cancelled": "Đã hủy thanh toán — bạn không bị tính phí.",
+    "referral": {
+      "title": "Rủ một người bạn, cả hai cùng nhận một tuần", "body": "Chia sẻ mã của bạn ở mục Gói & thanh toán. Khi bạn bè đăng ký bằng mã đó, cả hai cùng nhận 7 ngày Pro.",
+      "haveCode": "Bạn có mã của bạn bè không?", "placeholder": "Nhập mã", "redeem": "Nhập mã", "redeemed": "Đã nhập mã — thêm 7 ngày Pro.", "signIn": "Đăng nhập để nhập mã"
+    },
+    "waitlist": {
+      "title": "Sắp có gói đảm bảo phản hồi", "body": "Chúng tôi đang nghiên cứu một gói xoay quanh việc giúp bạn có những cuộc trò chuyện thật sự. Tham gia danh sách chờ và chúng tôi sẽ báo bạn đầu tiên.",
+      "placeholder": "you@university.edu", "join": "Tham gia danh sách chờ", "joined": "Bạn đã có trong danh sách. Cảm ơn bạn!"
+    },
+    "faq": {
+      "title": "Câu hỏi về thanh toán",
+      "q1": "Đây có phải là gói đăng ký định kỳ không?", "a1": "Không. Mỗi gói là một lần thanh toán. Không có gì tự động gia hạn, nên không có gì để hủy.",
+      "q2": "Điều gì xảy ra khi gói của tôi hết hạn?", "a2": "Bạn giữ lại tài khoản, các nhà nghiên cứu đã lưu và sổ theo dõi. Bạn chỉ quay về hạn mức miễn phí.",
+      "q3": "Tôi có cần mua gói để tìm kiếm hoặc ứng tuyển không?", "a3": "Không. Tìm nhà nghiên cứu, xem vị trí và ứng tuyển luôn miễn phí.",
+      "q4": "Giáo sư có phải trả phí không?", "a4": "Không. Giáo sư đã xác minh đăng vị trí, chia sẻ nghiên cứu và tìm sinh viên miễn phí.",
+      "q5": "Tôi liên hệ ai về vấn đề thanh toán?", "a5": "Hãy dùng trang liên hệ và chúng tôi sẽ phản hồi bạn."
+    }
+  }
+}

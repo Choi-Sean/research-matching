@@ -27,16 +27,18 @@ export function DialogContent({
   return (
     <DialogPrimitive.Portal>
       <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-[var(--overlay)] backdrop-blur-[2px] data-[state=open]:animate-[fade-in_0.2s_ease-out]" />
-      <div className="pointer-events-none fixed inset-0 z-50 grid place-items-center p-4">
+      {/* Phones get a bottom sheet (thumb reach, keyboard-friendly); from sm up it is the centred card. */}
+      <div className="pointer-events-none fixed inset-0 z-50 grid place-items-end sm:place-items-center sm:p-4">
         <DialogPrimitive.Content
           className={cn(
-            "pointer-events-auto relative max-h-[88vh] w-full max-w-lg overflow-y-auto",
-            "rounded-2xl border border-line bg-surface p-6 shadow-pop focus:outline-none",
-            "data-[state=open]:animate-[dialog-in_0.25s_cubic-bezier(0.22,1,0.36,1)]",
+            "pointer-events-auto relative max-h-[92dvh] w-full max-w-lg overflow-y-auto overscroll-contain",
+            "rounded-t-3xl border border-b-0 border-line bg-surface p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] shadow-pop focus:outline-none",
+            "sm:max-h-[88dvh] sm:rounded-2xl sm:border-b sm:p-6",
+            "data-[state=open]:animate-[sheet-in_0.3s_cubic-bezier(0.22,1,0.36,1)] sm:data-[state=open]:animate-[dialog-in_0.25s_cubic-bezier(0.22,1,0.36,1)]",
             className,
           )}
         >
-          <DialogPrimitive.Title className="pe-8 text-lg font-semibold tracking-tight text-ink">{title}</DialogPrimitive.Title>
+          <DialogPrimitive.Title className="pe-10 text-lg font-semibold tracking-tight text-ink">{title}</DialogPrimitive.Title>
           {description ? (
             <DialogPrimitive.Description className="mt-1.5 text-sm leading-relaxed text-muted">{description}</DialogPrimitive.Description>
           ) : (
@@ -45,7 +47,7 @@ export function DialogContent({
           <div className="mt-5">{children}</div>
           <DialogPrimitive.Close
             aria-label={closeLabel}
-            className="absolute end-4 top-4 grid size-8 place-items-center rounded-lg text-faint transition-colors hover:bg-surface-2 hover:text-ink"
+            className="absolute end-3 top-3 grid size-9 place-items-center rounded-lg text-faint transition-colors hover:bg-surface-2 hover:text-ink sm:end-4 sm:top-4 sm:size-8 pointer-coarse:size-11"
           >
             <X className="size-4" />
           </DialogPrimitive.Close>
@@ -69,7 +71,7 @@ export function DropdownMenuContent({ className, align = "end", ...props }: Comp
         sideOffset={8}
         collisionPadding={12}
         className={cn(
-          "z-50 max-h-[min(70vh,26rem)] min-w-52 overflow-y-auto rounded-xl border border-line bg-surface p-1.5 shadow-pop",
+          "z-50 max-h-[min(70dvh,26rem)] min-w-52 max-w-[calc(100vw-1.5rem)] overflow-y-auto rounded-xl border border-line bg-surface p-1.5 shadow-pop",
           "data-[state=open]:animate-[dialog-pop_0.16s_ease-out]",
           className,
         )}
@@ -80,7 +82,7 @@ export function DropdownMenuContent({ className, align = "end", ...props }: Comp
 }
 
 const itemClass =
-  "relative flex cursor-pointer select-none items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-ink outline-none " +
+  "relative flex cursor-pointer select-none items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-ink outline-none pointer-coarse:py-3 " +
   "data-[highlighted]:bg-surface-2 data-[disabled]:opacity-50 [&_svg]:size-4 [&_svg]:text-muted";
 
 export function DropdownMenuItem({ className, ...props }: ComponentProps<typeof DropdownPrimitive.Item>) {
@@ -156,7 +158,7 @@ export const Tabs = TabsPrimitive.Root;
 export function TabsList({ className, ...props }: ComponentProps<typeof TabsPrimitive.List>) {
   return (
     <TabsPrimitive.List
-      className={cn("inline-flex items-center gap-1 rounded-xl border border-line bg-surface-2 p-1", className)}
+      className={cn("no-scrollbar inline-flex max-w-full items-center gap-1 overflow-x-auto rounded-xl border border-line bg-surface-2 p-1", className)}
       {...props}
     />
   );
@@ -166,7 +168,7 @@ export function TabsTrigger({ className, ...props }: ComponentProps<typeof TabsP
   return (
     <TabsPrimitive.Trigger
       className={cn(
-        "inline-flex h-9 items-center justify-center gap-2 whitespace-nowrap rounded-lg px-3.5 text-sm font-medium text-muted transition-colors",
+        "inline-flex h-9 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-lg px-3.5 text-sm font-medium text-muted transition-colors pointer-coarse:h-10",
         "hover:text-ink data-[state=active]:bg-surface data-[state=active]:text-ink data-[state=active]:shadow-sm [&_svg]:size-4",
         className,
       )}

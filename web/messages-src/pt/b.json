@@ -1,0 +1,184 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Novidade: match por IA para estudantes e laboratórios",
+      "title": "Encontre o professor que <em>combina com você.</em>",
+      "subtitle": "Pesquise no registro acadêmico mundial, entenda o trabalho de qualquer pesquisador em linguagem simples e faça match com laboratórios que combinam com as suas habilidades e o seu jeito de trabalhar.",
+      "modeInterest": "Por interesse", "modeName": "Por nome", "interestLabel": "Interesse de pesquisa", "interestPlaceholder": "ex.: neurociência computacional",
+      "nameLabel": "Nome do pesquisador", "namePlaceholder": "ex.: Jane Smith", "universityLabel": "Universidade", "universityPlaceholder": "ex.: MIT, Stanford…",
+      "search": "Encontrar professores", "try": "Experimente",
+      "trust": "Baseado em dados acadêmicos abertos: {works} artigos · {institutions} instituições",
+      "trustFallback": "Baseado em dados acadêmicos abertos: mais de 300 mi de artigos · mais de 140 mil instituições",
+      "ex": { "ml": "Aprendizado de máquina", "neuro": "Neurociência", "genomics": "Genômica", "climate": "Ciência do clima", "quantum": "Computação quântica", "psych": "Psicologia" },
+      "modeLabel": "Buscar por"
+    },
+    "mock": {
+      "preview": "Prévia ilustrativa", "results": "Pesquisadores", "summary": "Resumo em linguagem simples",
+      "summaryBody": "Estuda como as máquinas podem aprender a enxergar com pouquíssimos exemplos rotulados, para que um robô reconheça e pegue objetos do dia a dia que nunca viu.",
+      "keyFinding": "Descoberta principal", "keyFindingBody": "Uma abordagem autossupervisionada reduziu em 80% as imagens rotuladas necessárias para detectar pontos de preensão (2025).",
+      "starters": "Perguntas que valem a pena", "starter1": "Como o grupo escolheu os objetos usados nos testes?", "starter2": "O método funciona fora do laboratório?",
+      "save": "Salvar", "writeEmail": "Escrever e-mail", "match": "Compatibilidade", "whyFit": "Por que você combina",
+      "reasonTopics": "Temas em comum: visão computacional, PyTorch", "reasonStyle": "Estilo de trabalho parecido: independente, ritmo acelerado", "gap": "Lacuna: álgebra linear",
+      "emailScore": "Nota do e-mail", "emailFlags": "2 pontos a corrigir", "hIndex": "índice h", "papers": "artigos",
+      "flagFlattery": "Bajulação", "flagGeneric": "Frase genérica", "mustHave": "Essencial", "niceToHave": "Desejável", "invite": "Convidar",
+      "idealStudent": "Candidato ideal", "followUpOn": "Follow-up em {date}", "tracker": "Registro de contatos", "openPositions": "Vagas abertas", "apply": "Candidatar-se"
+    },
+    "marquee": { "label": "Pesquisadores de instituições como" },
+    "problem": {
+      "eyebrow": "O problema", "title": "A maioria das mensagens a professores <em>nunca é lida.</em>",
+      "description": "Estudantes enviam e-mails genéricos para as pessoas erradas na hora errada, e os professores têm segundos para decidir. Veja o que costuma dar errado.",
+      "generic": { "title": "O e-mail soa como o de todo mundo", "body": "Bajulação e frases prontas são fáceis de notar. Uma pergunta específica sobre um trabalho real se destaca." },
+      "who": { "title": "Você não sabe quem está aceitando estudantes", "body": "As páginas do corpo docente ficam desatualizadas, e os laboratórios que estão contratando raramente anunciam onde os estudantes olham." },
+      "read": { "title": "Ler os artigos leva horas", "body": "Você precisa entender o trabalho antes de escrever algo específico — mas os resumos são densos." }
+    },
+    "features": {
+      "eyebrow": "A plataforma", "title": "Tudo entre “tenho curiosidade” e “estou no laboratório”",
+      "description": "Um só lugar para encontrar pessoas, entender o trabalho delas, entrar em contato do jeito certo e acompanhar tudo.",
+      "discover": { "title": "Pesquise no registro acadêmico", "body": "Digite qualquer interesse e uma universidade. Mostramos os pesquisadores que publicam ativamente sobre isso — pessoas reais, artigos reais." },
+      "summaries": { "title": "Resumos em linguagem simples", "body": "Cada pesquisador tem uma explicação curta do que estuda e de uma descoberta recente, escrita para quem é novo na área." },
+      "email": { "title": "Um treinador de e-mails, não um redator fantasma", "body": "Cole o seu rascunho e veja quais frases soam genéricas, bajuladoras ou vagas — e por quê. Você mantém a sua própria voz." },
+      "match": { "title": "Match por IA, nos dois sentidos", "body": "Estudantes veem os laboratórios e professores que combinam com suas habilidades e seu estilo de trabalho. Professores descrevem o estudante ideal e veem quem combina." },
+      "positions": { "title": "Vagas de laboratórios verificados", "body": "Veja vagas publicadas diretamente por professores, leia a pesquisa deles primeiro e candidate-se em uma única etapa." },
+      "tracker": { "title": "Um registro de contatos que lembra você", "body": "Anote quem você contatou e o que aconteceu. Receba datas de follow-up para que nada passe batido." }
+    },
+    "how": {
+      "eyebrow": "Como funciona", "title": "Da curiosidade a uma conversa de verdade",
+      "s1": { "title": "Busque", "body": "Digite um interesse e uma universidade, ou o nome de um pesquisador." },
+      "s2": { "title": "Entenda", "body": "Leia um resumo em linguagem simples, artigos recentes e boas perguntas para fazer." },
+      "s3": { "title": "Entre em contato", "body": "Escreva o seu próprio e-mail, verifique-o e envie com confiança." },
+      "s4": { "title": "Faça follow-up", "body": "Acompanhe as respostas e envie dois follow-ups bem cronometrados." }
+    },
+    "match": {
+      "eyebrow": "Match com IA", "title": "Compatíveis em habilidades — e em <em>como você trabalha.</em>",
+      "description": "A sobreposição de temas é só metade da história. A Labora também compara estilos de trabalho: quanta independência você prefere, o quanto você colabora, o ritmo que gosta e quanta estrutura ajuda você.",
+      "students": "Para estudantes", "s1": "Vagas e professores em ordem de compatibilidade, cada um com motivos claros", "s2": "Veja suas lacunas e como se destacar", "s3": "Você decide o que os professores podem ver",
+      "professors": "Para professores", "p1": "Descreva o seu estudante ideal — ou deixe a IA fazer um rascunho a partir da sua vaga", "p2": "Veja estudantes que autorizaram, ordenados com os motivos", "p3": "Convide os melhores perfis com uma única mensagem",
+      "privacy": "A visibilidade do estudante é opcional e pode ser desativada a qualquer momento. Os dados de contato nunca são mostrados a um professor até que o estudante diga sim.",
+      "cta": "Conhecer o Match com IA", "styleTitle": "Estilo de trabalho", "candidate": "Candidato", "you": "Você", "lab": "Laboratório"
+    },
+    "compare": {
+      "title": "Por que não perguntar simplesmente a um chatbot?", "description": "Chatbots genéricos escrevem muito bem, mas não são um diretório de pessoas reais.",
+      "colChatbot": "Um chatbot genérico", "colLabora": "Labora",
+      "r1": "De onde vêm as pessoas e os artigos", "r1a": "Gerados de memória — podem inventar professores, artigos e números.", "r1b": "Obtidos do registro acadêmico (OpenAlex). Nada é inventado.",
+      "r2": "Quem escreve o seu e-mail", "r2a": "Muitas vezes escreve por você, e os professores percebem.", "r2b": "Você escreve. A Labora diz o que corrigir.",
+      "r3": "Quanto esforço dá", "r3a": "Muitos prompts para encontrar, ler e comparar pesquisadores.", "r3b": "Uma busca: pesquisadores, resumos e comentários sobre o e-mail, tudo junto."
+    },
+    "professors": {
+      "eyebrow": "Para professores", "title": "Recrute estudantes que <em>realmente combinam.</em>",
+      "description": "Publique vagas, compartilhe a sua pesquisa e deixe a IA mostrar estudantes cujas habilidades e estilo de trabalho combinam com o seu laboratório.",
+      "b1": "Grátis para docentes verificados", "b2": "Apresente artigos, conjuntos de dados e pôsteres", "b3": "Veja candidaturas e convites em um só lugar", "cta": "Publicar uma vaga"
+    },
+    "stats": {
+      "eyebrow": "Baseado em dados abertos", "title": "Um diretório real, não gerado",
+      "works": "Trabalhos acadêmicos indexados", "institutions": "Instituições no mundo", "researchers": "Pesquisadores", "labs": "Laboratórios na Labora", "positions": "Vagas abertas",
+      "attribution": "Metadados acadêmicos fornecidos pelo OpenAlex."
+    },
+    "pricing": {
+      "title": "Comece de graça. Faça upgrade quando quiser.",
+      "description": "Buscar é sempre grátis. Os passes liberam o localizador de e-mails, resumos ilimitados e verificações de e-mail ilimitadas pelo tempo que você precisar.",
+      "cta": "Ver planos"
+    },
+    "faq": {
+      "title": "Perguntas e respostas",
+      "q1": "De onde vêm os dados dos pesquisadores?",
+      "a1": "Do OpenAlex, um catálogo aberto da produção acadêmica mundial. Só mostramos pessoas e artigos que existem nesse registro. Nunca inventamos professores nem publicações.",
+      "q2": "A Labora vai escrever o meu e-mail?",
+      "a2": "Não — de propósito. Os professores percebem, e as respostas vão para estudantes que soam como eles mesmos. A Labora encontra a quem escrever, explica o trabalho da pessoa e dá comentários específicos sobre o seu próprio rascunho.",
+      "q3": "Como funciona o match por IA?",
+      "a3": "Comparamos suas habilidades, interesses, experiência, disponibilidade e estilo de trabalho com vagas, laboratórios e pesquisadores, e explicamos cada resultado. Um revisor de IA refina os melhores. Nunca usamos nome, instituição, gênero, nacionalidade ou outras características protegidas.",
+      "q4": "Quem pode ver o meu perfil?",
+      "a4": "Ninguém, a menos que você ative a visibilidade. Nesse caso, só professores verificados veem o seu perfil — nunca o seu e-mail. Eles podem convidar você, e você decide se responde.",
+      "q5": "Os professores precisam estar na Labora?",
+      "a5": "Não. Você pode encontrar e contatar pesquisadores de qualquer lugar do registro acadêmico. Os professores que entram podem publicar vagas, compartilhar a pesquisa e encontrar estudantes.",
+      "q6": "Quanto custa?",
+      "a6": "Buscar é grátis, e uma conta gratuita inclui uma amostra de resumos, verificações de e-mail e match por IA. Os passes liberam o uso ilimitado — veja os Preços."
+    },
+    "cta": { "title": "A sua próxima vaga de pesquisa começa com <em>um bom e-mail.</em>", "subtitle": "Busque de graça — sem cartão.", "button": "Encontrar professores" }
+  },
+  "how": {
+    "eyebrow": "Como funciona", "title": "Quatro passos da curiosidade à conversa", "subtitle": "A Labora foi criada em torno do que realmente faz um professor responder.",
+    "s1": { "title": "Pesquise no registro acadêmico", "body": "Digite um interesse de pesquisa e uma universidade — ou o nome de um pesquisador. Mostramos quem publica ativamente sobre isso.", "b1": "Resultados de uma base de dados acadêmica aberta", "b2": "Filtre por universidade e ordene por atividade recente" },
+    "s2": { "title": "Entenda o trabalho", "body": "Leia um resumo em linguagem simples, uma descoberta recente e perguntas que valem a pena — depois dê uma olhada nos próprios artigos.", "b1": "Resumos escritos para quem é novo na área", "b2": "Artigos recentes e mais citados num relance" },
+    "s3": { "title": "Escreva um e-mail que seja lido", "body": "Escreva você mesmo e depois verifique. Destacamos bajulação, frases prontas e vagueza — e nunca escrevemos o e-mail por você.", "b1": "Uma estrutura e exemplos comentados", "b2": "Comentários específicos, linha por linha" },
+    "s4": { "title": "Faça follow-up e acompanhe", "body": "Anote quem você contatou, receba follow-ups bem cronometrados e mantenha cada contato em um só lugar.", "b1": "Dois rascunhos de follow-up e lembretes no calendário", "b2": "Um registro de contatos que faz a contagem" },
+    "cta": "Começar a buscar", "ctaMatch": "Ou deixe a IA encontrar o seu match"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "Match com IA", "title": "Um match que entende <em>como você trabalha.</em>",
+      "subtitle": "A Labora compara muito mais do que palavras-chave. Ela considera as suas habilidades, os seus interesses, a sua disponibilidade e o seu estilo de trabalho — e explica cada match em linguagem simples.",
+      "student": "Encontrar meus matches", "professor": "Encontrar meus estudantes ideais", "signUp": "Criar uma conta grátis"
+    },
+    "signals": {
+      "eyebrow": "Como funciona", "title": "Quatro sinais, uma nota explicável",
+      "topics": { "title": "Temas", "body": "O quanto os seus interesses, disciplinas e experiência se sobrepõem ao que um laboratório ou pesquisador faz." },
+      "skills": { "title": "Habilidades", "body": "Quais das habilidades exigidas por uma vaga você já tem — e quais poderia desenvolver." },
+      "style": { "title": "Estilo de trabalho", "body": "Independência, trabalho em equipe, ritmo e estrutura: como você gosta de trabalhar em comparação a como o laboratório trabalha." },
+      "hours": { "title": "Disponibilidade", "body": "Se as horas que você pode oferecer cobrem o que a vaga espera." }
+    },
+    "demo": {
+      "eyebrow": "Experimente", "title": "Veja o match de estilo de trabalho",
+      "description": "Mova os seletores conforme o seu jeito de trabalhar. O laboratório de exemplo é independente, colaborativo e de ritmo rápido, com tarefas definidas de forma flexível.",
+      "you": "Você", "lab": "Laboratório de exemplo", "fit": "Afinidade de estilo", "aligned": "Em sintonia em: {items}", "differs": "Diferente em: {items}", "none": "Mova um seletor para comparar."
+    },
+    "directions": {
+      "title": "Dois sentidos, uma ideia",
+      "students": { "title": "Para estudantes", "s1": "Preencha uma vez as suas habilidades, interesses, experiência e estilo de trabalho.", "s2": "Receba vagas e professores em ordem de compatibilidade, cada um com motivos e lacunas.", "s3": "Use as dicas de “como se destacar” para escrever uma candidatura ou um e-mail mais forte." },
+      "professors": { "title": "Para professores", "s1": "Descreva o seu estudante ideal — ou deixe a IA fazer um rascunho a partir da sua vaga e do seu laboratório.", "s2": "Veja estudantes que autorizaram, ordenados com motivos e lacunas.", "s3": "Convide os melhores perfis com uma mensagem. O e-mail deles fica privado até que respondam." }
+    },
+    "trust": {
+      "eyebrow": "Justo por princípio", "title": "Você continua no controle",
+      "t1": { "title": "Visibilidade opcional", "body": "Estudantes só aparecem nas buscas se ativarem a opção, e podem desativá-la a qualquer momento." },
+      "t2": { "title": "Dados de contato privados", "body": "Os professores nunca veem o e-mail de um estudante até que ele se candidate ou aceite um convite." },
+      "t3": { "title": "Sem características protegidas", "body": "Nome, instituição, gênero, nacionalidade e características semelhantes nunca são usados para avaliar ninguém." },
+      "t4": { "title": "Motivos, não caixas-pretas", "body": "Cada nota mostra o que combinou e o que não combinou, para que você possa discordar dela." }
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "q1": "A nota é uma previsão de que vou conseguir a vaga?",
+      "a1": "Não. É um guia de compatibilidade, não uma previsão. Muitas coisas influenciam as decisões reais — o momento, o financiamento e os outros candidatos.",
+      "q2": "O que a IA realmente faz?",
+      "a2": "Primeiro calculamos uma nota transparente a partir dos sinais acima. Depois, um revisor de IA analisa os melhores resultados, refina a ordem e escreve as explicações. Se a IA não estiver disponível, você ainda recebe a nota transparente.",
+      "q3": "Posso usar o Match com IA sem um perfil?",
+      "a3": "Pode executá-lo, mas os resultados melhoram muito com um perfil mais completo. Mostramos o que está faltando."
+    },
+    "cta": { "title": "Encontre os laboratórios — e as pessoas — que combinam.", "button": "Começar grátis" }
+  },
+  "pricing": {
+    "eyebrow": "Preços", "title": "Escolha o passe que combina com o seu semestre",
+    "subtitle": "Buscar pesquisadores é sempre grátis. Os passes liberam as ferramentas que mais economizam o seu tempo — um único pagamento, sem assinatura e sem renovação automática.",
+    "plans": {
+      "free": { "name": "Grátis", "desc": "para sempre" },
+      "weekly": { "name": "Sprint semanal", "desc": "1 semana de acesso" },
+      "semester": { "name": "Passe semestral", "desc": "4 meses de acesso", "badge": "Melhor custo-benefício" },
+      "lifetime": { "name": "Vitalício", "desc": "Seu para sempre" }
+    },
+    "cta": { "free": "Começar grátis", "weekly": "Começar o sprint semanal", "semester": "Obter o passe semestral", "lifetime": "Obter acesso vitalício", "current": "Seu plano atual", "signIn": "Entre para continuar" },
+    "features": {
+      "unlimited_search": "Buscas de pesquisadores ilimitadas", "summaries_2": "2 resumos em linguagem simples", "email_check_1": "1 verificação de e-mail", "ai_match_3": "3 matches por IA",
+      "outreach_tracker": "Registro de contatos", "positions_board": "Quadro de vagas abertas", "everything_pro": "Tudo do plano Grátis, mais:",
+      "unlimited_summaries": "Resumos ilimitados", "email_finder": "Localizador de e-mails", "responsiveness": "Notas de responsividade", "unlimited_checks": "Verificações de e-mail e follow-ups ilimitados",
+      "playbook": "O guia do e-mail de primeiro contato", "everything_semester": "Tudo do passe semestral, mais:", "never_pay_again": "Nunca mais pague", "priority_features": "Acesso antecipado a novos recursos"
+    },
+    "payments": "Os pagamentos são processados com segurança pela Stripe. Nunca vemos os dados do seu cartão.",
+    "devMode": "Os pagamentos não estão conectados neste ambiente — os passes são ativados na hora para você testar.",
+    "activated": "Seu passe está ativo. Aproveite!",
+    "cancelled": "O pagamento foi cancelado — nenhuma cobrança foi feita.",
+    "referral": {
+      "title": "Traga um amigo e ganhem uma semana cada", "body": "Compartilhe o seu código em Plano e cobrança. Quando um amigo se cadastrar com ele, vocês dois ganham 7 dias de Pro.",
+      "haveCode": "Tem o código de um amigo?", "placeholder": "Digite o código", "redeem": "Resgatar", "redeemed": "Código resgatado — 7 dias de Pro adicionados.", "signIn": "Entre para resgatar um código"
+    },
+    "waitlist": {
+      "title": "Vem aí um plano com resposta garantida", "body": "Estamos estudando um plano criado para conseguir conversas reais para você. Entre na lista de espera e avisaremos você primeiro.",
+      "placeholder": "voce@universidade.edu", "join": "Entrar na lista de espera", "joined": "Você está na lista. Obrigado!"
+    },
+    "faq": {
+      "title": "Dúvidas sobre cobrança",
+      "q1": "É uma assinatura?", "a1": "Não. Cada passe é um pagamento único. Nada é renovado automaticamente, então não há nada a cancelar.",
+      "q2": "O que acontece quando o meu passe termina?", "a2": "Você mantém a sua conta, os pesquisadores salvos e o registro de contatos. Apenas volta ao limite gratuito.",
+      "q3": "Preciso de um passe para buscar ou me candidatar?", "a3": "Não. Buscar pesquisadores, ver vagas e se candidatar são sempre grátis.",
+      "q4": "Os professores pagam?", "a4": "Não. Professores verificados publicam vagas, compartilham pesquisa e encontram estudantes de graça.",
+      "q5": "Com quem falo sobre cobrança?", "a5": "Use a página de contato e retornaremos para você."
+    }
+  }
+}

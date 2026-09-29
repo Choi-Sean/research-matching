@@ -93,7 +93,7 @@ export function PricingView() {
       </p>
 
       <div className="mt-20 grid gap-5 lg:grid-cols-2">
-        <Card className="p-7">
+        <Card className="p-5 sm:p-7">
           <span className="grid size-11 place-items-center rounded-2xl bg-accent-soft text-accent-text">
             <Gift className="size-5" />
           </span>
@@ -101,7 +101,7 @@ export function PricingView() {
           <p className="mt-2 text-sm leading-relaxed text-muted">{t("pricing.referral.body")}</p>
           <p className="mt-5 text-sm font-medium text-ink">{t("pricing.referral.haveCode")}</p>
           {user ? (
-            <div className="mt-2 flex gap-2">
+            <div className="mt-2 flex flex-col gap-2 sm:flex-row">
               <Input value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} placeholder={t("pricing.referral.placeholder")} maxLength={16} className="font-mono tracking-wider uppercase" dir="ltr" />
               <Button variant="secondary" onClick={redeem} disabled={code.trim().length < 3}>
                 {t("pricing.referral.redeem")}
@@ -114,7 +114,7 @@ export function PricingView() {
           )}
         </Card>
 
-        <Card className="p-7">
+        <Card className="p-5 sm:p-7">
           <span className="grid size-11 place-items-center rounded-2xl bg-brand-soft text-brand-text">
             <Mail className="size-5" />
           </span>
@@ -125,7 +125,7 @@ export function PricingView() {
               <Check className="size-4" /> {t("pricing.waitlist.joined")}
             </p>
           ) : (
-            <form onSubmit={join} className="mt-5 flex gap-2">
+            <form onSubmit={join} className="mt-5 flex flex-col gap-2 sm:flex-row">
               <Input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder={t("pricing.waitlist.placeholder")} dir="ltr" />
               <Button type="submit" variant="primary">
                 {t("pricing.waitlist.join")}

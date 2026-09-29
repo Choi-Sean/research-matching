@@ -1,1 +1,1818 @@
-{}
+{
+  "common": {
+    "save": "Simpan",
+    "saving": "Menyimpan…",
+    "saved": "Tersimpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "previous": "Sebelumnya",
+    "search": "Cari",
+    "loading": "Memuat…",
+    "retry": "Coba lagi",
+    "viewAll": "Lihat semua",
+    "learnMore": "Pelajari lebih lanjut",
+    "copy": "Salin",
+    "copied": "Tersalin",
+    "yes": "Ya",
+    "no": "Tidak",
+    "optional": "Opsional",
+    "or": "atau",
+    "remove": "Hapus",
+    "add": "Tambah",
+    "confirm": "Konfirmasi",
+    "continue": "Lanjutkan",
+    "submit": "Kirim",
+    "send": "Kirim",
+    "download": "Unduh",
+    "clear": "Bersihkan",
+    "clearAll": "Bersihkan semua",
+    "open": "Buka",
+    "closedLabel": "Ditutup",
+    "unlimited": "Tanpa batas",
+    "upgrade": "Tingkatkan",
+    "verified": "Terverifikasi",
+    "pending": "Menunggu",
+    "free": "Gratis",
+    "pro": "Pro",
+    "today": "Hari ini",
+    "hoursPerWeek": "{n} jam/minggu",
+    "showMore": "Tampilkan lebih banyak",
+    "showLess": "Tampilkan lebih sedikit",
+    "none": "Tidak ada",
+    "required": "Wajib",
+    "notSet": "Belum diatur",
+    "poweredByAi": "Dibantu AI",
+    "illustrative": "Contoh ilustrasi",
+    "external": "Terbuka di tab baru",
+    "results_other": "{count} hasil"
+  },
+  "nav": {
+    "home": "Beranda Labora",
+    "skip": "Langsung ke konten",
+    "discover": "Jelajahi",
+    "positions": "Posisi",
+    "aiMatch": "Pencocokan AI",
+    "resources": "Sumber daya",
+    "pricing": "Harga",
+    "signIn": "Masuk",
+    "getStarted": "Mulai gratis",
+    "dashboard": "Dasbor",
+    "signOut": "Keluar",
+    "account": "Menu akun",
+    "language": "Bahasa",
+    "theme": "Tampilan",
+    "themeLight": "Terang",
+    "themeDark": "Gelap",
+    "themeSystem": "Sistem",
+    "menu": "Buka menu",
+    "feedback": "Masukan",
+    "emailChecker": "Pemeriksa email",
+    "emailCheckerDesc": "Dapatkan masukan spesifik tentang email Anda sebelum mengirimnya.",
+    "followUp": "Perencana tindak lanjut",
+    "followUpDesc": "Dua tindak lanjut dengan waktu yang tepat untuk email yang belum dibalas.",
+    "framework": "Kerangka email",
+    "frameworkDesc": "Struktur isian yang direspons para profesor.",
+    "examples": "Email yang berhasil",
+    "examplesDesc": "Contoh beranotasi yang menunjukkan mengapa setiap baris berhasil.",
+    "fields": "Panduan bidang",
+    "fieldsDesc": "Temukan peneliti dan tips menghubungi untuk bidang Anda.",
+    "blog": "Panduan & saran",
+    "blogDesc": "Cara menemukan, menghubungi, dan meyakinkan pembimbing riset."
+  },
+  "footer": {
+    "product": "Produk",
+    "tools": "Alat",
+    "resources": "Sumber daya",
+    "legal": "Hukum",
+    "howItWorks": "Cara kerja",
+    "contact": "Kontak",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "tagline": "Temukan laboratorium yang cocok untuk Anda — dan mahasiswa yang cocok untuk laboratorium Anda.",
+    "copyright": "© {year} Labora. Hak cipta dilindungi.",
+    "dataBy": "Data ilmiah dari"
+  },
+  "errors": {
+    "email_not_academic": "Gunakan alamat email universitas Anda (misalnya .edu, .ac.uk, atau .ac.id).",
+    "email_taken": "Email ini sudah terdaftar. Coba masuk saja.",
+    "invalid_credentials": "Email atau kata sandi salah.",
+    "invalid_token": "Sesi Anda telah berakhir. Silakan masuk kembali.",
+    "user_not_found": "Kami tidak dapat menemukan akun itu. Silakan masuk kembali.",
+    "forbidden": "Anda tidak memiliki akses ke bagian ini.",
+    "student_only": "Fitur ini hanya untuk akun mahasiswa.",
+    "professor_only": "Fitur ini hanya untuk akun profesor.",
+    "admin_only": "Area ini hanya untuk administrator.",
+    "professor_unverified": "Akun profesor Anda sedang menunggu verifikasi. Fitur ini akan terbuka begitu disetujui.",
+    "lab_required": "Atur profil laboratorium Anda terlebih dahulu.",
+    "lab_exists": "Anda sudah memiliki profil laboratorium.",
+    "lab_not_found": "Kami tidak dapat menemukan laboratorium itu.",
+    "material_not_found": "Materi riset itu sudah tidak ada.",
+    "position_not_found": "Kami tidak dapat menemukan posisi itu.",
+    "position_not_open": "Posisi ini tidak menerima lamaran.",
+    "position_has_applications": "Posisi ini sudah memiliki pelamar — tutup saja, jangan dihapus.",
+    "already_applied": "Anda sudah melamar posisi ini.",
+    "application_not_found": "Kami tidak dapat menemukan lamaran itu.",
+    "already_invited": "Anda sudah mengundang mahasiswa ini ke posisi ini.",
+    "invitation_not_found": "Kami tidak dapat menemukan undangan itu.",
+    "invitation_closed": "Undangan ini sudah tidak terbuka lagi.",
+    "student_not_discoverable": "Mahasiswa ini tidak menerima undangan.",
+    "quota_exceeded": "Anda telah menggunakan jatah gratis untuk fitur ini. Tingkatkan paket untuk akses tanpa batas.",
+    "rate_limited": "Anda terlalu cepat. Tunggu sebentar lalu coba lagi.",
+    "professor_not_found": "Kami tidak dapat menemukan peneliti itu.",
+    "upstream_unavailable": "Basis data ilmiah sedang sibuk. Silakan coba lagi sebentar lagi.",
+    "billing_disabled": "Pembayaran belum tersedia.",
+    "invalid_signature": "Permintaan itu tidak dapat diverifikasi.",
+    "invalid_referral_code": "Kode referral itu tidak ada.",
+    "own_referral_code": "Anda tidak dapat menggunakan kode referral milik sendiri.",
+    "referral_already_used": "Anda sudah menukarkan kode referral.",
+    "feedback_not_found": "Kami tidak dapat menemukan kiriman itu.",
+    "outreach_not_found": "Kami tidak dapat menemukan entri itu.",
+    "network": "Kami tidak dapat menjangkau server. Periksa koneksi Anda dan coba lagi.",
+    "unknown": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "enums": {
+    "compensation": {
+      "paid": "Dibayar",
+      "credit": "Untuk kredit",
+      "volunteer": "Sukarela"
+    },
+    "term": {
+      "fall": "Gugur",
+      "spring": "Semi",
+      "summer": "Musim panas",
+      "year_round": "Sepanjang tahun",
+      "flexible": "Fleksibel"
+    },
+    "location": {
+      "on_site": "Di kampus",
+      "remote": "Jarak jauh",
+      "hybrid": "Hibrida"
+    },
+    "appStatus": {
+      "pending": "Sedang ditinjau",
+      "accepted": "Diterima",
+      "rejected": "Tidak terpilih",
+      "withdrawn": "Ditarik"
+    },
+    "invStatus": {
+      "pending": "Menunggu balasan",
+      "accepted": "Diterima",
+      "declined": "Ditolak",
+      "withdrawn": "Ditarik"
+    },
+    "outreach": {
+      "saved": "Tersimpan",
+      "drafted": "Draf",
+      "sent": "Terkirim",
+      "replied": "Dibalas",
+      "meeting": "Pertemuan dijadwalkan",
+      "positive": "Tawaran / ya",
+      "no_reply": "Tanpa balasan",
+      "declined": "Ditolak"
+    },
+    "materialKind": {
+      "paper": "Makalah",
+      "dataset": "Dataset",
+      "poster": "Poster",
+      "other": "Lainnya"
+    },
+    "role": {
+      "student": "Mahasiswa",
+      "professor": "Profesor"
+    },
+    "year": {
+      "freshman": "Tahun pertama",
+      "sophomore": "Tahun kedua",
+      "junior": "Tahun ketiga",
+      "senior": "Tahun keempat",
+      "masters": "Magister",
+      "phd": "Doktoral"
+    },
+    "style": {
+      "autonomy": "Otonomi",
+      "autonomyLow": "Bimbingan intensif",
+      "autonomyHigh": "Mandiri",
+      "collaboration": "Kolaborasi",
+      "collaborationLow": "Fokus sendiri",
+      "collaborationHigh": "Berorientasi tim",
+      "pace": "Tempo",
+      "paceLow": "Stabil dan mendalam",
+      "paceHigh": "Cepat dan iteratif",
+      "structure": "Struktur",
+      "structureLow": "Terbuka",
+      "structureHigh": "Terdefinisi jelas"
+    },
+    "grade": {
+      "excellent": "Sangat baik",
+      "good": "Baik",
+      "needs_work": "Perlu diperbaiki",
+      "risky": "Berisiko"
+    },
+    "sort": {
+      "relevance": "Paling cocok",
+      "cited": "Paling banyak disitasi",
+      "recent": "Paling aktif"
+    }
+  },
+  "meta": {
+    "homeTitle": "Labora — Temukan profesor yang cocok untuk Anda",
+    "homeDescription": "Temukan peneliti dari catatan ilmiah dunia, pahami karya mereka dengan bahasa sederhana, dan dicocokkan oleh AI dengan laboratorium yang sesuai dengan keahlian dan cara kerja Anda.",
+    "discoverTitle": "Temukan profesor peneliti",
+    "discoverDescription": "Cari peneliti yang aktif menerbitkan tentang minat Anda, di universitas mana pun, dari basis data ilmiah terbuka.",
+    "professorTitle": "Profil peneliti",
+    "professorDescription": "Publikasi peneliti, topik, ringkasan dengan bahasa sederhana, dan alat untuk menghubungi.",
+    "positionsTitle": "Posisi riset yang dibuka",
+    "positionsDescription": "Posisi riset yang diposting langsung oleh profesor terverifikasi — dibayar, untuk kredit, atau sukarela.",
+    "positionTitle": "Posisi riset",
+    "positionDescription": "Baca tentang perannya dan riset laboratoriumnya, lalu lamar.",
+    "labTitle": "Laboratorium riset",
+    "labDescription": "Riset, budaya, posisi yang dibuka, dan materi sebuah laboratorium.",
+    "checkerTitle": "Pemeriksa email perkenalan untuk profesor",
+    "checkerDescription": "Tempel email Anda dan lihat frasa mana yang terdengar umum, menjilat, atau samar — tanpa kami menulis ulang untuk Anda.",
+    "followUpTitle": "Perencana tindak lanjut",
+    "followUpDescription": "Dua draf tindak lanjut dengan waktu yang tepat untuk email ke profesor yang belum dibalas, lengkap dengan pengingat kalender.",
+    "frameworkTitle": "Kerangka email perkenalan",
+    "frameworkDescription": "Struktur isian untuk menulis email ke profesor, plus frasa yang sebaiknya dihindari.",
+    "examplesTitle": "Email yang berhasil, beranotasi",
+    "examplesDescription": "Tiga contoh email ilustrasi dengan catatan baris demi baris tentang mengapa email itu berhasil.",
+    "fieldsTitle": "Panduan bidang",
+    "fieldsDescription": "Temukan peneliti dan tips menghubungi untuk bidang Anda.",
+    "blogTitle": "Panduan & saran",
+    "blogDescription": "Cara menemukan, menghubungi, dan meyakinkan pembimbing riset.",
+    "pricingTitle": "Harga",
+    "pricingDescription": "Pencarian gratis. Paket membuka pencari email, ringkasan tanpa batas, dan pemeriksaan email tanpa batas.",
+    "aiMatchTitle": "Pencocokan AI",
+    "aiMatchDescription": "Cocokkan mahasiswa dan laboratorium berdasarkan keahlian, minat, ketersediaan, dan gaya kerja — dengan penjelasan untuk setiap hasil.",
+    "howTitle": "Cara kerja",
+    "howDescription": "Empat langkah dari rasa ingin tahu menuju percakapan nyata dengan profesor.",
+    "playbookTitle": "Panduan email perkenalan",
+    "playbookDescription": "Struktur, waktu, dan tangga tindak lanjut di balik email yang mendapat balasan.",
+    "feedbackTitle": "Papan masukan",
+    "feedbackDescription": "Usulkan fitur, laporkan bug, dan pilih apa yang akan kami bangun berikutnya.",
+    "contactTitle": "Kontak",
+    "contactDescription": "Pertanyaan, ide, atau bantuan akun — kami membaca setiap pesan.",
+    "loginTitle": "Masuk",
+    "registerTitle": "Buat akun Anda"
+  },
+  "states": {
+    "notFound": {
+      "title": "Halaman tidak ditemukan",
+      "body": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+      "home": "Kembali ke beranda",
+      "search": "Cari profesor"
+    },
+    "error": {
+      "title": "Terjadi kesalahan",
+      "body": "Terjadi kesalahan tak terduga. Anda dapat mencoba lagi atau kembali ke beranda.",
+      "retry": "Coba lagi",
+      "home": "Kembali ke beranda"
+    }
+  },
+  "legal": {
+    "privacyTitle": "Kebijakan Privasi",
+    "termsTitle": "Ketentuan Layanan",
+    "updated": "Terakhir diperbarui {date}",
+    "englishNote": "Dokumen ini disediakan dalam bahasa Inggris. Jika Anda butuh bantuan memahaminya, hubungi kami.",
+    "questions": "Ada pertanyaan tentang dokumen ini?",
+    "contactUs": "Hubungi kami"
+  },
+  "playbook": {
+    "eyebrow": "Termasuk dalam setiap paket",
+    "title": "Panduan email perkenalan",
+    "subtitle": "Struktur, waktu, dan tangga tindak lanjut di balik email yang mendapat balasan — diringkas dalam satu halaman.",
+    "lockedTitle": "Buka sisa panduan",
+    "lockedBody": "Waktu, tangga tindak lanjut, cara menghadapi penolakan, dan daftar periksa sebelum kirim termasuk dalam paket apa pun.",
+    "seePlans": "Lihat paket",
+    "signIn": "Masuk",
+    "englishNote": "Panduan ini saat ini hanya tersedia dalam bahasa Inggris.",
+    "cta": "Periksa email saya"
+  },
+  "blog": {
+    "eyebrow": "Perpustakaan Labora",
+    "title": "Cara menemukan, menghubungi, dan meyakinkan pembimbing riset",
+    "subtitle": "Panduan praktis untuk menemukan profesor, menulis email yang dibaca, dan menindaklanjuti — ditulis untuk yang memulai dari nol.",
+    "all": "Semua panduan",
+    "cat": {
+      "finding": "Menemukan riset",
+      "writing": "Menulis email",
+      "after": "Setelah mengirim",
+      "goals": "Tujuan & langkah berikutnya"
+    },
+    "minRead": "{minutes} menit baca",
+    "read": "Baca panduan",
+    "back": "Semua panduan",
+    "englishNote": "Panduan saat ini hanya tersedia dalam bahasa Inggris.",
+    "ctaTitle": "Praktikkan sekarang",
+    "ctaBody": "Temukan peneliti di bidang Anda, pahami karya mereka, dan periksa email Anda sebelum mengirim.",
+    "ctaFind": "Cari profesor",
+    "ctaCheck": "Periksa email saya",
+    "keepReading": "Lanjut membaca",
+    "notFound": "Panduan tidak ditemukan"
+  },
+  "fields": {
+    "eyebrow": "Panduan bidang",
+    "title": "Temukan posisi riset berdasarkan bidang",
+    "subtitle": "Pilih disiplin untuk melihat siapa yang aktif menerbitkan di dalamnya, apa yang mereka kerjakan, dan cara menghubungi mereka.",
+    "blurb": "Temukan peneliti {field} yang aktif menerbitkan, pahami apa yang mereka kerjakan, dan tulis pesan spesifik yang benar-benar dibaca.",
+    "cta": "Lihat peneliti {field}",
+    "pageTitle": "{field}: temukan peneliti dan posisi",
+    "pageSubtitle": "Temukan siapa yang sedang menerbitkan di bidang {field} saat ini, pahami karya mereka, dan hubungi dengan cara yang tepat.",
+    "searchNow": "Cari peneliti {field}",
+    "openPositions": "Posisi {field} yang dibuka",
+    "backToAll": "Semua bidang",
+    "tipsTitle": "Cara mendekati laboratorium {field}",
+    "tip1": "Baca sekilas dua atau tiga abstrak terbaru sebelum menulis — Anda hanya perlu cukup untuk mengajukan satu pertanyaan bagus.",
+    "tip2": "Sebutkan keahlian konkret: satu mata kuliah, dataset, alat, atau proyek kecil. Tugas laboratorium biasanya bersifat praktis.",
+    "tip3": "Tawarkan jumlah jam yang spesifik dan tanggal mulai. Ini memudahkan mereka menjawab ya.",
+    "tip4": "Jika profesor tidak menerima mahasiswa, tanyakan siapa di kelompok itu yang mungkin menerima.",
+    "related": "Bidang terkait",
+    "names": {
+      "astrophysics": "Astrofisika",
+      "physics": "Fisika",
+      "quantum-computing": "Komputasi kuantum",
+      "chemistry": "Kimia",
+      "materials-science": "Ilmu material",
+      "machine-learning": "Pembelajaran mesin",
+      "computer-science": "Ilmu komputer",
+      "robotics": "Robotika",
+      "mathematics": "Matematika",
+      "biochemistry": "Biokimia",
+      "molecular-biology": "Biologi molekuler",
+      "genetics": "Genetika",
+      "bioinformatics": "Bioinformatika",
+      "neuroscience": "Ilmu saraf",
+      "cognitive-science": "Ilmu kognitif",
+      "psychology": "Psikologi",
+      "immunology": "Imunologi",
+      "public-health": "Kesehatan masyarakat",
+      "epidemiology": "Epidemiologi",
+      "environmental-science": "Ilmu lingkungan",
+      "climate-science": "Ilmu iklim",
+      "economics": "Ekonomi",
+      "linguistics": "Linguistik",
+      "sociology": "Sosiologi"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Baru: pencocokan AI untuk mahasiswa dan laboratorium",
+      "title": "Temukan profesor yang <em>cocok untuk Anda.</em>",
+      "subtitle": "Cari di catatan ilmiah dunia, pahami karya peneliti mana pun dengan bahasa sederhana, dan dicocokkan dengan laboratorium yang sesuai dengan keahlian dan cara kerja Anda.",
+      "modeInterest": "Berdasarkan minat",
+      "modeName": "Berdasarkan nama",
+      "interestLabel": "Minat riset",
+      "interestPlaceholder": "mis. neurosains komputasional",
+      "nameLabel": "Nama peneliti",
+      "namePlaceholder": "mis. Jane Smith",
+      "universityLabel": "Universitas",
+      "universityPlaceholder": "mis. MIT, Stanford…",
+      "search": "Cari profesor",
+      "try": "Coba",
+      "trust": "Dibangun di atas data ilmiah terbuka: {works} makalah · {institutions} institusi",
+      "trustFallback": "Dibangun di atas data ilmiah terbuka: 300 juta+ makalah · 140 ribu+ institusi",
+      "ex": {
+        "ml": "Pembelajaran mesin",
+        "neuro": "Ilmu saraf",
+        "genomics": "Genomika",
+        "climate": "Ilmu iklim",
+        "quantum": "Komputasi kuantum",
+        "psych": "Psikologi"
+      },
+      "modeLabel": "Cari berdasarkan"
+    },
+    "mock": {
+      "preview": "Pratinjau ilustrasi",
+      "results": "Peneliti",
+      "summary": "Ringkasan bahasa sederhana",
+      "summaryBody": "Mempelajari bagaimana mesin bisa belajar melihat dengan sangat sedikit contoh berlabel, sehingga robot dapat mengenali dan mengambil benda sehari-hari yang belum pernah dilihatnya.",
+      "keyFinding": "Temuan utama",
+      "keyFindingBody": "Pendekatan swa-awasan memangkas gambar berlabel yang dibutuhkan untuk deteksi genggaman sebesar 80% (2025).",
+      "starters": "Pertanyaan yang layak diajukan",
+      "starter1": "Bagaimana kelompok ini memilih objek untuk diuji?",
+      "starter2": "Apakah metodenya tetap berhasil di luar laboratorium?",
+      "save": "Simpan",
+      "writeEmail": "Tulis email",
+      "match": "Kecocokan",
+      "whyFit": "Mengapa Anda cocok",
+      "reasonTopics": "Topik yang sama: visi komputer, PyTorch",
+      "reasonStyle": "Gaya kerja serupa: mandiri, tempo cepat",
+      "gap": "Celah: aljabar linear",
+      "emailScore": "Skor email",
+      "emailFlags": "2 hal yang perlu diperbaiki",
+      "hIndex": "indeks-h",
+      "papers": "makalah",
+      "flagFlattery": "Menjilat",
+      "flagGeneric": "Frasa umum",
+      "mustHave": "Wajib",
+      "niceToHave": "Nilai tambah",
+      "invite": "Undang",
+      "idealStudent": "Kandidat ideal",
+      "followUpOn": "Tindak lanjut {date}",
+      "tracker": "Pelacak kontak",
+      "openPositions": "Posisi dibuka",
+      "apply": "Lamar"
+    },
+    "marquee": {
+      "label": "Peneliti dari institusi seperti"
+    },
+    "problem": {
+      "eyebrow": "Masalahnya",
+      "title": "Sebagian besar pesan ke profesor <em>tidak pernah dibaca.</em>",
+      "description": "Mahasiswa mengirim email generik ke orang yang salah pada waktu yang salah, sementara profesor hanya punya beberapa detik untuk memutuskan. Inilah yang biasanya keliru.",
+      "generic": {
+        "title": "Email terdengar seperti milik semua orang",
+        "body": "Pujian berlebihan dan kalimat template mudah ketahuan. Pertanyaan spesifik tentang karya nyata akan menonjol."
+      },
+      "who": {
+        "title": "Tidak tahu siapa yang menerima mahasiswa",
+        "body": "Halaman dosen sering usang, dan laboratorium yang membuka rekrutmen jarang mengumumkannya di tempat mahasiswa mencari."
+      },
+      "read": {
+        "title": "Membaca makalah memakan waktu berjam-jam",
+        "body": "Anda harus memahami karyanya sebelum bisa menulis sesuatu yang spesifik — padahal abstrak sangat padat."
+      }
+    },
+    "features": {
+      "eyebrow": "Platform",
+      "title": "Semua yang ada di antara «saya penasaran» dan «saya di laboratorium»",
+      "description": "Satu tempat untuk menemukan orang, memahami karya mereka, menghubungi dengan baik, dan memantau semuanya.",
+      "discover": {
+        "title": "Cari di catatan ilmiah",
+        "body": "Ketik minat apa pun dan sebuah universitas. Kami menampilkan peneliti yang aktif menerbitkan tentangnya — orang nyata, makalah nyata."
+      },
+      "summaries": {
+        "title": "Ringkasan bahasa sederhana",
+        "body": "Setiap peneliti mendapat penjelasan singkat tentang apa yang mereka teliti dan satu temuan terbaru, ditulis untuk yang baru mengenal bidangnya."
+      },
+      "email": {
+        "title": "Pelatih email, bukan penulis bayangan",
+        "body": "Tempel draf Anda dan lihat frasa mana yang terdengar umum, menjilat, atau samar — dan alasannya. Suara Anda tetap milik Anda."
+      },
+      "match": {
+        "title": "Pencocokan AI dua arah",
+        "body": "Mahasiswa melihat laboratorium dan profesor yang cocok dengan keahlian dan gaya kerjanya. Profesor menggambarkan mahasiswa ideal dan melihat siapa yang cocok."
+      },
+      "positions": {
+        "title": "Posisi dari laboratorium terverifikasi",
+        "body": "Telusuri posisi yang diposting langsung oleh profesor, baca riset mereka lebih dulu, dan lamar dalam satu langkah."
+      },
+      "tracker": {
+        "title": "Pelacak kontak yang mengingatkan Anda",
+        "body": "Catat siapa yang Anda email dan apa yang terjadi. Dapatkan tanggal tindak lanjut agar tidak ada yang terlewat."
+      }
+    },
+    "how": {
+      "eyebrow": "Cara kerja",
+      "title": "Dari rasa ingin tahu menuju percakapan nyata",
+      "s1": {
+        "title": "Cari",
+        "body": "Masukkan minat dan universitas, atau nama seorang peneliti."
+      },
+      "s2": {
+        "title": "Pahami",
+        "body": "Baca ringkasan sederhana, makalah terbaru, dan pertanyaan bagus untuk diajukan."
+      },
+      "s3": {
+        "title": "Hubungi",
+        "body": "Tulis email Anda sendiri, periksa, dan kirim dengan percaya diri."
+      },
+      "s4": {
+        "title": "Tindak lanjuti",
+        "body": "Pantau balasan dan kirim dua tindak lanjut dengan waktu yang tepat."
+      }
+    },
+    "match": {
+      "eyebrow": "Pencocokan AI",
+      "title": "Cocok dalam keahlian — dan dalam <em>cara Anda bekerja.</em>",
+      "description": "Kesamaan topik hanyalah separuh cerita. Labora juga membandingkan gaya kerja: seberapa besar kemandirian yang Anda suka, seberapa kolaboratif Anda, tempo yang Anda pilih, dan seberapa banyak struktur yang membantu Anda.",
+      "students": "Untuk mahasiswa",
+      "s1": "Posisi dan profesor yang diberi peringkat, masing-masing dengan alasan yang jelas",
+      "s2": "Lihat celah Anda dan cara menonjol",
+      "s3": "Anda yang memutuskan apa yang bisa dilihat profesor",
+      "professors": "Untuk profesor",
+      "p1": "Gambarkan mahasiswa ideal Anda — atau biarkan AI membuat draf dari posisi Anda",
+      "p2": "Telusuri mahasiswa yang bersedia, diurutkan beserta alasannya",
+      "p3": "Undang yang paling cocok dengan satu pesan",
+      "privacy": "Keterlihatan mahasiswa bersifat opsional dan dapat dimatikan kapan saja. Detail kontak tidak pernah ditampilkan kepada profesor sampai mahasiswa berkata ya.",
+      "cta": "Jelajahi Pencocokan AI",
+      "styleTitle": "Gaya kerja",
+      "candidate": "Kandidat",
+      "you": "Anda",
+      "lab": "Lab"
+    },
+    "compare": {
+      "title": "Mengapa tidak tanya chatbot saja?",
+      "description": "Chatbot umum menulis dengan baik, tetapi bukan direktori orang nyata.",
+      "colChatbot": "Chatbot umum",
+      "colLabora": "Labora",
+      "r1": "Dari mana orang dan makalah berasal",
+      "r1a": "Dihasilkan dari ingatan — bisa mengarang profesor, makalah, dan angka.",
+      "r1b": "Diambil dari catatan ilmiah (OpenAlex). Tidak ada yang dikarang.",
+      "r2": "Siapa yang menulis email Anda",
+      "r2a": "Sering menuliskannya untuk Anda, dan profesor bisa mengetahuinya.",
+      "r2b": "Anda yang menulis. Labora memberi tahu apa yang perlu diperbaiki.",
+      "r3": "Seberapa besar usaha yang dibutuhkan",
+      "r3a": "Banyak prompt untuk menemukan, membaca, dan membandingkan peneliti.",
+      "r3b": "Satu pencarian: peneliti, ringkasan, dan masukan email sekaligus."
+    },
+    "professors": {
+      "eyebrow": "Untuk profesor",
+      "title": "Rekrut mahasiswa yang <em>benar-benar cocok.</em>",
+      "description": "Posting posisi, bagikan riset Anda, dan biarkan AI menampilkan mahasiswa yang keahlian dan gaya kerjanya cocok dengan laboratorium Anda.",
+      "b1": "Gratis untuk dosen terverifikasi",
+      "b2": "Pamerkan makalah, dataset, dan poster",
+      "b3": "Tinjau lamaran dan undangan di satu tempat",
+      "cta": "Posting posisi"
+    },
+    "stats": {
+      "eyebrow": "Dibangun dari data terbuka",
+      "title": "Direktori yang nyata, bukan buatan mesin",
+      "works": "Karya ilmiah terindeks",
+      "institutions": "Institusi di seluruh dunia",
+      "researchers": "Peneliti",
+      "labs": "Laboratorium di Labora",
+      "positions": "Posisi dibuka",
+      "attribution": "Metadata ilmiah disediakan oleh OpenAlex."
+    },
+    "pricing": {
+      "title": "Mulai gratis. Tingkatkan saat Anda siap.",
+      "description": "Pencarian selalu gratis. Paket membuka pencari email, ringkasan tanpa batas, dan pemeriksaan email tanpa batas selama Anda membutuhkannya.",
+      "cta": "Lihat paket"
+    },
+    "faq": {
+      "title": "Tanya jawab",
+      "q1": "Dari mana data peneliti berasal?",
+      "a1": "Dari OpenAlex, katalog terbuka karya ilmiah dunia. Kami hanya menampilkan orang dan makalah yang ada dalam catatan itu. Kami tidak pernah mengarang profesor atau publikasi.",
+      "q2": "Apakah Labora akan menulis email saya?",
+      "a2": "Tidak — dan itu disengaja. Profesor bisa tahu, dan balasan diberikan kepada mahasiswa yang terdengar seperti dirinya sendiri. Labora menemukan siapa yang perlu Anda tulisi, menjelaskan karya mereka, dan memberi masukan spesifik atas draf Anda sendiri.",
+      "q3": "Bagaimana cara kerja pencocokan AI?",
+      "a3": "Kami membandingkan keahlian, minat, pengalaman, ketersediaan, dan gaya kerja Anda dengan posisi, laboratorium, dan peneliti, lalu menjelaskan setiap kecocokan. Peninjau AI menyempurnakan hasil teratas. Kami tidak pernah menggunakan nama, sekolah, gender, kewarganegaraan, atau ciri terlindungi lainnya.",
+      "q4": "Siapa yang bisa melihat profil saya?",
+      "a4": "Tidak seorang pun, kecuali Anda mengaktifkan keterlihatan. Saat itu hanya profesor terverifikasi yang dapat melihat profil Anda — tidak pernah email Anda. Mereka dapat mengundang Anda, dan Anda yang memutuskan apakah akan membalas.",
+      "q5": "Apakah profesor harus ada di Labora?",
+      "a5": "Tidak. Anda bisa menemukan dan menghubungi peneliti di mana pun dalam catatan ilmiah. Profesor yang bergabung dapat memposting posisi, membagikan riset, dan menemukan mahasiswa.",
+      "q6": "Berapa biayanya?",
+      "a6": "Pencarian gratis, dan akun gratis mencakup sedikit ringkasan, pemeriksaan email, dan pencocokan AI. Paket membuka penggunaan tanpa batas — lihat Harga."
+    },
+    "cta": {
+      "title": "Posisi riset Anda berikutnya dimulai dari <em>satu email yang bagus.</em>",
+      "subtitle": "Cari gratis — tanpa kartu.",
+      "button": "Cari profesor"
+    }
+  },
+  "how": {
+    "eyebrow": "Cara kerja",
+    "title": "Empat langkah dari rasa ingin tahu menuju percakapan",
+    "subtitle": "Labora dibangun berdasarkan hal yang benar-benar membuat profesor membalas.",
+    "s1": {
+      "title": "Cari di catatan ilmiah",
+      "body": "Ketik minat riset dan universitas — atau nama peneliti. Kami menampilkan mereka yang aktif menerbitkan tentangnya.",
+      "b1": "Hasil diambil dari basis data ilmiah terbuka",
+      "b2": "Saring berdasarkan universitas, urutkan berdasarkan aktivitas terbaru"
+    },
+    "s2": {
+      "title": "Pahami karya mereka",
+      "body": "Baca ringkasan sederhana, temuan terbaru, dan pertanyaan yang layak diajukan — lalu lihat sekilas makalahnya sendiri.",
+      "b1": "Ringkasan yang ditulis untuk yang baru mengenal bidangnya",
+      "b2": "Makalah terbaru dan paling banyak disitasi sekilas pandang"
+    },
+    "s3": {
+      "title": "Tulis email yang dibaca",
+      "body": "Tulis sendiri, lalu periksa. Kami menyorot pujian berlebihan, kalimat template, dan kekaburan — dan tidak pernah menulis email untuk Anda.",
+      "b1": "Kerangka dan contoh beranotasi",
+      "b2": "Masukan spesifik, baris demi baris"
+    },
+    "s4": {
+      "title": "Tindak lanjuti dan pantau",
+      "body": "Catat siapa yang Anda hubungi, dapatkan tindak lanjut dengan waktu yang tepat, dan simpan setiap peluang di satu tempat.",
+      "b1": "Dua draf tindak lanjut dan pengingat kalender",
+      "b2": "Pelacak kontak yang mencatat skor"
+    },
+    "cta": "Mulai mencari",
+    "ctaMatch": "Atau biarkan AI menemukan yang cocok untuk Anda"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "Pencocokan AI",
+      "title": "Kecocokan yang memahami <em>cara Anda bekerja.</em>",
+      "subtitle": "Labora membandingkan lebih dari sekadar kata kunci. Ia melihat keahlian, minat, ketersediaan, dan gaya kerja Anda — lalu menjelaskan setiap kecocokan dengan bahasa sederhana.",
+      "student": "Temukan kecocokan saya",
+      "professor": "Temukan mahasiswa ideal saya",
+      "signUp": "Buat akun gratis"
+    },
+    "signals": {
+      "eyebrow": "Cara kerja",
+      "title": "Empat sinyal, satu skor yang bisa dijelaskan",
+      "topics": {
+        "title": "Topik",
+        "body": "Seberapa dekat minat, mata kuliah, dan pengalaman Anda dengan bidang yang dikerjakan laboratorium atau peneliti."
+      },
+      "skills": {
+        "title": "Keahlian",
+        "body": "Keahlian yang dibutuhkan sebuah peran mana yang sudah Anda miliki — dan mana yang bisa Anda kembangkan."
+      },
+      "style": {
+        "title": "Gaya kerja",
+        "body": "Kemandirian, kerja tim, tempo, dan struktur: cara Anda suka bekerja dibandingkan dengan cara kerja laboratorium."
+      },
+      "hours": {
+        "title": "Ketersediaan",
+        "body": "Apakah jam yang dapat Anda berikan mencukupi yang diharapkan peran tersebut."
+      }
+    },
+    "demo": {
+      "eyebrow": "Coba",
+      "title": "Lihat kecocokan gaya kerja",
+      "description": "Geser tuas sesuai cara Anda suka bekerja. Laboratorium contoh bersifat mandiri, kolaboratif, dan bertempo cepat, dengan tugas yang didefinisikan longgar.",
+      "you": "Anda",
+      "lab": "Laboratorium contoh",
+      "fit": "Kecocokan gaya",
+      "aligned": "Selaras pada: {items}",
+      "differs": "Berbeda pada: {items}",
+      "none": "Geser sebuah tuas untuk membandingkan."
+    },
+    "directions": {
+      "title": "Dua arah, satu gagasan",
+      "students": {
+        "title": "Untuk mahasiswa",
+        "s1": "Isi keahlian, minat, pengalaman, dan gaya kerja Anda satu kali.",
+        "s2": "Dapatkan posisi dan profesor yang diurutkan berdasarkan kecocokan, masing-masing dengan alasan dan celahnya.",
+        "s3": "Gunakan tips «cara menonjol» untuk menulis lamaran atau email yang lebih kuat."
+      },
+      "professors": {
+        "title": "Untuk profesor",
+        "s1": "Gambarkan mahasiswa ideal Anda — atau biarkan AI membuat draf dari posisi dan laboratorium Anda.",
+        "s2": "Lihat mahasiswa yang bersedia, diurutkan beserta alasan dan celahnya.",
+        "s3": "Undang yang paling cocok dengan satu pesan. Email mereka tetap privat sampai mereka membalas."
+      }
+    },
+    "trust": {
+      "eyebrow": "Adil sejak dirancang",
+      "title": "Kendali tetap di tangan Anda",
+      "t1": {
+        "title": "Keterlihatan opsional",
+        "body": "Mahasiswa hanya dapat ditemukan jika mengaktifkannya, dan dapat mematikannya kapan saja."
+      },
+      "t2": {
+        "title": "Detail kontak privat",
+        "body": "Profesor tidak pernah melihat email mahasiswa sampai mahasiswa melamar atau menerima undangan."
+      },
+      "t3": {
+        "title": "Tanpa ciri terlindungi",
+        "body": "Nama, sekolah, gender, kewarganegaraan, dan ciri serupa tidak pernah digunakan untuk menilai siapa pun."
+      },
+      "t4": {
+        "title": "Alasan, bukan kotak hitam",
+        "body": "Setiap skor menunjukkan apa yang cocok dan apa yang tidak, sehingga Anda bisa tidak setuju."
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan umum",
+      "q1": "Apakah skor ini prediksi bahwa saya akan mendapatkan posisinya?",
+      "a1": "Tidak. Ini panduan kecocokan, bukan prediksi. Banyak hal memengaruhi keputusan nyata — waktu, pendanaan, dan pelamar lain.",
+      "q2": "Apa sebenarnya yang dilakukan AI?",
+      "a2": "Pertama kami menghitung skor yang transparan dari sinyal di atas. Lalu peninjau AI memeriksa hasil teratas, menyempurnakan peringkat, dan menulis penjelasan. Jika AI tidak tersedia, Anda tetap mendapat skor yang transparan.",
+      "q3": "Bisakah saya memakai Pencocokan AI tanpa profil?",
+      "a3": "Bisa dijalankan, tetapi hasilnya jauh lebih baik dengan profil yang lebih lengkap. Kami tunjukkan apa yang masih kurang."
+    },
+    "cta": {
+      "title": "Temukan laboratorium — dan orang — yang cocok.",
+      "button": "Mulai gratis"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Harga",
+    "title": "Pilih paket yang sesuai dengan semester Anda",
+    "subtitle": "Mencari peneliti selalu gratis. Paket membuka alat yang paling menghemat waktu Anda — sekali bayar, tanpa langganan, tanpa perpanjangan otomatis.",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "desc": "selamanya"
+      },
+      "weekly": {
+        "name": "Sprint mingguan",
+        "desc": "Akses 1 minggu"
+      },
+      "semester": {
+        "name": "Paket semester",
+        "desc": "Akses 4 bulan",
+        "badge": "Paling hemat"
+      },
+      "lifetime": {
+        "name": "Seumur hidup",
+        "desc": "Milik Anda selamanya"
+      }
+    },
+    "cta": {
+      "free": "Mulai gratis",
+      "weekly": "Mulai sprint mingguan",
+      "semester": "Ambil paket semester",
+      "lifetime": "Ambil akses seumur hidup",
+      "current": "Paket Anda saat ini",
+      "signIn": "Masuk untuk melanjutkan"
+    },
+    "features": {
+      "unlimited_search": "Pencarian peneliti tanpa batas",
+      "summaries_2": "2 ringkasan bahasa sederhana",
+      "email_check_1": "1 pemeriksaan email",
+      "ai_match_3": "3 pencocokan AI",
+      "outreach_tracker": "Pelacak kontak",
+      "positions_board": "Papan posisi dibuka",
+      "everything_pro": "Semua di paket Gratis, plus:",
+      "unlimited_summaries": "Ringkasan tanpa batas",
+      "email_finder": "Pencari email",
+      "responsiveness": "Skor responsivitas",
+      "unlimited_checks": "Pemeriksaan email dan tindak lanjut tanpa batas",
+      "playbook": "Panduan email perkenalan",
+      "everything_semester": "Semua di Paket semester, plus:",
+      "never_pay_again": "Tidak perlu membayar lagi",
+      "priority_features": "Akses awal ke fitur baru"
+    },
+    "payments": "Pembayaran diproses dengan aman oleh Stripe. Kami tidak pernah melihat detail kartu Anda.",
+    "devMode": "Pembayaran belum terhubung di lingkungan ini — paket langsung aktif agar Anda bisa mencobanya.",
+    "activated": "Paket Anda aktif. Selamat menikmati!",
+    "cancelled": "Checkout dibatalkan — tidak ada biaya yang dikenakan.",
+    "referral": {
+      "title": "Ajak teman, kalian berdua dapat seminggu",
+      "body": "Bagikan kode Anda dari Paket & penagihan. Saat teman mendaftar dengan kode itu, kalian berdua mendapat 7 hari Pro.",
+      "haveCode": "Punya kode dari teman?",
+      "placeholder": "Masukkan kode",
+      "redeem": "Tukarkan",
+      "redeemed": "Kode ditukarkan — 7 hari Pro ditambahkan.",
+      "signIn": "Masuk untuk menukarkan kode"
+    },
+    "waitlist": {
+      "title": "Paket dengan jaminan balasan segera hadir",
+      "body": "Kami sedang menjajaki paket yang berfokus pada membantu Anda mendapatkan percakapan nyata. Gabung daftar tunggu dan kami akan memberi tahu Anda lebih dulu.",
+      "placeholder": "anda@universitas.edu",
+      "join": "Gabung daftar tunggu",
+      "joined": "Anda ada di daftar. Terima kasih!"
+    },
+    "faq": {
+      "title": "Pertanyaan tentang penagihan",
+      "q1": "Apakah ini langganan?",
+      "a1": "Bukan. Setiap paket adalah pembayaran sekali. Tidak ada yang diperpanjang otomatis, jadi tidak ada yang perlu dibatalkan.",
+      "q2": "Apa yang terjadi saat paket saya berakhir?",
+      "a2": "Anda tetap memiliki akun, peneliti tersimpan, dan pelacak. Anda hanya kembali ke jatah gratis.",
+      "q3": "Apakah saya perlu paket untuk mencari atau melamar?",
+      "a3": "Tidak. Mencari peneliti, menelusuri posisi, dan melamar selalu gratis.",
+      "q4": "Apakah profesor dikenai biaya?",
+      "a4": "Tidak. Profesor terverifikasi memposting posisi, membagikan riset, dan menemukan mahasiswa secara gratis.",
+      "q5": "Siapa yang harus saya hubungi soal penagihan?",
+      "a5": "Gunakan halaman kontak dan kami akan membalas Anda."
+    }
+  },
+  "dash": {
+    "nav": {
+      "overview": "Ringkasan",
+      "matches": "Pencocokan AI",
+      "talent": "Cari mahasiswa",
+      "applications": "Lamaran",
+      "invitations": "Undangan",
+      "outreach": "Pelacak kontak",
+      "saved": "Tersimpan",
+      "profile": "Profil saya",
+      "billing": "Paket & penagihan",
+      "settings": "Pengaturan",
+      "positions": "Posisi",
+      "lab": "Laboratorium & riset",
+      "admin": "Admin"
+    },
+    "greeting": "Halo, {name}",
+    "welcomeProfessor": "Selamat datang, {name}",
+    "overview": {
+      "studentSubtitle": "Beginilah perkembangan pencarian riset Anda.",
+      "professorSubtitle": "Kelola laboratorium, posisi, dan pelamar Anda.",
+      "findPositions": "Cari posisi",
+      "newPosition": "Posisi baru",
+      "applications": "Lamaran",
+      "inReview": "Sedang ditinjau",
+      "accepted": "Diterima",
+      "invitations": "Undangan",
+      "openPositions": "Posisi dibuka",
+      "applicants": "Pelamar",
+      "lab": "Laboratorium",
+      "live": "Tayang",
+      "notSetUp": "Belum diatur",
+      "completeTitle": "Lengkapi profil Anda",
+      "completeBody": "Profesor melihat profil Anda pada setiap lamaran, dan pencocokan makin tajam semakin banyak yang Anda bagikan.",
+      "completeCta": "Perbarui profil",
+      "discoverTitle": "Biarkan profesor menemukan Anda",
+      "discoverBody": "Aktifkan keterlihatan agar profesor terverifikasi dapat mengundang Anda melamar. Email Anda tetap privat sampai Anda membalas.",
+      "discoverCta": "Pilih di profil",
+      "recentApplications": "Lamaran terbaru",
+      "noApplications": "Anda belum melamar.",
+      "browse": "Telusuri posisi yang dibuka",
+      "matchTitle": "Kecocokan terbaik Anda",
+      "matchBody": "Lihat posisi dan profesor yang diurutkan berdasarkan seberapa cocok dengan Anda.",
+      "matchCta": "Buka Pencocokan AI",
+      "yourPositions": "Posisi Anda",
+      "noPositions": "Belum ada posisi.",
+      "createLabTitle": "Atur laboratorium Anda untuk mulai merekrut",
+      "createLabBody": "Mahasiswa melihat profil laboratorium dan riset Anda pada setiap posisi yang Anda posting.",
+      "createLabCta": "Buat profil laboratorium",
+      "unverifiedTitle": "Akun Anda menunggu verifikasi",
+      "unverifiedBody": "Kami meninjau akun profesor sebelum laboratorium dan posisi dipublikasikan. Sementara itu, Anda dapat menyiapkan semuanya.",
+      "talentTitle": "Temukan mahasiswa yang cocok",
+      "talentBody": "Gambarkan mahasiswa ideal dan biarkan AI mengurutkan mahasiswa yang bersedia.",
+      "talentCta": "Cari mahasiswa",
+      "pendingInvitations_other": "Anda memiliki {count} undangan yang menunggu",
+      "viewInvitations": "Lihat undangan",
+      "applicantsCount_other": "{count} pelamar",
+      "newForYou": "Baru untuk Anda"
+    },
+    "profile": {
+      "title": "Profil saya",
+      "subtitle": "Profesor melihat ini bersama lamaran Anda, dan Pencocokan AI menggunakannya untuk menemukan kecocokan Anda.",
+      "strength": "Kekuatan profil",
+      "basics": "Dasar-dasar",
+      "university": "Universitas",
+      "major": "Jurusan",
+      "year": "Tahun",
+      "selectYear": "Pilih…",
+      "about": "Tentang Anda",
+      "bio": "Bio singkat",
+      "bioHint": "Siapa Anda, dan apa yang membuat Anda penasaran?",
+      "skills": "Keahlian",
+      "skillsHint": "Pisahkan dengan koma, mis. Python, PyTorch, R, keselamatan laboratorium",
+      "interests": "Minat riset",
+      "interestsHint": "Topik yang ingin Anda kerjakan, mis. visi komputer, nasib sel.",
+      "experience": "Apa yang sudah Anda lakukan",
+      "experienceHint": "Proyek, mata kuliah, riset sebelumnya — makin konkret, makin baik kecocokannya.",
+      "availability": "Jam per minggu yang dapat Anda sisihkan",
+      "workStyle": "Cara Anda suka bekerja",
+      "workStyleHint": "Geser setiap tuas ke posisi yang paling nyaman bagi Anda. Ini digunakan untuk membandingkan Anda dengan laboratorium.",
+      "links": "Tautan",
+      "resume": "Tautan CV",
+      "resumeHint": "Tautan ke PDF (Drive, Dropbox, situs Anda).",
+      "website": "Situs pribadi",
+      "github": "Profil GitHub",
+      "visibility": "Keterlihatan",
+      "discoverable": "Izinkan profesor terverifikasi menemukan saya",
+      "discoverableDesc": "Profesor dapat melihat profil Anda dan mengundang Anda melamar. Email Anda tetap privat sampai Anda membalas. Anda dapat mematikannya kapan saja.",
+      "save": "Simpan profil",
+      "saved": "Profil tersimpan",
+      "welcome": "Selamat datang di Labora! Ceritakan tentang diri Anda untuk mendapat kecocokan yang lebih baik."
+    },
+    "applications": {
+      "title": "Lamaran",
+      "subtitle": "Semua yang pernah Anda lamar, di satu tempat.",
+      "emptyTitle": "Belum ada lamaran",
+      "emptyBody": "Saat Anda melamar sebuah posisi, posisi itu muncul di sini agar Anda dapat memantau statusnya.",
+      "browse": "Telusuri posisi",
+      "applied": "Dilamar {when}",
+      "withdraw": "Tarik",
+      "withdrawConfirm": "Tarik lamaran ini?",
+      "withdrawn": "Lamaran ditarik",
+      "invited": "Diundang",
+      "decided": "Diputuskan {when}"
+    },
+    "invitations": {
+      "title": "Undangan",
+      "subtitleStudent": "Profesor yang ingin Anda melamar.",
+      "subtitleProfessor": "Mahasiswa yang telah Anda undang.",
+      "emptyStudentTitle": "Belum ada undangan",
+      "emptyStudentBody": "Aktifkan keterlihatan di profil Anda agar profesor terverifikasi dapat mengundang Anda.",
+      "emptyProfessorTitle": "Anda belum mengundang siapa pun",
+      "emptyProfessorBody": "Gunakan «Cari mahasiswa» untuk menemukan mahasiswa yang cocok dengan laboratorium Anda.",
+      "from": "Dari {name}",
+      "to": "Untuk {name}",
+      "match": "Kecocokan {score}%",
+      "accept": "Terima & lamar",
+      "decline": "Tolak",
+      "replyPlaceholder": "Tambahkan catatan untuk profesor (opsional)",
+      "accepted": "Anda menerima — sebuah lamaran telah dibuat.",
+      "declined": "Undangan ditolak",
+      "withdraw": "Tarik undangan",
+      "receivedAgo": "Dikirim {when}",
+      "findStudents": "Cari mahasiswa"
+    },
+    "outreach": {
+      "title": "Pelacak kontak",
+      "subtitle": "Catat siapa yang telah Anda hubungi, kapan menindaklanjuti, dan apa yang terjadi.",
+      "emptyTitle": "Belum ada yang dilacak",
+      "emptyBody": "Tambahkan peneliti dari profil mereka untuk memantau kontak Anda dan mendapat tanggal tindak lanjut.",
+      "find": "Cari profesor",
+      "followUpDue": "Tindak lanjut {when}",
+      "overdue": "Tindak lanjut terlambat",
+      "sentOn": "Dikirim {date}",
+      "repliedOn": "Dibalas {date}",
+      "notes": "Catatan",
+      "notesPlaceholder": "Apa pun yang perlu diingat…",
+      "status": "Status",
+      "remove": "Hapus",
+      "removeConfirm": "Hapus peneliti ini dari pelacak Anda?",
+      "planFollowUp": "Rencanakan tindak lanjut",
+      "helpTitle": "Catatan Anda membantu semua orang",
+      "helpBody": "Tingkat balasan yang ditampilkan pada profil peneliti berasal dari catatan kontak anonim dan teragregasi seperti milik Anda — tidak ada entri individual yang pernah ditampilkan.",
+      "stats": {
+        "total": "Dilacak",
+        "sent": "Terkirim",
+        "replied": "Dibalas",
+        "due": "Tindak lanjut jatuh tempo"
+      }
+    },
+    "saved": {
+      "title": "Tersimpan",
+      "subtitle": "Peneliti dan posisi yang Anda tandai.",
+      "professors": "Peneliti",
+      "positions": "Posisi",
+      "emptyProfessors": "Belum ada peneliti tersimpan",
+      "emptyProfessorsBody": "Ketuk penanda pada peneliti mana pun untuk menambahkannya ke daftar Anda.",
+      "emptyPositions": "Belum ada posisi tersimpan",
+      "emptyPositionsBody": "Ketuk penanda pada sebuah posisi untuk menyimpannya nanti."
+    },
+    "billing": {
+      "title": "Paket & penagihan",
+      "subtitle": "Akses, penggunaan, dan hadiah referral Anda.",
+      "currentPlan": "Paket saat ini",
+      "plan": {
+        "free": "Gratis",
+        "weekly": "Sprint mingguan",
+        "semester": "Paket semester",
+        "lifetime": "Seumur hidup"
+      },
+      "activeUntil": "Aktif hingga {date}",
+      "lifetimeNote": "Anda memiliki akses seumur hidup.",
+      "freeNote": "Anda berada di paket gratis.",
+      "upgrade": "Lihat paket",
+      "usage": "Jatah gratis",
+      "usageItem": "{used} dari {limit} terpakai",
+      "unlimited": "Tanpa batas",
+      "features": {
+        "summary": "Ringkasan profesor",
+        "email_check": "Pemeriksaan email",
+        "follow_up": "Rencana tindak lanjut",
+        "match_positions": "Kecocokan posisi",
+        "match_professors": "Kecocokan profesor"
+      },
+      "referral": "Ajak teman",
+      "referralBody": "Bagikan kode Anda. Saat teman mendaftar dengan kode itu, kalian berdua mendapat {days} hari Pro.",
+      "yourCode": "Kode Anda",
+      "copyCode": "Salin kode",
+      "copyLink": "Salin tautan undangan",
+      "copied": "Tersalin",
+      "redeemed_other": "{count} teman bergabung dengan kode Anda",
+      "redeem": "Punya kode dari teman?",
+      "redeemPlaceholder": "Masukkan kode",
+      "redeemCta": "Tukarkan",
+      "redeemedOk": "Kode ditukarkan — {days} hari Pro ditambahkan.",
+      "checkoutSuccess": "Terima kasih! Paket Anda akan segera aktif.",
+      "devMode": "Pembayaran belum terhubung di lingkungan ini — paket langsung aktif untuk pengujian."
+    },
+    "settings": {
+      "title": "Pengaturan",
+      "subtitle": "Akun, bahasa, dan keamanan Anda.",
+      "account": "Akun",
+      "name": "Nama lengkap",
+      "email": "Email",
+      "emailNote": "Email Anda tidak dapat diubah.",
+      "language": "Bahasa",
+      "languageHint": "Juga digunakan untuk ringkasan dan masukan yang ditulis AI.",
+      "saveChanges": "Simpan perubahan",
+      "saved": "Pengaturan tersimpan",
+      "password": "Kata sandi",
+      "currentPassword": "Kata sandi saat ini",
+      "newPassword": "Kata sandi baru",
+      "changePassword": "Ubah kata sandi",
+      "passwordChanged": "Kata sandi diperbarui",
+      "danger": "Hapus akun",
+      "dangerBody": "Ini menghapus secara permanen profil, lamaran, dan semua yang terkait dengan akun Anda. Tindakan ini tidak dapat dibatalkan.",
+      "dangerConfirm": "Masukkan kata sandi Anda untuk mengonfirmasi",
+      "deleteCta": "Hapus akun saya",
+      "deleted": "Akun Anda telah dihapus."
+    },
+    "lab": {
+      "title": "Laboratorium & riset",
+      "subtitle": "Inilah yang dilihat mahasiswa saat mempertimbangkan posisi Anda.",
+      "createTitle": "Buat laboratorium Anda",
+      "profileTitle": "Profil laboratorium",
+      "name": "Nama laboratorium",
+      "university": "Universitas",
+      "department": "Departemen",
+      "description": "Deskripsi",
+      "descriptionHint": "Apa yang dikerjakan laboratorium Anda? Buat mudah dipahami mahasiswa sarjana.",
+      "keywords": "Kata kunci riset",
+      "keywordsHint": "Pisahkan dengan koma",
+      "website": "Situs laboratorium",
+      "culture": "Seperti apa bekerja di sini",
+      "cultureHint": "Gaya bimbingan, ritme pertemuan, apa yang menjadi tanggung jawab mahasiswa. Mahasiswa menghargai kejujuran.",
+      "teamSize": "Ukuran tim",
+      "workStyle": "Cara kerja laboratorium Anda",
+      "workStyleHint": "Digunakan untuk membandingkan gaya kerja dengan mahasiswa.",
+      "openalex": "ID penulis OpenAlex",
+      "openalexHint": "Opsional. Menautkan laboratorium Labora Anda ke profil publikasi Anda (diawali huruf A…).",
+      "saveLab": "Simpan laboratorium",
+      "createLab": "Buat laboratorium",
+      "created": "Laboratorium dibuat — sekarang tambahkan materi riset dan posting sebuah posisi.",
+      "updated": "Laboratorium diperbarui",
+      "materials": "Materi riset",
+      "materialsHint": "Bagikan makalah, dataset, atau poster agar mahasiswa mengenal karya Anda.",
+      "nothingShared": "Belum ada yang dibagikan.",
+      "addMaterial": "Tambah materi",
+      "materialTitle": "Judul",
+      "materialType": "Jenis",
+      "materialLink": "Tautan",
+      "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Deskripsi singkat",
+      "removeMaterial": "Hapus materi ini?",
+      "verificationTitle": "Verifikasi tertunda",
+      "verificationBody": "Laboratorium Anda menjadi publik setelah kami memverifikasi akun profesor Anda. Tambahkan situs laboratorium untuk mempercepatnya."
+    },
+    "positions": {
+      "title": "Posisi",
+      "subtitle": "Lowongan Anda dan siapa yang telah melamar.",
+      "new": "Posisi baru",
+      "emptyTitle": "Belum ada posisi",
+      "emptyBody": "Posting sebuah posisi dan mulai menerima lamaran.",
+      "emptyLab": "Buat profil laboratorium Anda terlebih dahulu.",
+      "post": "Posting posisi pertama Anda",
+      "open": "Dibuka",
+      "closed": "Ditutup",
+      "close": "Tutup",
+      "reopen": "Buka kembali",
+      "edit": "Ubah",
+      "delete": "Hapus",
+      "deleteConfirm": "Hapus posisi ini? Tindakan ini tidak dapat dibatalkan.",
+      "applicants": "Pelamar",
+      "postedAgo": "Diposting {when}",
+      "viewPublic": "Lihat halaman publik",
+      "newTitle": "Posisi baru",
+      "newSubtitle": "Jelaskan posisinya. Anda dapat mengubahnya kapan saja.",
+      "editTitle": "Ubah posisi",
+      "needLab": "Anda perlu profil laboratorium sebelum memposting.",
+      "createLab": "Buat laboratorium Anda",
+      "noApplicants": "Belum ada pelamar",
+      "noApplicantsBody": "Bagikan posisi Anda atau undang mahasiswa yang cocok lewat «Cari mahasiswa».",
+      "decline": "Tolak",
+      "accept": "Terima",
+      "email": "Email pelamar",
+      "resume": "CV",
+      "invitedBadge": "Diundang oleh Anda",
+      "profileIncomplete": "Profil belum lengkap",
+      "form": {
+        "title": "Judul posisi",
+        "titlePlaceholder": "Asisten riset sarjana: visi swa-awasan",
+        "description": "Deskripsi",
+        "descriptionHint": "Apa yang akan dikerjakan mahasiswa? Apa yang akan dipelajari?",
+        "requirements": "Persyaratan",
+        "requirementsHint": "Mata kuliah atau pengalaman (opsional)",
+        "skills": "Keahlian yang dibutuhkan",
+        "skillsHint": "Pisahkan dengan koma — digunakan untuk pencocokan, mis. python, pytorch",
+        "compensation": "Kompensasi",
+        "hours": "Jam / minggu",
+        "term": "Periode",
+        "location": "Lokasi",
+        "slots": "Kuota",
+        "deadline": "Lamar sebelum",
+        "keywords": "Kata kunci",
+        "keywordsHint": "Membantu mahasiswa menemukan posisi Anda",
+        "publish": "Terbitkan posisi",
+        "saveChanges": "Simpan perubahan",
+        "saved": "Posisi tersimpan",
+        "notSpecified": "Tidak ditentukan"
+      }
+    },
+    "admin": {
+      "title": "Admin",
+      "subtitle": "Verifikasi profesor dan tinjau apa yang dikirim orang.",
+      "overview": "Ringkasan",
+      "stats": {
+        "users": "Pengguna",
+        "students": "Mahasiswa",
+        "professors": "Profesor",
+        "pending_professors": "Menunggu verifikasi",
+        "labs": "Laboratorium",
+        "open_positions": "Posisi dibuka",
+        "applications": "Lamaran",
+        "invitations": "Undangan",
+        "feedback": "Kiriman masukan",
+        "waitlist": "Daftar tunggu",
+        "paid_users": "Pengguna berbayar"
+      },
+      "verification": "Verifikasi profesor",
+      "onlyPending": "Hanya yang menunggu",
+      "verify": "Verifikasi",
+      "unverify": "Cabut",
+      "verifiedAt": "Terverifikasi",
+      "pendingBadge": "Menunggu",
+      "lab": "Laboratorium",
+      "waitlist": "Daftar tunggu",
+      "contact": "Pesan kontak",
+      "empty": "Belum ada apa-apa di sini.",
+      "notAdmin": "Area ini hanya untuk administrator.",
+      "verifiedToast": "Profesor terverifikasi",
+      "revokedToast": "Verifikasi dicabut"
+    }
+  },
+  "auth": {
+    "shell": {
+      "headline": "Terobosan Anda berikutnya dimulai dari laboratorium yang tepat.",
+      "p1": "Temukan peneliti dari catatan ilmiah dunia",
+      "p2": "Pahami karya mereka sebelum menulis sepatah kata pun",
+      "p3": "Dicocokkan berdasarkan keahlian dan cara Anda suka bekerja",
+      "footer": "Untuk mahasiswa dan profesor, dalam bahasa Anda."
+    },
+    "login": {
+      "title": "Selamat datang kembali",
+      "subtitle": "Masuk untuk melanjutkan.",
+      "email": "Email",
+      "emailPlaceholder": "anda@universitas.edu",
+      "password": "Kata sandi",
+      "submit": "Masuk",
+      "noAccount": "Belum punya akun?",
+      "signUp": "Daftar",
+      "forgot": "Lupa kata sandi?",
+      "forgotHelp": "Hubungi kami dan kami akan membantu Anda masuk kembali.",
+      "demo": "Akun demo (kata sandi: password123)",
+      "demoStudent": "Mahasiswa",
+      "demoProfessor": "Profesor",
+      "demoAdmin": "Admin"
+    },
+    "register": {
+      "title": "Buat akun Anda",
+      "subtitle": "Bergabunglah dengan email universitas Anda. Hanya butuh semenit.",
+      "iAm": "Saya adalah…",
+      "student": "Mahasiswa",
+      "studentDesc": "Temukan riset dan dapatkan kecocokan",
+      "professor": "Profesor",
+      "professorDesc": "Rekrut mahasiswa, bagikan karya Anda",
+      "fullName": "Nama lengkap",
+      "fullNamePlaceholderStudent": "Jamie Park",
+      "fullNamePlaceholderProfessor": "Prof. Jane Smith",
+      "email": "Email universitas",
+      "emailHint": "Gunakan alamat berakhiran .edu, .ac.uk, .ac.id, atau domain akademik serupa.",
+      "password": "Kata sandi",
+      "passwordHint": "Minimal 8 karakter.",
+      "referral": "Kode teman",
+      "referralHint": "Punya kode dari teman? Kalian berdua mendapat seminggu Pro.",
+      "consent": "Dengan membuat akun, Anda menyetujui <terms>Ketentuan</terms> dan <privacy>Kebijakan Privasi</privacy> kami.",
+      "submit": "Buat akun",
+      "haveAccount": "Sudah punya akun?",
+      "signIn": "Masuk",
+      "professorNote": "Akun profesor diverifikasi oleh tim kami sebelum laboratorium dan posisi Anda dipublikasikan."
+    }
+  },
+  "discover": {
+    "title": "Temukan profesor riset Anda",
+    "subtitle": "Cari peneliti yang aktif menerbitkan tentang hal yang Anda pedulikan — dari catatan ilmiah dunia.",
+    "modeInterest": "Berdasarkan minat",
+    "modeName": "Berdasarkan nama",
+    "interestLabel": "Minat riset",
+    "interestPlaceholder": "mis. neurosains komputasional",
+    "nameLabel": "Nama peneliti",
+    "namePlaceholder": "mis. Jane Smith",
+    "universityLabel": "Universitas",
+    "universityPlaceholder": "Universitas mana pun",
+    "universityHint": "Pilih dari daftar untuk mencari di satu institusi.",
+    "search": "Cari",
+    "searching": "Mencari…",
+    "sortBy": "Urutkan",
+    "minH": "Indeks-h minimum",
+    "minHAny": "Berapa pun",
+    "filters": "Filter",
+    "resultsFor": "Peneliti untuk «{q}»",
+    "resultsAt": "· {university}",
+    "resultsCount_other": "{count} peneliti",
+    "noResults": "Tidak ada peneliti ditemukan",
+    "noResultsBody": "Coba minat yang lebih luas, ejaan lain, atau hapus filter universitas.",
+    "startTitle": "Mulai dari sesuatu yang membuat Anda penasaran",
+    "startBody": "Coba topik seperti «pelipatan protein» atau «kebijakan iklim», tambahkan universitas jika Anda punya, dan kami akan menunjukkan siapa yang menerbitkan tentangnya.",
+    "noteTitle": "Cara hasil diurutkan",
+    "noteBody": "Peneliti diurutkan berdasarkan seberapa banyak mereka menerbitkan baru-baru ini tentang topik Anda, dibobot dengan kedudukan mereka di bidangnya. Gelar seperti «profesor» tidak tercatat di basis data ilmiah, jadi gunakan ringkasan dan makalah untuk menilai kecocokan.",
+    "hIndex": "indeks-h",
+    "papers": "makalah",
+    "citations": "sitasi",
+    "recentWorks": "3 tahun terakhir",
+    "onTopic": "Pada topik ini",
+    "onLabora": "Di Labora",
+    "viewProfile": "Lihat profil",
+    "save": "Simpan",
+    "saved": "Tersimpan",
+    "loadMore": "Tampilkan lebih banyak peneliti",
+    "yourInterest": "Minat Anda",
+    "disclaimer": "Data dari OpenAlex. Afiliasi mencerminkan catatan publikasi terbaru dan bisa tertinggal dari kenyataan.",
+    "signInToSave": "Masuk untuk menyimpan peneliti ke daftar Anda.",
+    "savedToast": "Disimpan ke daftar Anda",
+    "removedToast": "Dihapus dari daftar Anda",
+    "clearFilters": "Bersihkan filter",
+    "universityAny": "Universitas mana pun",
+    "searchingAt": "Mencari peneliti di {university}",
+    "lookingUp": "Mencari institusi…"
+  },
+  "professor": {
+    "back": "Kembali ke pencarian",
+    "notFoundTitle": "Kami tidak dapat menemukan peneliti itu",
+    "notFoundBody": "Tautannya mungkin salah, atau basis data ilmiah sedang sibuk. Coba cari lagi.",
+    "orcid": "ORCID",
+    "openalex": "Profil OpenAlex",
+    "onLabora": "Memimpin laboratorium di Labora",
+    "viewLab": "Lihat laboratorium mereka",
+    "stats": {
+      "hIndex": "Indeks-h",
+      "papers": "Makalah",
+      "citations": "Sitasi",
+      "recent": "3 tahun terakhir",
+      "i10": "Indeks i10"
+    },
+    "tabs": {
+      "overview": "Ikhtisar",
+      "papers": "Makalah",
+      "contact": "Kontak"
+    },
+    "summary": {
+      "title": "Karya mereka, dalam bahasa sederhana",
+      "cta": "Jelaskan karya mereka",
+      "ctaBody": "Dapatkan ringkasan singkat tentang apa yang mereka teliti, satu temuan terbaru, dan pertanyaan yang layak diajukan.",
+      "loading": "Membaca makalah terbaru mereka…",
+      "overview": "Apa yang mereka teliti",
+      "keyFinding": "Temuan terbaru",
+      "fromPaper": "Dari: {title}",
+      "topics": "Bidang riset, secara sederhana",
+      "goodFit": "Anda mungkin cocok jika…",
+      "starters": "Pertanyaan yang layak diajukan",
+      "startersHint": "Gunakan ini sebagai pemicu rasa ingin tahu Anda sendiri — profesor tahu kapan sebuah pertanyaan tulus.",
+      "aiBadge": "Ringkasan AI",
+      "extractiveBadge": "Ringkasan otomatis",
+      "extractiveNote": "Ringkasan AI belum diaktifkan di server ini, jadi ini disusun langsung dari data publikasi mereka (dalam bahasa Inggris).",
+      "aiNote": "Ditulis oleh AI dari abstrak publik. Selalu periksa makalahnya.",
+      "quota": "{used} dari {limit} ringkasan gratis terpakai",
+      "quotaPro": "Ringkasan tanpa batas",
+      "signInTitle": "Masuk untuk membaca ringkasan",
+      "signInBody": "Akun gratis mendapat ringkasan bahasa sederhana, satu temuan kunci, dan pemantik percakapan untuk beberapa peneliti.",
+      "upgrade": "Dapatkan ringkasan tanpa batas",
+      "limitTitle": "Anda telah memakai ringkasan gratis",
+      "limitBody": "Paket membuka ringkasan tanpa batas, pencari email, dan lainnya."
+    },
+    "topics": "Topik riset",
+    "activity": "Publikasi per tahun",
+    "papers": {
+      "recent": "Terbaru",
+      "top": "Paling banyak disitasi",
+      "empty": "Tidak ada makalah ditemukan.",
+      "abstract": "Abstrak",
+      "cited": "{n} sitasi",
+      "openAccess": "Akses terbuka",
+      "viewPaper": "Lihat makalah"
+    },
+    "contact": {
+      "title": "Pencari email",
+      "lockedTitle": "Buka pencari email dan responsivitas",
+      "lockedBody": "Lihat kemungkinan alamat institusi dan seberapa sering mahasiswa mendapat balasan. Termasuk dalam paket apa pun.",
+      "seePlans": "Lihat paket",
+      "guessNote": "Ini adalah tebakan berdasarkan pola penamaan umum, bukan alamat terverifikasi. Konfirmasi di direktori dosen sebelum mengirim.",
+      "pattern": "Pola: {pattern}",
+      "mostCommon": "Paling umum",
+      "copy": "Salin alamat",
+      "copied": "Alamat tersalin",
+      "compose": "Buka di aplikasi email",
+      "directory": "Cari di direktori dosen",
+      "noDomain": "Kami tidak dapat menentukan domain email institusi ini.",
+      "responsiveness": "Responsivitas",
+      "resp": {
+        "high": "Sering membalas",
+        "medium": "Kadang membalas",
+        "low": "Jarang membalas",
+        "unknown": "Laporan belum cukup"
+      },
+      "respBody": "Berdasarkan {n} catatan kontak mahasiswa. {rate} mendapat balasan{days}.",
+      "respDays": ", biasanya dalam {days} hari",
+      "respUnknown": "Kami hanya menampilkan ini setelah setidaknya 3 mahasiswa mencatat kontak mereka dengan peneliti ini. Catat kontak Anda untuk membantu orang lain.",
+      "labDays": "Laboratorium mereka di Labora biasanya membalas lamaran dalam {days} hari.",
+      "logOutreach": "Catat kontak saya"
+    },
+    "sidebar": {
+      "writeTitle": "Siap menghubungi?",
+      "writeBody": "Susun email Anda, lalu bandingkan dengan hal-hal yang menurut profesor langsung dihapus.",
+      "writeCta": "Periksa email saya",
+      "trackTitle": "Pelacak kontak",
+      "trackBody": "Pantau siapa yang Anda hubungi dan kapan menindaklanjuti.",
+      "trackStart": "Tambahkan ke pelacak",
+      "status": "Status",
+      "tracked": "Ditambahkan ke pelacak Anda",
+      "saveError": "Tidak dapat memperbarui pelacak"
+    }
+  },
+  "positions": {
+    "title": "Posisi dibuka",
+    "subtitle": "Posisi riset yang diposting langsung oleh profesor terverifikasi. Baca karya mereka lebih dulu, lalu lamar.",
+    "searchLabel": "Cari",
+    "searchPlaceholder": "Topik, keahlian, atau nama laboratorium",
+    "filters": "Filter",
+    "compensation": "Kompensasi",
+    "location": "Lokasi",
+    "term": "Periode",
+    "university": "Universitas",
+    "universityPlaceholder": "mis. MIT",
+    "department": "Departemen",
+    "departmentPlaceholder": "mis. Biologi",
+    "any": "Berapa pun",
+    "count_other": "{count} posisi",
+    "searching": "Mencari…",
+    "noResults": "Tidak ada posisi yang cocok dengan pencarian Anda",
+    "noResultsBody": "Coba kata kunci yang lebih luas atau hapus salah satu filter. Atau cari profesor secara langsung — Anda tidak butuh posisi yang dibuka untuk menghubungi.",
+    "discoverCta": "Cari profesor",
+    "clear": "Bersihkan filter",
+    "postedAgo": "Diposting {when}",
+    "closes": "Ditutup {when}",
+    "applyBy": "Lamar sebelum {date}",
+    "deadlinePassed": "Batas waktu terlewat",
+    "slots_other": "{count} kuota",
+    "backToAll": "Semua posisi",
+    "about": "Tentang peran ini",
+    "requirements": "Yang kami cari",
+    "skills": "Keahlian",
+    "research": "Baca riset laboratorium",
+    "researchHint": "Kenali karyanya sebelum melamar.",
+    "noMaterials": "Belum ada materi riset yang dibagikan.",
+    "aboutLab": "Tentang laboratorium",
+    "viewLab": "Lihat profil laboratorium",
+    "website": "Situs laboratorium",
+    "notFound": "Posisi tidak ditemukan",
+    "verifiedLab": "Laboratorium terverifikasi",
+    "apply": {
+      "title": "Lamar",
+      "label": "Mengapa Anda cocok?",
+      "placeholder": "Bagikan minat, mata kuliah yang relevan, dan ketersediaan Anda…",
+      "submit": "Kirim lamaran",
+      "shared": "Profil Anda dibagikan kepada profesor.",
+      "sent": "Lamaran terkirim",
+      "status": "Status",
+      "track": "Pantau lamaran",
+      "signIn": "Masuk dengan akun mahasiswa Anda untuk melamar.",
+      "signInCta": "Masuk untuk melamar",
+      "newHere": "Baru di sini?",
+      "createAccount": "Buat akun",
+      "professorNote": "Anda masuk sebagai profesor. Hanya mahasiswa yang dapat melamar.",
+      "closedNote": "Posisi ini tidak lagi menerima lamaran.",
+      "completeProfile": "Lengkapi profil Anda agar profesor dapat melihat apa yang sudah Anda lakukan.",
+      "toProfile": "Perbarui profil",
+      "fitHint": "Jelaskan dengan spesifik: satu hal yang telah Anda lakukan, satu hal yang ingin Anda pelajari, dan kapan Anda tersedia."
+    }
+  },
+  "lab": {
+    "notFound": "Laboratorium tidak ditemukan",
+    "notFoundBody": "Laboratorium mungkin bersifat privat atau tautannya salah.",
+    "openPositions": "Posisi dibuka",
+    "noPositions": "Tidak ada posisi yang dibuka saat ini",
+    "noPositionsBody": "Cek lagi nanti — laboratorium ini mungkin memposting posisi baru. Anda juga bisa menghubungi langsung.",
+    "materials": "Materi riset",
+    "culture": "Seperti apa bekerja di sini",
+    "teamSize": "Tim beranggotakan {count}",
+    "workStyle": "Cara kerja laboratorium",
+    "website": "Situs laboratorium",
+    "professor": "Peneliti utama",
+    "verified": "Terverifikasi"
+  },
+  "community": {
+    "feedback": {
+      "title": "Papan masukan",
+      "subtitle": "Bantu membentuk Labora. Usulkan fitur, laporkan bug, atau sampaikan yang ada di pikiran Anda — dan pilih yang paling penting.",
+      "kind": {
+        "feature": "Permintaan fitur",
+        "bug": "Laporan bug",
+        "general": "Masukan umum"
+      },
+      "status": {
+        "open": "Dibuka",
+        "planned": "Direncanakan",
+        "in_progress": "Sedang dikerjakan",
+        "done": "Selesai"
+      },
+      "newPost": "Sampaikan pendapat Anda",
+      "postTitle": "Judul",
+      "postTitlePlaceholder": "Ringkasan singkat",
+      "postBody": "Detail",
+      "postBodyPlaceholder": "Apa yang ingin Anda lihat, atau apa yang salah?",
+      "post": "Kirim",
+      "posted": "Terima kasih — kiriman Anda sudah tayang.",
+      "signIn": "Masuk untuk memposting dan memberikan suara.",
+      "sortVotes": "Suara terbanyak",
+      "sortNew": "Terbaru",
+      "filterAll": "Semua",
+      "count_other": "{count} kiriman",
+      "empty": "Belum ada apa-apa di sini — jadilah yang pertama memposting.",
+      "vote": "Pilih",
+      "voted": "Dipilih",
+      "by": "oleh {name}"
+    },
+    "contact": {
+      "title": "Hubungi kami",
+      "subtitle": "Pertanyaan, ide, atau butuh bantuan akun? Kami membaca setiap pesan.",
+      "name": "Nama Anda",
+      "email": "Email Anda",
+      "message": "Pesan",
+      "messagePlaceholder": "Apa yang bisa kami bantu?",
+      "send": "Kirim pesan",
+      "sent": "Terima kasih — kami akan segera menghubungi Anda.",
+      "professorsTitle": "Apakah Anda profesor?",
+      "professorsBody": "Kami memverifikasi akun profesor sebelum laboratorium dipublikasikan. Jika institusi Anda memakai domain email yang tidak kami kenali, beri tahu kami di sini.",
+      "privacy": "Kami hanya akan menggunakan data Anda untuk membalas pesan ini."
+    }
+  },
+  "tools": {
+    "emailChecker": {
+      "title": "Pemeriksa email",
+      "subtitle": "Tempel draf Anda dan lihat dengan tepat frasa mana yang membuat profesor berhenti membaca. Kami tidak pernah menulis ulang email Anda — suara Anda tetap milik Anda.",
+      "subject": "Baris subjek",
+      "subjectPlaceholder": "mis. Pertanyaan tentang makalah estimasi kedalaman Bapak/Ibu",
+      "body": "Email Anda",
+      "bodyPlaceholder": "Yth. Profesor …",
+      "professorContext": "Memeriksa terhadap karya terbaru {name}",
+      "removeContext": "Hapus",
+      "check": "Periksa email saya",
+      "checking": "Membaca email Anda…",
+      "example": "Coba contoh yang bermasalah",
+      "clear": "Bersihkan",
+      "words": "{count} kata",
+      "wordsHint": "Targetkan 90–180 kata",
+      "resultsTitle": "Hasil Anda",
+      "emptyTitle": "Masukan Anda akan muncul di sini",
+      "emptyBody": "Tulis atau tempel email di sebelah kiri, lalu tekan «Periksa email saya».",
+      "score": "Skor",
+      "highlights": "Email Anda, dengan sorotan",
+      "issues": "Yang perlu diperbaiki",
+      "noIssues": "Tidak ada yang perlu diperbaiki — enak dibaca.",
+      "strengths": "Yang sudah bagus",
+      "aiSummary": "Kesan keseluruhan",
+      "soundsGeneric": "Bisa dikirim ke siapa saja",
+      "soundsGenericHint": "Seberapa mudah email ini dikirim tanpa perubahan ke profesor mana pun.",
+      "aiUsed": "Termasuk tinjauan AI",
+      "rulesOnly": "Tinjauan berbasis aturan",
+      "englishOnly": "Pemeriksaan frasa saat ini hanya berjalan pada email berbahasa Inggris. Pemeriksaan panjang dan struktur tetap berlaku.",
+      "signInTitle": "Masuk untuk memeriksa email Anda",
+      "signInBody": "Akun gratis mencakup satu pemeriksaan. Paket membuka pemeriksaan tanpa batas.",
+      "limitTitle": "Anda telah memakai pemeriksaan gratis",
+      "limitBody": "Paket membuka pemeriksaan email tanpa batas, pencari email, dan ringkasan tanpa batas.",
+      "quota": "{used} dari {limit} pemeriksaan gratis terpakai",
+      "quotaPro": "Pemeriksaan tanpa batas",
+      "noRewrite": "Kami menunjukkan masalahnya tetapi tidak pernah menulis email untuk Anda — profesor membalas mahasiswa yang terdengar seperti dirinya sendiri.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": {
+        "tone": "Nada",
+        "specificity": "Kespesifikan",
+        "voice": "Suara sendiri",
+        "clarity": "Kejelasan",
+        "ask": "Permintaan",
+        "etiquette": "Etika",
+        "subject": "Subjek"
+      },
+      "gradeDesc": {
+        "excellent": "Spesifik, ringkas, dan jelas. Kirim saja.",
+        "good": "Draf yang solid — beberapa perbaikan cepat akan membantu.",
+        "needs_work": "Beberapa hal bisa membuatnya diabaikan. Perbaiki item merah lebih dulu.",
+        "risky": "Kemungkinan besar akan dihapus. Kerjakan ulang sebelum mengirim."
+      },
+      "severity": {
+        "high": "Perbaiki dulu",
+        "medium": "Layak diperbaiki",
+        "low": "Kecil"
+      },
+      "flags": {
+        "flattery": {
+          "title": "Pujian berlebihan",
+          "tip": "Profesor mendengar «terobosan» setiap hari. Sebutkan saja hasil atau metode spesifik yang menarik perhatian Anda."
+        },
+        "generic_phrase": {
+          "title": "Frasa umum",
+          "tip": "Kalimat seperti «sangat termotivasi» bisa menggambarkan siapa saja. Tunjukkan lewat sesuatu yang benar-benar Anda lakukan."
+        },
+        "ai_sounding": {
+          "title": "Terdengar ditulis mesin",
+          "tip": "Frasa ini umum dalam teks buatan AI. Ucapkan seperti Anda mengucapkannya dengan lantang."
+        },
+        "bad_salutation": {
+          "title": "Sapaan tidak personal",
+          "tip": "“Dear Sir” menandakan email massal. Gunakan “Dear Professor [nama belakang]” dan periksa ejaannya."
+        },
+        "informal": {
+          "title": "Terlalu santai",
+          "tip": "Jaga nada tetap ramah tetapi profesional — hindari bahasa chat dan singkatan."
+        },
+        "missing_name": {
+          "title": "Sapaan tanpa nama",
+          "tip": "Sapa profesor dengan namanya: “Dear Professor Rivera,”."
+        },
+        "name_not_mentioned": {
+          "title": "Nama profesor tidak digunakan",
+          "tip": "Pastikan email jelas ditujukan kepada orang yang spesifik ini."
+        },
+        "no_specific_reference": {
+          "title": "Tidak merujuk pada karya mereka",
+          "tip": "Sebutkan makalah, metode, atau temuan spesifik dari profesor ini — dan ajukan pertanyaan yang muncul dari situ."
+        },
+        "low_specificity": {
+          "title": "Tidak ada yang spesifik",
+          "tip": "Tidak ada bagian di sini yang tak bisa dikirim ke profesor mana pun. Tambahkan makalah, tahun, hasil, atau pertanyaan konkret."
+        },
+        "no_own_work": {
+          "title": "Tidak menunjukkan apa yang sudah Anda lakukan",
+          "tip": "Tambahkan satu hal konkret yang telah Anda bangun, analisis, baca, atau ikuti — proyek kecil pun boleh."
+        },
+        "no_clear_ask": {
+          "title": "Tidak ada permintaan yang jelas",
+          "tip": "Katakan dengan tepat apa yang Anda minta: percakapan, peran sukarela, atau petunjuk ke orang lain."
+        },
+        "no_signoff": {
+          "title": "Tanpa penutup",
+          "tip": "Akhiri dengan ucapan terima kasih singkat dan nama lengkap Anda."
+        },
+        "exclamation": {
+          "title": "Terlalu banyak tanda seru",
+          "tip": "Satu masih wajar; dua atau lebih terkesan terlalu bersemangat. Biarkan isi yang membawa antusiasme."
+        },
+        "emoji": {
+          "title": "Emoji",
+          "tip": "Hindari emoji dalam email pertama ke profesor."
+        },
+        "all_caps": {
+          "title": "HURUF KAPITAL SEMUA",
+          "tip": "Kata berhuruf kapital terbaca seperti berteriak. Gunakan huruf biasa."
+        },
+        "too_short": {
+          "title": "Terlalu pendek",
+          "tip": "Di bawah sekitar 45 kata jarang cukup. Tambahkan apa yang sudah Anda lakukan dan apa yang Anda minta."
+        },
+        "too_long": {
+          "title": "Terlalu panjang",
+          "tip": "Targetkan 90–180 kata. Buang latar belakang yang tidak dibutuhkan profesor untuk memutuskan."
+        },
+        "wall_of_text": {
+          "title": "Tembok teks",
+          "tip": "Pecah menjadi 2–3 paragraf pendek agar mudah dibaca sekilas."
+        },
+        "no_subject": {
+          "title": "Tanpa baris subjek",
+          "tip": "Subjek yang jelas membantu email dibuka: sebutkan topik atau makalahnya."
+        },
+        "subject_generic": {
+          "title": "Subjek umum",
+          "tip": "“Research” bisa berarti apa saja. Coba sebutkan makalah atau topik yang Anda tulis."
+        },
+        "subject_short": {
+          "title": "Subjek terlalu pendek",
+          "tip": "Tambahkan beberapa kata konteks agar profesor tahu isinya tentang apa."
+        },
+        "subject_long": {
+          "title": "Subjek terlalu panjang",
+          "tip": "Jaga di bawah sekitar 90 karakter."
+        },
+        "subject_shouty": {
+          "title": "Subjek terlalu heboh",
+          "tip": "Hindari huruf kapital dan kata seperti “urgent” — terlihat seperti spam."
+        },
+        "ai_note": {
+          "title": "Catatan peninjau",
+          "tip": ""
+        }
+      },
+      "strengthLabels": {
+        "personal_greeting": "Menyapa profesor dengan namanya",
+        "specific_reference": "Merujuk pada karya spesifik mereka",
+        "shows_own_work": "Menunjukkan sesuatu yang telah Anda lakukan",
+        "clear_ask": "Membuat permintaan yang jelas",
+        "redirect_offer": "Memberi mereka cara mudah untuk mengarahkan Anda ke orang lain",
+        "states_availability": "Menyebutkan ketersediaan atau jadwal Anda",
+        "concise": "Panjang yang pas"
+      }
+    },
+    "followUp": {
+      "title": "Perencana tindak lanjut",
+      "subtitle": "Belum ada balasan? Tempel email yang Anda kirim dan dapatkan dua tindak lanjut dengan waktu yang tepat dan terdengar seperti Anda.",
+      "email": "Email yang Anda kirim",
+      "emailPlaceholder": "Tempel email asli Anda…",
+      "subject": "Subjek asli",
+      "sentOn": "Tanggal Anda mengirim",
+      "professorName": "Nama profesor",
+      "professorPlaceholder": "mis. Elena Rivera",
+      "generate": "Rencanakan tindak lanjut saya",
+      "generating": "Menyusun draf…",
+      "timeline": "Jadwal tindak lanjut Anda",
+      "step": "Tindak lanjut {n}",
+      "sendOn": "Kirim pada {date}",
+      "daysAfter": "{days} hari setelah email pertama Anda",
+      "copy": "Salin pesan",
+      "copied": "Tersalin",
+      "addToCalendar": "Tambahkan ke kalender",
+      "editHint": "Ubah sesuka Anda — ini adalah draf untuk Anda jadikan milik sendiri.",
+      "emptyTitle": "Jadwal Anda akan muncul di sini",
+      "emptyBody": "Dua tindak lanjut, berjarak agar Anda tetap terlihat tanpa mengganggu.",
+      "tipsTitle": "Tips soal waktu",
+      "tip1": "Hindari pekan ujian akhir, batas waktu pendanaan, dan hari libur.",
+      "tip2": "Kirim pagi-pagi di hari kerja.",
+      "tip3": "Setelah dua tindak lanjut, lanjutkan ke yang lain — dan minta untuk diarahkan ke orang lain.",
+      "aiUsed": "Dipersonalisasi oleh AI",
+      "templated": "Berbasis templat",
+      "signInTitle": "Masuk untuk merencanakan tindak lanjut Anda",
+      "limitTitle": "Anda telah memakai rencana tindak lanjut gratis",
+      "quota": "{used} dari {limit} rencana gratis terpakai"
+    },
+    "framework": {
+      "title": "Kerangka email perkenalan",
+      "subtitle": "Struktur isian yang dibangun berdasarkan hal yang membuat profesor membalas. Ketuk tanda kurung mana pun untuk melihat panduannya.",
+      "template": "Templat",
+      "tapHint": "Ketuk tanda kurung untuk melihat cara mengisinya.",
+      "guidance": "Panduan",
+      "redFlags": "Frasa bendera merah",
+      "redFlagsSub": "Ini menandakan Anda belum mengerjakan pekerjaan rumah. Gantilah dengan sesuatu yang spesifik.",
+      "instead": "Sebagai gantinya:",
+      "cta": "Periksa email Anda sendiri",
+      "b1": {
+        "label": "TOPIK SPESIFIK",
+        "tip": "Sebutkan bidang, metode, atau pertanyaan yang tepat — bukan seluruh bidang. «Konsolidasi memori yang bergantung pada tidur» lebih baik daripada «neurosains»."
+      },
+      "b2": {
+        "label": "TEMUAN ATAU KUTIPAN SPESIFIK",
+        "tip": "Tunjuk hasil, gambar, atau kalimat nyata di salah satu makalah terbaru mereka. Inilah baris yang membuktikan Anda membacanya."
+      },
+      "b3": {
+        "label": "SUDUT RISET ANDA",
+        "tip": "Kaitkan dengan sesuatu yang telah Anda lakukan atau ingin Anda jelajahi — mata kuliah, dataset, proyek."
+      },
+      "b4": {
+        "label": "SATU ALASAN PRIBADI YANG TULUS",
+        "tip": "Satu kalimat jujur tentang mengapa hal ini penting bagi Anda. Singkat dan benar."
+      },
+      "b5": {
+        "label": "PERTANYAAN CERDAS YANG MENUNJUKKAN ANDA MEMBACA",
+        "tip": "Tanyakan sesuatu yang membuat Anda bertanya-tanya setelah membaca makalahnya — keterbatasan, perluasan, dataset. Hindari «ceritakan lebih banyak tentang riset Bapak/Ibu»."
+      },
+      "rf1": {
+        "phrase": "I found your work fascinating and groundbreaking",
+        "why": "Profesor mendengar ini setiap hari.",
+        "instead": "Sebutkan temuan spesifik yang menarik perhatian Anda."
+      },
+      "rf2": {
+        "phrase": "I am a highly motivated student",
+        "why": "Kalimat ini tidak memberi tahu mereka apa pun.",
+        "instead": "Tunjukkan motivasi lewat apa yang sudah Anda lakukan."
+      },
+      "rf3": {
+        "phrase": "Your research aligns perfectly with my interests",
+        "why": "Terlalu samar untuk dipercaya.",
+        "instead": "Jelaskan kaitannya secara spesifik."
+      },
+      "rf4": {
+        "phrase": "I would love to learn from you",
+        "why": "Membuat email berpusat pada Anda, bukan karya mereka.",
+        "instead": "Tanyakan tentang bagian spesifik dari riset mereka."
+      },
+      "rf5": {
+        "phrase": "I am passionate about this field",
+        "why": "Semua orang mengatakannya.",
+        "instead": "Jelaskan apa yang benar-benar Anda lakukan di bidang ini."
+      }
+    },
+    "examples": {
+      "title": "Email yang berhasil — beranotasi",
+      "subtitle": "Tiga email ilustrasi yang kami tulis untuk menunjukkan pola yang mendapat balasan. Baca catatan di samping setiap baris.",
+      "disclaimer": "Ini adalah contoh ilustrasi yang ditulis tim Labora, bukan korespondensi nyata. Nama dan detailnya fiktif.",
+      "example": "Contoh {n}",
+      "cta": "Sekarang periksa email Anda sendiri",
+      "e1": {
+        "label": "Tahun pertama, belajar mandiri",
+        "note1": "Dibuka dengan minat Anda sendiri dan keahlian nyata, lalu dikaitkan dengan karya mereka.",
+        "note2": "Pertanyaan spesifik yang hanya bisa muncul dari membaca makalahnya.",
+        "note3": "Permintaan langsung dengan beban ringan — dan pengalihan yang mengubah «tidak» menjadi petunjuk."
+      },
+      "e2": {
+        "label": "Tahun ketiga dengan proyek sampingan",
+        "note1": "Menunjukkan proyek yang sedang Anda kerjakan — bukti minat yang praktis.",
+        "note2": "Kedalaman teknis: pertanyaannya menunjukkan Anda memahami metodenya, bukan sekadar abstraknya.",
+        "note3": "Jadwal (musim panas ini) dan tawaran membantu, bahkan sebagai sukarelawan."
+      },
+      "e3": {
+        "label": "Humaniora / ilmu sosial",
+        "note1": "Mendasarkan permintaan pada mata kuliah yang diambil dan sumber yang dibaca.",
+        "note2": "Menanyakan alasan di balik sebuah pilihan, bukan meminta ringkasan.",
+        "note3": "Menawarkan sesuatu yang konkret: beberapa jam seminggu untuk pengodean arsip."
+      }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Topik yang sama: {items}",
+      "skills_covered": "Keahlian yang sudah Anda miliki: {items}",
+      "style_aligned": "Gaya kerja serupa ({items})",
+      "hours_fit": "Ketersediaan Anda mencukupi jam yang dibutuhkan",
+      "bonus_skills": "Keahlian tambahan: {items}",
+      "published_on_topics": "Menerbitkan tentang: {items}",
+      "active_recently": "{items} makalah dalam 3 tahun terakhir",
+      "partial_topic_overlap": "Kesamaan lebih sedikit pada: {items}",
+      "missing_skills": "Keahlian yang perlu dikembangkan: {items}",
+      "style_differs": "Gaya kerja berbeda ({items})",
+      "hours_short": "Jam yang tersedia lebih sedikit daripada yang diharapkan posisi"
+    },
+    "strong": "Sangat cocok",
+    "good": "Cocok",
+    "partial": "Cocok sebagian",
+    "tip": "Cara menonjol",
+    "why": "Mengapa cocok",
+    "gaps": "Perlu diketahui",
+    "breakdown": {
+      "topic": "Topik",
+      "skills": "Keahlian",
+      "bonus": "Bonus",
+      "style": "Gaya kerja",
+      "hours": "Ketersediaan"
+    },
+    "aiRefined": "Disempurnakan AI",
+    "explainable": "Skor yang dapat dijelaskan",
+    "student": {
+      "title": "Pencocokan AI",
+      "subtitle": "Posisi dan profesor diurutkan berdasarkan seberapa cocok dengan keahlian, minat, dan cara Anda suka bekerja.",
+      "tabPositions": "Posisi dibuka",
+      "tabProfessors": "Profesor di seluruh dunia",
+      "run": "Temukan kecocokan saya",
+      "rerun": "Segarkan kecocokan",
+      "running": "Mencocokkan…",
+      "strengthTitle": "Profil kecocokan Anda",
+      "strengthBody": "Semakin banyak yang Anda bagikan, semakin tajam kecocokannya. {score}% lengkap.",
+      "improve": "Tingkatkan profil",
+      "missing": {
+        "skills": "Tambahkan keahlian Anda",
+        "interests": "Jelaskan minat Anda",
+        "experience": "Tambahkan apa yang sudah Anda lakukan",
+        "bio": "Tulis bio singkat",
+        "major": "Tambahkan jurusan Anda",
+        "availability": "Atur ketersediaan mingguan Anda",
+        "work_style": "Atur gaya kerja Anda"
+      },
+      "howTitle": "Cara kerja pencocokan",
+      "how1": "Kami membandingkan minat, keahlian, pengalaman, dan ketersediaan Anda dengan setiap posisi atau peneliti.",
+      "how2": "Kami juga membandingkan gaya kerja — kemandirian, kerja tim, tempo, dan struktur.",
+      "how3": "Peninjau AI menyempurnakan hasil teratas dan menjelaskan masing-masing. Nama, sekolah, dan ciri pribadi lainnya tidak pernah digunakan.",
+      "noResultsTitle": "Belum ada kecocokan",
+      "noResultsBody": "Saat ini tidak ada posisi yang dibuka untuk dicocokkan. Coba profesor di seluruh dunia.",
+      "searchedFor": "Dicari: {keywords}",
+      "direction": "Arahkan pencarian",
+      "directionPlaceholder": "mis. pengodean saraf, pencitraan medis",
+      "university": "Hanya di satu universitas",
+      "apply": "Lihat & lamar",
+      "viewProfessor": "Lihat profil",
+      "writeEmail": "Tulis email",
+      "quota": "{used} dari {limit} kecocokan gratis terpakai",
+      "quotaPro": "Kecocokan tanpa batas",
+      "limitTitle": "Anda telah memakai kecocokan gratis",
+      "limitBody": "Paket membuka pencocokan tanpa batas, ringkasan, dan pencari email.",
+      "professorsIntro": "Kami mengubah profil Anda menjadi topik riset dan mencari orang yang aktif menerbitkan tentangnya.",
+      "emptyProfile": "Tambahkan beberapa keahlian dan minat lebih dulu agar kami punya bahan untuk dicocokkan.",
+      "positionsFirst": "Jalankan pencocokan untuk melihat posisi yang paling cocok."
+    },
+    "professor": {
+      "title": "Temukan mahasiswa ideal Anda",
+      "subtitle": "Gambarkan siapa yang Anda cari — atau biarkan AI membuat draf dari posisi Anda — dan lihat mahasiswa yang cocok.",
+      "unverifiedTitle": "Verifikasi tertunda",
+      "unverifiedBody": "Pencarian talenta terbuka setelah akun profesor Anda diverifikasi. Kami akan segera meninjaunya.",
+      "step1": "1. Mulai dari sebuah posisi",
+      "step1Hint": "Opsional. Pilih satu posisi sebagai dasar profil.",
+      "noPosition": "Tanpa posisi tertentu",
+      "step2": "2. Kandidat yang Anda cari",
+      "notes": "Dengan kata-kata Anda sendiri",
+      "notesPlaceholder": "mis. Seseorang yang mandiri, senang men-debug, pernah memakai PyTorch, dan bisa meluangkan 10 jam seminggu.",
+      "draft": "Buat draf profil dengan AI",
+      "draftRule": "Buat profil",
+      "drafting": "Menyusun draf…",
+      "personaHint": "Ubah apa pun — inilah yang menjadi pembanding mahasiswa.",
+      "headline": "Judul",
+      "summary": "Ringkasan",
+      "mustHave": "Wajib",
+      "niceToHave": "Nilai tambah",
+      "traits": "Sifat pribadi",
+      "keywords": "Topik",
+      "addChip": "Ketik lalu tekan Enter",
+      "workStyle": "Gaya kerja yang Anda cari",
+      "step3": "3. Mahasiswa yang cocok",
+      "find": "Cari mahasiswa",
+      "finding": "Mencari…",
+      "pool": "{count} mahasiswa bersedia ditemukan",
+      "poolEmpty": "Belum ada mahasiswa yang bersedia. Saat mereka mengaktifkan keterlihatan, mereka akan muncul di sini.",
+      "left": "Sisa {count} pencarian hari ini",
+      "invite": "Undang melamar",
+      "invited": "Diundang",
+      "inviteTitle": "Undang {name}",
+      "inviteBody": "Mereka akan melihat pesan Anda dan dapat menerima atau menolak. Detail kontak mereka tetap privat sampai mereka membalas.",
+      "position": "Posisi",
+      "message": "Pesan Anda",
+      "messageDefault": "Halo {name}, latar belakang Anda tampak sangat cocok untuk «{position}» di laboratorium kami. Apakah Anda tertarik melamar? Saya senang menjawab pertanyaan apa pun.",
+      "sendInvite": "Kirim undangan",
+      "sent": "Undangan terkirim",
+      "selectPosition": "Pilih posisi untuk undangan",
+      "privacy": "Hanya mahasiswa yang memilih untuk dapat ditemukan yang muncul di sini. Email tidak pernah ditampilkan.",
+      "noStudents": "Belum ada mahasiswa yang cocok",
+      "noStudentsBody": "Coba longgarkan daftar persyaratan wajib, atau cek lagi saat lebih banyak mahasiswa bergabung.",
+      "available": "Tersedia {hours} jam/minggu",
+      "skills": "Keahlian",
+      "createPositionFirst": "Posting sebuah posisi untuk mengundang mahasiswa melamar.",
+      "labFirst": "Atur profil laboratorium Anda terlebih dahulu."
+    },
+    "ai": {
+      "notEnabled": "Penyempurnaan AI belum diaktifkan di server ini — kecocokan menggunakan skor berbasis aturan yang dapat dijelaskan."
+    }
+  }
+}

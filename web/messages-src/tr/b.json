@@ -1,0 +1,184 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Yeni: Öğrenciler ve laboratuvarlar için yapay zekâ eşleşmesi",
+      "title": "Size <em>uygun profesörü</em> bulun.",
+      "subtitle": "Dünyanın akademik kayıtlarında arama yapın, herhangi bir araştırmacının çalışmasını sade bir dille anlayın ve becerilerinize ile çalışma tarzınıza uyan laboratuvarlarla eşleşin.",
+      "modeInterest": "İlgi alanına göre", "modeName": "İsme göre", "interestLabel": "Araştırma ilgisi", "interestPlaceholder": "örn. hesaplamalı sinirbilim",
+      "nameLabel": "Araştırmacı adı", "namePlaceholder": "örn. Jane Smith", "universityLabel": "Üniversite", "universityPlaceholder": "örn. MIT, Stanford…",
+      "search": "Profesör bul", "try": "Deneyin",
+      "trust": "Açık akademik veriler üzerine kurulu: {works} makale · {institutions} kurum",
+      "trustFallback": "Açık akademik veriler üzerine kurulu: 300 milyon+ makale · 140 bin+ kurum",
+      "ex": { "ml": "Makine öğrenmesi", "neuro": "Sinirbilim", "genomics": "Genomik", "climate": "İklim bilimi", "quantum": "Kuantum hesaplama", "psych": "Psikoloji" },
+      "modeLabel": "Arama ölçütü"
+    },
+    "mock": {
+      "preview": "Örnek önizleme", "results": "Araştırmacılar", "summary": "Sade dille özet",
+      "summaryBody": "Makinelerin çok az etiketli örnekle nasıl görmeyi öğrenebileceğini inceler; böylece bir robot daha önce hiç görmediği günlük nesneleri tanıyıp kavrayabilir.",
+      "keyFinding": "Ana bulgu", "keyFindingBody": "Kendi kendine denetimli bir yaklaşım, kavrama tespiti için gereken etiketli görüntü sayısını %80 azalttı (2025).",
+      "starters": "Sormaya değer sorular", "starter1": "Grup, test edilecek nesneleri nasıl seçti?", "starter2": "Yöntem laboratuvarın dışında da işe yarıyor mu?",
+      "save": "Kaydet", "writeEmail": "E-posta yaz", "match": "Uyum", "whyFit": "Neden uygunsunuz",
+      "reasonTopics": "Ortak konular: bilgisayarlı görü, PyTorch", "reasonStyle": "Benzer çalışma tarzı: bağımsız, hızlı tempo", "gap": "Eksik: doğrusal cebir",
+      "emailScore": "E-posta puanı", "emailFlags": "Düzeltilecek 2 şey", "hIndex": "h-indeksi", "papers": "makale",
+      "flagFlattery": "Yaltakçılık", "flagGeneric": "Genel ifade", "mustHave": "Şart", "niceToHave": "Olsa iyi olur", "invite": "Davet et",
+      "idealStudent": "İdeal aday", "followUpOn": "{date} tarihinde takip", "tracker": "İletişim takipçisi", "openPositions": "Açık pozisyonlar", "apply": "Başvur"
+    },
+    "marquee": { "label": "Şu gibi kurumlardan araştırmacılar" },
+    "problem": {
+      "eyebrow": "Sorun", "title": "Profesörlere gönderilen mesajların çoğu <em>hiç okunmuyor.</em>",
+      "description": "Öğrenciler yanlış kişilere yanlış zamanda genel e-postalar gönderiyor, profesörlerin ise karar vermek için sadece birkaç saniyesi var. Genellikle sorun şurada çıkıyor.",
+      "generic": { "title": "E-posta herkesinkine benziyor", "body": "Yaltakçılık ve kalıp cümleler kolayca fark edilir. Gerçek bir çalışma hakkındaki somut bir soru öne çıkar." },
+      "who": { "title": "Kimin öğrenci aldığını bilemiyorsunuz", "body": "Fakülte sayfaları eskir; işe alım yapan laboratuvarlar bunu nadiren öğrencilerin baktığı yerde duyurur." },
+      "read": { "title": "Makale okumak saatler alıyor", "body": "Somut bir şey yazabilmek için çalışmayı anlamanız gerekir — ama özetler yoğundur." }
+    },
+    "features": {
+      "eyebrow": "Platform", "title": "«Merak ediyorum» ile «laboratuvardayım» arasındaki her şey",
+      "description": "İnsanları bulmak, çalışmalarını anlamak, iyi iletişim kurmak ve takip etmek için tek yer.",
+      "discover": { "title": "Akademik kayıtlarda arayın", "body": "Herhangi bir ilgi alanı ve bir üniversite yazın. Konuda aktif olarak yayın yapan araştırmacıları gösteririz — gerçek insanlar, gerçek makaleler." },
+      "summaries": { "title": "Sade dille özetler", "body": "Her araştırmacı için, alana yeni biri için yazılmış; neyi incelediklerini ve yakın tarihli bir bulguyu anlatan kısa bir açıklama." },
+      "email": { "title": "Hayalet yazar değil, e-posta koçu", "body": "Taslağınızı yapıştırın; hangi ifadelerin genel, yaltakçı veya belirsiz durduğunu ve nedenini görün. Kendi sesiniz size ait kalır." },
+      "match": { "title": "İki yönlü yapay zekâ eşleşmesi", "body": "Öğrenciler becerilerine ve çalışma tarzlarına uyan laboratuvarları ve profesörleri görür. Profesörler ideal öğrenciyi tarif eder ve kimin uyduğunu görür." },
+      "positions": { "title": "Doğrulanmış laboratuvarlardan pozisyonlar", "body": "Profesörlerin doğrudan yayımladığı rollere göz atın, önce araştırmalarını okuyun ve tek adımda başvurun." },
+      "tracker": { "title": "Size hatırlatan bir iletişim takipçisi", "body": "Kime e-posta gönderdiğinizi ve ne olduğunu kaydedin. Hiçbir şey kaçmasın diye takip tarihleri alın." }
+    },
+    "how": {
+      "eyebrow": "Nasıl çalışır", "title": "Merakınızdan gerçek bir sohbete",
+      "s1": { "title": "Arayın", "body": "Bir ilgi alanı ve bir üniversite ya da bir araştırmacının adını girin." },
+      "s2": { "title": "Anlayın", "body": "Sade bir özet, yakın tarihli makaleler ve sorulacak iyi sorular okuyun." },
+      "s3": { "title": "Ulaşın", "body": "Kendi e-postanızı yazın, denetleyin ve güvenle gönderin." },
+      "s4": { "title": "Takip edin", "body": "Yanıtları izleyin ve doğru zamanda iki takip mesajı gönderin." }
+    },
+    "match": {
+      "eyebrow": "Yapay zekâ eşleşmesi", "title": "Becerilerde — ve <em>nasıl çalıştığınızda</em> da uyum.",
+      "description": "Konu örtüşmesi hikâyenin yalnızca yarısı. Labora çalışma tarzlarını da karşılaştırır: ne kadar bağımsızlık istediğinizi, ne kadar iş birlikçi olduğunuzu, tercih ettiğiniz temponun ne olduğunu ve ne kadar yapının size yardımcı olduğunu.",
+      "students": "Öğrenciler için", "s1": "Her biri açık gerekçelerle sıralanmış pozisyonlar ve profesörler", "s2": "Eksiklerinizi ve nasıl öne çıkacağınızı görün", "s3": "Profesörlerin ne görebileceğine siz karar verirsiniz",
+      "professors": "Profesörler için", "p1": "İdeal öğrenciyi tarif edin — ya da yapay zekâ pozisyonunuzdan bir taslak hazırlasın", "p2": "İzin veren öğrencilere gerekçeleriyle sıralı olarak göz atın", "p3": "En uygun adayları tek bir mesajla davet edin",
+      "privacy": "Öğrencilerin görünür olması isteğe bağlıdır ve istenildiği zaman kapatılabilir. Öğrenci evet diyene kadar iletişim bilgileri profesöre asla gösterilmez.",
+      "cta": "Yapay zekâ eşleşmesini keşfedin", "styleTitle": "Çalışma tarzı", "candidate": "Aday", "you": "Siz", "lab": "Laboratuvar"
+    },
+    "compare": {
+      "title": "Neden sadece bir sohbet botuna sormuyorsunuz?", "description": "Genel amaçlı sohbet botları harika yazar, ama gerçek insanların rehberi değildir.",
+      "colChatbot": "Genel amaçlı bir sohbet botu", "colLabora": "Labora",
+      "r1": "İnsanlar ve makaleler nereden geliyor", "r1a": "Hafızadan üretilir — profesörler, makaleler ve sayılar uydurabilir.", "r1b": "Akademik kayıtlardan (OpenAlex) alınır. Hiçbir şey uydurma değil.",
+      "r2": "E-postanızı kim yazıyor", "r2a": "Çoğu zaman sizin yerinize yazar ve profesörler bunu anlar.", "r2b": "Siz yazarsınız. Labora neyi düzeltmeniz gerektiğini söyler.",
+      "r3": "Ne kadar çaba gerekiyor", "r3a": "Araştırmacıları bulmak, okumak ve karşılaştırmak için çok sayıda istem.", "r3b": "Tek bir arama: araştırmacılar, özetler ve e-posta geri bildirimi bir arada."
+    },
+    "professors": {
+      "eyebrow": "Profesörler için", "title": "<em>Gerçekten uyan</em> öğrenciler bulun.",
+      "description": "Pozisyon yayımlayın, araştırmanızı paylaşın ve yapay zekânın becerileri ve çalışma tarzı laboratuvarınıza uyan öğrencileri öne çıkarmasına izin verin.",
+      "b1": "Doğrulanmış öğretim üyeleri için ücretsiz", "b2": "Makaleleri, veri kümelerini ve posterleri sergileyin", "b3": "Başvuruları ve davetleri tek yerde inceleyin", "cta": "Pozisyon yayımla"
+    },
+    "stats": {
+      "eyebrow": "Açık verilerle kuruldu", "title": "Üretilmiş değil, gerçek bir rehber",
+      "works": "Dizinlenen akademik eser", "institutions": "Dünya genelinde kurum", "researchers": "Araştırmacı", "labs": "Labora'daki laboratuvar", "positions": "Açık pozisyon",
+      "attribution": "Akademik üst veriler OpenAlex tarafından sağlanmaktadır."
+    },
+    "pricing": {
+      "title": "Ücretsiz başlayın. Hazır olduğunuzda yükseltin.",
+      "description": "Arama her zaman ücretsizdir. Paketler, ihtiyacınız olduğu sürece e-posta bulucuyu, sınırsız özetleri ve sınırsız e-posta denetimini açar.",
+      "cta": "Planları gör"
+    },
+    "faq": {
+      "title": "Sorular ve yanıtlar",
+      "q1": "Araştırmacı verileri nereden geliyor?",
+      "a1": "OpenAlex'ten; dünyadaki akademik çalışmaların açık bir kataloğundan. Yalnızca o kayıtta bulunan kişileri ve makaleleri gösteriyoruz. Asla profesör veya yayın uydurmuyoruz.",
+      "q2": "Labora e-postamı benim yerime yazacak mı?",
+      "a2": "Hayır — bilerek. Profesörler bunu anlar ve yanıtlar kendi sesiyle yazan öğrencilere gider. Labora kime yazacağınızı bulur, çalışmalarını açıklar ve kendi taslağınız hakkında somut geri bildirim verir.",
+      "q3": "Yapay zekâ eşleşmesi nasıl çalışıyor?",
+      "a3": "Becerilerinizi, ilgi alanlarınızı, deneyiminizi, uygunluğunuzu ve çalışma tarzınızı pozisyonlarla, laboratuvarlarla ve araştırmacılarla karşılaştırır ve her eşleşmeyi açıklarız. Bir yapay zekâ gözden geçiricisi en iyi sonuçları inceltir. İsim, okul, cinsiyet, uyruk veya diğer korunan özellikleri asla kullanmayız.",
+      "q4": "Profilimi kim görebilir?",
+      "a4": "Görünürlüğü açmadıkça hiç kimse. Açtığınızda yalnızca doğrulanmış profesörler profilinizi görebilir — e-postanızı asla. Sizi davet edebilirler ve yanıt verip vermeyeceğinize siz karar verirsiniz.",
+      "q5": "Profesörlerin Labora'da olması gerekiyor mu?",
+      "a5": "Hayır. Akademik kayıtlardaki herhangi bir araştırmacıyı bulup onlara ulaşabilirsiniz. Katılan profesörler pozisyon yayımlayabilir, araştırmalarını paylaşabilir ve öğrenci bulabilir.",
+      "q6": "Ne kadar tutuyor?",
+      "a6": "Arama ücretsizdir; ücretsiz hesap, özetlerden, e-posta denetimlerinden ve yapay zekâ eşleşmesinden bir tadımlık içerir. Paketler sınırsız kullanımı açar — Fiyatlandırma'ya bakın."
+    },
+    "cta": { "title": "Bir sonraki araştırma pozisyonunuz <em>tek bir iyi e-postayla</em> başlar.", "subtitle": "Ücretsiz arayın — kart gerekmez.", "button": "Profesör bul" }
+  },
+  "how": {
+    "eyebrow": "Nasıl çalışır", "title": "Merakınızdan sohbete dört adım", "subtitle": "Labora, bir profesörün gerçekten yanıt vermesini sağlayan şeyin etrafında kuruldu.",
+    "s1": { "title": "Akademik kayıtlarda arayın", "body": "Bir araştırma ilgisi ve bir üniversite ya da bir araştırmacının adını yazın. Konuda aktif olarak yayın yapanları öne çıkarırız.", "b1": "Açık bir akademik veri tabanından gelen sonuçlar", "b2": "Üniversiteye göre süzün, son etkinliğe göre sıralayın" },
+    "s2": { "title": "Çalışmalarını anlayın", "body": "Sade bir özet, yakın tarihli bir bulgu ve sorulmaya değer sorular okuyun — sonra makalelere göz atın.", "b1": "Alana yeni biri için yazılmış özetler", "b2": "Son ve en çok atıf alan makaleler tek bakışta" },
+    "s3": { "title": "Okunacak bir e-posta yazın", "body": "Önce kendiniz yazın, sonra denetleyin. Yaltakçılığı, kalıp cümleleri ve belirsizliği vurgularız — e-postayı asla sizin yerinize yazmayız.", "b1": "Bir iskelet ve açıklamalı örnekler", "b2": "Somut, satır satır geri bildirim" },
+    "s4": { "title": "Takip edin ve kaydedin", "body": "Kimlerle iletişim kurduğunuzu kaydedin, doğru zamanda takip mesajları alın ve her fırsatı tek yerde tutun.", "b1": "İki takip taslağı ve takvim hatırlatıcıları", "b2": "Puan tutan bir iletişim takipçisi" },
+    "cta": "Aramaya başla", "ctaMatch": "Ya da uyumunuzu yapay zekâ bulsun"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "Yapay zekâ eşleşmesi", "title": "<em>Nasıl çalıştığınızı</em> anlayan bir eşleşme.",
+      "subtitle": "Labora anahtar kelimelerden fazlasını karşılaştırır. Becerilerinize, ilgi alanlarınıza, uygunluğunuza ve çalışma tarzınıza bakar — sonra her eşleşmeyi sade bir dille açıklar.",
+      "student": "Eşleşmelerimi bul", "professor": "İdeal öğrencilerimi bul", "signUp": "Ücretsiz hesap oluştur"
+    },
+    "signals": {
+      "eyebrow": "Nasıl çalışır", "title": "Dört sinyal, açıklanabilir tek bir puan",
+      "topics": { "title": "Konular", "body": "İlgi alanlarınızın, derslerinizin ve deneyiminizin bir laboratuvarın veya araştırmacının çalıştığı konularla ne kadar örtüştüğü." },
+      "skills": { "title": "Beceriler", "body": "Bir rolün gerektirdiği becerilerden hangilerine zaten sahipsiniz — hangilerini geliştirebilirsiniz." },
+      "style": { "title": "Çalışma tarzı", "body": "Bağımsızlık, ekip çalışması, tempo ve yapı: nasıl çalışmayı sevdiğiniz ile laboratuvarın nasıl çalıştığının karşılaştırması." },
+      "hours": { "title": "Uygunluk", "body": "Sunabileceğiniz saatlerin rolün beklediği süreyi karşılayıp karşılamadığı." }
+    },
+    "demo": {
+      "eyebrow": "Deneyin", "title": "Çalışma tarzı eşleşmesini görün",
+      "description": "Nasıl çalışmayı sevdiğinize göre kadranları oynatın. Örnek laboratuvar bağımsız, iş birlikçi ve hızlı tempolu; görevleri gevşek tanımlıdır.",
+      "you": "Siz", "lab": "Örnek laboratuvar", "fit": "Tarz uyumu", "aligned": "Uyumlu olduğunuz konular: {items}", "differs": "Farklı olduğunuz konular: {items}", "none": "Karşılaştırmak için bir kadranı oynatın."
+    },
+    "directions": {
+      "title": "İki yön, tek fikir",
+      "students": { "title": "Öğrenciler için", "s1": "Becerilerinizi, ilgi alanlarınızı, deneyiminizi ve çalışma tarzınızı bir kez girin.", "s2": "Uyuma göre sıralanmış pozisyonlar ve profesörler alın; her birinde gerekçeler ve eksikler yer alır.", "s3": "Daha güçlü bir başvuru veya e-posta yazmak için «nasıl öne çıkılır» ipuçlarını kullanın." },
+      "professors": { "title": "Profesörler için", "s1": "İdeal öğrenciyi tarif edin — ya da yapay zekâ pozisyonunuzdan ve laboratuvarınızdan bir taslak hazırlasın.", "s2": "İzin veren öğrencileri gerekçeler ve eksiklerle sıralı olarak görün.", "s3": "En uygun adayları tek bir mesajla davet edin. Yanıt verene kadar e-postaları gizli kalır." }
+    },
+    "trust": {
+      "eyebrow": "Tasarımdan itibaren adil", "title": "Kontrol sizde kalır",
+      "t1": { "title": "İsteğe bağlı görünürlük", "body": "Öğrenciler yalnızca açtıklarında bulunabilir ve istedikleri zaman kapatabilirler." },
+      "t2": { "title": "Gizli iletişim bilgileri", "body": "Öğrenci başvurana veya bir daveti kabul edene kadar profesörler öğrencinin e-postasını asla görmez." },
+      "t3": { "title": "Korunan özellikler yok", "body": "İsim, okul, cinsiyet, uyruk ve benzeri özellikler kimseyi puanlamak için asla kullanılmaz." },
+      "t4": { "title": "Kara kutu değil, gerekçeler", "body": "Her puan neyin uyduğunu ve neyin uymadığını gösterir; böylece ona katılmayabilirsiniz." }
+    },
+    "faq": {
+      "title": "Sık sorulan sorular",
+      "q1": "Puan, pozisyonu alacağımın bir tahmini mi?",
+      "a1": "Hayır. Uyum için bir rehberdir, tahmin değildir. Gerçek kararları birçok şey etkiler — zamanlama, finansman ve diğer adaylar.",
+      "q2": "Yapay zekâ aslında ne yapıyor?",
+      "a2": "Önce yukarıdaki sinyallerden şeffaf bir puan hesaplarız. Sonra bir yapay zekâ gözden geçiricisi en iyi sonuçlara bakar, sıralamayı inceltir ve açıklamaları yazar. Yapay zekâ kullanılamıyorsa yine de şeffaf puanı alırsınız.",
+      "q3": "Profil olmadan yapay zekâ eşleşmesini kullanabilir miyim?",
+      "a3": "Çalıştırabilirsiniz, ancak daha eksiksiz bir profille sonuçlar çok daha iyi olur. Neyin eksik olduğunu gösteririz."
+    },
+    "cta": { "title": "Size uyan laboratuvarları — ve insanları — bulun.", "button": "Ücretsiz başla" }
+  },
+  "pricing": {
+    "eyebrow": "Fiyatlandırma", "title": "Döneminize uyan paketi seçin",
+    "subtitle": "Araştırmacı aramak her zaman ücretsizdir. Paketler size en çok zaman kazandıran araçları açar — tek ödeme, abonelik yok, otomatik yenileme yok.",
+    "plans": {
+      "free": { "name": "Ücretsiz", "desc": "sonsuza dek" },
+      "weekly": { "name": "Haftalık sprint", "desc": "1 haftalık erişim" },
+      "semester": { "name": "Dönemlik paket", "desc": "4 aylık erişim", "badge": "En iyi değer" },
+      "lifetime": { "name": "Ömür boyu", "desc": "Sonsuza dek sizin" }
+    },
+    "cta": { "free": "Ücretsiz başla", "weekly": "Haftalık sprinti başlat", "semester": "Dönemlik paketi al", "lifetime": "Ömür boyu erişimi al", "current": "Mevcut planınız", "signIn": "Devam etmek için giriş yapın" },
+    "features": {
+      "unlimited_search": "Sınırsız araştırmacı araması", "summaries_2": "Sade dille 2 özet", "email_check_1": "1 e-posta denetimi", "ai_match_3": "3 yapay zekâ eşleşmesi",
+      "outreach_tracker": "İletişim takipçisi", "positions_board": "Açık pozisyonlar panosu", "everything_pro": "Ücretsiz plandaki her şey, ayrıca:",
+      "unlimited_summaries": "Sınırsız özet", "email_finder": "E-posta bulucu", "responsiveness": "Yanıt verme puanları", "unlimited_checks": "Sınırsız e-posta denetimi ve takip",
+      "playbook": "İlk temas e-postası el kitabı", "everything_semester": "Dönemlik paketteki her şey, ayrıca:", "never_pay_again": "Bir daha asla ödeme yapmayın", "priority_features": "Yeni özelliklere erken erişim"
+    },
+    "payments": "Ödemeler Stripe tarafından güvenle işlenir. Kart bilgilerinizi asla görmeyiz.",
+    "devMode": "Bu ortamda ödemeler bağlı değil — paketler, deneyebilmeniz için anında etkinleşir.",
+    "activated": "Paketiniz etkin. İyi kullanımlar!",
+    "cancelled": "Ödeme iptal edildi — ücret alınmadı.",
+    "referral": {
+      "title": "Bir arkadaşınızı getirin, ikiniz de bir hafta kazanın", "body": "Kodunuzu Plan ve faturalandırma bölümünden paylaşın. Bir arkadaşınız onunla kaydolduğunda ikiniz de 7 gün Pro kazanırsınız.",
+      "haveCode": "Bir arkadaşınızın kodu var mı?", "placeholder": "Kodu girin", "redeem": "Kullan", "redeemed": "Kod kullanıldı — 7 gün Pro eklendi.", "signIn": "Kod kullanmak için giriş yapın"
+    },
+    "waitlist": {
+      "title": "Yanıt garantili bir plan geliyor", "body": "Size gerçek sohbetler kazandırmaya odaklanan bir plan üzerinde çalışıyoruz. Bekleme listesine katılın, ilk siz öğrenin.",
+      "placeholder": "siz@universite.edu", "join": "Bekleme listesine katıl", "joined": "Listedesiniz. Teşekkürler!"
+    },
+    "faq": {
+      "title": "Faturalandırma soruları",
+      "q1": "Abonelik mi?", "a1": "Hayır. Her paket tek seferlik bir ödemedir. Hiçbir şey otomatik yenilenmez, dolayısıyla iptal edecek bir şey yoktur.",
+      "q2": "Paketim bittiğinde ne olur?", "a2": "Hesabınız, kaydettiğiniz araştırmacılar ve takipçiniz kalır. Yalnızca ücretsiz hakka dönersiniz.",
+      "q3": "Aramak veya başvurmak için pakete ihtiyacım var mı?", "a3": "Hayır. Araştırmacı aramak, pozisyonlara göz atmak ve başvurmak her zaman ücretsizdir.",
+      "q4": "Profesörlerden ücret alınıyor mu?", "a4": "Hayır. Doğrulanmış profesörler pozisyon yayımlar, araştırma paylaşır ve öğrenci bulur — hepsi ücretsiz.",
+      "q5": "Faturalandırma için kime ulaşmalıyım?", "a5": "İletişim sayfasını kullanın, size dönüş yapacağız."
+    }
+  }
+}

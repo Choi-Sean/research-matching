@@ -15,7 +15,7 @@ import {
   UserRound,
   UsersRound,
 } from "lucide-react";
-import { useEffect, type ComponentType, type ReactNode } from "react";
+import { useEffect, useRef, type ComponentType, type ReactNode } from "react";
 import { Container } from "@/components/ui/layout";
 import { Avatar, Skeleton } from "@/components/ui/surface";
 import { api } from "@/lib/api";
@@ -44,6 +44,17 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!loading && !user) router.replace(`/login?next=${encodeURIComponent(pathname)}`);
   }, [loading, user, router, pathname]);
+
+  // On phones the menu is a swipeable row: bring the current section into view so it is never hidden off-screen.
+  const navRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const nav = navRef.current;
+    const current = nav?.querySelector<HTMLElement>('[aria-current="page"]');
+    if (!nav || !current || nav.scrollWidth <= nav.clientWidth) return;
+    const n = nav.getBoundingClientRect();
+    const c = current.getBoundingClientRect();
+    nav.scrollBy({ left: c.left - n.left - (n.width - c.width) / 2 });
+  }, [pathname, user]);
 
   if (!user)
     return (
@@ -87,14 +98,18 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
             <p className="text-xs text-faint">{labels.role(user.role)}</p>
           </div>
         </div>
-        <nav aria-label="Dashboard" className="-mx-5 flex gap-1.5 overflow-x-auto px-5 pb-1 sm:-mx-8 sm:px-8 lg:mx-0 lg:flex-col lg:overflow-visible lg:px-0 lg:pb-0">
+        <nav
+          ref={navRef}
+          aria-label="Dashboard"
+          className="no-scrollbar -mx-5 flex gap-1.5 overflow-x-auto px-5 pb-1 max-lg:[mask-image:linear-gradient(to_right,transparent,#000_1.25rem,#000_calc(100%_-_1.75rem),transparent)] sm:-mx-8 sm:px-8 lg:mx-0 lg:flex-col lg:overflow-visible lg:px-0 lg:pb-0"
+        >
           {items.map((i) => (
             <Link
               key={i.href}
               href={i.href}
               aria-current={active(i.href) ? "page" : undefined}
               className={cn(
-                "flex shrink-0 items-center gap-2.5 rounded-xl px-3.5 py-2.5 text-sm font-medium whitespace-nowrap transition-colors",
+                "flex shrink-0 items-center gap-2.5 rounded-xl px-3.5 py-2.5 text-sm font-medium whitespace-nowrap transition-colors pointer-coarse:py-3",
                 active(i.href) ? "bg-brand-soft text-brand-text" : "text-muted hover:bg-surface-2 hover:text-ink",
               )}
             >

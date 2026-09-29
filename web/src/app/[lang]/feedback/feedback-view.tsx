@@ -77,7 +77,7 @@ export function FeedbackView() {
               onClick={() => setKind(k)}
               aria-pressed={kind === k}
               className={cn(
-                "rounded-full border px-3.5 py-1.5 text-sm transition-colors",
+                "rounded-full border px-3.5 py-1.5 text-sm transition-colors pointer-coarse:py-2.5",
                 kind === k ? "border-brand bg-brand-soft text-brand-text" : "border-line text-muted hover:border-line-2 hover:text-ink",
               )}
             >
@@ -90,7 +90,7 @@ export function FeedbackView() {
             <button
               key={s}
               onClick={() => setSort(s)}
-              className={cn("rounded-lg px-3 py-1.5 font-medium", sort === s ? "bg-surface text-ink shadow-sm" : "text-muted hover:text-ink")}
+              className={cn("rounded-lg px-3 py-1.5 font-medium pointer-coarse:py-2.5", sort === s ? "bg-surface text-ink shadow-sm" : "text-muted hover:text-ink")}
             >
               {s === "votes" ? t("community.feedback.sortVotes") : t("community.feedback.sortNew")}
             </button>

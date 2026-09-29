@@ -158,6 +158,7 @@
   from { opacity: 0; transform: translateY(8px) scale(0.97); }
   to { opacity: 1; transform: none; }
 }
+@keyframes sheet-in { from { opacity: 0.4; transform: translateY(2.5rem); } to { opacity: 1; transform: none; } }
 @keyframes dialog-pop { from { opacity: 0; transform: translateY(-4px) scale(0.98); } to { opacity: 1; transform: none; } }
 @keyframes accordion-down { from { height: 0; } to { height: var(--radix-accordion-content-height); } }
 @keyframes accordion-up { from { height: var(--radix-accordion-content-height); } to { height: 0; } }
@@ -251,6 +252,9 @@ button, [role="button"], a { -webkit-tap-highlight-color: transparent; }
 
 /* Thin scrollbars that suit both themes */
 * { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+/* For swipeable rows (tab bars, chip rows) where a scrollbar would only add noise. Unlayered so it beats the rule above. */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
 
 /* Prose for long-form content (blog, legal) */
 .prose-labora { color: var(--ink); font-size: 1.0625rem; line-height: 1.75; }
@@ -266,6 +270,26 @@ button, [role="button"], a { -webkit-tap-highlight-color: transparent; }
 .prose-labora strong { font-weight: 650; color: var(--ink); }
 .prose-labora blockquote { border-inline-start: 3px solid var(--brand); padding-inline-start: 1.1em; color: var(--muted); font-style: italic; }
 .prose-labora code { font-family: var(--font-mono); font-size: 0.9em; background: var(--surface-2); padding: 0.15em 0.4em; border-radius: 6px; }
+
+/* -------------------------------------------------------------------------------------------
+   Phone safety nets
+   ------------------------------------------------------------------------------------------- */
+@layer base {
+  /* A bare `grid` sizes its only track to its widest item, so one long word or a truncated line widens the whole card
+     past the screen edge. minmax(0, 1fr) lets the track shrink; any grid-cols-* utility still overrides this. */
+  .grid { grid-template-columns: minmax(0, 1fr); }
+}
+/* Long words, e-mail addresses and German compounds wrap instead of pushing the layout wide. */
+h1, h2, h3, h4, p, li, dt, dd, blockquote, label, figcaption { overflow-wrap: anywhere; }
+@media (max-width: 40rem) {
+  h1, h2, h3, p, li, dd { hyphens: auto; }
+}
+@media (pointer: coarse) {
+  /* iOS Safari zooms into any field under 16px when it is focused. */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select { font-size: 1rem; }
+  /* No 300ms delay or double-tap zoom on controls. */
+  a, button, [role="button"], [role="tab"], summary, label, select { touch-action: manipulation; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

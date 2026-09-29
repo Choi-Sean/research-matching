@@ -32,6 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# QA screenshots written by scripts/shots.mjs, scripts/mobile-states.mjs (shots-*, shots/)
+/shots*/
 
 # vercel
 .vercel

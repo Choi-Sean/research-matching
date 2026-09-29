@@ -18,6 +18,11 @@ const PLURALS = {
 const flatten = (o, p = "") => Object.entries(o).flatMap(([k, v]) => (typeof v === "string" ? [[p + k, v]] : flatten(v, p + k + ".")));
 const en = new Map(flatten(JSON.parse(readFileSync(join(dir, "en.json"), "utf8"))));
 const tokens = (s) => [...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(",");
+// Singular/dual/zero forms often drop the numeral ("نتيجة واحدة", "un résultat"), so they may omit placeholders but never add new ones.
+const COUNT_OPTIONAL = /_(zero|one|two)$/;
+const tokenSet = (s) => new Set([...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]));
+const placeholdersMatch = (key, t, reference) =>
+  COUNT_OPTIONAL.test(key) ? [...tokenSet(t)].every((x) => tokenSet(reference).has(x)) : tokens(t) === tokens(reference);
 const tags = (s) => [...s.matchAll(/<\/?[a-zA-Z][\w-]*\s*\/?>/g)].map((m) => m[0].replace(/\s+/g, "")).sort().join("");
 
 let errors = 0;
@@ -35,7 +40,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "
       continue;
     }
     if (!t.trim()) { if (v.trim()) bad.push(`${k}: empty`); }
-    else if (tokens(t) !== tokens(v)) bad.push(`${k}: placeholders {${tokens(v)}} → {${tokens(t)}}`);
+    else if (!placeholdersMatch(k, t, v)) bad.push(`${k}: placeholders {${tokens(v)}} → {${tokens(t)}}`);
     else if (tags(t) !== tags(v)) bad.push(`${k}: tags ${tags(v)} → ${tags(t)}`);
   }
   for (const k of en.keys()) {
@@ -48,7 +53,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "
     if (PLURAL_EXTRA.test(k)) {
       const base = en.get(k.replace(PLURAL_EXTRA, "_other"));
       if (base === undefined) stray.push(k);
-      else if (tokens(t) !== tokens(base)) bad.push(`${k}: placeholders differ from _other`);
+      else if (!placeholdersMatch(k, t, base)) bad.push(`${k}: placeholders differ from _other`);
     } else stray.push(k);
   }
   const pct = Math.round(((en.size - missing.length) / en.size) * 100);

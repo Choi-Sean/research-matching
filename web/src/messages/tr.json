@@ -1,1 +1,1826 @@
-{}
+{
+  "common": {
+    "save": "Kaydet",
+    "saving": "Kaydediliyor…",
+    "saved": "Kaydedildi",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "search": "Ara",
+    "loading": "Yükleniyor…",
+    "retry": "Tekrar dene",
+    "viewAll": "Tümünü gör",
+    "learnMore": "Daha fazla bilgi",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "yes": "Evet",
+    "no": "Hayır",
+    "optional": "İsteğe bağlı",
+    "or": "veya",
+    "remove": "Kaldır",
+    "add": "Ekle",
+    "confirm": "Onayla",
+    "continue": "Devam et",
+    "submit": "Gönder",
+    "send": "Gönder",
+    "download": "İndir",
+    "clear": "Temizle",
+    "clearAll": "Tümünü temizle",
+    "open": "Aç",
+    "closedLabel": "Kapalı",
+    "unlimited": "Sınırsız",
+    "upgrade": "Yükselt",
+    "verified": "Doğrulanmış",
+    "pending": "Beklemede",
+    "free": "Ücretsiz",
+    "pro": "Pro",
+    "today": "Bugün",
+    "hoursPerWeek": "haftada {n} saat",
+    "showMore": "Daha fazla göster",
+    "showLess": "Daha az göster",
+    "none": "Yok",
+    "required": "Zorunlu",
+    "notSet": "Belirtilmemiş",
+    "poweredByAi": "Yapay zekâ destekli",
+    "illustrative": "Örnek gösterim",
+    "external": "Yeni sekmede açılır",
+    "results_one": "{count} sonuç",
+    "results_other": "{count} sonuç"
+  },
+  "nav": {
+    "home": "Labora ana sayfa",
+    "skip": "İçeriğe geç",
+    "discover": "Keşfet",
+    "positions": "Pozisyonlar",
+    "aiMatch": "Yapay zekâ eşleşmesi",
+    "resources": "Kaynaklar",
+    "pricing": "Fiyatlandırma",
+    "signIn": "Giriş yap",
+    "getStarted": "Ücretsiz başla",
+    "dashboard": "Panel",
+    "signOut": "Çıkış yap",
+    "account": "Hesap menüsü",
+    "language": "Dil",
+    "theme": "Görünüm",
+    "themeLight": "Açık",
+    "themeDark": "Koyu",
+    "themeSystem": "Sistem",
+    "menu": "Menüyü aç",
+    "feedback": "Geri bildirim",
+    "emailChecker": "E-posta denetleyici",
+    "emailCheckerDesc": "E-postanızı göndermeden önce somut geri bildirim alın.",
+    "followUp": "Takip planlayıcı",
+    "followUpDesc": "Yanıt gelmeyen e-postalar için doğru zamanda iki takip mesajı.",
+    "framework": "E-posta iskeleti",
+    "frameworkDesc": "Profesörlerin yanıt verdiği, boşluk doldurmalı bir yapı.",
+    "examples": "İşe yarayan e-postalar",
+    "examplesDesc": "Her satırın neden işe yaradığını gösteren açıklamalı örnekler.",
+    "fields": "Alan rehberleri",
+    "fieldsDesc": "Alanınızdaki araştırmacıları ve iletişim ipuçlarını bulun.",
+    "blog": "Rehberler ve öneriler",
+    "blogDesc": "Bir araştırma danışmanını nasıl bulur, ona nasıl ulaşır ve iyi izlenim bırakırsınız."
+  },
+  "footer": {
+    "product": "Ürün",
+    "tools": "Araçlar",
+    "resources": "Kaynaklar",
+    "legal": "Yasal",
+    "howItWorks": "Nasıl çalışır",
+    "contact": "İletişim",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "tagline": "Size uygun araştırma laboratuvarını — ve laboratuvarınıza uygun öğrencileri bulun.",
+    "copyright": "© {year} Labora. Tüm hakları saklıdır.",
+    "dataBy": "Akademik veri sağlayıcısı"
+  },
+  "errors": {
+    "email_not_academic": "Lütfen üniversite e-posta adresinizi kullanın (örneğin .edu, .ac.uk veya .edu.tr).",
+    "email_taken": "Bu e-posta zaten kayıtlı. Bunun yerine giriş yapmayı deneyin.",
+    "invalid_credentials": "E-posta veya parola hatalı.",
+    "invalid_token": "Oturumunuzun süresi doldu. Lütfen tekrar giriş yapın.",
+    "user_not_found": "Bu hesabı bulamadık. Lütfen tekrar giriş yapın.",
+    "forbidden": "Buna erişim izniniz yok.",
+    "student_only": "Bu yalnızca öğrenci hesapları için geçerlidir.",
+    "professor_only": "Bu yalnızca profesör hesapları için geçerlidir.",
+    "admin_only": "Bu alan yalnızca yöneticiler içindir.",
+    "professor_unverified": "Profesör hesabınız doğrulama bekliyor. Onaylanır onaylanmaz bu özellik açılacak.",
+    "lab_required": "Önce laboratuvar profilinizi oluşturun.",
+    "lab_exists": "Zaten bir laboratuvar profiliniz var.",
+    "lab_not_found": "Bu laboratuvarı bulamadık.",
+    "material_not_found": "Bu araştırma materyali artık mevcut değil.",
+    "position_not_found": "Bu pozisyonu bulamadık.",
+    "position_not_open": "Bu pozisyon başvuru kabul etmiyor.",
+    "position_has_applications": "Bu pozisyonun zaten başvuranları var — silmek yerine kapatın.",
+    "already_applied": "Bu pozisyona zaten başvurdunuz.",
+    "application_not_found": "Bu başvuruyu bulamadık.",
+    "already_invited": "Bu öğrenciyi bu pozisyona zaten davet ettiniz.",
+    "invitation_not_found": "Bu daveti bulamadık.",
+    "invitation_closed": "Bu davet artık açık değil.",
+    "student_not_discoverable": "Bu öğrenci davet kabul etmiyor.",
+    "quota_exceeded": "Bu özelliğin ücretsiz hakkınızı kullandınız. Sınırsız erişim için yükseltin.",
+    "rate_limited": "Biraz hızlı gidiyorsunuz — lütfen bir an bekleyip tekrar deneyin.",
+    "professor_not_found": "Bu araştırmacıyı bulamadık.",
+    "upstream_unavailable": "Akademik veri tabanı şu anda meşgul. Lütfen birazdan tekrar deneyin.",
+    "billing_disabled": "Ödemeler henüz kullanılamıyor.",
+    "invalid_signature": "Bu istek doğrulanamadı.",
+    "invalid_referral_code": "Bu davet kodu mevcut değil.",
+    "own_referral_code": "Kendi davet kodunuzu kullanamazsınız.",
+    "referral_already_used": "Bir davet kodunu zaten kullandınız.",
+    "feedback_not_found": "Bu gönderiyi bulamadık.",
+    "outreach_not_found": "Bu kaydı bulamadık.",
+    "network": "Sunucuya ulaşamıyoruz. Bağlantınızı kontrol edip tekrar deneyin.",
+    "unknown": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+  },
+  "enums": {
+    "compensation": {
+      "paid": "Ücretli",
+      "credit": "Kredi karşılığı",
+      "volunteer": "Gönüllü"
+    },
+    "term": {
+      "fall": "Güz",
+      "spring": "Bahar",
+      "summer": "Yaz",
+      "year_round": "Yıl boyu",
+      "flexible": "Esnek"
+    },
+    "location": {
+      "on_site": "Kampüste",
+      "remote": "Uzaktan",
+      "hybrid": "Hibrit"
+    },
+    "appStatus": {
+      "pending": "İnceleniyor",
+      "accepted": "Kabul edildi",
+      "rejected": "Seçilmedi",
+      "withdrawn": "Geri çekildi"
+    },
+    "invStatus": {
+      "pending": "Yanıt bekleniyor",
+      "accepted": "Kabul edildi",
+      "declined": "Reddedildi",
+      "withdrawn": "Geri çekildi"
+    },
+    "outreach": {
+      "saved": "Kaydedildi",
+      "drafted": "Taslak",
+      "sent": "Gönderildi",
+      "replied": "Yanıt geldi",
+      "meeting": "Görüşme ayarlandı",
+      "positive": "Teklif / evet",
+      "no_reply": "Yanıt yok",
+      "declined": "Reddedildi"
+    },
+    "materialKind": {
+      "paper": "Makale",
+      "dataset": "Veri kümesi",
+      "poster": "Poster",
+      "other": "Diğer"
+    },
+    "role": {
+      "student": "Öğrenci",
+      "professor": "Profesör"
+    },
+    "year": {
+      "freshman": "1. sınıf",
+      "sophomore": "2. sınıf",
+      "junior": "3. sınıf",
+      "senior": "4. sınıf",
+      "masters": "Yüksek lisans",
+      "phd": "Doktora"
+    },
+    "style": {
+      "autonomy": "Özerklik",
+      "autonomyLow": "Yakın rehberlik",
+      "autonomyHigh": "Bağımsız çalışma",
+      "collaboration": "İş birliği",
+      "collaborationLow": "Tek başına odaklanma",
+      "collaborationHigh": "Ekip odaklı",
+      "pace": "Tempo",
+      "paceLow": "Sakin ve derinlemesine",
+      "paceHigh": "Hızlı ve yinelemeli",
+      "structure": "Yapı",
+      "structureLow": "Açık uçlu",
+      "structureHigh": "Net tanımlı"
+    },
+    "grade": {
+      "excellent": "Mükemmel",
+      "good": "İyi",
+      "needs_work": "Geliştirilmeli",
+      "risky": "Riskli"
+    },
+    "sort": {
+      "relevance": "En uygun",
+      "cited": "En çok atıf alan",
+      "recent": "En aktif"
+    }
+  },
+  "meta": {
+    "homeTitle": "Labora — Size uygun profesörü bulun",
+    "homeDescription": "Dünyanın akademik kayıtlarından araştırmacıları keşfedin, çalışmalarını sade bir dille anlayın ve becerilerinize ile çalışma tarzınıza uyan laboratuvarlarla yapay zekâ ile eşleşin.",
+    "discoverTitle": "Araştırmacı profesörleri bulun",
+    "discoverDescription": "Açık bir akademik veri tabanından, ilgi alanınızda aktif olarak yayın yapan araştırmacıları, herhangi bir üniversitede arayın.",
+    "professorTitle": "Araştırmacı profili",
+    "professorDescription": "Bir araştırmacının yayınları, konuları, sade dille özeti ve iletişim araçları.",
+    "positionsTitle": "Açık araştırma pozisyonları",
+    "positionsDescription": "Doğrulanmış profesörlerin doğrudan yayımladığı araştırma pozisyonları — ücretli, kredi karşılığı veya gönüllü.",
+    "positionTitle": "Araştırma pozisyonu",
+    "positionDescription": "Rolü ve laboratuvarın araştırmasını okuyun, sonra başvurun.",
+    "labTitle": "Araştırma laboratuvarı",
+    "labDescription": "Bir laboratuvarın araştırması, kültürü, açık pozisyonları ve materyalleri.",
+    "checkerTitle": "Profesörlere ilk temas e-postası denetleyici",
+    "checkerDescription": "E-postanızı yapıştırın ve hangi ifadelerin genel, yaltakçı veya belirsiz durduğunu görün — sizin yerinize yeniden yazmayız.",
+    "followUpTitle": "Takip planlayıcı",
+    "followUpDescription": "Yanıt gelmeyen profesör e-postaları için doğru zamanda iki takip taslağı ve takvim hatırlatıcıları.",
+    "frameworkTitle": "İlk temas e-postası iskeleti",
+    "frameworkDescription": "Profesörlere yazmak için boşluk doldurmalı bir yapı ve kaçınmanız gereken ifadeler.",
+    "examplesTitle": "İşe yarayan açıklamalı e-postalar",
+    "examplesDescription": "Neden işe yaradıklarını satır satır açıklayan üç örnek e-posta.",
+    "fieldsTitle": "Alan rehberleri",
+    "fieldsDescription": "Alanınızdaki araştırmacıları ve iletişim ipuçlarını bulun.",
+    "blogTitle": "Rehberler ve öneriler",
+    "blogDescription": "Bir araştırma danışmanını nasıl bulur, ona nasıl ulaşır ve iyi izlenim bırakırsınız.",
+    "pricingTitle": "Fiyatlandırma",
+    "pricingDescription": "Arama ücretsizdir. Paketler e-posta bulucuyu, sınırsız özetleri ve sınırsız e-posta denetimini açar.",
+    "aiMatchTitle": "Yapay zekâ eşleşmesi",
+    "aiMatchDescription": "Öğrencileri ve laboratuvarları beceri, ilgi, uygunluk ve çalışma tarzına göre eşleştirin — her sonuç için açıklamayla.",
+    "howTitle": "Nasıl çalışır",
+    "howDescription": "Merakınızdan bir profesörle gerçek bir sohbete giden dört adım.",
+    "playbookTitle": "İlk temas e-postası el kitabı",
+    "playbookDescription": "Yanıt alan e-postaların ardındaki yapı, zamanlama ve takip basamakları.",
+    "feedbackTitle": "Geri bildirim panosu",
+    "feedbackDescription": "Özellik önerin, hataları bildirin ve sırada ne geliştireceğimize oy verin.",
+    "contactTitle": "İletişim",
+    "contactDescription": "Sorular, fikirler veya hesap yardımı — her mesajı okuyoruz.",
+    "loginTitle": "Giriş yap",
+    "registerTitle": "Hesabınızı oluşturun"
+  },
+  "states": {
+    "notFound": {
+      "title": "Sayfa bulunamadı",
+      "body": "Aradığınız sayfa mevcut değil veya taşınmış.",
+      "home": "Ana sayfaya dön",
+      "search": "Profesör bul"
+    },
+    "error": {
+      "title": "Bir şeyler ters gitti",
+      "body": "Beklenmedik bir hata oluştu. Tekrar deneyebilir veya ana sayfaya dönebilirsiniz.",
+      "retry": "Tekrar dene",
+      "home": "Ana sayfaya dön"
+    }
+  },
+  "legal": {
+    "privacyTitle": "Gizlilik Politikası",
+    "termsTitle": "Hizmet Koşulları",
+    "updated": "Son güncelleme: {date}",
+    "englishNote": "Bu belge İngilizce olarak sunulmaktadır. Anlamak için yardıma ihtiyacınız olursa bizimle iletişime geçin.",
+    "questions": "Bu belgeyle ilgili sorularınız mı var?",
+    "contactUs": "Bize ulaşın"
+  },
+  "playbook": {
+    "eyebrow": "Her pakete dahil",
+    "title": "İlk temas e-postası el kitabı",
+    "subtitle": "Yanıt alan e-postaların ardındaki yapı, zamanlama ve takip basamakları — tek sayfada özetlendi.",
+    "lockedTitle": "El kitabının geri kalanını açın",
+    "lockedBody": "Zamanlama, takip basamakları, «hayır» cevabını ele alma ve göndermeden önceki kontrol listesi her pakete dahildir.",
+    "seePlans": "Planları gör",
+    "signIn": "Giriş yap",
+    "englishNote": "El kitabı şu anda yalnızca İngilizce olarak sunuluyor.",
+    "cta": "E-postamı denetle"
+  },
+  "blog": {
+    "eyebrow": "Labora kütüphanesi",
+    "title": "Bir araştırma danışmanını nasıl bulur, ona nasıl ulaşır ve iyi izlenim bırakırsınız",
+    "subtitle": "Profesör bulma, okunan e-postalar yazma ve takip etme konusunda, sıfırdan başlayanlar için yazılmış pratik rehberler.",
+    "all": "Tüm rehberler",
+    "cat": {
+      "finding": "Araştırma bulmak",
+      "writing": "E-postayı yazmak",
+      "after": "Gönderdikten sonra",
+      "goals": "Hedefler ve sonraki adımlar"
+    },
+    "minRead": "{minutes} dk okuma",
+    "read": "Rehberi oku",
+    "back": "Tüm rehberler",
+    "englishNote": "Rehberler şu anda yalnızca İngilizce olarak sunuluyor.",
+    "ctaTitle": "Uygulamaya geçirin",
+    "ctaBody": "Alanınızdaki araştırmacıları bulun, çalışmalarını anlayın ve göndermeden önce e-postanızı denetleyin.",
+    "ctaFind": "Profesör bul",
+    "ctaCheck": "E-postamı denetle",
+    "keepReading": "Okumaya devam edin",
+    "notFound": "Rehber bulunamadı"
+  },
+  "fields": {
+    "eyebrow": "Alan rehberleri",
+    "title": "Alana göre araştırma pozisyonu bulun",
+    "subtitle": "Bir disiplin seçin; o alanda kimlerin aktif olarak yayın yaptığını, ne üzerinde çalıştıklarını ve onlara nasıl ulaşacağınızı görün.",
+    "blurb": "Aktif olarak yayın yapan «{field}» araştırmacılarını bulun, ne üzerinde çalıştıklarını anlayın ve gerçekten okunacak, somut bir not yazın.",
+    "cta": "«{field}» araştırmacılarını gör",
+    "pageTitle": "{field}: araştırmacı ve pozisyon bulun",
+    "pageSubtitle": "Şu anda «{field}» alanında kimlerin yayın yaptığını keşfedin, çalışmalarını anlayın ve doğru şekilde ulaşın.",
+    "searchNow": "«{field}» araştırmacılarını ara",
+    "openPositions": "«{field}» açık pozisyonları",
+    "backToAll": "Tüm alanlar",
+    "tipsTitle": "«{field}» laboratuvarlarına nasıl yaklaşılır",
+    "tip1": "Yazmadan önce yakın tarihli iki üç özete göz atın — tek bir iyi soru sormaya yetecek kadarı yeterli.",
+    "tip2": "Somut bir beceri belirtin: bir ders, veri kümesi, araç veya küçük bir proje. Laboratuvar görevleri genellikle uygulamalıdır.",
+    "tip3": "Belirli bir saat sayısı ve başlangıç tarihi önerin. Bu, «evet» demeyi kolaylaştırır.",
+    "tip4": "Profesör öğrenci almıyorsa, grupta kimin alabileceğini sorun.",
+    "related": "İlgili alanlar",
+    "names": {
+      "astrophysics": "Astrofizik",
+      "physics": "Fizik",
+      "quantum-computing": "Kuantum hesaplama",
+      "chemistry": "Kimya",
+      "materials-science": "Malzeme bilimi",
+      "machine-learning": "Makine öğrenmesi",
+      "computer-science": "Bilgisayar bilimi",
+      "robotics": "Robotik",
+      "mathematics": "Matematik",
+      "biochemistry": "Biyokimya",
+      "molecular-biology": "Moleküler biyoloji",
+      "genetics": "Genetik",
+      "bioinformatics": "Biyoinformatik",
+      "neuroscience": "Sinirbilim",
+      "cognitive-science": "Bilişsel bilim",
+      "psychology": "Psikoloji",
+      "immunology": "İmmünoloji",
+      "public-health": "Halk sağlığı",
+      "epidemiology": "Epidemiyoloji",
+      "environmental-science": "Çevre bilimi",
+      "climate-science": "İklim bilimi",
+      "economics": "Ekonomi",
+      "linguistics": "Dilbilim",
+      "sociology": "Sosyoloji"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Yeni: Öğrenciler ve laboratuvarlar için yapay zekâ eşleşmesi",
+      "title": "Size <em>uygun profesörü</em> bulun.",
+      "subtitle": "Dünyanın akademik kayıtlarında arama yapın, herhangi bir araştırmacının çalışmasını sade bir dille anlayın ve becerilerinize ile çalışma tarzınıza uyan laboratuvarlarla eşleşin.",
+      "modeInterest": "İlgi alanına göre",
+      "modeName": "İsme göre",
+      "interestLabel": "Araştırma ilgisi",
+      "interestPlaceholder": "örn. hesaplamalı sinirbilim",
+      "nameLabel": "Araştırmacı adı",
+      "namePlaceholder": "örn. Jane Smith",
+      "universityLabel": "Üniversite",
+      "universityPlaceholder": "örn. MIT, Stanford…",
+      "search": "Profesör bul",
+      "try": "Deneyin",
+      "trust": "Açık akademik veriler üzerine kurulu: {works} makale · {institutions} kurum",
+      "trustFallback": "Açık akademik veriler üzerine kurulu: 300 milyon+ makale · 140 bin+ kurum",
+      "ex": {
+        "ml": "Makine öğrenmesi",
+        "neuro": "Sinirbilim",
+        "genomics": "Genomik",
+        "climate": "İklim bilimi",
+        "quantum": "Kuantum hesaplama",
+        "psych": "Psikoloji"
+      },
+      "modeLabel": "Arama ölçütü"
+    },
+    "mock": {
+      "preview": "Örnek önizleme",
+      "results": "Araştırmacılar",
+      "summary": "Sade dille özet",
+      "summaryBody": "Makinelerin çok az etiketli örnekle nasıl görmeyi öğrenebileceğini inceler; böylece bir robot daha önce hiç görmediği günlük nesneleri tanıyıp kavrayabilir.",
+      "keyFinding": "Ana bulgu",
+      "keyFindingBody": "Kendi kendine denetimli bir yaklaşım, kavrama tespiti için gereken etiketli görüntü sayısını %80 azalttı (2025).",
+      "starters": "Sormaya değer sorular",
+      "starter1": "Grup, test edilecek nesneleri nasıl seçti?",
+      "starter2": "Yöntem laboratuvarın dışında da işe yarıyor mu?",
+      "save": "Kaydet",
+      "writeEmail": "E-posta yaz",
+      "match": "Uyum",
+      "whyFit": "Neden uygunsunuz",
+      "reasonTopics": "Ortak konular: bilgisayarlı görü, PyTorch",
+      "reasonStyle": "Benzer çalışma tarzı: bağımsız, hızlı tempo",
+      "gap": "Eksik: doğrusal cebir",
+      "emailScore": "E-posta puanı",
+      "emailFlags": "Düzeltilecek 2 şey",
+      "hIndex": "h-indeksi",
+      "papers": "makale",
+      "flagFlattery": "Yaltakçılık",
+      "flagGeneric": "Genel ifade",
+      "mustHave": "Şart",
+      "niceToHave": "Olsa iyi olur",
+      "invite": "Davet et",
+      "idealStudent": "İdeal aday",
+      "followUpOn": "{date} tarihinde takip",
+      "tracker": "İletişim takipçisi",
+      "openPositions": "Açık pozisyonlar",
+      "apply": "Başvur"
+    },
+    "marquee": {
+      "label": "Şu gibi kurumlardan araştırmacılar"
+    },
+    "problem": {
+      "eyebrow": "Sorun",
+      "title": "Profesörlere gönderilen mesajların çoğu <em>hiç okunmuyor.</em>",
+      "description": "Öğrenciler yanlış kişilere yanlış zamanda genel e-postalar gönderiyor, profesörlerin ise karar vermek için sadece birkaç saniyesi var. Genellikle sorun şurada çıkıyor.",
+      "generic": {
+        "title": "E-posta herkesinkine benziyor",
+        "body": "Yaltakçılık ve kalıp cümleler kolayca fark edilir. Gerçek bir çalışma hakkındaki somut bir soru öne çıkar."
+      },
+      "who": {
+        "title": "Kimin öğrenci aldığını bilemiyorsunuz",
+        "body": "Fakülte sayfaları eskir; işe alım yapan laboratuvarlar bunu nadiren öğrencilerin baktığı yerde duyurur."
+      },
+      "read": {
+        "title": "Makale okumak saatler alıyor",
+        "body": "Somut bir şey yazabilmek için çalışmayı anlamanız gerekir — ama özetler yoğundur."
+      }
+    },
+    "features": {
+      "eyebrow": "Platform",
+      "title": "«Merak ediyorum» ile «laboratuvardayım» arasındaki her şey",
+      "description": "İnsanları bulmak, çalışmalarını anlamak, iyi iletişim kurmak ve takip etmek için tek yer.",
+      "discover": {
+        "title": "Akademik kayıtlarda arayın",
+        "body": "Herhangi bir ilgi alanı ve bir üniversite yazın. Konuda aktif olarak yayın yapan araştırmacıları gösteririz — gerçek insanlar, gerçek makaleler."
+      },
+      "summaries": {
+        "title": "Sade dille özetler",
+        "body": "Her araştırmacı için, alana yeni biri için yazılmış; neyi incelediklerini ve yakın tarihli bir bulguyu anlatan kısa bir açıklama."
+      },
+      "email": {
+        "title": "Hayalet yazar değil, e-posta koçu",
+        "body": "Taslağınızı yapıştırın; hangi ifadelerin genel, yaltakçı veya belirsiz durduğunu ve nedenini görün. Kendi sesiniz size ait kalır."
+      },
+      "match": {
+        "title": "İki yönlü yapay zekâ eşleşmesi",
+        "body": "Öğrenciler becerilerine ve çalışma tarzlarına uyan laboratuvarları ve profesörleri görür. Profesörler ideal öğrenciyi tarif eder ve kimin uyduğunu görür."
+      },
+      "positions": {
+        "title": "Doğrulanmış laboratuvarlardan pozisyonlar",
+        "body": "Profesörlerin doğrudan yayımladığı rollere göz atın, önce araştırmalarını okuyun ve tek adımda başvurun."
+      },
+      "tracker": {
+        "title": "Size hatırlatan bir iletişim takipçisi",
+        "body": "Kime e-posta gönderdiğinizi ve ne olduğunu kaydedin. Hiçbir şey kaçmasın diye takip tarihleri alın."
+      }
+    },
+    "how": {
+      "eyebrow": "Nasıl çalışır",
+      "title": "Merakınızdan gerçek bir sohbete",
+      "s1": {
+        "title": "Arayın",
+        "body": "Bir ilgi alanı ve bir üniversite ya da bir araştırmacının adını girin."
+      },
+      "s2": {
+        "title": "Anlayın",
+        "body": "Sade bir özet, yakın tarihli makaleler ve sorulacak iyi sorular okuyun."
+      },
+      "s3": {
+        "title": "Ulaşın",
+        "body": "Kendi e-postanızı yazın, denetleyin ve güvenle gönderin."
+      },
+      "s4": {
+        "title": "Takip edin",
+        "body": "Yanıtları izleyin ve doğru zamanda iki takip mesajı gönderin."
+      }
+    },
+    "match": {
+      "eyebrow": "Yapay zekâ eşleşmesi",
+      "title": "Becerilerde — ve <em>nasıl çalıştığınızda</em> da uyum.",
+      "description": "Konu örtüşmesi hikâyenin yalnızca yarısı. Labora çalışma tarzlarını da karşılaştırır: ne kadar bağımsızlık istediğinizi, ne kadar iş birlikçi olduğunuzu, tercih ettiğiniz temponun ne olduğunu ve ne kadar yapının size yardımcı olduğunu.",
+      "students": "Öğrenciler için",
+      "s1": "Her biri açık gerekçelerle sıralanmış pozisyonlar ve profesörler",
+      "s2": "Eksiklerinizi ve nasıl öne çıkacağınızı görün",
+      "s3": "Profesörlerin ne görebileceğine siz karar verirsiniz",
+      "professors": "Profesörler için",
+      "p1": "İdeal öğrenciyi tarif edin — ya da yapay zekâ pozisyonunuzdan bir taslak hazırlasın",
+      "p2": "İzin veren öğrencilere gerekçeleriyle sıralı olarak göz atın",
+      "p3": "En uygun adayları tek bir mesajla davet edin",
+      "privacy": "Öğrencilerin görünür olması isteğe bağlıdır ve istenildiği zaman kapatılabilir. Öğrenci evet diyene kadar iletişim bilgileri profesöre asla gösterilmez.",
+      "cta": "Yapay zekâ eşleşmesini keşfedin",
+      "styleTitle": "Çalışma tarzı",
+      "candidate": "Aday",
+      "you": "Siz",
+      "lab": "Laboratuvar"
+    },
+    "compare": {
+      "title": "Neden sadece bir sohbet botuna sormuyorsunuz?",
+      "description": "Genel amaçlı sohbet botları harika yazar, ama gerçek insanların rehberi değildir.",
+      "colChatbot": "Genel amaçlı bir sohbet botu",
+      "colLabora": "Labora",
+      "r1": "İnsanlar ve makaleler nereden geliyor",
+      "r1a": "Hafızadan üretilir — profesörler, makaleler ve sayılar uydurabilir.",
+      "r1b": "Akademik kayıtlardan (OpenAlex) alınır. Hiçbir şey uydurma değil.",
+      "r2": "E-postanızı kim yazıyor",
+      "r2a": "Çoğu zaman sizin yerinize yazar ve profesörler bunu anlar.",
+      "r2b": "Siz yazarsınız. Labora neyi düzeltmeniz gerektiğini söyler.",
+      "r3": "Ne kadar çaba gerekiyor",
+      "r3a": "Araştırmacıları bulmak, okumak ve karşılaştırmak için çok sayıda istem.",
+      "r3b": "Tek bir arama: araştırmacılar, özetler ve e-posta geri bildirimi bir arada."
+    },
+    "professors": {
+      "eyebrow": "Profesörler için",
+      "title": "<em>Gerçekten uyan</em> öğrenciler bulun.",
+      "description": "Pozisyon yayımlayın, araştırmanızı paylaşın ve yapay zekânın becerileri ve çalışma tarzı laboratuvarınıza uyan öğrencileri öne çıkarmasına izin verin.",
+      "b1": "Doğrulanmış öğretim üyeleri için ücretsiz",
+      "b2": "Makaleleri, veri kümelerini ve posterleri sergileyin",
+      "b3": "Başvuruları ve davetleri tek yerde inceleyin",
+      "cta": "Pozisyon yayımla"
+    },
+    "stats": {
+      "eyebrow": "Açık verilerle kuruldu",
+      "title": "Üretilmiş değil, gerçek bir rehber",
+      "works": "Dizinlenen akademik eser",
+      "institutions": "Dünya genelinde kurum",
+      "researchers": "Araştırmacı",
+      "labs": "Labora'daki laboratuvar",
+      "positions": "Açık pozisyon",
+      "attribution": "Akademik üst veriler OpenAlex tarafından sağlanmaktadır."
+    },
+    "pricing": {
+      "title": "Ücretsiz başlayın. Hazır olduğunuzda yükseltin.",
+      "description": "Arama her zaman ücretsizdir. Paketler, ihtiyacınız olduğu sürece e-posta bulucuyu, sınırsız özetleri ve sınırsız e-posta denetimini açar.",
+      "cta": "Planları gör"
+    },
+    "faq": {
+      "title": "Sorular ve yanıtlar",
+      "q1": "Araştırmacı verileri nereden geliyor?",
+      "a1": "OpenAlex'ten; dünyadaki akademik çalışmaların açık bir kataloğundan. Yalnızca o kayıtta bulunan kişileri ve makaleleri gösteriyoruz. Asla profesör veya yayın uydurmuyoruz.",
+      "q2": "Labora e-postamı benim yerime yazacak mı?",
+      "a2": "Hayır — bilerek. Profesörler bunu anlar ve yanıtlar kendi sesiyle yazan öğrencilere gider. Labora kime yazacağınızı bulur, çalışmalarını açıklar ve kendi taslağınız hakkında somut geri bildirim verir.",
+      "q3": "Yapay zekâ eşleşmesi nasıl çalışıyor?",
+      "a3": "Becerilerinizi, ilgi alanlarınızı, deneyiminizi, uygunluğunuzu ve çalışma tarzınızı pozisyonlarla, laboratuvarlarla ve araştırmacılarla karşılaştırır ve her eşleşmeyi açıklarız. Bir yapay zekâ gözden geçiricisi en iyi sonuçları inceltir. İsim, okul, cinsiyet, uyruk veya diğer korunan özellikleri asla kullanmayız.",
+      "q4": "Profilimi kim görebilir?",
+      "a4": "Görünürlüğü açmadıkça hiç kimse. Açtığınızda yalnızca doğrulanmış profesörler profilinizi görebilir — e-postanızı asla. Sizi davet edebilirler ve yanıt verip vermeyeceğinize siz karar verirsiniz.",
+      "q5": "Profesörlerin Labora'da olması gerekiyor mu?",
+      "a5": "Hayır. Akademik kayıtlardaki herhangi bir araştırmacıyı bulup onlara ulaşabilirsiniz. Katılan profesörler pozisyon yayımlayabilir, araştırmalarını paylaşabilir ve öğrenci bulabilir.",
+      "q6": "Ne kadar tutuyor?",
+      "a6": "Arama ücretsizdir; ücretsiz hesap, özetlerden, e-posta denetimlerinden ve yapay zekâ eşleşmesinden bir tadımlık içerir. Paketler sınırsız kullanımı açar — Fiyatlandırma'ya bakın."
+    },
+    "cta": {
+      "title": "Bir sonraki araştırma pozisyonunuz <em>tek bir iyi e-postayla</em> başlar.",
+      "subtitle": "Ücretsiz arayın — kart gerekmez.",
+      "button": "Profesör bul"
+    }
+  },
+  "how": {
+    "eyebrow": "Nasıl çalışır",
+    "title": "Merakınızdan sohbete dört adım",
+    "subtitle": "Labora, bir profesörün gerçekten yanıt vermesini sağlayan şeyin etrafında kuruldu.",
+    "s1": {
+      "title": "Akademik kayıtlarda arayın",
+      "body": "Bir araştırma ilgisi ve bir üniversite ya da bir araştırmacının adını yazın. Konuda aktif olarak yayın yapanları öne çıkarırız.",
+      "b1": "Açık bir akademik veri tabanından gelen sonuçlar",
+      "b2": "Üniversiteye göre süzün, son etkinliğe göre sıralayın"
+    },
+    "s2": {
+      "title": "Çalışmalarını anlayın",
+      "body": "Sade bir özet, yakın tarihli bir bulgu ve sorulmaya değer sorular okuyun — sonra makalelere göz atın.",
+      "b1": "Alana yeni biri için yazılmış özetler",
+      "b2": "Son ve en çok atıf alan makaleler tek bakışta"
+    },
+    "s3": {
+      "title": "Okunacak bir e-posta yazın",
+      "body": "Önce kendiniz yazın, sonra denetleyin. Yaltakçılığı, kalıp cümleleri ve belirsizliği vurgularız — e-postayı asla sizin yerinize yazmayız.",
+      "b1": "Bir iskelet ve açıklamalı örnekler",
+      "b2": "Somut, satır satır geri bildirim"
+    },
+    "s4": {
+      "title": "Takip edin ve kaydedin",
+      "body": "Kimlerle iletişim kurduğunuzu kaydedin, doğru zamanda takip mesajları alın ve her fırsatı tek yerde tutun.",
+      "b1": "İki takip taslağı ve takvim hatırlatıcıları",
+      "b2": "Puan tutan bir iletişim takipçisi"
+    },
+    "cta": "Aramaya başla",
+    "ctaMatch": "Ya da uyumunuzu yapay zekâ bulsun"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "Yapay zekâ eşleşmesi",
+      "title": "<em>Nasıl çalıştığınızı</em> anlayan bir eşleşme.",
+      "subtitle": "Labora anahtar kelimelerden fazlasını karşılaştırır. Becerilerinize, ilgi alanlarınıza, uygunluğunuza ve çalışma tarzınıza bakar — sonra her eşleşmeyi sade bir dille açıklar.",
+      "student": "Eşleşmelerimi bul",
+      "professor": "İdeal öğrencilerimi bul",
+      "signUp": "Ücretsiz hesap oluştur"
+    },
+    "signals": {
+      "eyebrow": "Nasıl çalışır",
+      "title": "Dört sinyal, açıklanabilir tek bir puan",
+      "topics": {
+        "title": "Konular",
+        "body": "İlgi alanlarınızın, derslerinizin ve deneyiminizin bir laboratuvarın veya araştırmacının çalıştığı konularla ne kadar örtüştüğü."
+      },
+      "skills": {
+        "title": "Beceriler",
+        "body": "Bir rolün gerektirdiği becerilerden hangilerine zaten sahipsiniz — hangilerini geliştirebilirsiniz."
+      },
+      "style": {
+        "title": "Çalışma tarzı",
+        "body": "Bağımsızlık, ekip çalışması, tempo ve yapı: nasıl çalışmayı sevdiğiniz ile laboratuvarın nasıl çalıştığının karşılaştırması."
+      },
+      "hours": {
+        "title": "Uygunluk",
+        "body": "Sunabileceğiniz saatlerin rolün beklediği süreyi karşılayıp karşılamadığı."
+      }
+    },
+    "demo": {
+      "eyebrow": "Deneyin",
+      "title": "Çalışma tarzı eşleşmesini görün",
+      "description": "Nasıl çalışmayı sevdiğinize göre kadranları oynatın. Örnek laboratuvar bağımsız, iş birlikçi ve hızlı tempolu; görevleri gevşek tanımlıdır.",
+      "you": "Siz",
+      "lab": "Örnek laboratuvar",
+      "fit": "Tarz uyumu",
+      "aligned": "Uyumlu olduğunuz konular: {items}",
+      "differs": "Farklı olduğunuz konular: {items}",
+      "none": "Karşılaştırmak için bir kadranı oynatın."
+    },
+    "directions": {
+      "title": "İki yön, tek fikir",
+      "students": {
+        "title": "Öğrenciler için",
+        "s1": "Becerilerinizi, ilgi alanlarınızı, deneyiminizi ve çalışma tarzınızı bir kez girin.",
+        "s2": "Uyuma göre sıralanmış pozisyonlar ve profesörler alın; her birinde gerekçeler ve eksikler yer alır.",
+        "s3": "Daha güçlü bir başvuru veya e-posta yazmak için «nasıl öne çıkılır» ipuçlarını kullanın."
+      },
+      "professors": {
+        "title": "Profesörler için",
+        "s1": "İdeal öğrenciyi tarif edin — ya da yapay zekâ pozisyonunuzdan ve laboratuvarınızdan bir taslak hazırlasın.",
+        "s2": "İzin veren öğrencileri gerekçeler ve eksiklerle sıralı olarak görün.",
+        "s3": "En uygun adayları tek bir mesajla davet edin. Yanıt verene kadar e-postaları gizli kalır."
+      }
+    },
+    "trust": {
+      "eyebrow": "Tasarımdan itibaren adil",
+      "title": "Kontrol sizde kalır",
+      "t1": {
+        "title": "İsteğe bağlı görünürlük",
+        "body": "Öğrenciler yalnızca açtıklarında bulunabilir ve istedikleri zaman kapatabilirler."
+      },
+      "t2": {
+        "title": "Gizli iletişim bilgileri",
+        "body": "Öğrenci başvurana veya bir daveti kabul edene kadar profesörler öğrencinin e-postasını asla görmez."
+      },
+      "t3": {
+        "title": "Korunan özellikler yok",
+        "body": "İsim, okul, cinsiyet, uyruk ve benzeri özellikler kimseyi puanlamak için asla kullanılmaz."
+      },
+      "t4": {
+        "title": "Kara kutu değil, gerekçeler",
+        "body": "Her puan neyin uyduğunu ve neyin uymadığını gösterir; böylece ona katılmayabilirsiniz."
+      }
+    },
+    "faq": {
+      "title": "Sık sorulan sorular",
+      "q1": "Puan, pozisyonu alacağımın bir tahmini mi?",
+      "a1": "Hayır. Uyum için bir rehberdir, tahmin değildir. Gerçek kararları birçok şey etkiler — zamanlama, finansman ve diğer adaylar.",
+      "q2": "Yapay zekâ aslında ne yapıyor?",
+      "a2": "Önce yukarıdaki sinyallerden şeffaf bir puan hesaplarız. Sonra bir yapay zekâ gözden geçiricisi en iyi sonuçlara bakar, sıralamayı inceltir ve açıklamaları yazar. Yapay zekâ kullanılamıyorsa yine de şeffaf puanı alırsınız.",
+      "q3": "Profil olmadan yapay zekâ eşleşmesini kullanabilir miyim?",
+      "a3": "Çalıştırabilirsiniz, ancak daha eksiksiz bir profille sonuçlar çok daha iyi olur. Neyin eksik olduğunu gösteririz."
+    },
+    "cta": {
+      "title": "Size uyan laboratuvarları — ve insanları — bulun.",
+      "button": "Ücretsiz başla"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Fiyatlandırma",
+    "title": "Döneminize uyan paketi seçin",
+    "subtitle": "Araştırmacı aramak her zaman ücretsizdir. Paketler size en çok zaman kazandıran araçları açar — tek ödeme, abonelik yok, otomatik yenileme yok.",
+    "plans": {
+      "free": {
+        "name": "Ücretsiz",
+        "desc": "sonsuza dek"
+      },
+      "weekly": {
+        "name": "Haftalık sprint",
+        "desc": "1 haftalık erişim"
+      },
+      "semester": {
+        "name": "Dönemlik paket",
+        "desc": "4 aylık erişim",
+        "badge": "En iyi değer"
+      },
+      "lifetime": {
+        "name": "Ömür boyu",
+        "desc": "Sonsuza dek sizin"
+      }
+    },
+    "cta": {
+      "free": "Ücretsiz başla",
+      "weekly": "Haftalık sprinti başlat",
+      "semester": "Dönemlik paketi al",
+      "lifetime": "Ömür boyu erişimi al",
+      "current": "Mevcut planınız",
+      "signIn": "Devam etmek için giriş yapın"
+    },
+    "features": {
+      "unlimited_search": "Sınırsız araştırmacı araması",
+      "summaries_2": "Sade dille 2 özet",
+      "email_check_1": "1 e-posta denetimi",
+      "ai_match_3": "3 yapay zekâ eşleşmesi",
+      "outreach_tracker": "İletişim takipçisi",
+      "positions_board": "Açık pozisyonlar panosu",
+      "everything_pro": "Ücretsiz plandaki her şey, ayrıca:",
+      "unlimited_summaries": "Sınırsız özet",
+      "email_finder": "E-posta bulucu",
+      "responsiveness": "Yanıt verme puanları",
+      "unlimited_checks": "Sınırsız e-posta denetimi ve takip",
+      "playbook": "İlk temas e-postası el kitabı",
+      "everything_semester": "Dönemlik paketteki her şey, ayrıca:",
+      "never_pay_again": "Bir daha asla ödeme yapmayın",
+      "priority_features": "Yeni özelliklere erken erişim"
+    },
+    "payments": "Ödemeler Stripe tarafından güvenle işlenir. Kart bilgilerinizi asla görmeyiz.",
+    "devMode": "Bu ortamda ödemeler bağlı değil — paketler, deneyebilmeniz için anında etkinleşir.",
+    "activated": "Paketiniz etkin. İyi kullanımlar!",
+    "cancelled": "Ödeme iptal edildi — ücret alınmadı.",
+    "referral": {
+      "title": "Bir arkadaşınızı getirin, ikiniz de bir hafta kazanın",
+      "body": "Kodunuzu Plan ve faturalandırma bölümünden paylaşın. Bir arkadaşınız onunla kaydolduğunda ikiniz de 7 gün Pro kazanırsınız.",
+      "haveCode": "Bir arkadaşınızın kodu var mı?",
+      "placeholder": "Kodu girin",
+      "redeem": "Kullan",
+      "redeemed": "Kod kullanıldı — 7 gün Pro eklendi.",
+      "signIn": "Kod kullanmak için giriş yapın"
+    },
+    "waitlist": {
+      "title": "Yanıt garantili bir plan geliyor",
+      "body": "Size gerçek sohbetler kazandırmaya odaklanan bir plan üzerinde çalışıyoruz. Bekleme listesine katılın, ilk siz öğrenin.",
+      "placeholder": "siz@universite.edu",
+      "join": "Bekleme listesine katıl",
+      "joined": "Listedesiniz. Teşekkürler!"
+    },
+    "faq": {
+      "title": "Faturalandırma soruları",
+      "q1": "Abonelik mi?",
+      "a1": "Hayır. Her paket tek seferlik bir ödemedir. Hiçbir şey otomatik yenilenmez, dolayısıyla iptal edecek bir şey yoktur.",
+      "q2": "Paketim bittiğinde ne olur?",
+      "a2": "Hesabınız, kaydettiğiniz araştırmacılar ve takipçiniz kalır. Yalnızca ücretsiz hakka dönersiniz.",
+      "q3": "Aramak veya başvurmak için pakete ihtiyacım var mı?",
+      "a3": "Hayır. Araştırmacı aramak, pozisyonlara göz atmak ve başvurmak her zaman ücretsizdir.",
+      "q4": "Profesörlerden ücret alınıyor mu?",
+      "a4": "Hayır. Doğrulanmış profesörler pozisyon yayımlar, araştırma paylaşır ve öğrenci bulur — hepsi ücretsiz.",
+      "q5": "Faturalandırma için kime ulaşmalıyım?",
+      "a5": "İletişim sayfasını kullanın, size dönüş yapacağız."
+    }
+  },
+  "dash": {
+    "nav": {
+      "overview": "Genel bakış",
+      "matches": "Yapay zekâ eşleşmesi",
+      "talent": "Öğrenci bul",
+      "applications": "Başvurular",
+      "invitations": "Davetler",
+      "outreach": "İletişim takipçisi",
+      "saved": "Kaydedilenler",
+      "profile": "Profilim",
+      "billing": "Plan ve faturalandırma",
+      "settings": "Ayarlar",
+      "positions": "Pozisyonlar",
+      "lab": "Laboratuvar ve araştırma",
+      "admin": "Yönetim"
+    },
+    "greeting": "Merhaba {name}",
+    "welcomeProfessor": "Hoş geldiniz, {name}",
+    "overview": {
+      "studentSubtitle": "Araştırma arayışınız şu anda şu noktada.",
+      "professorSubtitle": "Laboratuvarınızı, pozisyonlarınızı ve başvuranları yönetin.",
+      "findPositions": "Pozisyon bul",
+      "newPosition": "Yeni pozisyon",
+      "applications": "Başvurular",
+      "inReview": "İnceleniyor",
+      "accepted": "Kabul edildi",
+      "invitations": "Davetler",
+      "openPositions": "Açık pozisyonlar",
+      "applicants": "Başvuranlar",
+      "lab": "Laboratuvar",
+      "live": "Yayında",
+      "notSetUp": "Kurulmadı",
+      "completeTitle": "Profilinizi tamamlayın",
+      "completeBody": "Profesörler her başvuruda profilinizi görür ve ne kadar çok paylaşırsanız eşleşme o kadar isabetli olur.",
+      "completeCta": "Profili güncelle",
+      "discoverTitle": "Profesörlerin sizi bulmasına izin verin",
+      "discoverBody": "Görünürlüğü açın; doğrulanmış profesörler sizi başvurmaya davet edebilsin. Yanıt verene kadar e-postanız gizli kalır.",
+      "discoverCta": "Profilde seç",
+      "recentApplications": "Son başvurular",
+      "noApplications": "Henüz başvurmadınız.",
+      "browse": "Açık pozisyonlara göz at",
+      "matchTitle": "En iyi eşleşmeleriniz",
+      "matchBody": "Pozisyonları ve profesörleri size ne kadar uyduklarına göre sıralı görün.",
+      "matchCta": "Yapay zekâ eşleşmesini aç",
+      "yourPositions": "Pozisyonlarınız",
+      "noPositions": "Henüz pozisyon yok.",
+      "createLabTitle": "İşe almaya başlamak için laboratuvarınızı kurun",
+      "createLabBody": "Öğrenciler yayımladığınız her pozisyonda laboratuvar profilinizi ve araştırmanızı görür.",
+      "createLabCta": "Laboratuvar profili oluştur",
+      "unverifiedTitle": "Hesabınız doğrulama bekliyor",
+      "unverifiedBody": "Laboratuvarlar ve pozisyonlar herkese açık olmadan önce profesör hesaplarını inceliyoruz. Bu arada her şeyi hazırlayabilirsiniz.",
+      "talentTitle": "Uygun öğrenciler bulun",
+      "talentBody": "İdeal öğrenciyi tarif edin ve yapay zekâ izin veren öğrencileri sıralasın.",
+      "talentCta": "Öğrenci bul",
+      "pendingInvitations_one": "Bekleyen {count} davetiniz var",
+      "pendingInvitations_other": "Bekleyen {count} davetiniz var",
+      "viewInvitations": "Davetleri gör",
+      "applicantsCount_one": "{count} başvuran",
+      "applicantsCount_other": "{count} başvuran",
+      "newForYou": "Sizin için yeni"
+    },
+    "profile": {
+      "title": "Profilim",
+      "subtitle": "Profesörler bunu başvurunuzla birlikte görür; yapay zekâ eşleşmesi de uyumunuzu bulmak için bunu kullanır.",
+      "strength": "Profil gücü",
+      "basics": "Temel bilgiler",
+      "university": "Üniversite",
+      "major": "Bölüm",
+      "year": "Sınıf",
+      "selectYear": "Seçin…",
+      "about": "Hakkınızda",
+      "bio": "Kısa tanıtım",
+      "bioHint": "Kimsiniz ve neyi merak ediyorsunuz?",
+      "skills": "Beceriler",
+      "skillsHint": "Virgülle ayırın, örn. Python, PyTorch, R, laboratuvar güvenliği",
+      "interests": "Araştırma ilgi alanları",
+      "interestsHint": "Üzerinde çalışmak isteyeceğiniz konular, örn. bilgisayarlı görü, hücre kaderi.",
+      "experience": "Şimdiye kadar yaptıklarınız",
+      "experienceHint": "Projeler, dersler, geçmiş araştırmalar — ne kadar somutsa eşleşme o kadar iyi olur.",
+      "availability": "Haftada ayırabileceğiniz saat",
+      "workStyle": "Nasıl çalışmayı seversiniz",
+      "workStyleHint": "Her kadranı en rahat hissettiğiniz yere getirin. Sizi laboratuvarlarla karşılaştırmak için kullanılır.",
+      "links": "Bağlantılar",
+      "resume": "Özgeçmiş bağlantısı",
+      "resumeHint": "Bir PDF bağlantısı (Drive, Dropbox, web siteniz).",
+      "website": "Kişisel web sitesi",
+      "github": "GitHub profili",
+      "visibility": "Görünürlük",
+      "discoverable": "Doğrulanmış profesörlerin beni bulmasına izin ver",
+      "discoverableDesc": "Profesörler profilinizi görüp sizi başvurmaya davet edebilir. Yanıt verene kadar e-postanız gizli kalır. Bunu istediğiniz zaman kapatabilirsiniz.",
+      "save": "Profili kaydet",
+      "saved": "Profil kaydedildi",
+      "welcome": "Labora'ya hoş geldiniz! Daha iyi eşleşmeler için bize kendinizden bahsedin."
+    },
+    "applications": {
+      "title": "Başvurular",
+      "subtitle": "Başvurduğunuz her şey tek yerde.",
+      "emptyTitle": "Henüz başvuru yok",
+      "emptyBody": "Bir pozisyona başvurduğunuzda burada görünür ve durumunu takip edebilirsiniz.",
+      "browse": "Pozisyonlara göz at",
+      "applied": "Başvuru: {when}",
+      "withdraw": "Geri çek",
+      "withdrawConfirm": "Bu başvuru geri çekilsin mi?",
+      "withdrawn": "Başvuru geri çekildi",
+      "invited": "Davet edildi",
+      "decided": "Karar: {when}"
+    },
+    "invitations": {
+      "title": "Davetler",
+      "subtitleStudent": "Başvurmanızı isteyen profesörler.",
+      "subtitleProfessor": "Davet ettiğiniz öğrenciler.",
+      "emptyStudentTitle": "Henüz davet yok",
+      "emptyStudentBody": "Doğrulanmış profesörlerin sizi davet edebilmesi için profilinizde görünürlüğü açın.",
+      "emptyProfessorTitle": "Henüz kimseyi davet etmediniz",
+      "emptyProfessorBody": "Laboratuvarınıza uyan öğrencileri keşfetmek için «Öğrenci bul»u kullanın.",
+      "from": "Gönderen: {name}",
+      "to": "Alıcı: {name}",
+      "match": "%{score} uyum",
+      "accept": "Kabul et ve başvur",
+      "decline": "Reddet",
+      "replyPlaceholder": "Profesöre bir not ekleyin (isteğe bağlı)",
+      "accepted": "Kabul ettiniz — bir başvuru oluşturuldu.",
+      "declined": "Davet reddedildi",
+      "withdraw": "Daveti geri çek",
+      "receivedAgo": "Gönderildi: {when}",
+      "findStudents": "Öğrenci bul"
+    },
+    "outreach": {
+      "title": "İletişim takipçisi",
+      "subtitle": "Kimlerle iletişim kurduğunuzu, ne zaman takip edeceğinizi ve ne olduğunu kaydedin.",
+      "emptyTitle": "Henüz takip edilen bir şey yok",
+      "emptyBody": "İletişiminizi izlemek ve takip tarihleri almak için araştırmacıları profillerinden ekleyin.",
+      "find": "Profesör bul",
+      "followUpDue": "Takip: {when}",
+      "overdue": "Takip gecikti",
+      "sentOn": "Gönderildi: {date}",
+      "repliedOn": "Yanıt geldi: {date}",
+      "notes": "Notlar",
+      "notesPlaceholder": "Hatırlamaya değer her şey…",
+      "status": "Durum",
+      "remove": "Kaldır",
+      "removeConfirm": "Bu araştırmacı takipçinizden kaldırılsın mı?",
+      "planFollowUp": "Takipleri planla",
+      "helpTitle": "Kayıtlarınız herkese yardımcı olur",
+      "helpBody": "Araştırmacı profillerinde gösterilen yanıt oranları, sizinkiler gibi anonim ve toplulaştırılmış iletişim kayıtlarından gelir — tek tek hiçbir kayıt asla gösterilmez.",
+      "stats": {
+        "total": "Takipte",
+        "sent": "Gönderildi",
+        "replied": "Yanıt geldi",
+        "due": "Takibi gelenler"
+      }
+    },
+    "saved": {
+      "title": "Kaydedilenler",
+      "subtitle": "Yer imi eklediğiniz araştırmacılar ve pozisyonlar.",
+      "professors": "Araştırmacılar",
+      "positions": "Pozisyonlar",
+      "emptyProfessors": "Henüz kaydedilmiş araştırmacı yok",
+      "emptyProfessorsBody": "Listenize eklemek için herhangi bir araştırmacının yer imine dokunun.",
+      "emptyPositions": "Henüz kaydedilmiş pozisyon yok",
+      "emptyPositionsBody": "Daha sonrası için saklamak üzere bir pozisyonun yer imine dokunun."
+    },
+    "billing": {
+      "title": "Plan ve faturalandırma",
+      "subtitle": "Erişiminiz, kullanımınız ve davet ödülleriniz.",
+      "currentPlan": "Mevcut plan",
+      "plan": {
+        "free": "Ücretsiz",
+        "weekly": "Haftalık sprint",
+        "semester": "Dönemlik paket",
+        "lifetime": "Ömür boyu"
+      },
+      "activeUntil": "{date} tarihine kadar etkin",
+      "lifetimeNote": "Ömür boyu erişiminiz var.",
+      "freeNote": "Ücretsiz plandasınız.",
+      "upgrade": "Planları gör",
+      "usage": "Ücretsiz hak",
+      "usageItem": "{limit} hakkın {used} tanesi kullanıldı",
+      "unlimited": "Sınırsız",
+      "features": {
+        "summary": "Profesör özetleri",
+        "email_check": "E-posta denetimleri",
+        "follow_up": "Takip planları",
+        "match_positions": "Pozisyon eşleşmeleri",
+        "match_professors": "Profesör eşleşmeleri"
+      },
+      "referral": "Bir arkadaşınızı davet edin",
+      "referralBody": "Kodunuzu paylaşın. Bir arkadaşınız onunla kaydolduğunda ikiniz de {days} gün Pro kazanırsınız.",
+      "yourCode": "Kodunuz",
+      "copyCode": "Kodu kopyala",
+      "copyLink": "Davet bağlantısını kopyala",
+      "copied": "Kopyalandı",
+      "redeemed_one": "{count} arkadaşınız kodunuzla katıldı",
+      "redeemed_other": "{count} arkadaşınız kodunuzla katıldı",
+      "redeem": "Bir arkadaşınızın kodu var mı?",
+      "redeemPlaceholder": "Kodu girin",
+      "redeemCta": "Kullan",
+      "redeemedOk": "Kod kullanıldı — {days} gün Pro eklendi.",
+      "checkoutSuccess": "Teşekkürler! Planınız birazdan etkinleşecek.",
+      "devMode": "Bu ortamda ödemeler bağlı değil — planlar test için anında etkinleşir."
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "subtitle": "Hesabınız, diliniz ve güvenliğiniz.",
+      "account": "Hesap",
+      "name": "Ad soyad",
+      "email": "E-posta",
+      "emailNote": "E-postanız değiştirilemez.",
+      "language": "Dil",
+      "languageHint": "Yapay zekânın yazdığı özetler ve geri bildirimler için de kullanılır.",
+      "saveChanges": "Değişiklikleri kaydet",
+      "saved": "Ayarlar kaydedildi",
+      "password": "Parola",
+      "currentPassword": "Mevcut parola",
+      "newPassword": "Yeni parola",
+      "changePassword": "Parolayı değiştir",
+      "passwordChanged": "Parola güncellendi",
+      "danger": "Hesabı sil",
+      "dangerBody": "Bu işlem profilinizi, başvurularınızı ve hesabınıza bağlı her şeyi kalıcı olarak kaldırır. Geri alınamaz.",
+      "dangerConfirm": "Onaylamak için parolanızı girin",
+      "deleteCta": "Hesabımı sil",
+      "deleted": "Hesabınız silindi."
+    },
+    "lab": {
+      "title": "Laboratuvar ve araştırma",
+      "subtitle": "Öğrenciler pozisyonlarınızı değerlendirirken bunu görür.",
+      "createTitle": "Laboratuvarınızı oluşturun",
+      "profileTitle": "Laboratuvar profili",
+      "name": "Laboratuvar adı",
+      "university": "Üniversite",
+      "department": "Bölüm",
+      "description": "Açıklama",
+      "descriptionHint": "Laboratuvarınız neyle uğraşıyor? Lisans öğrencileri için anlaşılır tutun.",
+      "keywords": "Araştırma anahtar kelimeleri",
+      "keywordsHint": "Virgülle ayırın",
+      "website": "Laboratuvar web sitesi",
+      "culture": "Burada çalışmak nasıl",
+      "cultureHint": "Danışmanlık tarzı, toplantı ritmi, öğrencilerin sahiplendiği işler. Öğrenciler dürüstlüğe değer verir.",
+      "teamSize": "Ekip büyüklüğü",
+      "workStyle": "Laboratuvarınız nasıl çalışır",
+      "workStyleHint": "Öğrencilerle çalışma tarzlarını karşılaştırmak için kullanılır.",
+      "openalex": "OpenAlex yazar kimliği",
+      "openalexHint": "İsteğe bağlı. Labora laboratuvarınızı yayın profilinize bağlar (A ile başlar…).",
+      "saveLab": "Laboratuvarı kaydet",
+      "createLab": "Laboratuvar oluştur",
+      "created": "Laboratuvar oluşturuldu — şimdi araştırma materyalleri ekleyin ve bir pozisyon yayımlayın.",
+      "updated": "Laboratuvar güncellendi",
+      "materials": "Araştırma materyalleri",
+      "materialsHint": "Öğrencilerin çalışmanızı tanıyabilmesi için makaleler, veri kümeleri veya posterler paylaşın.",
+      "nothingShared": "Henüz bir şey paylaşılmadı.",
+      "addMaterial": "Materyal ekle",
+      "materialTitle": "Başlık",
+      "materialType": "Tür",
+      "materialLink": "Bağlantı",
+      "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Kısa açıklama",
+      "removeMaterial": "Bu materyal kaldırılsın mı?",
+      "verificationTitle": "Doğrulama bekleniyor",
+      "verificationBody": "Profesör hesabınızı doğruladığımızda laboratuvarınız herkese açık olur. Süreci hızlandırmak için laboratuvar web sitesi ekleyin."
+    },
+    "positions": {
+      "title": "Pozisyonlar",
+      "subtitle": "Pozisyonlarınız ve başvuranlar.",
+      "new": "Yeni pozisyon",
+      "emptyTitle": "Henüz pozisyon yok",
+      "emptyBody": "Bir pozisyon yayımlayın ve başvuru almaya başlayın.",
+      "emptyLab": "Önce laboratuvar profilinizi oluşturun.",
+      "post": "İlk pozisyonunuzu yayımlayın",
+      "open": "Açık",
+      "closed": "Kapalı",
+      "close": "Kapat",
+      "reopen": "Yeniden aç",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "deleteConfirm": "Bu pozisyon silinsin mi? Geri alınamaz.",
+      "applicants": "Başvuranlar",
+      "postedAgo": "Yayımlandı: {when}",
+      "viewPublic": "Herkese açık sayfayı gör",
+      "newTitle": "Yeni pozisyon",
+      "newSubtitle": "Pozisyonu tarif edin. İstediğiniz zaman düzenleyebilirsiniz.",
+      "editTitle": "Pozisyonu düzenle",
+      "needLab": "Yayımlamadan önce bir laboratuvar profiline ihtiyacınız var.",
+      "createLab": "Laboratuvarınızı oluşturun",
+      "noApplicants": "Henüz başvuran yok",
+      "noApplicantsBody": "Pozisyonunuzu paylaşın veya «Öğrenci bul» ile uygun öğrencileri davet edin.",
+      "decline": "Reddet",
+      "accept": "Kabul et",
+      "email": "Başvurana e-posta gönder",
+      "resume": "Özgeçmiş",
+      "invitedBadge": "Sizin davetiniz",
+      "profileIncomplete": "Profil eksik",
+      "form": {
+        "title": "Pozisyon başlığı",
+        "titlePlaceholder": "Lisans araştırma asistanı: kendi kendine denetimli görü",
+        "description": "Açıklama",
+        "descriptionHint": "Öğrenci neyle uğraşacak? Ne öğrenecek?",
+        "requirements": "Gereksinimler",
+        "requirementsHint": "Dersler veya deneyim (isteğe bağlı)",
+        "skills": "Gerekli beceriler",
+        "skillsHint": "Virgülle ayırın — eşleşme için kullanılır, örn. python, pytorch",
+        "compensation": "Ücret",
+        "hours": "Saat / hafta",
+        "term": "Dönem",
+        "location": "Konum",
+        "slots": "Kontenjan",
+        "deadline": "Son başvuru",
+        "keywords": "Anahtar kelimeler",
+        "keywordsHint": "Öğrencilerin pozisyonunuzu bulmasına yardımcı olur",
+        "publish": "Pozisyonu yayımla",
+        "saveChanges": "Değişiklikleri kaydet",
+        "saved": "Pozisyon kaydedildi",
+        "notSpecified": "Belirtilmedi"
+      }
+    },
+    "admin": {
+      "title": "Yönetim",
+      "subtitle": "Profesörleri doğrulayın ve gönderilenleri inceleyin.",
+      "overview": "Genel bakış",
+      "stats": {
+        "users": "Kullanıcılar",
+        "students": "Öğrenciler",
+        "professors": "Profesörler",
+        "pending_professors": "Doğrulama bekleyen",
+        "labs": "Laboratuvarlar",
+        "open_positions": "Açık pozisyonlar",
+        "applications": "Başvurular",
+        "invitations": "Davetler",
+        "feedback": "Geri bildirim gönderileri",
+        "waitlist": "Bekleme listesi",
+        "paid_users": "Ücretli kullanıcılar"
+      },
+      "verification": "Profesör doğrulama",
+      "onlyPending": "Yalnızca bekleyenler",
+      "verify": "Doğrula",
+      "unverify": "İptal et",
+      "verifiedAt": "Doğrulandı",
+      "pendingBadge": "Beklemede",
+      "lab": "Laboratuvar",
+      "waitlist": "Bekleme listesi",
+      "contact": "İletişim mesajları",
+      "empty": "Burada henüz bir şey yok.",
+      "notAdmin": "Bu alan yalnızca yöneticiler içindir.",
+      "verifiedToast": "Profesör doğrulandı",
+      "revokedToast": "Doğrulama iptal edildi"
+    }
+  },
+  "auth": {
+    "shell": {
+      "headline": "Bir sonraki atılımınız doğru laboratuvarla başlar.",
+      "p1": "Dünyanın akademik kayıtlarından araştırmacıları keşfedin",
+      "p2": "Tek kelime yazmadan önce çalışmalarını anlayın",
+      "p3": "Becerilerinize ve nasıl çalışmayı sevdiğinize göre eşleşin",
+      "footer": "Öğrenciler ve profesörler için, kendi dilinizde."
+    },
+    "login": {
+      "title": "Tekrar hoş geldiniz",
+      "subtitle": "Devam etmek için giriş yapın.",
+      "email": "E-posta",
+      "emailPlaceholder": "siz@universite.edu",
+      "password": "Parola",
+      "submit": "Giriş yap",
+      "noAccount": "Hesabınız yok mu?",
+      "signUp": "Kaydolun",
+      "forgot": "Parolanızı mı unuttunuz?",
+      "forgotHelp": "Bize ulaşın, tekrar erişmenize yardımcı olalım.",
+      "demo": "Demo hesapları (parola: password123)",
+      "demoStudent": "Öğrenci",
+      "demoProfessor": "Profesör",
+      "demoAdmin": "Yönetici"
+    },
+    "register": {
+      "title": "Hesabınızı oluşturun",
+      "subtitle": "Üniversite e-postanızla katılın. Bir dakika sürer.",
+      "iAm": "Ben…",
+      "student": "Öğrenci",
+      "studentDesc": "Araştırma bulun ve eşleşin",
+      "professor": "Profesör",
+      "professorDesc": "Öğrenci kazanın, çalışmanızı paylaşın",
+      "fullName": "Ad soyad",
+      "fullNamePlaceholderStudent": "Jamie Park",
+      "fullNamePlaceholderProfessor": "Prof. Dr. Jane Smith",
+      "email": "Üniversite e-postası",
+      "emailHint": ".edu, .ac.uk veya benzeri bir akademik alan adıyla biten bir adres kullanın.",
+      "password": "Parola",
+      "passwordHint": "En az 8 karakter.",
+      "referral": "Arkadaş kodu",
+      "referralHint": "Bir arkadaşınızdan kod mu aldınız? İkiniz de bir hafta Pro kazanırsınız.",
+      "consent": "Hesap oluşturarak <terms>Koşullarımızı</terms> ve <privacy>Gizlilik Politikamızı</privacy> kabul etmiş olursunuz.",
+      "submit": "Hesap oluştur",
+      "haveAccount": "Zaten hesabınız var mı?",
+      "signIn": "Giriş yap",
+      "professorNote": "Laboratuvarınız ve pozisyonlarınız herkese açık olmadan önce profesör hesapları ekibimiz tarafından doğrulanır."
+    }
+  },
+  "discover": {
+    "title": "Araştırma profesörünüzü bulun",
+    "subtitle": "Dünyanın akademik kayıtlarından, önem verdiğiniz konuda aktif olarak yayın yapan araştırmacıları arayın.",
+    "modeInterest": "İlgi alanına göre",
+    "modeName": "İsme göre",
+    "interestLabel": "Araştırma ilgisi",
+    "interestPlaceholder": "örn. hesaplamalı sinirbilim",
+    "nameLabel": "Araştırmacı adı",
+    "namePlaceholder": "örn. Jane Smith",
+    "universityLabel": "Üniversite",
+    "universityPlaceholder": "Herhangi bir üniversite",
+    "universityHint": "Tek bir kurumda aramak için listeden seçin.",
+    "search": "Ara",
+    "searching": "Aranıyor…",
+    "sortBy": "Sırala",
+    "minH": "En düşük h-indeksi",
+    "minHAny": "Fark etmez",
+    "filters": "Filtreler",
+    "resultsFor": "«{q}» için araştırmacılar",
+    "resultsAt": "· {university}",
+    "resultsCount_one": "{count} araştırmacı",
+    "resultsCount_other": "{count} araştırmacı",
+    "noResults": "Araştırmacı bulunamadı",
+    "noResultsBody": "Daha geniş bir ilgi alanı veya başka bir yazım deneyin ya da üniversite filtresini kaldırın.",
+    "startTitle": "Merak ettiğiniz bir şeyle başlayın",
+    "startBody": "«Protein katlanması» veya «iklim politikası» gibi bir konu deneyin, aklınızda bir üniversite varsa ekleyin; o konuda kimlerin yayın yaptığını gösterelim.",
+    "noteTitle": "Sonuçlar nasıl sıralanır",
+    "noteBody": "Araştırmacılar, konunuzda yakın zamanda ne kadar yayın yaptıklarına göre, alandaki konumlarıyla ağırlıklandırılarak sıralanır. «Profesör» gibi unvanlar akademik veri tabanlarında kaydedilmez; bu yüzden uyumu değerlendirmek için özeti ve makaleleri kullanın.",
+    "hIndex": "h-indeksi",
+    "papers": "makale",
+    "citations": "atıf",
+    "recentWorks": "Son 3 yıl",
+    "onTopic": "Bu konuda",
+    "onLabora": "Labora'da",
+    "viewProfile": "Profili gör",
+    "save": "Kaydet",
+    "saved": "Kaydedildi",
+    "loadMore": "Daha fazla araştırmacı göster",
+    "yourInterest": "İlginiz",
+    "disclaimer": "Veriler OpenAlex'ten. Kurum bilgileri en son yayın kayıtlarını yansıtır ve gerçeğin gerisinde kalabilir.",
+    "signInToSave": "Araştırmacıları listenize kaydetmek için giriş yapın.",
+    "savedToast": "Listenize kaydedildi",
+    "removedToast": "Listenizden kaldırıldı",
+    "clearFilters": "Filtreleri temizle",
+    "universityAny": "Herhangi bir üniversite",
+    "searchingAt": "{university} araştırmacıları aranıyor",
+    "lookingUp": "Kurumlar aranıyor…"
+  },
+  "professor": {
+    "back": "Aramaya dön",
+    "notFoundTitle": "Bu araştırmacıyı bulamadık",
+    "notFoundBody": "Bağlantı yanlış olabilir veya akademik veri tabanı meşgul olabilir. Aramayı tekrar deneyin.",
+    "orcid": "ORCID",
+    "openalex": "OpenAlex profili",
+    "onLabora": "Labora'da bir laboratuvar yürütüyor",
+    "viewLab": "Laboratuvarını gör",
+    "stats": {
+      "hIndex": "h-indeksi",
+      "papers": "Makale",
+      "citations": "Atıf",
+      "recent": "Son 3 yıl",
+      "i10": "i10-indeksi"
+    },
+    "tabs": {
+      "overview": "Genel bakış",
+      "papers": "Makaleler",
+      "contact": "İletişim"
+    },
+    "summary": {
+      "title": "Çalışması, sade dille",
+      "cta": "Çalışmasını açıkla",
+      "ctaBody": "Neyi incelediğine dair kısa bir özet, yakın tarihli bir bulgu ve sorulmaya değer sorular alın.",
+      "loading": "Son makaleleri okunuyor…",
+      "overview": "Ne inceliyor",
+      "keyFinding": "Yakın tarihli bir bulgu",
+      "fromPaper": "Kaynak: {title}",
+      "topics": "Araştırma alanları, basitçe",
+      "goodFit": "Şu durumdaysanız iyi bir uyum olabilirsiniz…",
+      "starters": "Sormaya değer sorular",
+      "startersHint": "Bunları kendi merakınız için başlangıç noktası olarak kullanın — profesörler bir sorunun samimi olup olmadığını anlar.",
+      "aiBadge": "Yapay zekâ özeti",
+      "extractiveBadge": "Otomatik özet",
+      "extractiveNote": "Bu sunucuda yapay zekâ özetleri etkin değil; bu yüzden bu özet doğrudan yayın verilerinden derlendi (İngilizce).",
+      "aiNote": "Herkese açık özetlerden yapay zekâ tarafından yazıldı. Makaleleri her zaman kontrol edin.",
+      "quota": "{limit} ücretsiz özetin {used} tanesi kullanıldı",
+      "quotaPro": "Sınırsız özet",
+      "signInTitle": "Özeti okumak için giriş yapın",
+      "signInBody": "Ücretsiz hesaplar birkaç araştırmacı için sade dille özet, ana bulgu ve sohbet başlatıcıları alır.",
+      "upgrade": "Sınırsız özet alın",
+      "limitTitle": "Ücretsiz özetlerinizi kullandınız",
+      "limitBody": "Paketler sınırsız özeti, e-posta bulucuyu ve daha fazlasını açar."
+    },
+    "topics": "Araştırma konuları",
+    "activity": "Yıllara göre yayın",
+    "papers": {
+      "recent": "En yeni",
+      "top": "En çok atıf alan",
+      "empty": "Makale bulunamadı.",
+      "abstract": "Özet",
+      "cited": "{n} atıf",
+      "openAccess": "Açık erişim",
+      "viewPaper": "Makaleyi gör"
+    },
+    "contact": {
+      "title": "E-posta bulucu",
+      "lockedTitle": "E-posta bulucuyu ve yanıt verme puanını açın",
+      "lockedBody": "Olası kurumsal adresleri ve öğrencilerin ne sıklıkla yanıt aldığını görün. Her pakete dahildir.",
+      "seePlans": "Planları gör",
+      "guessNote": "Bunlar yaygın adlandırma kalıplarına dayanan tahminlerdir, doğrulanmış adresler değildir. Göndermeden önce fakülte rehberinden teyit edin.",
+      "pattern": "Kalıp: {pattern}",
+      "mostCommon": "En yaygın",
+      "copy": "Adresi kopyala",
+      "copied": "Adres kopyalandı",
+      "compose": "E-posta uygulamasında aç",
+      "directory": "Fakülte rehberinde ara",
+      "noDomain": "Bu kurumun e-posta alan adını belirleyemedik.",
+      "responsiveness": "Yanıt verme",
+      "resp": {
+        "high": "Sık yanıt verir",
+        "medium": "Bazen yanıt verir",
+        "low": "Nadiren yanıt verir",
+        "unknown": "Henüz yeterli bildirim yok"
+      },
+      "respBody": "{n} öğrenci iletişim kaydına dayanıyor. {rate} yanıt aldı{days}.",
+      "respDays": ", genellikle {days} gün içinde",
+      "respUnknown": "Bunu, en az 3 öğrenci bu araştırmacıyla iletişimini kaydettiğinde gösteririz. Başkalarına yardım etmek için kendi iletişiminizi kaydedin.",
+      "labDays": "Labora'daki laboratuvarı başvurulara genellikle {days} gün içinde yanıt verir.",
+      "logOutreach": "İletişimimi kaydet"
+    },
+    "sidebar": {
+      "writeTitle": "Ulaşmaya hazır mısınız?",
+      "writeBody": "E-postanızı taslak olarak yazın, sonra profesörlerin silindiğini söylediği türden şeylerle karşılaştırın.",
+      "writeCta": "E-postamı denetle",
+      "trackTitle": "İletişim takipçisi",
+      "trackBody": "Kimlerle iletişim kurduğunuzu ve ne zaman takip edeceğinizi izleyin.",
+      "trackStart": "Takipçiye ekle",
+      "status": "Durum",
+      "tracked": "Takipçinize eklendi",
+      "saveError": "Takipçi güncellenemedi"
+    }
+  },
+  "positions": {
+    "title": "Açık pozisyonlar",
+    "subtitle": "Doğrulanmış profesörlerin doğrudan yayımladığı araştırma pozisyonları. Önce çalışmalarını okuyun, sonra başvurun.",
+    "searchLabel": "Ara",
+    "searchPlaceholder": "Konu, beceri veya laboratuvar adı",
+    "filters": "Filtreler",
+    "compensation": "Ücret",
+    "location": "Konum",
+    "term": "Dönem",
+    "university": "Üniversite",
+    "universityPlaceholder": "örn. MIT",
+    "department": "Bölüm",
+    "departmentPlaceholder": "örn. Biyoloji",
+    "any": "Fark etmez",
+    "count_one": "{count} pozisyon",
+    "count_other": "{count} pozisyon",
+    "searching": "Aranıyor…",
+    "noResults": "Aramanıza uyan pozisyon yok",
+    "noResultsBody": "Daha geniş bir anahtar kelime deneyin veya bir filtreyi kaldırın. Ya da doğrudan profesör arayın — ulaşmak için açık bir pozisyona ihtiyacınız yok.",
+    "discoverCta": "Profesör bul",
+    "clear": "Filtreleri temizle",
+    "postedAgo": "Yayımlandı: {when}",
+    "closes": "Kapanış: {when}",
+    "applyBy": "Son başvuru: {date}",
+    "deadlinePassed": "Süre doldu",
+    "slots_one": "{count} kontenjan",
+    "slots_other": "{count} kontenjan",
+    "backToAll": "Tüm pozisyonlar",
+    "about": "Bu rol hakkında",
+    "requirements": "Aradığımız nitelikler",
+    "skills": "Beceriler",
+    "research": "Laboratuvarın araştırmasını okuyun",
+    "researchHint": "Başvurmadan önce çalışmaya aşina olun.",
+    "noMaterials": "Henüz araştırma materyali paylaşılmadı.",
+    "aboutLab": "Laboratuvar hakkında",
+    "viewLab": "Laboratuvar profilini gör",
+    "website": "Laboratuvar web sitesi",
+    "notFound": "Pozisyon bulunamadı",
+    "verifiedLab": "Doğrulanmış laboratuvar",
+    "apply": {
+      "title": "Başvur",
+      "label": "Neden iyi bir uyumsunuz?",
+      "placeholder": "İlginizi, ilgili derslerinizi ve uygunluğunuzu paylaşın…",
+      "submit": "Başvuruyu gönder",
+      "shared": "Profiliniz profesörle paylaşılır.",
+      "sent": "Başvuru gönderildi",
+      "status": "Durum",
+      "track": "Başvuruları takip et",
+      "signIn": "Başvurmak için öğrenci hesabınızla giriş yapın.",
+      "signInCta": "Başvurmak için giriş yap",
+      "newHere": "Burada yeni misiniz?",
+      "createAccount": "Hesap oluştur",
+      "professorNote": "Profesör olarak giriş yaptınız. Yalnızca öğrenciler başvurabilir.",
+      "closedNote": "Bu pozisyon artık başvuru kabul etmiyor.",
+      "completeProfile": "Profesörlerin neler yaptığınızı görebilmesi için profilinizi tamamlayın.",
+      "toProfile": "Profili güncelle",
+      "fitHint": "Somut olun: yaptığınız bir şey, öğrenmek istediğiniz bir şey ve ne zaman uygun olduğunuz."
+    }
+  },
+  "lab": {
+    "notFound": "Laboratuvar bulunamadı",
+    "notFoundBody": "Laboratuvar gizli olabilir veya bağlantı yanlış olabilir.",
+    "openPositions": "Açık pozisyonlar",
+    "noPositions": "Şu anda açık pozisyon yok",
+    "noPositionsBody": "Yakında tekrar bakın — bu laboratuvar yeni pozisyonlar yayımlayabilir. Doğrudan da ulaşabilirsiniz.",
+    "materials": "Araştırma materyalleri",
+    "culture": "Burada çalışmak nasıl",
+    "teamSize": "{count} kişilik ekip",
+    "workStyle": "Laboratuvar nasıl çalışır",
+    "website": "Laboratuvar web sitesi",
+    "professor": "Baş araştırmacı",
+    "verified": "Doğrulanmış"
+  },
+  "community": {
+    "feedback": {
+      "title": "Geri bildirim panosu",
+      "subtitle": "Labora'yı şekillendirmemize yardım edin. Özellik önerin, hataları bildirin veya aklınızdakini paylaşın — ve en önemli olana oy verin.",
+      "kind": {
+        "feature": "Özellik isteği",
+        "bug": "Hata bildirimi",
+        "general": "Genel geri bildirim"
+      },
+      "status": {
+        "open": "Açık",
+        "planned": "Planlandı",
+        "in_progress": "Devam ediyor",
+        "done": "Tamamlandı"
+      },
+      "newPost": "Düşüncelerinizi paylaşın",
+      "postTitle": "Başlık",
+      "postTitlePlaceholder": "Kısa bir özet",
+      "postBody": "Ayrıntılar",
+      "postBodyPlaceholder": "Ne görmek istersiniz veya ne ters gitti?",
+      "post": "Yayımla",
+      "posted": "Teşekkürler — gönderiniz yayında.",
+      "signIn": "Gönderi paylaşmak ve oy vermek için giriş yapın.",
+      "sortVotes": "En çok oy alan",
+      "sortNew": "En yeni",
+      "filterAll": "Tümü",
+      "count_one": "{count} gönderi",
+      "count_other": "{count} gönderi",
+      "empty": "Burada henüz bir şey yok — ilk gönderiyi siz paylaşın.",
+      "vote": "Oy ver",
+      "voted": "Oy verildi",
+      "by": "{name} tarafından"
+    },
+    "contact": {
+      "title": "Bize ulaşın",
+      "subtitle": "Sorular, fikirler ya da hesabınızla ilgili yardım mı gerekiyor? Her mesajı okuyoruz.",
+      "name": "Adınız",
+      "email": "E-postanız",
+      "message": "Mesaj",
+      "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "send": "Mesajı gönder",
+      "sent": "Teşekkürler — yakında size döneceğiz.",
+      "professorsTitle": "Profesör müsünüz?",
+      "professorsBody": "Laboratuvarlar herkese açık olmadan önce profesör hesaplarını doğruluyoruz. Kurumunuz bizim tanımadığımız bir e-posta alan adı kullanıyorsa bunu buradan bildirin.",
+      "privacy": "Bilgilerinizi yalnızca bu mesaja yanıt vermek için kullanacağız."
+    }
+  },
+  "tools": {
+    "emailChecker": {
+      "title": "E-posta denetleyici",
+      "subtitle": "Taslağınızı yapıştırın ve profesörlerin okumayı bırakmasına neden olan ifadeleri tam olarak görün. E-postanızı asla yeniden yazmayız — sesiniz size ait kalır.",
+      "subject": "Konu satırı",
+      "subjectPlaceholder": "örn. Derinlik tahmini makaleniz hakkında bir soru",
+      "body": "E-postanız",
+      "bodyPlaceholder": "Sayın Profesör …",
+      "professorContext": "{name} adlı kişinin son çalışmalarına göre denetleniyor",
+      "removeContext": "Kaldır",
+      "check": "E-postamı denetle",
+      "checking": "E-postanız okunuyor…",
+      "example": "Hatalı bir örnek deneyin",
+      "clear": "Temizle",
+      "words": "{count} sözcük",
+      "wordsHint": "90–180 sözcüğü hedefleyin",
+      "resultsTitle": "Sonuçlarınız",
+      "emptyTitle": "Geri bildiriminiz burada görünecek",
+      "emptyBody": "Solda bir e-posta yazın veya yapıştırın, ardından «E-postamı denetle»ye basın.",
+      "score": "Puan",
+      "highlights": "E-postanız, vurgulanmış",
+      "issues": "Neyi düzeltmeli",
+      "noIssues": "Düzeltilecek bir şey yok — iyi okunuyor.",
+      "strengths": "İşe yarayanlar",
+      "aiSummary": "Genel izlenim",
+      "soundsGeneric": "Herkese gönderilebilir",
+      "soundsGenericHint": "Bu e-postanın değiştirilmeden herhangi bir profesöre ne kadar kolay gönderilebileceği.",
+      "aiUsed": "Yapay zekâ incelemesi dahil",
+      "rulesOnly": "Kural tabanlı inceleme",
+      "englishOnly": "İfade denetimleri şu anda yalnızca İngilizce e-postalarda çalışır. Uzunluk ve yapı denetimleri yine geçerlidir.",
+      "signInTitle": "E-postanızı denetlemek için giriş yapın",
+      "signInBody": "Ücretsiz hesaplar bir denetim içerir. Paketler sınırsız denetimi açar.",
+      "limitTitle": "Ücretsiz denetiminizi kullandınız",
+      "limitBody": "Paketler sınırsız e-posta denetimini, e-posta bulucuyu ve sınırsız özeti açar.",
+      "quota": "{limit} ücretsiz denetimin {used} tanesi kullanıldı",
+      "quotaPro": "Sınırsız denetim",
+      "noRewrite": "Sorunları belirtiriz ama e-postayı asla sizin yerinize yazmayız — profesörler kendi sesiyle yazan öğrencilere yanıt verir.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": {
+        "tone": "Ton",
+        "specificity": "Somutluk",
+        "voice": "Kendi ses",
+        "clarity": "Açıklık",
+        "ask": "Talep",
+        "etiquette": "Nezaket",
+        "subject": "Konu"
+      },
+      "gradeDesc": {
+        "excellent": "Somut, öz ve açık. Gönderin.",
+        "good": "Sağlam bir taslak — birkaç hızlı düzeltme işe yarar.",
+        "needs_work": "Birkaç şey e-postanın göz ardı edilmesine yol açabilir. Önce kırmızı öğeleri düzeltin.",
+        "risky": "Büyük olasılıkla silinecek. Göndermeden önce yeniden çalışın."
+      },
+      "severity": {
+        "high": "Önce düzeltin",
+        "medium": "Düzeltmeye değer",
+        "low": "Küçük"
+      },
+      "flags": {
+        "flattery": {
+          "title": "Yaltakçılık",
+          "tip": "Profesörler «çığır açan» sözünü her gün duyar. Bunun yerine dikkatinizi çeken somut sonucu veya yöntemi belirtin."
+        },
+        "generic_phrase": {
+          "title": "Genel ifade",
+          "tip": "«Çok motive» gibi ifadeler herkesi tarif edebilir. Bunu gerçekten yaptığınız bir şeyle gösterin."
+        },
+        "ai_sounding": {
+          "title": "Makine yazmış gibi",
+          "tip": "Bu ifade yapay zekâ üretimi metinlerde yaygındır. Sesli söyleyeceğiniz gibi söyleyin."
+        },
+        "bad_salutation": {
+          "title": "Kişisel olmayan hitap",
+          "tip": "“Dear Sir” toplu bir e-postayı gösterir. “Dear Professor [soyadı]” kullanın ve yazımı kontrol edin."
+        },
+        "informal": {
+          "title": "Fazla samimi",
+          "tip": "Tonu samimi ama profesyonel tutun — mesajlaşma dilinden ve kısaltmalardan kaçının."
+        },
+        "missing_name": {
+          "title": "Hitapta isim yok",
+          "tip": "Profesöre adıyla hitap edin: “Dear Professor Rivera,”."
+        },
+        "name_not_mentioned": {
+          "title": "Profesörün adı kullanılmamış",
+          "tip": "E-postanın açıkça bu kişiye yazıldığından emin olun."
+        },
+        "no_specific_reference": {
+          "title": "Çalışmasına atıf yok",
+          "tip": "Bu profesörün belirli bir makalesinden, yönteminden veya bulgusundan söz edin — ve bunun size düşündürdüğü bir soru sorun."
+        },
+        "low_specificity": {
+          "title": "Somut bir şey yok",
+          "tip": "Burada herhangi bir profesöre gönderilemeyecek bir şey yok. Bir makale, bir yıl, bir sonuç veya somut bir soru ekleyin."
+        },
+        "no_own_work": {
+          "title": "Yaptığınız hiçbir şey görünmüyor",
+          "tip": "Kurduğunuz, analiz ettiğiniz, okuduğunuz veya aldığınız somut bir şey ekleyin — küçük bir proje bile olur."
+        },
+        "no_clear_ask": {
+          "title": "Net bir talep yok",
+          "tip": "Tam olarak ne istediğinizi söyleyin: bir sohbet, gönüllü bir rol ya da başka birine yönlendirme."
+        },
+        "no_signoff": {
+          "title": "Kapanış yok",
+          "tip": "Kısa bir teşekkür ve tam adınızla bitirin."
+        },
+        "exclamation": {
+          "title": "Çok fazla ünlem",
+          "tip": "Bir tane sorun değil; iki veya daha fazlası aşırı heyecanlı görünür. Heyecanı içerik taşısın."
+        },
+        "emoji": {
+          "title": "Emoji",
+          "tip": "Bir profesöre ilk e-postada emoji kullanmayın."
+        },
+        "all_caps": {
+          "title": "TAMAMI BÜYÜK HARF",
+          "tip": "Büyük harfli sözcükler bağırmak gibi okunur. Normal yazım kullanın."
+        },
+        "too_short": {
+          "title": "Çok kısa",
+          "tip": "Yaklaşık 45 sözcüğün altı nadiren yeterli olur. Yaptıklarınızı ve talebinizi ekleyin."
+        },
+        "too_long": {
+          "title": "Çok uzun",
+          "tip": "90–180 sözcüğü hedefleyin. Profesörün karar vermek için ihtiyaç duymadığı arka planı çıkarın."
+        },
+        "wall_of_text": {
+          "title": "Metin duvarı",
+          "tip": "Göz gezdirilebilmesi için 2–3 kısa paragrafa bölün."
+        },
+        "no_subject": {
+          "title": "Konu satırı yok",
+          "tip": "Net bir konu e-postanın açılmasına yardımcı olur: konuyu veya makaleyi belirtin."
+        },
+        "subject_generic": {
+          "title": "Genel konu satırı",
+          "tip": "“Research” her şey olabilir. Hakkında yazdığınız makalenin veya konunun adını yazmayı deneyin."
+        },
+        "subject_short": {
+          "title": "Konu satırı çok kısa",
+          "tip": "Profesör neyle ilgili olduğunu bilsin diye birkaç sözcük bağlam ekleyin."
+        },
+        "subject_long": {
+          "title": "Konu satırı çok uzun",
+          "tip": "Yaklaşık 90 karakterin altında tutun."
+        },
+        "subject_shouty": {
+          "title": "Bağıran konu satırı",
+          "tip": "Büyük harflerden ve “urgent” gibi sözcüklerden kaçının — spam gibi görünürler."
+        },
+        "ai_note": {
+          "title": "İnceleyenin notu",
+          "tip": ""
+        }
+      },
+      "strengthLabels": {
+        "personal_greeting": "Profesöre adıyla hitap ediyor",
+        "specific_reference": "Somut çalışmasına atıf yapıyor",
+        "shows_own_work": "Yaptığınız bir şeyi gösteriyor",
+        "clear_ask": "Net bir talepte bulunuyor",
+        "redirect_offer": "Sizi başka birine yönlendirmesi için kolay bir yol sunuyor",
+        "states_availability": "Uygunluğunuzu veya takviminizi belirtiyor",
+        "concise": "İyi bir uzunlukta"
+      }
+    },
+    "followUp": {
+      "title": "Takip planlayıcı",
+      "subtitle": "Hâlâ yanıt yok mu? Gönderdiğiniz e-postayı yapıştırın ve size ait sese sahip, doğru zamanda iki takip mesajı alın.",
+      "email": "Gönderdiğiniz e-posta",
+      "emailPlaceholder": "İlk e-postanızı yapıştırın…",
+      "subject": "İlk konu satırı",
+      "sentOn": "Gönderdiğiniz tarih",
+      "professorName": "Profesörün adı",
+      "professorPlaceholder": "örn. Elena Rivera",
+      "generate": "Takiplerimi planla",
+      "generating": "Taslak hazırlanıyor…",
+      "timeline": "Takip zaman çizelgeniz",
+      "step": "Takip {n}",
+      "sendOn": "{date} tarihinde gönderin",
+      "daysAfter": "İlk e-postanızdan {days} gün sonra",
+      "copy": "Mesajı kopyala",
+      "copied": "Kopyalandı",
+      "addToCalendar": "Takvime ekle",
+      "editHint": "Özgürce düzenleyin — bunlar kendinize mal etmeniz için taslaklardır.",
+      "emptyTitle": "Zaman çizelgeniz burada görünecek",
+      "emptyBody": "Rahatsız etmeden gündemde kalmanızı sağlayacak aralıklarla iki takip.",
+      "tipsTitle": "Zamanlama ipuçları",
+      "tip1": "Final haftalarından, hibe son tarihlerinden ve tatillerden kaçının.",
+      "tip2": "Hafta içi bir günün sabahı erkenden gönderin.",
+      "tip3": "İki takipten sonra devam edin — ve başka birine yönlendirilmeyi isteyin.",
+      "aiUsed": "Yapay zekâ ile kişiselleştirildi",
+      "templated": "Şablon tabanlı",
+      "signInTitle": "Takiplerinizi planlamak için giriş yapın",
+      "limitTitle": "Ücretsiz takip planınızı kullandınız",
+      "quota": "{limit} ücretsiz planın {used} tanesi kullanıldı"
+    },
+    "framework": {
+      "title": "İlk temas e-postası iskeleti",
+      "subtitle": "Profesörlerin yanıt vermesini sağlayan şeylere dayanan, boşluk doldurmalı bir yapı. Rehberlik için herhangi bir paranteze dokunun.",
+      "template": "Şablon",
+      "tapHint": "Nasıl dolduracağınızı görmek için bir paranteze dokunun.",
+      "guidance": "Rehberlik",
+      "redFlags": "Uyarı işareti ifadeler",
+      "redFlagsSub": "Bunlar ödevinizi yapmadığınızı gösterir. Yerine somut bir şey koyun.",
+      "instead": "Bunun yerine:",
+      "cta": "Kendi e-postanızı denetleyin",
+      "b1": {
+        "label": "SOMUT BİR KONU",
+        "tip": "Tüm alanı değil, tam olarak alanı, yöntemi veya soruyu belirtin. «Uykuya bağımlı bellek pekiştirme», «sinirbilim»den iyidir."
+      },
+      "b2": {
+        "label": "SOMUT BİR BULGU VEYA ALINTI",
+        "tip": "Yakın tarihli makalelerinden birindeki gerçek bir sonucu, şekli veya cümleyi gösterin. Okuduğunuzu kanıtlayan satır budur."
+      },
+      "b3": {
+        "label": "SİZİN ARAŞTIRMA AÇINIZ",
+        "tip": "Bunu yaptığınız ya da keşfetmek istediğiniz bir şeyle bağlayın — bir ders, veri kümesi, proje."
+      },
+      "b4": {
+        "label": "İÇTEN BİR KİŞİSEL NEDEN",
+        "tip": "Bunun sizin için neden önemli olduğuna dair dürüst tek bir cümle. Kısa ve gerçek olsun."
+      },
+      "b5": {
+        "label": "OKUDUĞUNUZU GÖSTEREN AKILLI BİR SORU",
+        "tip": "Makalenin size düşündürdüğü bir şeyi sorun — bir sınırlılık, bir genişletme, bir veri kümesi. «Araştırmanız hakkında daha fazla anlatın»dan kaçının."
+      },
+      "rf1": {
+        "phrase": "I found your work fascinating and groundbreaking",
+        "why": "Profesörler bunu her gün duyar.",
+        "instead": "Dikkatinizi çeken somut bulguyu belirtin."
+      },
+      "rf2": {
+        "phrase": "I am a highly motivated student",
+        "why": "Onlara hiçbir şey söylemez.",
+        "instead": "Motivasyonunuzu yaptıklarınızla gösterin."
+      },
+      "rf3": {
+        "phrase": "Your research aligns perfectly with my interests",
+        "why": "İnandırıcı olamayacak kadar belirsiz.",
+        "instead": "Somut bağlantıyı açıklayın."
+      },
+      "rf4": {
+        "phrase": "I would love to learn from you",
+        "why": "E-postayı onların çalışması yerine sizinle ilgili yapar.",
+        "instead": "Araştırmalarının belirli bir bölümü hakkında sorun."
+      },
+      "rf5": {
+        "phrase": "I am passionate about this field",
+        "why": "Herkes bunu söyler.",
+        "instead": "Bu alanda gerçekte ne yaptığınızı anlatın."
+      }
+    },
+    "examples": {
+      "title": "İşe yarayan e-postalar — açıklamalı",
+      "subtitle": "Yanıt getiren kalıpları göstermek için yazdığımız üç örnek e-posta. Her satırın yanındaki notları okuyun.",
+      "disclaimer": "Bunlar Labora ekibinin yazdığı örneklerdir, gerçek yazışma değildir. İsimler ve ayrıntılar kurgusaldır.",
+      "example": "Örnek {n}",
+      "cta": "Şimdi kendinizinkini denetleyin",
+      "e1": {
+        "label": "1. sınıf, kendi kendine öğrenen",
+        "note1": "Kendi ilginizle ve gerçek bir beceriyle başlar, sonra bunu onların çalışmasına bağlar.",
+        "note2": "Ancak makale okunarak sorulabilecek somut bir soru.",
+        "note3": "Düşük eşikli doğrudan bir talep — ve «hayır»ı bir ipucuna çeviren bir yönlendirme."
+      },
+      "e2": {
+        "label": "Kendi projesi olan 3. sınıf",
+        "note1": "Halihazırda üzerinde çalıştığınız bir projeyi gösterir — uygulamalı ilginin kanıtı.",
+        "note2": "Teknik derinlik: soru, yalnızca özeti değil yöntemi anladığınızı gösterir.",
+        "note3": "Bir takvim (bu yaz) ve gönüllü olarak bile yardım teklifi."
+      },
+      "e3": {
+        "label": "Beşeri / sosyal bilimler",
+        "note1": "Talebi aldığınız bir derse ve okuduğunuz bir kaynağa dayandırır.",
+        "note2": "Özet istemek yerine bir tercihin ardındaki gerekçeyi sorar.",
+        "note3": "Somut bir şey sunar: haftada birkaç saat arşiv kodlama."
+      }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Ortak konular: {items}",
+      "skills_covered": "Zaten sahip olduğunuz beceriler: {items}",
+      "style_aligned": "Benzer çalışma tarzı ({items})",
+      "hours_fit": "Uygunluğunuz gerekli saatleri karşılıyor",
+      "bonus_skills": "Ek beceriler: {items}",
+      "published_on_topics": "Şu konularda yayın yapıyor: {items}",
+      "active_recently": "Son 3 yılda {items} makale",
+      "partial_topic_overlap": "Daha az örtüşme: {items}",
+      "missing_skills": "Geliştirilecek beceriler: {items}",
+      "style_differs": "Farklı çalışma tarzı ({items})",
+      "hours_short": "Pozisyonun beklediğinden daha az saat uygun"
+    },
+    "strong": "Güçlü eşleşme",
+    "good": "İyi eşleşme",
+    "partial": "Kısmi eşleşme",
+    "tip": "Nasıl öne çıkılır",
+    "why": "Neden uyuyor",
+    "gaps": "Bilinmesi gerekenler",
+    "breakdown": {
+      "topic": "Konular",
+      "skills": "Beceriler",
+      "bonus": "Bonus",
+      "style": "Çalışma tarzı",
+      "hours": "Uygunluk"
+    },
+    "aiRefined": "Yapay zekâ ile incelendi",
+    "explainable": "Açıklanabilir puan",
+    "student": {
+      "title": "Yapay zekâ eşleşmesi",
+      "subtitle": "Pozisyonlar ve profesörler; becerilerinize, ilgi alanlarınıza ve çalışma tarzınıza ne kadar uyduklarına göre sıralı.",
+      "tabPositions": "Açık pozisyonlar",
+      "tabProfessors": "Dünya genelinde profesörler",
+      "run": "Eşleşmelerimi bul",
+      "rerun": "Eşleşmeleri yenile",
+      "running": "Eşleştiriliyor…",
+      "strengthTitle": "Eşleşme profiliniz",
+      "strengthBody": "Ne kadar çok paylaşırsanız eşleşmeler o kadar isabetli olur. %{score} tamamlandı.",
+      "improve": "Profili geliştir",
+      "missing": {
+        "skills": "Becerilerinizi ekleyin",
+        "interests": "İlgi alanlarınızı anlatın",
+        "experience": "Şimdiye kadar yaptıklarınızı ekleyin",
+        "bio": "Kısa bir tanıtım yazın",
+        "major": "Bölümünüzü ekleyin",
+        "availability": "Haftalık uygunluğunuzu belirleyin",
+        "work_style": "Çalışma tarzınızı belirleyin"
+      },
+      "howTitle": "Eşleşme nasıl çalışır",
+      "how1": "İlgi alanlarınızı, becerilerinizi, deneyiminizi ve uygunluğunuzu her pozisyon veya araştırmacıyla karşılaştırırız.",
+      "how2": "Çalışma tarzlarını da karşılaştırırız — bağımsızlık, ekip çalışması, tempo ve yapı.",
+      "how3": "Bir yapay zekâ gözden geçiricisi en iyi sonuçları inceltir ve her birini açıklar. İsim, okul ve diğer kişisel özellikler asla kullanılmaz.",
+      "noResultsTitle": "Henüz eşleşme yok",
+      "noResultsBody": "Şu anda eşleştirilecek açık pozisyon yok. Bunun yerine dünya genelindeki profesörleri deneyin.",
+      "searchedFor": "Aranan: {keywords}",
+      "direction": "Aramayı yönlendirin",
+      "directionPlaceholder": "örn. nöral kodlama, tıbbi görüntüleme",
+      "university": "Yalnızca bir üniversitede",
+      "apply": "Gör ve başvur",
+      "viewProfessor": "Profili gör",
+      "writeEmail": "E-posta yaz",
+      "quota": "{limit} ücretsiz eşleşmenin {used} tanesi kullanıldı",
+      "quotaPro": "Sınırsız eşleşme",
+      "limitTitle": "Ücretsiz eşleşmelerinizi kullandınız",
+      "limitBody": "Paketler sınırsız eşleşmeyi, özetleri ve e-posta bulucuyu açar.",
+      "professorsIntro": "Profilinizi araştırma konularına dönüştürüp bunlarda aktif olarak yayın yapanları arıyoruz.",
+      "emptyProfile": "Eşleştirecek bir şeyimiz olsun diye önce birkaç beceri ve ilgi alanı ekleyin.",
+      "positionsFirst": "En uygun pozisyonları görmek için eşleşmeyi çalıştırın."
+    },
+    "professor": {
+      "title": "İdeal öğrencilerinizi bulun",
+      "subtitle": "Kimi aradığınızı tarif edin — ya da yapay zekâ pozisyonunuzdan bir taslak hazırlasın — ve uyan öğrencileri görün.",
+      "unverifiedTitle": "Doğrulama bekleniyor",
+      "unverifiedBody": "Profesör hesabınız doğrulandığında yetenek arama açılır. Yakında inceleyeceğiz.",
+      "step1": "1. Bir pozisyondan başlayın",
+      "step1Hint": "İsteğe bağlı. Profili dayandıracağınız bir pozisyon seçin.",
+      "noPosition": "Belirli bir pozisyon yok",
+      "step2": "2. Aradığınız aday",
+      "notes": "Kendi sözlerinizle",
+      "notesPlaceholder": "örn. Hata ayıklamayı seven, PyTorch kullanmış ve haftada 10 saat ayırabilen, kendi kendine yön verebilen biri.",
+      "draft": "Profili yapay zekâ ile taslakla",
+      "draftRule": "Profili oluştur",
+      "drafting": "Taslak hazırlanıyor…",
+      "personaHint": "İstediğiniz her şeyi düzenleyin — öğrenciler bununla karşılaştırılır.",
+      "headline": "Başlık",
+      "summary": "Özet",
+      "mustHave": "Şart",
+      "niceToHave": "Olsa iyi olur",
+      "traits": "Kişisel nitelikler",
+      "keywords": "Konular",
+      "addChip": "Yazıp Enter'a basın",
+      "workStyle": "Aradığınız çalışma tarzı",
+      "step3": "3. Uyan öğrenciler",
+      "find": "Öğrenci bul",
+      "finding": "Aranıyor…",
+      "pool": "{count} öğrenci bulunmaya izin verdi",
+      "poolEmpty": "Henüz hiçbir öğrenci izin vermedi. Öğrenciler görünürlüğü açtıkça burada belirecek.",
+      "left": "Bugün {count} arama hakkınız kaldı",
+      "invite": "Başvurmaya davet et",
+      "invited": "Davet edildi",
+      "inviteTitle": "{name} kişisini davet et",
+      "inviteBody": "Mesajınızı görecek ve kabul veya reddedebilecek. Yanıt verene kadar iletişim bilgileri gizli kalır.",
+      "position": "Pozisyon",
+      "message": "Mesajınız",
+      "messageDefault": "Merhaba {name}, geçmişiniz laboratuvarımızdaki «{position}» pozisyonuna çok uygun görünüyor. Başvurmak ister misiniz? Sorularınızı memnuniyetle yanıtlarım.",
+      "sendInvite": "Daveti gönder",
+      "sent": "Davet gönderildi",
+      "selectPosition": "Davet edeceğiniz pozisyonu seçin",
+      "privacy": "Burada yalnızca bulunabilir olmayı seçen öğrenciler görünür. E-postalar asla gösterilmez.",
+      "noStudents": "Henüz uyan öğrenci yok",
+      "noStudentsBody": "Şart listesini gevşetmeyi deneyin veya daha fazla öğrenci katıldığında tekrar bakın.",
+      "available": "Haftada {hours} saat uygun",
+      "skills": "Beceriler",
+      "createPositionFirst": "Öğrencileri başvurmaya davet etmek için bir pozisyon yayımlayın.",
+      "labFirst": "Önce laboratuvar profilinizi oluşturun."
+    },
+    "ai": {
+      "notEnabled": "Bu sunucuda yapay zekâ incelemesi etkin değil — eşleşmeler açıklanabilir kural tabanlı puanı kullanır."
+    }
+  }
+}

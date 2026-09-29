@@ -33,7 +33,7 @@ export function SaveButton({ p, className }: { p: Pick<Prof, "id" | "name" | "in
 export function ProfessorCard({ p, matchScore, children }: { p: Prof; matchScore?: number; children?: React.ReactNode }) {
   const { t, fmt } = useI18n();
   return (
-    <article className="group relative flex flex-col rounded-2xl border border-line bg-surface p-5 shadow-card transition-[box-shadow,border-color,transform] duration-200 hover:-translate-y-0.5 hover:border-line-2 hover:shadow-pop">
+    <article className="group relative flex min-w-0 flex-col rounded-2xl border border-line bg-surface p-5 shadow-card transition-[box-shadow,border-color,transform] duration-200 hover:-translate-y-0.5 hover:border-line-2 hover:shadow-pop">
       <div className="flex items-start gap-3.5">
         <Avatar name={p.name} size={46} />
         <div className="min-w-0 flex-1">
@@ -91,7 +91,7 @@ export function ProfessorCard({ p, matchScore, children }: { p: Prof; matchScore
         {p.on_platform_lab_id && (
           <Link
             href={`/labs/${p.on_platform_lab_id}`}
-            className={cn("relative z-10 inline-flex items-center gap-1 rounded-full bg-good-soft px-2.5 py-1 text-xs font-medium text-good-text hover:opacity-80")}
+            className={cn("relative z-10 inline-flex items-center gap-1 rounded-full bg-good-soft px-2.5 py-1 text-xs font-medium text-good-text hover:opacity-80 pointer-coarse:min-h-9 pointer-coarse:px-3")}
           >
             ● {t("discover.onLabora")}
           </Link>

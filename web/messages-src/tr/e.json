@@ -1,0 +1,143 @@
+{
+  "tools": {
+    "emailChecker": {
+      "title": "E-posta denetleyici",
+      "subtitle": "Taslağınızı yapıştırın ve profesörlerin okumayı bırakmasına neden olan ifadeleri tam olarak görün. E-postanızı asla yeniden yazmayız — sesiniz size ait kalır.",
+      "subject": "Konu satırı", "subjectPlaceholder": "örn. Derinlik tahmini makaleniz hakkında bir soru", "body": "E-postanız", "bodyPlaceholder": "Sayın Profesör …",
+      "professorContext": "{name} adlı kişinin son çalışmalarına göre denetleniyor", "removeContext": "Kaldır",
+      "check": "E-postamı denetle", "checking": "E-postanız okunuyor…", "example": "Hatalı bir örnek deneyin", "clear": "Temizle",
+      "words": "{count} sözcük", "wordsHint": "90–180 sözcüğü hedefleyin",
+      "resultsTitle": "Sonuçlarınız", "emptyTitle": "Geri bildiriminiz burada görünecek", "emptyBody": "Solda bir e-posta yazın veya yapıştırın, ardından «E-postamı denetle»ye basın.",
+      "score": "Puan", "highlights": "E-postanız, vurgulanmış", "issues": "Neyi düzeltmeli", "noIssues": "Düzeltilecek bir şey yok — iyi okunuyor.", "strengths": "İşe yarayanlar",
+      "aiSummary": "Genel izlenim", "soundsGeneric": "Herkese gönderilebilir",
+      "soundsGenericHint": "Bu e-postanın değiştirilmeden herhangi bir profesöre ne kadar kolay gönderilebileceği.",
+      "aiUsed": "Yapay zekâ incelemesi dahil", "rulesOnly": "Kural tabanlı inceleme",
+      "englishOnly": "İfade denetimleri şu anda yalnızca İngilizce e-postalarda çalışır. Uzunluk ve yapı denetimleri yine geçerlidir.",
+      "signInTitle": "E-postanızı denetlemek için giriş yapın", "signInBody": "Ücretsiz hesaplar bir denetim içerir. Paketler sınırsız denetimi açar.",
+      "limitTitle": "Ücretsiz denetiminizi kullandınız", "limitBody": "Paketler sınırsız e-posta denetimini, e-posta bulucuyu ve sınırsız özeti açar.",
+      "quota": "{limit} ücretsiz denetimin {used} tanesi kullanıldı", "quotaPro": "Sınırsız denetim",
+      "noRewrite": "Sorunları belirtiriz ama e-postayı asla sizin yerinize yazmayız — profesörler kendi sesiyle yazan öğrencilere yanıt verir.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": { "tone": "Ton", "specificity": "Somutluk", "voice": "Kendi ses", "clarity": "Açıklık", "ask": "Talep", "etiquette": "Nezaket", "subject": "Konu" },
+      "gradeDesc": {
+        "excellent": "Somut, öz ve açık. Gönderin.",
+        "good": "Sağlam bir taslak — birkaç hızlı düzeltme işe yarar.",
+        "needs_work": "Birkaç şey e-postanın göz ardı edilmesine yol açabilir. Önce kırmızı öğeleri düzeltin.",
+        "risky": "Büyük olasılıkla silinecek. Göndermeden önce yeniden çalışın."
+      },
+      "severity": { "high": "Önce düzeltin", "medium": "Düzeltmeye değer", "low": "Küçük" },
+      "flags": {
+        "flattery": { "title": "Yaltakçılık", "tip": "Profesörler «çığır açan» sözünü her gün duyar. Bunun yerine dikkatinizi çeken somut sonucu veya yöntemi belirtin." },
+        "generic_phrase": { "title": "Genel ifade", "tip": "«Çok motive» gibi ifadeler herkesi tarif edebilir. Bunu gerçekten yaptığınız bir şeyle gösterin." },
+        "ai_sounding": { "title": "Makine yazmış gibi", "tip": "Bu ifade yapay zekâ üretimi metinlerde yaygındır. Sesli söyleyeceğiniz gibi söyleyin." },
+        "bad_salutation": { "title": "Kişisel olmayan hitap", "tip": "“Dear Sir” toplu bir e-postayı gösterir. “Dear Professor [soyadı]” kullanın ve yazımı kontrol edin." },
+        "informal": { "title": "Fazla samimi", "tip": "Tonu samimi ama profesyonel tutun — mesajlaşma dilinden ve kısaltmalardan kaçının." },
+        "missing_name": { "title": "Hitapta isim yok", "tip": "Profesöre adıyla hitap edin: “Dear Professor Rivera,”." },
+        "name_not_mentioned": { "title": "Profesörün adı kullanılmamış", "tip": "E-postanın açıkça bu kişiye yazıldığından emin olun." },
+        "no_specific_reference": { "title": "Çalışmasına atıf yok", "tip": "Bu profesörün belirli bir makalesinden, yönteminden veya bulgusundan söz edin — ve bunun size düşündürdüğü bir soru sorun." },
+        "low_specificity": { "title": "Somut bir şey yok", "tip": "Burada herhangi bir profesöre gönderilemeyecek bir şey yok. Bir makale, bir yıl, bir sonuç veya somut bir soru ekleyin." },
+        "no_own_work": { "title": "Yaptığınız hiçbir şey görünmüyor", "tip": "Kurduğunuz, analiz ettiğiniz, okuduğunuz veya aldığınız somut bir şey ekleyin — küçük bir proje bile olur." },
+        "no_clear_ask": { "title": "Net bir talep yok", "tip": "Tam olarak ne istediğinizi söyleyin: bir sohbet, gönüllü bir rol ya da başka birine yönlendirme." },
+        "no_signoff": { "title": "Kapanış yok", "tip": "Kısa bir teşekkür ve tam adınızla bitirin." },
+        "exclamation": { "title": "Çok fazla ünlem", "tip": "Bir tane sorun değil; iki veya daha fazlası aşırı heyecanlı görünür. Heyecanı içerik taşısın." },
+        "emoji": { "title": "Emoji", "tip": "Bir profesöre ilk e-postada emoji kullanmayın." },
+        "all_caps": { "title": "TAMAMI BÜYÜK HARF", "tip": "Büyük harfli sözcükler bağırmak gibi okunur. Normal yazım kullanın." },
+        "too_short": { "title": "Çok kısa", "tip": "Yaklaşık 45 sözcüğün altı nadiren yeterli olur. Yaptıklarınızı ve talebinizi ekleyin." },
+        "too_long": { "title": "Çok uzun", "tip": "90–180 sözcüğü hedefleyin. Profesörün karar vermek için ihtiyaç duymadığı arka planı çıkarın." },
+        "wall_of_text": { "title": "Metin duvarı", "tip": "Göz gezdirilebilmesi için 2–3 kısa paragrafa bölün." },
+        "no_subject": { "title": "Konu satırı yok", "tip": "Net bir konu e-postanın açılmasına yardımcı olur: konuyu veya makaleyi belirtin." },
+        "subject_generic": { "title": "Genel konu satırı", "tip": "“Research” her şey olabilir. Hakkında yazdığınız makalenin veya konunun adını yazmayı deneyin." },
+        "subject_short": { "title": "Konu satırı çok kısa", "tip": "Profesör neyle ilgili olduğunu bilsin diye birkaç sözcük bağlam ekleyin." },
+        "subject_long": { "title": "Konu satırı çok uzun", "tip": "Yaklaşık 90 karakterin altında tutun." },
+        "subject_shouty": { "title": "Bağıran konu satırı", "tip": "Büyük harflerden ve “urgent” gibi sözcüklerden kaçının — spam gibi görünürler." },
+        "ai_note": { "title": "İnceleyenin notu", "tip": "" }
+      },
+      "strengthLabels": {
+        "personal_greeting": "Profesöre adıyla hitap ediyor", "specific_reference": "Somut çalışmasına atıf yapıyor", "shows_own_work": "Yaptığınız bir şeyi gösteriyor",
+        "clear_ask": "Net bir talepte bulunuyor", "redirect_offer": "Sizi başka birine yönlendirmesi için kolay bir yol sunuyor", "states_availability": "Uygunluğunuzu veya takviminizi belirtiyor", "concise": "İyi bir uzunlukta"
+      }
+    },
+    "followUp": {
+      "title": "Takip planlayıcı", "subtitle": "Hâlâ yanıt yok mu? Gönderdiğiniz e-postayı yapıştırın ve size ait sese sahip, doğru zamanda iki takip mesajı alın.",
+      "email": "Gönderdiğiniz e-posta", "emailPlaceholder": "İlk e-postanızı yapıştırın…", "subject": "İlk konu satırı", "sentOn": "Gönderdiğiniz tarih",
+      "professorName": "Profesörün adı", "professorPlaceholder": "örn. Elena Rivera", "generate": "Takiplerimi planla", "generating": "Taslak hazırlanıyor…",
+      "timeline": "Takip zaman çizelgeniz", "step": "Takip {n}", "sendOn": "{date} tarihinde gönderin", "daysAfter": "İlk e-postanızdan {days} gün sonra",
+      "copy": "Mesajı kopyala", "copied": "Kopyalandı", "addToCalendar": "Takvime ekle", "editHint": "Özgürce düzenleyin — bunlar kendinize mal etmeniz için taslaklardır.",
+      "emptyTitle": "Zaman çizelgeniz burada görünecek", "emptyBody": "Rahatsız etmeden gündemde kalmanızı sağlayacak aralıklarla iki takip.",
+      "tipsTitle": "Zamanlama ipuçları", "tip1": "Final haftalarından, hibe son tarihlerinden ve tatillerden kaçının.", "tip2": "Hafta içi bir günün sabahı erkenden gönderin.",
+      "tip3": "İki takipten sonra devam edin — ve başka birine yönlendirilmeyi isteyin.",
+      "aiUsed": "Yapay zekâ ile kişiselleştirildi", "templated": "Şablon tabanlı", "signInTitle": "Takiplerinizi planlamak için giriş yapın",
+      "limitTitle": "Ücretsiz takip planınızı kullandınız", "quota": "{limit} ücretsiz planın {used} tanesi kullanıldı"
+    },
+    "framework": {
+      "title": "İlk temas e-postası iskeleti", "subtitle": "Profesörlerin yanıt vermesini sağlayan şeylere dayanan, boşluk doldurmalı bir yapı. Rehberlik için herhangi bir paranteze dokunun.",
+      "template": "Şablon", "tapHint": "Nasıl dolduracağınızı görmek için bir paranteze dokunun.", "guidance": "Rehberlik", "redFlags": "Uyarı işareti ifadeler",
+      "redFlagsSub": "Bunlar ödevinizi yapmadığınızı gösterir. Yerine somut bir şey koyun.", "instead": "Bunun yerine:", "cta": "Kendi e-postanızı denetleyin",
+      "b1": { "label": "SOMUT BİR KONU", "tip": "Tüm alanı değil, tam olarak alanı, yöntemi veya soruyu belirtin. «Uykuya bağımlı bellek pekiştirme», «sinirbilim»den iyidir." },
+      "b2": { "label": "SOMUT BİR BULGU VEYA ALINTI", "tip": "Yakın tarihli makalelerinden birindeki gerçek bir sonucu, şekli veya cümleyi gösterin. Okuduğunuzu kanıtlayan satır budur." },
+      "b3": { "label": "SİZİN ARAŞTIRMA AÇINIZ", "tip": "Bunu yaptığınız ya da keşfetmek istediğiniz bir şeyle bağlayın — bir ders, veri kümesi, proje." },
+      "b4": { "label": "İÇTEN BİR KİŞİSEL NEDEN", "tip": "Bunun sizin için neden önemli olduğuna dair dürüst tek bir cümle. Kısa ve gerçek olsun." },
+      "b5": { "label": "OKUDUĞUNUZU GÖSTEREN AKILLI BİR SORU", "tip": "Makalenin size düşündürdüğü bir şeyi sorun — bir sınırlılık, bir genişletme, bir veri kümesi. «Araştırmanız hakkında daha fazla anlatın»dan kaçının." },
+      "rf1": { "phrase": "I found your work fascinating and groundbreaking", "why": "Profesörler bunu her gün duyar.", "instead": "Dikkatinizi çeken somut bulguyu belirtin." },
+      "rf2": { "phrase": "I am a highly motivated student", "why": "Onlara hiçbir şey söylemez.", "instead": "Motivasyonunuzu yaptıklarınızla gösterin." },
+      "rf3": { "phrase": "Your research aligns perfectly with my interests", "why": "İnandırıcı olamayacak kadar belirsiz.", "instead": "Somut bağlantıyı açıklayın." },
+      "rf4": { "phrase": "I would love to learn from you", "why": "E-postayı onların çalışması yerine sizinle ilgili yapar.", "instead": "Araştırmalarının belirli bir bölümü hakkında sorun." },
+      "rf5": { "phrase": "I am passionate about this field", "why": "Herkes bunu söyler.", "instead": "Bu alanda gerçekte ne yaptığınızı anlatın." }
+    },
+    "examples": {
+      "title": "İşe yarayan e-postalar — açıklamalı", "subtitle": "Yanıt getiren kalıpları göstermek için yazdığımız üç örnek e-posta. Her satırın yanındaki notları okuyun.",
+      "disclaimer": "Bunlar Labora ekibinin yazdığı örneklerdir, gerçek yazışma değildir. İsimler ve ayrıntılar kurgusaldır.",
+      "example": "Örnek {n}", "cta": "Şimdi kendinizinkini denetleyin",
+      "e1": { "label": "1. sınıf, kendi kendine öğrenen", "note1": "Kendi ilginizle ve gerçek bir beceriyle başlar, sonra bunu onların çalışmasına bağlar.", "note2": "Ancak makale okunarak sorulabilecek somut bir soru.", "note3": "Düşük eşikli doğrudan bir talep — ve «hayır»ı bir ipucuna çeviren bir yönlendirme." },
+      "e2": { "label": "Kendi projesi olan 3. sınıf", "note1": "Halihazırda üzerinde çalıştığınız bir projeyi gösterir — uygulamalı ilginin kanıtı.", "note2": "Teknik derinlik: soru, yalnızca özeti değil yöntemi anladığınızı gösterir.", "note3": "Bir takvim (bu yaz) ve gönüllü olarak bile yardım teklifi." },
+      "e3": { "label": "Beşeri / sosyal bilimler", "note1": "Talebi aldığınız bir derse ve okuduğunuz bir kaynağa dayandırır.", "note2": "Özet istemek yerine bir tercihin ardındaki gerekçeyi sorar.", "note3": "Somut bir şey sunar: haftada birkaç saat arşiv kodlama." }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Ortak konular: {items}", "skills_covered": "Zaten sahip olduğunuz beceriler: {items}", "style_aligned": "Benzer çalışma tarzı ({items})", "hours_fit": "Uygunluğunuz gerekli saatleri karşılıyor",
+      "bonus_skills": "Ek beceriler: {items}", "published_on_topics": "Şu konularda yayın yapıyor: {items}", "active_recently": "Son 3 yılda {items} makale", "partial_topic_overlap": "Daha az örtüşme: {items}",
+      "missing_skills": "Geliştirilecek beceriler: {items}", "style_differs": "Farklı çalışma tarzı ({items})", "hours_short": "Pozisyonun beklediğinden daha az saat uygun"
+    },
+    "strong": "Güçlü eşleşme", "good": "İyi eşleşme", "partial": "Kısmi eşleşme", "tip": "Nasıl öne çıkılır", "why": "Neden uyuyor", "gaps": "Bilinmesi gerekenler",
+    "breakdown": { "topic": "Konular", "skills": "Beceriler", "bonus": "Bonus", "style": "Çalışma tarzı", "hours": "Uygunluk" },
+    "aiRefined": "Yapay zekâ ile incelendi", "explainable": "Açıklanabilir puan",
+    "student": {
+      "title": "Yapay zekâ eşleşmesi", "subtitle": "Pozisyonlar ve profesörler; becerilerinize, ilgi alanlarınıza ve çalışma tarzınıza ne kadar uyduklarına göre sıralı.",
+      "tabPositions": "Açık pozisyonlar", "tabProfessors": "Dünya genelinde profesörler", "run": "Eşleşmelerimi bul", "rerun": "Eşleşmeleri yenile", "running": "Eşleştiriliyor…",
+      "strengthTitle": "Eşleşme profiliniz", "strengthBody": "Ne kadar çok paylaşırsanız eşleşmeler o kadar isabetli olur. %{score} tamamlandı.", "improve": "Profili geliştir",
+      "missing": {
+        "skills": "Becerilerinizi ekleyin", "interests": "İlgi alanlarınızı anlatın", "experience": "Şimdiye kadar yaptıklarınızı ekleyin", "bio": "Kısa bir tanıtım yazın", "major": "Bölümünüzü ekleyin",
+        "availability": "Haftalık uygunluğunuzu belirleyin", "work_style": "Çalışma tarzınızı belirleyin"
+      },
+      "howTitle": "Eşleşme nasıl çalışır",
+      "how1": "İlgi alanlarınızı, becerilerinizi, deneyiminizi ve uygunluğunuzu her pozisyon veya araştırmacıyla karşılaştırırız.",
+      "how2": "Çalışma tarzlarını da karşılaştırırız — bağımsızlık, ekip çalışması, tempo ve yapı.",
+      "how3": "Bir yapay zekâ gözden geçiricisi en iyi sonuçları inceltir ve her birini açıklar. İsim, okul ve diğer kişisel özellikler asla kullanılmaz.",
+      "noResultsTitle": "Henüz eşleşme yok", "noResultsBody": "Şu anda eşleştirilecek açık pozisyon yok. Bunun yerine dünya genelindeki profesörleri deneyin.",
+      "searchedFor": "Aranan: {keywords}", "direction": "Aramayı yönlendirin", "directionPlaceholder": "örn. nöral kodlama, tıbbi görüntüleme",
+      "university": "Yalnızca bir üniversitede", "apply": "Gör ve başvur", "viewProfessor": "Profili gör", "writeEmail": "E-posta yaz",
+      "quota": "{limit} ücretsiz eşleşmenin {used} tanesi kullanıldı", "quotaPro": "Sınırsız eşleşme", "limitTitle": "Ücretsiz eşleşmelerinizi kullandınız", "limitBody": "Paketler sınırsız eşleşmeyi, özetleri ve e-posta bulucuyu açar.",
+      "professorsIntro": "Profilinizi araştırma konularına dönüştürüp bunlarda aktif olarak yayın yapanları arıyoruz.",
+      "emptyProfile": "Eşleştirecek bir şeyimiz olsun diye önce birkaç beceri ve ilgi alanı ekleyin.", "positionsFirst": "En uygun pozisyonları görmek için eşleşmeyi çalıştırın."
+    },
+    "professor": {
+      "title": "İdeal öğrencilerinizi bulun", "subtitle": "Kimi aradığınızı tarif edin — ya da yapay zekâ pozisyonunuzdan bir taslak hazırlasın — ve uyan öğrencileri görün.",
+      "unverifiedTitle": "Doğrulama bekleniyor", "unverifiedBody": "Profesör hesabınız doğrulandığında yetenek arama açılır. Yakında inceleyeceğiz.",
+      "step1": "1. Bir pozisyondan başlayın", "step1Hint": "İsteğe bağlı. Profili dayandıracağınız bir pozisyon seçin.", "noPosition": "Belirli bir pozisyon yok",
+      "step2": "2. Aradığınız aday", "notes": "Kendi sözlerinizle",
+      "notesPlaceholder": "örn. Hata ayıklamayı seven, PyTorch kullanmış ve haftada 10 saat ayırabilen, kendi kendine yön verebilen biri.",
+      "draft": "Profili yapay zekâ ile taslakla", "draftRule": "Profili oluştur", "drafting": "Taslak hazırlanıyor…", "personaHint": "İstediğiniz her şeyi düzenleyin — öğrenciler bununla karşılaştırılır.",
+      "headline": "Başlık", "summary": "Özet", "mustHave": "Şart", "niceToHave": "Olsa iyi olur", "traits": "Kişisel nitelikler", "keywords": "Konular", "addChip": "Yazıp Enter'a basın",
+      "workStyle": "Aradığınız çalışma tarzı", "step3": "3. Uyan öğrenciler", "find": "Öğrenci bul", "finding": "Aranıyor…", "pool": "{count} öğrenci bulunmaya izin verdi",
+      "poolEmpty": "Henüz hiçbir öğrenci izin vermedi. Öğrenciler görünürlüğü açtıkça burada belirecek.", "left": "Bugün {count} arama hakkınız kaldı", "invite": "Başvurmaya davet et", "invited": "Davet edildi",
+      "inviteTitle": "{name} kişisini davet et", "inviteBody": "Mesajınızı görecek ve kabul veya reddedebilecek. Yanıt verene kadar iletişim bilgileri gizli kalır.", "position": "Pozisyon", "message": "Mesajınız",
+      "messageDefault": "Merhaba {name}, geçmişiniz laboratuvarımızdaki «{position}» pozisyonuna çok uygun görünüyor. Başvurmak ister misiniz? Sorularınızı memnuniyetle yanıtlarım.",
+      "sendInvite": "Daveti gönder", "sent": "Davet gönderildi", "selectPosition": "Davet edeceğiniz pozisyonu seçin", "privacy": "Burada yalnızca bulunabilir olmayı seçen öğrenciler görünür. E-postalar asla gösterilmez.",
+      "noStudents": "Henüz uyan öğrenci yok", "noStudentsBody": "Şart listesini gevşetmeyi deneyin veya daha fazla öğrenci katıldığında tekrar bakın.", "available": "Haftada {hours} saat uygun", "skills": "Beceriler",
+      "createPositionFirst": "Öğrencileri başvurmaya davet etmek için bir pozisyon yayımlayın.", "labFirst": "Önce laboratuvar profilinizi oluşturun."
+    },
+    "ai": { "notEnabled": "Bu sunucuda yapay zekâ incelemesi etkin değil — eşleşmeler açıklanabilir kural tabanlı puanı kullanır." }
+  }
+}

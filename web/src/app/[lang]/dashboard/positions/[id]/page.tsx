@@ -38,7 +38,7 @@ export default function PositionApplicants() {
 
   return (
     <>
-      <Link href="/dashboard/positions" className="mb-5 inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink">
+      <Link href="/dashboard/positions" className="mb-5 inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink pointer-coarse:-mt-3 pointer-coarse:mb-2 pointer-coarse:min-h-11">
         <ArrowLeft className="size-4 rtl:rotate-180" /> {t("dash.positions.title")}
       </Link>
       {p ? (
@@ -48,7 +48,7 @@ export default function PositionApplicants() {
             <div className="mt-3 flex flex-wrap items-center gap-2">
               <Badge tone={p.status === "open" ? "good" : "neutral"}>{p.status === "open" ? t("dash.positions.open") : t("dash.positions.closed")}</Badge>
               <Badge tone={COMP_TONE[p.compensation]}>{labels.compensation(p.compensation)}</Badge>
-              <Link href={`/positions/${p.id}`} className="inline-flex items-center gap-1 text-sm text-brand-text hover:underline">
+              <Link href={`/positions/${p.id}`} className="inline-flex items-center gap-1 text-sm text-brand-text hover:underline pointer-coarse:min-h-10">
                 {t("dash.positions.viewPublic")} <ExternalLink className="size-3.5" />
               </Link>
             </div>
@@ -80,7 +80,7 @@ export default function PositionApplicants() {
             <Card key={a.id} className="p-6">
               <div className="flex flex-wrap items-start gap-4">
                 <Avatar name={a.student.full_name} size={46} />
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 basis-48">
                   <p className="font-semibold text-ink">{a.student.full_name}</p>
                   <p className="text-sm text-muted">
                     {[a.profile?.major, labels.year(a.profile?.year), a.profile?.university].filter(Boolean).join(" · ") || t("dash.positions.profileIncomplete")}
@@ -108,7 +108,7 @@ export default function PositionApplicants() {
               )}
               {a.profile?.work_style && (
                 <details className="mt-4 rounded-xl border border-line p-4">
-                  <summary className="cursor-pointer text-sm font-medium text-ink">{t("dash.profile.workStyle")}</summary>
+                  <summary className="cursor-pointer text-sm font-medium text-ink pointer-coarse:-my-2.5 pointer-coarse:py-2.5">{t("dash.profile.workStyle")}</summary>
                   <div className="mt-4">
                     <StyleDisplay style={a.profile.work_style} />
                   </div>
@@ -116,11 +116,11 @@ export default function PositionApplicants() {
               )}
 
               <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-line pt-4">
-                <a href={`mailto:${a.student.email}`} className="inline-flex items-center gap-1.5 text-sm text-muted hover:text-brand-text" dir="ltr">
+                <a href={`mailto:${a.student.email}`} className="inline-flex items-center gap-1.5 text-sm text-muted hover:text-brand-text pointer-coarse:min-h-10" dir="ltr">
                   <Mail className="size-4" /> {a.student.email}
                 </a>
                 {a.profile?.resume_url && (
-                  <a href={a.profile.resume_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-brand-text hover:underline">
+                  <a href={a.profile.resume_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-brand-text hover:underline pointer-coarse:min-h-10">
                     <ExternalLink className="size-4" /> {t("dash.positions.resume")}
                   </a>
                 )}

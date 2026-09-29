@@ -13,7 +13,7 @@ export function LegalPage({ kind, blocks }: { kind: "privacy" | "terms"; blocks:
   return (
     <Container className="max-w-3xl py-12 sm:py-16">
       <h1 className="display text-[clamp(2.2rem,4.6vw,3.4rem)] text-ink">{kind === "privacy" ? t("legal.privacyTitle") : t("legal.termsTitle")}</h1>
-      <p className="mt-4 text-sm text-faint">{t("legal.updated", { date: fmt.date(LEGAL_UPDATED, { dateStyle: "long" }) })}</p>
+      <p className="mt-4 text-sm text-faint" suppressHydrationWarning>{t("legal.updated", { date: fmt.date(LEGAL_UPDATED, { dateStyle: "long" }) })}</p>
       {locale !== "en" && <p className="mt-2 text-sm text-faint">{t("legal.englishNote")}</p>}
       <div className="mt-10">
         <Prose blocks={blocks} />

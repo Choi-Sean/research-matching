@@ -97,19 +97,20 @@ export function ProfessorView({ id }: { id: string }) {
 
   return (
     <Container className="py-8 sm:py-12">
-      <Link href="/discover" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink">
+      <Link href="/discover" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink pointer-coarse:-mt-3 pointer-coarse:mb-3 pointer-coarse:min-h-11">
         <ArrowLeft className="size-4 rtl:rotate-180" /> {t("professor.back")}
       </Link>
 
       {/* header */}
       <div className="rounded-3xl border border-line bg-surface p-6 shadow-card sm:p-8">
-        <div className="flex flex-wrap items-start gap-5">
-          <Avatar name={p.name} size={72} />
-          <div className="min-w-0 flex-1">
+        {/* Phones: avatar and save button share the first row and the name gets the full width below (visual order only); from sm up it is one row. */}
+        <div className="flex flex-wrap items-start gap-x-5 gap-y-4">
+          <Avatar name={p.name} size={72} className="max-sm:order-1" />
+          <div className="min-w-0 basis-full max-sm:order-3 sm:flex-1 sm:basis-0">
             <div className="flex flex-wrap items-center gap-3">
               <h1 className="display text-[clamp(1.8rem,3.4vw,2.6rem)] text-ink">{p.name}</h1>
               {p.on_platform_lab_id && (
-                <Link href={`/labs/${p.on_platform_lab_id}`} className="inline-flex items-center gap-1.5 rounded-full bg-good-soft px-3 py-1 text-xs font-medium text-good-text hover:opacity-80">
+                <Link href={`/labs/${p.on_platform_lab_id}`} className="inline-flex items-center gap-1.5 rounded-full bg-good-soft px-3 py-1 text-xs font-medium text-good-text hover:opacity-80 pointer-coarse:min-h-9">
                   ● {t("professor.onLabora")} →
                 </Link>
               )}
@@ -122,22 +123,22 @@ export function ProfessorView({ id }: { id: string }) {
             )}
             <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1.5 text-sm">
               {p.orcid && (
-                <a href={p.orcid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline">
+                <a href={p.orcid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline pointer-coarse:min-h-10">
                   {t("professor.orcid")} <ExternalLink className="size-3" />
                 </a>
               )}
               {p.openalex_url && (
-                <a href={p.openalex_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline">
+                <a href={p.openalex_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-text hover:underline pointer-coarse:min-h-10">
                   {t("professor.openalex")} <ExternalLink className="size-3" />
                 </a>
               )}
             </div>
           </div>
-          <SaveButton p={p} className="size-10 [&_svg]:size-5" />
+          <SaveButton p={p} className="size-10 max-sm:order-2 max-sm:ms-auto [&_svg]:size-5" />
         </div>
         <dl className="mt-7 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-5">
           {stats.map(([label, value]) => (
-            <div key={label} className="bg-surface px-4 py-4 text-center">
+            <div key={label} className="bg-surface px-4 py-4 text-center max-sm:last:odd:col-span-2">
               <dd className="text-2xl font-semibold tracking-tight tabular-nums text-ink">{value}</dd>
               <dt className="mt-0.5 text-xs text-faint">{label}</dt>
             </div>
@@ -395,7 +396,7 @@ function PaperList({ title, works }: { title: string; works: Work[] }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={t("professor.papers.viewPaper")}
-                    className="grid size-8 shrink-0 place-items-center rounded-lg text-faint transition-colors hover:bg-surface-2 hover:text-ink"
+                    className="grid size-8 shrink-0 place-items-center rounded-lg text-faint transition-colors hover:bg-surface-2 hover:text-ink pointer-coarse:size-11"
                   >
                     <ExternalLink className="size-4" />
                   </a>
@@ -405,7 +406,7 @@ function PaperList({ title, works }: { title: string; works: Work[] }) {
                 <>
                   <button
                     onClick={() => setOpenId(openId === w.id ? null : w.id)}
-                    className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-brand-text hover:underline"
+                    className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-brand-text hover:underline pointer-coarse:mt-1 pointer-coarse:min-h-11 pointer-coarse:text-sm"
                     aria-expanded={openId === w.id}
                   >
                     {t("professor.papers.abstract")}

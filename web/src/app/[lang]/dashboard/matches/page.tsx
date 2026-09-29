@@ -73,7 +73,8 @@ export default function MatchesPage() {
         <Card className="mb-6 p-5">
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
             <ScoreRing score={strength.score} size={56} stroke={5.5} label={t("match.student.strengthTitle")} />
-            <div className="min-w-0 flex-1">
+            {/* basis-48 keeps the text from being squeezed into a sliver beside the ring; on phones the button drops to its own full-width row. */}
+            <div className="min-w-0 flex-1 basis-48">
               <p className="font-semibold text-ink">{t("match.student.strengthTitle")}</p>
               <p className="mt-0.5 text-sm text-muted">{t("match.student.strengthBody", { score: strength.score })}</p>
               {strength.missing.length > 0 && (
@@ -84,7 +85,7 @@ export default function MatchesPage() {
                 </div>
               )}
             </div>
-            <Button asChild variant="secondary" size="sm">
+            <Button asChild variant="secondary" size="sm" className="max-sm:w-full">
               <Link href="/dashboard/profile">{t("match.student.improve")}</Link>
             </Button>
           </div>
@@ -127,7 +128,7 @@ export default function MatchesPage() {
             <Card key={m.position.id} className="p-6">
               <div className="flex flex-wrap items-start gap-5">
                 <ScoreRing score={m.score} size={68} stroke={6} label={t("match.strong")} />
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 basis-48">
                   <MatchLabel score={m.score} ai={positions.ai_used} />
                   <h3 className="mt-2 text-lg font-semibold tracking-tight text-ink">
                     <Link href={`/positions/${m.position.id}`} className="hover:text-brand-text">
@@ -139,7 +140,7 @@ export default function MatchesPage() {
                     <Badge tone={COMP_TONE[m.position.compensation]}>{labels.compensation(m.position.compensation)}</Badge>
                   </p>
                 </div>
-                <Button asChild variant="primary" size="sm">
+                <Button asChild variant="primary" size="sm" className="max-sm:w-full">
                   <Link href={`/positions/${m.position.id}`}>
                     {t("match.student.apply")} <ArrowRight className="rtl:rotate-180" />
                   </Link>
@@ -185,7 +186,7 @@ export default function MatchesPage() {
               <Card key={m.professor.id} className="p-6">
                 <div className="flex flex-wrap items-start gap-5">
                   <ScoreRing score={m.score} size={68} stroke={6} label={t("match.strong")} />
-                  <div className="min-w-0 flex-1">
+                  <div className="min-w-0 flex-1 basis-48">
                     <MatchLabel score={m.score} ai={professors.ai_used} />
                     <h3 className="mt-2 text-lg font-semibold tracking-tight text-ink">
                       <Link href={`/professors/${m.professor.id}`} className="hover:text-brand-text">
@@ -199,12 +200,12 @@ export default function MatchesPage() {
                       ))}
                     </div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2 max-sm:w-full">
                     <SaveButton p={m.professor} />
-                    <Button asChild variant="secondary" size="sm">
+                    <Button asChild variant="secondary" size="sm" className="max-sm:flex-1">
                       <Link href={`/professors/${m.professor.id}`}>{t("match.student.viewProfessor")}</Link>
                     </Button>
-                    <Button asChild variant="primary" size="sm">
+                    <Button asChild variant="primary" size="sm" className="max-sm:flex-1">
                       <Link href={`/tools/email-checker?professor=${m.professor.id}&name=${encodeURIComponent(m.professor.name)}`}>
                         <MailPlus /> {t("match.student.writeEmail")}
                       </Link>

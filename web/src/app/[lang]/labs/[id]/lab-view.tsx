@@ -71,7 +71,7 @@ export function LabView({ id }: { id: string }) {
                   </span>
                 )}
                 {l.website && (
-                  <a href={l.website} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-brand-text hover:underline">
+                  <a href={l.website} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-brand-text hover:underline pointer-coarse:min-h-11">
                     <ExternalLink className="size-4" /> {t("lab.website")}
                   </a>
                 )}

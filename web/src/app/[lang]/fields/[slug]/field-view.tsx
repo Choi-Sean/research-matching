@@ -24,7 +24,7 @@ export function FieldView({ slug }: { slug: string }) {
 
   return (
     <Container className="py-10 sm:py-14">
-      <Link href="/fields" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink">
+      <Link href="/fields" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink pointer-coarse:-mt-3 pointer-coarse:mb-3 pointer-coarse:min-h-11">
         <ArrowLeft className="size-4 rtl:rotate-180" /> {t("fields.backToAll")}
       </Link>
       <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
@@ -85,7 +85,7 @@ export function FieldView({ slug }: { slug: string }) {
           {field.related.map((r) => {
             const rel = FIELDS.find((f) => f.slug === r);
             return rel ? (
-              <Link key={r} href={`/fields/${r}`} className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-4 py-2 text-sm text-muted transition-colors hover:border-brand/40 hover:text-brand-text">
+              <Link key={r} href={`/fields/${r}`} className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-4 py-2 text-sm text-muted transition-colors hover:border-brand/40 hover:text-brand-text pointer-coarse:py-2.5">
                 <rel.icon className="size-4" /> {t(`fields.names.${r}` as MessageKey)}
               </Link>
             ) : null;

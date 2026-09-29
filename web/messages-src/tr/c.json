@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "Genel bakış", "matches": "Yapay zekâ eşleşmesi", "talent": "Öğrenci bul", "applications": "Başvurular", "invitations": "Davetler", "outreach": "İletişim takipçisi", "saved": "Kaydedilenler",
+      "profile": "Profilim", "billing": "Plan ve faturalandırma", "settings": "Ayarlar", "positions": "Pozisyonlar", "lab": "Laboratuvar ve araştırma", "admin": "Yönetim"
+    },
+    "greeting": "Merhaba {name}", "welcomeProfessor": "Hoş geldiniz, {name}",
+    "overview": {
+      "studentSubtitle": "Araştırma arayışınız şu anda şu noktada.", "professorSubtitle": "Laboratuvarınızı, pozisyonlarınızı ve başvuranları yönetin.", "findPositions": "Pozisyon bul", "newPosition": "Yeni pozisyon",
+      "applications": "Başvurular", "inReview": "İnceleniyor", "accepted": "Kabul edildi", "invitations": "Davetler", "openPositions": "Açık pozisyonlar", "applicants": "Başvuranlar", "lab": "Laboratuvar",
+      "live": "Yayında", "notSetUp": "Kurulmadı", "completeTitle": "Profilinizi tamamlayın",
+      "completeBody": "Profesörler her başvuruda profilinizi görür ve ne kadar çok paylaşırsanız eşleşme o kadar isabetli olur.", "completeCta": "Profili güncelle",
+      "discoverTitle": "Profesörlerin sizi bulmasına izin verin",
+      "discoverBody": "Görünürlüğü açın; doğrulanmış profesörler sizi başvurmaya davet edebilsin. Yanıt verene kadar e-postanız gizli kalır.", "discoverCta": "Profilde seç",
+      "recentApplications": "Son başvurular", "noApplications": "Henüz başvurmadınız.", "browse": "Açık pozisyonlara göz at", "matchTitle": "En iyi eşleşmeleriniz",
+      "matchBody": "Pozisyonları ve profesörleri size ne kadar uyduklarına göre sıralı görün.", "matchCta": "Yapay zekâ eşleşmesini aç", "yourPositions": "Pozisyonlarınız", "noPositions": "Henüz pozisyon yok.",
+      "createLabTitle": "İşe almaya başlamak için laboratuvarınızı kurun", "createLabBody": "Öğrenciler yayımladığınız her pozisyonda laboratuvar profilinizi ve araştırmanızı görür.", "createLabCta": "Laboratuvar profili oluştur",
+      "unverifiedTitle": "Hesabınız doğrulama bekliyor", "unverifiedBody": "Laboratuvarlar ve pozisyonlar herkese açık olmadan önce profesör hesaplarını inceliyoruz. Bu arada her şeyi hazırlayabilirsiniz.",
+      "talentTitle": "Uygun öğrenciler bulun", "talentBody": "İdeal öğrenciyi tarif edin ve yapay zekâ izin veren öğrencileri sıralasın.", "talentCta": "Öğrenci bul",
+      "pendingInvitations_one": "Bekleyen {count} davetiniz var", "pendingInvitations_other": "Bekleyen {count} davetiniz var", "viewInvitations": "Davetleri gör",
+      "applicantsCount_one": "{count} başvuran", "applicantsCount_other": "{count} başvuran", "newForYou": "Sizin için yeni"
+    },
+    "profile": {
+      "title": "Profilim", "subtitle": "Profesörler bunu başvurunuzla birlikte görür; yapay zekâ eşleşmesi de uyumunuzu bulmak için bunu kullanır.", "strength": "Profil gücü",
+      "basics": "Temel bilgiler", "university": "Üniversite", "major": "Bölüm", "year": "Sınıf", "selectYear": "Seçin…", "about": "Hakkınızda", "bio": "Kısa tanıtım",
+      "bioHint": "Kimsiniz ve neyi merak ediyorsunuz?", "skills": "Beceriler", "skillsHint": "Virgülle ayırın, örn. Python, PyTorch, R, laboratuvar güvenliği",
+      "interests": "Araştırma ilgi alanları", "interestsHint": "Üzerinde çalışmak isteyeceğiniz konular, örn. bilgisayarlı görü, hücre kaderi.",
+      "experience": "Şimdiye kadar yaptıklarınız", "experienceHint": "Projeler, dersler, geçmiş araştırmalar — ne kadar somutsa eşleşme o kadar iyi olur.",
+      "availability": "Haftada ayırabileceğiniz saat", "workStyle": "Nasıl çalışmayı seversiniz", "workStyleHint": "Her kadranı en rahat hissettiğiniz yere getirin. Sizi laboratuvarlarla karşılaştırmak için kullanılır.",
+      "links": "Bağlantılar", "resume": "Özgeçmiş bağlantısı", "resumeHint": "Bir PDF bağlantısı (Drive, Dropbox, web siteniz).", "website": "Kişisel web sitesi", "github": "GitHub profili",
+      "visibility": "Görünürlük", "discoverable": "Doğrulanmış profesörlerin beni bulmasına izin ver",
+      "discoverableDesc": "Profesörler profilinizi görüp sizi başvurmaya davet edebilir. Yanıt verene kadar e-postanız gizli kalır. Bunu istediğiniz zaman kapatabilirsiniz.",
+      "save": "Profili kaydet", "saved": "Profil kaydedildi", "welcome": "Labora'ya hoş geldiniz! Daha iyi eşleşmeler için bize kendinizden bahsedin."
+    },
+    "applications": {
+      "title": "Başvurular", "subtitle": "Başvurduğunuz her şey tek yerde.", "emptyTitle": "Henüz başvuru yok", "emptyBody": "Bir pozisyona başvurduğunuzda burada görünür ve durumunu takip edebilirsiniz.",
+      "browse": "Pozisyonlara göz at", "applied": "Başvuru: {when}", "withdraw": "Geri çek", "withdrawConfirm": "Bu başvuru geri çekilsin mi?", "withdrawn": "Başvuru geri çekildi",
+      "invited": "Davet edildi", "decided": "Karar: {when}"
+    },
+    "invitations": {
+      "title": "Davetler", "subtitleStudent": "Başvurmanızı isteyen profesörler.", "subtitleProfessor": "Davet ettiğiniz öğrenciler.", "emptyStudentTitle": "Henüz davet yok",
+      "emptyStudentBody": "Doğrulanmış profesörlerin sizi davet edebilmesi için profilinizde görünürlüğü açın.", "emptyProfessorTitle": "Henüz kimseyi davet etmediniz",
+      "emptyProfessorBody": "Laboratuvarınıza uyan öğrencileri keşfetmek için «Öğrenci bul»u kullanın.", "from": "Gönderen: {name}", "to": "Alıcı: {name}", "match": "%{score} uyum",
+      "accept": "Kabul et ve başvur", "decline": "Reddet", "replyPlaceholder": "Profesöre bir not ekleyin (isteğe bağlı)", "accepted": "Kabul ettiniz — bir başvuru oluşturuldu.", "declined": "Davet reddedildi",
+      "withdraw": "Daveti geri çek", "receivedAgo": "Gönderildi: {when}", "findStudents": "Öğrenci bul"
+    },
+    "outreach": {
+      "title": "İletişim takipçisi", "subtitle": "Kimlerle iletişim kurduğunuzu, ne zaman takip edeceğinizi ve ne olduğunu kaydedin.", "emptyTitle": "Henüz takip edilen bir şey yok",
+      "emptyBody": "İletişiminizi izlemek ve takip tarihleri almak için araştırmacıları profillerinden ekleyin.", "find": "Profesör bul", "followUpDue": "Takip: {when}",
+      "overdue": "Takip gecikti", "sentOn": "Gönderildi: {date}", "repliedOn": "Yanıt geldi: {date}", "notes": "Notlar", "notesPlaceholder": "Hatırlamaya değer her şey…",
+      "status": "Durum", "remove": "Kaldır", "removeConfirm": "Bu araştırmacı takipçinizden kaldırılsın mı?", "planFollowUp": "Takipleri planla",
+      "helpTitle": "Kayıtlarınız herkese yardımcı olur",
+      "helpBody": "Araştırmacı profillerinde gösterilen yanıt oranları, sizinkiler gibi anonim ve toplulaştırılmış iletişim kayıtlarından gelir — tek tek hiçbir kayıt asla gösterilmez.",
+      "stats": { "total": "Takipte", "sent": "Gönderildi", "replied": "Yanıt geldi", "due": "Takibi gelenler" }
+    },
+    "saved": {
+      "title": "Kaydedilenler", "subtitle": "Yer imi eklediğiniz araştırmacılar ve pozisyonlar.", "professors": "Araştırmacılar", "positions": "Pozisyonlar",
+      "emptyProfessors": "Henüz kaydedilmiş araştırmacı yok", "emptyProfessorsBody": "Listenize eklemek için herhangi bir araştırmacının yer imine dokunun.",
+      "emptyPositions": "Henüz kaydedilmiş pozisyon yok", "emptyPositionsBody": "Daha sonrası için saklamak üzere bir pozisyonun yer imine dokunun."
+    },
+    "billing": {
+      "title": "Plan ve faturalandırma", "subtitle": "Erişiminiz, kullanımınız ve davet ödülleriniz.", "currentPlan": "Mevcut plan",
+      "plan": { "free": "Ücretsiz", "weekly": "Haftalık sprint", "semester": "Dönemlik paket", "lifetime": "Ömür boyu" },
+      "activeUntil": "{date} tarihine kadar etkin", "lifetimeNote": "Ömür boyu erişiminiz var.", "freeNote": "Ücretsiz plandasınız.", "upgrade": "Planları gör",
+      "usage": "Ücretsiz hak", "usageItem": "{limit} hakkın {used} tanesi kullanıldı", "unlimited": "Sınırsız",
+      "features": { "summary": "Profesör özetleri", "email_check": "E-posta denetimleri", "follow_up": "Takip planları", "match_positions": "Pozisyon eşleşmeleri", "match_professors": "Profesör eşleşmeleri" },
+      "referral": "Bir arkadaşınızı davet edin", "referralBody": "Kodunuzu paylaşın. Bir arkadaşınız onunla kaydolduğunda ikiniz de {days} gün Pro kazanırsınız.", "yourCode": "Kodunuz",
+      "copyCode": "Kodu kopyala", "copyLink": "Davet bağlantısını kopyala", "copied": "Kopyalandı", "redeemed_one": "{count} arkadaşınız kodunuzla katıldı", "redeemed_other": "{count} arkadaşınız kodunuzla katıldı",
+      "redeem": "Bir arkadaşınızın kodu var mı?", "redeemPlaceholder": "Kodu girin", "redeemCta": "Kullan", "redeemedOk": "Kod kullanıldı — {days} gün Pro eklendi.",
+      "checkoutSuccess": "Teşekkürler! Planınız birazdan etkinleşecek.", "devMode": "Bu ortamda ödemeler bağlı değil — planlar test için anında etkinleşir."
+    },
+    "settings": {
+      "title": "Ayarlar", "subtitle": "Hesabınız, diliniz ve güvenliğiniz.", "account": "Hesap", "name": "Ad soyad", "email": "E-posta", "emailNote": "E-postanız değiştirilemez.",
+      "language": "Dil", "languageHint": "Yapay zekânın yazdığı özetler ve geri bildirimler için de kullanılır.", "saveChanges": "Değişiklikleri kaydet", "saved": "Ayarlar kaydedildi",
+      "password": "Parola", "currentPassword": "Mevcut parola", "newPassword": "Yeni parola", "changePassword": "Parolayı değiştir", "passwordChanged": "Parola güncellendi",
+      "danger": "Hesabı sil", "dangerBody": "Bu işlem profilinizi, başvurularınızı ve hesabınıza bağlı her şeyi kalıcı olarak kaldırır. Geri alınamaz.",
+      "dangerConfirm": "Onaylamak için parolanızı girin", "deleteCta": "Hesabımı sil", "deleted": "Hesabınız silindi."
+    },
+    "lab": {
+      "title": "Laboratuvar ve araştırma", "subtitle": "Öğrenciler pozisyonlarınızı değerlendirirken bunu görür.", "createTitle": "Laboratuvarınızı oluşturun", "profileTitle": "Laboratuvar profili",
+      "name": "Laboratuvar adı", "university": "Üniversite", "department": "Bölüm", "description": "Açıklama", "descriptionHint": "Laboratuvarınız neyle uğraşıyor? Lisans öğrencileri için anlaşılır tutun.",
+      "keywords": "Araştırma anahtar kelimeleri", "keywordsHint": "Virgülle ayırın", "website": "Laboratuvar web sitesi", "culture": "Burada çalışmak nasıl",
+      "cultureHint": "Danışmanlık tarzı, toplantı ritmi, öğrencilerin sahiplendiği işler. Öğrenciler dürüstlüğe değer verir.", "teamSize": "Ekip büyüklüğü", "workStyle": "Laboratuvarınız nasıl çalışır",
+      "workStyleHint": "Öğrencilerle çalışma tarzlarını karşılaştırmak için kullanılır.", "openalex": "OpenAlex yazar kimliği", "openalexHint": "İsteğe bağlı. Labora laboratuvarınızı yayın profilinize bağlar (A ile başlar…).",
+      "saveLab": "Laboratuvarı kaydet", "createLab": "Laboratuvar oluştur", "created": "Laboratuvar oluşturuldu — şimdi araştırma materyalleri ekleyin ve bir pozisyon yayımlayın.", "updated": "Laboratuvar güncellendi",
+      "materials": "Araştırma materyalleri", "materialsHint": "Öğrencilerin çalışmanızı tanıyabilmesi için makaleler, veri kümeleri veya posterler paylaşın.", "nothingShared": "Henüz bir şey paylaşılmadı.",
+      "addMaterial": "Materyal ekle", "materialTitle": "Başlık", "materialType": "Tür", "materialLink": "Bağlantı", "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Kısa açıklama", "removeMaterial": "Bu materyal kaldırılsın mı?", "verificationTitle": "Doğrulama bekleniyor",
+      "verificationBody": "Profesör hesabınızı doğruladığımızda laboratuvarınız herkese açık olur. Süreci hızlandırmak için laboratuvar web sitesi ekleyin."
+    },
+    "positions": {
+      "title": "Pozisyonlar", "subtitle": "Pozisyonlarınız ve başvuranlar.", "new": "Yeni pozisyon", "emptyTitle": "Henüz pozisyon yok", "emptyBody": "Bir pozisyon yayımlayın ve başvuru almaya başlayın.",
+      "emptyLab": "Önce laboratuvar profilinizi oluşturun.", "post": "İlk pozisyonunuzu yayımlayın", "open": "Açık", "closed": "Kapalı", "close": "Kapat", "reopen": "Yeniden aç",
+      "edit": "Düzenle", "delete": "Sil", "deleteConfirm": "Bu pozisyon silinsin mi? Geri alınamaz.", "applicants": "Başvuranlar", "postedAgo": "Yayımlandı: {when}",
+      "viewPublic": "Herkese açık sayfayı gör", "newTitle": "Yeni pozisyon", "newSubtitle": "Pozisyonu tarif edin. İstediğiniz zaman düzenleyebilirsiniz.", "editTitle": "Pozisyonu düzenle",
+      "needLab": "Yayımlamadan önce bir laboratuvar profiline ihtiyacınız var.", "createLab": "Laboratuvarınızı oluşturun", "noApplicants": "Henüz başvuran yok",
+      "noApplicantsBody": "Pozisyonunuzu paylaşın veya «Öğrenci bul» ile uygun öğrencileri davet edin.", "decline": "Reddet", "accept": "Kabul et", "email": "Başvurana e-posta gönder", "resume": "Özgeçmiş",
+      "invitedBadge": "Sizin davetiniz", "profileIncomplete": "Profil eksik",
+      "form": {
+        "title": "Pozisyon başlığı", "titlePlaceholder": "Lisans araştırma asistanı: kendi kendine denetimli görü", "description": "Açıklama", "descriptionHint": "Öğrenci neyle uğraşacak? Ne öğrenecek?",
+        "requirements": "Gereksinimler", "requirementsHint": "Dersler veya deneyim (isteğe bağlı)", "skills": "Gerekli beceriler", "skillsHint": "Virgülle ayırın — eşleşme için kullanılır, örn. python, pytorch",
+        "compensation": "Ücret", "hours": "Saat / hafta", "term": "Dönem", "location": "Konum", "slots": "Kontenjan", "deadline": "Son başvuru", "keywords": "Anahtar kelimeler",
+        "keywordsHint": "Öğrencilerin pozisyonunuzu bulmasına yardımcı olur", "publish": "Pozisyonu yayımla", "saveChanges": "Değişiklikleri kaydet", "saved": "Pozisyon kaydedildi", "notSpecified": "Belirtilmedi"
+      }
+    },
+    "admin": {
+      "title": "Yönetim", "subtitle": "Profesörleri doğrulayın ve gönderilenleri inceleyin.", "overview": "Genel bakış",
+      "stats": {
+        "users": "Kullanıcılar", "students": "Öğrenciler", "professors": "Profesörler", "pending_professors": "Doğrulama bekleyen", "labs": "Laboratuvarlar", "open_positions": "Açık pozisyonlar",
+        "applications": "Başvurular", "invitations": "Davetler", "feedback": "Geri bildirim gönderileri", "waitlist": "Bekleme listesi", "paid_users": "Ücretli kullanıcılar"
+      },
+      "verification": "Profesör doğrulama", "onlyPending": "Yalnızca bekleyenler", "verify": "Doğrula", "unverify": "İptal et", "verifiedAt": "Doğrulandı", "pendingBadge": "Beklemede", "lab": "Laboratuvar",
+      "waitlist": "Bekleme listesi", "contact": "İletişim mesajları", "empty": "Burada henüz bir şey yok.", "notAdmin": "Bu alan yalnızca yöneticiler içindir.",
+      "verifiedToast": "Profesör doğrulandı", "revokedToast": "Doğrulama iptal edildi"
+    }
+  }
+}

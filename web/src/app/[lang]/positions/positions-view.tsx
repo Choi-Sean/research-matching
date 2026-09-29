@@ -55,7 +55,7 @@ export function PositionsView() {
               onClick={() => setCompensation(v)}
               aria-pressed={compensation === v}
               className={cn(
-                "rounded-full border px-3.5 py-1.5 text-sm transition-colors",
+                "rounded-full border px-3.5 py-1.5 text-sm transition-colors pointer-coarse:py-2.5",
                 compensation === v ? "border-brand bg-brand-soft text-brand-text" : "border-line text-muted hover:border-line-2 hover:text-ink",
               )}
             >

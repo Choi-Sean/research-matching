@@ -18,7 +18,7 @@ export function ArticleView({ slug }: { slug: string }) {
 
   return (
     <Container className="max-w-3xl py-10 sm:py-14">
-      <Link href="/blog" className="mb-8 inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink">
+      <Link href="/blog" className="mb-8 inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink pointer-coarse:-mt-3 pointer-coarse:mb-5 pointer-coarse:min-h-11">
         <ArrowLeft className="size-4 rtl:rotate-180" /> {t("blog.back")}
       </Link>
       <article>
@@ -31,7 +31,7 @@ export function ArticleView({ slug }: { slug: string }) {
             <span className="inline-flex items-center gap-1.5">
               <Clock className="size-4" /> {t("blog.minRead", { minutes: post.minutes })}
             </span>
-            <span>{fmt.date(post.date)}</span>
+            <span suppressHydrationWarning>{fmt.date(post.date)}</span>
           </p>
           {locale !== "en" && <p className="mt-3 text-sm text-faint">{t("blog.englishNote")}</p>}
         </header>

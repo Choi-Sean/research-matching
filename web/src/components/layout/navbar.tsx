@@ -39,7 +39,7 @@ import { LanguageSwitcher, ThemeSegmented, ThemeToggle } from "./preferences";
 export function Logo({ className }: { className?: string }) {
   const { t } = useI18n();
   return (
-    <Link href="/" className={cn("flex items-center gap-2.5 text-ink", className)} aria-label={t("nav.home")}>
+    <Link href="/" className={cn("flex min-h-11 items-center gap-2.5 text-ink", className)} aria-label={t("nav.home")}>
       <LogoMark />
       <Wordmark />
     </Link>
@@ -248,7 +248,7 @@ export function Navbar() {
             </DialogPrimitive.Trigger>
             <DialogPrimitive.Portal>
               <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-[var(--overlay)] data-[state=open]:animate-[fade-in_0.2s_ease-out]" />
-              <DialogPrimitive.Content className="fixed inset-y-0 end-0 z-50 flex w-[min(24rem,92vw)] flex-col overflow-y-auto border-s border-line bg-canvas p-5 shadow-pop focus:outline-none">
+              <DialogPrimitive.Content className="fixed inset-y-0 end-0 z-50 flex w-[min(24rem,92vw)] flex-col overflow-y-auto overscroll-contain border-s border-line bg-canvas p-5 pt-[max(1.25rem,env(safe-area-inset-top))] pb-[max(1.25rem,env(safe-area-inset-bottom))] shadow-pop focus:outline-none">
                 <DialogPrimitive.Title className="sr-only">{t("nav.menu")}</DialogPrimitive.Title>
                 <DialogPrimitive.Description className="sr-only">{t("nav.menu")}</DialogPrimitive.Description>
                 <div className="flex items-center justify-between">

@@ -105,7 +105,7 @@ export default function OutreachPage() {
                 onClick={() => setFilter(f)}
                 aria-pressed={filter === f}
                 className={cn(
-                  "rounded-full border px-4 py-1.5 text-sm font-medium capitalize transition-colors",
+                  "rounded-full border px-4 py-1.5 text-sm font-medium capitalize transition-colors pointer-coarse:py-2.5",
                   filter === f ? "border-brand bg-brand-soft text-brand-text" : "border-line text-muted hover:border-line-2 hover:text-ink",
                 )}
               >
@@ -119,7 +119,7 @@ export default function OutreachPage() {
               <Card key={e.id} className="p-5">
                 <div className="flex flex-wrap items-center gap-4">
                   <Avatar name={e.professor_name} size={42} />
-                  <div className="min-w-0 flex-1">
+                  <div className="min-w-0 flex-1 basis-48">
                     <Link href={`/professors/${e.openalex_id}`} className="font-semibold text-ink hover:text-brand-text">
                       {e.professor_name}
                     </Link>
@@ -134,11 +134,11 @@ export default function OutreachPage() {
                       )}
                     </div>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 max-sm:w-full">
                     <Badge tone={TONE[e.status]} className="hidden sm:inline-flex">
                       {labels.outreach(e.status)}
                     </Badge>
-                    <div className="w-40">
+                    <div className="w-40 max-sm:w-full">
                       <NativeSelect aria-label={t("dash.outreach.status")} value={e.status} onChange={(ev) => update(e, { status: ev.target.value as OutreachStatus })} className="h-9 text-sm">
                         {STATUSES.map((s) => (
                           <option key={s} value={s}>

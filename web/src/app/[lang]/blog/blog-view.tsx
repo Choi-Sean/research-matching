@@ -28,7 +28,7 @@ export function BlogView() {
             onClick={() => setCat(c)}
             aria-pressed={cat === c}
             className={cn(
-              "rounded-full border px-4 py-1.5 text-sm font-medium transition-colors",
+              "rounded-full border px-4 py-1.5 text-sm font-medium transition-colors pointer-coarse:py-2.5",
               cat === c ? "border-brand bg-brand-soft text-brand-text" : "border-line text-muted hover:border-line-2 hover:text-ink",
             )}
           >
@@ -55,7 +55,7 @@ export function BlogView() {
               <span className="inline-flex items-center gap-1.5">
                 <Clock className="size-4" /> {t("blog.minRead", { minutes: featured.minutes })}
               </span>
-              <span>{fmt.date(featured.date)}</span>
+              <span suppressHydrationWarning>{fmt.date(featured.date)}</span>
             </p>
             <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-text">
               {t("blog.read")} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5 rtl:rotate-180" />
@@ -84,7 +84,7 @@ export function BlogView() {
               <span className="inline-flex items-center gap-1.5">
                 <Clock className="size-3.5" /> {t("blog.minRead", { minutes: p.minutes })}
               </span>
-              <span>{fmt.date(p.date)}</span>
+              <span suppressHydrationWarning>{fmt.date(p.date)}</span>
             </p>
           </Link>
         ))}

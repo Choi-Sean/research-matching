@@ -69,9 +69,9 @@ export default function MyPositions() {
         <div className="space-y-3">
           {data.map((p) => (
             <Card key={p.id} className="flex flex-wrap items-center gap-4 p-5">
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0 flex-1 basis-48">
                 <div className="flex flex-wrap items-center gap-2">
-                  <Link href={`/dashboard/positions/${p.id}`} className="font-semibold text-ink hover:text-brand-text">
+                  <Link href={`/dashboard/positions/${p.id}`} className="font-semibold text-ink hover:text-brand-text pointer-coarse:-my-2 pointer-coarse:py-2">
                     {p.title}
                   </Link>
                   <Badge tone={p.status === "open" ? "good" : "neutral"}>{p.status === "open" ? t("dash.positions.open") : t("dash.positions.closed")}</Badge>
@@ -81,10 +81,10 @@ export default function MyPositions() {
                   {t("dash.positions.postedAgo", { when: fmt.relative(p.created_at) })}
                 </p>
               </div>
-              <Link href={`/dashboard/positions/${p.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-text">
+              <Link href={`/dashboard/positions/${p.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-text pointer-coarse:min-h-10">
                 <Users className="size-4" /> {tp("dash.overview.applicantsCount", p.applicant_count)}
               </Link>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 <Button asChild variant="secondary" size="sm">
                   <Link href={`/dashboard/positions/${p.id}/edit`}>
                     <Pencil /> {t("dash.positions.edit")}

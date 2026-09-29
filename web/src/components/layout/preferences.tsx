@@ -91,7 +91,8 @@ export function ThemeSegmented() {
     { value: "system", icon: Monitor, label: t("nav.themeSystem") },
   ];
   return (
-    <div role="radiogroup" aria-label={t("nav.theme")} className="inline-flex rounded-xl border border-line bg-surface-2 p-1">
+    // max-w-full + truncating labels: in the narrow menu drawer even a long translation can never push it past the screen edge.
+    <div role="radiogroup" aria-label={t("nav.theme")} className="inline-flex max-w-full rounded-xl border border-line bg-surface-2 p-1">
       {items.map((i) => (
         <button
           key={i.value}
@@ -99,12 +100,12 @@ export function ThemeSegmented() {
           aria-checked={preference === i.value}
           onClick={() => setPreference(i.value)}
           className={cn(
-            "inline-flex h-8 items-center gap-1.5 rounded-lg px-3 text-xs font-medium transition-colors",
+            "inline-flex h-8 min-w-0 items-center gap-1.5 rounded-lg px-3 text-xs font-medium transition-colors pointer-coarse:h-10 pointer-coarse:text-sm",
             preference === i.value ? "bg-surface text-ink shadow-sm" : "text-muted hover:text-ink",
           )}
         >
-          <i.icon className="size-3.5" />
-          {i.label}
+          <i.icon className="size-3.5 shrink-0" />
+          <span className="truncate">{i.label}</span>
         </button>
       ))}
     </div>
