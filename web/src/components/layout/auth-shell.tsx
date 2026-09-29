@@ -14,7 +14,7 @@ export function AuthShell({ title, subtitle, children }: { title: string; subtit
         <div aria-hidden className="absolute -bottom-32 -end-24 size-[34rem] rounded-full opacity-70 blur-3xl" style={{ background: "radial-gradient(closest-side, rgb(84 104 255 / 0.4), transparent)" }} />
         <div aria-hidden className="absolute -top-24 -start-24 size-[22rem] rounded-full opacity-50 blur-3xl" style={{ background: "radial-gradient(closest-side, rgb(242 181 68 / 0.25), transparent)" }} />
         <div aria-hidden className="bg-grid absolute inset-0 opacity-40 [mask-image:radial-gradient(ellipse_70%_60%_at_30%_20%,black,transparent)]" style={{ ["--grid" as string]: "rgb(255 255 255 / 0.07)" }} />
-        <Link href="/" className="relative flex items-center gap-2.5 text-white">
+        <Link href="/" className="relative flex min-h-11 items-center gap-2.5 text-white">
           <LogoMark />
           <Wordmark />
         </Link>

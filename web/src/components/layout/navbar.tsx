@@ -75,13 +75,13 @@ function NavLink({ href, children, sparkle }: { href: string; children: ReactNod
       href={href}
       aria-current={active ? "page" : undefined}
       className={cn(
-        "relative inline-flex h-9 items-center gap-1.5 rounded-lg px-3 text-sm font-medium transition-colors",
+        "relative inline-flex h-9 items-center gap-1.5 rounded-lg px-3 text-sm font-medium transition-colors pointer-coarse:h-11",
         active ? "text-ink" : "text-muted hover:text-ink",
       )}
     >
       {sparkle && <Sparkles className="size-3.5 text-accent" aria-hidden />}
       {children}
-      {active && <span className="absolute inset-x-3 -bottom-[13px] h-0.5 rounded-full bg-brand" aria-hidden />}
+      {active && <span className="absolute inset-x-3 -bottom-[13px] h-0.5 rounded-full bg-brand pointer-coarse:-bottom-[9px]" aria-hidden />}
     </Link>
   );
 }
@@ -99,7 +99,7 @@ function UserMenu() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <button
-          className="group flex items-center gap-2 rounded-full border border-line bg-surface p-1 pe-2.5 shadow-sm transition-colors hover:border-line-2"
+          className="group flex items-center gap-2 rounded-full border border-line bg-surface p-1 pe-2.5 shadow-sm transition-colors hover:border-line-2 pointer-coarse:py-2 pointer-coarse:ps-2"
           aria-label={t("nav.account")}
         >
           <Avatar name={user.full_name} size={28} />
@@ -182,7 +182,7 @@ export function Navbar() {
             ))}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="group inline-flex h-9 items-center gap-1 rounded-lg px-3 text-sm font-medium text-muted transition-colors hover:text-ink data-[state=open]:text-ink">
+                <button className="group inline-flex h-9 items-center gap-1 rounded-lg px-3 text-sm font-medium text-muted transition-colors hover:text-ink data-[state=open]:text-ink pointer-coarse:h-11">
                   {t("nav.resources")}
                   <ChevronDown className="size-3.5 transition-transform group-data-[state=open]:rotate-180" />
                 </button>
