@@ -1,0 +1,38 @@
+{
+  "feedback": {
+    "title": "Feedback board",
+    "subtitle": "Help shape Labora. Suggest features, report bugs or share what's on your mind — and vote on what matters most.",
+    "kind": { "feature": "Feature request", "bug": "Bug report", "general": "General feedback" },
+    "status": { "open": "Open", "planned": "Planned", "in_progress": "In progress", "done": "Done" },
+    "newPost": "Share your thoughts",
+    "postTitle": "Title",
+    "postTitlePlaceholder": "A short summary",
+    "postBody": "Details",
+    "postBodyPlaceholder": "What would you like to see, or what went wrong?",
+    "post": "Post",
+    "posted": "Thanks — your post is live.",
+    "signIn": "Sign in to post and vote.",
+    "sortVotes": "Most voted",
+    "sortNew": "Newest",
+    "filterAll": "All",
+    "count_one": "{count} post",
+    "count_other": "{count} posts",
+    "empty": "Nothing here yet — be the first to post.",
+    "vote": "Vote",
+    "voted": "Voted",
+    "by": "by {name}"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Questions, ideas, or need help with your account? We read every message.",
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "send": "Send message",
+    "sent": "Thanks — we'll be in touch soon.",
+    "professorsTitle": "Are you a professor?",
+    "professorsBody": "We verify professor accounts before labs go public. If your institution uses an email domain we don't recognise, tell us here.",
+    "privacy": "We'll only use your details to reply to this message."
+  }
+}

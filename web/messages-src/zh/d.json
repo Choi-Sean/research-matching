@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "你的下一个突破，始于合适的实验室。",
+      "p1": "从全球学术记录中发现研究者", "p2": "在动笔之前先读懂他们的工作", "p3": "根据技能和你喜欢的工作方式获得匹配",
+      "footer": "为学生和教授，用你的语言。"
+    },
+    "login": {
+      "title": "欢迎回来", "subtitle": "登录以继续。", "email": "邮箱", "emailPlaceholder": "you@university.edu", "password": "密码",
+      "submit": "登录", "noAccount": "还没有账户？", "signUp": "注册", "forgot": "忘记密码？",
+      "forgotHelp": "请联系我们，我们会帮你重新登录。", "demo": "演示账户（密码：password123）",
+      "demoStudent": "学生", "demoProfessor": "教授", "demoAdmin": "管理员"
+    },
+    "register": {
+      "title": "创建账户", "subtitle": "使用你的大学邮箱加入，只需一分钟。", "iAm": "我是…", "student": "学生", "studentDesc": "寻找科研机会并获得匹配",
+      "professor": "教授", "professorDesc": "招募学生，分享你的工作", "fullName": "姓名", "fullNamePlaceholderStudent": "李明", "fullNamePlaceholderProfessor": "王教授",
+      "email": "大学邮箱", "emailHint": "请使用以 .edu、.ac.uk、.edu.cn 或类似学术域名结尾的地址。", "password": "密码", "passwordHint": "至少 8 个字符。",
+      "referral": "朋友的邀请码", "referralHint": "有朋友给的邀请码吗？你们都能获得一周 Pro。",
+      "consent": "创建账户即表示你同意我们的<terms>服务条款</terms>和<privacy>隐私政策</privacy>。",
+      "submit": "创建账户", "haveAccount": "已有账户？", "signIn": "登录",
+      "professorNote": "教授账户需经我们团队认证后，你的实验室和职位才会公开。"
+    }
+  },
+  "discover": {
+    "title": "找到你的科研教授", "subtitle": "在全球学术记录中，搜索正活跃发表你所关心主题论文的研究者。",
+    "modeInterest": "按兴趣", "modeName": "按姓名", "interestLabel": "研究兴趣", "interestPlaceholder": "例如：计算神经科学", "nameLabel": "研究者姓名", "namePlaceholder": "例如：Jane Smith",
+    "universityLabel": "大学", "universityPlaceholder": "任意大学", "universityHint": "从列表中选择以搜索某一所机构。", "search": "搜索", "searching": "搜索中…",
+    "sortBy": "排序方式", "minH": "最低 h 指数", "minHAny": "不限", "filters": "筛选", "resultsFor": "“{q}”相关研究者", "resultsAt": "· {university}",
+    "resultsCount_other": "{count} 位研究者", "noResults": "没有找到研究者", "noResultsBody": "试试更宽泛的兴趣、换个拼写，或去掉大学筛选。",
+    "startTitle": "从你好奇的事情开始",
+    "startBody": "试试“蛋白质折叠”或“气候政策”这样的主题，如果有心仪的大学也可以加上，我们会显示谁在发表相关论文。",
+    "noteTitle": "结果是如何排序的",
+    "noteBody": "研究者按其近期在你所选主题上的发表量排序，并根据他们在该领域的地位加权。学术数据库不记录“教授”之类的头衔，因此请通过摘要和论文来判断是否合适。",
+    "hIndex": "h 指数", "papers": "篇论文", "citations": "次引用", "recentWorks": "近 3 年", "onTopic": "该主题", "onLabora": "已入驻 Labora", "viewProfile": "查看主页",
+    "save": "收藏", "saved": "已收藏", "loadMore": "显示更多研究者", "yourInterest": "你的兴趣",
+    "disclaimer": "数据来自 OpenAlex。所属机构以最新的论文记录为准，可能滞后于实际情况。", "signInToSave": "登录后可将研究者加入你的候选名单。",
+    "savedToast": "已加入候选名单", "removedToast": "已从候选名单中移除", "clearFilters": "清除筛选", "universityAny": "任意大学",
+    "searchingAt": "正在搜索 {university} 的研究者", "lookingUp": "正在查找机构…"
+  },
+  "professor": {
+    "back": "返回搜索", "notFoundTitle": "找不到该研究者", "notFoundBody": "链接可能有误，或学术数据库正忙。请重新搜索。",
+    "orcid": "ORCID", "openalex": "OpenAlex 主页", "onLabora": "在 Labora 上运营实验室", "viewLab": "查看他们的实验室",
+    "stats": { "hIndex": "h 指数", "papers": "论文", "citations": "引用", "recent": "近 3 年", "i10": "i10 指数" },
+    "tabs": { "overview": "概览", "papers": "论文", "contact": "联系方式" },
+    "summary": {
+      "title": "用通俗语言讲他们的工作", "cta": "解读他们的工作", "ctaBody": "获得一份简短摘要：他们研究什么、一项最新发现，以及值得一问的问题。",
+      "loading": "正在阅读他们最近的论文…", "overview": "他们研究什么", "keyFinding": "一项最新发现", "fromPaper": "出自：{title}", "topics": "研究领域，通俗地说",
+      "goodFit": "如果你……，你可能很合适", "starters": "值得一问的问题", "startersHint": "把这些当作激发你自己好奇心的提示——教授能分辨问题是否出自真心。",
+      "aiBadge": "AI 摘要", "extractiveBadge": "自动摘要", "extractiveNote": "此服务器未启用 AI 摘要，因此内容直接由他们的论文数据整理而成（英文）。",
+      "aiNote": "由 AI 根据公开摘要撰写，请务必查阅论文。", "quota": "已使用 {used} / {limit} 次免费摘要", "quotaPro": "无限摘要",
+      "signInTitle": "登录后阅读摘要", "signInBody": "免费账户可查看几位研究者的通俗摘要、关键发现和开场话题。",
+      "upgrade": "获取无限摘要", "limitTitle": "你已用完免费摘要", "limitBody": "通行证可解锁无限摘要、邮箱查找等功能。"
+    },
+    "topics": "研究主题", "activity": "每年发表数量",
+    "papers": { "recent": "最新", "top": "被引最多", "empty": "没有找到论文。", "abstract": "摘要", "cited": "{n} 次引用", "openAccess": "开放获取", "viewPaper": "查看论文" },
+    "contact": {
+      "title": "邮箱查找", "lockedTitle": "解锁邮箱查找与回复率", "lockedBody": "查看可能的机构邮箱地址，以及学生获得回复的频率。任何通行证均包含。",
+      "seePlans": "查看方案", "guessNote": "这些是根据常见命名规则推测的，并非经过验证的地址。发送前请先在教师名录中确认。",
+      "pattern": "格式：{pattern}", "mostCommon": "最常见", "copy": "复制地址", "copied": "地址已复制", "compose": "在邮件应用中打开",
+      "directory": "搜索教师名录", "noDomain": "我们无法确定该机构的邮箱域名。", "responsiveness": "回复率",
+      "resp": { "high": "经常回复", "medium": "有时回复", "low": "很少回复", "unknown": "报告尚不足" },
+      "respBody": "基于 {n} 条学生联系记录。{rate}回复了{days}。", "respDays": "，通常在 {days} 天内",
+      "respUnknown": "只有当至少 3 名学生记录了对这位研究者的联系后，才会显示。记录你的联系，帮助更多人。",
+      "labDays": "他们在 Labora 上的实验室通常会在 {days} 天内回复申请。", "logOutreach": "记录我的联系"
+    },
+    "sidebar": {
+      "writeTitle": "准备好联系了吗？", "writeBody": "先写好邮件，再对照教授们口中会被直接删除的写法进行检查。", "writeCta": "检查我的邮件",
+      "trackTitle": "联系记录", "trackBody": "记录你联系过谁，以及何时跟进。", "trackStart": "加入联系记录", "status": "状态",
+      "tracked": "已加入你的联系记录", "saveError": "无法更新联系记录"
+    }
+  },
+  "positions": {
+    "title": "开放职位", "subtitle": "由已认证教授直接发布的科研岗位。先读他们的研究，再申请。", "searchLabel": "搜索",
+    "searchPlaceholder": "主题、技能或实验室名称", "filters": "筛选", "compensation": "薪酬", "location": "地点", "term": "学期", "university": "大学", "universityPlaceholder": "例如：MIT",
+    "department": "院系", "departmentPlaceholder": "例如：生物学", "any": "不限", "count_other": "{count} 个职位", "searching": "搜索中…",
+    "noResults": "没有符合搜索条件的职位", "noResultsBody": "试试更宽泛的关键词，或去掉某个筛选条件。你也可以直接搜索教授——联系他们并不需要对方有开放职位。",
+    "discoverCta": "查找教授", "clear": "清除筛选", "postedAgo": "{when}发布", "closes": "{when}截止", "applyBy": "请于 {date} 前申请", "deadlinePassed": "已过截止日期",
+    "slots_other": "{count} 个名额", "backToAll": "全部职位", "about": "关于这个岗位", "requirements": "我们在寻找", "skills": "技能", "research": "阅读实验室的研究",
+    "researchHint": "申请之前，先熟悉一下他们的工作。", "noMaterials": "还没有分享研究资料。", "aboutLab": "关于实验室", "viewLab": "查看实验室资料",
+    "website": "实验室网站", "notFound": "找不到该职位", "verifiedLab": "已认证实验室",
+    "apply": {
+      "title": "申请", "label": "你为什么合适？", "placeholder": "分享你的兴趣、相关课程和可用时间…", "submit": "提交申请",
+      "shared": "你的资料将分享给教授。", "sent": "申请已发送", "status": "状态", "track": "跟踪申请", "signIn": "请使用学生账户登录后申请。",
+      "signInCta": "登录后申请", "newHere": "第一次来？", "createAccount": "创建账户", "professorNote": "你当前以教授身份登录，只有学生可以申请。",
+      "closedNote": "该职位已不再接受申请。", "completeProfile": "完善你的资料，让教授看到你做过的事。", "toProfile": "更新资料",
+      "fitHint": "写得具体些：你做过的一件事、你想学的一件事，以及你何时有空。"
+    }
+  },
+  "lab": {
+    "notFound": "找不到该实验室", "notFoundBody": "该实验室可能未公开，或链接有误。", "openPositions": "开放职位", "noPositions": "目前没有开放职位",
+    "noPositionsBody": "请稍后再来看看——这个实验室可能会发布新的职位。你也可以直接联系他们。", "materials": "研究资料", "culture": "在这里工作是什么样的",
+    "teamSize": "{count} 人团队", "workStyle": "实验室如何工作", "website": "实验室网站", "professor": "课题负责人（PI）", "verified": "已认证"
+  },
+  "community": {
+    "feedback": {
+      "title": "反馈板", "subtitle": "帮助我们塑造 Labora。提出功能建议、报告问题或说出你的想法——并为最重要的事投票。",
+      "kind": { "feature": "功能建议", "bug": "问题报告", "general": "一般反馈" },
+      "status": { "open": "待处理", "planned": "已计划", "in_progress": "进行中", "done": "已完成" },
+      "newPost": "分享你的想法", "postTitle": "标题", "postTitlePlaceholder": "简短概述", "postBody": "详情", "postBodyPlaceholder": "你希望看到什么，或者哪里出了问题？",
+      "post": "发布", "posted": "谢谢——你的帖子已发布。", "signIn": "登录后即可发帖和投票。", "sortVotes": "票数最多", "sortNew": "最新", "filterAll": "全部",
+      "count_other": "{count} 篇帖子", "empty": "这里还什么都没有——来发第一帖吧。", "vote": "投票", "voted": "已投票", "by": "作者：{name}"
+    },
+    "contact": {
+      "title": "联系我们", "subtitle": "有问题、想法，或需要账户帮助？我们会阅读每一条消息。", "name": "你的姓名", "email": "你的邮箱",
+      "message": "留言", "messagePlaceholder": "有什么可以帮你？", "send": "发送留言", "sent": "谢谢——我们很快会与你联系。",
+      "professorsTitle": "你是教授吗？",
+      "professorsBody": "实验室公开之前，我们会先认证教授账户。如果你所在机构使用的邮箱域名我们无法识别，请在这里告诉我们。",
+      "privacy": "我们只会用你的信息回复这条留言。"
+    }
+  }
+}

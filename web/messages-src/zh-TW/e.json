@@ -1,0 +1,143 @@
+{
+  "tools": {
+    "emailChecker": {
+      "title": "郵件檢查器",
+      "subtitle": "貼上你的草稿，精準看出哪些說法會讓教授停止閱讀。我們絕不改寫你的郵件——你的文字風格由你自己保留。",
+      "subject": "郵件主旨", "subjectPlaceholder": "例如：關於您深度估計論文的一個問題", "body": "你的郵件", "bodyPlaceholder": "敬愛的教授……",
+      "professorContext": "正對照 {name} 近期的研究進行檢查", "removeContext": "移除",
+      "check": "檢查我的郵件", "checking": "正在閱讀你的郵件…", "example": "試試一個有問題的範例", "clear": "清除",
+      "words": "{count} 字", "wordsHint": "建議 90–180 字",
+      "resultsTitle": "檢查結果", "emptyTitle": "你的回饋會顯示在這裡", "emptyBody": "在左側撰寫或貼上郵件，然後按下「檢查我的郵件」。",
+      "score": "評分", "highlights": "標註後的郵件", "issues": "需要修改的地方", "noIssues": "沒有需要修改的地方——讀起來很不錯。", "strengths": "做得好的地方",
+      "aiSummary": "整體印象", "soundsGeneric": "寄給誰都行的郵件",
+      "soundsGenericHint": "這封郵件不做任何修改就能寄給任何一位教授的程度。",
+      "aiUsed": "包含 AI 審閱", "rulesOnly": "以規則為基礎的審閱",
+      "englishOnly": "措辭檢查目前僅適用於英文郵件；長度與結構檢查仍然有效。",
+      "signInTitle": "登入後檢查你的郵件", "signInBody": "免費帳號包含 1 次檢查，通行證可解鎖無限次檢查。",
+      "limitTitle": "你已用完免費檢查", "limitBody": "通行證可解鎖無限次郵件檢查、電子郵件查詢與無限摘要。",
+      "quota": "已使用 {used} / {limit} 次免費檢查", "quotaPro": "無限檢查",
+      "noRewrite": "我們會指出問題，但絕不替你寫郵件——教授會回覆有自己聲音的學生。",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": { "tone": "語氣", "specificity": "具體性", "voice": "個人風格", "clarity": "清晰度", "ask": "請求", "etiquette": "禮節", "subject": "主旨" },
+      "gradeDesc": {
+        "excellent": "具體、簡潔、清楚，可以寄出了。",
+        "good": "一份紮實的草稿——再做幾處小修改會更好。",
+        "needs_work": "有幾處可能導致郵件被忽略，請先修改標紅的項目。",
+        "risky": "這封郵件很可能被直接刪除，寄出前請重新修改。"
+      },
+      "severity": { "high": "優先修改", "medium": "建議修改", "low": "小問題" },
+      "flags": {
+        "flattery": { "title": "過度奉承", "tip": "教授每天都會聽到「開創性的」這類詞。請改為說出引起你注意的具體結果或方法。" },
+        "generic_phrase": { "title": "套話", "tip": "「非常積極主動」這類說法適用於任何人。請用你真正做過的事來證明。" },
+        "ai_sounding": { "title": "像機器寫的", "tip": "這種說法常見於 AI 生成的文字。請用你說話時的方式來表達。" },
+        "bad_salutation": { "title": "稱呼過於籠統", "tip": "“Dear Sir”像是群發郵件。請用“Dear Professor [姓氏]”，並檢查拼字。" },
+        "informal": { "title": "過於隨意", "tip": "保持友善而專業的語氣——避免網路用語與縮寫。" },
+        "missing_name": { "title": "稱呼中沒有姓名", "tip": "請稱呼教授的姓名：“Dear Professor Rivera,”。" },
+        "name_not_mentioned": { "title": "沒有提到教授的姓名", "tip": "請確保郵件明確是寫給這位特定的人。" },
+        "no_specific_reference": { "title": "沒有提到他們的研究", "tip": "提到這位教授的一篇具體論文、方法或發現——並問一個它讓你產生的疑問。" },
+        "low_specificity": { "title": "缺乏具體內容", "tip": "這裡沒有哪一句不能寄給任何教授。請加入一篇論文、一個年份、一項結果或一個具體問題。" },
+        "no_own_work": { "title": "沒有呈現你做過的事", "tip": "加入一件你親手做過、分析過、讀過或修過的具體事情——哪怕只是一個小專案。" },
+        "no_clear_ask": { "title": "沒有明確的請求", "tip": "明確說出你想請對方做什麼：一次交流、一個志工職務，或推薦其他人。" },
+        "no_signoff": { "title": "沒有結尾署名", "tip": "以簡短的感謝與你的全名作結。" },
+        "exclamation": { "title": "驚嘆號過多", "tip": "一個沒問題，兩個以上會顯得過於興奮。讓內容來傳達你的熱情。" },
+        "emoji": { "title": "表情符號", "tip": "寄給教授的第一封郵件裡不要使用表情符號。" },
+        "all_caps": { "title": "全部大寫", "tip": "大寫單字讀起來像在大吼，請使用正常大小寫。" },
+        "too_short": { "title": "太短", "tip": "不到約 45 個字通常說不清楚。請加入你做過的事與你的請求。" },
+        "too_long": { "title": "太長", "tip": "目標是 90–180 字。刪去教授做決定時不需要的背景資訊。" },
+        "wall_of_text": { "title": "大段文字", "tip": "分成 2–3 個短段落，方便快速瀏覽。" },
+        "no_subject": { "title": "沒有主旨", "tip": "清楚的主旨能讓郵件被打開：提到主題或論文。" },
+        "subject_generic": { "title": "主旨過於籠統", "tip": "“Research”可以指任何東西。試著寫出你所指的論文或主題。" },
+        "subject_short": { "title": "主旨太短", "tip": "多加幾個字說明背景，讓教授知道郵件的內容。" },
+        "subject_long": { "title": "主旨太長", "tip": "請控制在約 90 個字元以內。" },
+        "subject_shouty": { "title": "主旨過於誇張", "tip": "避免使用大寫與“urgent”之類的詞——它們看起來像垃圾郵件。" },
+        "ai_note": { "title": "審閱備註", "tip": "" }
+      },
+      "strengthLabels": {
+        "personal_greeting": "稱呼了教授的姓名", "specific_reference": "提到了他們的具體研究", "shows_own_work": "呈現了你做過的事",
+        "clear_ask": "提出了明確的請求", "redirect_offer": "替對方留了轉介的餘地", "states_availability": "說明了你可投入的時間或時程", "concise": "長度恰當"
+      }
+    },
+    "followUp": {
+      "title": "跟進規劃器", "subtitle": "還沒收到回覆？貼上你寄出的郵件，取得兩封時機恰當、聽起來像你自己的跟進郵件。",
+      "email": "你寄出的郵件", "emailPlaceholder": "貼上你的原始郵件…", "subject": "原郵件主旨", "sentOn": "寄出日期",
+      "professorName": "教授姓名", "professorPlaceholder": "例如：Elena Rivera", "generate": "規劃我的跟進", "generating": "撰寫中…",
+      "timeline": "你的跟進時間軸", "step": "第 {n} 次跟進", "sendOn": "{date}寄出", "daysAfter": "首封郵件後第 {days} 天",
+      "copy": "複製訊息", "copied": "已複製", "addToCalendar": "加入行事曆", "editHint": "請自由修改——這些只是讓你改成自己風格的草稿。",
+      "emptyTitle": "你的時間軸會顯示在這裡", "emptyBody": "兩次跟進，間隔適當，既能維持在對方的視野中，又不會造成打擾。",
+      "tipsTitle": "時機小訣竅", "tip1": "避開期末週、經費申請截止日與假期。", "tip2": "選在平日清晨寄出。",
+      "tip3": "跟進兩次後就該繼續前進——並請對方推薦其他人。",
+      "aiUsed": "由 AI 個人化", "templated": "以範本為基礎", "signInTitle": "登入後規劃你的跟進",
+      "limitTitle": "你已用完免費跟進計畫", "quota": "已使用 {used} / {limit} 次免費計畫"
+    },
+    "framework": {
+      "title": "陌生郵件架構", "subtitle": "根據「教授為什麼會回覆」設計的填空式結構。點選任一括號查看指引。",
+      "template": "範本", "tapHint": "點選括號查看如何填寫。", "guidance": "指引", "redFlags": "應避免的說法",
+      "redFlagsSub": "這些說法顯示你沒有做功課，請換成具體的內容。", "instead": "改為：", "cta": "檢查你自己的郵件",
+      "b1": { "label": "具體主題", "tip": "寫出確切的領域、方法或問題，而不是整個學科。「睡眠依賴的記憶鞏固」比「神經科學」好。" },
+      "b2": { "label": "具體的發現或引文", "tip": "指出他們近期某篇論文中的一項真實結果、圖表或句子。這一句能證明你讀過。" },
+      "b3": { "label": "你的研究切入點", "tip": "把它與你做過或想探索的事連結起來——一門課、一份資料集、一個專案。" },
+      "b4": { "label": "一個真誠的個人原因", "tip": "用一句誠實的話說明它為什麼對你重要。簡短而真實。" },
+      "b5": { "label": "顯示你讀過論文的好問題", "tip": "問一個論文讓你產生的疑問——限制、延伸或資料集。避免「請多介紹一下您的研究」。" },
+      "rf1": { "phrase": "I found your work fascinating and groundbreaking", "why": "教授每天都會聽到這句話。", "instead": "說出引起你注意的那項具體發現。" },
+      "rf2": { "phrase": "I am a highly motivated student", "why": "它沒有傳達任何資訊。", "instead": "透過你做過的事來展現積極性。" },
+      "rf3": { "phrase": "Your research aligns perfectly with my interests", "why": "太籠統，難以令人相信。", "instead": "說明具體的關聯在哪裡。" },
+      "rf4": { "phrase": "I would love to learn from you", "why": "這讓郵件變成在談你，而不是他們的研究。", "instead": "詢問他們研究中某個具體的部分。" },
+      "rf5": { "phrase": "I am passionate about this field", "why": "每個人都這麼說。", "instead": "描述你在這個領域實際做過的事。" }
+    },
+    "examples": {
+      "title": "有效的郵件——附註解", "subtitle": "我們撰寫了三封示意性郵件，展示能獲得回覆的寫法。請閱讀每一句旁邊的註解。",
+      "disclaimer": "這些是 Labora 團隊撰寫的示意性範例，並非真實往來的郵件。姓名與細節均為虛構。",
+      "example": "範例 {n}", "cta": "現在檢查你自己的郵件",
+      "e1": { "label": "大一，自學", "note1": "先從你自己的興趣與一項真實技能說起，再連結到他們的研究。", "note2": "只有讀過論文才提得出來的具體問題。", "note3": "一個門檻很低的直接請求——以及一個把「不」變成線索的轉介請求。" },
+      "e2": { "label": "有個人專案的大三學生", "note1": "展示你已在進行的專案——動手實作的興趣證明。", "note2": "技術深度：這個問題顯示你理解了方法，而不只是摘要。", "note3": "給出時程（今年夏天），並表示即使當志工也願意幫忙。" },
+      "e3": { "label": "人文／社會科學", "note1": "以你修過的一門課與讀過的一份資料為依據提出請求。", "note2": "詢問某個選擇背後的思路，而不是要一份總結。", "note3": "提供具體的協助：每週幾個小時的檔案編碼工作。" }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "共同主題：{items}", "skills_covered": "你已具備的技能：{items}", "style_aligned": "工作風格相近（{items}）", "hours_fit": "你的可投入時間符合需求",
+      "bonus_skills": "額外技能：{items}", "published_on_topics": "發表主題：{items}", "active_recently": "近 3 年發表 {items} 篇論文", "partial_topic_overlap": "重疊較少的主題：{items}",
+      "missing_skills": "需要培養的技能：{items}", "style_differs": "工作風格不同（{items}）", "hours_short": "可投入時間少於職缺期待"
+    },
+    "strong": "高度相符", "good": "相當相符", "partial": "部分相符", "tip": "如何脫穎而出", "why": "為什麼適合", "gaps": "需要了解",
+    "breakdown": { "topic": "主題", "skills": "技能", "bonus": "加分", "style": "工作風格", "hours": "可投入時間" },
+    "aiRefined": "經 AI 優化", "explainable": "可解釋的評分",
+    "student": {
+      "title": "AI 配對", "subtitle": "依你的技能、興趣與喜歡的工作方式，為職缺與教授排序。",
+      "tabPositions": "開放職缺", "tabProfessors": "全球教授", "run": "尋找我的配對", "rerun": "重新整理配對", "running": "配對中…",
+      "strengthTitle": "你的配對檔案", "strengthBody": "你提供的資訊越多，配對越精準。已完成 {score}%。", "improve": "改善檔案",
+      "missing": {
+        "skills": "新增你的技能", "interests": "描述你的興趣", "experience": "新增你已經做過的事", "bio": "寫一段簡短自我介紹", "major": "新增你的主修",
+        "availability": "設定你每週可投入的時間", "work_style": "設定你的工作風格"
+      },
+      "howTitle": "配對是如何運作的",
+      "how1": "我們將你的興趣、技能、經歷與可投入時間，與每個職缺或研究者比較。",
+      "how2": "我們也會比較工作風格——獨立性、團隊合作、節奏與結構。",
+      "how3": "AI 審閱者會優化排名靠前的結果並逐一說明。姓名、學校與其他個人特徵絕不會被使用。",
+      "noResultsTitle": "還沒有配對結果", "noResultsBody": "目前沒有可供配對的開放職缺。試試看全球教授吧。",
+      "searchedFor": "搜尋內容：{keywords}", "direction": "引導搜尋方向", "directionPlaceholder": "例如：神經編碼、醫學影像",
+      "university": "僅限某所大學", "apply": "查看並申請", "viewProfessor": "查看檔案", "writeEmail": "寫郵件",
+      "quota": "已使用 {used} / {limit} 次免費配對", "quotaPro": "無限配對", "limitTitle": "你已用完免費配對", "limitBody": "通行證可解鎖無限配對、摘要與電子郵件查詢。",
+      "professorsIntro": "我們會把你的檔案轉換成研究主題，並尋找正活躍發表這些主題論文的人。",
+      "emptyProfile": "請先新增一些技能與興趣，這樣我們才有東西可以配對。", "positionsFirst": "執行配對，查看最適合的職缺。"
+    },
+    "professor": {
+      "title": "找到你的理想學生", "subtitle": "描述你在尋找什麼樣的人——或讓 AI 根據你的職缺草擬——然後查看適合的學生。",
+      "unverifiedTitle": "等待驗證", "unverifiedBody": "教授帳號通過驗證後，即可使用人才搜尋。我們會盡快審核。",
+      "step1": "1. 從一個職缺開始", "step1Hint": "選填。選擇一個職缺作為檔案的基礎。", "noPosition": "不指定職缺",
+      "step2": "2. 你在尋找的人選", "notes": "用你自己的話說",
+      "notesPlaceholder": "例如：自我驅動、喜歡除錯、用過 PyTorch、每週能投入 10 小時的人。",
+      "draft": "用 AI 草擬人選檔案", "draftRule": "建立人選檔案", "drafting": "草擬中…", "personaHint": "可隨意修改——學生將與這份檔案進行比較。",
+      "headline": "一句話概括", "summary": "簡介", "mustHave": "必備", "niceToHave": "加分項", "traits": "個人特質", "keywords": "主題", "addChip": "輸入後按 Enter 新增",
+      "workStyle": "你希望的工作風格", "step3": "3. 適合的學生", "find": "尋找學生", "finding": "搜尋中…", "pool": "{count} 位學生已選擇公開",
+      "poolEmpty": "還沒有學生選擇公開。當學生開啟「可被探索」後，會顯示在這裡。", "left": "今天還剩 {count} 次搜尋", "invite": "邀請申請", "invited": "已邀請",
+      "inviteTitle": "邀請 {name}", "inviteBody": "對方會看到你的訊息，並可選擇接受或婉拒。在對方回覆之前，聯絡資訊保持私密。", "position": "職缺", "message": "你的訊息",
+      "messageDefault": "你好 {name}，你的背景看起來非常適合我們實驗室的「{position}」。你有興趣申請嗎？歡迎隨時提問。",
+      "sendInvite": "傳送邀請", "sent": "邀請已傳送", "selectPosition": "選擇要邀請的職缺", "privacy": "這裡只會顯示選擇「可被探索」的學生，且絕不顯示電子郵件。",
+      "noStudents": "還沒有相符的學生", "noStudentsBody": "試著放寬必備條件，或等更多學生加入後再來看看。", "available": "每週可投入 {hours} 小時", "skills": "技能",
+      "createPositionFirst": "刊登一個職缺，才能邀請學生申請。", "labFirst": "請先設定你的實驗室檔案。"
+    },
+    "ai": { "notEnabled": "此伺服器未啟用 AI 優化——配對使用可解釋的規則式評分。" }
+  }
+}

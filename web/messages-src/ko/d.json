@@ -1,0 +1,124 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "다음 돌파구는 나에게 맞는 연구실에서 시작됩니다.",
+      "p1": "세계 학술 기록에서 연구자를 찾아보세요", "p2": "한 글자 쓰기 전에 연구를 이해하세요", "p3": "역량과 일하는 방식이 맞는 곳과 매칭되세요",
+      "footer": "학생과 교수를 위해, 내 언어로."
+    },
+    "login": {
+      "title": "다시 오신 것을 환영합니다", "subtitle": "로그인하고 계속하세요.", "email": "이메일", "emailPlaceholder": "you@university.edu",
+      "password": "비밀번호", "submit": "로그인", "noAccount": "계정이 없으신가요?", "signUp": "회원가입",
+      "forgot": "비밀번호를 잊으셨나요?", "forgotHelp": "문의해 주시면 다시 들어오실 수 있도록 도와드릴게요.",
+      "demo": "데모 계정 (비밀번호: password123)", "demoStudent": "학생", "demoProfessor": "교수", "demoAdmin": "관리자"
+    },
+    "register": {
+      "title": "계정 만들기", "subtitle": "대학 이메일로 가입하세요. 1분이면 됩니다.", "iAm": "저는…",
+      "student": "학생", "studentDesc": "연구를 찾고 매칭받기", "professor": "교수", "professorDesc": "학생 모집, 연구 소개",
+      "fullName": "이름", "fullNamePlaceholderStudent": "홍길동", "fullNamePlaceholderProfessor": "김민수 교수",
+      "email": "대학 이메일", "emailHint": ".edu, .ac.kr 등 학술 도메인 주소를 사용하세요.",
+      "password": "비밀번호", "passwordHint": "8자 이상.", "referral": "친구 코드", "referralHint": "친구에게 받은 코드가 있나요? 둘 다 프로 1주일을 받아요.",
+      "consent": "계정을 만들면 <terms>이용약관</terms> 및 <privacy>개인정보처리방침</privacy>에 동의하는 것으로 간주됩니다.",
+      "submit": "계정 만들기", "haveAccount": "이미 계정이 있으신가요?", "signIn": "로그인",
+      "professorNote": "교수 계정은 연구실과 공고가 공개되기 전에 팀이 인증합니다."
+    }
+  },
+  "discover": {
+    "title": "나의 연구 교수님 찾기", "subtitle": "세계 학술 기록에서, 관심 분야를 활발히 연구하는 연구자를 검색하세요.",
+    "modeInterest": "관심 분야로", "modeName": "이름으로", "interestLabel": "연구 관심 분야", "interestPlaceholder": "예: 계산 신경과학",
+    "nameLabel": "연구자 이름", "namePlaceholder": "예: Jane Smith", "universityLabel": "대학", "universityPlaceholder": "모든 대학",
+    "universityHint": "목록에서 선택하면 한 기관만 검색합니다.", "search": "검색", "searching": "검색 중…", "sortBy": "정렬", "minH": "최소 h-index", "minHAny": "전체",
+    "filters": "필터", "resultsFor": "“{q}” 연구자", "resultsAt": "· {university}",
+    "resultsCount_other": "연구자 {count}명", "noResults": "연구자를 찾지 못했습니다",
+    "noResultsBody": "더 넓은 관심 분야를 입력하거나 철자를 바꾸거나 대학 필터를 지워 보세요.",
+    "startTitle": "궁금한 것부터 시작해 보세요",
+    "startBody": "“단백질 접힘”이나 “기후 정책” 같은 주제를 입력하고, 생각해 둔 대학이 있다면 함께 입력하세요. 그 분야를 연구하는 사람을 보여 드립니다.",
+    "noteTitle": "결과는 어떻게 정렬되나요", "noteBody": "최근 내 주제로 얼마나 많이 연구했는지와 해당 분야에서의 입지를 함께 고려해 정렬합니다. “교수” 같은 직함은 학술 데이터베이스에 기록되지 않으므로, 요약과 논문으로 적합성을 판단하세요.",
+    "hIndex": "h-index", "papers": "논문", "citations": "인용", "recentWorks": "최근 3년", "onTopic": "해당 주제", "onLabora": "Labora에 있음",
+    "viewProfile": "프로필 보기", "save": "저장", "saved": "저장됨", "loadMore": "연구자 더 보기", "yourInterest": "내 관심 분야",
+    "disclaimer": "데이터 출처: OpenAlex. 소속은 최신 논문 기록을 반영하며 실제와 차이가 있을 수 있어요.",
+    "signInToSave": "관심 목록에 저장하려면 로그인하세요.", "savedToast": "관심 목록에 저장했습니다", "removedToast": "관심 목록에서 제거했습니다",
+    "clearFilters": "필터 지우기", "universityAny": "모든 대학", "searchingAt": "{university}의 연구자를 검색 중", "lookingUp": "기관을 찾는 중…"
+  },
+  "professor": {
+    "back": "검색으로 돌아가기", "notFoundTitle": "해당 연구자를 찾을 수 없습니다", "notFoundBody": "링크가 잘못되었거나 학술 데이터베이스가 혼잡할 수 있어요. 다시 검색해 보세요.",
+    "orcid": "ORCID", "openalex": "OpenAlex 프로필", "onLabora": "Labora에서 연구실 운영 중", "viewLab": "연구실 보기",
+    "stats": { "hIndex": "h-index", "papers": "논문", "citations": "인용", "recent": "최근 3년", "i10": "i10-index" },
+    "tabs": { "overview": "개요", "papers": "논문", "contact": "연락" },
+    "summary": {
+      "title": "연구를 쉬운 말로", "cta": "연구 설명 보기", "ctaBody": "무엇을 연구하는지, 최근 발견 하나, 물어볼 만한 질문을 짧게 정리해 드려요.",
+      "loading": "최근 논문을 읽는 중…", "overview": "연구 내용", "keyFinding": "최근 발견", "fromPaper": "출처: {title}",
+      "topics": "연구 분야를 쉽게 말하면", "goodFit": "이런 분에게 잘 맞아요…", "starters": "물어볼 만한 질문",
+      "startersHint": "내 호기심을 위한 힌트로 활용하세요. 진짜 궁금해서 던진 질문은 교수님이 알아봅니다.",
+      "aiBadge": "AI 요약", "extractiveBadge": "자동 요약",
+      "extractiveNote": "이 서버에서는 AI 요약이 꺼져 있어, 논문 데이터에서 직접 조합했습니다 (영어).",
+      "aiNote": "공개된 초록을 바탕으로 AI가 작성했습니다. 반드시 논문을 확인하세요.",
+      "quota": "무료 요약 {limit}회 중 {used}회 사용", "quotaPro": "무제한 요약",
+      "signInTitle": "요약을 보려면 로그인하세요", "signInBody": "무료 계정은 몇몇 연구자에 대해 쉬운 말 요약, 핵심 발견, 대화 시작 질문을 제공합니다.",
+      "upgrade": "무제한 요약 받기", "limitTitle": "무료 요약을 모두 사용했습니다", "limitBody": "이용권으로 무제한 요약, 이메일 찾기 등을 이용하세요."
+    },
+    "topics": "연구 주제", "activity": "연도별 논문 수",
+    "papers": { "recent": "최신순", "top": "인용 많은 순", "empty": "논문을 찾을 수 없습니다.", "abstract": "초록", "cited": "인용 {n}회", "openAccess": "오픈 액세스", "viewPaper": "논문 보기" },
+    "contact": {
+      "title": "이메일 찾기", "lockedTitle": "이메일 찾기와 응답률 잠금 해제",
+      "lockedBody": "가능성 높은 기관 이메일 주소와 학생들이 답장을 받는 빈도를 확인하세요. 모든 이용권에 포함됩니다.",
+      "seePlans": "요금제 보기",
+      "guessNote": "일반적인 이름 규칙으로 추측한 주소이며 확인된 주소가 아닙니다. 보내기 전에 교수 디렉터리에서 확인하세요.",
+      "pattern": "형식: {pattern}", "mostCommon": "가장 흔한 형식", "copy": "주소 복사", "copied": "주소를 복사했습니다", "compose": "메일 앱에서 열기",
+      "directory": "교수 디렉터리에서 검색", "noDomain": "이 기관의 이메일 도메인을 알 수 없습니다.",
+      "responsiveness": "응답률",
+      "resp": { "high": "자주 답장함", "medium": "가끔 답장함", "low": "거의 답장하지 않음", "unknown": "아직 보고가 부족함" },
+      "respBody": "학생 {n}명의 연락 기록 기준. {rate}가 답장을 받았어요{days}.",
+      "respDays": " (보통 {days}일 이내)",
+      "respUnknown": "이 연구자에게 최소 3명의 학생이 연락 기록을 남겨야 표시됩니다. 내 기록이 다른 학생에게 도움이 돼요.",
+      "labDays": "Labora의 이 연구실은 보통 {days}일 이내에 지원에 답합니다.", "logOutreach": "연락 기록하기"
+    },
+    "sidebar": {
+      "writeTitle": "연락할 준비가 되셨나요?", "writeBody": "메일을 작성한 뒤, 교수님들이 삭제하는 패턴과 비교해 점검하세요.", "writeCta": "내 메일 점검",
+      "trackTitle": "연락 트래커", "trackBody": "누구에게 연락했고 언제 후속 연락할지 기록하세요.", "trackStart": "트래커에 추가",
+      "status": "상태", "tracked": "트래커에 추가했습니다", "saveError": "트래커를 업데이트하지 못했습니다"
+    }
+  },
+  "positions": {
+    "title": "연구 공고", "subtitle": "인증된 교수가 직접 올린 연구 자리입니다. 먼저 연구를 읽고 지원하세요.",
+    "searchLabel": "검색", "searchPlaceholder": "주제, 역량, 연구실 이름", "filters": "필터", "compensation": "보수", "location": "장소", "term": "학기",
+    "university": "대학", "universityPlaceholder": "예: MIT", "department": "학과", "departmentPlaceholder": "예: 생물학", "any": "전체",
+    "count_other": "공고 {count}개", "searching": "검색 중…", "noResults": "조건에 맞는 공고가 없습니다",
+    "noResultsBody": "검색어를 넓히거나 필터를 지워 보세요. 공고가 없어도 교수님께 직접 연락할 수 있어요. 교수를 바로 검색해 보세요.",
+    "discoverCta": "교수 찾기", "clear": "필터 지우기", "postedAgo": "{when} 게시", "closes": "{when} 마감", "applyBy": "{date}까지 지원", "deadlinePassed": "마감됨",
+    "slots_other": "{count}명 모집", "backToAll": "전체 공고", "about": "이 자리에 대해", "requirements": "이런 분을 찾습니다", "skills": "역량",
+    "research": "연구실의 연구 읽어 보기", "researchHint": "지원하기 전에 연구를 먼저 살펴보세요.", "noMaterials": "공유된 연구 자료가 아직 없습니다.",
+    "aboutLab": "연구실 소개", "viewLab": "연구실 프로필 보기", "website": "연구실 웹사이트", "notFound": "공고를 찾을 수 없습니다", "verifiedLab": "인증된 연구실",
+    "apply": {
+      "title": "지원하기", "label": "왜 잘 맞는다고 생각하나요?", "placeholder": "관심사, 관련 수업, 가능한 시간을 알려 주세요…",
+      "submit": "지원서 제출", "shared": "내 프로필이 교수님께 공유됩니다.", "sent": "지원이 접수되었습니다", "status": "상태", "track": "지원 내역 보기",
+      "signIn": "학생 계정으로 로그인하고 지원하세요.", "signInCta": "로그인하고 지원", "newHere": "처음이신가요?", "createAccount": "계정 만들기",
+      "professorNote": "교수 계정으로 로그인되어 있습니다. 학생만 지원할 수 있어요.", "closedNote": "이 공고는 더 이상 지원을 받지 않습니다.",
+      "completeProfile": "교수님이 내가 한 일을 볼 수 있도록 프로필을 완성하세요.", "toProfile": "프로필 수정",
+      "fitHint": "구체적으로: 해 본 일 하나, 배우고 싶은 것 하나, 가능한 시기."
+    }
+  },
+  "lab": {
+    "notFound": "연구실을 찾을 수 없습니다", "notFoundBody": "비공개 연구실이거나 링크가 잘못되었을 수 있어요.", "openPositions": "진행 중인 공고",
+    "noPositions": "지금은 진행 중인 공고가 없습니다", "noPositionsBody": "곧 새 공고가 올라올 수 있으니 다시 확인해 주세요. 직접 연락하셔도 좋아요.",
+    "materials": "연구 자료", "culture": "이곳에서 일한다는 것", "teamSize": "구성원 {count}명", "workStyle": "연구실이 일하는 방식",
+    "website": "연구실 웹사이트", "professor": "연구 책임자", "verified": "인증됨"
+  },
+  "community": {
+    "feedback": {
+      "title": "피드백 보드", "subtitle": "Labora를 함께 만들어 주세요. 기능을 제안하고, 버그를 알리고, 하고 싶은 이야기를 나누고, 가장 중요한 것에 투표하세요.",
+      "kind": { "feature": "기능 요청", "bug": "버그 제보", "general": "일반 의견" },
+      "status": { "open": "접수", "planned": "예정", "in_progress": "진행 중", "done": "완료" },
+      "newPost": "의견 남기기", "postTitle": "제목", "postTitlePlaceholder": "한 줄 요약", "postBody": "자세한 내용",
+      "postBodyPlaceholder": "어떤 기능이 있었으면 하나요? 무엇이 잘못되었나요?", "post": "게시", "posted": "감사합니다. 게시글이 등록되었어요.",
+      "signIn": "글을 쓰고 투표하려면 로그인하세요.", "sortVotes": "투표순", "sortNew": "최신순", "filterAll": "전체",
+      "count_other": "게시글 {count}개", "empty": "아직 아무것도 없어요. 첫 글을 남겨 보세요.", "vote": "투표", "voted": "투표함", "by": "작성자 {name}"
+    },
+    "contact": {
+      "title": "문의하기", "subtitle": "질문, 아이디어, 계정 도움이 필요하신가요? 모든 메시지를 읽고 있어요.",
+      "name": "이름", "email": "이메일", "message": "메시지", "messagePlaceholder": "무엇을 도와드릴까요?", "send": "메시지 보내기",
+      "sent": "감사합니다. 곧 연락드리겠습니다.", "professorsTitle": "교수님이신가요?",
+      "professorsBody": "연구실이 공개되기 전에 교수 계정을 인증합니다. 소속 기관의 이메일 도메인을 인식하지 못한다면 여기에 알려 주세요.",
+      "privacy": "입력하신 정보는 이 메시지에 답하는 용도로만 사용됩니다."
+    }
+  }
+}

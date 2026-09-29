@@ -1,0 +1,1818 @@
+{
+  "common": {
+    "save": "儲存",
+    "saving": "儲存中…",
+    "saved": "已儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "close": "關閉",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜尋",
+    "loading": "載入中…",
+    "retry": "再試一次",
+    "viewAll": "查看全部",
+    "learnMore": "了解更多",
+    "copy": "複製",
+    "copied": "已複製",
+    "yes": "是",
+    "no": "否",
+    "optional": "選填",
+    "or": "或",
+    "remove": "移除",
+    "add": "新增",
+    "confirm": "確認",
+    "continue": "繼續",
+    "submit": "送出",
+    "send": "傳送",
+    "download": "下載",
+    "clear": "清除",
+    "clearAll": "全部清除",
+    "open": "開啟",
+    "closedLabel": "已截止",
+    "unlimited": "無限制",
+    "upgrade": "升級",
+    "verified": "已驗證",
+    "pending": "待處理",
+    "free": "免費",
+    "pro": "Pro",
+    "today": "今天",
+    "hoursPerWeek": "每週 {n} 小時",
+    "showMore": "顯示更多",
+    "showLess": "收合",
+    "none": "無",
+    "required": "必填",
+    "notSet": "未設定",
+    "poweredByAi": "AI 輔助",
+    "illustrative": "示意範例",
+    "external": "在新分頁中開啟",
+    "results_other": "{count} 筆結果"
+  },
+  "nav": {
+    "home": "Labora 首頁",
+    "skip": "跳至主要內容",
+    "discover": "探索研究者",
+    "positions": "職缺",
+    "aiMatch": "AI 配對",
+    "resources": "資源",
+    "pricing": "價格",
+    "signIn": "登入",
+    "getStarted": "免費開始",
+    "dashboard": "儀表板",
+    "signOut": "登出",
+    "account": "帳號選單",
+    "language": "語言",
+    "theme": "外觀",
+    "themeLight": "淺色",
+    "themeDark": "深色",
+    "themeSystem": "跟隨系統",
+    "menu": "開啟選單",
+    "feedback": "意見回饋",
+    "emailChecker": "郵件檢查器",
+    "emailCheckerDesc": "寄出前，先針對你的郵件取得具體的回饋。",
+    "followUp": "跟進規劃器",
+    "followUpDesc": "為沒有回覆的郵件準備兩次時機恰當的跟進。",
+    "framework": "郵件架構",
+    "frameworkDesc": "教授願意回覆的填空式郵件結構。",
+    "examples": "有效的郵件",
+    "examplesDesc": "附註解的範例，說明每一句為什麼有效。",
+    "fields": "領域指南",
+    "fieldsDesc": "尋找你所屬學科的研究者與聯繫技巧。",
+    "blog": "指南與建議",
+    "blogDesc": "如何找到、聯繫並打動研究指導者。"
+  },
+  "footer": {
+    "product": "產品",
+    "tools": "工具",
+    "resources": "資源",
+    "legal": "法律資訊",
+    "howItWorks": "使用方式",
+    "contact": "聯絡我們",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "tagline": "找到適合你的研究實驗室，也找到適合你實驗室的學生。",
+    "copyright": "© {year} Labora. 保留一切權利。",
+    "dataBy": "學術資料來源："
+  },
+  "errors": {
+    "email_not_academic": "請使用你的大學電子郵件地址（例如 .edu 或 .ac.uk、.edu.tw）。",
+    "email_taken": "此電子郵件已被註冊，請直接登入。",
+    "invalid_credentials": "電子郵件或密碼不正確。",
+    "invalid_token": "登入已逾時，請重新登入。",
+    "user_not_found": "找不到該帳號，請重新登入。",
+    "forbidden": "你沒有權限執行此操作。",
+    "student_only": "此功能僅限學生帳號使用。",
+    "professor_only": "此功能僅限教授帳號使用。",
+    "admin_only": "此區域僅限管理員使用。",
+    "professor_unverified": "你的教授帳號正在等待驗證，通過後即可使用。",
+    "lab_required": "請先設定你的實驗室資料。",
+    "lab_exists": "你已經有實驗室資料了。",
+    "lab_not_found": "找不到該實驗室。",
+    "material_not_found": "該研究資料已不存在。",
+    "position_not_found": "找不到該職缺。",
+    "position_not_open": "此職缺目前不接受申請。",
+    "position_has_applications": "此職缺已有申請者，請關閉而不是刪除。",
+    "already_applied": "你已經申請過這個職缺了。",
+    "application_not_found": "找不到該申請。",
+    "already_invited": "你已經就這個職缺邀請過這位學生了。",
+    "invitation_not_found": "找不到該邀請。",
+    "invitation_closed": "此邀請已不再有效。",
+    "student_not_discoverable": "這位學生不接受邀請。",
+    "quota_exceeded": "你已用完此功能的免費額度，升級後即可無限制使用。",
+    "rate_limited": "操作有點太快了，請稍候再試。",
+    "professor_not_found": "找不到該研究者。",
+    "upstream_unavailable": "學術資料庫目前較為忙碌，請稍後再試。",
+    "billing_disabled": "目前尚無法付款。",
+    "invalid_signature": "無法驗證該請求。",
+    "invalid_referral_code": "此推薦碼不存在。",
+    "own_referral_code": "無法使用你自己的推薦碼。",
+    "referral_already_used": "你已經兌換過推薦碼了。",
+    "feedback_not_found": "找不到該貼文。",
+    "outreach_not_found": "找不到該筆紀錄。",
+    "network": "無法連線至伺服器，請檢查網路後再試一次。",
+    "unknown": "發生了一些問題，請再試一次。"
+  },
+  "enums": {
+    "compensation": {
+      "paid": "有薪",
+      "credit": "抵學分",
+      "volunteer": "志工"
+    },
+    "term": {
+      "fall": "秋季",
+      "spring": "春季",
+      "summer": "夏季",
+      "year_round": "全年",
+      "flexible": "彈性"
+    },
+    "location": {
+      "on_site": "校內",
+      "remote": "遠端",
+      "hybrid": "混合"
+    },
+    "appStatus": {
+      "pending": "審核中",
+      "accepted": "已錄取",
+      "rejected": "未入選",
+      "withdrawn": "已撤回"
+    },
+    "invStatus": {
+      "pending": "等待回覆",
+      "accepted": "已接受",
+      "declined": "已婉拒",
+      "withdrawn": "已撤回"
+    },
+    "outreach": {
+      "saved": "已收藏",
+      "drafted": "撰寫中",
+      "sent": "已寄出",
+      "replied": "已回覆",
+      "meeting": "已約定會面",
+      "positive": "錄取／同意",
+      "no_reply": "未回覆",
+      "declined": "被婉拒"
+    },
+    "materialKind": {
+      "paper": "論文",
+      "dataset": "資料集",
+      "poster": "海報",
+      "other": "其他"
+    },
+    "role": {
+      "student": "學生",
+      "professor": "教授"
+    },
+    "year": {
+      "freshman": "大一",
+      "sophomore": "大二",
+      "junior": "大三",
+      "senior": "大四",
+      "masters": "碩士",
+      "phd": "博士"
+    },
+    "style": {
+      "autonomy": "自主性",
+      "autonomyLow": "需要密切指導",
+      "autonomyHigh": "獨立作業",
+      "collaboration": "協作",
+      "collaborationLow": "獨自專注",
+      "collaborationHigh": "團隊導向",
+      "pace": "節奏",
+      "paceLow": "穩健深入",
+      "paceHigh": "快速迭代",
+      "structure": "結構化程度",
+      "structureLow": "開放探索",
+      "structureHigh": "目標明確"
+    },
+    "grade": {
+      "excellent": "優秀",
+      "good": "良好",
+      "needs_work": "需要改進",
+      "risky": "有風險"
+    },
+    "sort": {
+      "relevance": "最相符",
+      "cited": "被引用最多",
+      "recent": "近期最活躍"
+    }
+  },
+  "meta": {
+    "homeTitle": "Labora — 找到適合你的教授",
+    "homeDescription": "從全球學術紀錄中探索研究者，用淺顯易懂的語言了解他們的研究，並透過 AI 配對到符合你的技能與工作風格的實驗室。",
+    "discoverTitle": "尋找研究教授",
+    "discoverDescription": "在開放學術資料庫中，依你的興趣搜尋任何大學裡正活躍發表論文的研究者。",
+    "professorTitle": "研究者檔案",
+    "professorDescription": "研究者的論文、研究主題、淺顯摘要與聯繫工具。",
+    "positionsTitle": "開放的研究職缺",
+    "positionsDescription": "由已驗證教授直接刊登的研究職缺——有薪、抵學分或志工。",
+    "positionTitle": "研究職缺",
+    "positionDescription": "先了解職務與實驗室的研究，再提出申請。",
+    "labTitle": "研究實驗室",
+    "labDescription": "實驗室的研究、氛圍、開放職缺與資料。",
+    "checkerTitle": "寫給教授的陌生郵件檢查器",
+    "checkerDescription": "貼上你的郵件，看看哪些說法顯得空泛、奉承或含糊——我們不會替你改寫。",
+    "followUpTitle": "跟進規劃器",
+    "followUpDescription": "為沒有回覆的教授郵件準備兩份時機恰當的跟進草稿，並附上行事曆提醒。",
+    "frameworkTitle": "陌生郵件架構",
+    "frameworkDescription": "寫信給教授的填空式結構，以及應避免的說法。",
+    "examplesTitle": "附註解的有效郵件",
+    "examplesDescription": "三封示意性的聯繫郵件，逐句說明為什麼有效。",
+    "fieldsTitle": "領域指南",
+    "fieldsDescription": "尋找你所屬學科的研究者與聯繫技巧。",
+    "blogTitle": "指南與建議",
+    "blogDescription": "如何找到、聯繫並打動研究指導者。",
+    "pricingTitle": "價格",
+    "pricingDescription": "搜尋永遠免費。通行證可解鎖電子郵件查詢、無限摘要與無限郵件檢查。",
+    "aiMatchTitle": "AI 配對",
+    "aiMatchDescription": "依技能、興趣、可投入時間與工作風格配對學生與實驗室，每項結果都附有說明。",
+    "howTitle": "使用方式",
+    "howDescription": "從好奇到與教授真正對話，只要四個步驟。",
+    "playbookTitle": "陌生郵件攻略",
+    "playbookDescription": "讓郵件獲得回覆的結構、時機與跟進節奏。",
+    "feedbackTitle": "意見回饋板",
+    "feedbackDescription": "提出功能建議、回報問題，並為我們接下來要做的事投票。",
+    "contactTitle": "聯絡我們",
+    "contactDescription": "有問題、想法，或需要帳號協助？我們會閱讀每一則訊息。",
+    "loginTitle": "登入",
+    "registerTitle": "建立帳號"
+  },
+  "states": {
+    "notFound": {
+      "title": "找不到頁面",
+      "body": "你要找的頁面不存在，或已被移動。",
+      "home": "回到首頁",
+      "search": "尋找教授"
+    },
+    "error": {
+      "title": "發生錯誤",
+      "body": "發生了未預期的錯誤。你可以再試一次，或回到首頁。",
+      "retry": "再試一次",
+      "home": "回到首頁"
+    }
+  },
+  "legal": {
+    "privacyTitle": "隱私權政策",
+    "termsTitle": "服務條款",
+    "updated": "最後更新：{date}",
+    "englishNote": "本文件以英文提供。如需協助理解，請與我們聯絡。",
+    "questions": "對本文件有疑問嗎？",
+    "contactUs": "聯絡我們"
+  },
+  "playbook": {
+    "eyebrow": "所有通行證皆包含",
+    "title": "陌生郵件攻略",
+    "subtitle": "讓郵件獲得回覆的結構、時機與跟進節奏——濃縮在一頁之內。",
+    "lockedTitle": "解鎖攻略的其餘內容",
+    "lockedBody": "時機、跟進節奏、如何面對「不」以及寄出前檢查清單，任何通行證皆包含。",
+    "seePlans": "查看方案",
+    "signIn": "登入",
+    "englishNote": "攻略目前僅提供英文版。",
+    "cta": "檢查我的郵件"
+  },
+  "blog": {
+    "eyebrow": "Labora 資料庫",
+    "title": "如何找到、聯繫並打動研究指導者",
+    "subtitle": "關於尋找教授、寫出會被讀完的郵件以及跟進的實用指南，為從零開始的學生而寫。",
+    "all": "全部指南",
+    "cat": {
+      "finding": "尋找研究機會",
+      "writing": "撰寫郵件",
+      "after": "寄出之後",
+      "goals": "目標與下一步"
+    },
+    "minRead": "閱讀約 {minutes} 分鐘",
+    "read": "閱讀指南",
+    "back": "全部指南",
+    "englishNote": "指南目前僅提供英文版。",
+    "ctaTitle": "付諸實行",
+    "ctaBody": "尋找你所屬領域的研究者，了解他們的研究，並在寄出前檢查你的郵件。",
+    "ctaFind": "尋找教授",
+    "ctaCheck": "檢查我的郵件",
+    "keepReading": "繼續閱讀",
+    "notFound": "找不到該指南"
+  },
+  "fields": {
+    "eyebrow": "領域指南",
+    "title": "依領域尋找研究職缺",
+    "subtitle": "選擇一個學科，查看正活躍發表論文的研究者、他們的研究方向，以及如何聯繫。",
+    "blurb": "尋找正活躍發表論文的{field}研究者，了解他們的研究，寫出一封真正會被讀完的具體郵件。",
+    "cta": "查看{field}研究者",
+    "pageTitle": "{field}：尋找研究者與職缺",
+    "pageSubtitle": "了解現在誰正在發表{field}方面的論文，理解他們的研究，並以恰當的方式聯繫。",
+    "searchNow": "搜尋{field}研究者",
+    "openPositions": "開放的{field}職缺",
+    "backToAll": "全部領域",
+    "tipsTitle": "如何聯繫{field}實驗室",
+    "tip1": "寫信前先瀏覽兩三篇近期的摘要——你只需要足以提出一個好問題。",
+    "tip2": "提到一項具體的技能：一門課、一份資料集、一項工具或一個小專案。實驗室的工作通常很實際。",
+    "tip3": "提出明確的每週時數與開始日期，這會讓對方更容易答應。",
+    "tip4": "如果教授不收學生，請問問研究團隊中還有誰可能有名額。",
+    "related": "相關領域",
+    "names": {
+      "astrophysics": "天體物理學",
+      "physics": "物理學",
+      "quantum-computing": "量子運算",
+      "chemistry": "化學",
+      "materials-science": "材料科學",
+      "machine-learning": "機器學習",
+      "computer-science": "資訊工程",
+      "robotics": "機器人學",
+      "mathematics": "數學",
+      "biochemistry": "生物化學",
+      "molecular-biology": "分子生物學",
+      "genetics": "遺傳學",
+      "bioinformatics": "生物資訊學",
+      "neuroscience": "神經科學",
+      "cognitive-science": "認知科學",
+      "psychology": "心理學",
+      "immunology": "免疫學",
+      "public-health": "公共衛生",
+      "epidemiology": "流行病學",
+      "environmental-science": "環境科學",
+      "climate-science": "氣候科學",
+      "economics": "經濟學",
+      "linguistics": "語言學",
+      "sociology": "社會學"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "全新：為學生與實驗室打造的 AI 配對",
+      "title": "找到<em>適合你</em>的教授。",
+      "subtitle": "搜尋全球學術紀錄，用淺顯易懂的語言讀懂任何研究者的工作，並配對到符合你的技能與工作方式的實驗室。",
+      "modeInterest": "依興趣",
+      "modeName": "依姓名",
+      "interestLabel": "研究興趣",
+      "interestPlaceholder": "例如：計算神經科學",
+      "nameLabel": "研究者姓名",
+      "namePlaceholder": "例如：Jane Smith",
+      "universityLabel": "大學",
+      "universityPlaceholder": "例如：MIT、Stanford…",
+      "search": "尋找教授",
+      "try": "試試",
+      "trust": "建立於開放學術資料：{works} 篇論文 · {institutions} 所機構",
+      "trustFallback": "建立於開放學術資料：3 億+ 篇論文 · 14 萬+ 所機構",
+      "ex": {
+        "ml": "機器學習",
+        "neuro": "神經科學",
+        "genomics": "基因體學",
+        "climate": "氣候科學",
+        "quantum": "量子運算",
+        "psych": "心理學"
+      },
+      "modeLabel": "搜尋方式"
+    },
+    "mock": {
+      "preview": "示意預覽",
+      "results": "研究者",
+      "summary": "淺顯摘要",
+      "summaryBody": "研究機器如何在只有極少標註樣本的情況下學會「看見」，讓機器人能辨識並抓取從未見過的日常物品。",
+      "keyFinding": "關鍵發現",
+      "keyFindingBody": "一種自監督方法將抓取偵測所需的標註影像減少了 80%（2025）。",
+      "starters": "值得一問的問題",
+      "starter1": "研究團隊是如何挑選測試物體的？",
+      "starter2": "這個方法在實驗室之外仍然有效嗎？",
+      "save": "收藏",
+      "writeEmail": "寫郵件",
+      "match": "配對度",
+      "whyFit": "你為什麼適合",
+      "reasonTopics": "共同主題：電腦視覺、PyTorch",
+      "reasonStyle": "工作風格相近：獨立、節奏快",
+      "gap": "落差：線性代數",
+      "emailScore": "郵件評分",
+      "emailFlags": "有 2 處需要修改",
+      "hIndex": "h 指數",
+      "papers": "篇論文",
+      "flagFlattery": "奉承",
+      "flagGeneric": "套話",
+      "mustHave": "必備",
+      "niceToHave": "加分項",
+      "invite": "邀請",
+      "idealStudent": "理想人選",
+      "followUpOn": "{date}跟進",
+      "tracker": "聯繫紀錄",
+      "openPositions": "開放職缺",
+      "apply": "申請"
+    },
+    "marquee": {
+      "label": "研究者來自像是這樣的機構"
+    },
+    "problem": {
+      "eyebrow": "問題所在",
+      "title": "大多數寄給教授的郵件<em>根本沒人讀。</em>",
+      "description": "學生把千篇一律的郵件，在錯誤的時間寄給不對的人，而教授只有幾秒鐘可以決定。通常問題出在這裡。",
+      "generic": {
+        "title": "郵件和別人的一樣",
+        "body": "奉承與套話一眼就被看穿，針對真實研究提出的具體問題才會脫穎而出。"
+      },
+      "who": {
+        "title": "不知道誰有在收學生",
+        "body": "教師網頁常常過時，有名額的實驗室也很少在學生看得到的地方公布。"
+      },
+      "read": {
+        "title": "讀論文要花好幾個小時",
+        "body": "要寫出具體的內容，你得先讀懂研究，但摘要往往艱澀難懂。"
+      }
+    },
+    "features": {
+      "eyebrow": "平台功能",
+      "title": "從「我很好奇」到「我進了實驗室」的一切",
+      "description": "在同一個地方找人、讀懂他們的研究、寫好信並做好紀錄。",
+      "discover": {
+        "title": "搜尋學術紀錄",
+        "body": "輸入任何興趣與一所大學，我們會為你找出正活躍發表相關論文的研究者——真實的人，真實的論文。"
+      },
+      "summaries": {
+        "title": "淺顯易懂的摘要",
+        "body": "每位研究者都有一段簡短說明：他們研究什麼，以及一項最新發現，寫給剛接觸該領域的人看。"
+      },
+      "email": {
+        "title": "郵件教練，而不是代筆",
+        "body": "貼上你的草稿，看看哪些說法顯得空泛、奉承或含糊，以及原因。你的文字風格維持不變。"
+      },
+      "match": {
+        "title": "雙向 AI 配對",
+        "body": "學生能看到符合自己技能與工作風格的實驗室與教授；教授描述理想學生後，也能看到誰適合。"
+      },
+      "positions": {
+        "title": "已驗證實驗室的職缺",
+        "body": "瀏覽教授直接刊登的職缺，先了解他們的研究，再一步完成申請。"
+      },
+      "tracker": {
+        "title": "會提醒你的聯繫紀錄",
+        "body": "記錄你寄信給誰、結果如何，並取得跟進日期提醒，不錯過任何機會。"
+      }
+    },
+    "how": {
+      "eyebrow": "使用方式",
+      "title": "從好奇到真正的對話",
+      "s1": {
+        "title": "搜尋",
+        "body": "輸入研究興趣與大學，或研究者的姓名。"
+      },
+      "s2": {
+        "title": "了解",
+        "body": "閱讀淺顯摘要、近期論文與值得一問的問題。"
+      },
+      "s3": {
+        "title": "聯繫",
+        "body": "寫下你自己的郵件，檢查後放心寄出。"
+      },
+      "s4": {
+        "title": "跟進",
+        "body": "追蹤回覆，並寄出兩次時機恰當的跟進。"
+      }
+    },
+    "match": {
+      "eyebrow": "AI 配對",
+      "title": "既看技能，也看<em>你的工作方式。</em>",
+      "description": "主題重疊只是一半。Labora 也會比較工作風格：你喜歡多大的獨立性、協作程度、偏好的節奏，以及多少結構對你有幫助。",
+      "students": "給學生",
+      "s1": "依適合度排序的職缺與教授，每一項都附有淺顯的理由",
+      "s2": "了解自己的落差，以及如何脫穎而出",
+      "s3": "教授能看到什麼，由你決定",
+      "professors": "給教授",
+      "p1": "描述你的理想學生——或讓 AI 根據你的職缺草擬",
+      "p2": "瀏覽已選擇公開的學生，依適合度與理由排序",
+      "p3": "一則訊息即可邀請最適合的人",
+      "privacy": "學生是否可被探索由自己選擇，並可隨時關閉。在學生同意之前，聯絡資訊絕不會顯示給教授。",
+      "cta": "探索 AI 配對",
+      "styleTitle": "工作風格",
+      "candidate": "候選人",
+      "you": "你",
+      "lab": "實驗室"
+    },
+    "compare": {
+      "title": "為什麼不直接問聊天機器人？",
+      "description": "通用型聊天機器人擅長寫作，但它不是真實人物的名錄。",
+      "colChatbot": "通用型聊天機器人",
+      "colLabora": "Labora",
+      "r1": "人物與論文的來源",
+      "r1a": "憑記憶生成——可能捏造教授、論文與數字。",
+      "r1b": "取自學術紀錄（OpenAlex），絕無虛構。",
+      "r2": "誰來寫你的郵件",
+      "r2a": "常常直接替你寫好，而教授看得出來。",
+      "r2b": "由你來寫，Labora 告訴你哪裡需要修改。",
+      "r3": "需要花多少心力",
+      "r3a": "要反覆下提示，才能找到、閱讀並比較研究者。",
+      "r3b": "一次搜尋：研究者、摘要與郵件回饋一併搞定。"
+    },
+    "professors": {
+      "eyebrow": "給教授",
+      "title": "招到<em>真正適合</em>的學生。",
+      "description": "刊登職缺、展示你的研究，讓 AI 找出技能與工作風格符合你實驗室的學生。",
+      "b1": "已驗證教師免費使用",
+      "b2": "展示論文、資料集與海報",
+      "b3": "在同一處查看申請與邀請",
+      "cta": "刊登職缺"
+    },
+    "stats": {
+      "eyebrow": "建立於開放資料",
+      "title": "真實的名錄，而非生成的內容",
+      "works": "已收錄的學術成果",
+      "institutions": "全球機構",
+      "researchers": "研究者",
+      "labs": "Labora 上的實驗室",
+      "positions": "開放職缺",
+      "attribution": "學術詮釋資料由 OpenAlex 提供。"
+    },
+    "pricing": {
+      "title": "免費開始，準備好再升級。",
+      "description": "搜尋永遠免費。通行證可在你需要的期間內解鎖電子郵件查詢、無限摘要與無限郵件檢查。",
+      "cta": "查看方案"
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": "研究者資料來自哪裡？",
+      "a1": "來自 OpenAlex，一個開放的全球學術成果目錄。我們只顯示該紀錄中真實存在的人物與論文，絕不捏造教授或出版物。",
+      "q2": "Labora 會替我寫郵件嗎？",
+      "a2": "不會——這是刻意的設計。教授看得出來，而獲得回覆的往往是有自己聲音的學生。Labora 幫你找到該寫給誰、解釋他們的研究，並針對你自己的草稿提供具體回饋。",
+      "q3": "AI 配對是如何運作的？",
+      "a3": "我們將你的技能、興趣、經歷、可投入時間與工作風格，與職缺、實驗室及研究者比較，並說明每一項配對。AI 審閱者會優化排名靠前的結果。我們絕不使用姓名、學校、性別、國籍或其他受保護的特徵。",
+      "q4": "誰看得到我的個人檔案？",
+      "a4": "除非你開啟「可被探索」，否則沒有人看得到。開啟後也只有已驗證的教授能看到你的檔案，永遠看不到你的電子郵件。他們可以邀請你，是否回覆由你決定。",
+      "q5": "教授一定要在 Labora 上嗎？",
+      "a5": "不必。你可以尋找並聯繫學術紀錄中任何地方的研究者。加入的教授可以刊登職缺、分享研究並尋找學生。",
+      "q6": "費用是多少？",
+      "a6": "搜尋免費，免費帳號也可以體驗摘要、郵件檢查與 AI 配對。通行證可解鎖無限使用——詳見價格頁面。"
+    },
+    "cta": {
+      "title": "你的下一個研究職缺，始於<em>一封好郵件。</em>",
+      "subtitle": "免費搜尋——不需要信用卡。",
+      "button": "尋找教授"
+    }
+  },
+  "how": {
+    "eyebrow": "使用方式",
+    "title": "從好奇到對話，四個步驟",
+    "subtitle": "Labora 圍繞著「什麼會讓教授回覆」而設計。",
+    "s1": {
+      "title": "搜尋學術紀錄",
+      "body": "輸入研究興趣與大學，或研究者的姓名。我們會找出正活躍發表相關論文的人。",
+      "b1": "結果來自開放的學術資料庫",
+      "b2": "依大學篩選，依近期活躍度排序"
+    },
+    "s2": {
+      "title": "了解他們的研究",
+      "body": "閱讀淺顯摘要、最新發現與值得一問的問題，再瀏覽論文本身。",
+      "b1": "為剛接觸該領域的人撰寫的摘要",
+      "b2": "一眼看到最新論文與被引用最多的論文"
+    },
+    "s3": {
+      "title": "寫一封會被讀完的郵件",
+      "body": "先自己寫，再檢查。我們會標出奉承、套話與含糊之處，但絕不替你寫郵件。",
+      "b1": "郵件架構與附註解的範例",
+      "b2": "逐句的具體回饋"
+    },
+    "s4": {
+      "title": "跟進與追蹤",
+      "body": "記錄你聯繫過的人，獲得時機恰當的跟進，並把每條線索放在同一處。",
+      "b1": "兩份跟進草稿與行事曆提醒",
+      "b2": "幫你計分的聯繫紀錄"
+    },
+    "cta": "開始搜尋",
+    "ctaMatch": "或讓 AI 幫你找到適合的人"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "AI 配對",
+      "title": "一種懂得<em>你如何工作</em>的配對。",
+      "subtitle": "Labora 比較的不只是關鍵字。它會看你的技能、興趣、可投入時間與工作風格，再用淺顯的語言說明每一項配對。",
+      "student": "尋找我的配對",
+      "professor": "尋找我的理想學生",
+      "signUp": "建立免費帳號"
+    },
+    "signals": {
+      "eyebrow": "使用方式",
+      "title": "四項訊號，一個可解釋的分數",
+      "topics": {
+        "title": "主題",
+        "body": "你的興趣、課程與經歷，和實驗室或研究者的工作重疊到什麼程度。"
+      },
+      "skills": {
+        "title": "技能",
+        "body": "職務所需的技能中，哪些你已經具備，哪些可以培養。"
+      },
+      "style": {
+        "title": "工作風格",
+        "body": "獨立性、團隊合作、節奏與結構：你喜歡的工作方式與實驗室的工作方式比較。"
+      },
+      "hours": {
+        "title": "可投入時間",
+        "body": "你能提供的時數是否符合職務的期待。"
+      }
+    },
+    "demo": {
+      "eyebrow": "試試看",
+      "title": "看看工作風格的配對",
+      "description": "依你喜歡的工作方式移動旋鈕。範例實驗室獨立、協作、節奏快，任務定義較為寬鬆。",
+      "you": "你",
+      "lab": "範例實驗室",
+      "fit": "風格契合度",
+      "aligned": "一致：{items}",
+      "differs": "不同：{items}",
+      "none": "移動旋鈕來比較。"
+    },
+    "directions": {
+      "title": "兩個方向，同一個理念",
+      "students": {
+        "title": "給學生",
+        "s1": "一次填好你的技能、興趣、經歷與工作風格。",
+        "s2": "取得依適合度排序的職缺與教授，並附理由與落差。",
+        "s3": "參考「如何脫穎而出」的建議，寫出更有力的申請或郵件。"
+      },
+      "professors": {
+        "title": "給教授",
+        "s1": "描述你的理想學生——或讓 AI 根據你的職缺與實驗室草擬。",
+        "s2": "查看已選擇公開的學生，依適合度排序，並附理由與落差。",
+        "s3": "一則訊息即可邀請最適合的人。在對方回覆之前，其電子郵件保持私密。"
+      }
+    },
+    "trust": {
+      "eyebrow": "從設計就追求公平",
+      "title": "一切由你掌控",
+      "t1": {
+        "title": "自願公開",
+        "body": "學生只有在開啟後才會被探索到，並可隨時關閉。"
+      },
+      "t2": {
+        "title": "聯絡資訊保密",
+        "body": "在學生申請或接受邀請之前，教授永遠看不到學生的電子郵件。"
+      },
+      "t3": {
+        "title": "不使用受保護的特徵",
+        "body": "姓名、學校、性別、國籍等特徵絕不會用來替任何人評分。"
+      },
+      "t4": {
+        "title": "給出理由，而不是黑盒子",
+        "body": "每個分數都會顯示哪些相符、哪些不相符，你可以不同意它。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": "這個分數是我能否獲得職缺的預測嗎？",
+      "a1": "不是。它是契合度的參考，而非預測。真實的錄取決定受很多因素影響——時機、經費與其他申請者。",
+      "q2": "AI 實際做了什麼？",
+      "a2": "我們先依上述訊號計算出一個透明的分數，再由 AI 審閱者檢視排名靠前的結果、優化排序並撰寫說明。若 AI 無法使用，你仍然會得到透明的分數。",
+      "q3": "沒有個人檔案也能使用 AI 配對嗎？",
+      "a3": "可以執行，但檔案越完整，結果越好。我們會告訴你還缺少什麼。"
+    },
+    "cta": {
+      "title": "找到適合的實驗室，和適合的人。",
+      "button": "免費開始"
+    }
+  },
+  "pricing": {
+    "eyebrow": "價格",
+    "title": "選擇適合你這個學期的通行證",
+    "subtitle": "搜尋研究者永遠免費。通行證可解鎖最省時間的工具——一次付費，沒有訂閱，也不會自動續約。",
+    "plans": {
+      "free": {
+        "name": "免費",
+        "desc": "永久"
+      },
+      "weekly": {
+        "name": "一週衝刺",
+        "desc": "1 週使用權"
+      },
+      "semester": {
+        "name": "學期通行證",
+        "desc": "4 個月使用權",
+        "badge": "最超值"
+      },
+      "lifetime": {
+        "name": "終身",
+        "desc": "永遠屬於你"
+      }
+    },
+    "cta": {
+      "free": "免費開始",
+      "weekly": "開始一週衝刺",
+      "semester": "購買學期通行證",
+      "lifetime": "購買終身使用權",
+      "current": "你目前的方案",
+      "signIn": "登入後繼續"
+    },
+    "features": {
+      "unlimited_search": "無限次搜尋研究者",
+      "summaries_2": "2 份淺顯摘要",
+      "email_check_1": "1 次郵件檢查",
+      "ai_match_3": "3 次 AI 配對",
+      "outreach_tracker": "聯繫紀錄",
+      "positions_board": "開放職缺板",
+      "everything_pro": "包含免費版的一切，並增加：",
+      "unlimited_summaries": "無限摘要",
+      "email_finder": "電子郵件查詢",
+      "responsiveness": "回覆率評分",
+      "unlimited_checks": "無限郵件檢查與跟進",
+      "playbook": "陌生郵件攻略",
+      "everything_semester": "包含學期通行證的一切，並增加：",
+      "never_pay_again": "永不再付費",
+      "priority_features": "搶先體驗新功能"
+    },
+    "payments": "付款由 Stripe 安全處理，我們看不到你的信用卡資料。",
+    "devMode": "此環境未串接付款——通行證會立即生效，方便你測試。",
+    "activated": "你的通行證已生效，祝使用愉快！",
+    "cancelled": "已取消結帳——未產生任何扣款。",
+    "referral": {
+      "title": "邀請一位朋友，雙方各得一週",
+      "body": "在「方案與帳單」中分享你的推薦碼。朋友使用它註冊後，你們都能獲得 7 天 Pro。",
+      "haveCode": "有朋友的推薦碼嗎？",
+      "placeholder": "輸入推薦碼",
+      "redeem": "兌換",
+      "redeemed": "推薦碼已兌換——已新增 7 天 Pro。",
+      "signIn": "登入後兌換推薦碼"
+    },
+    "waitlist": {
+      "title": "保證回覆的方案即將推出",
+      "body": "我們正在研究一種以幫你獲得真實對話為核心的方案。加入候補名單，我們會第一時間通知你。",
+      "placeholder": "you@university.edu",
+      "join": "加入候補名單",
+      "joined": "你已在名單中，謝謝！"
+    },
+    "faq": {
+      "title": "關於付費的問題",
+      "q1": "這是訂閱制嗎？",
+      "a1": "不是。每種通行證都是一次性付款，不會自動續約，所以也不需要取消。",
+      "q2": "通行證到期後會怎麼樣？",
+      "a2": "你的帳號、收藏的研究者與聯繫紀錄都會保留，只是回到免費額度。",
+      "q3": "搜尋或申請需要通行證嗎？",
+      "a3": "不需要。搜尋研究者、瀏覽職缺與提出申請始終免費。",
+      "q4": "教授需要付費嗎？",
+      "a4": "不需要。已驗證的教授可免費刊登職缺、分享研究並尋找學生。",
+      "q5": "付費問題該聯絡誰？",
+      "a5": "請使用「聯絡我們」頁面，我們會回覆你。"
+    }
+  },
+  "dash": {
+    "nav": {
+      "overview": "總覽",
+      "matches": "AI 配對",
+      "talent": "尋找學生",
+      "applications": "申請",
+      "invitations": "邀請",
+      "outreach": "聯繫紀錄",
+      "saved": "已收藏",
+      "profile": "我的檔案",
+      "billing": "方案與帳單",
+      "settings": "設定",
+      "positions": "職缺",
+      "lab": "實驗室與研究",
+      "admin": "管理"
+    },
+    "greeting": "你好，{name}",
+    "welcomeProfessor": "歡迎，{name}",
+    "overview": {
+      "studentSubtitle": "這是你研究探索的最新進度。",
+      "professorSubtitle": "管理你的實驗室、職缺與申請者。",
+      "findPositions": "尋找職缺",
+      "newPosition": "新增職缺",
+      "applications": "申請",
+      "inReview": "審核中",
+      "accepted": "已錄取",
+      "invitations": "邀請",
+      "openPositions": "開放職缺",
+      "applicants": "申請者",
+      "lab": "實驗室",
+      "live": "已上線",
+      "notSetUp": "尚未設定",
+      "completeTitle": "完成你的個人檔案",
+      "completeBody": "教授會在每次申請中看到你的檔案，你提供的資訊越多，配對就越精準。",
+      "completeCta": "更新檔案",
+      "discoverTitle": "讓教授找到你",
+      "discoverBody": "開啟「可被探索」後，已驗證的教授可以邀請你申請。在你回覆之前，你的電子郵件保持私密。",
+      "discoverCta": "在檔案中設定",
+      "recentApplications": "最近的申請",
+      "noApplications": "你還沒有提出過申請。",
+      "browse": "瀏覽開放職缺",
+      "matchTitle": "你的最佳配對",
+      "matchBody": "依適合度查看排序後的職缺與教授。",
+      "matchCta": "開啟 AI 配對",
+      "yourPositions": "你的職缺",
+      "noPositions": "還沒有職缺。",
+      "createLabTitle": "設定你的實驗室，開始招募",
+      "createLabBody": "你刊登的每個職缺，學生都會看到你的實驗室檔案與研究。",
+      "createLabCta": "建立實驗室檔案",
+      "unverifiedTitle": "你的帳號正在等待驗證",
+      "unverifiedBody": "在實驗室與職缺公開之前，我們會審核教授帳號。在此期間你可以先把一切準備好。",
+      "talentTitle": "尋找適合的學生",
+      "talentBody": "描述你的理想學生，讓 AI 為已選擇公開的學生排序。",
+      "talentCta": "尋找學生",
+      "pendingInvitations_other": "你有 {count} 則待處理的邀請",
+      "viewInvitations": "查看邀請",
+      "applicantsCount_other": "{count} 位申請者",
+      "newForYou": "為你推薦的新內容"
+    },
+    "profile": {
+      "title": "我的檔案",
+      "subtitle": "教授會在你的申請中看到這些內容，AI 配對也會用它來尋找與你契合的對象。",
+      "strength": "檔案完整度",
+      "basics": "基本資料",
+      "university": "大學",
+      "major": "主修",
+      "year": "年級",
+      "selectYear": "請選擇…",
+      "about": "關於你",
+      "bio": "簡短自我介紹",
+      "bioHint": "你是誰？對什麼感到好奇？",
+      "skills": "技能",
+      "skillsHint": "以逗號分隔，例如：Python, PyTorch, R, 實驗室安全",
+      "interests": "研究興趣",
+      "interestsHint": "你想參與的主題，例如：電腦視覺、細胞命運。",
+      "experience": "你已經做過的事",
+      "experienceHint": "專案、課程、過去的研究——越具體，配對越準確。",
+      "availability": "你每週能投入的小時數",
+      "workStyle": "你喜歡的工作方式",
+      "workStyleHint": "把每個旋鈕調到你最自在的位置，它會用來與實驗室比較。",
+      "links": "連結",
+      "resume": "履歷連結",
+      "resumeHint": "PDF 連結（雲端硬碟、Dropbox 或你的網站）。",
+      "website": "個人網站",
+      "github": "GitHub 個人檔案",
+      "visibility": "可見度",
+      "discoverable": "讓已驗證的教授找到我",
+      "discoverableDesc": "教授可以查看你的檔案並邀請你申請。在你回覆之前，你的電子郵件保持私密。你可以隨時關閉。",
+      "save": "儲存檔案",
+      "saved": "檔案已儲存",
+      "welcome": "歡迎來到 Labora！介紹一下自己，獲得更精準的配對。"
+    },
+    "applications": {
+      "title": "申請",
+      "subtitle": "你申請過的所有職缺，集中在同一處。",
+      "emptyTitle": "還沒有申請",
+      "emptyBody": "當你申請某個職缺後，它會顯示在這裡，方便你追蹤狀態。",
+      "browse": "瀏覽職缺",
+      "applied": "{when}申請",
+      "withdraw": "撤回",
+      "withdrawConfirm": "確定要撤回這份申請嗎？",
+      "withdrawn": "申請已撤回",
+      "invited": "已受邀",
+      "decided": "{when}已決定"
+    },
+    "invitations": {
+      "title": "邀請",
+      "subtitleStudent": "希望你前來申請的教授。",
+      "subtitleProfessor": "你邀請過的學生。",
+      "emptyStudentTitle": "還沒有邀請",
+      "emptyStudentBody": "在檔案中開啟「可被探索」，讓已驗證的教授來邀請你。",
+      "emptyProfessorTitle": "你還沒有邀請任何人",
+      "emptyProfessorBody": "使用「尋找學生」來探索適合你實驗室的學生。",
+      "from": "來自 {name}",
+      "to": "寄給 {name}",
+      "match": "{score}% 配對",
+      "accept": "接受並申請",
+      "decline": "婉拒",
+      "replyPlaceholder": "給教授留言（選填）",
+      "accepted": "你已接受——已建立一份申請。",
+      "declined": "已婉拒邀請",
+      "withdraw": "撤回邀請",
+      "receivedAgo": "{when}寄出",
+      "findStudents": "尋找學生"
+    },
+    "outreach": {
+      "title": "聯繫紀錄",
+      "subtitle": "記錄你聯繫過誰、何時跟進，以及結果如何。",
+      "emptyTitle": "還沒有任何紀錄",
+      "emptyBody": "從研究者檔案加入他們，即可追蹤你的聯繫情況並取得跟進日期。",
+      "find": "尋找教授",
+      "followUpDue": "{when}跟進",
+      "overdue": "跟進已逾期",
+      "sentOn": "{date}寄出",
+      "repliedOn": "{date}回覆",
+      "notes": "備註",
+      "notesPlaceholder": "任何值得記住的事…",
+      "status": "狀態",
+      "remove": "移除",
+      "removeConfirm": "要從紀錄中移除這位研究者嗎？",
+      "planFollowUp": "規劃跟進",
+      "helpTitle": "你的紀錄能幫助所有人",
+      "helpBody": "研究者檔案上顯示的回覆率，來自像你這樣的匿名彙整聯繫紀錄——絕不會顯示任何單筆紀錄。",
+      "stats": {
+        "total": "追蹤中",
+        "sent": "已寄出",
+        "replied": "已回覆",
+        "due": "待跟進"
+      }
+    },
+    "saved": {
+      "title": "已收藏",
+      "subtitle": "你收藏的研究者與職缺。",
+      "professors": "研究者",
+      "positions": "職缺",
+      "emptyProfessors": "還沒有收藏的研究者",
+      "emptyProfessorsBody": "點選任何研究者上的收藏圖示，即可加入你的候選名單。",
+      "emptyPositions": "還沒有收藏的職缺",
+      "emptyPositionsBody": "點選職缺上的收藏圖示，留待之後查看。"
+    },
+    "billing": {
+      "title": "方案與帳單",
+      "subtitle": "你的使用權限、用量與推薦獎勵。",
+      "currentPlan": "目前方案",
+      "plan": {
+        "free": "免費",
+        "weekly": "一週衝刺",
+        "semester": "學期通行證",
+        "lifetime": "終身"
+      },
+      "activeUntil": "有效期限至 {date}",
+      "lifetimeNote": "你擁有終身使用權。",
+      "freeNote": "你目前使用的是免費方案。",
+      "upgrade": "查看方案",
+      "usage": "免費額度",
+      "usageItem": "已使用 {used} / {limit}",
+      "unlimited": "無限制",
+      "features": {
+        "summary": "教授摘要",
+        "email_check": "郵件檢查",
+        "follow_up": "跟進計畫",
+        "match_positions": "職缺配對",
+        "match_professors": "教授配對"
+      },
+      "referral": "邀請朋友",
+      "referralBody": "分享你的推薦碼。朋友使用它註冊後，你們都能獲得 {days} 天 Pro。",
+      "yourCode": "你的推薦碼",
+      "copyCode": "複製推薦碼",
+      "copyLink": "複製邀請連結",
+      "copied": "已複製",
+      "redeemed_other": "{count} 位朋友透過你的推薦碼加入",
+      "redeem": "有朋友的推薦碼嗎？",
+      "redeemPlaceholder": "輸入推薦碼",
+      "redeemCta": "兌換",
+      "redeemedOk": "推薦碼已兌換——已新增 {days} 天 Pro。",
+      "checkoutSuccess": "謝謝！你的方案稍後即會生效。",
+      "devMode": "此環境未串接付款——方案會立即生效，方便測試。"
+    },
+    "settings": {
+      "title": "設定",
+      "subtitle": "你的帳號、語言與安全性。",
+      "account": "帳號",
+      "name": "姓名",
+      "email": "電子郵件",
+      "emailNote": "電子郵件無法變更。",
+      "language": "語言",
+      "languageHint": "同時用於 AI 撰寫的摘要與回饋。",
+      "saveChanges": "儲存變更",
+      "saved": "設定已儲存",
+      "password": "密碼",
+      "currentPassword": "目前密碼",
+      "newPassword": "新密碼",
+      "changePassword": "變更密碼",
+      "passwordChanged": "密碼已更新",
+      "danger": "刪除帳號",
+      "dangerBody": "這會永久刪除你的檔案、申請，以及帳號下的所有內容，且無法復原。",
+      "dangerConfirm": "請輸入密碼以確認",
+      "deleteCta": "刪除我的帳號",
+      "deleted": "你的帳號已刪除。"
+    },
+    "lab": {
+      "title": "實驗室與研究",
+      "subtitle": "學生在考慮你的職缺時會看到這些內容。",
+      "createTitle": "建立你的實驗室",
+      "profileTitle": "實驗室檔案",
+      "name": "實驗室名稱",
+      "university": "大學",
+      "department": "系所",
+      "description": "簡介",
+      "descriptionHint": "你的實驗室研究什麼？請寫得讓大學部學生也容易理解。",
+      "keywords": "研究關鍵字",
+      "keywordsHint": "以逗號分隔",
+      "website": "實驗室網站",
+      "culture": "在這裡工作是什麼樣子",
+      "cultureHint": "指導風格、組會節奏、學生負責的內容。學生重視坦誠。",
+      "teamSize": "團隊規模",
+      "workStyle": "你的實驗室如何運作",
+      "workStyleHint": "用於與學生比較工作風格。",
+      "openalex": "OpenAlex 作者 ID",
+      "openalexHint": "選填。將你的 Labora 實驗室與你的論文檔案連結（以 A 開頭）。",
+      "saveLab": "儲存實驗室",
+      "createLab": "建立實驗室",
+      "created": "實驗室已建立——現在新增研究資料並刊登職缺吧。",
+      "updated": "實驗室已更新",
+      "materials": "研究資料",
+      "materialsHint": "分享論文、資料集或海報，讓學生了解你的研究。",
+      "nothingShared": "還沒有分享任何內容。",
+      "addMaterial": "新增資料",
+      "materialTitle": "標題",
+      "materialType": "類型",
+      "materialLink": "連結",
+      "materialLinkHint": "arXiv、DOI、Google Drive、GitHub…",
+      "materialDescription": "簡短說明",
+      "removeMaterial": "要移除這份資料嗎？",
+      "verificationTitle": "等待驗證",
+      "verificationBody": "在我們驗證你的教授帳號後，你的實驗室才會公開。新增實驗室網站可以加快驗證。"
+    },
+    "positions": {
+      "title": "職缺",
+      "subtitle": "你的職缺以及申請者。",
+      "new": "新增職缺",
+      "emptyTitle": "還沒有職缺",
+      "emptyBody": "刊登一個職缺，開始接收申請。",
+      "emptyLab": "請先建立你的實驗室檔案。",
+      "post": "刊登你的第一個職缺",
+      "open": "開放",
+      "closed": "已關閉",
+      "close": "關閉",
+      "reopen": "重新開放",
+      "edit": "編輯",
+      "delete": "刪除",
+      "deleteConfirm": "要刪除這個職缺嗎？此操作無法復原。",
+      "applicants": "申請者",
+      "postedAgo": "{when}刊登",
+      "viewPublic": "查看公開頁面",
+      "newTitle": "新增職缺",
+      "newSubtitle": "描述這個職缺，之後可隨時編輯。",
+      "editTitle": "編輯職缺",
+      "needLab": "刊登前需要先有實驗室檔案。",
+      "createLab": "建立你的實驗室",
+      "noApplicants": "還沒有申請者",
+      "noApplicantsBody": "分享你的職缺，或透過「尋找學生」邀請適合的學生。",
+      "decline": "婉拒",
+      "accept": "錄取",
+      "email": "寄信給申請者",
+      "resume": "履歷",
+      "invitedBadge": "由你邀請",
+      "profileIncomplete": "檔案不完整",
+      "form": {
+        "title": "職缺名稱",
+        "titlePlaceholder": "大學部研究助理：自監督視覺",
+        "description": "職缺說明",
+        "descriptionHint": "學生將從事什麼工作？會學到什麼？",
+        "requirements": "條件要求",
+        "requirementsHint": "相關課程或經歷（選填）",
+        "skills": "必備技能",
+        "skillsHint": "以逗號分隔——用於配對，例如：python, pytorch",
+        "compensation": "報酬",
+        "hours": "每週小時數",
+        "term": "學期",
+        "location": "地點",
+        "slots": "名額",
+        "deadline": "申請截止",
+        "keywords": "關鍵字",
+        "keywordsHint": "協助學生找到你的職缺",
+        "publish": "發布職缺",
+        "saveChanges": "儲存變更",
+        "saved": "職缺已儲存",
+        "notSpecified": "未說明"
+      }
+    },
+    "admin": {
+      "title": "管理",
+      "subtitle": "驗證教授，並查看大家送出的內容。",
+      "overview": "總覽",
+      "stats": {
+        "users": "使用者",
+        "students": "學生",
+        "professors": "教授",
+        "pending_professors": "待驗證",
+        "labs": "實驗室",
+        "open_positions": "開放職缺",
+        "applications": "申請",
+        "invitations": "邀請",
+        "feedback": "意見回饋貼文",
+        "waitlist": "候補名單",
+        "paid_users": "付費使用者"
+      },
+      "verification": "教授驗證",
+      "onlyPending": "僅顯示待處理",
+      "verify": "驗證",
+      "unverify": "撤銷",
+      "verifiedAt": "驗證時間",
+      "pendingBadge": "待處理",
+      "lab": "實驗室",
+      "waitlist": "候補名單",
+      "contact": "聯絡訊息",
+      "empty": "這裡還沒有任何內容。",
+      "notAdmin": "此區域僅限管理員使用。",
+      "verifiedToast": "教授已驗證",
+      "revokedToast": "驗證已撤銷"
+    }
+  },
+  "auth": {
+    "shell": {
+      "headline": "你的下一個突破，始於合適的實驗室。",
+      "p1": "從全球學術紀錄中探索研究者",
+      "p2": "在動筆之前先讀懂他們的研究",
+      "p3": "依技能與你喜歡的工作方式獲得配對",
+      "footer": "為學生與教授，使用你的語言。"
+    },
+    "login": {
+      "title": "歡迎回來",
+      "subtitle": "登入以繼續。",
+      "email": "電子郵件",
+      "emailPlaceholder": "you@university.edu",
+      "password": "密碼",
+      "submit": "登入",
+      "noAccount": "還沒有帳號嗎？",
+      "signUp": "註冊",
+      "forgot": "忘記密碼？",
+      "forgotHelp": "請與我們聯絡，我們會協助你重新登入。",
+      "demo": "示範帳號（密碼：password123）",
+      "demoStudent": "學生",
+      "demoProfessor": "教授",
+      "demoAdmin": "管理員"
+    },
+    "register": {
+      "title": "建立帳號",
+      "subtitle": "使用你的大學電子郵件加入，只需一分鐘。",
+      "iAm": "我是…",
+      "student": "學生",
+      "studentDesc": "尋找研究機會並獲得配對",
+      "professor": "教授",
+      "professorDesc": "招募學生，分享你的研究",
+      "fullName": "姓名",
+      "fullNamePlaceholderStudent": "陳小明",
+      "fullNamePlaceholderProfessor": "王教授",
+      "email": "大學電子郵件",
+      "emailHint": "請使用以 .edu、.ac.uk、.edu.tw 或類似學術網域結尾的信箱。",
+      "password": "密碼",
+      "passwordHint": "至少 8 個字元。",
+      "referral": "朋友的推薦碼",
+      "referralHint": "有朋友給的推薦碼嗎？你們都能獲得一週 Pro。",
+      "consent": "建立帳號即表示你同意我們的<terms>服務條款</terms>與<privacy>隱私權政策</privacy>。",
+      "submit": "建立帳號",
+      "haveAccount": "已經有帳號了嗎？",
+      "signIn": "登入",
+      "professorNote": "教授帳號需經我們團隊驗證後，你的實驗室與職缺才會公開。"
+    }
+  },
+  "discover": {
+    "title": "找到你的研究教授",
+    "subtitle": "在全球學術紀錄中，搜尋正活躍發表你所關心主題論文的研究者。",
+    "modeInterest": "依興趣",
+    "modeName": "依姓名",
+    "interestLabel": "研究興趣",
+    "interestPlaceholder": "例如：計算神經科學",
+    "nameLabel": "研究者姓名",
+    "namePlaceholder": "例如：Jane Smith",
+    "universityLabel": "大學",
+    "universityPlaceholder": "任何大學",
+    "universityHint": "從清單中選擇以搜尋單一機構。",
+    "search": "搜尋",
+    "searching": "搜尋中…",
+    "sortBy": "排序方式",
+    "minH": "最低 h 指數",
+    "minHAny": "不限",
+    "filters": "篩選",
+    "resultsFor": "「{q}」相關研究者",
+    "resultsAt": "· {university}",
+    "resultsCount_other": "{count} 位研究者",
+    "noResults": "找不到研究者",
+    "noResultsBody": "試試更廣泛的興趣、換個拼法，或移除大學篩選。",
+    "startTitle": "從你好奇的事情開始",
+    "startBody": "試試「蛋白質摺疊」或「氣候政策」這類主題，如果有心儀的大學也可以加上，我們會顯示誰在發表相關論文。",
+    "noteTitle": "結果如何排序",
+    "noteBody": "研究者依其近期在你所選主題上的發表量排序，並依他們在該領域的地位加權。學術資料庫不會記錄「教授」這類頭銜，因此請透過摘要與論文來判斷是否適合。",
+    "hIndex": "h 指數",
+    "papers": "篇論文",
+    "citations": "次引用",
+    "recentWorks": "近 3 年",
+    "onTopic": "此主題",
+    "onLabora": "已加入 Labora",
+    "viewProfile": "查看檔案",
+    "save": "收藏",
+    "saved": "已收藏",
+    "loadMore": "顯示更多研究者",
+    "yourInterest": "你的興趣",
+    "disclaimer": "資料來自 OpenAlex。所屬機構以最新的論文紀錄為準，可能落後於實際情況。",
+    "signInToSave": "登入後即可將研究者加入你的候選名單。",
+    "savedToast": "已加入候選名單",
+    "removedToast": "已從候選名單移除",
+    "clearFilters": "清除篩選",
+    "universityAny": "任何大學",
+    "searchingAt": "正在搜尋 {university} 的研究者",
+    "lookingUp": "正在查找機構…"
+  },
+  "professor": {
+    "back": "回到搜尋",
+    "notFoundTitle": "找不到該研究者",
+    "notFoundBody": "連結可能有誤，或學術資料庫正忙。請重新搜尋。",
+    "orcid": "ORCID",
+    "openalex": "OpenAlex 檔案",
+    "onLabora": "在 Labora 上經營實驗室",
+    "viewLab": "查看他們的實驗室",
+    "stats": {
+      "hIndex": "h 指數",
+      "papers": "論文",
+      "citations": "引用",
+      "recent": "近 3 年",
+      "i10": "i10 指數"
+    },
+    "tabs": {
+      "overview": "總覽",
+      "papers": "論文",
+      "contact": "聯絡方式"
+    },
+    "summary": {
+      "title": "用淺顯的語言說明他們的研究",
+      "cta": "解說他們的研究",
+      "ctaBody": "取得一份簡短摘要：他們研究什麼、一項最新發現，以及值得一問的問題。",
+      "loading": "正在閱讀他們最近的論文…",
+      "overview": "他們研究什麼",
+      "keyFinding": "一項最新發現",
+      "fromPaper": "出自：{title}",
+      "topics": "研究領域，簡單來說",
+      "goodFit": "如果你……，你可能很適合",
+      "starters": "值得一問的問題",
+      "startersHint": "把這些當作激發你自己好奇心的提示——教授分辨得出問題是否出自真心。",
+      "aiBadge": "AI 摘要",
+      "extractiveBadge": "自動摘要",
+      "extractiveNote": "此伺服器未啟用 AI 摘要，因此內容直接由他們的論文資料整理而成（英文）。",
+      "aiNote": "由 AI 根據公開摘要撰寫，請務必查閱論文。",
+      "quota": "已使用 {used} / {limit} 次免費摘要",
+      "quotaPro": "無限摘要",
+      "signInTitle": "登入後閱讀摘要",
+      "signInBody": "免費帳號可查看幾位研究者的淺顯摘要、關鍵發現與開場話題。",
+      "upgrade": "取得無限摘要",
+      "limitTitle": "你已用完免費摘要",
+      "limitBody": "通行證可解鎖無限摘要、電子郵件查詢等功能。"
+    },
+    "topics": "研究主題",
+    "activity": "每年發表數量",
+    "papers": {
+      "recent": "最新",
+      "top": "被引用最多",
+      "empty": "找不到論文。",
+      "abstract": "摘要",
+      "cited": "{n} 次引用",
+      "openAccess": "開放取用",
+      "viewPaper": "查看論文"
+    },
+    "contact": {
+      "title": "電子郵件查詢",
+      "lockedTitle": "解鎖電子郵件查詢與回覆率",
+      "lockedBody": "查看可能的機構信箱地址，以及學生獲得回覆的頻率。任何通行證皆包含。",
+      "seePlans": "查看方案",
+      "guessNote": "這些是依常見命名規則推測的，並非經過驗證的地址。寄出前請先在教師名錄中確認。",
+      "pattern": "格式：{pattern}",
+      "mostCommon": "最常見",
+      "copy": "複製地址",
+      "copied": "地址已複製",
+      "compose": "在郵件應用程式中開啟",
+      "directory": "搜尋教師名錄",
+      "noDomain": "我們無法確定該機構的電子郵件網域。",
+      "responsiveness": "回覆率",
+      "resp": {
+        "high": "經常回覆",
+        "medium": "有時回覆",
+        "low": "很少回覆",
+        "unknown": "回報尚不足"
+      },
+      "respBody": "根據 {n} 筆學生聯繫紀錄。{rate}回覆了{days}。",
+      "respDays": "，通常在 {days} 天內",
+      "respUnknown": "只有在至少 3 位學生記錄了對這位研究者的聯繫後，才會顯示。記錄你的聯繫，幫助更多人。",
+      "labDays": "他們在 Labora 上的實驗室通常會在 {days} 天內回覆申請。",
+      "logOutreach": "記錄我的聯繫"
+    },
+    "sidebar": {
+      "writeTitle": "準備好聯繫了嗎？",
+      "writeBody": "先寫好郵件，再對照教授們口中會被直接刪除的寫法進行檢查。",
+      "writeCta": "檢查我的郵件",
+      "trackTitle": "聯繫紀錄",
+      "trackBody": "記錄你聯繫過誰，以及何時跟進。",
+      "trackStart": "加入聯繫紀錄",
+      "status": "狀態",
+      "tracked": "已加入你的聯繫紀錄",
+      "saveError": "無法更新聯繫紀錄"
+    }
+  },
+  "positions": {
+    "title": "開放職缺",
+    "subtitle": "由已驗證教授直接刊登的研究職缺。先讀他們的研究，再申請。",
+    "searchLabel": "搜尋",
+    "searchPlaceholder": "主題、技能或實驗室名稱",
+    "filters": "篩選",
+    "compensation": "報酬",
+    "location": "地點",
+    "term": "學期",
+    "university": "大學",
+    "universityPlaceholder": "例如：MIT",
+    "department": "系所",
+    "departmentPlaceholder": "例如：生物學",
+    "any": "不限",
+    "count_other": "{count} 個職缺",
+    "searching": "搜尋中…",
+    "noResults": "沒有符合搜尋條件的職缺",
+    "noResultsBody": "試試更廣泛的關鍵字，或移除某個篩選條件。你也可以直接搜尋教授——聯繫他們並不需要對方有開放職缺。",
+    "discoverCta": "尋找教授",
+    "clear": "清除篩選",
+    "postedAgo": "{when}刊登",
+    "closes": "{when}截止",
+    "applyBy": "請於 {date} 前申請",
+    "deadlinePassed": "已過截止日期",
+    "slots_other": "{count} 個名額",
+    "backToAll": "全部職缺",
+    "about": "關於這個職務",
+    "requirements": "我們在尋找",
+    "skills": "技能",
+    "research": "閱讀實驗室的研究",
+    "researchHint": "申請之前，先熟悉一下他們的研究。",
+    "noMaterials": "尚未分享研究資料。",
+    "aboutLab": "關於實驗室",
+    "viewLab": "查看實驗室檔案",
+    "website": "實驗室網站",
+    "notFound": "找不到該職缺",
+    "verifiedLab": "已驗證實驗室",
+    "apply": {
+      "title": "申請",
+      "label": "你為什麼適合？",
+      "placeholder": "分享你的興趣、相關課程與可投入的時間…",
+      "submit": "送出申請",
+      "shared": "你的檔案會分享給教授。",
+      "sent": "申請已送出",
+      "status": "狀態",
+      "track": "追蹤申請",
+      "signIn": "請使用學生帳號登入後申請。",
+      "signInCta": "登入後申請",
+      "newHere": "第一次來嗎？",
+      "createAccount": "建立帳號",
+      "professorNote": "你目前以教授身分登入，只有學生可以申請。",
+      "closedNote": "此職缺已不再接受申請。",
+      "completeProfile": "完成你的檔案，讓教授看到你做過的事。",
+      "toProfile": "更新檔案",
+      "fitHint": "寫得具體些：你做過的一件事、你想學的一件事，以及你何時有空。"
+    }
+  },
+  "lab": {
+    "notFound": "找不到該實驗室",
+    "notFoundBody": "該實驗室可能未公開，或連結有誤。",
+    "openPositions": "開放職缺",
+    "noPositions": "目前沒有開放職缺",
+    "noPositionsBody": "請稍後再來看看——這個實驗室可能會刊登新的職缺。你也可以直接聯繫他們。",
+    "materials": "研究資料",
+    "culture": "在這裡工作是什麼樣子",
+    "teamSize": "{count} 人團隊",
+    "workStyle": "實驗室如何運作",
+    "website": "實驗室網站",
+    "professor": "計畫主持人（PI）",
+    "verified": "已驗證"
+  },
+  "community": {
+    "feedback": {
+      "title": "意見回饋板",
+      "subtitle": "一起打造 Labora。提出功能建議、回報問題或說出你的想法——並為最重要的事投票。",
+      "kind": {
+        "feature": "功能建議",
+        "bug": "問題回報",
+        "general": "一般回饋"
+      },
+      "status": {
+        "open": "待處理",
+        "planned": "已規劃",
+        "in_progress": "進行中",
+        "done": "已完成"
+      },
+      "newPost": "分享你的想法",
+      "postTitle": "標題",
+      "postTitlePlaceholder": "簡短摘要",
+      "postBody": "詳細內容",
+      "postBodyPlaceholder": "你希望看到什麼，或是哪裡出了問題？",
+      "post": "發布",
+      "posted": "謝謝——你的貼文已發布。",
+      "signIn": "登入後即可發文與投票。",
+      "sortVotes": "票數最多",
+      "sortNew": "最新",
+      "filterAll": "全部",
+      "count_other": "{count} 則貼文",
+      "empty": "這裡還沒有任何內容——來發第一則貼文吧。",
+      "vote": "投票",
+      "voted": "已投票",
+      "by": "作者：{name}"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "subtitle": "有問題、想法，或需要帳號協助？我們會閱讀每一則訊息。",
+      "name": "你的姓名",
+      "email": "你的電子郵件",
+      "message": "訊息",
+      "messagePlaceholder": "有什麼可以幫你的？",
+      "send": "傳送訊息",
+      "sent": "謝謝——我們很快會與你聯絡。",
+      "professorsTitle": "你是教授嗎？",
+      "professorsBody": "實驗室公開之前，我們會先驗證教授帳號。如果你所屬機構使用的電子郵件網域我們無法辨識，請在這裡告訴我們。",
+      "privacy": "我們只會用你的資料來回覆這則訊息。"
+    }
+  },
+  "tools": {
+    "emailChecker": {
+      "title": "郵件檢查器",
+      "subtitle": "貼上你的草稿，精準看出哪些說法會讓教授停止閱讀。我們絕不改寫你的郵件——你的文字風格由你自己保留。",
+      "subject": "郵件主旨",
+      "subjectPlaceholder": "例如：關於您深度估計論文的一個問題",
+      "body": "你的郵件",
+      "bodyPlaceholder": "敬愛的教授……",
+      "professorContext": "正對照 {name} 近期的研究進行檢查",
+      "removeContext": "移除",
+      "check": "檢查我的郵件",
+      "checking": "正在閱讀你的郵件…",
+      "example": "試試一個有問題的範例",
+      "clear": "清除",
+      "words": "{count} 字",
+      "wordsHint": "建議 90–180 字",
+      "resultsTitle": "檢查結果",
+      "emptyTitle": "你的回饋會顯示在這裡",
+      "emptyBody": "在左側撰寫或貼上郵件，然後按下「檢查我的郵件」。",
+      "score": "評分",
+      "highlights": "標註後的郵件",
+      "issues": "需要修改的地方",
+      "noIssues": "沒有需要修改的地方——讀起來很不錯。",
+      "strengths": "做得好的地方",
+      "aiSummary": "整體印象",
+      "soundsGeneric": "寄給誰都行的郵件",
+      "soundsGenericHint": "這封郵件不做任何修改就能寄給任何一位教授的程度。",
+      "aiUsed": "包含 AI 審閱",
+      "rulesOnly": "以規則為基礎的審閱",
+      "englishOnly": "措辭檢查目前僅適用於英文郵件；長度與結構檢查仍然有效。",
+      "signInTitle": "登入後檢查你的郵件",
+      "signInBody": "免費帳號包含 1 次檢查，通行證可解鎖無限次檢查。",
+      "limitTitle": "你已用完免費檢查",
+      "limitBody": "通行證可解鎖無限次郵件檢查、電子郵件查詢與無限摘要。",
+      "quota": "已使用 {used} / {limit} 次免費檢查",
+      "quotaPro": "無限檢查",
+      "noRewrite": "我們會指出問題，但絕不替你寫郵件——教授會回覆有自己聲音的學生。",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": {
+        "tone": "語氣",
+        "specificity": "具體性",
+        "voice": "個人風格",
+        "clarity": "清晰度",
+        "ask": "請求",
+        "etiquette": "禮節",
+        "subject": "主旨"
+      },
+      "gradeDesc": {
+        "excellent": "具體、簡潔、清楚，可以寄出了。",
+        "good": "一份紮實的草稿——再做幾處小修改會更好。",
+        "needs_work": "有幾處可能導致郵件被忽略，請先修改標紅的項目。",
+        "risky": "這封郵件很可能被直接刪除，寄出前請重新修改。"
+      },
+      "severity": {
+        "high": "優先修改",
+        "medium": "建議修改",
+        "low": "小問題"
+      },
+      "flags": {
+        "flattery": {
+          "title": "過度奉承",
+          "tip": "教授每天都會聽到「開創性的」這類詞。請改為說出引起你注意的具體結果或方法。"
+        },
+        "generic_phrase": {
+          "title": "套話",
+          "tip": "「非常積極主動」這類說法適用於任何人。請用你真正做過的事來證明。"
+        },
+        "ai_sounding": {
+          "title": "像機器寫的",
+          "tip": "這種說法常見於 AI 生成的文字。請用你說話時的方式來表達。"
+        },
+        "bad_salutation": {
+          "title": "稱呼過於籠統",
+          "tip": "“Dear Sir”像是群發郵件。請用“Dear Professor [姓氏]”，並檢查拼字。"
+        },
+        "informal": {
+          "title": "過於隨意",
+          "tip": "保持友善而專業的語氣——避免網路用語與縮寫。"
+        },
+        "missing_name": {
+          "title": "稱呼中沒有姓名",
+          "tip": "請稱呼教授的姓名：“Dear Professor Rivera,”。"
+        },
+        "name_not_mentioned": {
+          "title": "沒有提到教授的姓名",
+          "tip": "請確保郵件明確是寫給這位特定的人。"
+        },
+        "no_specific_reference": {
+          "title": "沒有提到他們的研究",
+          "tip": "提到這位教授的一篇具體論文、方法或發現——並問一個它讓你產生的疑問。"
+        },
+        "low_specificity": {
+          "title": "缺乏具體內容",
+          "tip": "這裡沒有哪一句不能寄給任何教授。請加入一篇論文、一個年份、一項結果或一個具體問題。"
+        },
+        "no_own_work": {
+          "title": "沒有呈現你做過的事",
+          "tip": "加入一件你親手做過、分析過、讀過或修過的具體事情——哪怕只是一個小專案。"
+        },
+        "no_clear_ask": {
+          "title": "沒有明確的請求",
+          "tip": "明確說出你想請對方做什麼：一次交流、一個志工職務，或推薦其他人。"
+        },
+        "no_signoff": {
+          "title": "沒有結尾署名",
+          "tip": "以簡短的感謝與你的全名作結。"
+        },
+        "exclamation": {
+          "title": "驚嘆號過多",
+          "tip": "一個沒問題，兩個以上會顯得過於興奮。讓內容來傳達你的熱情。"
+        },
+        "emoji": {
+          "title": "表情符號",
+          "tip": "寄給教授的第一封郵件裡不要使用表情符號。"
+        },
+        "all_caps": {
+          "title": "全部大寫",
+          "tip": "大寫單字讀起來像在大吼，請使用正常大小寫。"
+        },
+        "too_short": {
+          "title": "太短",
+          "tip": "不到約 45 個字通常說不清楚。請加入你做過的事與你的請求。"
+        },
+        "too_long": {
+          "title": "太長",
+          "tip": "目標是 90–180 字。刪去教授做決定時不需要的背景資訊。"
+        },
+        "wall_of_text": {
+          "title": "大段文字",
+          "tip": "分成 2–3 個短段落，方便快速瀏覽。"
+        },
+        "no_subject": {
+          "title": "沒有主旨",
+          "tip": "清楚的主旨能讓郵件被打開：提到主題或論文。"
+        },
+        "subject_generic": {
+          "title": "主旨過於籠統",
+          "tip": "“Research”可以指任何東西。試著寫出你所指的論文或主題。"
+        },
+        "subject_short": {
+          "title": "主旨太短",
+          "tip": "多加幾個字說明背景，讓教授知道郵件的內容。"
+        },
+        "subject_long": {
+          "title": "主旨太長",
+          "tip": "請控制在約 90 個字元以內。"
+        },
+        "subject_shouty": {
+          "title": "主旨過於誇張",
+          "tip": "避免使用大寫與“urgent”之類的詞——它們看起來像垃圾郵件。"
+        },
+        "ai_note": {
+          "title": "審閱備註",
+          "tip": ""
+        }
+      },
+      "strengthLabels": {
+        "personal_greeting": "稱呼了教授的姓名",
+        "specific_reference": "提到了他們的具體研究",
+        "shows_own_work": "呈現了你做過的事",
+        "clear_ask": "提出了明確的請求",
+        "redirect_offer": "替對方留了轉介的餘地",
+        "states_availability": "說明了你可投入的時間或時程",
+        "concise": "長度恰當"
+      }
+    },
+    "followUp": {
+      "title": "跟進規劃器",
+      "subtitle": "還沒收到回覆？貼上你寄出的郵件，取得兩封時機恰當、聽起來像你自己的跟進郵件。",
+      "email": "你寄出的郵件",
+      "emailPlaceholder": "貼上你的原始郵件…",
+      "subject": "原郵件主旨",
+      "sentOn": "寄出日期",
+      "professorName": "教授姓名",
+      "professorPlaceholder": "例如：Elena Rivera",
+      "generate": "規劃我的跟進",
+      "generating": "撰寫中…",
+      "timeline": "你的跟進時間軸",
+      "step": "第 {n} 次跟進",
+      "sendOn": "{date}寄出",
+      "daysAfter": "首封郵件後第 {days} 天",
+      "copy": "複製訊息",
+      "copied": "已複製",
+      "addToCalendar": "加入行事曆",
+      "editHint": "請自由修改——這些只是讓你改成自己風格的草稿。",
+      "emptyTitle": "你的時間軸會顯示在這裡",
+      "emptyBody": "兩次跟進，間隔適當，既能維持在對方的視野中，又不會造成打擾。",
+      "tipsTitle": "時機小訣竅",
+      "tip1": "避開期末週、經費申請截止日與假期。",
+      "tip2": "選在平日清晨寄出。",
+      "tip3": "跟進兩次後就該繼續前進——並請對方推薦其他人。",
+      "aiUsed": "由 AI 個人化",
+      "templated": "以範本為基礎",
+      "signInTitle": "登入後規劃你的跟進",
+      "limitTitle": "你已用完免費跟進計畫",
+      "quota": "已使用 {used} / {limit} 次免費計畫"
+    },
+    "framework": {
+      "title": "陌生郵件架構",
+      "subtitle": "根據「教授為什麼會回覆」設計的填空式結構。點選任一括號查看指引。",
+      "template": "範本",
+      "tapHint": "點選括號查看如何填寫。",
+      "guidance": "指引",
+      "redFlags": "應避免的說法",
+      "redFlagsSub": "這些說法顯示你沒有做功課，請換成具體的內容。",
+      "instead": "改為：",
+      "cta": "檢查你自己的郵件",
+      "b1": {
+        "label": "具體主題",
+        "tip": "寫出確切的領域、方法或問題，而不是整個學科。「睡眠依賴的記憶鞏固」比「神經科學」好。"
+      },
+      "b2": {
+        "label": "具體的發現或引文",
+        "tip": "指出他們近期某篇論文中的一項真實結果、圖表或句子。這一句能證明你讀過。"
+      },
+      "b3": {
+        "label": "你的研究切入點",
+        "tip": "把它與你做過或想探索的事連結起來——一門課、一份資料集、一個專案。"
+      },
+      "b4": {
+        "label": "一個真誠的個人原因",
+        "tip": "用一句誠實的話說明它為什麼對你重要。簡短而真實。"
+      },
+      "b5": {
+        "label": "顯示你讀過論文的好問題",
+        "tip": "問一個論文讓你產生的疑問——限制、延伸或資料集。避免「請多介紹一下您的研究」。"
+      },
+      "rf1": {
+        "phrase": "I found your work fascinating and groundbreaking",
+        "why": "教授每天都會聽到這句話。",
+        "instead": "說出引起你注意的那項具體發現。"
+      },
+      "rf2": {
+        "phrase": "I am a highly motivated student",
+        "why": "它沒有傳達任何資訊。",
+        "instead": "透過你做過的事來展現積極性。"
+      },
+      "rf3": {
+        "phrase": "Your research aligns perfectly with my interests",
+        "why": "太籠統，難以令人相信。",
+        "instead": "說明具體的關聯在哪裡。"
+      },
+      "rf4": {
+        "phrase": "I would love to learn from you",
+        "why": "這讓郵件變成在談你，而不是他們的研究。",
+        "instead": "詢問他們研究中某個具體的部分。"
+      },
+      "rf5": {
+        "phrase": "I am passionate about this field",
+        "why": "每個人都這麼說。",
+        "instead": "描述你在這個領域實際做過的事。"
+      }
+    },
+    "examples": {
+      "title": "有效的郵件——附註解",
+      "subtitle": "我們撰寫了三封示意性郵件，展示能獲得回覆的寫法。請閱讀每一句旁邊的註解。",
+      "disclaimer": "這些是 Labora 團隊撰寫的示意性範例，並非真實往來的郵件。姓名與細節均為虛構。",
+      "example": "範例 {n}",
+      "cta": "現在檢查你自己的郵件",
+      "e1": {
+        "label": "大一，自學",
+        "note1": "先從你自己的興趣與一項真實技能說起，再連結到他們的研究。",
+        "note2": "只有讀過論文才提得出來的具體問題。",
+        "note3": "一個門檻很低的直接請求——以及一個把「不」變成線索的轉介請求。"
+      },
+      "e2": {
+        "label": "有個人專案的大三學生",
+        "note1": "展示你已在進行的專案——動手實作的興趣證明。",
+        "note2": "技術深度：這個問題顯示你理解了方法，而不只是摘要。",
+        "note3": "給出時程（今年夏天），並表示即使當志工也願意幫忙。"
+      },
+      "e3": {
+        "label": "人文／社會科學",
+        "note1": "以你修過的一門課與讀過的一份資料為依據提出請求。",
+        "note2": "詢問某個選擇背後的思路，而不是要一份總結。",
+        "note3": "提供具體的協助：每週幾個小時的檔案編碼工作。"
+      }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "共同主題：{items}",
+      "skills_covered": "你已具備的技能：{items}",
+      "style_aligned": "工作風格相近（{items}）",
+      "hours_fit": "你的可投入時間符合需求",
+      "bonus_skills": "額外技能：{items}",
+      "published_on_topics": "發表主題：{items}",
+      "active_recently": "近 3 年發表 {items} 篇論文",
+      "partial_topic_overlap": "重疊較少的主題：{items}",
+      "missing_skills": "需要培養的技能：{items}",
+      "style_differs": "工作風格不同（{items}）",
+      "hours_short": "可投入時間少於職缺期待"
+    },
+    "strong": "高度相符",
+    "good": "相當相符",
+    "partial": "部分相符",
+    "tip": "如何脫穎而出",
+    "why": "為什麼適合",
+    "gaps": "需要了解",
+    "breakdown": {
+      "topic": "主題",
+      "skills": "技能",
+      "bonus": "加分",
+      "style": "工作風格",
+      "hours": "可投入時間"
+    },
+    "aiRefined": "經 AI 優化",
+    "explainable": "可解釋的評分",
+    "student": {
+      "title": "AI 配對",
+      "subtitle": "依你的技能、興趣與喜歡的工作方式，為職缺與教授排序。",
+      "tabPositions": "開放職缺",
+      "tabProfessors": "全球教授",
+      "run": "尋找我的配對",
+      "rerun": "重新整理配對",
+      "running": "配對中…",
+      "strengthTitle": "你的配對檔案",
+      "strengthBody": "你提供的資訊越多，配對越精準。已完成 {score}%。",
+      "improve": "改善檔案",
+      "missing": {
+        "skills": "新增你的技能",
+        "interests": "描述你的興趣",
+        "experience": "新增你已經做過的事",
+        "bio": "寫一段簡短自我介紹",
+        "major": "新增你的主修",
+        "availability": "設定你每週可投入的時間",
+        "work_style": "設定你的工作風格"
+      },
+      "howTitle": "配對是如何運作的",
+      "how1": "我們將你的興趣、技能、經歷與可投入時間，與每個職缺或研究者比較。",
+      "how2": "我們也會比較工作風格——獨立性、團隊合作、節奏與結構。",
+      "how3": "AI 審閱者會優化排名靠前的結果並逐一說明。姓名、學校與其他個人特徵絕不會被使用。",
+      "noResultsTitle": "還沒有配對結果",
+      "noResultsBody": "目前沒有可供配對的開放職缺。試試看全球教授吧。",
+      "searchedFor": "搜尋內容：{keywords}",
+      "direction": "引導搜尋方向",
+      "directionPlaceholder": "例如：神經編碼、醫學影像",
+      "university": "僅限某所大學",
+      "apply": "查看並申請",
+      "viewProfessor": "查看檔案",
+      "writeEmail": "寫郵件",
+      "quota": "已使用 {used} / {limit} 次免費配對",
+      "quotaPro": "無限配對",
+      "limitTitle": "你已用完免費配對",
+      "limitBody": "通行證可解鎖無限配對、摘要與電子郵件查詢。",
+      "professorsIntro": "我們會把你的檔案轉換成研究主題，並尋找正活躍發表這些主題論文的人。",
+      "emptyProfile": "請先新增一些技能與興趣，這樣我們才有東西可以配對。",
+      "positionsFirst": "執行配對，查看最適合的職缺。"
+    },
+    "professor": {
+      "title": "找到你的理想學生",
+      "subtitle": "描述你在尋找什麼樣的人——或讓 AI 根據你的職缺草擬——然後查看適合的學生。",
+      "unverifiedTitle": "等待驗證",
+      "unverifiedBody": "教授帳號通過驗證後，即可使用人才搜尋。我們會盡快審核。",
+      "step1": "1. 從一個職缺開始",
+      "step1Hint": "選填。選擇一個職缺作為檔案的基礎。",
+      "noPosition": "不指定職缺",
+      "step2": "2. 你在尋找的人選",
+      "notes": "用你自己的話說",
+      "notesPlaceholder": "例如：自我驅動、喜歡除錯、用過 PyTorch、每週能投入 10 小時的人。",
+      "draft": "用 AI 草擬人選檔案",
+      "draftRule": "建立人選檔案",
+      "drafting": "草擬中…",
+      "personaHint": "可隨意修改——學生將與這份檔案進行比較。",
+      "headline": "一句話概括",
+      "summary": "簡介",
+      "mustHave": "必備",
+      "niceToHave": "加分項",
+      "traits": "個人特質",
+      "keywords": "主題",
+      "addChip": "輸入後按 Enter 新增",
+      "workStyle": "你希望的工作風格",
+      "step3": "3. 適合的學生",
+      "find": "尋找學生",
+      "finding": "搜尋中…",
+      "pool": "{count} 位學生已選擇公開",
+      "poolEmpty": "還沒有學生選擇公開。當學生開啟「可被探索」後，會顯示在這裡。",
+      "left": "今天還剩 {count} 次搜尋",
+      "invite": "邀請申請",
+      "invited": "已邀請",
+      "inviteTitle": "邀請 {name}",
+      "inviteBody": "對方會看到你的訊息，並可選擇接受或婉拒。在對方回覆之前，聯絡資訊保持私密。",
+      "position": "職缺",
+      "message": "你的訊息",
+      "messageDefault": "你好 {name}，你的背景看起來非常適合我們實驗室的「{position}」。你有興趣申請嗎？歡迎隨時提問。",
+      "sendInvite": "傳送邀請",
+      "sent": "邀請已傳送",
+      "selectPosition": "選擇要邀請的職缺",
+      "privacy": "這裡只會顯示選擇「可被探索」的學生，且絕不顯示電子郵件。",
+      "noStudents": "還沒有相符的學生",
+      "noStudentsBody": "試著放寬必備條件，或等更多學生加入後再來看看。",
+      "available": "每週可投入 {hours} 小時",
+      "skills": "技能",
+      "createPositionFirst": "刊登一個職缺，才能邀請學生申請。",
+      "labFirst": "請先設定你的實驗室檔案。"
+    },
+    "ai": {
+      "notEnabled": "此伺服器未啟用 AI 優化——配對使用可解釋的規則式評分。"
+    }
+  }
+}

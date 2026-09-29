@@ -1,0 +1,43 @@
+{
+  "compensation": { "paid": "Paid", "credit": "For credit", "volunteer": "Volunteer" },
+  "term": { "fall": "Fall", "spring": "Spring", "summer": "Summer", "year_round": "Year-round", "flexible": "Flexible" },
+  "location": { "on_site": "On campus", "remote": "Remote", "hybrid": "Hybrid" },
+  "appStatus": { "pending": "In review", "accepted": "Accepted", "rejected": "Not selected", "withdrawn": "Withdrawn" },
+  "invStatus": { "pending": "Waiting for reply", "accepted": "Accepted", "declined": "Declined", "withdrawn": "Withdrawn" },
+  "outreach": {
+    "saved": "Saved",
+    "drafted": "Drafting",
+    "sent": "Sent",
+    "replied": "Replied",
+    "meeting": "Meeting set",
+    "positive": "Offer / yes",
+    "no_reply": "No reply",
+    "declined": "Declined"
+  },
+  "materialKind": { "paper": "Paper", "dataset": "Dataset", "poster": "Poster", "other": "Other" },
+  "role": { "student": "Student", "professor": "Professor" },
+  "year": {
+    "freshman": "Freshman",
+    "sophomore": "Sophomore",
+    "junior": "Junior",
+    "senior": "Senior",
+    "masters": "Master's",
+    "phd": "PhD"
+  },
+  "style": {
+    "autonomy": "Autonomy",
+    "autonomyLow": "Close guidance",
+    "autonomyHigh": "Independent",
+    "collaboration": "Collaboration",
+    "collaborationLow": "Solo focus",
+    "collaborationHigh": "Team-oriented",
+    "pace": "Pace",
+    "paceLow": "Steady & deep",
+    "paceHigh": "Fast & iterative",
+    "structure": "Structure",
+    "structureLow": "Open-ended",
+    "structureHigh": "Well-defined"
+  },
+  "grade": { "excellent": "Excellent", "good": "Good", "needs_work": "Needs work", "risky": "Risky" },
+  "sort": { "relevance": "Best match", "cited": "Most cited", "recent": "Most active" }
+}

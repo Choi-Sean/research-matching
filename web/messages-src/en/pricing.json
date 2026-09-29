@@ -1,0 +1,69 @@
+{
+  "eyebrow": "Pricing",
+  "title": "Pick the pass that fits your semester",
+  "subtitle": "Searching for researchers is always free. Passes unlock the tools that save you the most time — one payment, no subscription, no auto-renewal.",
+  "plans": {
+    "free": { "name": "Free", "desc": "forever" },
+    "weekly": { "name": "Weekly sprint", "desc": "1 week of access" },
+    "semester": { "name": "Semester pass", "desc": "4 months of access", "badge": "Best value" },
+    "lifetime": { "name": "Lifetime", "desc": "Yours forever" }
+  },
+  "cta": {
+    "free": "Start free",
+    "weekly": "Start the weekly sprint",
+    "semester": "Get the semester pass",
+    "lifetime": "Get lifetime access",
+    "current": "Your current plan",
+    "signIn": "Sign in to continue"
+  },
+  "features": {
+    "unlimited_search": "Unlimited researcher searches",
+    "summaries_2": "2 plain-English summaries",
+    "email_check_1": "1 email check",
+    "ai_match_3": "3 AI matches",
+    "outreach_tracker": "Outreach tracker",
+    "positions_board": "Open positions board",
+    "everything_pro": "Everything in Free, plus:",
+    "unlimited_summaries": "Unlimited summaries",
+    "email_finder": "Email finder",
+    "responsiveness": "Responsiveness scores",
+    "unlimited_checks": "Unlimited email checks & follow-ups",
+    "playbook": "The Cold Email Playbook",
+    "everything_semester": "Everything in the Semester pass, plus:",
+    "never_pay_again": "Never pay again",
+    "priority_features": "Early access to new features"
+  },
+  "payments": "Payments are processed securely by Stripe. We never see your card details.",
+  "devMode": "Payments aren't connected in this environment — passes activate instantly so you can test them.",
+  "activated": "Your pass is active. Enjoy!",
+  "cancelled": "Checkout was cancelled — no charge was made.",
+  "referral": {
+    "title": "Bring a friend, both get a week",
+    "body": "Share your code from Plan & billing. When a friend signs up with it, you both get 7 days of Pro.",
+    "haveCode": "Have a friend's code?",
+    "placeholder": "Enter code",
+    "redeem": "Redeem",
+    "redeemed": "Code redeemed — 7 days of Pro added.",
+    "signIn": "Sign in to redeem a code"
+  },
+  "waitlist": {
+    "title": "A guaranteed-reply plan is coming",
+    "body": "We're exploring a plan built around getting you real conversations. Join the waitlist and we'll tell you first.",
+    "placeholder": "you@university.edu",
+    "join": "Join the waitlist",
+    "joined": "You're on the list. Thank you!"
+  },
+  "faq": {
+    "title": "Billing questions",
+    "q1": "Is it a subscription?",
+    "a1": "No. Every pass is a one-time payment. Nothing renews automatically, so there's nothing to cancel.",
+    "q2": "What happens when my pass ends?",
+    "a2": "You keep your account, saved researchers and tracker. You simply go back to the free allowance.",
+    "q3": "Do I need a pass to search or apply?",
+    "a3": "No. Searching for researchers, browsing positions and applying are always free.",
+    "q4": "Are professors charged?",
+    "a4": "No. Verified professors post positions, share research and find students for free.",
+    "q5": "Who do I contact about billing?",
+    "a5": "Use the contact page and we'll get back to you."
+  }
+}

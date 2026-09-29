@@ -1,0 +1,274 @@
+@import "tailwindcss";
+
+/* Dark mode is driven by <html data-theme="dark"> (set before first paint by an inline script). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* -------------------------------------------------------------------------------------------
+   Design tokens. Components use semantic names (bg-canvas, text-ink, border-line …) so light and
+   dark share one set of class names.
+   ------------------------------------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+  --canvas: #faf9f6;
+  --surface: #ffffff;
+  --surface-2: #f5f3ee;
+  --surface-3: #ece9e1;
+  --ink: #0f1320;
+  --muted: #4d5568;
+  --faint: #7b8296;
+  --line: #e7e3da;
+  --line-2: #d6d1c4;
+
+  --brand: #2c42e6;
+  --brand-2: #2136c4;
+  --brand-soft: #eceeff;
+  --brand-fg: #ffffff;
+  --brand-text: #2c42e6;
+
+  --accent: #d98f0b;
+  --accent-soft: #fff2d3;
+  --accent-text: #7a4a00;
+
+  --good: #0c8a5c;
+  --good-soft: #e2f5ec;
+  --good-text: #086645;
+  --warn-soft: #fef0d9;
+  --warn-text: #9a4a05;
+  --bad: #c73737;
+  --bad-soft: #fdeaea;
+  --bad-text: #a52a2a;
+
+  --shadow-card: 0 1px 0 rgb(15 19 32 / 0.03), 0 10px 30px -18px rgb(15 19 32 / 0.18);
+  --shadow-pop: 0 1px 0 rgb(15 19 32 / 0.04), 0 24px 60px -24px rgb(15 19 32 / 0.32);
+  --glow-a: rgb(44 66 230 / 0.13);
+  --glow-b: rgb(217 143 11 / 0.14);
+  --grid: rgb(15 19 32 / 0.06);
+  --overlay: rgb(15 19 32 / 0.45);
+  --deep: #0f1320;
+  --deep-2: #182036;
+  --deep-fg: #eef1f8;
+  --deep-muted: #a9b1c6;
+  --deep-line: rgb(255 255 255 / 0.1);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #090b11;
+  --surface: #10131b;
+  --surface-2: #151924;
+  --surface-3: #1d2231;
+  --ink: #eef1f8;
+  --muted: #a5adc0;
+  --faint: #71798d;
+  --line: rgb(255 255 255 / 0.085);
+  --line-2: rgb(255 255 255 / 0.15);
+
+  --brand: #4f63f5;
+  --brand-2: #6577ff;
+  --brand-soft: rgb(112 130 255 / 0.15);
+  --brand-fg: #ffffff;
+  --brand-text: #8b99ff;
+
+  --accent: #f2b544;
+  --accent-soft: rgb(242 181 68 / 0.14);
+  --accent-text: #f5c66a;
+
+  --good: #34c48a;
+  --good-soft: rgb(52 196 138 / 0.14);
+  --good-text: #5bd6a4;
+  --warn-soft: rgb(242 160 68 / 0.14);
+  --warn-text: #f4b06a;
+  --bad: #ef6b6b;
+  --bad-soft: rgb(239 107 107 / 0.15);
+  --bad-text: #f59a9a;
+
+  --shadow-card: 0 1px 0 rgb(255 255 255 / 0.03) inset, 0 12px 32px -20px rgb(0 0 0 / 0.7);
+  --shadow-pop: 0 1px 0 rgb(255 255 255 / 0.05) inset, 0 28px 70px -24px rgb(0 0 0 / 0.85);
+  --glow-a: rgb(84 104 255 / 0.22);
+  --glow-b: rgb(242 181 68 / 0.1);
+  --grid: rgb(255 255 255 / 0.05);
+  --overlay: rgb(0 0 0 / 0.6);
+  --deep: #10162a;
+  --deep-2: #1a2340;
+  --deep-fg: #eef1f8;
+  --deep-muted: #a9b1c6;
+  --deep-line: rgb(255 255 255 / 0.1);
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-fg: var(--brand-fg);
+  --color-brand-text: var(--brand-text);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-text: var(--accent-text);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-good-text: var(--good-text);
+  --color-warn-soft: var(--warn-soft);
+  --color-warn-text: var(--warn-text);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-bad-text: var(--bad-text);
+
+  --color-deep: var(--deep);
+  --color-deep-2: var(--deep-2);
+  --color-deep-fg: var(--deep-fg);
+  --color-deep-muted: var(--deep-muted);
+  --color-deep-line: var(--deep-line);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-pop: var(--shadow-pop);
+
+  --font-sans: var(--font-inter), var(--sans-fallback);
+  --font-display: var(--display-stack);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-marquee: marquee 60s linear infinite;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-shimmer: shimmer 1.8s ease-in-out infinite;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes dialog-in {
+  from { opacity: 0; transform: translateY(8px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes dialog-pop { from { opacity: 0; transform: translateY(-4px) scale(0.98); } to { opacity: 1; transform: none; } }
+@keyframes accordion-down { from { height: 0; } to { height: var(--radix-accordion-content-height); } }
+@keyframes accordion-up { from { height: var(--radix-accordion-content-height); } to { height: 0; } }
+@keyframes shimmer {
+  0% { opacity: 0.55; }
+  50% { opacity: 1; }
+  100% { opacity: 0.55; }
+}
+
+/* -------------------------------------------------------------------------------------------
+   Typography. Latin scripts get an editorial serif for display type; other scripts use the
+   system's best sans so glyph coverage and rendering are always correct.
+   ------------------------------------------------------------------------------------------- */
+:root {
+  --sans-fallback: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+    "Apple SD Gothic Neo", "Malgun Gothic", "Hiragino Sans", "Yu Gothic UI", "PingFang SC", "Microsoft YaHei UI",
+    "PingFang TC", "Microsoft JhengHei UI", "Noto Sans Arabic", "Geeza Pro", "Nirmala UI", "Kohinoor Devanagari",
+    sans-serif;
+  --display-stack: var(--font-newsreader), "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+}
+:lang(ko), :lang(ja), :lang(zh), :lang(zh-TW), :lang(ru), :lang(ar), :lang(hi) {
+  --display-stack: var(--font-inter), var(--sans-fallback);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss03";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+}
+:lang(ko), :lang(ja), :lang(zh), :lang(zh-TW) { line-height: 1.7; }
+:lang(ko) { word-break: keep-all; overflow-wrap: break-word; }
+:lang(ar), :lang(hi) { line-height: 1.75; }
+/* Letter-spacing breaks joined scripts. */
+:lang(ar) *, :lang(hi) *, :lang(ko) *, :lang(ja) *, :lang(zh) *, :lang(zh-TW) * { letter-spacing: 0 !important; }
+:lang(ar) .uppercase, :lang(hi) .uppercase { text-transform: none; }
+
+::selection { background: var(--brand-soft); color: var(--ink); }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 6px; }
+button, [role="button"], a { -webkit-tap-highlight-color: transparent; }
+
+/* Editorial display type */
+.display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.022em;
+  line-height: 1.04;
+  text-wrap: balance;
+}
+:lang(ko) .display, :lang(ja) .display, :lang(zh) .display, :lang(zh-TW) .display, :lang(ru) .display,
+:lang(ar) .display, :lang(hi) .display { font-weight: 700; line-height: 1.22; }
+.display em { font-style: italic; color: var(--brand-text); font-weight: 500; }
+:lang(ko) .display em, :lang(ja) .display em, :lang(zh) .display em, :lang(zh-TW) .display em,
+:lang(ru) .display em, :lang(ar) .display em, :lang(hi) .display em { font-style: normal; }
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--brand-text);
+}
+
+/* Subtle paper grain and dotted grid used behind hero areas */
+.bg-grid {
+  background-image: radial-gradient(circle at 1px 1px, var(--grid) 1px, transparent 0);
+  background-size: 26px 26px;
+}
+.bg-noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  mix-blend-mode: multiply;
+}
+[data-theme="dark"] .bg-noise::after { opacity: 0.05; mix-blend-mode: screen; }
+
+/* Scroll-reveal: content is visible by default; below-the-fold blocks are hidden only once JS is ready to reveal them. */
+[data-reveal] { transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+[data-reveal="pending"] { opacity: 0; transform: translateY(18px); }
+
+/* Thin scrollbars that suit both themes */
+* { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+
+/* Prose for long-form content (blog, legal) */
+.prose-labora { color: var(--ink); font-size: 1.0625rem; line-height: 1.75; }
+.prose-labora > * + * { margin-top: 1.15em; }
+.prose-labora h2 { font-family: var(--font-display); font-size: 1.65rem; line-height: 1.2; letter-spacing: -0.015em; margin-top: 2.2em; font-weight: 600; }
+.prose-labora h3 { font-size: 1.2rem; font-weight: 600; margin-top: 1.8em; }
+.prose-labora p, .prose-labora li { color: color-mix(in srgb, var(--ink) 86%, var(--canvas)); }
+.prose-labora ul, .prose-labora ol { padding-inline-start: 1.4em; }
+.prose-labora ul { list-style: disc; }
+.prose-labora ol { list-style: decimal; }
+.prose-labora li + li { margin-top: 0.45em; }
+.prose-labora a { color: var(--brand-text); text-decoration: underline; text-underline-offset: 3px; }
+.prose-labora strong { font-weight: 650; color: var(--ink); }
+.prose-labora blockquote { border-inline-start: 3px solid var(--brand); padding-inline-start: 1.1em; color: var(--muted); font-style: italic; }
+.prose-labora code { font-family: var(--font-mono); font-size: 0.9em; background: var(--surface-2); padding: 0.15em 0.4em; border-radius: 6px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  [data-reveal="pending"] { opacity: 1; transform: none; }
+}

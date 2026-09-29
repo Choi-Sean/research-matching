@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "Dein nächster Durchbruch beginnt mit dem richtigen Labor.",
+      "p1": "Entdecke Forschende aus dem weltweiten wissenschaftlichen Bestand", "p2": "Verstehe ihre Arbeit, bevor du ein Wort schreibst", "p3": "Lass dich nach Fähigkeiten und Arbeitsweise zusammenbringen",
+      "footer": "Für Studierende und Professor:innen – in deiner Sprache."
+    },
+    "login": {
+      "title": "Willkommen zurück", "subtitle": "Melde dich an, um fortzufahren.", "email": "E-Mail", "emailPlaceholder": "du@universitaet.edu", "password": "Passwort",
+      "submit": "Anmelden", "noAccount": "Noch kein Konto?", "signUp": "Registrieren", "forgot": "Passwort vergessen?",
+      "forgotHelp": "Melde dich bei uns, dann helfen wir dir, wieder hineinzukommen.", "demo": "Demokonten (Passwort: password123)",
+      "demoStudent": "Studierende:r", "demoProfessor": "Professor:in", "demoAdmin": "Admin"
+    },
+    "register": {
+      "title": "Konto erstellen", "subtitle": "Registriere dich mit deiner Hochschul-E-Mail. Das dauert eine Minute.", "iAm": "Ich bin …", "student": "Studierende:r", "studentDesc": "Forschung finden und zusammengebracht werden",
+      "professor": "Professor:in", "professorDesc": "Studierende gewinnen, eigene Arbeit teilen", "fullName": "Vollständiger Name", "fullNamePlaceholderStudent": "Jamie Park", "fullNamePlaceholderProfessor": "Prof. Jane Smith",
+      "email": "Hochschul-E-Mail", "emailHint": "Verwende eine Adresse, die auf .edu, .ac.uk oder eine ähnliche akademische Domain endet.", "password": "Passwort", "passwordHint": "Mindestens 8 Zeichen.",
+      "referral": "Code einer Freundin oder eines Freundes", "referralHint": "Du hast einen Code bekommen? Ihr beide erhaltet eine Woche Pro.",
+      "consent": "Mit der Erstellung eines Kontos stimmst du unseren <terms>Nutzungsbedingungen</terms> und der <privacy>Datenschutzerklärung</privacy> zu.",
+      "submit": "Konto erstellen", "haveAccount": "Du hast schon ein Konto?", "signIn": "Anmelden",
+      "professorNote": "Professor:innenkonten werden von unserem Team verifiziert, bevor dein Labor und deine Stellen öffentlich werden."
+    }
+  },
+  "discover": {
+    "title": "Finde deine Professur für die Forschung", "subtitle": "Suche Forschende, die aktiv zu dem publizieren, was dir wichtig ist – aus dem weltweiten wissenschaftlichen Bestand.",
+    "modeInterest": "Nach Interesse", "modeName": "Nach Name", "interestLabel": "Forschungsinteresse", "interestPlaceholder": "z. B. Computational Neuroscience", "nameLabel": "Name der Person", "namePlaceholder": "z. B. Jane Smith",
+    "universityLabel": "Universität", "universityPlaceholder": "Beliebige Universität", "universityHint": "Wähle aus der Liste, um eine einzelne Institution zu durchsuchen.", "search": "Suchen", "searching": "Suche läuft …",
+    "sortBy": "Sortieren nach", "minH": "Mindest-h-Index", "minHAny": "Beliebig", "filters": "Filter", "resultsFor": "Forschende zu „{q}“", "resultsAt": "· {university}",
+    "resultsCount_one": "{count} Forscher:in", "resultsCount_other": "{count} Forschende", "noResults": "Keine Forschenden gefunden", "noResultsBody": "Versuche ein breiteres Interesse, eine andere Schreibweise oder entferne den Universitätsfilter.",
+    "startTitle": "Beginne mit etwas, das dich neugierig macht",
+    "startBody": "Probiere ein Thema wie „Proteinfaltung“ oder „Klimapolitik“, ergänze eine Universität, falls du eine im Blick hast, und wir zeigen dir, wer dazu publiziert.",
+    "noteTitle": "So werden die Ergebnisse sortiert",
+    "noteBody": "Forschende werden danach sortiert, wie viel sie zuletzt zu deinem Thema publiziert haben, gewichtet nach ihrem Standing im Fach. Titel wie „Professor:in“ werden in wissenschaftlichen Datenbanken nicht erfasst – nutze daher die Zusammenfassung und die Papers, um die Passung einzuschätzen.",
+    "hIndex": "h-Index", "papers": "Publikationen", "citations": "Zitationen", "recentWorks": "Letzte 3 Jahre", "onTopic": "Zu diesem Thema", "onLabora": "Auf Labora", "viewProfile": "Profil ansehen",
+    "save": "Merken", "saved": "Gemerkt", "loadMore": "Mehr Forschende anzeigen", "yourInterest": "Dein Interesse",
+    "disclaimer": "Daten von OpenAlex. Zugehörigkeiten spiegeln die neuesten Publikationseinträge wider und können der Realität hinterherhinken.", "signInToSave": "Melde dich an, um Forschende auf deiner Merkliste zu speichern.",
+    "savedToast": "Zur Merkliste hinzugefügt", "removedToast": "Von der Merkliste entfernt", "clearFilters": "Filter zurücksetzen", "universityAny": "Beliebige Universität",
+    "searchingAt": "Forschende an {university} werden gesucht", "lookingUp": "Institutionen werden gesucht …"
+  },
+  "professor": {
+    "back": "Zurück zur Suche", "notFoundTitle": "Wir konnten diese:n Forscher:in nicht finden", "notFoundBody": "Der Link ist möglicherweise falsch, oder die wissenschaftliche Datenbank ist ausgelastet. Versuche die Suche erneut.",
+    "orcid": "ORCID", "openalex": "OpenAlex-Profil", "onLabora": "Leitet ein Labor auf Labora", "viewLab": "Labor ansehen",
+    "stats": { "hIndex": "h-Index", "papers": "Publikationen", "citations": "Zitationen", "recent": "Letzte 3 Jahre", "i10": "i10-Index" },
+    "tabs": { "overview": "Überblick", "papers": "Publikationen", "contact": "Kontakt" },
+    "summary": {
+      "title": "Die Arbeit in einfacher Sprache", "cta": "Arbeit erklären", "ctaBody": "Erhalte eine kurze Zusammenfassung dessen, was die Person erforscht, ein aktuelles Ergebnis und Fragen, die sich lohnen.",
+      "loading": "Aktuelle Papers werden gelesen …", "overview": "Woran geforscht wird", "keyFinding": "Ein aktuelles Ergebnis", "fromPaper": "Aus: {title}", "topics": "Forschungsgebiete, einfach erklärt",
+      "goodFit": "Du könntest gut passen, wenn …", "starters": "Fragen, die sich lohnen", "startersHint": "Nutze sie als Anstoß für deine eigene Neugier – Professor:innen merken, wenn eine Frage ehrlich gemeint ist.",
+      "aiBadge": "KI-Zusammenfassung", "extractiveBadge": "Automatische Zusammenfassung", "extractiveNote": "KI-Zusammenfassungen sind auf diesem Server nicht aktiviert, daher wurde dies direkt aus den Publikationsdaten zusammengestellt (auf Englisch).",
+      "aiNote": "Von einer KI anhand öffentlicher Abstracts geschrieben. Prüfe immer die Papers.", "quota": "{used} von {limit} kostenlosen Zusammenfassungen genutzt", "quotaPro": "Unbegrenzte Zusammenfassungen",
+      "signInTitle": "Melde dich an, um die Zusammenfassung zu lesen", "signInBody": "Kostenlose Konten erhalten für ein paar Forschende Zusammenfassungen in einfacher Sprache, ein zentrales Ergebnis und Gesprächseinstiege.",
+      "upgrade": "Unbegrenzte Zusammenfassungen holen", "limitTitle": "Du hast deine kostenlosen Zusammenfassungen aufgebraucht", "limitBody": "Pässe schalten unbegrenzte Zusammenfassungen, die E-Mail-Suche und mehr frei."
+    },
+    "topics": "Forschungsthemen", "activity": "Publikationen pro Jahr",
+    "papers": { "recent": "Neueste", "top": "Am häufigsten zitiert", "empty": "Keine Papers gefunden.", "abstract": "Abstract", "cited": "{n} Zitationen", "openAccess": "Open Access", "viewPaper": "Paper ansehen" },
+    "contact": {
+      "title": "E-Mail-Suche", "lockedTitle": "Schalte E-Mail-Suche und Antwortbereitschaft frei", "lockedBody": "Sieh wahrscheinliche institutionelle Adressen und wie oft Studierende eine Antwort bekommen. In jedem Pass enthalten.",
+      "seePlans": "Tarife ansehen", "guessNote": "Das sind Vermutungen auf Basis üblicher Namensmuster, keine verifizierten Adressen. Bestätige sie im Personenverzeichnis, bevor du sendest.",
+      "pattern": "Muster: {pattern}", "mostCommon": "Am häufigsten", "copy": "Adresse kopieren", "copied": "Adresse kopiert", "compose": "In der E-Mail-App öffnen",
+      "directory": "Im Personenverzeichnis suchen", "noDomain": "Wir konnten die E-Mail-Domain dieser Institution nicht ermitteln.", "responsiveness": "Antwortbereitschaft",
+      "resp": { "high": "Antwortet oft", "medium": "Antwortet manchmal", "low": "Antwortet selten", "unknown": "Noch nicht genug Meldungen" },
+      "respBody": "Basierend auf {n} Kontaktprotokollen von Studierenden. {rate} haben eine Antwort erhalten{days}.", "respDays": ", in der Regel innerhalb von {days} Tagen",
+      "respUnknown": "Das zeigen wir erst, wenn mindestens 3 Studierende ihren Kontakt zu dieser Person protokolliert haben. Protokolliere deinen, um anderen zu helfen.",
+      "labDays": "Das Labor auf Labora beantwortet Bewerbungen in der Regel innerhalb von {days} Tagen.", "logOutreach": "Meinen Kontakt protokollieren"
+    },
+    "sidebar": {
+      "writeTitle": "Bereit für die Kontaktaufnahme?", "writeBody": "Entwirf deine E-Mail und prüfe sie dann gegen das, was laut Professor:innen im Papierkorb landet.", "writeCta": "Meine E-Mail prüfen",
+      "trackTitle": "Kontakt-Tracker", "trackBody": "Behalte im Blick, wen du kontaktiert hast und wann du nachfassen solltest.", "trackStart": "Zum Tracker hinzufügen", "status": "Status",
+      "tracked": "Zu deinem Tracker hinzugefügt", "saveError": "Der Tracker konnte nicht aktualisiert werden"
+    }
+  },
+  "positions": {
+    "title": "Offene Stellen", "subtitle": "Forschungsstellen, die direkt von verifizierten Professor:innen ausgeschrieben werden. Lies zuerst ihre Arbeit, dann bewirb dich.", "searchLabel": "Suchen",
+    "searchPlaceholder": "Thema, Fähigkeit oder Laborname", "filters": "Filter", "compensation": "Vergütung", "location": "Ort", "term": "Zeitraum", "university": "Universität", "universityPlaceholder": "z. B. MIT",
+    "department": "Fachbereich", "departmentPlaceholder": "z. B. Biologie", "any": "Beliebig", "count_one": "{count} Stelle", "count_other": "{count} Stellen", "searching": "Suche läuft …",
+    "noResults": "Keine Stellen passen zu deiner Suche", "noResultsBody": "Versuche ein breiteres Stichwort oder entferne einen Filter. Oder suche direkt nach Professor:innen – für eine Kontaktaufnahme brauchst du keine ausgeschriebene Stelle.",
+    "discoverCta": "Professor:innen finden", "clear": "Filter zurücksetzen", "postedAgo": "Ausgeschrieben {when}", "closes": "Endet {when}", "applyBy": "Bewerbung bis {date}", "deadlinePassed": "Frist abgelaufen",
+    "slots_one": "{count} Platz", "slots_other": "{count} Plätze", "backToAll": "Alle Stellen", "about": "Über diese Stelle", "requirements": "Was wir suchen", "skills": "Fähigkeiten", "research": "Lies die Forschung des Labors",
+    "researchHint": "Mach dich mit der Arbeit vertraut, bevor du dich bewirbst.", "noMaterials": "Noch keine Forschungsmaterialien geteilt.", "aboutLab": "Über das Labor", "viewLab": "Laborprofil ansehen",
+    "website": "Website des Labors", "notFound": "Stelle nicht gefunden", "verifiedLab": "Verifiziertes Labor",
+    "apply": {
+      "title": "Bewerben", "label": "Warum passt du gut?", "placeholder": "Teile dein Interesse, relevante Kurse und deine Verfügbarkeit …", "submit": "Bewerbung absenden",
+      "shared": "Dein Profil wird mit der Professur geteilt.", "sent": "Bewerbung gesendet", "status": "Status", "track": "Bewerbungen verfolgen", "signIn": "Melde dich mit deinem Studierendenkonto an, um dich zu bewerben.",
+      "signInCta": "Zum Bewerben anmelden", "newHere": "Neu hier?", "createAccount": "Konto erstellen", "professorNote": "Du bist als Professor:in angemeldet. Nur Studierende können sich bewerben.",
+      "closedNote": "Diese Stelle nimmt keine Bewerbungen mehr an.", "completeProfile": "Vervollständige dein Profil, damit Professor:innen sehen, was du schon gemacht hast.", "toProfile": "Profil aktualisieren",
+      "fitHint": "Sei konkret: eine Sache, die du gemacht hast, eine Sache, die du lernen möchtest, und wann du verfügbar bist."
+    }
+  },
+  "lab": {
+    "notFound": "Labor nicht gefunden", "notFoundBody": "Das Labor ist möglicherweise privat, oder der Link ist falsch.", "openPositions": "Offene Stellen", "noPositions": "Derzeit keine offenen Stellen",
+    "noPositionsBody": "Schau bald wieder vorbei – dieses Labor schreibt vielleicht neue Stellen aus. Du kannst auch direkt Kontakt aufnehmen.", "materials": "Forschungsmaterialien", "culture": "Wie es ist, hier zu arbeiten",
+    "teamSize": "Team mit {count}", "workStyle": "Wie das Labor arbeitet", "website": "Website des Labors", "professor": "Leitung", "verified": "Verifiziert"
+  },
+  "community": {
+    "feedback": {
+      "title": "Feedback-Board", "subtitle": "Gestalte Labora mit. Schlage Funktionen vor, melde Fehler oder teile, was dich beschäftigt – und stimme darüber ab, was am wichtigsten ist.",
+      "kind": { "feature": "Funktionswunsch", "bug": "Fehlermeldung", "general": "Allgemeines Feedback" },
+      "status": { "open": "Offen", "planned": "Geplant", "in_progress": "In Arbeit", "done": "Erledigt" },
+      "newPost": "Teile deine Gedanken", "postTitle": "Titel", "postTitlePlaceholder": "Eine kurze Zusammenfassung", "postBody": "Details", "postBodyPlaceholder": "Was würdest du dir wünschen, oder was ist schiefgelaufen?",
+      "post": "Veröffentlichen", "posted": "Danke – dein Beitrag ist online.", "signIn": "Melde dich an, um zu posten und abzustimmen.", "sortVotes": "Meiste Stimmen", "sortNew": "Neueste", "filterAll": "Alle",
+      "count_one": "{count} Beitrag", "count_other": "{count} Beiträge", "empty": "Hier ist noch nichts – sei die oder der Erste.", "vote": "Abstimmen", "voted": "Abgestimmt", "by": "von {name}"
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen", "subtitle": "Fragen, Ideen oder Hilfe zu deinem Konto? Wir lesen jede Nachricht.", "name": "Dein Name", "email": "Deine E-Mail",
+      "message": "Nachricht", "messagePlaceholder": "Wie können wir helfen?", "send": "Nachricht senden", "sent": "Danke – wir melden uns bald.",
+      "professorsTitle": "Bist du Professor:in?",
+      "professorsBody": "Wir verifizieren Professor:innenkonten, bevor Labore öffentlich werden. Wenn deine Institution eine E-Mail-Domain nutzt, die wir nicht kennen, teile sie uns hier mit.",
+      "privacy": "Wir verwenden deine Angaben nur, um auf diese Nachricht zu antworten."
+    }
+  }
+}

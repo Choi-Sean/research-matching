@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "你的下一個突破，始於合適的實驗室。",
+      "p1": "從全球學術紀錄中探索研究者", "p2": "在動筆之前先讀懂他們的研究", "p3": "依技能與你喜歡的工作方式獲得配對",
+      "footer": "為學生與教授，使用你的語言。"
+    },
+    "login": {
+      "title": "歡迎回來", "subtitle": "登入以繼續。", "email": "電子郵件", "emailPlaceholder": "you@university.edu", "password": "密碼",
+      "submit": "登入", "noAccount": "還沒有帳號嗎？", "signUp": "註冊", "forgot": "忘記密碼？",
+      "forgotHelp": "請與我們聯絡，我們會協助你重新登入。", "demo": "示範帳號（密碼：password123）",
+      "demoStudent": "學生", "demoProfessor": "教授", "demoAdmin": "管理員"
+    },
+    "register": {
+      "title": "建立帳號", "subtitle": "使用你的大學電子郵件加入，只需一分鐘。", "iAm": "我是…", "student": "學生", "studentDesc": "尋找研究機會並獲得配對",
+      "professor": "教授", "professorDesc": "招募學生，分享你的研究", "fullName": "姓名", "fullNamePlaceholderStudent": "陳小明", "fullNamePlaceholderProfessor": "王教授",
+      "email": "大學電子郵件", "emailHint": "請使用以 .edu、.ac.uk、.edu.tw 或類似學術網域結尾的信箱。", "password": "密碼", "passwordHint": "至少 8 個字元。",
+      "referral": "朋友的推薦碼", "referralHint": "有朋友給的推薦碼嗎？你們都能獲得一週 Pro。",
+      "consent": "建立帳號即表示你同意我們的<terms>服務條款</terms>與<privacy>隱私權政策</privacy>。",
+      "submit": "建立帳號", "haveAccount": "已經有帳號了嗎？", "signIn": "登入",
+      "professorNote": "教授帳號需經我們團隊驗證後，你的實驗室與職缺才會公開。"
+    }
+  },
+  "discover": {
+    "title": "找到你的研究教授", "subtitle": "在全球學術紀錄中，搜尋正活躍發表你所關心主題論文的研究者。",
+    "modeInterest": "依興趣", "modeName": "依姓名", "interestLabel": "研究興趣", "interestPlaceholder": "例如：計算神經科學", "nameLabel": "研究者姓名", "namePlaceholder": "例如：Jane Smith",
+    "universityLabel": "大學", "universityPlaceholder": "任何大學", "universityHint": "從清單中選擇以搜尋單一機構。", "search": "搜尋", "searching": "搜尋中…",
+    "sortBy": "排序方式", "minH": "最低 h 指數", "minHAny": "不限", "filters": "篩選", "resultsFor": "「{q}」相關研究者", "resultsAt": "· {university}",
+    "resultsCount_other": "{count} 位研究者", "noResults": "找不到研究者", "noResultsBody": "試試更廣泛的興趣、換個拼法，或移除大學篩選。",
+    "startTitle": "從你好奇的事情開始",
+    "startBody": "試試「蛋白質摺疊」或「氣候政策」這類主題，如果有心儀的大學也可以加上，我們會顯示誰在發表相關論文。",
+    "noteTitle": "結果如何排序",
+    "noteBody": "研究者依其近期在你所選主題上的發表量排序，並依他們在該領域的地位加權。學術資料庫不會記錄「教授」這類頭銜，因此請透過摘要與論文來判斷是否適合。",
+    "hIndex": "h 指數", "papers": "篇論文", "citations": "次引用", "recentWorks": "近 3 年", "onTopic": "此主題", "onLabora": "已加入 Labora", "viewProfile": "查看檔案",
+    "save": "收藏", "saved": "已收藏", "loadMore": "顯示更多研究者", "yourInterest": "你的興趣",
+    "disclaimer": "資料來自 OpenAlex。所屬機構以最新的論文紀錄為準，可能落後於實際情況。", "signInToSave": "登入後即可將研究者加入你的候選名單。",
+    "savedToast": "已加入候選名單", "removedToast": "已從候選名單移除", "clearFilters": "清除篩選", "universityAny": "任何大學",
+    "searchingAt": "正在搜尋 {university} 的研究者", "lookingUp": "正在查找機構…"
+  },
+  "professor": {
+    "back": "回到搜尋", "notFoundTitle": "找不到該研究者", "notFoundBody": "連結可能有誤，或學術資料庫正忙。請重新搜尋。",
+    "orcid": "ORCID", "openalex": "OpenAlex 檔案", "onLabora": "在 Labora 上經營實驗室", "viewLab": "查看他們的實驗室",
+    "stats": { "hIndex": "h 指數", "papers": "論文", "citations": "引用", "recent": "近 3 年", "i10": "i10 指數" },
+    "tabs": { "overview": "總覽", "papers": "論文", "contact": "聯絡方式" },
+    "summary": {
+      "title": "用淺顯的語言說明他們的研究", "cta": "解說他們的研究", "ctaBody": "取得一份簡短摘要：他們研究什麼、一項最新發現，以及值得一問的問題。",
+      "loading": "正在閱讀他們最近的論文…", "overview": "他們研究什麼", "keyFinding": "一項最新發現", "fromPaper": "出自：{title}", "topics": "研究領域，簡單來說",
+      "goodFit": "如果你……，你可能很適合", "starters": "值得一問的問題", "startersHint": "把這些當作激發你自己好奇心的提示——教授分辨得出問題是否出自真心。",
+      "aiBadge": "AI 摘要", "extractiveBadge": "自動摘要", "extractiveNote": "此伺服器未啟用 AI 摘要，因此內容直接由他們的論文資料整理而成（英文）。",
+      "aiNote": "由 AI 根據公開摘要撰寫，請務必查閱論文。", "quota": "已使用 {used} / {limit} 次免費摘要", "quotaPro": "無限摘要",
+      "signInTitle": "登入後閱讀摘要", "signInBody": "免費帳號可查看幾位研究者的淺顯摘要、關鍵發現與開場話題。",
+      "upgrade": "取得無限摘要", "limitTitle": "你已用完免費摘要", "limitBody": "通行證可解鎖無限摘要、電子郵件查詢等功能。"
+    },
+    "topics": "研究主題", "activity": "每年發表數量",
+    "papers": { "recent": "最新", "top": "被引用最多", "empty": "找不到論文。", "abstract": "摘要", "cited": "{n} 次引用", "openAccess": "開放取用", "viewPaper": "查看論文" },
+    "contact": {
+      "title": "電子郵件查詢", "lockedTitle": "解鎖電子郵件查詢與回覆率", "lockedBody": "查看可能的機構信箱地址，以及學生獲得回覆的頻率。任何通行證皆包含。",
+      "seePlans": "查看方案", "guessNote": "這些是依常見命名規則推測的，並非經過驗證的地址。寄出前請先在教師名錄中確認。",
+      "pattern": "格式：{pattern}", "mostCommon": "最常見", "copy": "複製地址", "copied": "地址已複製", "compose": "在郵件應用程式中開啟",
+      "directory": "搜尋教師名錄", "noDomain": "我們無法確定該機構的電子郵件網域。", "responsiveness": "回覆率",
+      "resp": { "high": "經常回覆", "medium": "有時回覆", "low": "很少回覆", "unknown": "回報尚不足" },
+      "respBody": "根據 {n} 筆學生聯繫紀錄。{rate}回覆了{days}。", "respDays": "，通常在 {days} 天內",
+      "respUnknown": "只有在至少 3 位學生記錄了對這位研究者的聯繫後，才會顯示。記錄你的聯繫，幫助更多人。",
+      "labDays": "他們在 Labora 上的實驗室通常會在 {days} 天內回覆申請。", "logOutreach": "記錄我的聯繫"
+    },
+    "sidebar": {
+      "writeTitle": "準備好聯繫了嗎？", "writeBody": "先寫好郵件，再對照教授們口中會被直接刪除的寫法進行檢查。", "writeCta": "檢查我的郵件",
+      "trackTitle": "聯繫紀錄", "trackBody": "記錄你聯繫過誰，以及何時跟進。", "trackStart": "加入聯繫紀錄", "status": "狀態",
+      "tracked": "已加入你的聯繫紀錄", "saveError": "無法更新聯繫紀錄"
+    }
+  },
+  "positions": {
+    "title": "開放職缺", "subtitle": "由已驗證教授直接刊登的研究職缺。先讀他們的研究，再申請。", "searchLabel": "搜尋",
+    "searchPlaceholder": "主題、技能或實驗室名稱", "filters": "篩選", "compensation": "報酬", "location": "地點", "term": "學期", "university": "大學", "universityPlaceholder": "例如：MIT",
+    "department": "系所", "departmentPlaceholder": "例如：生物學", "any": "不限", "count_other": "{count} 個職缺", "searching": "搜尋中…",
+    "noResults": "沒有符合搜尋條件的職缺", "noResultsBody": "試試更廣泛的關鍵字，或移除某個篩選條件。你也可以直接搜尋教授——聯繫他們並不需要對方有開放職缺。",
+    "discoverCta": "尋找教授", "clear": "清除篩選", "postedAgo": "{when}刊登", "closes": "{when}截止", "applyBy": "請於 {date} 前申請", "deadlinePassed": "已過截止日期",
+    "slots_other": "{count} 個名額", "backToAll": "全部職缺", "about": "關於這個職務", "requirements": "我們在尋找", "skills": "技能", "research": "閱讀實驗室的研究",
+    "researchHint": "申請之前，先熟悉一下他們的研究。", "noMaterials": "尚未分享研究資料。", "aboutLab": "關於實驗室", "viewLab": "查看實驗室檔案",
+    "website": "實驗室網站", "notFound": "找不到該職缺", "verifiedLab": "已驗證實驗室",
+    "apply": {
+      "title": "申請", "label": "你為什麼適合？", "placeholder": "分享你的興趣、相關課程與可投入的時間…", "submit": "送出申請",
+      "shared": "你的檔案會分享給教授。", "sent": "申請已送出", "status": "狀態", "track": "追蹤申請", "signIn": "請使用學生帳號登入後申請。",
+      "signInCta": "登入後申請", "newHere": "第一次來嗎？", "createAccount": "建立帳號", "professorNote": "你目前以教授身分登入，只有學生可以申請。",
+      "closedNote": "此職缺已不再接受申請。", "completeProfile": "完成你的檔案，讓教授看到你做過的事。", "toProfile": "更新檔案",
+      "fitHint": "寫得具體些：你做過的一件事、你想學的一件事，以及你何時有空。"
+    }
+  },
+  "lab": {
+    "notFound": "找不到該實驗室", "notFoundBody": "該實驗室可能未公開，或連結有誤。", "openPositions": "開放職缺", "noPositions": "目前沒有開放職缺",
+    "noPositionsBody": "請稍後再來看看——這個實驗室可能會刊登新的職缺。你也可以直接聯繫他們。", "materials": "研究資料", "culture": "在這裡工作是什麼樣子",
+    "teamSize": "{count} 人團隊", "workStyle": "實驗室如何運作", "website": "實驗室網站", "professor": "計畫主持人（PI）", "verified": "已驗證"
+  },
+  "community": {
+    "feedback": {
+      "title": "意見回饋板", "subtitle": "一起打造 Labora。提出功能建議、回報問題或說出你的想法——並為最重要的事投票。",
+      "kind": { "feature": "功能建議", "bug": "問題回報", "general": "一般回饋" },
+      "status": { "open": "待處理", "planned": "已規劃", "in_progress": "進行中", "done": "已完成" },
+      "newPost": "分享你的想法", "postTitle": "標題", "postTitlePlaceholder": "簡短摘要", "postBody": "詳細內容", "postBodyPlaceholder": "你希望看到什麼，或是哪裡出了問題？",
+      "post": "發布", "posted": "謝謝——你的貼文已發布。", "signIn": "登入後即可發文與投票。", "sortVotes": "票數最多", "sortNew": "最新", "filterAll": "全部",
+      "count_other": "{count} 則貼文", "empty": "這裡還沒有任何內容——來發第一則貼文吧。", "vote": "投票", "voted": "已投票", "by": "作者：{name}"
+    },
+    "contact": {
+      "title": "聯絡我們", "subtitle": "有問題、想法，或需要帳號協助？我們會閱讀每一則訊息。", "name": "你的姓名", "email": "你的電子郵件",
+      "message": "訊息", "messagePlaceholder": "有什麼可以幫你的？", "send": "傳送訊息", "sent": "謝謝——我們很快會與你聯絡。",
+      "professorsTitle": "你是教授嗎？",
+      "professorsBody": "實驗室公開之前，我們會先驗證教授帳號。如果你所屬機構使用的電子郵件網域我們無法辨識，請在這裡告訴我們。",
+      "privacy": "我們只會用你的資料來回覆這則訊息。"
+    }
+  }
+}

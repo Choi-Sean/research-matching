@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "概要", "matches": "AIマッチ", "talent": "学生を探す", "applications": "応募", "invitations": "招待", "outreach": "アプローチ管理", "saved": "保存済み",
+      "profile": "マイプロフィール", "billing": "プランと請求", "settings": "設定", "positions": "ポジション", "lab": "研究室と研究", "admin": "管理"
+    },
+    "greeting": "こんにちは、{name}さん", "welcomeProfessor": "ようこそ、{name}先生",
+    "overview": {
+      "studentSubtitle": "研究探しの現在の状況です。", "professorSubtitle": "研究室、募集、応募者を管理します。", "findPositions": "ポジションを探す", "newPosition": "新規ポジション",
+      "applications": "応募", "inReview": "審査中", "accepted": "承認", "invitations": "招待", "openPositions": "募集中のポジション", "applicants": "応募者", "lab": "研究室",
+      "live": "公開中", "notSetUp": "未設定", "completeTitle": "プロフィールを完成させましょう",
+      "completeBody": "応募のたびに教授にプロフィールが表示されます。情報が多いほど、マッチングの精度も上がります。", "completeCta": "プロフィールを更新",
+      "discoverTitle": "教授に見つけてもらおう",
+      "discoverBody": "公開設定をオンにすると、認証済みの教授があなたを応募に招待できます。返信するまで、メールアドレスは非公開です。", "discoverCta": "プロフィールで設定",
+      "recentApplications": "最近の応募", "noApplications": "まだ応募していません。", "browse": "募集中のポジションを見る", "matchTitle": "おすすめのマッチ",
+      "matchBody": "適合度の高い順に、ポジションと教授を確認できます。", "matchCta": "AIマッチを開く", "yourPositions": "あなたのポジション", "noPositions": "まだポジションがありません。",
+      "createLabTitle": "研究室を設定して募集を始めましょう", "createLabBody": "掲載するすべてのポジションに、研究室プロフィールと研究内容が学生に表示されます。", "createLabCta": "研究室プロフィールを作成",
+      "unverifiedTitle": "アカウントの認証待ちです", "unverifiedBody": "研究室とポジションを公開する前に、教授アカウントを審査しています。その間に準備を整えておけます。",
+      "talentTitle": "合う学生を探す", "talentBody": "理想の学生像を描くと、公開を選んだ学生をAIが順位付けします。", "talentCta": "学生を探す",
+      "pendingInvitations_other": "{count}件の招待が待っています", "viewInvitations": "招待を見る",
+      "applicantsCount_other": "応募者{count}名", "newForYou": "あなたへの新着"
+    },
+    "profile": {
+      "title": "マイプロフィール", "subtitle": "応募時に教授へ表示され、AIマッチがあなたに合う相手を探すために使います。", "strength": "プロフィールの充実度",
+      "basics": "基本情報", "university": "大学", "major": "専攻", "year": "学年", "selectYear": "選択…", "about": "自己紹介", "bio": "短い自己紹介",
+      "bioHint": "あなたはどんな人で、何に興味がありますか？", "skills": "スキル", "skillsHint": "カンマ区切り。例：Python, PyTorch, R, 実験室の安全管理",
+      "interests": "研究の関心", "interestsHint": "取り組んでみたいテーマ。例：コンピュータビジョン、細胞運命。",
+      "experience": "これまでの経験", "experienceHint": "プロジェクト、授業、過去の研究。具体的なほど、マッチの精度が上がります。",
+      "availability": "週に確保できる時間", "workStyle": "好みの働き方", "workStyleHint": "それぞれのダイヤルを、最も心地よい位置に動かしてください。研究室との比較に使われます。",
+      "links": "リンク", "resume": "履歴書のリンク", "resumeHint": "PDFへのリンク（Drive、Dropbox、ご自身のサイトなど）。", "website": "個人サイト", "github": "GitHubプロフィール",
+      "visibility": "公開設定", "discoverable": "認証済みの教授に見つけてもらう",
+      "discoverableDesc": "教授があなたのプロフィールを見て、応募に招待できます。返信するまで、メールアドレスは非公開です。いつでもオフにできます。",
+      "save": "プロフィールを保存", "saved": "プロフィールを保存しました", "welcome": "Laboraへようこそ！自己紹介を入力すると、より良いマッチが見つかります。"
+    },
+    "applications": {
+      "title": "応募", "subtitle": "これまでの応募を1か所で確認できます。", "emptyTitle": "まだ応募がありません", "emptyBody": "ポジションに応募すると、ここに表示され、状況を追跡できます。",
+      "browse": "ポジションを見る", "applied": "{when}に応募", "withdraw": "取り下げ", "withdrawConfirm": "この応募を取り下げますか？", "withdrawn": "応募を取り下げました",
+      "invited": "招待あり", "decided": "{when}に決定"
+    },
+    "invitations": {
+      "title": "招待", "subtitleStudent": "あなたに応募してほしい教授。", "subtitleProfessor": "あなたが招待した学生。", "emptyStudentTitle": "まだ招待がありません",
+      "emptyStudentBody": "プロフィールで公開設定をオンにすると、認証済みの教授があなたを招待できます。", "emptyProfessorTitle": "まだ誰も招待していません",
+      "emptyProfessorBody": "「学生を探す」で、研究室に合う学生を見つけましょう。", "from": "{name}さんから", "to": "{name}さんへ", "match": "マッチ度{score}%",
+      "accept": "承諾して応募", "decline": "辞退", "replyPlaceholder": "教授へのメモを追加（任意）", "accepted": "承諾しました。応募が作成されました。", "declined": "招待を辞退しました",
+      "withdraw": "招待を取り下げ", "receivedAgo": "{when}に送信", "findStudents": "学生を探す"
+    },
+    "outreach": {
+      "title": "アプローチ管理", "subtitle": "連絡した相手、フォローアップの時期、結果を記録します。", "emptyTitle": "まだ何も記録されていません",
+      "emptyBody": "研究者のプロフィールから追加すると、アプローチを管理でき、フォローアップの日付も通知されます。", "find": "教授を探す", "followUpDue": "{when}にフォローアップ",
+      "overdue": "フォローアップの期限切れ", "sentOn": "{date}に送信", "repliedOn": "{date}に返信", "notes": "メモ", "notesPlaceholder": "覚えておきたいことを何でも…",
+      "status": "ステータス", "remove": "削除", "removeConfirm": "この研究者を管理表から削除しますか？", "planFollowUp": "フォローアップを計画",
+      "helpTitle": "あなたの記録がみんなの助けに",
+      "helpBody": "研究者プロフィールに表示される返信率は、あなたのような匿名かつ集計されたアプローチの記録に基づいています。個別のエントリが表示されることは決してありません。",
+      "stats": { "total": "管理中", "sent": "送信済み", "replied": "返信あり", "due": "要フォローアップ" }
+    },
+    "saved": {
+      "title": "保存済み", "subtitle": "ブックマークした研究者とポジション。", "professors": "研究者", "positions": "ポジション",
+      "emptyProfessors": "保存した研究者はまだいません", "emptyProfessorsBody": "研究者のブックマークをタップすると、リストに追加されます。",
+      "emptyPositions": "保存したポジションはまだありません", "emptyPositionsBody": "ポジションのブックマークをタップすると、あとで見返せます。"
+    },
+    "billing": {
+      "title": "プランと請求", "subtitle": "ご利用状況、使用量、紹介特典。", "currentPlan": "現在のプラン",
+      "plan": { "free": "無料", "weekly": "1週間スプリント", "semester": "学期パス", "lifetime": "ライフタイム" },
+      "activeUntil": "{date}まで有効", "lifetimeNote": "ライフタイムアクセスをお持ちです。", "freeNote": "無料プランをご利用中です。", "upgrade": "プランを見る",
+      "usage": "無料枠", "usageItem": "{limit}回中{used}回使用", "unlimited": "無制限",
+      "features": { "summary": "教授の要約", "email_check": "メールチェック", "follow_up": "フォローアップ計画", "match_positions": "ポジションのマッチ", "match_professors": "教授のマッチ" },
+      "referral": "友達を招待", "referralBody": "コードを共有しましょう。友達がそのコードで登録すると、二人とも{days}日間のProを獲得できます。", "yourCode": "あなたのコード",
+      "copyCode": "コードをコピー", "copyLink": "招待リンクをコピー", "copied": "コピーしました", "redeemed_other": "あなたのコードで{count}人の友達が参加しました",
+      "redeem": "友達のコードをお持ちですか？", "redeemPlaceholder": "コードを入力", "redeemCta": "利用する", "redeemedOk": "コードを利用しました。Pro {days}日分が追加されました。",
+      "checkoutSuccess": "ありがとうございます！まもなくプランが有効になります。", "devMode": "この環境では決済が接続されていないため、プランはすぐに有効化されます（テスト用）。"
+    },
+    "settings": {
+      "title": "設定", "subtitle": "アカウント、言語、セキュリティ。", "account": "アカウント", "name": "氏名", "email": "メールアドレス", "emailNote": "メールアドレスは変更できません。",
+      "language": "言語", "languageHint": "AIが書く要約やフィードバックの言語にも使われます。", "saveChanges": "変更を保存", "saved": "設定を保存しました",
+      "password": "パスワード", "currentPassword": "現在のパスワード", "newPassword": "新しいパスワード", "changePassword": "パスワードを変更", "passwordChanged": "パスワードを更新しました",
+      "danger": "アカウントを削除", "dangerBody": "プロフィール、応募、アカウントに紐づくすべてのデータが完全に削除されます。元に戻すことはできません。",
+      "dangerConfirm": "確認のため、パスワードを入力してください", "deleteCta": "アカウントを削除する", "deleted": "アカウントを削除しました。"
+    },
+    "lab": {
+      "title": "研究室と研究", "subtitle": "学生があなたのポジションを検討するときに見る内容です。", "createTitle": "研究室を作成", "profileTitle": "研究室プロフィール",
+      "name": "研究室名", "university": "大学", "department": "学部・学科", "description": "説明", "descriptionHint": "研究室では何に取り組んでいますか？学部生にもわかりやすく書きましょう。",
+      "keywords": "研究キーワード", "keywordsHint": "カンマ区切り", "website": "研究室のウェブサイト", "culture": "この研究室で働く雰囲気",
+      "cultureHint": "指導スタイル、ミーティングの頻度、学生が担当すること。学生は率直さを高く評価します。", "teamSize": "チームの人数", "workStyle": "研究室の進め方",
+      "workStyleHint": "学生との働き方の比較に使われます。", "openalex": "OpenAlex著者ID", "openalexHint": "任意。Laboraの研究室を、あなたの業績プロフィールに紐づけます（Aで始まるID）。",
+      "saveLab": "研究室を保存", "createLab": "研究室を作成", "created": "研究室を作成しました。次は研究資料の追加とポジションの掲載を。", "updated": "研究室を更新しました",
+      "materials": "研究資料", "materialsHint": "論文、データセット、ポスターを共有して、学生にあなたの研究を知ってもらいましょう。", "nothingShared": "まだ何も共有されていません。",
+      "addMaterial": "資料を追加", "materialTitle": "タイトル", "materialType": "種類", "materialLink": "リンク", "materialLinkHint": "arXiv、DOI、Google Drive、GitHub…",
+      "materialDescription": "短い説明", "removeMaterial": "この資料を削除しますか？", "verificationTitle": "認証待ち",
+      "verificationBody": "教授アカウントの認証が完了すると、研究室が公開されます。研究室のウェブサイトを追加すると、手続きが早まります。"
+    },
+    "positions": {
+      "title": "ポジション", "subtitle": "あなたの募集と、応募した人。", "new": "新規ポジション", "emptyTitle": "まだポジションがありません", "emptyBody": "募集を掲載して、応募を受け付けましょう。",
+      "emptyLab": "先に研究室プロフィールを作成してください。", "post": "最初のポジションを掲載", "open": "募集中", "closed": "終了", "close": "終了する", "reopen": "再開する",
+      "edit": "編集", "delete": "削除", "deleteConfirm": "このポジションを削除しますか？元に戻すことはできません。", "applicants": "応募者", "postedAgo": "{when}に掲載",
+      "viewPublic": "公開ページを見る", "newTitle": "新規ポジション", "newSubtitle": "募集内容を記入してください。あとからいつでも編集できます。", "editTitle": "ポジションを編集",
+      "needLab": "掲載する前に研究室プロフィールが必要です。", "createLab": "研究室を作成", "noApplicants": "まだ応募者がいません",
+      "noApplicantsBody": "ポジションを共有するか、「学生を探す」で合う学生を招待しましょう。", "decline": "辞退", "accept": "承認", "email": "応募者にメール", "resume": "履歴書",
+      "invitedBadge": "あなたが招待", "profileIncomplete": "プロフィール未完成",
+      "form": {
+        "title": "ポジション名", "titlePlaceholder": "学部生RA：自己教師あり学習によるビジョン", "description": "説明", "descriptionHint": "学生はどんな仕事をしますか？何を学べますか？",
+        "requirements": "応募条件", "requirementsHint": "履修や経験（任意）", "skills": "必須スキル", "skillsHint": "カンマ区切り。マッチングに使用。例：python, pytorch",
+        "compensation": "報酬", "hours": "週あたりの時間", "term": "学期", "location": "勤務場所", "slots": "募集人数", "deadline": "応募締切", "keywords": "キーワード",
+        "keywordsHint": "学生があなたのポジションを見つけやすくなります", "publish": "ポジションを公開", "saveChanges": "変更を保存", "saved": "ポジションを保存しました", "notSpecified": "指定なし"
+      }
+    },
+    "admin": {
+      "title": "管理", "subtitle": "教授を認証し、届いた内容を確認します。", "overview": "概要",
+      "stats": {
+        "users": "ユーザー", "students": "学生", "professors": "教授", "pending_professors": "認証待ち", "labs": "研究室", "open_positions": "募集中のポジション",
+        "applications": "応募", "invitations": "招待", "feedback": "フィードバック投稿", "waitlist": "ウェイトリスト", "paid_users": "有料ユーザー"
+      },
+      "verification": "教授の認証", "onlyPending": "保留中のみ", "verify": "認証", "unverify": "取り消し", "verifiedAt": "認証日", "pendingBadge": "保留中", "lab": "研究室",
+      "waitlist": "ウェイトリスト", "contact": "お問い合わせメッセージ", "empty": "まだ何もありません。", "notAdmin": "この領域は管理者専用です。",
+      "verifiedToast": "教授を認証しました", "revokedToast": "認証を取り消しました"
+    }
+  }
+}

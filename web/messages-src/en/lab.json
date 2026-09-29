@@ -1,0 +1,14 @@
+{
+  "notFound": "Lab not found",
+  "notFoundBody": "The lab may be private or the link may be wrong.",
+  "openPositions": "Open positions",
+  "noPositions": "No open positions right now",
+  "noPositionsBody": "Check back soon — this lab may post new openings. You can also reach out directly.",
+  "materials": "Research materials",
+  "culture": "What it's like to work here",
+  "teamSize": "Team of {count}",
+  "workStyle": "How the lab works",
+  "website": "Lab website",
+  "professor": "Principal investigator",
+  "verified": "Verified"
+}

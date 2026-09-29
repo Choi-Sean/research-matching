@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "badge": "New: AI matching for students and labs",
+    "title": "Find the professor who <em>fits you.</em>",
+    "subtitle": "Search the world's scholarly record, understand any researcher's work in plain language, and get matched with labs that fit your skills and the way you like to work.",
+    "modeInterest": "By interest",
+    "modeName": "By name",
+    "interestLabel": "Research interest",
+    "interestPlaceholder": "e.g. computational neuroscience",
+    "nameLabel": "Researcher name",
+    "namePlaceholder": "e.g. Jane Smith",
+    "universityLabel": "University",
+    "universityPlaceholder": "e.g. MIT, Stanford…",
+    "search": "Find professors",
+    "try": "Try",
+    "trust": "Built on open scholarly data: {works} papers · {institutions} institutions",
+    "trustFallback": "Built on open scholarly data: 300M+ papers · 140K+ institutions",
+    "ex": {
+      "ml": "Machine learning",
+      "neuro": "Neuroscience",
+      "genomics": "Genomics",
+      "climate": "Climate science",
+      "quantum": "Quantum computing",
+      "psych": "Psychology"
+    },
+    "modeLabel": "Search by"
+  },
+  "mock": {
+    "preview": "Illustrative preview",
+    "results": "Researchers",
+    "summary": "Plain-English summary",
+    "summaryBody": "Studies how machines can learn to see with very few labelled examples, so a robot can recognise and pick up everyday objects it has never met.",
+    "keyFinding": "Key finding",
+    "keyFindingBody": "A self-supervised approach cut the labelled images needed for grasp detection by 80% (2025).",
+    "starters": "Questions worth asking",
+    "starter1": "How did the group choose which objects to test on?",
+    "starter2": "Does the method hold up outside the lab?",
+    "save": "Save",
+    "writeEmail": "Write email",
+    "match": "Match",
+    "whyFit": "Why you fit",
+    "reasonTopics": "Shared topics: computer vision, PyTorch",
+    "reasonStyle": "Similar working style: independent, fast-paced",
+    "gap": "Gap: linear algebra",
+    "emailScore": "Email score",
+    "emailFlags": "2 things to fix",
+    "hIndex": "h-index",
+    "papers": "papers",
+    "flagFlattery": "Flattery",
+    "flagGeneric": "Generic phrase",
+    "mustHave": "Must have",
+    "niceToHave": "Nice to have",
+    "invite": "Invite",
+    "idealStudent": "Ideal candidate",
+    "followUpOn": "Follow up {date}",
+    "tracker": "Outreach tracker",
+    "openPositions": "Open positions",
+    "apply": "Apply"
+  },
+  "marquee": {
+    "label": "Researchers from institutions like"
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "Most outreach to professors <em>never gets read.</em>",
+    "description": "Students send generic emails to the wrong people at the wrong time, and professors have seconds to decide. Here is what usually goes wrong.",
+    "generic": {
+      "title": "The email sounds like everyone else's",
+      "body": "Flattery and boilerplate are easy to spot. A specific question about real work stands out."
+    },
+    "who": {
+      "title": "You can't tell who is taking students",
+      "body": "Faculty pages go stale, and labs that are hiring rarely announce it where students look."
+    },
+    "read": {
+      "title": "Reading the papers takes hours",
+      "body": "You must understand the work before you can write something specific — but abstracts are dense."
+    }
+  },
+  "features": {
+    "eyebrow": "The platform",
+    "title": "Everything between “I'm curious” and “I'm in the lab”",
+    "description": "One place to find people, understand their work, reach out well and keep track.",
+    "discover": {
+      "title": "Search the scholarly record",
+      "body": "Type any interest and a university. We surface researchers who are actively publishing on it — real people, real papers."
+    },
+    "summaries": {
+      "title": "Plain-English summaries",
+      "body": "Every researcher gets a short explanation of what they study and one recent finding, written for someone new to the field."
+    },
+    "email": {
+      "title": "An email coach, not a ghostwriter",
+      "body": "Paste your draft and see which phrases sound generic, flattering or vague — and why. You keep your own voice."
+    },
+    "match": {
+      "title": "AI matching, both ways",
+      "body": "Students see the labs and professors that fit their skills and working style. Professors describe an ideal student and see who fits."
+    },
+    "positions": {
+      "title": "Openings from verified labs",
+      "body": "Browse roles posted directly by professors, read their research first, and apply in one step."
+    },
+    "tracker": {
+      "title": "An outreach tracker that reminds you",
+      "body": "Log who you emailed and what happened. Get follow-up dates so nothing slips through."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From curiosity to a real conversation",
+    "s1": {
+      "title": "Search",
+      "body": "Enter an interest and a university, or a researcher's name."
+    },
+    "s2": {
+      "title": "Understand",
+      "body": "Read a plain-English summary, recent papers and good questions to ask."
+    },
+    "s3": {
+      "title": "Reach out",
+      "body": "Write your own email, check it, and send it with confidence."
+    },
+    "s4": {
+      "title": "Follow up",
+      "body": "Track replies and send two well-timed follow-ups."
+    }
+  },
+  "match": {
+    "eyebrow": "AI Match",
+    "title": "Matched on skills — and on <em>how you work.</em>",
+    "description": "Topic overlap is only half the story. Labora also compares working styles: how much independence you like, how collaborative you are, the pace you prefer and how much structure helps you.",
+    "students": "For students",
+    "s1": "Ranked positions and professors, each with plain reasons",
+    "s2": "See your gaps and how to stand out",
+    "s3": "You decide what professors can see",
+    "professors": "For professors",
+    "p1": "Describe your ideal student — or let AI draft it from your position",
+    "p2": "Browse students who opted in, ranked with reasons",
+    "p3": "Invite the best fits with a single message",
+    "privacy": "Student discoverability is opt-in and can be switched off at any time. Contact details are never shown to a professor until the student says yes.",
+    "cta": "Explore AI Match",
+    "styleTitle": "Working style",
+    "candidate": "Candidate",
+    "you": "You",
+    "lab": "Lab"
+  },
+  "compare": {
+    "title": "Why not just ask a chatbot?",
+    "description": "General chatbots are great writers, but they are not a directory of real people.",
+    "colChatbot": "A general chatbot",
+    "colLabora": "Labora",
+    "r1": "Where the people and papers come from",
+    "r1a": "Generated from memory — it can invent professors, papers and numbers.",
+    "r1b": "Retrieved from the scholarly record (OpenAlex). Nothing is made up.",
+    "r2": "Who writes your email",
+    "r2a": "Often writes it for you, and professors can tell.",
+    "r2b": "You write it. Labora tells you what to fix.",
+    "r3": "How much effort it takes",
+    "r3a": "Many prompts to find, read and compare researchers.",
+    "r3b": "One search: researchers, summaries and email feedback together."
+  },
+  "professors": {
+    "eyebrow": "For professors",
+    "title": "Recruit students who <em>actually fit.</em>",
+    "description": "Post openings, share your research, and let AI surface students whose skills and working style match your lab.",
+    "b1": "Free for verified faculty",
+    "b2": "Showcase papers, datasets and posters",
+    "b3": "Review applicants and invitations in one place",
+    "cta": "Post a position"
+  },
+  "stats": {
+    "eyebrow": "Built on open data",
+    "title": "A directory that is real, not generated",
+    "works": "Scholarly works indexed",
+    "institutions": "Institutions worldwide",
+    "researchers": "Researchers",
+    "labs": "Labs on Labora",
+    "positions": "Open positions",
+    "attribution": "Scholarly metadata provided by OpenAlex."
+  },
+  "pricing": {
+    "title": "Free to start. Upgrade when you're ready.",
+    "description": "Searching is always free. Passes unlock email finder, unlimited summaries and unlimited email checks for as long as you need them.",
+    "cta": "See plans"
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "q1": "Where does the researcher data come from?",
+    "a1": "From OpenAlex, an open catalogue of the world's scholarly work. We only show people and papers that exist in that record. We never invent professors or publications.",
+    "q2": "Will Labora write my email for me?",
+    "a2": "No — on purpose. Professors can tell, and replies go to students who sound like themselves. Labora finds who to write to, explains their work, and gives specific feedback on your own draft.",
+    "q3": "How does AI matching work?",
+    "a3": "We compare your skills, interests, experience, availability and working style with positions, labs and researchers, then explain every match. An AI reviewer refines the top results. We never use names, schools, gender, nationality or other protected traits.",
+    "q4": "Who can see my profile?",
+    "a4": "Nobody, unless you turn on discoverability. Then only verified professors can see your profile — never your email. They can invite you, and you decide whether to reply.",
+    "q5": "Do professors have to be on Labora?",
+    "a5": "No. You can find and contact researchers anywhere in the scholarly record. Professors who join can post positions, share their research and find students.",
+    "q6": "How much does it cost?",
+    "a6": "Searching is free, and a free account includes a taste of summaries, email checks and AI matching. Passes unlock unlimited use — see Pricing."
+  },
+  "cta": {
+    "title": "Your next research position starts with one <em>good email.</em>",
+    "subtitle": "Search free — no card required.",
+    "button": "Find professors"
+  }
+}

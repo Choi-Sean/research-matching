@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "總覽", "matches": "AI 配對", "talent": "尋找學生", "applications": "申請", "invitations": "邀請", "outreach": "聯繫紀錄", "saved": "已收藏",
+      "profile": "我的檔案", "billing": "方案與帳單", "settings": "設定", "positions": "職缺", "lab": "實驗室與研究", "admin": "管理"
+    },
+    "greeting": "你好，{name}", "welcomeProfessor": "歡迎，{name}",
+    "overview": {
+      "studentSubtitle": "這是你研究探索的最新進度。", "professorSubtitle": "管理你的實驗室、職缺與申請者。", "findPositions": "尋找職缺", "newPosition": "新增職缺",
+      "applications": "申請", "inReview": "審核中", "accepted": "已錄取", "invitations": "邀請", "openPositions": "開放職缺", "applicants": "申請者", "lab": "實驗室",
+      "live": "已上線", "notSetUp": "尚未設定", "completeTitle": "完成你的個人檔案",
+      "completeBody": "教授會在每次申請中看到你的檔案，你提供的資訊越多，配對就越精準。", "completeCta": "更新檔案",
+      "discoverTitle": "讓教授找到你",
+      "discoverBody": "開啟「可被探索」後，已驗證的教授可以邀請你申請。在你回覆之前，你的電子郵件保持私密。", "discoverCta": "在檔案中設定",
+      "recentApplications": "最近的申請", "noApplications": "你還沒有提出過申請。", "browse": "瀏覽開放職缺", "matchTitle": "你的最佳配對",
+      "matchBody": "依適合度查看排序後的職缺與教授。", "matchCta": "開啟 AI 配對", "yourPositions": "你的職缺", "noPositions": "還沒有職缺。",
+      "createLabTitle": "設定你的實驗室，開始招募", "createLabBody": "你刊登的每個職缺，學生都會看到你的實驗室檔案與研究。", "createLabCta": "建立實驗室檔案",
+      "unverifiedTitle": "你的帳號正在等待驗證", "unverifiedBody": "在實驗室與職缺公開之前，我們會審核教授帳號。在此期間你可以先把一切準備好。",
+      "talentTitle": "尋找適合的學生", "talentBody": "描述你的理想學生，讓 AI 為已選擇公開的學生排序。", "talentCta": "尋找學生",
+      "pendingInvitations_other": "你有 {count} 則待處理的邀請", "viewInvitations": "查看邀請",
+      "applicantsCount_other": "{count} 位申請者", "newForYou": "為你推薦的新內容"
+    },
+    "profile": {
+      "title": "我的檔案", "subtitle": "教授會在你的申請中看到這些內容，AI 配對也會用它來尋找與你契合的對象。", "strength": "檔案完整度",
+      "basics": "基本資料", "university": "大學", "major": "主修", "year": "年級", "selectYear": "請選擇…", "about": "關於你", "bio": "簡短自我介紹",
+      "bioHint": "你是誰？對什麼感到好奇？", "skills": "技能", "skillsHint": "以逗號分隔，例如：Python, PyTorch, R, 實驗室安全",
+      "interests": "研究興趣", "interestsHint": "你想參與的主題，例如：電腦視覺、細胞命運。",
+      "experience": "你已經做過的事", "experienceHint": "專案、課程、過去的研究——越具體，配對越準確。",
+      "availability": "你每週能投入的小時數", "workStyle": "你喜歡的工作方式", "workStyleHint": "把每個旋鈕調到你最自在的位置，它會用來與實驗室比較。",
+      "links": "連結", "resume": "履歷連結", "resumeHint": "PDF 連結（雲端硬碟、Dropbox 或你的網站）。", "website": "個人網站", "github": "GitHub 個人檔案",
+      "visibility": "可見度", "discoverable": "讓已驗證的教授找到我",
+      "discoverableDesc": "教授可以查看你的檔案並邀請你申請。在你回覆之前，你的電子郵件保持私密。你可以隨時關閉。",
+      "save": "儲存檔案", "saved": "檔案已儲存", "welcome": "歡迎來到 Labora！介紹一下自己，獲得更精準的配對。"
+    },
+    "applications": {
+      "title": "申請", "subtitle": "你申請過的所有職缺，集中在同一處。", "emptyTitle": "還沒有申請", "emptyBody": "當你申請某個職缺後，它會顯示在這裡，方便你追蹤狀態。",
+      "browse": "瀏覽職缺", "applied": "{when}申請", "withdraw": "撤回", "withdrawConfirm": "確定要撤回這份申請嗎？", "withdrawn": "申請已撤回",
+      "invited": "已受邀", "decided": "{when}已決定"
+    },
+    "invitations": {
+      "title": "邀請", "subtitleStudent": "希望你前來申請的教授。", "subtitleProfessor": "你邀請過的學生。", "emptyStudentTitle": "還沒有邀請",
+      "emptyStudentBody": "在檔案中開啟「可被探索」，讓已驗證的教授來邀請你。", "emptyProfessorTitle": "你還沒有邀請任何人",
+      "emptyProfessorBody": "使用「尋找學生」來探索適合你實驗室的學生。", "from": "來自 {name}", "to": "寄給 {name}", "match": "{score}% 配對",
+      "accept": "接受並申請", "decline": "婉拒", "replyPlaceholder": "給教授留言（選填）", "accepted": "你已接受——已建立一份申請。", "declined": "已婉拒邀請",
+      "withdraw": "撤回邀請", "receivedAgo": "{when}寄出", "findStudents": "尋找學生"
+    },
+    "outreach": {
+      "title": "聯繫紀錄", "subtitle": "記錄你聯繫過誰、何時跟進，以及結果如何。", "emptyTitle": "還沒有任何紀錄",
+      "emptyBody": "從研究者檔案加入他們，即可追蹤你的聯繫情況並取得跟進日期。", "find": "尋找教授", "followUpDue": "{when}跟進",
+      "overdue": "跟進已逾期", "sentOn": "{date}寄出", "repliedOn": "{date}回覆", "notes": "備註", "notesPlaceholder": "任何值得記住的事…",
+      "status": "狀態", "remove": "移除", "removeConfirm": "要從紀錄中移除這位研究者嗎？", "planFollowUp": "規劃跟進",
+      "helpTitle": "你的紀錄能幫助所有人",
+      "helpBody": "研究者檔案上顯示的回覆率，來自像你這樣的匿名彙整聯繫紀錄——絕不會顯示任何單筆紀錄。",
+      "stats": { "total": "追蹤中", "sent": "已寄出", "replied": "已回覆", "due": "待跟進" }
+    },
+    "saved": {
+      "title": "已收藏", "subtitle": "你收藏的研究者與職缺。", "professors": "研究者", "positions": "職缺",
+      "emptyProfessors": "還沒有收藏的研究者", "emptyProfessorsBody": "點選任何研究者上的收藏圖示，即可加入你的候選名單。",
+      "emptyPositions": "還沒有收藏的職缺", "emptyPositionsBody": "點選職缺上的收藏圖示，留待之後查看。"
+    },
+    "billing": {
+      "title": "方案與帳單", "subtitle": "你的使用權限、用量與推薦獎勵。", "currentPlan": "目前方案",
+      "plan": { "free": "免費", "weekly": "一週衝刺", "semester": "學期通行證", "lifetime": "終身" },
+      "activeUntil": "有效期限至 {date}", "lifetimeNote": "你擁有終身使用權。", "freeNote": "你目前使用的是免費方案。", "upgrade": "查看方案",
+      "usage": "免費額度", "usageItem": "已使用 {used} / {limit}", "unlimited": "無限制",
+      "features": { "summary": "教授摘要", "email_check": "郵件檢查", "follow_up": "跟進計畫", "match_positions": "職缺配對", "match_professors": "教授配對" },
+      "referral": "邀請朋友", "referralBody": "分享你的推薦碼。朋友使用它註冊後，你們都能獲得 {days} 天 Pro。", "yourCode": "你的推薦碼",
+      "copyCode": "複製推薦碼", "copyLink": "複製邀請連結", "copied": "已複製", "redeemed_other": "{count} 位朋友透過你的推薦碼加入",
+      "redeem": "有朋友的推薦碼嗎？", "redeemPlaceholder": "輸入推薦碼", "redeemCta": "兌換", "redeemedOk": "推薦碼已兌換——已新增 {days} 天 Pro。",
+      "checkoutSuccess": "謝謝！你的方案稍後即會生效。", "devMode": "此環境未串接付款——方案會立即生效，方便測試。"
+    },
+    "settings": {
+      "title": "設定", "subtitle": "你的帳號、語言與安全性。", "account": "帳號", "name": "姓名", "email": "電子郵件", "emailNote": "電子郵件無法變更。",
+      "language": "語言", "languageHint": "同時用於 AI 撰寫的摘要與回饋。", "saveChanges": "儲存變更", "saved": "設定已儲存",
+      "password": "密碼", "currentPassword": "目前密碼", "newPassword": "新密碼", "changePassword": "變更密碼", "passwordChanged": "密碼已更新",
+      "danger": "刪除帳號", "dangerBody": "這會永久刪除你的檔案、申請，以及帳號下的所有內容，且無法復原。",
+      "dangerConfirm": "請輸入密碼以確認", "deleteCta": "刪除我的帳號", "deleted": "你的帳號已刪除。"
+    },
+    "lab": {
+      "title": "實驗室與研究", "subtitle": "學生在考慮你的職缺時會看到這些內容。", "createTitle": "建立你的實驗室", "profileTitle": "實驗室檔案",
+      "name": "實驗室名稱", "university": "大學", "department": "系所", "description": "簡介", "descriptionHint": "你的實驗室研究什麼？請寫得讓大學部學生也容易理解。",
+      "keywords": "研究關鍵字", "keywordsHint": "以逗號分隔", "website": "實驗室網站", "culture": "在這裡工作是什麼樣子",
+      "cultureHint": "指導風格、組會節奏、學生負責的內容。學生重視坦誠。", "teamSize": "團隊規模", "workStyle": "你的實驗室如何運作",
+      "workStyleHint": "用於與學生比較工作風格。", "openalex": "OpenAlex 作者 ID", "openalexHint": "選填。將你的 Labora 實驗室與你的論文檔案連結（以 A 開頭）。",
+      "saveLab": "儲存實驗室", "createLab": "建立實驗室", "created": "實驗室已建立——現在新增研究資料並刊登職缺吧。", "updated": "實驗室已更新",
+      "materials": "研究資料", "materialsHint": "分享論文、資料集或海報，讓學生了解你的研究。", "nothingShared": "還沒有分享任何內容。",
+      "addMaterial": "新增資料", "materialTitle": "標題", "materialType": "類型", "materialLink": "連結", "materialLinkHint": "arXiv、DOI、Google Drive、GitHub…",
+      "materialDescription": "簡短說明", "removeMaterial": "要移除這份資料嗎？", "verificationTitle": "等待驗證",
+      "verificationBody": "在我們驗證你的教授帳號後，你的實驗室才會公開。新增實驗室網站可以加快驗證。"
+    },
+    "positions": {
+      "title": "職缺", "subtitle": "你的職缺以及申請者。", "new": "新增職缺", "emptyTitle": "還沒有職缺", "emptyBody": "刊登一個職缺，開始接收申請。",
+      "emptyLab": "請先建立你的實驗室檔案。", "post": "刊登你的第一個職缺", "open": "開放", "closed": "已關閉", "close": "關閉", "reopen": "重新開放",
+      "edit": "編輯", "delete": "刪除", "deleteConfirm": "要刪除這個職缺嗎？此操作無法復原。", "applicants": "申請者", "postedAgo": "{when}刊登",
+      "viewPublic": "查看公開頁面", "newTitle": "新增職缺", "newSubtitle": "描述這個職缺，之後可隨時編輯。", "editTitle": "編輯職缺",
+      "needLab": "刊登前需要先有實驗室檔案。", "createLab": "建立你的實驗室", "noApplicants": "還沒有申請者",
+      "noApplicantsBody": "分享你的職缺，或透過「尋找學生」邀請適合的學生。", "decline": "婉拒", "accept": "錄取", "email": "寄信給申請者", "resume": "履歷",
+      "invitedBadge": "由你邀請", "profileIncomplete": "檔案不完整",
+      "form": {
+        "title": "職缺名稱", "titlePlaceholder": "大學部研究助理：自監督視覺", "description": "職缺說明", "descriptionHint": "學生將從事什麼工作？會學到什麼？",
+        "requirements": "條件要求", "requirementsHint": "相關課程或經歷（選填）", "skills": "必備技能", "skillsHint": "以逗號分隔——用於配對，例如：python, pytorch",
+        "compensation": "報酬", "hours": "每週小時數", "term": "學期", "location": "地點", "slots": "名額", "deadline": "申請截止", "keywords": "關鍵字",
+        "keywordsHint": "協助學生找到你的職缺", "publish": "發布職缺", "saveChanges": "儲存變更", "saved": "職缺已儲存", "notSpecified": "未說明"
+      }
+    },
+    "admin": {
+      "title": "管理", "subtitle": "驗證教授，並查看大家送出的內容。", "overview": "總覽",
+      "stats": {
+        "users": "使用者", "students": "學生", "professors": "教授", "pending_professors": "待驗證", "labs": "實驗室", "open_positions": "開放職缺",
+        "applications": "申請", "invitations": "邀請", "feedback": "意見回饋貼文", "waitlist": "候補名單", "paid_users": "付費使用者"
+      },
+      "verification": "教授驗證", "onlyPending": "僅顯示待處理", "verify": "驗證", "unverify": "撤銷", "verifiedAt": "驗證時間", "pendingBadge": "待處理", "lab": "實驗室",
+      "waitlist": "候補名單", "contact": "聯絡訊息", "empty": "這裡還沒有任何內容。", "notAdmin": "此區域僅限管理員使用。",
+      "verifiedToast": "教授已驗證", "revokedToast": "驗證已撤銷"
+    }
+  }
+}

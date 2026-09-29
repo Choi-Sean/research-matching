@@ -1,0 +1,31 @@
+{
+  "eyebrow": "How it works",
+  "title": "Four steps from curiosity to conversation",
+  "subtitle": "Labora is built around what actually gets a professor to reply.",
+  "s1": {
+    "title": "Search the scholarly record",
+    "body": "Type a research interest and a university — or a researcher's name. We surface people who are actively publishing on it.",
+    "b1": "Results drawn from an open scholarly database",
+    "b2": "Filter by university, sort by recent activity"
+  },
+  "s2": {
+    "title": "Understand their work",
+    "body": "Read a plain-English summary, a recent finding and questions worth asking — then skim the papers themselves.",
+    "b1": "Summaries written for someone new to the field",
+    "b2": "Recent and most-cited papers at a glance"
+  },
+  "s3": {
+    "title": "Write an email that gets read",
+    "body": "Draft it yourself, then check it. We highlight flattery, boilerplate and vagueness — and never write the email for you.",
+    "b1": "A framework and annotated examples",
+    "b2": "Specific, line-by-line feedback"
+  },
+  "s4": {
+    "title": "Follow up and track",
+    "body": "Log who you contacted, get well-timed follow-ups, and keep every lead in one place.",
+    "b1": "Two follow-up drafts and calendar reminders",
+    "b2": "An outreach tracker that keeps score"
+  },
+  "cta": "Start searching",
+  "ctaMatch": "Or let AI find your fit"
+}

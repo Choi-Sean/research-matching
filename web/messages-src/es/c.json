@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "Resumen", "matches": "Match con IA", "talent": "Buscar estudiantes", "applications": "Solicitudes", "invitations": "Invitaciones", "outreach": "Registro de contactos", "saved": "Guardados",
+      "profile": "Mi perfil", "billing": "Plan y facturación", "settings": "Ajustes", "positions": "Vacantes", "lab": "Laboratorio e investigación", "admin": "Administración"
+    },
+    "greeting": "Hola, {name}", "welcomeProfessor": "Te damos la bienvenida, {name}",
+    "overview": {
+      "studentSubtitle": "Así va tu búsqueda de investigación.", "professorSubtitle": "Gestiona tu laboratorio, tus vacantes y a los solicitantes.", "findPositions": "Buscar vacantes", "newPosition": "Nueva vacante",
+      "applications": "Solicitudes", "inReview": "En revisión", "accepted": "Aceptadas", "invitations": "Invitaciones", "openPositions": "Vacantes abiertas", "applicants": "Solicitantes", "lab": "Laboratorio",
+      "live": "Publicado", "notSetUp": "Sin configurar", "completeTitle": "Completa tu perfil",
+      "completeBody": "Los profesores ven tu perfil con cada solicitud, y el match mejora cuanto más compartes.", "completeCta": "Actualizar perfil",
+      "discoverTitle": "Deja que los profesores te encuentren",
+      "discoverBody": "Activa la visibilidad y los profesores verificados podrán invitarte a solicitar. Tu correo sigue siendo privado hasta que respondas.", "discoverCta": "Elegir en el perfil",
+      "recentApplications": "Solicitudes recientes", "noApplications": "Todavía no has solicitado ninguna.", "browse": "Explorar vacantes abiertas", "matchTitle": "Tus mejores matches",
+      "matchBody": "Consulta vacantes y profesores ordenados según lo bien que encajan contigo.", "matchCta": "Abrir el match con IA", "yourPositions": "Tus vacantes", "noPositions": "Aún no hay vacantes.",
+      "createLabTitle": "Configura tu laboratorio para empezar a reclutar", "createLabBody": "Los estudiantes ven el perfil de tu laboratorio y tu investigación en cada vacante que publicas.", "createLabCta": "Crear perfil de laboratorio",
+      "unverifiedTitle": "Tu cuenta está pendiente de verificación", "unverifiedBody": "Revisamos las cuentas de profesor antes de que los laboratorios y las vacantes sean públicos. Mientras tanto, puedes prepararlo todo.",
+      "talentTitle": "Encuentra estudiantes que encajen", "talentBody": "Describe a tu estudiante ideal y deja que la IA ordene a quienes han dado su consentimiento.", "talentCta": "Buscar estudiantes",
+      "pendingInvitations_one": "Tienes {count} invitación esperando", "pendingInvitations_other": "Tienes {count} invitaciones esperando", "viewInvitations": "Ver invitaciones",
+      "applicantsCount_one": "{count} solicitante", "applicantsCount_other": "{count} solicitantes", "newForYou": "Novedades para ti"
+    },
+    "profile": {
+      "title": "Mi perfil", "subtitle": "Los profesores ven esto junto con tu solicitud, y el match con IA lo usa para encontrar tu encaje.", "strength": "Fortaleza del perfil",
+      "basics": "Lo básico", "university": "Universidad", "major": "Estudios", "year": "Curso", "selectYear": "Seleccionar…", "about": "Sobre ti", "bio": "Presentación breve",
+      "bioHint": "¿Quién eres y qué te despierta curiosidad?", "skills": "Habilidades", "skillsHint": "Separadas por comas, p. ej., Python, PyTorch, R, seguridad en el laboratorio",
+      "interests": "Intereses de investigación", "interestsHint": "Temas en los que te encantaría trabajar, p. ej., visión por computador, destino celular.",
+      "experience": "Lo que has hecho hasta ahora", "experienceHint": "Proyectos, asignaturas, investigación previa: cuanto más concreto, mejor será el match.",
+      "availability": "Horas por semana que puedes dedicar", "workStyle": "Cómo te gusta trabajar", "workStyleHint": "Mueve cada dial a donde te sientas más cómodo. Se usa para compararte con los laboratorios.",
+      "links": "Enlaces", "resume": "Enlace al currículum", "resumeHint": "Un enlace a un PDF (Drive, Dropbox, tu web).", "website": "Web personal", "github": "Perfil de GitHub",
+      "visibility": "Visibilidad", "discoverable": "Permitir que me encuentren profesores verificados",
+      "discoverableDesc": "Los profesores pueden ver tu perfil e invitarte a solicitar. Tu correo sigue siendo privado hasta que respondas. Puedes desactivarlo en cualquier momento.",
+      "save": "Guardar perfil", "saved": "Perfil guardado", "welcome": "¡Te damos la bienvenida a Labora! Cuéntanos sobre ti para conseguir mejores matches."
+    },
+    "applications": {
+      "title": "Solicitudes", "subtitle": "Todo lo que has solicitado, en un solo lugar.", "emptyTitle": "Aún no hay solicitudes", "emptyBody": "Cuando solicites una vacante, aparecerá aquí para que sigas su estado.",
+      "browse": "Explorar vacantes", "applied": "Solicitada {when}", "withdraw": "Retirar", "withdrawConfirm": "¿Retirar esta solicitud?", "withdrawn": "Solicitud retirada",
+      "invited": "Invitado", "decided": "Resuelta {when}"
+    },
+    "invitations": {
+      "title": "Invitaciones", "subtitleStudent": "Profesores que quieren que solicites.", "subtitleProfessor": "Estudiantes que has invitado.", "emptyStudentTitle": "Aún no hay invitaciones",
+      "emptyStudentBody": "Activa la visibilidad en tu perfil para que los profesores verificados puedan invitarte.", "emptyProfessorTitle": "Todavía no has invitado a nadie",
+      "emptyProfessorBody": "Usa «Buscar estudiantes» para descubrir a quienes encajan con tu laboratorio.", "from": "De {name}", "to": "Para {name}", "match": "{score} % de afinidad",
+      "accept": "Aceptar y solicitar", "decline": "Rechazar", "replyPlaceholder": "Añade una nota para el profesor (opcional)", "accepted": "Has aceptado: se ha creado una solicitud.", "declined": "Invitación rechazada",
+      "withdraw": "Retirar invitación", "receivedAgo": "Enviada {when}", "findStudents": "Buscar estudiantes"
+    },
+    "outreach": {
+      "title": "Registro de contactos", "subtitle": "Anota a quién has contactado, cuándo hacer seguimiento y qué ocurrió.", "emptyTitle": "Aún no hay nada registrado",
+      "emptyBody": "Añade investigadores desde su perfil para llevar el control de tus contactos y recibir fechas de seguimiento.", "find": "Buscar profesores", "followUpDue": "Seguimiento {when}",
+      "overdue": "Seguimiento atrasado", "sentOn": "Enviado el {date}", "repliedOn": "Respondido el {date}", "notes": "Notas", "notesPlaceholder": "Cualquier cosa que valga la pena recordar…",
+      "status": "Estado", "remove": "Quitar", "removeConfirm": "¿Quitar a este investigador de tu registro?", "planFollowUp": "Planificar seguimientos",
+      "helpTitle": "Tus registros ayudan a todos",
+      "helpBody": "Las tasas de respuesta que se muestran en los perfiles de investigadores proceden de registros de contactos anónimos y agregados como los tuyos; nunca se muestra ninguna entrada individual.",
+      "stats": { "total": "En seguimiento", "sent": "Enviados", "replied": "Respondidos", "due": "Seguimientos pendientes" }
+    },
+    "saved": {
+      "title": "Guardados", "subtitle": "Investigadores y vacantes que has marcado.", "professors": "Investigadores", "positions": "Vacantes",
+      "emptyProfessors": "Aún no hay investigadores guardados", "emptyProfessorsBody": "Toca el marcador de cualquier investigador para añadirlo a tu lista.",
+      "emptyPositions": "Aún no hay vacantes guardadas", "emptyPositionsBody": "Toca el marcador de una vacante para conservarla para más tarde."
+    },
+    "billing": {
+      "title": "Plan y facturación", "subtitle": "Tu acceso, tu uso y tus recompensas por invitar.", "currentPlan": "Plan actual",
+      "plan": { "free": "Gratis", "weekly": "Sprint semanal", "semester": "Pase semestral", "lifetime": "De por vida" },
+      "activeUntil": "Activo hasta el {date}", "lifetimeNote": "Tienes acceso de por vida.", "freeNote": "Estás en el plan gratuito.", "upgrade": "Ver planes",
+      "usage": "Límite gratuito", "usageItem": "{used} de {limit} usados", "unlimited": "Ilimitado",
+      "features": { "summary": "Resúmenes de profesores", "email_check": "Revisiones de correo", "follow_up": "Planes de seguimiento", "match_positions": "Matches de vacantes", "match_professors": "Matches de profesores" },
+      "referral": "Invita a un amigo", "referralBody": "Comparte tu código. Cuando un amigo se registre con él, ambos reciben {days} días de Pro.", "yourCode": "Tu código",
+      "copyCode": "Copiar código", "copyLink": "Copiar enlace de invitación", "copied": "Copiado", "redeemed_one": "{count} amigo se ha unido con tu código", "redeemed_other": "{count} amigos se han unido con tu código",
+      "redeem": "¿Tienes el código de un amigo?", "redeemPlaceholder": "Introduce el código", "redeemCta": "Canjear", "redeemedOk": "Código canjeado: se han añadido {days} días de Pro.",
+      "checkoutSuccess": "¡Gracias! Tu plan estará activo en un momento.", "devMode": "Los pagos no están conectados en este entorno: los planes se activan al instante para hacer pruebas."
+    },
+    "settings": {
+      "title": "Ajustes", "subtitle": "Tu cuenta, tu idioma y tu seguridad.", "account": "Cuenta", "name": "Nombre completo", "email": "Correo electrónico", "emailNote": "Tu correo no se puede cambiar.",
+      "language": "Idioma", "languageHint": "También se usa para los resúmenes y comentarios escritos por IA.", "saveChanges": "Guardar cambios", "saved": "Ajustes guardados",
+      "password": "Contraseña", "currentPassword": "Contraseña actual", "newPassword": "Contraseña nueva", "changePassword": "Cambiar contraseña", "passwordChanged": "Contraseña actualizada",
+      "danger": "Eliminar cuenta", "dangerBody": "Esto elimina de forma permanente tu perfil, tus solicitudes y todo lo asociado a tu cuenta. No se puede deshacer.",
+      "dangerConfirm": "Introduce tu contraseña para confirmar", "deleteCta": "Eliminar mi cuenta", "deleted": "Tu cuenta se ha eliminado."
+    },
+    "lab": {
+      "title": "Laboratorio e investigación", "subtitle": "Esto es lo que ven los estudiantes cuando consideran tus vacantes.", "createTitle": "Crea tu laboratorio", "profileTitle": "Perfil del laboratorio",
+      "name": "Nombre del laboratorio", "university": "Universidad", "department": "Departamento", "description": "Descripción", "descriptionHint": "¿En qué trabaja tu laboratorio? Que resulte accesible para estudiantes de grado.",
+      "keywords": "Palabras clave de investigación", "keywordsHint": "Separadas por comas", "website": "Web del laboratorio", "culture": "Cómo es trabajar aquí",
+      "cultureHint": "Estilo de mentoría, ritmo de reuniones, de qué se responsabilizan los estudiantes. Los estudiantes valoran la honestidad.", "teamSize": "Tamaño del equipo", "workStyle": "Cómo trabaja tu laboratorio",
+      "workStyleHint": "Se usa para comparar estilos de trabajo con los estudiantes.", "openalex": "ID de autor de OpenAlex", "openalexHint": "Opcional. Vincula tu laboratorio de Labora con tu perfil de publicaciones (empieza por A…).",
+      "saveLab": "Guardar laboratorio", "createLab": "Crear laboratorio", "created": "Laboratorio creado: ahora añade materiales de investigación y publica una vacante.", "updated": "Laboratorio actualizado",
+      "materials": "Materiales de investigación", "materialsHint": "Comparte artículos, conjuntos de datos o pósteres para que los estudiantes conozcan tu trabajo.", "nothingShared": "Aún no has compartido nada.",
+      "addMaterial": "Añadir material", "materialTitle": "Título", "materialType": "Tipo", "materialLink": "Enlace", "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Descripción breve", "removeMaterial": "¿Quitar este material?", "verificationTitle": "Verificación pendiente",
+      "verificationBody": "Tu laboratorio será público cuando hayamos verificado tu cuenta de profesor. Añade la web del laboratorio para acelerarlo."
+    },
+    "positions": {
+      "title": "Vacantes", "subtitle": "Tus vacantes y quién ha solicitado.", "new": "Nueva vacante", "emptyTitle": "Aún no hay vacantes", "emptyBody": "Publica una vacante y empieza a recibir solicitudes.",
+      "emptyLab": "Crea primero el perfil de tu laboratorio.", "post": "Publica tu primera vacante", "open": "Abierta", "closed": "Cerrada", "close": "Cerrar", "reopen": "Reabrir",
+      "edit": "Editar", "delete": "Eliminar", "deleteConfirm": "¿Eliminar esta vacante? No se puede deshacer.", "applicants": "Solicitantes", "postedAgo": "Publicada {when}",
+      "viewPublic": "Ver página pública", "newTitle": "Nueva vacante", "newSubtitle": "Describe la vacante. Podrás editarla cuando quieras.", "editTitle": "Editar vacante",
+      "needLab": "Necesitas un perfil de laboratorio antes de publicar.", "createLab": "Crea tu laboratorio", "noApplicants": "Aún no hay solicitantes",
+      "noApplicantsBody": "Comparte tu vacante o invita a estudiantes que encajen con «Buscar estudiantes».", "decline": "Rechazar", "accept": "Aceptar", "email": "Escribir al solicitante", "resume": "Currículum",
+      "invitedBadge": "Invitado por ti", "profileIncomplete": "Perfil incompleto",
+      "form": {
+        "title": "Título de la vacante", "titlePlaceholder": "Ayudante de investigación de grado: visión autosupervisada", "description": "Descripción", "descriptionHint": "¿En qué trabajará el estudiante? ¿Qué aprenderá?",
+        "requirements": "Requisitos", "requirementsHint": "Asignaturas o experiencia (opcional)", "skills": "Habilidades requeridas", "skillsHint": "Separadas por comas; se usan para el match, p. ej., python, pytorch",
+        "compensation": "Remuneración", "hours": "Horas / semana", "term": "Periodo", "location": "Ubicación", "slots": "Plazas", "deadline": "Solicitar antes del", "keywords": "Palabras clave",
+        "keywordsHint": "Ayuda a los estudiantes a encontrar tu vacante", "publish": "Publicar vacante", "saveChanges": "Guardar cambios", "saved": "Vacante guardada", "notSpecified": "Sin especificar"
+      }
+    },
+    "admin": {
+      "title": "Administración", "subtitle": "Verifica profesores y revisa lo que envía la gente.", "overview": "Resumen",
+      "stats": {
+        "users": "Usuarios", "students": "Estudiantes", "professors": "Profesores", "pending_professors": "Pendientes de verificación", "labs": "Laboratorios", "open_positions": "Vacantes abiertas",
+        "applications": "Solicitudes", "invitations": "Invitaciones", "feedback": "Publicaciones de sugerencias", "waitlist": "Lista de espera", "paid_users": "Usuarios de pago"
+      },
+      "verification": "Verificación de profesores", "onlyPending": "Solo pendientes", "verify": "Verificar", "unverify": "Revocar", "verifiedAt": "Verificado", "pendingBadge": "Pendiente", "lab": "Laboratorio",
+      "waitlist": "Lista de espera", "contact": "Mensajes de contacto", "empty": "Aquí no hay nada todavía.", "notAdmin": "Esta zona es solo para administradores.",
+      "verifiedToast": "Profesor verificado", "revokedToast": "Verificación revocada"
+    }
+  }
+}

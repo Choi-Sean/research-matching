@@ -1,0 +1,143 @@
+{
+  "tools": {
+    "emailChecker": {
+      "title": "邮件检查器",
+      "subtitle": "粘贴你的草稿，准确看到哪些说法会让教授停止阅读。我们绝不改写你的邮件——你的文字风格由你自己保留。",
+      "subject": "邮件主题", "subjectPlaceholder": "例如：关于您深度估计论文的一个问题", "body": "你的邮件", "bodyPlaceholder": "尊敬的教授……",
+      "professorContext": "正对照 {name} 最近的研究进行检查", "removeContext": "移除",
+      "check": "检查我的邮件", "checking": "正在阅读你的邮件…", "example": "试试一个有问题的示例", "clear": "清除",
+      "words": "{count} 词", "wordsHint": "建议 90–180 词",
+      "resultsTitle": "检查结果", "emptyTitle": "你的反馈会显示在这里", "emptyBody": "在左侧撰写或粘贴邮件，然后点击“检查我的邮件”。",
+      "score": "评分", "highlights": "标注后的邮件", "issues": "需要修改的地方", "noIssues": "没有需要修改的地方——读起来很不错。", "strengths": "做得好的地方",
+      "aiSummary": "整体印象", "soundsGeneric": "谁都可以收到的邮件",
+      "soundsGenericHint": "这封邮件不作任何修改就能发给任何一位教授的程度。",
+      "aiUsed": "包含 AI 审阅", "rulesOnly": "基于规则的审阅",
+      "englishOnly": "措辞检查目前仅适用于英文邮件；长度与结构检查仍然有效。",
+      "signInTitle": "登录后检查你的邮件", "signInBody": "免费账户包含 1 次检查，通行证可解锁无限次检查。",
+      "limitTitle": "你已用完免费检查", "limitBody": "通行证可解锁无限次邮件检查、邮箱查找和无限摘要。",
+      "quota": "已使用 {used} / {limit} 次免费检查", "quotaPro": "无限检查",
+      "noRewrite": "我们会指出问题，但绝不替你写邮件——教授会回复有自己声音的学生。",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": { "tone": "语气", "specificity": "具体性", "voice": "个人风格", "clarity": "清晰度", "ask": "请求", "etiquette": "礼仪", "subject": "主题" },
+      "gradeDesc": {
+        "excellent": "具体、简洁、清晰，可以发送了。",
+        "good": "一份扎实的草稿——再做几处小修改会更好。",
+        "needs_work": "有几处可能导致邮件被忽略，请先修改标红的项目。",
+        "risky": "这封邮件很可能被直接删除，发送前请重新修改。"
+      },
+      "severity": { "high": "优先修改", "medium": "建议修改", "low": "小问题" },
+      "flags": {
+        "flattery": { "title": "过度恭维", "tip": "教授每天都会听到“开创性的”这类词。请改为说出引起你注意的具体结果或方法。" },
+        "generic_phrase": { "title": "套话", "tip": "“非常积极主动”这类说法适用于任何人。请用你真正做过的事来证明。" },
+        "ai_sounding": { "title": "像机器写的", "tip": "这种说法常见于 AI 生成的文字。请用你说话时的方式来表达。" },
+        "bad_salutation": { "title": "称呼过于笼统", "tip": "“Dear Sir”像是群发邮件。请用“Dear Professor [姓氏]”，并检查拼写。" },
+        "informal": { "title": "过于随意", "tip": "保持友好而专业的语气——避免网络用语和缩写。" },
+        "missing_name": { "title": "称呼中没有姓名", "tip": "请称呼教授的姓名：“Dear Professor Rivera,”。" },
+        "name_not_mentioned": { "title": "没有提到教授的姓名", "tip": "请确保邮件明确是写给这位具体的人。" },
+        "no_specific_reference": { "title": "没有提到他们的工作", "tip": "提到这位教授的一篇具体论文、方法或发现——并问一个它让你产生的疑问。" },
+        "low_specificity": { "title": "缺乏具体内容", "tip": "这里没有哪一句不能发给任何教授。请加入一篇论文、一个年份、一项结果或一个具体问题。" },
+        "no_own_work": { "title": "没有体现你做过的事", "tip": "加入一件你亲手做过、分析过、读过或修过的具体事情——哪怕只是一个小项目。" },
+        "no_clear_ask": { "title": "没有明确的请求", "tip": "明确说出你想请对方做什么：一次交流、一个志愿岗位，或推荐其他人。" },
+        "no_signoff": { "title": "没有结尾署名", "tip": "以简短的感谢和你的全名作结。" },
+        "exclamation": { "title": "感叹号过多", "tip": "一个没问题，两个以上会显得过于兴奋。让内容来传达你的热情。" },
+        "emoji": { "title": "表情符号", "tip": "给教授的第一封邮件里不要用表情符号。" },
+        "all_caps": { "title": "全大写", "tip": "大写单词读起来像在喊叫，请使用正常大小写。" },
+        "too_short": { "title": "太短", "tip": "不到约 45 个词通常说不清楚。请加入你做过的事和你的请求。" },
+        "too_long": { "title": "太长", "tip": "目标是 90–180 词。删去教授做决定时不需要的背景信息。" },
+        "wall_of_text": { "title": "大段文字", "tip": "分成 2–3 个短段落，方便快速浏览。" },
+        "no_subject": { "title": "没有主题", "tip": "清晰的主题能让邮件被打开：提到主题或论文。" },
+        "subject_generic": { "title": "主题过于笼统", "tip": "“Research”可以指任何东西。试着写出你所指的论文或主题。" },
+        "subject_short": { "title": "主题太短", "tip": "多加几个词说明背景，让教授知道邮件的内容。" },
+        "subject_long": { "title": "主题太长", "tip": "请控制在约 90 个字符以内。" },
+        "subject_shouty": { "title": "主题过于夸张", "tip": "避免使用大写和“urgent”之类的词——它们看起来像垃圾邮件。" },
+        "ai_note": { "title": "审阅备注", "tip": "" }
+      },
+      "strengthLabels": {
+        "personal_greeting": "称呼了教授的姓名", "specific_reference": "提到了他们的具体工作", "shows_own_work": "展示了你做过的事",
+        "clear_ask": "提出了明确的请求", "redirect_offer": "给对方留了转介绍的余地", "states_availability": "说明了你的可用时间或时间安排", "concise": "长度合适"
+      }
+    },
+    "followUp": {
+      "title": "跟进计划器", "subtitle": "还没收到回复？粘贴你发出的邮件，获得两封把握好时机、听起来像你自己的跟进邮件。",
+      "email": "你发出的邮件", "emailPlaceholder": "粘贴你的原始邮件…", "subject": "原邮件主题", "sentOn": "发送日期",
+      "professorName": "教授姓名", "professorPlaceholder": "例如：Elena Rivera", "generate": "规划我的跟进", "generating": "撰写中…",
+      "timeline": "你的跟进时间线", "step": "第 {n} 次跟进", "sendOn": "{date}发送", "daysAfter": "首封邮件后第 {days} 天",
+      "copy": "复制消息", "copied": "已复制", "addToCalendar": "添加到日历", "editHint": "请自由修改——这些只是让你改成自己风格的草稿。",
+      "emptyTitle": "你的时间线会显示在这里", "emptyBody": "两次跟进，间隔适当，既能保持在对方视野里，又不会打扰。",
+      "tipsTitle": "时机小贴士", "tip1": "避开期末周、经费申请截止日和假期。", "tip2": "选在工作日的清晨发送。",
+      "tip3": "跟进两次后就该继续前进——并请对方推荐其他人。",
+      "aiUsed": "由 AI 个性化", "templated": "基于模板", "signInTitle": "登录后规划你的跟进",
+      "limitTitle": "你已用完免费跟进计划", "quota": "已使用 {used} / {limit} 次免费计划"
+    },
+    "framework": {
+      "title": "套磁邮件框架", "subtitle": "基于“教授为什么会回复”而设计的填空式结构。点击任意括号查看指引。",
+      "template": "模板", "tapHint": "点击括号查看如何填写。", "guidance": "指引", "redFlags": "需要避免的说法",
+      "redFlagsSub": "这些说法表明你没有做功课，请换成具体的内容。", "instead": "改为：", "cta": "检查你自己的邮件",
+      "b1": { "label": "具体主题", "tip": "写出确切的领域、方法或问题，而不是整个学科。“睡眠依赖的记忆巩固”比“神经科学”好。" },
+      "b2": { "label": "具体的发现或引文", "tip": "指出他们最近某篇论文中的一个真实结果、图表或句子。这一句能证明你读过。" },
+      "b3": { "label": "你的研究切入点", "tip": "把它与你做过或想探索的事联系起来——一门课、一个数据集、一个项目。" },
+      "b4": { "label": "一个真诚的个人原因", "tip": "用一句诚实的话说明它为什么对你重要。简短而真实。" },
+      "b5": { "label": "体现你读过论文的好问题", "tip": "问一个论文让你产生的疑问——局限、延伸或数据集。避免“请多介绍一下您的研究”。" },
+      "rf1": { "phrase": "I found your work fascinating and groundbreaking", "why": "教授每天都会听到这句话。", "instead": "说出引起你注意的那项具体发现。" },
+      "rf2": { "phrase": "I am a highly motivated student", "why": "它没有传达任何信息。", "instead": "通过你做过的事来体现积极性。" },
+      "rf3": { "phrase": "Your research aligns perfectly with my interests", "why": "太笼统，难以令人相信。", "instead": "解释具体的联系在哪里。" },
+      "rf4": { "phrase": "I would love to learn from you", "why": "这让邮件变成了关于你，而不是他们的研究。", "instead": "询问他们研究中某个具体的部分。" },
+      "rf5": { "phrase": "I am passionate about this field", "why": "每个人都这么说。", "instead": "描述你在这个领域实际做过的事。" }
+    },
+    "examples": {
+      "title": "有效的邮件——带批注", "subtitle": "我们撰写了三封示意性邮件，展示能获得回复的写法。请阅读每一句旁边的批注。",
+      "disclaimer": "这些是 Labora 团队撰写的示意性示例，并非真实往来邮件。姓名和细节均为虚构。",
+      "example": "示例 {n}", "cta": "现在检查你自己的邮件",
+      "e1": { "label": "大一，自学", "note1": "先从你自己的兴趣和一项真实技能说起，再联系到他们的工作。", "note2": "只有读过论文才能提出的具体问题。", "note3": "一个门槛很低的直接请求——以及一个把“不”变成线索的转介绍请求。" },
+      "e2": { "label": "有个人项目的大三学生", "note1": "展示你已在进行的项目——动手实践的兴趣证明。", "note2": "技术深度：这个问题表明你理解了方法，而不只是摘要。", "note3": "给出时间安排（今年夏天），并表示即使作为志愿者也愿意帮忙。" },
+      "e3": { "label": "人文／社会科学", "note1": "以你修过的一门课和读过的一份材料为依据提出请求。", "note2": "询问某个选择背后的思路，而不是要一份总结。", "note3": "提供具体的帮助：每周几个小时的档案编码工作。" }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "共同主题：{items}", "skills_covered": "你已具备的技能：{items}", "style_aligned": "工作风格相近（{items}）", "hours_fit": "你的可用时间满足要求",
+      "bonus_skills": "额外技能：{items}", "published_on_topics": "发表主题：{items}", "active_recently": "近 3 年发表 {items} 篇论文", "partial_topic_overlap": "重合较少的主题：{items}",
+      "missing_skills": "需要培养的技能：{items}", "style_differs": "工作风格不同（{items}）", "hours_short": "可用时间少于岗位期望"
+    },
+    "strong": "高度匹配", "good": "较好匹配", "partial": "部分匹配", "tip": "如何脱颖而出", "why": "为什么合适", "gaps": "需要了解",
+    "breakdown": { "topic": "主题", "skills": "技能", "bonus": "加分", "style": "工作风格", "hours": "可用时间" },
+    "aiRefined": "经 AI 优化", "explainable": "可解释的评分",
+    "student": {
+      "title": "AI 匹配", "subtitle": "根据你的技能、兴趣和喜欢的工作方式，为职位与教授排序。",
+      "tabPositions": "开放职位", "tabProfessors": "全球教授", "run": "查找我的匹配", "rerun": "刷新匹配", "running": "匹配中…",
+      "strengthTitle": "你的匹配资料", "strengthBody": "你提供的信息越多，匹配越精准。已完成 {score}%。", "improve": "完善资料",
+      "missing": {
+        "skills": "添加你的技能", "interests": "描述你的兴趣", "experience": "添加你已经做过的事", "bio": "写一段简短介绍", "major": "添加你的专业",
+        "availability": "设置你每周的可用时间", "work_style": "设置你的工作风格"
+      },
+      "howTitle": "匹配是如何运作的",
+      "how1": "我们将你的兴趣、技能、经历和可用时间与每个职位或研究者进行比较。",
+      "how2": "我们还会比较工作风格——独立性、团队合作、节奏和结构。",
+      "how3": "AI 审阅者会优化靠前的结果并逐一解释。姓名、学校和其他个人特征绝不会被使用。",
+      "noResultsTitle": "还没有匹配结果", "noResultsBody": "目前没有可供匹配的开放职位。试试查看全球教授吧。",
+      "searchedFor": "搜索内容：{keywords}", "direction": "引导搜索方向", "directionPlaceholder": "例如：神经编码、医学影像",
+      "university": "仅限某所大学", "apply": "查看并申请", "viewProfessor": "查看主页", "writeEmail": "写邮件",
+      "quota": "已使用 {used} / {limit} 次免费匹配", "quotaPro": "无限匹配", "limitTitle": "你已用完免费匹配", "limitBody": "通行证可解锁无限匹配、摘要和邮箱查找。",
+      "professorsIntro": "我们会把你的资料转化为研究主题，并寻找正活跃发表这些主题论文的人。",
+      "emptyProfile": "请先添加一些技能和兴趣，这样我们才有东西可以匹配。", "positionsFirst": "运行匹配，查看最合适的职位。"
+    },
+    "professor": {
+      "title": "找到你的理想学生", "subtitle": "描述你在寻找什么样的人——或让 AI 根据你的职位起草——然后查看合适的学生。",
+      "unverifiedTitle": "等待认证", "unverifiedBody": "教授账户通过认证后，即可使用人才搜索。我们会尽快审核。",
+      "step1": "1. 从一个职位开始", "step1Hint": "选填。选择一个职位作为资料的基础。", "noPosition": "不指定职位",
+      "step2": "2. 你在寻找的人选", "notes": "用你自己的话说",
+      "notesPlaceholder": "例如：自驱型、喜欢调试代码、用过 PyTorch、每周能投入 10 小时的人。",
+      "draft": "用 AI 起草人选画像", "draftRule": "生成人选画像", "drafting": "起草中…", "personaHint": "可随意修改——学生将与这份画像进行比较。",
+      "headline": "一句话概括", "summary": "简介", "mustHave": "必备", "niceToHave": "加分项", "traits": "个人特质", "keywords": "主题", "addChip": "输入后按回车添加",
+      "workStyle": "你希望的工作风格", "step3": "3. 合适的学生", "find": "查找学生", "finding": "搜索中…", "pool": "{count} 名学生已选择公开",
+      "poolEmpty": "还没有学生选择公开。当学生开启“可被发现”后，会显示在这里。", "left": "今天还剩 {count} 次搜索", "invite": "邀请申请", "invited": "已邀请",
+      "inviteTitle": "邀请 {name}", "inviteBody": "对方会看到你的留言，并可选择接受或婉拒。在对方回复之前，联系方式保持私密。", "position": "职位", "message": "你的留言",
+      "messageDefault": "你好 {name}，你的背景看起来非常适合我们实验室的“{position}”。你有兴趣申请吗？欢迎随时提问。",
+      "sendInvite": "发送邀请", "sent": "邀请已发送", "selectPosition": "选择要邀请的职位", "privacy": "这里只显示选择了“可被发现”的学生，且绝不显示邮箱。",
+      "noStudents": "还没有匹配的学生", "noStudentsBody": "试着放宽必备条件，或等更多学生加入后再来看看。", "available": "每周可投入 {hours} 小时", "skills": "技能",
+      "createPositionFirst": "发布一个职位，才能邀请学生申请。", "labFirst": "请先设置你的实验室资料。"
+    },
+    "ai": { "notEnabled": "此服务器未启用 AI 优化——匹配使用可解释的规则评分。" }
+  }
+}

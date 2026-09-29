@@ -1,0 +1,1818 @@
+{
+  "common": {
+    "save": "保存",
+    "saving": "保存中…",
+    "saved": "保存しました",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "loading": "読み込み中…",
+    "retry": "もう一度試す",
+    "viewAll": "すべて見る",
+    "learnMore": "詳しく見る",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "yes": "はい",
+    "no": "いいえ",
+    "optional": "任意",
+    "or": "または",
+    "remove": "削除",
+    "add": "追加",
+    "confirm": "確認",
+    "continue": "続ける",
+    "submit": "送信",
+    "send": "送信",
+    "download": "ダウンロード",
+    "clear": "クリア",
+    "clearAll": "すべてクリア",
+    "open": "開く",
+    "closedLabel": "終了",
+    "unlimited": "無制限",
+    "upgrade": "アップグレード",
+    "verified": "認証済み",
+    "pending": "保留中",
+    "free": "無料",
+    "pro": "Pro",
+    "today": "今日",
+    "hoursPerWeek": "週{n}時間",
+    "showMore": "もっと見る",
+    "showLess": "閉じる",
+    "none": "なし",
+    "required": "必須",
+    "notSet": "未設定",
+    "poweredByAi": "AI支援",
+    "illustrative": "イメージ例",
+    "external": "新しいタブで開きます",
+    "results_other": "{count}件の結果"
+  },
+  "nav": {
+    "home": "Labora ホーム",
+    "skip": "本文へスキップ",
+    "discover": "研究者を探す",
+    "positions": "募集",
+    "aiMatch": "AIマッチ",
+    "resources": "リソース",
+    "pricing": "料金",
+    "signIn": "ログイン",
+    "getStarted": "無料で始める",
+    "dashboard": "ダッシュボード",
+    "signOut": "ログアウト",
+    "account": "アカウントメニュー",
+    "language": "言語",
+    "theme": "外観",
+    "themeLight": "ライト",
+    "themeDark": "ダーク",
+    "themeSystem": "システム",
+    "menu": "メニューを開く",
+    "feedback": "フィードバック",
+    "emailChecker": "メールチェッカー",
+    "emailCheckerDesc": "送信前に、あなたのメールへ具体的なフィードバックを受け取れます。",
+    "followUp": "フォローアップ・プランナー",
+    "followUpDesc": "返信がなかったメールへ、タイミングを考えた2通のフォローアップ。",
+    "framework": "メールの型",
+    "frameworkDesc": "教授が返信したくなる、穴埋め式のメール構成。",
+    "examples": "効果のあったメール",
+    "examplesDesc": "各行がなぜ効くのかを解説した注釈付きの例。",
+    "fields": "分野別ガイド",
+    "fieldsDesc": "あなたの専攻で研究者とアプローチのコツを探せます。",
+    "blog": "ガイド＆アドバイス",
+    "blogDesc": "研究指導者の見つけ方、連絡の取り方、好印象の与え方。"
+  },
+  "footer": {
+    "product": "プロダクト",
+    "tools": "ツール",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "howItWorks": "使い方",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "tagline": "あなたに合う研究室を、そして研究室に合う学生を見つけよう。",
+    "copyright": "© {year} Labora. All rights reserved.",
+    "dataBy": "学術データの提供元："
+  },
+  "errors": {
+    "email_not_academic": "大学のメールアドレス（.edu や .ac.jp など）を使用してください。",
+    "email_taken": "このメールアドレスはすでに登録されています。ログインしてください。",
+    "invalid_credentials": "メールアドレスまたはパスワードが正しくありません。",
+    "invalid_token": "セッションの有効期限が切れました。もう一度ログインしてください。",
+    "user_not_found": "アカウントが見つかりません。もう一度ログインしてください。",
+    "forbidden": "この操作を行う権限がありません。",
+    "student_only": "この機能は学生アカウント専用です。",
+    "professor_only": "この機能は教授アカウント専用です。",
+    "admin_only": "この領域は管理者専用です。",
+    "professor_unverified": "教授アカウントは認証待ちです。承認され次第、利用できるようになります。",
+    "lab_required": "先に研究室プロフィールを設定してください。",
+    "lab_exists": "すでに研究室プロフィールがあります。",
+    "lab_not_found": "その研究室が見つかりません。",
+    "material_not_found": "その研究資料は存在しません。",
+    "position_not_found": "そのポジションが見つかりません。",
+    "position_not_open": "このポジションは現在応募を受け付けていません。",
+    "position_has_applications": "このポジションにはすでに応募者がいます。削除ではなく、募集を終了してください。",
+    "already_applied": "このポジションにはすでに応募済みです。",
+    "application_not_found": "その応募が見つかりません。",
+    "already_invited": "この学生はすでにこのポジションに招待済みです。",
+    "invitation_not_found": "その招待が見つかりません。",
+    "invitation_closed": "この招待はすでに終了しています。",
+    "student_not_discoverable": "この学生は招待を受け付けていません。",
+    "quota_exceeded": "この機能の無料枠を使い切りました。アップグレードすると無制限で使えます。",
+    "rate_limited": "操作が少し早すぎます。しばらく待ってからもう一度お試しください。",
+    "professor_not_found": "その研究者が見つかりません。",
+    "upstream_unavailable": "学術データベースが混み合っています。しばらくしてからもう一度お試しください。",
+    "billing_disabled": "お支払いはまだご利用いただけません。",
+    "invalid_signature": "そのリクエストを検証できませんでした。",
+    "invalid_referral_code": "その紹介コードは存在しません。",
+    "own_referral_code": "ご自身の紹介コードは使えません。",
+    "referral_already_used": "すでに紹介コードを利用済みです。",
+    "feedback_not_found": "その投稿が見つかりません。",
+    "outreach_not_found": "そのエントリが見つかりません。",
+    "network": "サーバーに接続できません。通信環境を確認して、もう一度お試しください。",
+    "unknown": "問題が発生しました。もう一度お試しください。"
+  },
+  "enums": {
+    "compensation": {
+      "paid": "有給",
+      "credit": "単位取得",
+      "volunteer": "ボランティア"
+    },
+    "term": {
+      "fall": "秋学期",
+      "spring": "春学期",
+      "summer": "夏期",
+      "year_round": "通年",
+      "flexible": "柔軟に対応"
+    },
+    "location": {
+      "on_site": "キャンパス",
+      "remote": "リモート",
+      "hybrid": "ハイブリッド"
+    },
+    "appStatus": {
+      "pending": "審査中",
+      "accepted": "承認",
+      "rejected": "不採用",
+      "withdrawn": "取り下げ"
+    },
+    "invStatus": {
+      "pending": "返信待ち",
+      "accepted": "承諾",
+      "declined": "辞退",
+      "withdrawn": "取り下げ"
+    },
+    "outreach": {
+      "saved": "保存済み",
+      "drafted": "下書き中",
+      "sent": "送信済み",
+      "replied": "返信あり",
+      "meeting": "面談決定",
+      "positive": "オファー／前向き",
+      "no_reply": "返信なし",
+      "declined": "お断り"
+    },
+    "materialKind": {
+      "paper": "論文",
+      "dataset": "データセット",
+      "poster": "ポスター",
+      "other": "その他"
+    },
+    "role": {
+      "student": "学生",
+      "professor": "教授"
+    },
+    "year": {
+      "freshman": "1年生",
+      "sophomore": "2年生",
+      "junior": "3年生",
+      "senior": "4年生",
+      "masters": "修士",
+      "phd": "博士"
+    },
+    "style": {
+      "autonomy": "自主性",
+      "autonomyLow": "手厚い指導",
+      "autonomyHigh": "自立して進める",
+      "collaboration": "協働",
+      "collaborationLow": "一人で集中",
+      "collaborationHigh": "チームで進める",
+      "pace": "ペース",
+      "paceLow": "着実にじっくり",
+      "paceHigh": "速く試行錯誤",
+      "structure": "進め方の枠組み",
+      "structureLow": "自由度が高い",
+      "structureHigh": "明確に定義"
+    },
+    "grade": {
+      "excellent": "とても良い",
+      "good": "良い",
+      "needs_work": "要改善",
+      "risky": "危険"
+    },
+    "sort": {
+      "relevance": "適合度順",
+      "cited": "被引用数順",
+      "recent": "最近の活動順"
+    }
+  },
+  "meta": {
+    "homeTitle": "Labora — あなたに合う教授を見つけよう",
+    "homeDescription": "世界の学術記録から研究者を探し、研究内容をやさしい言葉で理解し、あなたのスキルと働き方に合う研究室とAIでマッチングします。",
+    "discoverTitle": "研究者・教授を探す",
+    "discoverDescription": "オープンな学術データベースから、あなたの関心分野で活発に論文を発表している研究者を、どの大学からでも検索できます。",
+    "professorTitle": "研究者プロフィール",
+    "professorDescription": "研究者の論文、トピック、やさしい要約、アプローチ用ツール。",
+    "positionsTitle": "研究ポジションの募集",
+    "positionsDescription": "認証済みの教授が直接掲載する研究ポジション。有給、単位取得、ボランティア。",
+    "positionTitle": "研究ポジション",
+    "positionDescription": "役割と研究室の研究内容を読んでから応募しましょう。",
+    "labTitle": "研究室",
+    "labDescription": "研究室の研究、雰囲気、募集中のポジションと資料。",
+    "checkerTitle": "教授宛てコールドメールのチェッカー",
+    "checkerDescription": "メールを貼り付けると、ありきたり・お世辞・曖昧に聞こえる表現を指摘します。書き直しはしません。",
+    "followUpTitle": "フォローアップ・プランナー",
+    "followUpDescription": "返信のなかった教授宛てメールに、タイミングを考えた2通のフォローアップ下書きとカレンダー通知。",
+    "frameworkTitle": "コールドメールの型",
+    "frameworkDescription": "教授へのメールのための穴埋め式の構成と、避けたい表現。",
+    "examplesTitle": "うまくいくメールの注釈付き例",
+    "examplesDescription": "なぜ効果的かを1行ずつ解説した、3通のイメージ例。",
+    "fieldsTitle": "分野別ガイド",
+    "fieldsDescription": "あなたの専攻で研究者とアプローチのコツを探せます。",
+    "blogTitle": "ガイド＆アドバイス",
+    "blogDescription": "研究指導者の見つけ方、連絡の取り方、好印象の与え方。",
+    "pricingTitle": "料金",
+    "pricingDescription": "検索は無料。パスでメール検索、無制限の要約、無制限のメールチェックが使えます。",
+    "aiMatchTitle": "AIマッチ",
+    "aiMatchDescription": "スキル、関心、稼働時間、働き方で学生と研究室をマッチング。すべての結果に理由を添えます。",
+    "howTitle": "使い方",
+    "howDescription": "好奇心から教授との本当の対話まで、4つのステップ。",
+    "playbookTitle": "コールドメール・プレイブック",
+    "playbookDescription": "返信をもらえるメールの構成、タイミング、フォローアップの段階。",
+    "feedbackTitle": "フィードバックボード",
+    "feedbackDescription": "機能の提案やバグ報告、次に作るものへの投票。",
+    "contactTitle": "お問い合わせ",
+    "contactDescription": "ご質問、ご提案、アカウントのお困りごと。すべてのメッセージに目を通しています。",
+    "loginTitle": "ログイン",
+    "registerTitle": "アカウント作成"
+  },
+  "states": {
+    "notFound": {
+      "title": "ページが見つかりません",
+      "body": "お探しのページは存在しないか、移動した可能性があります。",
+      "home": "ホームに戻る",
+      "search": "教授を探す"
+    },
+    "error": {
+      "title": "問題が発生しました",
+      "body": "予期しないエラーが発生しました。もう一度試すか、ホームに戻ってください。",
+      "retry": "もう一度試す",
+      "home": "ホームに戻る"
+    }
+  },
+  "legal": {
+    "privacyTitle": "プライバシーポリシー",
+    "termsTitle": "利用規約",
+    "updated": "最終更新日：{date}",
+    "englishNote": "この文書は英語で提供されています。内容についてご不明な点があればお問い合わせください。",
+    "questions": "この文書についてご質問がありますか？",
+    "contactUs": "お問い合わせ"
+  },
+  "playbook": {
+    "eyebrow": "すべてのパスに付属",
+    "title": "コールドメール・プレイブック",
+    "subtitle": "返信をもらえるメールの構成、タイミング、フォローアップの段階を、1ページにまとめました。",
+    "lockedTitle": "プレイブックの続きを開く",
+    "lockedBody": "タイミング、フォローアップの段階、断られたときの対応、送信前チェックリストは、どのパスにも含まれます。",
+    "seePlans": "プランを見る",
+    "signIn": "ログイン",
+    "englishNote": "プレイブックは現在、英語のみでご利用いただけます。",
+    "cta": "メールをチェック"
+  },
+  "blog": {
+    "eyebrow": "Labora ライブラリ",
+    "title": "研究指導者の見つけ方・連絡の取り方・好印象の与え方",
+    "subtitle": "教授の探し方、読まれるメールの書き方、フォローアップの方法を、ゼロから始める学生向けに解説する実践ガイド。",
+    "all": "すべてのガイド",
+    "cat": {
+      "finding": "研究を探す",
+      "writing": "メールを書く",
+      "after": "送信したあとで",
+      "goals": "目標と次のステップ"
+    },
+    "minRead": "読了目安{minutes}分",
+    "read": "ガイドを読む",
+    "back": "すべてのガイド",
+    "englishNote": "ガイドは現在、英語のみでご利用いただけます。",
+    "ctaTitle": "実践してみましょう",
+    "ctaBody": "あなたの分野の研究者を探し、研究内容を理解し、送信前にメールをチェックしましょう。",
+    "ctaFind": "教授を探す",
+    "ctaCheck": "メールをチェック",
+    "keepReading": "続けて読む",
+    "notFound": "ガイドが見つかりません"
+  },
+  "fields": {
+    "eyebrow": "分野別ガイド",
+    "title": "分野から研究ポジションを探す",
+    "subtitle": "分野を選ぶと、その分野で活発に論文を発表している研究者、研究内容、連絡の取り方がわかります。",
+    "blurb": "{field}で活発に論文を発表している研究者を探し、研究内容を理解して、実際に読まれる具体的なメッセージを書きましょう。",
+    "cta": "{field}の研究者を見る",
+    "pageTitle": "{field}：研究者とポジションを探す",
+    "pageSubtitle": "今{field}で誰が論文を発表しているかを調べ、研究内容を理解して、適切な形で連絡しましょう。",
+    "searchNow": "{field}の研究者を検索",
+    "openPositions": "{field}の募集ポジション",
+    "backToAll": "すべての分野",
+    "tipsTitle": "{field}の研究室へのアプローチ方法",
+    "tip1": "書く前に、最近の要旨を2〜3本ざっと読みましょう。良い質問を1つ作れれば十分です。",
+    "tip2": "授業、データセット、ツール、小さなプロジェクトなど、具体的なスキルを伝えましょう。研究室の仕事は実践的なことが多いです。",
+    "tip3": "週に何時間、いつから始められるかを具体的に伝えると、「はい」と答えやすくなります。",
+    "tip4": "教授が学生を受け入れていない場合は、グループ内で誰に聞けばよいか尋ねてみましょう。",
+    "related": "関連する分野",
+    "names": {
+      "astrophysics": "天体物理学",
+      "physics": "物理学",
+      "quantum-computing": "量子コンピューティング",
+      "chemistry": "化学",
+      "materials-science": "材料科学",
+      "machine-learning": "機械学習",
+      "computer-science": "コンピュータサイエンス",
+      "robotics": "ロボティクス",
+      "mathematics": "数学",
+      "biochemistry": "生化学",
+      "molecular-biology": "分子生物学",
+      "genetics": "遺伝学",
+      "bioinformatics": "バイオインフォマティクス",
+      "neuroscience": "神経科学",
+      "cognitive-science": "認知科学",
+      "psychology": "心理学",
+      "immunology": "免疫学",
+      "public-health": "公衆衛生",
+      "epidemiology": "疫学",
+      "environmental-science": "環境科学",
+      "climate-science": "気候科学",
+      "economics": "経済学",
+      "linguistics": "言語学",
+      "sociology": "社会学"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "新機能：学生と研究室のためのAIマッチング",
+      "title": "あなたに<em>合う教授</em>を見つけよう。",
+      "subtitle": "世界の学術記録を検索し、どの研究者の仕事もやさしい言葉で理解し、あなたのスキルと働き方に合う研究室とマッチングしましょう。",
+      "modeInterest": "関心から",
+      "modeName": "名前から",
+      "interestLabel": "研究テーマ",
+      "interestPlaceholder": "例：計算論的神経科学",
+      "nameLabel": "研究者名",
+      "namePlaceholder": "例：Jane Smith",
+      "universityLabel": "大学",
+      "universityPlaceholder": "例：MIT、Stanford…",
+      "search": "教授を探す",
+      "try": "例：",
+      "trust": "オープンな学術データを基盤に：論文{works}本・{institutions}機関",
+      "trustFallback": "オープンな学術データを基盤に：3億本以上の論文・14万以上の機関",
+      "ex": {
+        "ml": "機械学習",
+        "neuro": "神経科学",
+        "genomics": "ゲノミクス",
+        "climate": "気候科学",
+        "quantum": "量子コンピューティング",
+        "psych": "心理学"
+      },
+      "modeLabel": "検索方法"
+    },
+    "mock": {
+      "preview": "イメージプレビュー",
+      "results": "研究者",
+      "summary": "やさしい要約",
+      "summaryBody": "ラベル付きの例がごくわずかでも機械が「見て」学べる方法を研究し、ロボットが初めて見る身近な物を認識してつかめるようにします。",
+      "keyFinding": "主な発見",
+      "keyFindingBody": "自己教師あり手法により、把持検出に必要なラベル付き画像を80%削減（2025年）。",
+      "starters": "聞いてみたい質問",
+      "starter1": "どの物体でテストするかは、グループでどう決めましたか？",
+      "starter2": "この手法は研究室の外でも通用しますか？",
+      "save": "保存",
+      "writeEmail": "メールを書く",
+      "match": "マッチ度",
+      "whyFit": "合う理由",
+      "reasonTopics": "共通のテーマ：コンピュータビジョン、PyTorch",
+      "reasonStyle": "似た働き方：自立型・スピード重視",
+      "gap": "ギャップ：線形代数",
+      "emailScore": "メールスコア",
+      "emailFlags": "直したい点が2つ",
+      "hIndex": "h指数",
+      "papers": "論文",
+      "flagFlattery": "お世辞",
+      "flagGeneric": "ありきたりな表現",
+      "mustHave": "必須",
+      "niceToHave": "あれば尚良い",
+      "invite": "招待",
+      "idealStudent": "理想の学生像",
+      "followUpOn": "{date}にフォローアップ",
+      "tracker": "アプローチ管理",
+      "openPositions": "募集中のポジション",
+      "apply": "応募"
+    },
+    "marquee": {
+      "label": "次のような機関の研究者が見つかります"
+    },
+    "problem": {
+      "eyebrow": "課題",
+      "title": "教授へのメールの多くは<em>読まれないままです。</em>",
+      "description": "学生は、ありきたりなメールを、適さない相手に、悪いタイミングで送りがち。教授が判断に使える時間は数秒です。よくある失敗はこちら。",
+      "generic": {
+        "title": "他の人と同じようなメールに聞こえる",
+        "body": "お世辞や定型文はすぐ見抜かれます。実際の研究についての具体的な質問は目を引きます。"
+      },
+      "who": {
+        "title": "誰が学生を受け入れているかわからない",
+        "body": "教員ページは更新が止まりがちで、募集中の研究室が学生の目につく場所で告知することはまれです。"
+      },
+      "read": {
+        "title": "論文を読むだけで何時間もかかる",
+        "body": "具体的なメールを書くには研究内容を理解する必要がありますが、要旨は難解です。"
+      }
+    },
+    "features": {
+      "eyebrow": "プラットフォーム",
+      "title": "「気になる」から「研究室に入る」まで、すべてここに",
+      "description": "人を探し、研究を理解し、上手に連絡し、記録する。すべてが1か所で完結します。",
+      "discover": {
+        "title": "学術記録を検索",
+        "body": "関心のあるテーマと大学を入力するだけで、そのテーマで活発に論文を発表している研究者が見つかります。実在の人物、実在の論文です。"
+      },
+      "summaries": {
+        "title": "やさしい言葉の要約",
+        "body": "すべての研究者について、研究内容の短い説明と最近の成果を、その分野が初めての人向けに紹介します。"
+      },
+      "email": {
+        "title": "代筆ではなく、メールのコーチ",
+        "body": "下書きを貼り付けると、ありきたり・お世辞・曖昧に聞こえる表現とその理由がわかります。あなたらしい文章はそのままです。"
+      },
+      "match": {
+        "title": "双方向のAIマッチング",
+        "body": "学生はスキルと働き方に合う研究室や教授がわかり、教授は理想の学生像を描くだけで合う学生がわかります。"
+      },
+      "positions": {
+        "title": "認証済みの研究室の募集",
+        "body": "教授が直接掲載したポジションを見て、先に研究内容を読み、ワンステップで応募できます。"
+      },
+      "tracker": {
+        "title": "リマインドしてくれる管理表",
+        "body": "誰にメールし、どうなったかを記録。フォローアップの日付を通知するので、取りこぼしを防げます。"
+      }
+    },
+    "how": {
+      "eyebrow": "使い方",
+      "title": "好奇心から、本当の対話へ",
+      "s1": {
+        "title": "検索",
+        "body": "関心のあるテーマと大学、または研究者名を入力します。"
+      },
+      "s2": {
+        "title": "理解",
+        "body": "やさしい要約、最近の論文、聞いてみたい質問を読みます。"
+      },
+      "s3": {
+        "title": "連絡",
+        "body": "自分の言葉でメールを書き、チェックして、自信を持って送ります。"
+      },
+      "s4": {
+        "title": "フォローアップ",
+        "body": "返信を記録し、タイミングを考えた2通のフォローアップを送ります。"
+      }
+    },
+    "match": {
+      "eyebrow": "AIマッチ",
+      "title": "スキルだけでなく、<em>働き方</em>でもマッチング。",
+      "description": "テーマの重なりは半分の話にすぎません。Laboraは、どれくらい自立して進めたいか、どれくらい協働的か、好みのペース、どれくらいの枠組みが助けになるかといった働き方も比べます。",
+      "students": "学生の方へ",
+      "s1": "順位付けされたポジションと教授を、わかりやすい理由つきで",
+      "s2": "足りない点と、目立つ方法がわかる",
+      "s3": "教授に何を見せるかは自分で決められる",
+      "professors": "教授の方へ",
+      "p1": "理想の学生像を描く、またはポジションからAIに下書きさせる",
+      "p2": "公開を選んだ学生を、理由つきの順位で閲覧",
+      "p3": "ぴったりの学生に、メッセージ1通で招待",
+      "privacy": "学生の公開は任意で、いつでもオフにできます。学生が承諾するまで、連絡先が教授に表示されることはありません。",
+      "cta": "AIマッチを試す",
+      "styleTitle": "働き方",
+      "candidate": "候補者",
+      "you": "あなた",
+      "lab": "研究室"
+    },
+    "compare": {
+      "title": "チャットボットに聞くのではだめ？",
+      "description": "汎用チャットボットは文章が得意ですが、実在する人のデータベースではありません。",
+      "colChatbot": "汎用チャットボット",
+      "colLabora": "Labora",
+      "r1": "人と論文の出どころ",
+      "r1a": "記憶から生成するため、存在しない教授・論文・数字を作り出すことがあります。",
+      "r1b": "学術記録（OpenAlex）から取得。でっち上げは一切ありません。",
+      "r2": "メールを書くのは誰か",
+      "r2a": "代わりに書いてしまうことが多く、教授には見抜かれます。",
+      "r2b": "書くのはあなた。Laboraは直すべき点を教えます。",
+      "r3": "かかる手間",
+      "r3a": "研究者を探し、読み、比べるのに何度もプロンプトが必要。",
+      "r3b": "1回の検索で、研究者・要約・メールへのフィードバックがそろいます。"
+    },
+    "professors": {
+      "eyebrow": "教授の方へ",
+      "title": "<em>本当に合う</em>学生を迎えましょう。",
+      "description": "ポジションを掲載し、研究を紹介し、スキルと働き方が研究室に合う学生をAIに見つけさせましょう。",
+      "b1": "認証済みの教員は無料",
+      "b2": "論文、データセット、ポスターを紹介",
+      "b3": "応募者と招待を1か所で管理",
+      "cta": "ポジションを掲載"
+    },
+    "stats": {
+      "eyebrow": "オープンデータが基盤",
+      "title": "生成ではなく、実在するディレクトリ",
+      "works": "収録された学術論文",
+      "institutions": "世界の機関",
+      "researchers": "研究者",
+      "labs": "Labora上の研究室",
+      "positions": "募集中のポジション",
+      "attribution": "学術メタデータの提供元：OpenAlex。"
+    },
+    "pricing": {
+      "title": "無料で始めて、必要になったらアップグレード。",
+      "description": "検索はいつでも無料です。パスを購入すると、メール検索、無制限の要約、無制限のメールチェックが必要な期間だけ使えます。",
+      "cta": "プランを見る"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": "研究者のデータはどこから来ていますか？",
+      "a1": "世界の学術成果のオープンなカタログ、OpenAlexからです。その記録に実在する人物と論文だけを表示し、教授や論文を創作することは決してありません。",
+      "q2": "Laboraは私の代わりにメールを書いてくれますか？",
+      "a2": "いいえ。意図的にそうしています。教授には見抜かれますし、返信をもらえるのは自分らしい言葉で書く学生です。Laboraは誰に書くべきかを見つけ、その研究を説明し、あなた自身の下書きに具体的なフィードバックを返します。",
+      "q3": "AIマッチングはどう働きますか？",
+      "a3": "あなたのスキル、関心、経験、稼働時間、働き方を、ポジション・研究室・研究者と比較し、すべてのマッチに理由を添えます。上位の結果はAIレビュアーが調整します。名前、学校、性別、国籍などの保護された属性は一切使いません。",
+      "q4": "プロフィールは誰に見えますか？",
+      "a4": "公開設定をオンにしない限り、誰にも見えません。オンにした場合も、見られるのは認証済みの教授だけで、メールアドレスは決して表示されません。教授はあなたを招待でき、返信するかどうかはあなたが決めます。",
+      "q5": "教授もLaboraに登録している必要がありますか？",
+      "a5": "いいえ。学術記録にいるどの研究者も、探して連絡できます。参加した教授は、ポジションの掲載、研究の紹介、学生探しができます。",
+      "q6": "料金はいくらですか？",
+      "a6": "検索は無料で、無料アカウントでも要約、メールチェック、AIマッチングを少しお試しできます。パスで無制限に使えます。料金ページをご覧ください。"
+    },
+    "cta": {
+      "title": "あなたの次の研究ポジションは、<em>1通の良いメール</em>から。",
+      "subtitle": "検索は無料。カード登録は不要です。",
+      "button": "教授を探す"
+    }
+  },
+  "how": {
+    "eyebrow": "使い方",
+    "title": "好奇心から対話へ、4つのステップ",
+    "subtitle": "Laboraは、教授が実際に返信したくなる要素を軸に作られています。",
+    "s1": {
+      "title": "学術記録を検索",
+      "body": "研究テーマと大学、または研究者名を入力します。そのテーマで活発に論文を発表している人が見つかります。",
+      "b1": "オープンな学術データベースから取得した結果",
+      "b2": "大学で絞り込み、最近の活動順に並べ替え"
+    },
+    "s2": {
+      "title": "研究内容を理解",
+      "body": "やさしい要約、最近の成果、聞いてみたい質問を読み、そのうえで論文自体にも目を通します。",
+      "b1": "その分野が初めての人向けに書かれた要約",
+      "b2": "最近の論文と被引用数の多い論文を一目で確認"
+    },
+    "s3": {
+      "title": "読まれるメールを書く",
+      "body": "自分で書いてから、チェック。お世辞、定型文、曖昧さをハイライトします。代筆は決してしません。",
+      "b1": "メールの型と注釈付きの例",
+      "b2": "1行ごとの具体的なフィードバック"
+    },
+    "s4": {
+      "title": "フォローアップと管理",
+      "body": "連絡した相手を記録し、タイミングの良いフォローアップを受け取り、すべての案件を1か所で管理します。",
+      "b1": "2通のフォローアップ下書きとカレンダー通知",
+      "b2": "進捗を記録するアプローチ管理表"
+    },
+    "cta": "検索を始める",
+    "ctaMatch": "AIに合う相手を探させる"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "AIマッチ",
+      "title": "<em>働き方</em>まで理解するマッチング。",
+      "subtitle": "Laboraはキーワードだけを比べません。スキル、関心、稼働時間、働き方を見て、すべてのマッチをわかりやすく説明します。",
+      "student": "マッチを探す",
+      "professor": "理想の学生を探す",
+      "signUp": "無料アカウントを作成"
+    },
+    "signals": {
+      "eyebrow": "使い方",
+      "title": "4つの指標、1つの説明できるスコア",
+      "topics": {
+        "title": "テーマ",
+        "body": "あなたの関心、履修、経験が、研究室や研究者の取り組みとどれだけ重なるか。"
+      },
+      "skills": {
+        "title": "スキル",
+        "body": "役割が求めるスキルのうち、すでに持っているもの、これから伸ばせるもの。"
+      },
+      "style": {
+        "title": "働き方",
+        "body": "自主性、チームワーク、ペース、枠組み。あなたの好みと研究室の進め方の比較です。"
+      },
+      "hours": {
+        "title": "稼働時間",
+        "body": "あなたが提供できる時間が、役割の期待をカバーしているか。"
+      }
+    },
+    "demo": {
+      "eyebrow": "試してみる",
+      "title": "働き方のマッチを見てみよう",
+      "description": "好みの働き方に合わせてダイヤルを動かしてください。例の研究室は、自立型で協働的、スピード重視で、タスクの定義はゆるめです。",
+      "you": "あなた",
+      "lab": "例の研究室",
+      "fit": "スタイルの一致度",
+      "aligned": "一致：{items}",
+      "differs": "違い：{items}",
+      "none": "ダイヤルを動かして比べてみましょう。"
+    },
+    "directions": {
+      "title": "2つの方向、1つの考え方",
+      "students": {
+        "title": "学生の方へ",
+        "s1": "スキル、関心、経験、働き方を一度入力します。",
+        "s2": "ポジションと教授が適合度順に並び、それぞれ理由とギャップが示されます。",
+        "s3": "「目立つ方法」のヒントを、より強い応募やメールに役立てましょう。"
+      },
+      "professors": {
+        "title": "教授の方へ",
+        "s1": "理想の学生像を描く、またはポジションと研究室からAIに下書きさせます。",
+        "s2": "公開を選んだ学生が、理由とギャップつきで順位付けされます。",
+        "s3": "ぴったりの学生に、メッセージ1通で招待。返信があるまで、メールアドレスは非公開です。"
+      }
+    },
+    "trust": {
+      "eyebrow": "公平を前提に設計",
+      "title": "主導権はあなたに",
+      "t1": {
+        "title": "公開は任意",
+        "body": "学生は自分でオンにしたときだけ検索対象になり、いつでもオフにできます。"
+      },
+      "t2": {
+        "title": "連絡先は非公開",
+        "body": "学生が応募するか、招待を承諾するまで、教授にメールアドレスは表示されません。"
+      },
+      "t3": {
+        "title": "保護された属性は不使用",
+        "body": "名前、学校、性別、国籍などの属性でスコアをつけることは決してありません。"
+      },
+      "t4": {
+        "title": "ブラックボックスではなく理由を",
+        "body": "一致した点としなかった点をすべて表示するので、スコアに異議を唱えることもできます。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": "スコアは、そのポジションに採用される予測ですか？",
+      "a1": "いいえ。適合度の目安であり、予測ではありません。実際の判断には、タイミング、予算、他の応募者など多くの要素が影響します。",
+      "q2": "AIは実際に何をしていますか？",
+      "a2": "まず上記の指標から透明性のあるスコアを計算します。次にAIレビュアーが上位の結果を見て、順位を調整し、説明を書きます。AIが使えない場合でも、透明なスコアは表示されます。",
+      "q3": "プロフィールなしでAIマッチを使えますか？",
+      "a3": "実行はできますが、プロフィールが充実するほど結果は大きく良くなります。足りない項目もお知らせします。"
+    },
+    "cta": {
+      "title": "合う研究室と、合う人を見つけよう。",
+      "button": "無料で始める"
+    }
+  },
+  "pricing": {
+    "eyebrow": "料金",
+    "title": "あなたの学期に合うパスを選ぼう",
+    "subtitle": "研究者の検索はいつでも無料。パスを購入すると、最も時間を節約できるツールが使えます。1回払いで、サブスクリプションも自動更新もありません。",
+    "plans": {
+      "free": {
+        "name": "無料",
+        "desc": "ずっと"
+      },
+      "weekly": {
+        "name": "1週間スプリント",
+        "desc": "1週間利用可能"
+      },
+      "semester": {
+        "name": "学期パス",
+        "desc": "4か月利用可能",
+        "badge": "いちばんお得"
+      },
+      "lifetime": {
+        "name": "ライフタイム",
+        "desc": "ずっとあなたのもの"
+      }
+    },
+    "cta": {
+      "free": "無料で始める",
+      "weekly": "1週間スプリントを始める",
+      "semester": "学期パスを購入",
+      "lifetime": "ライフタイムを購入",
+      "current": "現在のプラン",
+      "signIn": "ログインして続ける"
+    },
+    "features": {
+      "unlimited_search": "研究者検索は無制限",
+      "summaries_2": "やさしい要約2回",
+      "email_check_1": "メールチェック1回",
+      "ai_match_3": "AIマッチ3回",
+      "outreach_tracker": "アプローチ管理",
+      "positions_board": "募集ポジション一覧",
+      "everything_pro": "無料プランのすべてに加えて：",
+      "unlimited_summaries": "要約が無制限",
+      "email_finder": "メール検索",
+      "responsiveness": "返信率スコア",
+      "unlimited_checks": "メールチェックとフォローアップが無制限",
+      "playbook": "コールドメール・プレイブック",
+      "everything_semester": "学期パスのすべてに加えて：",
+      "never_pay_again": "追加の支払いは一切なし",
+      "priority_features": "新機能への早期アクセス"
+    },
+    "payments": "お支払いはStripeで安全に処理されます。カード情報がLaboraに保存されることはありません。",
+    "devMode": "この環境では決済が接続されていないため、パスはすぐに有効化されます（テスト用）。",
+    "activated": "パスが有効になりました。お楽しみください！",
+    "cancelled": "チェックアウトはキャンセルされました。請求は発生していません。",
+    "referral": {
+      "title": "友達を招待して、二人とも1週間分を獲得",
+      "body": "「プランと請求」からコードを共有しましょう。友達がそのコードで登録すると、二人とも7日間のProを獲得できます。",
+      "haveCode": "友達のコードをお持ちですか？",
+      "placeholder": "コードを入力",
+      "redeem": "利用する",
+      "redeemed": "コードを利用しました。Pro 7日分が追加されました。",
+      "signIn": "ログインしてコードを利用"
+    },
+    "waitlist": {
+      "title": "返信保証プランを準備中です",
+      "body": "本物の対話を得ることに特化したプランを検討しています。ウェイトリストに登録すると、真っ先にお知らせします。",
+      "placeholder": "you@university.edu",
+      "join": "ウェイトリストに参加",
+      "joined": "登録しました。ありがとうございます！"
+    },
+    "faq": {
+      "title": "お支払いについてのご質問",
+      "q1": "サブスクリプションですか？",
+      "a1": "いいえ。すべてのパスは1回払いです。自動更新されないので、解約の必要もありません。",
+      "q2": "パスの期間が終わるとどうなりますか？",
+      "a2": "アカウント、保存した研究者、管理表はそのまま残ります。無料枠に戻るだけです。",
+      "q3": "検索や応募にパスは必要ですか？",
+      "a3": "いいえ。研究者の検索、ポジションの閲覧、応募は、いつでも無料です。",
+      "q4": "教授は課金されますか？",
+      "a4": "いいえ。認証済みの教授は、ポジションの掲載、研究の紹介、学生探しを無料で行えます。",
+      "q5": "お支払いについての問い合わせ先は？",
+      "a5": "お問い合わせページからご連絡ください。折り返しご連絡します。"
+    }
+  },
+  "dash": {
+    "nav": {
+      "overview": "概要",
+      "matches": "AIマッチ",
+      "talent": "学生を探す",
+      "applications": "応募",
+      "invitations": "招待",
+      "outreach": "アプローチ管理",
+      "saved": "保存済み",
+      "profile": "マイプロフィール",
+      "billing": "プランと請求",
+      "settings": "設定",
+      "positions": "ポジション",
+      "lab": "研究室と研究",
+      "admin": "管理"
+    },
+    "greeting": "こんにちは、{name}さん",
+    "welcomeProfessor": "ようこそ、{name}先生",
+    "overview": {
+      "studentSubtitle": "研究探しの現在の状況です。",
+      "professorSubtitle": "研究室、募集、応募者を管理します。",
+      "findPositions": "ポジションを探す",
+      "newPosition": "新規ポジション",
+      "applications": "応募",
+      "inReview": "審査中",
+      "accepted": "承認",
+      "invitations": "招待",
+      "openPositions": "募集中のポジション",
+      "applicants": "応募者",
+      "lab": "研究室",
+      "live": "公開中",
+      "notSetUp": "未設定",
+      "completeTitle": "プロフィールを完成させましょう",
+      "completeBody": "応募のたびに教授にプロフィールが表示されます。情報が多いほど、マッチングの精度も上がります。",
+      "completeCta": "プロフィールを更新",
+      "discoverTitle": "教授に見つけてもらおう",
+      "discoverBody": "公開設定をオンにすると、認証済みの教授があなたを応募に招待できます。返信するまで、メールアドレスは非公開です。",
+      "discoverCta": "プロフィールで設定",
+      "recentApplications": "最近の応募",
+      "noApplications": "まだ応募していません。",
+      "browse": "募集中のポジションを見る",
+      "matchTitle": "おすすめのマッチ",
+      "matchBody": "適合度の高い順に、ポジションと教授を確認できます。",
+      "matchCta": "AIマッチを開く",
+      "yourPositions": "あなたのポジション",
+      "noPositions": "まだポジションがありません。",
+      "createLabTitle": "研究室を設定して募集を始めましょう",
+      "createLabBody": "掲載するすべてのポジションに、研究室プロフィールと研究内容が学生に表示されます。",
+      "createLabCta": "研究室プロフィールを作成",
+      "unverifiedTitle": "アカウントの認証待ちです",
+      "unverifiedBody": "研究室とポジションを公開する前に、教授アカウントを審査しています。その間に準備を整えておけます。",
+      "talentTitle": "合う学生を探す",
+      "talentBody": "理想の学生像を描くと、公開を選んだ学生をAIが順位付けします。",
+      "talentCta": "学生を探す",
+      "pendingInvitations_other": "{count}件の招待が待っています",
+      "viewInvitations": "招待を見る",
+      "applicantsCount_other": "応募者{count}名",
+      "newForYou": "あなたへの新着"
+    },
+    "profile": {
+      "title": "マイプロフィール",
+      "subtitle": "応募時に教授へ表示され、AIマッチがあなたに合う相手を探すために使います。",
+      "strength": "プロフィールの充実度",
+      "basics": "基本情報",
+      "university": "大学",
+      "major": "専攻",
+      "year": "学年",
+      "selectYear": "選択…",
+      "about": "自己紹介",
+      "bio": "短い自己紹介",
+      "bioHint": "あなたはどんな人で、何に興味がありますか？",
+      "skills": "スキル",
+      "skillsHint": "カンマ区切り。例：Python, PyTorch, R, 実験室の安全管理",
+      "interests": "研究の関心",
+      "interestsHint": "取り組んでみたいテーマ。例：コンピュータビジョン、細胞運命。",
+      "experience": "これまでの経験",
+      "experienceHint": "プロジェクト、授業、過去の研究。具体的なほど、マッチの精度が上がります。",
+      "availability": "週に確保できる時間",
+      "workStyle": "好みの働き方",
+      "workStyleHint": "それぞれのダイヤルを、最も心地よい位置に動かしてください。研究室との比較に使われます。",
+      "links": "リンク",
+      "resume": "履歴書のリンク",
+      "resumeHint": "PDFへのリンク（Drive、Dropbox、ご自身のサイトなど）。",
+      "website": "個人サイト",
+      "github": "GitHubプロフィール",
+      "visibility": "公開設定",
+      "discoverable": "認証済みの教授に見つけてもらう",
+      "discoverableDesc": "教授があなたのプロフィールを見て、応募に招待できます。返信するまで、メールアドレスは非公開です。いつでもオフにできます。",
+      "save": "プロフィールを保存",
+      "saved": "プロフィールを保存しました",
+      "welcome": "Laboraへようこそ！自己紹介を入力すると、より良いマッチが見つかります。"
+    },
+    "applications": {
+      "title": "応募",
+      "subtitle": "これまでの応募を1か所で確認できます。",
+      "emptyTitle": "まだ応募がありません",
+      "emptyBody": "ポジションに応募すると、ここに表示され、状況を追跡できます。",
+      "browse": "ポジションを見る",
+      "applied": "{when}に応募",
+      "withdraw": "取り下げ",
+      "withdrawConfirm": "この応募を取り下げますか？",
+      "withdrawn": "応募を取り下げました",
+      "invited": "招待あり",
+      "decided": "{when}に決定"
+    },
+    "invitations": {
+      "title": "招待",
+      "subtitleStudent": "あなたに応募してほしい教授。",
+      "subtitleProfessor": "あなたが招待した学生。",
+      "emptyStudentTitle": "まだ招待がありません",
+      "emptyStudentBody": "プロフィールで公開設定をオンにすると、認証済みの教授があなたを招待できます。",
+      "emptyProfessorTitle": "まだ誰も招待していません",
+      "emptyProfessorBody": "「学生を探す」で、研究室に合う学生を見つけましょう。",
+      "from": "{name}さんから",
+      "to": "{name}さんへ",
+      "match": "マッチ度{score}%",
+      "accept": "承諾して応募",
+      "decline": "辞退",
+      "replyPlaceholder": "教授へのメモを追加（任意）",
+      "accepted": "承諾しました。応募が作成されました。",
+      "declined": "招待を辞退しました",
+      "withdraw": "招待を取り下げ",
+      "receivedAgo": "{when}に送信",
+      "findStudents": "学生を探す"
+    },
+    "outreach": {
+      "title": "アプローチ管理",
+      "subtitle": "連絡した相手、フォローアップの時期、結果を記録します。",
+      "emptyTitle": "まだ何も記録されていません",
+      "emptyBody": "研究者のプロフィールから追加すると、アプローチを管理でき、フォローアップの日付も通知されます。",
+      "find": "教授を探す",
+      "followUpDue": "{when}にフォローアップ",
+      "overdue": "フォローアップの期限切れ",
+      "sentOn": "{date}に送信",
+      "repliedOn": "{date}に返信",
+      "notes": "メモ",
+      "notesPlaceholder": "覚えておきたいことを何でも…",
+      "status": "ステータス",
+      "remove": "削除",
+      "removeConfirm": "この研究者を管理表から削除しますか？",
+      "planFollowUp": "フォローアップを計画",
+      "helpTitle": "あなたの記録がみんなの助けに",
+      "helpBody": "研究者プロフィールに表示される返信率は、あなたのような匿名かつ集計されたアプローチの記録に基づいています。個別のエントリが表示されることは決してありません。",
+      "stats": {
+        "total": "管理中",
+        "sent": "送信済み",
+        "replied": "返信あり",
+        "due": "要フォローアップ"
+      }
+    },
+    "saved": {
+      "title": "保存済み",
+      "subtitle": "ブックマークした研究者とポジション。",
+      "professors": "研究者",
+      "positions": "ポジション",
+      "emptyProfessors": "保存した研究者はまだいません",
+      "emptyProfessorsBody": "研究者のブックマークをタップすると、リストに追加されます。",
+      "emptyPositions": "保存したポジションはまだありません",
+      "emptyPositionsBody": "ポジションのブックマークをタップすると、あとで見返せます。"
+    },
+    "billing": {
+      "title": "プランと請求",
+      "subtitle": "ご利用状況、使用量、紹介特典。",
+      "currentPlan": "現在のプラン",
+      "plan": {
+        "free": "無料",
+        "weekly": "1週間スプリント",
+        "semester": "学期パス",
+        "lifetime": "ライフタイム"
+      },
+      "activeUntil": "{date}まで有効",
+      "lifetimeNote": "ライフタイムアクセスをお持ちです。",
+      "freeNote": "無料プランをご利用中です。",
+      "upgrade": "プランを見る",
+      "usage": "無料枠",
+      "usageItem": "{limit}回中{used}回使用",
+      "unlimited": "無制限",
+      "features": {
+        "summary": "教授の要約",
+        "email_check": "メールチェック",
+        "follow_up": "フォローアップ計画",
+        "match_positions": "ポジションのマッチ",
+        "match_professors": "教授のマッチ"
+      },
+      "referral": "友達を招待",
+      "referralBody": "コードを共有しましょう。友達がそのコードで登録すると、二人とも{days}日間のProを獲得できます。",
+      "yourCode": "あなたのコード",
+      "copyCode": "コードをコピー",
+      "copyLink": "招待リンクをコピー",
+      "copied": "コピーしました",
+      "redeemed_other": "あなたのコードで{count}人の友達が参加しました",
+      "redeem": "友達のコードをお持ちですか？",
+      "redeemPlaceholder": "コードを入力",
+      "redeemCta": "利用する",
+      "redeemedOk": "コードを利用しました。Pro {days}日分が追加されました。",
+      "checkoutSuccess": "ありがとうございます！まもなくプランが有効になります。",
+      "devMode": "この環境では決済が接続されていないため、プランはすぐに有効化されます（テスト用）。"
+    },
+    "settings": {
+      "title": "設定",
+      "subtitle": "アカウント、言語、セキュリティ。",
+      "account": "アカウント",
+      "name": "氏名",
+      "email": "メールアドレス",
+      "emailNote": "メールアドレスは変更できません。",
+      "language": "言語",
+      "languageHint": "AIが書く要約やフィードバックの言語にも使われます。",
+      "saveChanges": "変更を保存",
+      "saved": "設定を保存しました",
+      "password": "パスワード",
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新しいパスワード",
+      "changePassword": "パスワードを変更",
+      "passwordChanged": "パスワードを更新しました",
+      "danger": "アカウントを削除",
+      "dangerBody": "プロフィール、応募、アカウントに紐づくすべてのデータが完全に削除されます。元に戻すことはできません。",
+      "dangerConfirm": "確認のため、パスワードを入力してください",
+      "deleteCta": "アカウントを削除する",
+      "deleted": "アカウントを削除しました。"
+    },
+    "lab": {
+      "title": "研究室と研究",
+      "subtitle": "学生があなたのポジションを検討するときに見る内容です。",
+      "createTitle": "研究室を作成",
+      "profileTitle": "研究室プロフィール",
+      "name": "研究室名",
+      "university": "大学",
+      "department": "学部・学科",
+      "description": "説明",
+      "descriptionHint": "研究室では何に取り組んでいますか？学部生にもわかりやすく書きましょう。",
+      "keywords": "研究キーワード",
+      "keywordsHint": "カンマ区切り",
+      "website": "研究室のウェブサイト",
+      "culture": "この研究室で働く雰囲気",
+      "cultureHint": "指導スタイル、ミーティングの頻度、学生が担当すること。学生は率直さを高く評価します。",
+      "teamSize": "チームの人数",
+      "workStyle": "研究室の進め方",
+      "workStyleHint": "学生との働き方の比較に使われます。",
+      "openalex": "OpenAlex著者ID",
+      "openalexHint": "任意。Laboraの研究室を、あなたの業績プロフィールに紐づけます（Aで始まるID）。",
+      "saveLab": "研究室を保存",
+      "createLab": "研究室を作成",
+      "created": "研究室を作成しました。次は研究資料の追加とポジションの掲載を。",
+      "updated": "研究室を更新しました",
+      "materials": "研究資料",
+      "materialsHint": "論文、データセット、ポスターを共有して、学生にあなたの研究を知ってもらいましょう。",
+      "nothingShared": "まだ何も共有されていません。",
+      "addMaterial": "資料を追加",
+      "materialTitle": "タイトル",
+      "materialType": "種類",
+      "materialLink": "リンク",
+      "materialLinkHint": "arXiv、DOI、Google Drive、GitHub…",
+      "materialDescription": "短い説明",
+      "removeMaterial": "この資料を削除しますか？",
+      "verificationTitle": "認証待ち",
+      "verificationBody": "教授アカウントの認証が完了すると、研究室が公開されます。研究室のウェブサイトを追加すると、手続きが早まります。"
+    },
+    "positions": {
+      "title": "ポジション",
+      "subtitle": "あなたの募集と、応募した人。",
+      "new": "新規ポジション",
+      "emptyTitle": "まだポジションがありません",
+      "emptyBody": "募集を掲載して、応募を受け付けましょう。",
+      "emptyLab": "先に研究室プロフィールを作成してください。",
+      "post": "最初のポジションを掲載",
+      "open": "募集中",
+      "closed": "終了",
+      "close": "終了する",
+      "reopen": "再開する",
+      "edit": "編集",
+      "delete": "削除",
+      "deleteConfirm": "このポジションを削除しますか？元に戻すことはできません。",
+      "applicants": "応募者",
+      "postedAgo": "{when}に掲載",
+      "viewPublic": "公開ページを見る",
+      "newTitle": "新規ポジション",
+      "newSubtitle": "募集内容を記入してください。あとからいつでも編集できます。",
+      "editTitle": "ポジションを編集",
+      "needLab": "掲載する前に研究室プロフィールが必要です。",
+      "createLab": "研究室を作成",
+      "noApplicants": "まだ応募者がいません",
+      "noApplicantsBody": "ポジションを共有するか、「学生を探す」で合う学生を招待しましょう。",
+      "decline": "辞退",
+      "accept": "承認",
+      "email": "応募者にメール",
+      "resume": "履歴書",
+      "invitedBadge": "あなたが招待",
+      "profileIncomplete": "プロフィール未完成",
+      "form": {
+        "title": "ポジション名",
+        "titlePlaceholder": "学部生RA：自己教師あり学習によるビジョン",
+        "description": "説明",
+        "descriptionHint": "学生はどんな仕事をしますか？何を学べますか？",
+        "requirements": "応募条件",
+        "requirementsHint": "履修や経験（任意）",
+        "skills": "必須スキル",
+        "skillsHint": "カンマ区切り。マッチングに使用。例：python, pytorch",
+        "compensation": "報酬",
+        "hours": "週あたりの時間",
+        "term": "学期",
+        "location": "勤務場所",
+        "slots": "募集人数",
+        "deadline": "応募締切",
+        "keywords": "キーワード",
+        "keywordsHint": "学生があなたのポジションを見つけやすくなります",
+        "publish": "ポジションを公開",
+        "saveChanges": "変更を保存",
+        "saved": "ポジションを保存しました",
+        "notSpecified": "指定なし"
+      }
+    },
+    "admin": {
+      "title": "管理",
+      "subtitle": "教授を認証し、届いた内容を確認します。",
+      "overview": "概要",
+      "stats": {
+        "users": "ユーザー",
+        "students": "学生",
+        "professors": "教授",
+        "pending_professors": "認証待ち",
+        "labs": "研究室",
+        "open_positions": "募集中のポジション",
+        "applications": "応募",
+        "invitations": "招待",
+        "feedback": "フィードバック投稿",
+        "waitlist": "ウェイトリスト",
+        "paid_users": "有料ユーザー"
+      },
+      "verification": "教授の認証",
+      "onlyPending": "保留中のみ",
+      "verify": "認証",
+      "unverify": "取り消し",
+      "verifiedAt": "認証日",
+      "pendingBadge": "保留中",
+      "lab": "研究室",
+      "waitlist": "ウェイトリスト",
+      "contact": "お問い合わせメッセージ",
+      "empty": "まだ何もありません。",
+      "notAdmin": "この領域は管理者専用です。",
+      "verifiedToast": "教授を認証しました",
+      "revokedToast": "認証を取り消しました"
+    }
+  },
+  "auth": {
+    "shell": {
+      "headline": "次のブレークスルーは、合う研究室との出会いから。",
+      "p1": "世界の学術記録から研究者を探す",
+      "p2": "一文字書く前に、研究内容を理解する",
+      "p3": "スキルと働き方でマッチング",
+      "footer": "学生と教授のために、あなたの言語で。"
+    },
+    "login": {
+      "title": "おかえりなさい",
+      "subtitle": "ログインして続けましょう。",
+      "email": "メールアドレス",
+      "emailPlaceholder": "you@university.edu",
+      "password": "パスワード",
+      "submit": "ログイン",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "signUp": "新規登録",
+      "forgot": "パスワードをお忘れですか？",
+      "forgotHelp": "お問い合わせいただければ、再びログインできるようお手伝いします。",
+      "demo": "デモアカウント（パスワード：password123）",
+      "demoStudent": "学生",
+      "demoProfessor": "教授",
+      "demoAdmin": "管理者"
+    },
+    "register": {
+      "title": "アカウント作成",
+      "subtitle": "大学のメールアドレスで参加できます。1分で完了します。",
+      "iAm": "あなたは…",
+      "student": "学生",
+      "studentDesc": "研究を探してマッチング",
+      "professor": "教授",
+      "professorDesc": "学生を募集し、研究を紹介",
+      "fullName": "氏名",
+      "fullNamePlaceholderStudent": "山田 花子",
+      "fullNamePlaceholderProfessor": "山田 太郎 教授",
+      "email": "大学のメールアドレス",
+      "emailHint": ".edu、.ac.jp などの教育機関ドメインのアドレスを使用してください。",
+      "password": "パスワード",
+      "passwordHint": "8文字以上。",
+      "referral": "友達のコード",
+      "referralHint": "友達からコードをもらいましたか？二人とも1週間分のProを獲得できます。",
+      "consent": "アカウントを作成すると、<terms>利用規約</terms>と<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。",
+      "submit": "アカウントを作成",
+      "haveAccount": "すでにアカウントをお持ちですか？",
+      "signIn": "ログイン",
+      "professorNote": "教授アカウントは、研究室とポジションを公開する前に、運営チームが認証します。"
+    }
+  },
+  "discover": {
+    "title": "あなたの研究指導教授を探そう",
+    "subtitle": "世界の学術記録から、あなたの関心分野で活発に論文を発表している研究者を検索できます。",
+    "modeInterest": "関心から",
+    "modeName": "名前から",
+    "interestLabel": "研究テーマ",
+    "interestPlaceholder": "例：計算論的神経科学",
+    "nameLabel": "研究者名",
+    "namePlaceholder": "例：Jane Smith",
+    "universityLabel": "大学",
+    "universityPlaceholder": "すべての大学",
+    "universityHint": "リストから選ぶと、その機関だけを検索します。",
+    "search": "検索",
+    "searching": "検索中…",
+    "sortBy": "並べ替え",
+    "minH": "h指数の下限",
+    "minHAny": "指定なし",
+    "filters": "絞り込み",
+    "resultsFor": "「{q}」の研究者",
+    "resultsAt": "· {university}",
+    "resultsCount_other": "{count}名の研究者",
+    "noResults": "研究者が見つかりません",
+    "noResultsBody": "より広い関心テーマ、別の綴り、または大学の絞り込みを外してみてください。",
+    "startTitle": "気になることから始めましょう",
+    "startBody": "「タンパク質の折りたたみ」や「気候政策」などのテーマを入力し、思い当たる大学があれば追加すると、そのテーマで論文を発表している人が表示されます。",
+    "noteTitle": "結果の並び順について",
+    "noteBody": "あなたのテーマについて最近どれだけ論文を発表しているかを、その分野での評価で重み付けして順位付けしています。「教授」といった肩書きは学術データベースに記録されないため、要約と論文から適合度を判断してください。",
+    "hIndex": "h指数",
+    "papers": "論文",
+    "citations": "被引用数",
+    "recentWorks": "直近3年",
+    "onTopic": "このテーマ",
+    "onLabora": "Labora在籍",
+    "viewProfile": "プロフィールを見る",
+    "save": "保存",
+    "saved": "保存済み",
+    "loadMore": "さらに研究者を表示",
+    "yourInterest": "あなたの関心",
+    "disclaimer": "データの提供元：OpenAlex。所属は最新の論文記録に基づくため、実際の状況より遅れることがあります。",
+    "signInToSave": "ログインして、研究者をリストに保存しましょう。",
+    "savedToast": "リストに保存しました",
+    "removedToast": "リストから削除しました",
+    "clearFilters": "絞り込みをクリア",
+    "universityAny": "すべての大学",
+    "searchingAt": "{university}の研究者を検索中",
+    "lookingUp": "機関を検索中…"
+  },
+  "professor": {
+    "back": "検索に戻る",
+    "notFoundTitle": "その研究者が見つかりません",
+    "notFoundBody": "リンクが間違っているか、学術データベースが混み合っている可能性があります。もう一度検索してください。",
+    "orcid": "ORCID",
+    "openalex": "OpenAlexプロフィール",
+    "onLabora": "Laboraで研究室を運営",
+    "viewLab": "研究室を見る",
+    "stats": {
+      "hIndex": "h指数",
+      "papers": "論文",
+      "citations": "被引用数",
+      "recent": "直近3年",
+      "i10": "i10指数"
+    },
+    "tabs": {
+      "overview": "概要",
+      "papers": "論文",
+      "contact": "連絡先"
+    },
+    "summary": {
+      "title": "研究内容を、やさしい言葉で",
+      "cta": "研究内容を説明する",
+      "ctaBody": "何を研究しているか、最近の発見、聞いてみたい質問を、短くまとめて表示します。",
+      "loading": "最近の論文を読んでいます…",
+      "overview": "研究している内容",
+      "keyFinding": "最近の発見",
+      "fromPaper": "出典：{title}",
+      "topics": "研究分野をやさしく",
+      "goodFit": "こんな人に向いています…",
+      "starters": "聞いてみたい質問",
+      "startersHint": "自分の好奇心を引き出すヒントに使いましょう。本物の質問は教授にも伝わります。",
+      "aiBadge": "AI要約",
+      "extractiveBadge": "自動要約",
+      "extractiveNote": "このサーバーではAI要約が有効になっていないため、論文データから直接組み立てています（英語）。",
+      "aiNote": "公開されている要旨をもとにAIが作成しました。必ず論文も確認してください。",
+      "quota": "無料の要約 {limit}回中{used}回使用",
+      "quotaPro": "要約は無制限",
+      "signInTitle": "要約を読むにはログインしてください",
+      "signInBody": "無料アカウントでは、数名の研究者について、やさしい要約、主な発見、会話のきっかけを見られます。",
+      "upgrade": "要約を無制限にする",
+      "limitTitle": "無料の要約を使い切りました",
+      "limitBody": "パスで要約が無制限になり、メール検索なども使えます。"
+    },
+    "topics": "研究トピック",
+    "activity": "年ごとの論文数",
+    "papers": {
+      "recent": "最新",
+      "top": "被引用数順",
+      "empty": "論文が見つかりません。",
+      "abstract": "要旨",
+      "cited": "被引用{n}件",
+      "openAccess": "オープンアクセス",
+      "viewPaper": "論文を見る"
+    },
+    "contact": {
+      "title": "メール検索",
+      "lockedTitle": "メール検索と返信率を開く",
+      "lockedBody": "可能性の高い大学のアドレスと、学生がどれくらい返信をもらえているかを確認できます。どのパスにも含まれます。",
+      "seePlans": "プランを見る",
+      "guessNote": "よくある命名パターンから推測したもので、確認済みのアドレスではありません。送信前に教員名簿で確認してください。",
+      "pattern": "パターン：{pattern}",
+      "mostCommon": "最も一般的",
+      "copy": "アドレスをコピー",
+      "copied": "アドレスをコピーしました",
+      "compose": "メールアプリで開く",
+      "directory": "教員名簿を検索",
+      "noDomain": "この機関のメールドメインを特定できませんでした。",
+      "responsiveness": "返信率",
+      "resp": {
+        "high": "よく返信する",
+        "medium": "ときどき返信する",
+        "low": "あまり返信しない",
+        "unknown": "報告がまだ足りません"
+      },
+      "respBody": "学生{n}件のアプローチ記録に基づく。{rate}が返信{days}。",
+      "respDays": "（通常{days}日以内）",
+      "respUnknown": "この研究者へのアプローチを3人以上の学生が記録すると表示されます。あなたの記録が他の学生の助けになります。",
+      "labDays": "Laboraの研究室は、通常{days}日以内に応募へ返信します。",
+      "logOutreach": "アプローチを記録"
+    },
+    "sidebar": {
+      "writeTitle": "連絡する準備はできましたか？",
+      "writeBody": "メールを下書きして、教授に削除されがちな表現に当てはまらないかチェックしましょう。",
+      "writeCta": "メールをチェック",
+      "trackTitle": "アプローチ管理",
+      "trackBody": "誰にいつ連絡したか、次のフォローアップはいつかを管理します。",
+      "trackStart": "管理表に追加",
+      "status": "ステータス",
+      "tracked": "管理表に追加しました",
+      "saveError": "管理表を更新できませんでした"
+    }
+  },
+  "positions": {
+    "title": "募集中のポジション",
+    "subtitle": "認証済みの教授が直接掲載する研究ポジション。研究内容を読んでから応募しましょう。",
+    "searchLabel": "検索",
+    "searchPlaceholder": "テーマ、スキル、研究室名",
+    "filters": "絞り込み",
+    "compensation": "報酬",
+    "location": "勤務場所",
+    "term": "学期",
+    "university": "大学",
+    "universityPlaceholder": "例：MIT",
+    "department": "学部・学科",
+    "departmentPlaceholder": "例：生物学",
+    "any": "指定なし",
+    "count_other": "{count}件のポジション",
+    "searching": "検索中…",
+    "noResults": "条件に合うポジションがありません",
+    "noResultsBody": "より広いキーワードにするか、絞り込みを外してみてください。募集がなくても連絡はできるので、教授を直接探すのもおすすめです。",
+    "discoverCta": "教授を探す",
+    "clear": "絞り込みをクリア",
+    "postedAgo": "{when}に掲載",
+    "closes": "{when}に締切",
+    "applyBy": "{date}までに応募",
+    "deadlinePassed": "締切を過ぎました",
+    "slots_other": "募集{count}名",
+    "backToAll": "すべてのポジション",
+    "about": "この役割について",
+    "requirements": "求めていること",
+    "skills": "スキル",
+    "research": "研究室の研究を読む",
+    "researchHint": "応募する前に、研究内容に親しんでおきましょう。",
+    "noMaterials": "共有された研究資料はまだありません。",
+    "aboutLab": "研究室について",
+    "viewLab": "研究室プロフィールを見る",
+    "website": "研究室のウェブサイト",
+    "notFound": "ポジションが見つかりません",
+    "verifiedLab": "認証済みの研究室",
+    "apply": {
+      "title": "応募する",
+      "label": "あなたが合っている理由は？",
+      "placeholder": "関心、関連する履修、稼働できる時間などを共有してください…",
+      "submit": "応募を送信",
+      "shared": "あなたのプロフィールが教授に共有されます。",
+      "sent": "応募を送信しました",
+      "status": "ステータス",
+      "track": "応募を追跡",
+      "signIn": "学生アカウントでログインして応募してください。",
+      "signInCta": "ログインして応募",
+      "newHere": "初めてですか？",
+      "createAccount": "アカウントを作成",
+      "professorNote": "教授としてログイン中です。応募できるのは学生のみです。",
+      "closedNote": "このポジションは、現在応募を受け付けていません。",
+      "completeProfile": "プロフィールを完成させて、これまでの経験を教授に見てもらいましょう。",
+      "toProfile": "プロフィールを更新",
+      "fitHint": "具体的に：やったこと1つ、学びたいこと1つ、稼働できる時期を書きましょう。"
+    }
+  },
+  "lab": {
+    "notFound": "研究室が見つかりません",
+    "notFoundBody": "研究室が非公開か、リンクが間違っている可能性があります。",
+    "openPositions": "募集中のポジション",
+    "noPositions": "現在募集中のポジションはありません",
+    "noPositionsBody": "また後日ご確認ください。新しい募集が出るかもしれません。直接連絡することもできます。",
+    "materials": "研究資料",
+    "culture": "この研究室で働く雰囲気",
+    "teamSize": "{count}名のチーム",
+    "workStyle": "研究室の進め方",
+    "website": "研究室のウェブサイト",
+    "professor": "主宰者（PI）",
+    "verified": "認証済み"
+  },
+  "community": {
+    "feedback": {
+      "title": "フィードバックボード",
+      "subtitle": "Laboraづくりに参加しましょう。機能の提案、バグ報告、思っていることの共有、そして大切だと思うものへの投票を。",
+      "kind": {
+        "feature": "機能リクエスト",
+        "bug": "バグ報告",
+        "general": "一般的なフィードバック"
+      },
+      "status": {
+        "open": "受付中",
+        "planned": "予定",
+        "in_progress": "対応中",
+        "done": "完了"
+      },
+      "newPost": "ご意見を共有",
+      "postTitle": "タイトル",
+      "postTitlePlaceholder": "短い要約",
+      "postBody": "詳細",
+      "postBodyPlaceholder": "どんなことを望みますか？それとも何が問題でしたか？",
+      "post": "投稿",
+      "posted": "ありがとうございます。投稿を公開しました。",
+      "signIn": "投稿と投票にはログインが必要です。",
+      "sortVotes": "投票の多い順",
+      "sortNew": "新着順",
+      "filterAll": "すべて",
+      "count_other": "{count}件の投稿",
+      "empty": "まだ何もありません。最初の投稿者になりましょう。",
+      "vote": "投票",
+      "voted": "投票済み",
+      "by": "投稿者：{name}"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "subtitle": "ご質問、ご提案、アカウントのお困りごとはありませんか？すべてのメッセージに目を通しています。",
+      "name": "お名前",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "messagePlaceholder": "どのようなご用件でしょうか？",
+      "send": "メッセージを送信",
+      "sent": "ありがとうございます。近日中にご連絡します。",
+      "professorsTitle": "教授の方ですか？",
+      "professorsBody": "研究室を公開する前に、教授アカウントを認証しています。所属機関のメールドメインが認識されない場合は、こちらでお知らせください。",
+      "privacy": "ご入力の情報は、このメッセージへの返信にのみ使用します。"
+    }
+  },
+  "tools": {
+    "emailChecker": {
+      "title": "メールチェッカー",
+      "subtitle": "下書きを貼り付けると、教授が読むのをやめてしまう表現をはっきり指摘します。メールを書き直すことはありません。あなたらしい文章のままです。",
+      "subject": "件名",
+      "subjectPlaceholder": "例：深度推定の論文についての質問",
+      "body": "メール本文",
+      "bodyPlaceholder": "○○教授…",
+      "professorContext": "{name}さんの最近の研究と照らして確認中",
+      "removeContext": "解除",
+      "check": "メールをチェック",
+      "checking": "メールを読んでいます…",
+      "example": "粗のある例を試す",
+      "clear": "クリア",
+      "words": "{count}語",
+      "wordsHint": "90〜180語が目安です",
+      "resultsTitle": "チェック結果",
+      "emptyTitle": "ここにフィードバックが表示されます",
+      "emptyBody": "左側にメールを書くか貼り付けて、「メールをチェック」を押してください。",
+      "score": "スコア",
+      "highlights": "ハイライトされたメール",
+      "issues": "直したい点",
+      "noIssues": "直すところはありません。よく読めるメールです。",
+      "strengths": "うまくいっている点",
+      "aiSummary": "全体の印象",
+      "soundsGeneric": "誰にでも送れそうなメール",
+      "soundsGenericHint": "このメールを、書き換えずにどの教授にも送れてしまう度合いです。",
+      "aiUsed": "AIレビューを含む",
+      "rulesOnly": "ルールベースのレビュー",
+      "englishOnly": "表現のチェックは現在、英語のメールにのみ対応しています。長さと構成のチェックは引き続き適用されます。",
+      "signInTitle": "メールをチェックするにはログインしてください",
+      "signInBody": "無料アカウントには1回分のチェックが含まれます。パスで無制限にチェックできます。",
+      "limitTitle": "無料のチェックを使い切りました",
+      "limitBody": "パスで、メールチェックの無制限利用、メール検索、要約の無制限利用が可能になります。",
+      "quota": "無料チェック {limit}回中{used}回使用",
+      "quotaPro": "チェックは無制限",
+      "noRewrite": "問題点は指摘しますが、メールを代筆することはありません。教授が返信するのは、自分らしい言葉で書く学生だからです。",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": {
+        "tone": "トーン",
+        "specificity": "具体性",
+        "voice": "文体",
+        "clarity": "明瞭さ",
+        "ask": "お願い",
+        "etiquette": "マナー",
+        "subject": "件名"
+      },
+      "gradeDesc": {
+        "excellent": "具体的で簡潔、明快です。そのまま送りましょう。",
+        "good": "しっかりした下書きです。いくつかの簡単な修正でさらに良くなります。",
+        "needs_work": "無視されかねない点がいくつかあります。まず赤の項目を直しましょう。",
+        "risky": "削除される可能性が高いです。送る前に見直しましょう。"
+      },
+      "severity": {
+        "high": "最優先で直す",
+        "medium": "直す価値あり",
+        "low": "軽微"
+      },
+      "flags": {
+        "flattery": {
+          "title": "お世辞",
+          "tip": "教授は毎日「画期的」という言葉を聞いています。代わりに、目に留まった具体的な成果や手法を挙げましょう。"
+        },
+        "generic_phrase": {
+          "title": "ありきたりな表現",
+          "tip": "「意欲的」のような表現は誰にでも当てはまります。実際にやったことで示しましょう。"
+        },
+        "ai_sounding": {
+          "title": "機械的に聞こえる",
+          "tip": "AI生成の文章によくある表現です。声に出して話すときの言い方に直しましょう。"
+        },
+        "bad_salutation": {
+          "title": "宛名が事務的",
+          "tip": "“Dear Sir”は一斉送信のサインです。“Dear Professor [姓]”にして、綴りも確認しましょう。"
+        },
+        "informal": {
+          "title": "くだけすぎ",
+          "tip": "親しみやすく、かつ丁寧に。ネットスラングや略語は避けましょう。"
+        },
+        "missing_name": {
+          "title": "宛名に名前がない",
+          "tip": "教授の名前で呼びかけましょう。“Dear Professor Rivera,”のように。"
+        },
+        "name_not_mentioned": {
+          "title": "教授の名前がない",
+          "tip": "このメールが特定のその方に宛てたものだと、はっきりわかるようにしましょう。"
+        },
+        "no_specific_reference": {
+          "title": "教授の研究に触れていない",
+          "tip": "この教授の具体的な論文、手法、発見に触れ、それを読んで浮かんだ疑問を聞いてみましょう。"
+        },
+        "low_specificity": {
+          "title": "具体的な内容がない",
+          "tip": "どの教授にも送れる内容ばかりです。論文、年、結果、具体的な質問を加えましょう。"
+        },
+        "no_own_work": {
+          "title": "自分がやったことが見えない",
+          "tip": "作った、分析した、読んだ、履修した具体的なことを1つ加えましょう。小さなプロジェクトでも構いません。"
+        },
+        "no_clear_ask": {
+          "title": "お願いが明確でない",
+          "tip": "何をお願いしたいのかを具体的に書きましょう。対話、ボランティア参加、または別の方の紹介など。"
+        },
+        "no_signoff": {
+          "title": "結びがない",
+          "tip": "短い感謝の言葉とフルネームで締めくくりましょう。"
+        },
+        "exclamation": {
+          "title": "感嘆符が多すぎる",
+          "tip": "1つなら問題ありませんが、2つ以上だと舞い上がって見えます。熱意は内容で伝えましょう。"
+        },
+        "emoji": {
+          "title": "絵文字",
+          "tip": "教授への最初のメールでは、絵文字は控えましょう。"
+        },
+        "all_caps": {
+          "title": "すべて大文字",
+          "tip": "大文字の単語は叫んでいるように読めます。通常の表記にしましょう。"
+        },
+        "too_short": {
+          "title": "短すぎる",
+          "tip": "45語未満では、たいていの場合、内容が足りません。やったことと、お願いを加えましょう。"
+        },
+        "too_long": {
+          "title": "長すぎる",
+          "tip": "90〜180語を目指しましょう。教授が判断するのに不要な背景は削ります。"
+        },
+        "wall_of_text": {
+          "title": "文字がびっしり",
+          "tip": "短い2〜3段落に分けて、さっと読めるようにしましょう。"
+        },
+        "no_subject": {
+          "title": "件名がない",
+          "tip": "明確な件名が開封につながります。テーマや論文に触れましょう。"
+        },
+        "subject_generic": {
+          "title": "ありきたりな件名",
+          "tip": "“Research”では何にでも当てはまります。論文やテーマの名前を入れてみましょう。"
+        },
+        "subject_short": {
+          "title": "件名が短すぎる",
+          "tip": "何の話か伝わるように、少し言葉を足しましょう。"
+        },
+        "subject_long": {
+          "title": "件名が長すぎる",
+          "tip": "90文字以内に収めましょう。"
+        },
+        "subject_shouty": {
+          "title": "大げさな件名",
+          "tip": "大文字や“urgent”などの言葉はスパムに見えるので避けましょう。"
+        },
+        "ai_note": {
+          "title": "レビュアーのメモ",
+          "tip": ""
+        }
+      },
+      "strengthLabels": {
+        "personal_greeting": "教授の名前で呼びかけている",
+        "specific_reference": "教授の具体的な研究に触れている",
+        "shows_own_work": "自分がやったことを示している",
+        "clear_ask": "お願いが明確",
+        "redirect_offer": "他の方を紹介してもらう余地を残している",
+        "states_availability": "稼働できる時間や時期を伝えている",
+        "concise": "ちょうどよい長さ"
+      }
+    },
+    "followUp": {
+      "title": "フォローアップ・プランナー",
+      "subtitle": "まだ返信がありませんか？送ったメールを貼り付けると、あなたらしい口調で、タイミングを考えた2通のフォローアップが作れます。",
+      "email": "送ったメール",
+      "emailPlaceholder": "最初に送ったメールを貼り付けてください…",
+      "subject": "元の件名",
+      "sentOn": "送信した日付",
+      "professorName": "教授の名前",
+      "professorPlaceholder": "例：Elena Rivera",
+      "generate": "フォローアップを計画",
+      "generating": "下書き中…",
+      "timeline": "フォローアップのスケジュール",
+      "step": "フォローアップ{n}",
+      "sendOn": "{date}に送信",
+      "daysAfter": "最初のメールから{days}日後",
+      "copy": "メッセージをコピー",
+      "copied": "コピーしました",
+      "addToCalendar": "カレンダーに追加",
+      "editHint": "自由に編集してください。あなたのものにするための下書きです。",
+      "emptyTitle": "ここにスケジュールが表示されます",
+      "emptyBody": "うるさがられずに、忘れられない間隔で送る2通のフォローアップ。",
+      "tipsTitle": "タイミングのコツ",
+      "tip1": "期末試験期間、研究費の締切、休暇中は避けましょう。",
+      "tip2": "平日の朝早くに送りましょう。",
+      "tip3": "2回フォローアップしたら、次へ進みましょう。そして、他の方の紹介をお願いしてみましょう。",
+      "aiUsed": "AIが個別に作成",
+      "templated": "テンプレートベース",
+      "signInTitle": "フォローアップを計画するにはログインしてください",
+      "limitTitle": "無料のフォローアップ計画を使い切りました",
+      "quota": "無料の計画 {limit}回中{used}回使用"
+    },
+    "framework": {
+      "title": "コールドメールの型",
+      "subtitle": "教授が返信したくなる要素をもとにした、穴埋め式の構成です。かっこをタップすると、書き方のヒントが表示されます。",
+      "template": "テンプレート",
+      "tapHint": "かっこをタップすると、書き方が表示されます。",
+      "guidance": "ヒント",
+      "redFlags": "避けたい表現",
+      "redFlagsSub": "準備不足に見えてしまう表現です。具体的な内容に置き換えましょう。",
+      "instead": "代わりに：",
+      "cta": "自分のメールをチェック",
+      "b1": {
+        "label": "具体的なテーマ",
+        "tip": "分野全体ではなく、正確な領域、手法、問いを書きましょう。「神経科学」より「睡眠依存的な記憶の固定化」のほうが伝わります。"
+      },
+      "b2": {
+        "label": "具体的な発見や引用",
+        "tip": "最近の論文にある実際の結果、図、文を挙げましょう。読んだことを示す一文です。"
+      },
+      "b3": {
+        "label": "あなたの研究の切り口",
+        "tip": "授業、データセット、プロジェクトなど、やったことや探りたいこととつなげましょう。"
+      },
+      "b4": {
+        "label": "率直な個人的理由を1つ",
+        "tip": "なぜそれがあなたにとって大切なのか、正直な一文で。短く、本当のことを。"
+      },
+      "b5": {
+        "label": "読んだことが伝わる鋭い質問",
+        "tip": "論文を読んで気になった点（限界、発展、データセット）を聞きましょう。「研究についてもっと教えてください」は避けましょう。"
+      },
+      "rf1": {
+        "phrase": "I found your work fascinating and groundbreaking",
+        "why": "教授は毎日これを聞いています。",
+        "instead": "目に留まった具体的な発見を挙げましょう。"
+      },
+      "rf2": {
+        "phrase": "I am a highly motivated student",
+        "why": "何も伝わりません。",
+        "instead": "やったことで意欲を示しましょう。"
+      },
+      "rf3": {
+        "phrase": "Your research aligns perfectly with my interests",
+        "why": "曖昧すぎて信じてもらえません。",
+        "instead": "具体的にどうつながるのかを説明しましょう。"
+      },
+      "rf4": {
+        "phrase": "I would love to learn from you",
+        "why": "教授の研究ではなく、あなたについてのメールになってしまいます。",
+        "instead": "研究の具体的な部分について聞きましょう。"
+      },
+      "rf5": {
+        "phrase": "I am passionate about this field",
+        "why": "誰もが言うことです。",
+        "instead": "この分野で実際にやったことを説明しましょう。"
+      }
+    },
+    "examples": {
+      "title": "うまくいくメール（注釈付き）",
+      "subtitle": "返信をもらえるパターンを示すために書いた、3通のイメージ例です。各行の横にある解説を読んでみてください。",
+      "disclaimer": "これらはLaboraチームが説明のために書いた例で、実際のやり取りではありません。名前や内容はすべて架空です。",
+      "example": "例{n}",
+      "cta": "次は、自分のメールをチェック",
+      "e1": {
+        "label": "1年生・独学",
+        "note1": "自分の関心と実際のスキルから入り、教授の研究へつなげています。",
+        "note2": "論文を読まなければ出てこない、具体的な質問です。",
+        "note3": "ハードルの低い直接的なお願いと、「お断り」を新しいつながりに変える紹介の依頼。"
+      },
+      "e2": {
+        "label": "個人プロジェクトのある3年生",
+        "note1": "すでに取り組んでいるプロジェクトを示しています。実践的な関心の証拠です。",
+        "note2": "技術的な深さ：要旨だけでなく手法を理解していることが伝わる質問です。",
+        "note3": "時期（この夏）と、ボランティアでも手伝うという申し出。"
+      },
+      "e3": {
+        "label": "人文・社会科学",
+        "note1": "履修した授業と読んだ資料に基づいてお願いしています。",
+        "note2": "要約ではなく、選択の背景にある考え方を聞いています。",
+        "note3": "具体的な提案：週数時間のアーカイブ資料のコーディング。"
+      }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "共通のテーマ：{items}",
+      "skills_covered": "すでに持っているスキル：{items}",
+      "style_aligned": "似た働き方（{items}）",
+      "hours_fit": "稼働時間が必要な時間をカバー",
+      "bonus_skills": "追加スキル：{items}",
+      "published_on_topics": "論文のテーマ：{items}",
+      "active_recently": "直近3年で{items}本の論文",
+      "partial_topic_overlap": "重なりが少ないテーマ：{items}",
+      "missing_skills": "伸ばしたいスキル：{items}",
+      "style_differs": "働き方が異なる（{items}）",
+      "hours_short": "募集が想定する時間より稼働できる時間が少ない"
+    },
+    "strong": "高い適合",
+    "good": "良い適合",
+    "partial": "部分的に適合",
+    "tip": "目立つ方法",
+    "why": "合う理由",
+    "gaps": "知っておきたい点",
+    "breakdown": {
+      "topic": "テーマ",
+      "skills": "スキル",
+      "bonus": "ボーナス",
+      "style": "働き方",
+      "hours": "稼働時間"
+    },
+    "aiRefined": "AIが調整",
+    "explainable": "説明できるスコア",
+    "student": {
+      "title": "AIマッチ",
+      "subtitle": "スキル、関心、好みの働き方に合う順に、ポジションと教授を表示します。",
+      "tabPositions": "募集中のポジション",
+      "tabProfessors": "世界の教授",
+      "run": "マッチを探す",
+      "rerun": "マッチを更新",
+      "running": "マッチング中…",
+      "strengthTitle": "あなたのマッチプロフィール",
+      "strengthBody": "情報が多いほど、マッチの精度が上がります。{score}%完了。",
+      "improve": "プロフィールを改善",
+      "missing": {
+        "skills": "スキルを追加",
+        "interests": "関心を書く",
+        "experience": "これまでの経験を追加",
+        "bio": "短い自己紹介を書く",
+        "major": "専攻を追加",
+        "availability": "週の稼働時間を設定",
+        "work_style": "働き方を設定"
+      },
+      "howTitle": "マッチングの仕組み",
+      "how1": "あなたの関心、スキル、経験、稼働時間を、各ポジションや研究者と比較します。",
+      "how2": "働き方（自主性、チームワーク、ペース、枠組み）も比較します。",
+      "how3": "AIレビュアーが上位の結果を調整し、それぞれを説明します。名前、学校、その他の個人的な属性は使用しません。",
+      "noResultsTitle": "まだマッチがありません",
+      "noResultsBody": "現在、照合できる募集中のポジションがありません。代わりに世界の教授を探してみましょう。",
+      "searchedFor": "検索キーワード：{keywords}",
+      "direction": "検索の方向を決める",
+      "directionPlaceholder": "例：ニューラルコーディング、医用画像",
+      "university": "特定の大学のみ",
+      "apply": "見て応募する",
+      "viewProfessor": "プロフィールを見る",
+      "writeEmail": "メールを書く",
+      "quota": "無料マッチ {limit}回中{used}回使用",
+      "quotaPro": "マッチは無制限",
+      "limitTitle": "無料のマッチを使い切りました",
+      "limitBody": "パスで、マッチング、要約、メール検索が無制限になります。",
+      "professorsIntro": "あなたのプロフィールを研究テーマに変換し、そのテーマで活発に論文を発表している人を探します。",
+      "emptyProfile": "照合の材料になるよう、まずスキルと関心を追加してください。",
+      "positionsFirst": "マッチを実行すると、最も合うポジションが表示されます。"
+    },
+    "professor": {
+      "title": "理想の学生を探す",
+      "subtitle": "探している学生像を書く、またはポジションからAIに下書きさせて、合う学生を確認しましょう。",
+      "unverifiedTitle": "認証待ち",
+      "unverifiedBody": "教授アカウントが認証されると、人材検索が使えるようになります。まもなく審査します。",
+      "step1": "1. ポジションから始める",
+      "step1Hint": "任意。プロフィールの土台にする募集を選びます。",
+      "noPosition": "特定のポジションなし",
+      "step2": "2. 探している学生像",
+      "notes": "自分の言葉で",
+      "notesPlaceholder": "例：自分で方向を決めて動け、デバッグが好きで、PyTorchの経験があり、週10時間確保できる人。",
+      "draft": "AIでプロフィールを下書き",
+      "draftRule": "プロフィールを作成",
+      "drafting": "下書き中…",
+      "personaHint": "自由に編集してください。学生はこの内容と比較されます。",
+      "headline": "見出し",
+      "summary": "概要",
+      "mustHave": "必須",
+      "niceToHave": "あれば尚良い",
+      "traits": "人柄",
+      "keywords": "テーマ",
+      "addChip": "入力してEnterキーを押す",
+      "workStyle": "求める働き方",
+      "step3": "3. 合う学生",
+      "find": "学生を探す",
+      "finding": "検索中…",
+      "pool": "公開を選んだ学生：{count}名",
+      "poolEmpty": "公開を選んだ学生はまだいません。学生が公開をオンにすると、ここに表示されます。",
+      "left": "本日の残り検索回数：{count}回",
+      "invite": "応募に招待",
+      "invited": "招待済み",
+      "inviteTitle": "{name}さんを招待",
+      "inviteBody": "メッセージが表示され、承諾または辞退できます。返信があるまで、連絡先は非公開です。",
+      "position": "ポジション",
+      "message": "メッセージ",
+      "messageDefault": "{name}さん、経歴を拝見し、当研究室の「{position}」にぴったりだと感じました。ご応募いただけませんか？ご質問があれば、喜んでお答えします。",
+      "sendInvite": "招待を送信",
+      "sent": "招待を送信しました",
+      "selectPosition": "招待するポジションを選択",
+      "privacy": "公開を選んだ学生だけが表示されます。メールアドレスは表示されません。",
+      "noStudents": "合う学生はまだいません",
+      "noStudentsBody": "必須リストを緩めるか、学生が増えたころにもう一度ご確認ください。",
+      "available": "週{hours}時間稼働可能",
+      "skills": "スキル",
+      "createPositionFirst": "学生を応募に招待するには、まずポジションを掲載してください。",
+      "labFirst": "先に研究室プロフィールを設定してください。"
+    },
+    "ai": {
+      "notEnabled": "このサーバーではAIによる調整が無効です。説明できるルールベースのスコアでマッチングします。"
+    }
+  }
+}

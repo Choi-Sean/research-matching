@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "次のブレークスルーは、合う研究室との出会いから。",
+      "p1": "世界の学術記録から研究者を探す", "p2": "一文字書く前に、研究内容を理解する", "p3": "スキルと働き方でマッチング",
+      "footer": "学生と教授のために、あなたの言語で。"
+    },
+    "login": {
+      "title": "おかえりなさい", "subtitle": "ログインして続けましょう。", "email": "メールアドレス", "emailPlaceholder": "you@university.edu", "password": "パスワード",
+      "submit": "ログイン", "noAccount": "アカウントをお持ちでないですか？", "signUp": "新規登録", "forgot": "パスワードをお忘れですか？",
+      "forgotHelp": "お問い合わせいただければ、再びログインできるようお手伝いします。", "demo": "デモアカウント（パスワード：password123）",
+      "demoStudent": "学生", "demoProfessor": "教授", "demoAdmin": "管理者"
+    },
+    "register": {
+      "title": "アカウント作成", "subtitle": "大学のメールアドレスで参加できます。1分で完了します。", "iAm": "あなたは…", "student": "学生", "studentDesc": "研究を探してマッチング",
+      "professor": "教授", "professorDesc": "学生を募集し、研究を紹介", "fullName": "氏名", "fullNamePlaceholderStudent": "山田 花子", "fullNamePlaceholderProfessor": "山田 太郎 教授",
+      "email": "大学のメールアドレス", "emailHint": ".edu、.ac.jp などの教育機関ドメインのアドレスを使用してください。", "password": "パスワード", "passwordHint": "8文字以上。",
+      "referral": "友達のコード", "referralHint": "友達からコードをもらいましたか？二人とも1週間分のProを獲得できます。",
+      "consent": "アカウントを作成すると、<terms>利用規約</terms>と<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。",
+      "submit": "アカウントを作成", "haveAccount": "すでにアカウントをお持ちですか？", "signIn": "ログイン",
+      "professorNote": "教授アカウントは、研究室とポジションを公開する前に、運営チームが認証します。"
+    }
+  },
+  "discover": {
+    "title": "あなたの研究指導教授を探そう", "subtitle": "世界の学術記録から、あなたの関心分野で活発に論文を発表している研究者を検索できます。",
+    "modeInterest": "関心から", "modeName": "名前から", "interestLabel": "研究テーマ", "interestPlaceholder": "例：計算論的神経科学", "nameLabel": "研究者名", "namePlaceholder": "例：Jane Smith",
+    "universityLabel": "大学", "universityPlaceholder": "すべての大学", "universityHint": "リストから選ぶと、その機関だけを検索します。", "search": "検索", "searching": "検索中…",
+    "sortBy": "並べ替え", "minH": "h指数の下限", "minHAny": "指定なし", "filters": "絞り込み", "resultsFor": "「{q}」の研究者", "resultsAt": "· {university}",
+    "resultsCount_other": "{count}名の研究者", "noResults": "研究者が見つかりません", "noResultsBody": "より広い関心テーマ、別の綴り、または大学の絞り込みを外してみてください。",
+    "startTitle": "気になることから始めましょう",
+    "startBody": "「タンパク質の折りたたみ」や「気候政策」などのテーマを入力し、思い当たる大学があれば追加すると、そのテーマで論文を発表している人が表示されます。",
+    "noteTitle": "結果の並び順について",
+    "noteBody": "あなたのテーマについて最近どれだけ論文を発表しているかを、その分野での評価で重み付けして順位付けしています。「教授」といった肩書きは学術データベースに記録されないため、要約と論文から適合度を判断してください。",
+    "hIndex": "h指数", "papers": "論文", "citations": "被引用数", "recentWorks": "直近3年", "onTopic": "このテーマ", "onLabora": "Labora在籍", "viewProfile": "プロフィールを見る",
+    "save": "保存", "saved": "保存済み", "loadMore": "さらに研究者を表示", "yourInterest": "あなたの関心",
+    "disclaimer": "データの提供元：OpenAlex。所属は最新の論文記録に基づくため、実際の状況より遅れることがあります。", "signInToSave": "ログインして、研究者をリストに保存しましょう。",
+    "savedToast": "リストに保存しました", "removedToast": "リストから削除しました", "clearFilters": "絞り込みをクリア", "universityAny": "すべての大学",
+    "searchingAt": "{university}の研究者を検索中", "lookingUp": "機関を検索中…"
+  },
+  "professor": {
+    "back": "検索に戻る", "notFoundTitle": "その研究者が見つかりません", "notFoundBody": "リンクが間違っているか、学術データベースが混み合っている可能性があります。もう一度検索してください。",
+    "orcid": "ORCID", "openalex": "OpenAlexプロフィール", "onLabora": "Laboraで研究室を運営", "viewLab": "研究室を見る",
+    "stats": { "hIndex": "h指数", "papers": "論文", "citations": "被引用数", "recent": "直近3年", "i10": "i10指数" },
+    "tabs": { "overview": "概要", "papers": "論文", "contact": "連絡先" },
+    "summary": {
+      "title": "研究内容を、やさしい言葉で", "cta": "研究内容を説明する", "ctaBody": "何を研究しているか、最近の発見、聞いてみたい質問を、短くまとめて表示します。",
+      "loading": "最近の論文を読んでいます…", "overview": "研究している内容", "keyFinding": "最近の発見", "fromPaper": "出典：{title}", "topics": "研究分野をやさしく",
+      "goodFit": "こんな人に向いています…", "starters": "聞いてみたい質問", "startersHint": "自分の好奇心を引き出すヒントに使いましょう。本物の質問は教授にも伝わります。",
+      "aiBadge": "AI要約", "extractiveBadge": "自動要約", "extractiveNote": "このサーバーではAI要約が有効になっていないため、論文データから直接組み立てています（英語）。",
+      "aiNote": "公開されている要旨をもとにAIが作成しました。必ず論文も確認してください。", "quota": "無料の要約 {limit}回中{used}回使用", "quotaPro": "要約は無制限",
+      "signInTitle": "要約を読むにはログインしてください", "signInBody": "無料アカウントでは、数名の研究者について、やさしい要約、主な発見、会話のきっかけを見られます。",
+      "upgrade": "要約を無制限にする", "limitTitle": "無料の要約を使い切りました", "limitBody": "パスで要約が無制限になり、メール検索なども使えます。"
+    },
+    "topics": "研究トピック", "activity": "年ごとの論文数",
+    "papers": { "recent": "最新", "top": "被引用数順", "empty": "論文が見つかりません。", "abstract": "要旨", "cited": "被引用{n}件", "openAccess": "オープンアクセス", "viewPaper": "論文を見る" },
+    "contact": {
+      "title": "メール検索", "lockedTitle": "メール検索と返信率を開く", "lockedBody": "可能性の高い大学のアドレスと、学生がどれくらい返信をもらえているかを確認できます。どのパスにも含まれます。",
+      "seePlans": "プランを見る", "guessNote": "よくある命名パターンから推測したもので、確認済みのアドレスではありません。送信前に教員名簿で確認してください。",
+      "pattern": "パターン：{pattern}", "mostCommon": "最も一般的", "copy": "アドレスをコピー", "copied": "アドレスをコピーしました", "compose": "メールアプリで開く",
+      "directory": "教員名簿を検索", "noDomain": "この機関のメールドメインを特定できませんでした。", "responsiveness": "返信率",
+      "resp": { "high": "よく返信する", "medium": "ときどき返信する", "low": "あまり返信しない", "unknown": "報告がまだ足りません" },
+      "respBody": "学生{n}件のアプローチ記録に基づく。{rate}が返信{days}。", "respDays": "（通常{days}日以内）",
+      "respUnknown": "この研究者へのアプローチを3人以上の学生が記録すると表示されます。あなたの記録が他の学生の助けになります。",
+      "labDays": "Laboraの研究室は、通常{days}日以内に応募へ返信します。", "logOutreach": "アプローチを記録"
+    },
+    "sidebar": {
+      "writeTitle": "連絡する準備はできましたか？", "writeBody": "メールを下書きして、教授に削除されがちな表現に当てはまらないかチェックしましょう。", "writeCta": "メールをチェック",
+      "trackTitle": "アプローチ管理", "trackBody": "誰にいつ連絡したか、次のフォローアップはいつかを管理します。", "trackStart": "管理表に追加", "status": "ステータス",
+      "tracked": "管理表に追加しました", "saveError": "管理表を更新できませんでした"
+    }
+  },
+  "positions": {
+    "title": "募集中のポジション", "subtitle": "認証済みの教授が直接掲載する研究ポジション。研究内容を読んでから応募しましょう。", "searchLabel": "検索",
+    "searchPlaceholder": "テーマ、スキル、研究室名", "filters": "絞り込み", "compensation": "報酬", "location": "勤務場所", "term": "学期", "university": "大学", "universityPlaceholder": "例：MIT",
+    "department": "学部・学科", "departmentPlaceholder": "例：生物学", "any": "指定なし", "count_other": "{count}件のポジション", "searching": "検索中…",
+    "noResults": "条件に合うポジションがありません", "noResultsBody": "より広いキーワードにするか、絞り込みを外してみてください。募集がなくても連絡はできるので、教授を直接探すのもおすすめです。",
+    "discoverCta": "教授を探す", "clear": "絞り込みをクリア", "postedAgo": "{when}に掲載", "closes": "{when}に締切", "applyBy": "{date}までに応募", "deadlinePassed": "締切を過ぎました",
+    "slots_other": "募集{count}名", "backToAll": "すべてのポジション", "about": "この役割について", "requirements": "求めていること", "skills": "スキル", "research": "研究室の研究を読む",
+    "researchHint": "応募する前に、研究内容に親しんでおきましょう。", "noMaterials": "共有された研究資料はまだありません。", "aboutLab": "研究室について", "viewLab": "研究室プロフィールを見る",
+    "website": "研究室のウェブサイト", "notFound": "ポジションが見つかりません", "verifiedLab": "認証済みの研究室",
+    "apply": {
+      "title": "応募する", "label": "あなたが合っている理由は？", "placeholder": "関心、関連する履修、稼働できる時間などを共有してください…", "submit": "応募を送信",
+      "shared": "あなたのプロフィールが教授に共有されます。", "sent": "応募を送信しました", "status": "ステータス", "track": "応募を追跡", "signIn": "学生アカウントでログインして応募してください。",
+      "signInCta": "ログインして応募", "newHere": "初めてですか？", "createAccount": "アカウントを作成", "professorNote": "教授としてログイン中です。応募できるのは学生のみです。",
+      "closedNote": "このポジションは、現在応募を受け付けていません。", "completeProfile": "プロフィールを完成させて、これまでの経験を教授に見てもらいましょう。", "toProfile": "プロフィールを更新",
+      "fitHint": "具体的に：やったこと1つ、学びたいこと1つ、稼働できる時期を書きましょう。"
+    }
+  },
+  "lab": {
+    "notFound": "研究室が見つかりません", "notFoundBody": "研究室が非公開か、リンクが間違っている可能性があります。", "openPositions": "募集中のポジション", "noPositions": "現在募集中のポジションはありません",
+    "noPositionsBody": "また後日ご確認ください。新しい募集が出るかもしれません。直接連絡することもできます。", "materials": "研究資料", "culture": "この研究室で働く雰囲気",
+    "teamSize": "{count}名のチーム", "workStyle": "研究室の進め方", "website": "研究室のウェブサイト", "professor": "主宰者（PI）", "verified": "認証済み"
+  },
+  "community": {
+    "feedback": {
+      "title": "フィードバックボード", "subtitle": "Laboraづくりに参加しましょう。機能の提案、バグ報告、思っていることの共有、そして大切だと思うものへの投票を。",
+      "kind": { "feature": "機能リクエスト", "bug": "バグ報告", "general": "一般的なフィードバック" },
+      "status": { "open": "受付中", "planned": "予定", "in_progress": "対応中", "done": "完了" },
+      "newPost": "ご意見を共有", "postTitle": "タイトル", "postTitlePlaceholder": "短い要約", "postBody": "詳細", "postBodyPlaceholder": "どんなことを望みますか？それとも何が問題でしたか？",
+      "post": "投稿", "posted": "ありがとうございます。投稿を公開しました。", "signIn": "投稿と投票にはログインが必要です。", "sortVotes": "投票の多い順", "sortNew": "新着順", "filterAll": "すべて",
+      "count_other": "{count}件の投稿", "empty": "まだ何もありません。最初の投稿者になりましょう。", "vote": "投票", "voted": "投票済み", "by": "投稿者：{name}"
+    },
+    "contact": {
+      "title": "お問い合わせ", "subtitle": "ご質問、ご提案、アカウントのお困りごとはありませんか？すべてのメッセージに目を通しています。", "name": "お名前", "email": "メールアドレス",
+      "message": "メッセージ", "messagePlaceholder": "どのようなご用件でしょうか？", "send": "メッセージを送信", "sent": "ありがとうございます。近日中にご連絡します。",
+      "professorsTitle": "教授の方ですか？",
+      "professorsBody": "研究室を公開する前に、教授アカウントを認証しています。所属機関のメールドメインが認識されない場合は、こちらでお知らせください。",
+      "privacy": "ご入力の情報は、このメッセージへの返信にのみ使用します。"
+    }
+  }
+}

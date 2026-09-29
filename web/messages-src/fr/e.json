@@ -1,0 +1,143 @@
+{
+  "tools": {
+    "emailChecker": {
+      "title": "Vérificateur d'e-mail",
+      "subtitle": "Collez votre brouillon et voyez exactement quelles formules font arrêter la lecture des professeurs. Nous ne réécrivons jamais votre e-mail : vous gardez votre voix.",
+      "subject": "Objet", "subjectPlaceholder": "ex. : Une question sur votre article sur l'estimation de profondeur", "body": "Votre e-mail", "bodyPlaceholder": "Madame, Monsieur le Professeur…",
+      "professorContext": "Vérification au regard des travaux récents de {name}", "removeContext": "Retirer",
+      "check": "Vérifier mon e-mail", "checking": "Lecture de votre e-mail…", "example": "Essayer un exemple raté", "clear": "Effacer",
+      "words": "{count} mots", "wordsHint": "Visez 90 à 180 mots",
+      "resultsTitle": "Vos résultats", "emptyTitle": "Vos retours apparaîtront ici", "emptyBody": "Écrivez ou collez un e-mail à gauche, puis cliquez sur « Vérifier mon e-mail ».",
+      "score": "Score", "highlights": "Votre e-mail, annoté", "issues": "À corriger", "noIssues": "Rien à corriger : ça se lit bien.", "strengths": "Ce qui fonctionne",
+      "aiSummary": "Impression générale", "soundsGeneric": "Pourrait être envoyé à n'importe qui",
+      "soundsGenericHint": "À quel point cet e-mail pourrait être envoyé tel quel à n'importe quel professeur.",
+      "aiUsed": "Inclut une relecture par IA", "rulesOnly": "Relecture par règles",
+      "englishOnly": "La vérification des formules ne fonctionne pour l'instant que sur les e-mails en anglais. Les contrôles de longueur et de structure restent applicables.",
+      "signInTitle": "Connectez-vous pour vérifier votre e-mail", "signInBody": "Les comptes gratuits incluent une vérification. Les pass débloquent des vérifications illimitées.",
+      "limitTitle": "Vous avez utilisé votre vérification gratuite", "limitBody": "Les pass débloquent des vérifications d'e-mail illimitées, le moteur d'e-mails et des résumés illimités.",
+      "quota": "{used} vérifications gratuites utilisées sur {limit}", "quotaPro": "Vérifications illimitées",
+      "noRewrite": "Nous signalons les problèmes mais n'écrivons jamais l'e-mail à votre place : les professeurs répondent aux étudiants qui écrivent avec leurs propres mots.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": { "tone": "Ton", "specificity": "Précision", "voice": "Voix personnelle", "clarity": "Clarté", "ask": "La demande", "etiquette": "Politesse", "subject": "Objet" },
+      "gradeDesc": {
+        "excellent": "Précis, concis et clair. Envoyez-le.",
+        "good": "Un bon brouillon : quelques retouches rapides l'amélioreront.",
+        "needs_work": "Plusieurs éléments pourraient le faire ignorer. Corrigez d'abord ceux en rouge.",
+        "risky": "Il risque fort d'être supprimé. Retravaillez-le avant de l'envoyer."
+      },
+      "severity": { "high": "À corriger en premier", "medium": "À corriger si possible", "low": "Mineur" },
+      "flags": {
+        "flattery": { "title": "Flatterie", "tip": "Les professeurs entendent « révolutionnaire » tous les jours. Nommez plutôt le résultat ou la méthode précis qui a retenu votre attention." },
+        "generic_phrase": { "title": "Formule générique", "tip": "Des expressions comme « très motivé » pourraient décrire n'importe qui. Montrez-le avec quelque chose que vous avez réellement fait." },
+        "ai_sounding": { "title": "Sonne comme écrit par une machine", "tip": "Cette expression est courante dans les textes générés par IA. Dites-le comme vous le diriez à voix haute." },
+        "bad_salutation": { "title": "Formule d'appel impersonnelle", "tip": "« Dear Sir » trahit un envoi en masse. Utilisez « Dear Professor [nom] » et vérifiez l'orthographe." },
+        "informal": { "title": "Trop familier", "tip": "Restez cordial mais professionnel : évitez le langage SMS et les abréviations." },
+        "missing_name": { "title": "Aucun nom dans la formule d'appel", "tip": "Adressez-vous au professeur par son nom : « Dear Professor Rivera, »." },
+        "name_not_mentioned": { "title": "Le nom du professeur n'est pas utilisé", "tip": "Assurez-vous que l'e-mail s'adresse clairement à cette personne précise." },
+        "no_specific_reference": { "title": "Ne mentionne pas ses travaux", "tip": "Mentionnez un article, une méthode ou un résultat précis de ce professeur, et posez une question qu'il vous a inspirée." },
+        "low_specificity": { "title": "Rien de précis", "tip": "Tout ici pourrait être envoyé à n'importe quel professeur. Ajoutez un article, une année, un résultat ou une question concrète." },
+        "no_own_work": { "title": "Ne montre rien de ce que vous avez fait", "tip": "Ajoutez une chose concrète que vous avez construite, analysée, lue ou suivie, même un petit projet." },
+        "no_clear_ask": { "title": "Aucune demande claire", "tip": "Dites précisément ce que vous demandez : un échange, une place de bénévole ou une piste vers quelqu'un d'autre." },
+        "no_signoff": { "title": "Pas de formule de politesse finale", "tip": "Terminez par un court remerciement et votre nom complet." },
+        "exclamation": { "title": "Trop de points d'exclamation", "tip": "Un seul, ça passe ; deux ou plus donnent une impression d'excitation excessive. Laissez le contenu porter l'enthousiasme." },
+        "emoji": { "title": "Émojis", "tip": "Évitez les émojis dans un premier e-mail à un professeur." },
+        "all_caps": { "title": "TOUT EN MAJUSCULES", "tip": "Les mots en majuscules donnent l'impression de crier. Écrivez normalement." },
+        "too_short": { "title": "Trop court", "tip": "En dessous de 45 mots environ, on dit rarement assez. Ajoutez ce que vous avez fait et ce que vous demandez." },
+        "too_long": { "title": "Trop long", "tip": "Visez 90 à 180 mots. Supprimez le contexte dont le professeur n'a pas besoin pour décider." },
+        "wall_of_text": { "title": "Bloc de texte", "tip": "Découpez-le en 2 ou 3 courts paragraphes pour qu'il se lise en diagonale." },
+        "no_subject": { "title": "Pas d'objet", "tip": "Un objet clair aide à faire ouvrir l'e-mail : mentionnez le sujet ou l'article." },
+        "subject_generic": { "title": "Objet trop générique", "tip": "« Research » peut vouloir dire n'importe quoi. Essayez de nommer l'article ou le sujet dont vous parlez." },
+        "subject_short": { "title": "Objet trop court", "tip": "Ajoutez quelques mots de contexte pour que le professeur sache de quoi il s'agit." },
+        "subject_long": { "title": "Objet trop long", "tip": "Gardez-le sous 90 caractères environ." },
+        "subject_shouty": { "title": "Objet criard", "tip": "Évitez les majuscules et des mots comme « urgent » : ils ressemblent à du spam." },
+        "ai_note": { "title": "Note du relecteur", "tip": "" }
+      },
+      "strengthLabels": {
+        "personal_greeting": "S'adresse au professeur par son nom", "specific_reference": "Mentionne ses travaux précis", "shows_own_work": "Montre quelque chose que vous avez fait",
+        "clear_ask": "Formule une demande claire", "redirect_offer": "Lui offre une façon simple de vous rediriger", "states_availability": "Indique votre disponibilité ou votre calendrier", "concise": "Une bonne longueur"
+      }
+    },
+    "followUp": {
+      "title": "Planificateur de relances", "subtitle": "Toujours pas de réponse ? Collez l'e-mail que vous avez envoyé et obtenez deux relances bien calées qui vous ressemblent.",
+      "email": "L'e-mail que vous avez envoyé", "emailPlaceholder": "Collez votre e-mail d'origine…", "subject": "Objet d'origine", "sentOn": "Date d'envoi",
+      "professorName": "Nom du professeur", "professorPlaceholder": "ex. : Elena Rivera", "generate": "Planifier mes relances", "generating": "Rédaction en cours…",
+      "timeline": "Votre calendrier de relances", "step": "Relance {n}", "sendOn": "À envoyer le {date}", "daysAfter": "{days} jours après votre premier e-mail",
+      "copy": "Copier le message", "copied": "Copié", "addToCalendar": "Ajouter à l'agenda", "editHint": "Modifiez librement : ce sont des brouillons à faire vôtres.",
+      "emptyTitle": "Votre calendrier apparaîtra ici", "emptyBody": "Deux relances, espacées pour rester dans leur radar sans être envahissant.",
+      "tipsTitle": "Conseils de timing", "tip1": "Évitez les semaines d'examens, les dates limites de financement et les vacances.", "tip2": "Envoyez tôt le matin, en semaine.",
+      "tip3": "Après deux relances, passez à autre chose, et demandez à être redirigé.",
+      "aiUsed": "Personnalisé par IA", "templated": "Basé sur un modèle", "signInTitle": "Connectez-vous pour planifier vos relances",
+      "limitTitle": "Vous avez utilisé votre plan de relance gratuit", "quota": "{used} plans gratuits utilisés sur {limit}"
+    },
+    "framework": {
+      "title": "La structure de l'e-mail à froid", "subtitle": "Une trame à compléter fondée sur ce qui fait répondre les professeurs. Touchez un crochet pour obtenir des conseils.",
+      "template": "Modèle", "tapHint": "Touchez un crochet pour voir comment le compléter.", "guidance": "Conseils", "redFlags": "Formules à éviter",
+      "redFlagsSub": "Elles trahissent un manque de préparation. Remplacez-les par quelque chose de précis.", "instead": "À la place :", "cta": "Vérifiez votre propre e-mail",
+      "b1": { "label": "SUJET PRÉCIS", "tip": "Nommez le domaine, la méthode ou la question exacts, pas tout le champ. « Consolidation de la mémoire dépendante du sommeil » vaut mieux que « neurosciences »." },
+      "b2": { "label": "RÉSULTAT OU CITATION PRÉCIS", "tip": "Pointez un vrai résultat, une figure ou une phrase d'un de leurs articles récents. C'est la ligne qui prouve que vous l'avez lu." },
+      "b3": { "label": "VOTRE ANGLE DE RECHERCHE", "tip": "Reliez-le à quelque chose que vous avez fait ou voulez explorer : un cours, un jeu de données, un projet." },
+      "b4": { "label": "UNE RAISON PERSONNELLE SINCÈRE", "tip": "Une phrase honnête sur ce qui vous motive. Courte et vraie." },
+      "b5": { "label": "QUESTION PERTINENTE MONTRANT QUE VOUS AVEZ LU", "tip": "Posez une question que l'article vous a inspirée : une limite, une extension, un jeu de données. Évitez « parlez-moi davantage de vos recherches »." },
+      "rf1": { "phrase": "I found your work fascinating and groundbreaking", "why": "Les professeurs entendent cela tous les jours.", "instead": "Nommez le résultat précis qui a retenu votre attention." },
+      "rf2": { "phrase": "I am a highly motivated student", "why": "Cela ne leur apprend rien.", "instead": "Montrez votre motivation par ce que vous avez fait." },
+      "rf3": { "phrase": "Your research aligns perfectly with my interests", "why": "Trop vague pour être crédible.", "instead": "Expliquez le lien précis." },
+      "rf4": { "phrase": "I would love to learn from you", "why": "Cela recentre l'e-mail sur vous plutôt que sur leurs travaux.", "instead": "Interrogez-les sur un aspect précis de leurs recherches." },
+      "rf5": { "phrase": "I am passionate about this field", "why": "Tout le monde le dit.", "instead": "Décrivez ce que vous avez réellement fait dans ce domaine." }
+    },
+    "examples": {
+      "title": "E-mails qui fonctionnent, annotés", "subtitle": "Trois e-mails illustratifs que nous avons écrits pour montrer les schémas qui obtiennent une réponse. Lisez les notes à côté de chaque ligne.",
+      "disclaimer": "Ce sont des exemples illustratifs écrits par l'équipe Labora, pas de vraies correspondances. Les noms et les détails sont fictifs.",
+      "example": "Exemple {n}", "cta": "À vous de vérifier le vôtre",
+      "e1": { "label": "1re année, autodidacte", "note1": "Commence par votre propre intérêt et une vraie compétence, puis fait le lien avec leurs travaux.", "note2": "Une question précise qui ne peut venir que de la lecture de l'article.", "note3": "Une demande directe, peu contraignante, et une redirection qui transforme un « non » en piste." },
+      "e2": { "label": "3e année avec un projet personnel", "note1": "Montre un projet déjà en cours : la preuve d'un intérêt concret.", "note2": "Profondeur technique : la question montre que vous avez compris la méthode, pas seulement le résumé.", "note3": "Un calendrier (cet été) et une offre d'aider, même bénévolement." },
+      "e3": { "label": "Sciences humaines / sociales", "note1": "Ancre la demande dans un cours suivi et une source lue.", "note2": "Interroge le raisonnement derrière un choix, plutôt que de demander un résumé.", "note3": "Propose quelque chose de concret : quelques heures par semaine de codage d'archives." }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Sujets communs : {items}", "skills_covered": "Compétences que vous avez déjà : {items}", "style_aligned": "Style de travail proche ({items})", "hours_fit": "Votre disponibilité couvre les heures",
+      "bonus_skills": "Compétences en plus : {items}", "published_on_topics": "Publie sur : {items}", "active_recently": "{items} articles ces 3 dernières années", "partial_topic_overlap": "Moins de recoupement sur : {items}",
+      "missing_skills": "Compétences à développer : {items}", "style_differs": "Style de travail différent ({items})", "hours_short": "Moins d'heures disponibles que ce que le poste attend"
+    },
+    "strong": "Très compatible", "good": "Bonne compatibilité", "partial": "Compatibilité partielle", "tip": "Comment vous démarquer", "why": "Pourquoi ça correspond", "gaps": "À savoir",
+    "breakdown": { "topic": "Sujets", "skills": "Compétences", "bonus": "Bonus", "style": "Style de travail", "hours": "Disponibilité" },
+    "aiRefined": "Affiné par IA", "explainable": "Score explicable",
+    "student": {
+      "title": "Match IA", "subtitle": "Offres et professeurs classés selon leur adéquation avec vos compétences, vos intérêts et votre façon de travailler.",
+      "tabPositions": "Offres ouvertes", "tabProfessors": "Professeurs dans le monde", "run": "Trouver mes matchs", "rerun": "Actualiser les matchs", "running": "Recherche de matchs…",
+      "strengthTitle": "Votre profil de matching", "strengthBody": "Plus vous en dites, plus vos matchs sont précis. Complété à {score} %.", "improve": "Améliorer le profil",
+      "missing": {
+        "skills": "Ajoutez vos compétences", "interests": "Décrivez vos centres d'intérêt", "experience": "Ajoutez ce que vous avez déjà fait", "bio": "Rédigez une courte présentation", "major": "Ajoutez votre filière",
+        "availability": "Indiquez votre disponibilité hebdomadaire", "work_style": "Définissez votre style de travail"
+      },
+      "howTitle": "Comment fonctionne le matching",
+      "how1": "Nous comparons vos intérêts, compétences, expérience et disponibilité à chaque offre ou chercheur.",
+      "how2": "Nous comparons aussi les styles de travail : indépendance, travail d'équipe, rythme et structure.",
+      "how3": "Un relecteur IA affine les meilleurs résultats et explique chacun d'eux. Le nom, l'établissement et d'autres caractéristiques personnelles ne sont jamais utilisés.",
+      "noResultsTitle": "Pas encore de matchs", "noResultsBody": "Il n'y a pour l'instant aucune offre ouverte à comparer. Essayez plutôt les professeurs dans le monde.",
+      "searchedFor": "Recherche : {keywords}", "direction": "Orienter la recherche", "directionPlaceholder": "ex. : codage neuronal, imagerie médicale",
+      "university": "Uniquement dans une université", "apply": "Voir et postuler", "viewProfessor": "Voir le profil", "writeEmail": "Écrire un e-mail",
+      "quota": "{used} matchs gratuits utilisés sur {limit}", "quotaPro": "Matchs illimités", "limitTitle": "Vous avez utilisé vos matchs gratuits", "limitBody": "Les pass débloquent des matchs illimités, des résumés et le moteur d'e-mails.",
+      "professorsIntro": "Nous transformons votre profil en sujets de recherche et cherchons les personnes qui publient activement dessus.",
+      "emptyProfile": "Ajoutez d'abord quelques compétences et centres d'intérêt pour que nous ayons de quoi comparer.", "positionsFirst": "Lancez le matching pour voir les offres qui vous correspondent le mieux."
+    },
+    "professor": {
+      "title": "Trouvez vos étudiants idéaux", "subtitle": "Décrivez la personne que vous cherchez, ou laissez l'IA le rédiger à partir de votre offre, et découvrez les étudiants qui correspondent.",
+      "unverifiedTitle": "Vérification en attente", "unverifiedBody": "La recherche de talents se débloque une fois votre compte professeur vérifié. Nous l'examinerons rapidement.",
+      "step1": "1. Partir d'une offre", "step1Hint": "Facultatif. Choisissez une offre sur laquelle fonder le profil.", "noPosition": "Aucune offre en particulier",
+      "step2": "2. Le candidat que vous cherchez", "notes": "Avec vos propres mots",
+      "notesPlaceholder": "ex. : Quelqu'un d'autonome qui aime déboguer, a déjà utilisé PyTorch et peut consacrer 10 heures par semaine.",
+      "draft": "Rédiger le profil avec l'IA", "draftRule": "Créer le profil", "drafting": "Rédaction en cours…", "personaHint": "Modifiez ce que vous voulez : les étudiants seront comparés à ce profil.",
+      "headline": "Titre", "summary": "Résumé", "mustHave": "Indispensable", "niceToHave": "Un plus", "traits": "Qualités personnelles", "keywords": "Sujets", "addChip": "Saisissez puis appuyez sur Entrée",
+      "workStyle": "Style de travail recherché", "step3": "3. Étudiants qui correspondent", "find": "Trouver des étudiants", "finding": "Recherche en cours…", "pool": "{count} étudiants ont accepté d'être visibles",
+      "poolEmpty": "Aucun étudiant n'a encore accepté d'être visible. Ils apparaîtront ici au fur et à mesure.", "left": "Il vous reste {count} recherches aujourd'hui", "invite": "Inviter à postuler", "invited": "Invité",
+      "inviteTitle": "Inviter {name}", "inviteBody": "L'étudiant verra votre message et pourra accepter ou refuser. Ses coordonnées restent privées jusqu'à sa réponse.", "position": "Offre", "message": "Votre message",
+      "messageDefault": "Bonjour {name}, votre parcours semble très bien correspondre à l'offre « {position} » de notre laboratoire. Souhaitez-vous postuler ? Je répondrai volontiers à toutes vos questions.",
+      "sendInvite": "Envoyer l'invitation", "sent": "Invitation envoyée", "selectPosition": "Choisissez l'offre pour laquelle inviter", "privacy": "Seuls les étudiants qui ont choisi d'être visibles apparaissent ici. Les e-mails ne sont jamais affichés.",
+      "noStudents": "Aucun étudiant correspondant pour le moment", "noStudentsBody": "Essayez d'assouplir la liste des indispensables, ou revenez quand davantage d'étudiants se seront inscrits.", "available": "{hours} h/semaine disponibles", "skills": "Compétences",
+      "createPositionFirst": "Publiez une offre pour inviter des étudiants à postuler.", "labFirst": "Configurez d'abord le profil de votre laboratoire."
+    },
+    "ai": { "notEnabled": "L'affinage par IA n'est pas activé sur ce serveur : les matchs utilisent le score explicable fondé sur des règles." }
+  }
+}

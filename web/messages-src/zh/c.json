@@ -1,0 +1,117 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "概览", "matches": "AI 匹配", "talent": "查找学生", "applications": "申请", "invitations": "邀请", "outreach": "联系记录", "saved": "已收藏",
+      "profile": "我的资料", "billing": "方案与账单", "settings": "设置", "positions": "职位", "lab": "实验室与研究", "admin": "管理"
+    },
+    "greeting": "你好，{name}", "welcomeProfessor": "欢迎，{name}",
+    "overview": {
+      "studentSubtitle": "这是你科研探索的最新进展。", "professorSubtitle": "管理你的实验室、职位和申请人。", "findPositions": "查找职位", "newPosition": "新建职位",
+      "applications": "申请", "inReview": "审核中", "accepted": "已录用", "invitations": "邀请", "openPositions": "开放职位", "applicants": "申请人", "lab": "实验室",
+      "live": "已上线", "notSetUp": "未设置", "completeTitle": "完善你的资料",
+      "completeBody": "教授会在每次申请中看到你的资料，你提供的信息越多，匹配就越精准。", "completeCta": "更新资料",
+      "discoverTitle": "让教授找到你",
+      "discoverBody": "开启“可被发现”后，已认证的教授可以邀请你申请。在你回复之前，你的邮箱保持私密。", "discoverCta": "在资料中选择",
+      "recentApplications": "最近的申请", "noApplications": "你还没有提交过申请。", "browse": "浏览开放职位", "matchTitle": "你的最佳匹配",
+      "matchBody": "按契合度查看排序后的职位与教授。", "matchCta": "打开 AI 匹配", "yourPositions": "你的职位", "noPositions": "还没有职位。",
+      "createLabTitle": "设置你的实验室，开始招募", "createLabBody": "你发布的每个职位，学生都会看到你的实验室资料和研究。", "createLabCta": "创建实验室资料",
+      "unverifiedTitle": "你的账户正在等待认证", "unverifiedBody": "在实验室和职位公开之前，我们会审核教授账户。在此期间你可以提前准备好一切。",
+      "talentTitle": "查找合适的学生", "talentBody": "描述你的理想学生，让 AI 对已选择公开的学生进行排序。", "talentCta": "查找学生",
+      "pendingInvitations_other": "你有 {count} 条待处理的邀请", "viewInvitations": "查看邀请",
+      "applicantsCount_other": "{count} 位申请人", "newForYou": "为你推荐的新内容"
+    },
+    "profile": {
+      "title": "我的资料", "subtitle": "教授会在你的申请中看到这些内容，AI 匹配也会用它来寻找与你契合的对象。", "strength": "资料完整度",
+      "basics": "基本信息", "university": "大学", "major": "专业", "year": "年级", "selectYear": "请选择…", "about": "关于你", "bio": "简短介绍",
+      "bioHint": "你是谁？对什么感到好奇？", "skills": "技能", "skillsHint": "用逗号分隔，例如：Python, PyTorch, R, 实验室安全",
+      "interests": "研究兴趣", "interestsHint": "你想参与的主题，例如：计算机视觉、细胞命运。",
+      "experience": "你已经做过的事", "experienceHint": "项目、课程、过往科研——越具体，匹配越准确。",
+      "availability": "你每周能投入的小时数", "workStyle": "你喜欢的工作方式", "workStyleHint": "把每个拨盘调到你最自在的位置，它将用于与实验室比较。",
+      "links": "链接", "resume": "简历链接", "resumeHint": "PDF 链接（网盘、Dropbox 或你的网站）。", "website": "个人网站", "github": "GitHub 主页",
+      "visibility": "可见性", "discoverable": "允许已认证教授找到我",
+      "discoverableDesc": "教授可以查看你的资料并邀请你申请。在你回复之前，你的邮箱保持私密。你可以随时关闭。",
+      "save": "保存资料", "saved": "资料已保存", "welcome": "欢迎来到 Labora！介绍一下自己，获得更精准的匹配。"
+    },
+    "applications": {
+      "title": "申请", "subtitle": "你申请过的所有职位，集中在一处。", "emptyTitle": "还没有申请", "emptyBody": "当你申请某个职位后，它会显示在这里，方便你跟踪状态。",
+      "browse": "浏览职位", "applied": "{when}申请", "withdraw": "撤回", "withdrawConfirm": "确定撤回这份申请吗？", "withdrawn": "申请已撤回",
+      "invited": "已受邀", "decided": "{when}已决定"
+    },
+    "invitations": {
+      "title": "邀请", "subtitleStudent": "希望你来申请的教授。", "subtitleProfessor": "你邀请过的学生。", "emptyStudentTitle": "还没有邀请",
+      "emptyStudentBody": "在资料中开启“可被发现”，让已认证的教授来邀请你。", "emptyProfessorTitle": "你还没有邀请任何人",
+      "emptyProfessorBody": "使用“查找学生”来发现适合你实验室的学生。", "from": "来自 {name}", "to": "发给 {name}", "match": "{score}% 匹配",
+      "accept": "接受并申请", "decline": "婉拒", "replyPlaceholder": "给教授留言（选填）", "accepted": "你已接受——已创建一份申请。", "declined": "已婉拒邀请",
+      "withdraw": "撤回邀请", "receivedAgo": "{when}发送", "findStudents": "查找学生"
+    },
+    "outreach": {
+      "title": "联系记录", "subtitle": "记录你联系过谁、何时跟进，以及结果如何。", "emptyTitle": "还没有任何记录",
+      "emptyBody": "从研究者主页添加他们，即可跟踪你的联系情况并获得跟进日期。", "find": "查找教授", "followUpDue": "{when}跟进",
+      "overdue": "跟进已逾期", "sentOn": "{date}发送", "repliedOn": "{date}回复", "notes": "备注", "notesPlaceholder": "任何值得记住的事…",
+      "status": "状态", "remove": "移除", "removeConfirm": "要从记录中移除这位研究者吗？", "planFollowUp": "规划跟进",
+      "helpTitle": "你的记录帮助所有人",
+      "helpBody": "研究者主页上显示的回复率来自像你这样的匿名汇总联系记录——绝不会显示任何单条记录。",
+      "stats": { "total": "已跟踪", "sent": "已发送", "replied": "已回复", "due": "待跟进" }
+    },
+    "saved": {
+      "title": "已收藏", "subtitle": "你收藏的研究者和职位。", "professors": "研究者", "positions": "职位",
+      "emptyProfessors": "还没有收藏的研究者", "emptyProfessorsBody": "点击任意研究者上的收藏图标，即可加入你的候选名单。",
+      "emptyPositions": "还没有收藏的职位", "emptyPositionsBody": "点击职位上的收藏图标，留待以后查看。"
+    },
+    "billing": {
+      "title": "方案与账单", "subtitle": "你的使用权限、用量和邀请奖励。", "currentPlan": "当前方案",
+      "plan": { "free": "免费", "weekly": "一周冲刺", "semester": "学期通行证", "lifetime": "终身" },
+      "activeUntil": "有效期至 {date}", "lifetimeNote": "你拥有终身使用权。", "freeNote": "你正在使用免费方案。", "upgrade": "查看方案",
+      "usage": "免费额度", "usageItem": "已使用 {used} / {limit}", "unlimited": "无限",
+      "features": { "summary": "教授摘要", "email_check": "邮件检查", "follow_up": "跟进计划", "match_positions": "职位匹配", "match_professors": "教授匹配" },
+      "referral": "邀请朋友", "referralBody": "分享你的邀请码。朋友使用它注册后，你们都将获得 {days} 天 Pro。", "yourCode": "你的邀请码",
+      "copyCode": "复制邀请码", "copyLink": "复制邀请链接", "copied": "已复制", "redeemed_other": "{count} 位朋友通过你的邀请码加入",
+      "redeem": "有朋友的邀请码吗？", "redeemPlaceholder": "输入邀请码", "redeemCta": "兑换", "redeemedOk": "邀请码已兑换——已添加 {days} 天 Pro。",
+      "checkoutSuccess": "谢谢！你的方案稍后即可生效。", "devMode": "当前环境未接入支付——方案会立即生效，方便测试。"
+    },
+    "settings": {
+      "title": "设置", "subtitle": "你的账户、语言与安全。", "account": "账户", "name": "姓名", "email": "邮箱", "emailNote": "邮箱无法更改。",
+      "language": "语言", "languageHint": "同时用于 AI 撰写的摘要和反馈。", "saveChanges": "保存更改", "saved": "设置已保存",
+      "password": "密码", "currentPassword": "当前密码", "newPassword": "新密码", "changePassword": "修改密码", "passwordChanged": "密码已更新",
+      "danger": "删除账户", "dangerBody": "这将永久删除你的资料、申请以及账户下的所有内容，且无法撤销。",
+      "dangerConfirm": "请输入密码以确认", "deleteCta": "删除我的账户", "deleted": "你的账户已被删除。"
+    },
+    "lab": {
+      "title": "实验室与研究", "subtitle": "学生在考虑你的职位时会看到这些内容。", "createTitle": "创建你的实验室", "profileTitle": "实验室资料",
+      "name": "实验室名称", "university": "大学", "department": "院系", "description": "简介", "descriptionHint": "你的实验室研究什么？请写得让本科生也容易理解。",
+      "keywords": "研究关键词", "keywordsHint": "用逗号分隔", "website": "实验室网站", "culture": "在这里工作是什么样的",
+      "cultureHint": "指导风格、组会节奏、学生负责的内容。学生看重坦诚。", "teamSize": "团队规模", "workStyle": "你的实验室如何工作",
+      "workStyleHint": "用于与学生比较工作风格。", "openalex": "OpenAlex 作者 ID", "openalexHint": "选填。将你的 Labora 实验室与你的论文档案关联（以 A 开头）。",
+      "saveLab": "保存实验室", "createLab": "创建实验室", "created": "实验室已创建——现在添加研究资料并发布职位吧。", "updated": "实验室已更新",
+      "materials": "研究资料", "materialsHint": "分享论文、数据集或海报，让学生了解你的工作。", "nothingShared": "还没有分享任何内容。",
+      "addMaterial": "添加资料", "materialTitle": "标题", "materialType": "类型", "materialLink": "链接", "materialLinkHint": "arXiv、DOI、Google Drive、GitHub…",
+      "materialDescription": "简短说明", "removeMaterial": "要移除这份资料吗？", "verificationTitle": "等待认证",
+      "verificationBody": "在我们认证你的教授账户后，你的实验室才会公开。添加实验室网站可以加快认证。"
+    },
+    "positions": {
+      "title": "职位", "subtitle": "你的职位以及申请人。", "new": "新建职位", "emptyTitle": "还没有职位", "emptyBody": "发布一个职位，开始接收申请。",
+      "emptyLab": "请先创建你的实验室资料。", "post": "发布你的第一个职位", "open": "开放", "closed": "已关闭", "close": "关闭", "reopen": "重新开放",
+      "edit": "编辑", "delete": "删除", "deleteConfirm": "要删除这个职位吗？此操作无法撤销。", "applicants": "申请人", "postedAgo": "{when}发布",
+      "viewPublic": "查看公开页面", "newTitle": "新建职位", "newSubtitle": "描述这个职位，之后可随时编辑。", "editTitle": "编辑职位",
+      "needLab": "发布前需要先有实验室资料。", "createLab": "创建你的实验室", "noApplicants": "还没有申请人",
+      "noApplicantsBody": "分享你的职位，或通过“查找学生”邀请合适的学生。", "decline": "婉拒", "accept": "录用", "email": "给申请人发邮件", "resume": "简历",
+      "invitedBadge": "由你邀请", "profileIncomplete": "资料不完整",
+      "form": {
+        "title": "职位名称", "titlePlaceholder": "本科生科研助理：自监督视觉", "description": "职位描述", "descriptionHint": "学生将从事什么工作？会学到什么？",
+        "requirements": "要求", "requirementsHint": "相关课程或经历（选填）", "skills": "必备技能", "skillsHint": "用逗号分隔——用于匹配，例如：python, pytorch",
+        "compensation": "薪酬", "hours": "每周小时数", "term": "学期", "location": "地点", "slots": "名额", "deadline": "申请截止", "keywords": "关键词",
+        "keywordsHint": "帮助学生找到你的职位", "publish": "发布职位", "saveChanges": "保存更改", "saved": "职位已保存", "notSpecified": "未说明"
+      }
+    },
+    "admin": {
+      "title": "管理", "subtitle": "认证教授，并查看大家提交的内容。", "overview": "概览",
+      "stats": {
+        "users": "用户", "students": "学生", "professors": "教授", "pending_professors": "待认证", "labs": "实验室", "open_positions": "开放职位",
+        "applications": "申请", "invitations": "邀请", "feedback": "反馈帖", "waitlist": "候补名单", "paid_users": "付费用户"
+      },
+      "verification": "教授认证", "onlyPending": "仅显示待处理", "verify": "认证", "unverify": "撤销", "verifiedAt": "认证时间", "pendingBadge": "待处理", "lab": "实验室",
+      "waitlist": "候补名单", "contact": "联系留言", "empty": "这里还什么都没有。", "notAdmin": "此区域仅限管理员访问。",
+      "verifiedToast": "教授已认证", "revokedToast": "认证已撤销"
+    }
+  }
+}

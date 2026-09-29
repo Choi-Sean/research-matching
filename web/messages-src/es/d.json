@@ -1,0 +1,111 @@
+{
+  "auth": {
+    "shell": {
+      "headline": "Tu próximo gran avance empieza con el laboratorio adecuado.",
+      "p1": "Descubre investigadores a partir del registro académico mundial", "p2": "Entiende su trabajo antes de escribir una sola palabra", "p3": "Consigue un match según tus habilidades y cómo te gusta trabajar",
+      "footer": "Para estudiantes y profesores, en tu idioma."
+    },
+    "login": {
+      "title": "Te damos la bienvenida de nuevo", "subtitle": "Inicia sesión para continuar.", "email": "Correo electrónico", "emailPlaceholder": "tu@universidad.edu", "password": "Contraseña",
+      "submit": "Iniciar sesión", "noAccount": "¿No tienes una cuenta?", "signUp": "Regístrate", "forgot": "¿Has olvidado tu contraseña?",
+      "forgotHelp": "Contáctanos y te ayudaremos a recuperar el acceso.", "demo": "Cuentas de demostración (contraseña: password123)",
+      "demoStudent": "Estudiante", "demoProfessor": "Profesor", "demoAdmin": "Administrador"
+    },
+    "register": {
+      "title": "Crea tu cuenta", "subtitle": "Únete con tu correo universitario. Solo lleva un minuto.", "iAm": "Soy…", "student": "Estudiante", "studentDesc": "Encuentra investigación y consigue un match",
+      "professor": "Profesor", "professorDesc": "Recluta estudiantes y comparte tu trabajo", "fullName": "Nombre completo", "fullNamePlaceholderStudent": "Jamie Park", "fullNamePlaceholderProfessor": "Prof. Jane Smith",
+      "email": "Correo universitario", "emailHint": "Usa una dirección que termine en .edu, .ac.uk o un dominio académico similar.", "password": "Contraseña", "passwordHint": "Al menos 8 caracteres.",
+      "referral": "Código de un amigo", "referralHint": "¿Tienes un código de un amigo? Los dos reciben una semana de Pro.",
+      "consent": "Al crear una cuenta aceptas nuestros <terms>Términos</terms> y nuestra <privacy>Política de privacidad</privacy>.",
+      "submit": "Crear cuenta", "haveAccount": "¿Ya tienes una cuenta?", "signIn": "Iniciar sesión",
+      "professorNote": "Nuestro equipo verifica las cuentas de profesor antes de que tu laboratorio y tus vacantes sean públicos."
+    }
+  },
+  "discover": {
+    "title": "Encuentra a tu profesor de investigación", "subtitle": "Busca investigadores que publican activamente sobre lo que te interesa, a partir del registro académico mundial.",
+    "modeInterest": "Por interés", "modeName": "Por nombre", "interestLabel": "Interés de investigación", "interestPlaceholder": "p. ej., neurociencia computacional", "nameLabel": "Nombre del investigador", "namePlaceholder": "p. ej., Jane Smith",
+    "universityLabel": "Universidad", "universityPlaceholder": "Cualquier universidad", "universityHint": "Elige de la lista para buscar en una sola institución.", "search": "Buscar", "searching": "Buscando…",
+    "sortBy": "Ordenar por", "minH": "Índice h mínimo", "minHAny": "Cualquiera", "filters": "Filtros", "resultsFor": "Investigadores para «{q}»", "resultsAt": "· {university}",
+    "resultsCount_one": "{count} investigador", "resultsCount_other": "{count} investigadores", "noResults": "No se han encontrado investigadores", "noResultsBody": "Prueba con un interés más amplio, otra ortografía o quita el filtro de universidad.",
+    "startTitle": "Empieza por algo que te dé curiosidad",
+    "startBody": "Prueba con un tema como «plegamiento de proteínas» o «política climática», añade una universidad si tienes alguna en mente y te mostraremos quién publica sobre ello.",
+    "noteTitle": "Cómo se ordenan los resultados",
+    "noteBody": "Los investigadores se ordenan según lo mucho que han publicado recientemente sobre tu tema, ponderado por su posición en el área. Los títulos como «profesor» no se registran en las bases de datos académicas, así que usa el resumen y los artículos para valorar el encaje.",
+    "hIndex": "índice h", "papers": "artículos", "citations": "citas", "recentWorks": "Últimos 3 años", "onTopic": "Sobre este tema", "onLabora": "En Labora", "viewProfile": "Ver perfil",
+    "save": "Guardar", "saved": "Guardado", "loadMore": "Mostrar más investigadores", "yourInterest": "Tu interés",
+    "disclaimer": "Datos de OpenAlex. Las afiliaciones reflejan los últimos registros de publicaciones y pueden ir por detrás de la realidad.", "signInToSave": "Inicia sesión para guardar investigadores en tu lista.",
+    "savedToast": "Guardado en tu lista", "removedToast": "Quitado de tu lista", "clearFilters": "Borrar filtros", "universityAny": "Cualquier universidad",
+    "searchingAt": "Buscando investigadores en {university}", "lookingUp": "Buscando instituciones…"
+  },
+  "professor": {
+    "back": "Volver a la búsqueda", "notFoundTitle": "No hemos encontrado a ese investigador", "notFoundBody": "Puede que el enlace sea incorrecto o que la base de datos académica esté saturada. Prueba a buscar de nuevo.",
+    "orcid": "ORCID", "openalex": "Perfil de OpenAlex", "onLabora": "Dirige un laboratorio en Labora", "viewLab": "Ver su laboratorio",
+    "stats": { "hIndex": "Índice h", "papers": "Artículos", "citations": "Citas", "recent": "Últimos 3 años", "i10": "Índice i10" },
+    "tabs": { "overview": "Resumen", "papers": "Artículos", "contact": "Contacto" },
+    "summary": {
+      "title": "Su trabajo, en lenguaje sencillo", "cta": "Explicar su trabajo", "ctaBody": "Obtén un breve resumen de lo que estudian, un hallazgo reciente y preguntas que vale la pena hacer.",
+      "loading": "Leyendo sus artículos recientes…", "overview": "Qué estudian", "keyFinding": "Un hallazgo reciente", "fromPaper": "De: {title}", "topics": "Áreas de investigación, en pocas palabras",
+      "goodFit": "Podrías encajar bien si…", "starters": "Preguntas que vale la pena hacer", "startersHint": "Úsalas como punto de partida para tu propia curiosidad: los profesores notan cuándo una pregunta es genuina.",
+      "aiBadge": "Resumen con IA", "extractiveBadge": "Resumen automático", "extractiveNote": "Los resúmenes con IA no están activados en este servidor, así que este se ha elaborado directamente a partir de sus datos de publicaciones (en inglés).",
+      "aiNote": "Escrito por IA a partir de resúmenes públicos. Comprueba siempre los artículos.", "quota": "{used} de {limit} resúmenes gratuitos usados", "quotaPro": "Resúmenes ilimitados",
+      "signInTitle": "Inicia sesión para leer el resumen", "signInBody": "Las cuentas gratuitas incluyen resúmenes en lenguaje sencillo, un hallazgo clave y temas de conversación para un par de investigadores.",
+      "upgrade": "Consigue resúmenes ilimitados", "limitTitle": "Has usado tus resúmenes gratuitos", "limitBody": "Los pases desbloquean resúmenes ilimitados, el buscador de correos y más."
+    },
+    "topics": "Temas de investigación", "activity": "Publicaciones por año",
+    "papers": { "recent": "Más recientes", "top": "Más citados", "empty": "No se han encontrado artículos.", "abstract": "Resumen", "cited": "{n} citas", "openAccess": "Acceso abierto", "viewPaper": "Ver artículo" },
+    "contact": {
+      "title": "Buscador de correos", "lockedTitle": "Desbloquea el buscador de correos y la capacidad de respuesta", "lockedBody": "Consulta las direcciones institucionales más probables y con qué frecuencia responden a los estudiantes. Incluido en cualquier pase.",
+      "seePlans": "Ver planes", "guessNote": "Son suposiciones basadas en patrones de nombres habituales, no direcciones verificadas. Confírmalas en el directorio del profesorado antes de enviar.",
+      "pattern": "Patrón: {pattern}", "mostCommon": "El más habitual", "copy": "Copiar dirección", "copied": "Dirección copiada", "compose": "Abrir en la aplicación de correo",
+      "directory": "Buscar en el directorio del profesorado", "noDomain": "No hemos podido determinar el dominio de correo de esta institución.", "responsiveness": "Capacidad de respuesta",
+      "resp": { "high": "Suele responder", "medium": "A veces responde", "low": "Rara vez responde", "unknown": "Aún no hay suficientes reportes" },
+      "respBody": "Basado en {n} registros de contacto de estudiantes. El {rate} respondió{days}.", "respDays": ", normalmente en menos de {days} días",
+      "respUnknown": "Solo lo mostramos cuando al menos 3 estudiantes han registrado su contacto con este investigador. Registra el tuyo para ayudar a otros.",
+      "labDays": "Su laboratorio en Labora suele responder a las solicitudes en {days} días.", "logOutreach": "Registrar mi contacto"
+    },
+    "sidebar": {
+      "writeTitle": "¿Listo para escribir?", "writeBody": "Redacta tu correo y revísalo con lo que los profesores dicen que acaban borrando.", "writeCta": "Revisar mi correo",
+      "trackTitle": "Registro de contactos", "trackBody": "Lleva la cuenta de a quién has escrito y cuándo hacer seguimiento.", "trackStart": "Añadir al registro", "status": "Estado",
+      "tracked": "Añadido a tu registro", "saveError": "No se ha podido actualizar el registro"
+    }
+  },
+  "positions": {
+    "title": "Vacantes abiertas", "subtitle": "Puestos de investigación publicados directamente por profesores verificados. Lee primero su trabajo y después solicita.", "searchLabel": "Buscar",
+    "searchPlaceholder": "Tema, habilidad o nombre del laboratorio", "filters": "Filtros", "compensation": "Remuneración", "location": "Ubicación", "term": "Periodo", "university": "Universidad", "universityPlaceholder": "p. ej., MIT",
+    "department": "Departamento", "departmentPlaceholder": "p. ej., Biología", "any": "Cualquiera", "count_one": "{count} vacante", "count_other": "{count} vacantes", "searching": "Buscando…",
+    "noResults": "Ninguna vacante coincide con tu búsqueda", "noResultsBody": "Prueba con una palabra clave más amplia o quita algún filtro. O busca profesores directamente: no necesitas una vacante para contactar.",
+    "discoverCta": "Buscar profesores", "clear": "Borrar filtros", "postedAgo": "Publicada {when}", "closes": "Cierra {when}", "applyBy": "Solicitar antes del {date}", "deadlinePassed": "Plazo terminado",
+    "slots_one": "{count} plaza", "slots_other": "{count} plazas", "backToAll": "Todas las vacantes", "about": "Sobre este puesto", "requirements": "Lo que buscamos", "skills": "Habilidades", "research": "Lee la investigación del laboratorio",
+    "researchHint": "Familiarízate con el trabajo antes de solicitar.", "noMaterials": "Aún no se han compartido materiales de investigación.", "aboutLab": "Sobre el laboratorio", "viewLab": "Ver perfil del laboratorio",
+    "website": "Web del laboratorio", "notFound": "Vacante no encontrada", "verifiedLab": "Laboratorio verificado",
+    "apply": {
+      "title": "Solicitar", "label": "¿Por qué encajas bien?", "placeholder": "Cuéntanos tu interés, tus asignaturas relevantes y tu disponibilidad…", "submit": "Enviar solicitud",
+      "shared": "Tu perfil se comparte con el profesor.", "sent": "Solicitud enviada", "status": "Estado", "track": "Seguir solicitudes", "signIn": "Inicia sesión con tu cuenta de estudiante para solicitar.",
+      "signInCta": "Inicia sesión para solicitar", "newHere": "¿Eres nuevo?", "createAccount": "Crear una cuenta", "professorNote": "Has iniciado sesión como profesor. Solo los estudiantes pueden solicitar.",
+      "closedNote": "Esta vacante ya no admite solicitudes.", "completeProfile": "Completa tu perfil para que los profesores vean lo que has hecho.", "toProfile": "Actualizar perfil",
+      "fitHint": "Sé concreto: algo que hayas hecho, algo que quieras aprender y cuándo estás disponible."
+    }
+  },
+  "lab": {
+    "notFound": "Laboratorio no encontrado", "notFoundBody": "Puede que el laboratorio sea privado o que el enlace sea incorrecto.", "openPositions": "Vacantes abiertas", "noPositions": "No hay vacantes abiertas ahora mismo",
+    "noPositionsBody": "Vuelve pronto: este laboratorio podría publicar nuevas vacantes. También puedes contactar directamente.", "materials": "Materiales de investigación", "culture": "Cómo es trabajar aquí",
+    "teamSize": "Equipo de {count}", "workStyle": "Cómo trabaja el laboratorio", "website": "Web del laboratorio", "professor": "Investigador principal", "verified": "Verificado"
+  },
+  "community": {
+    "feedback": {
+      "title": "Tablón de sugerencias", "subtitle": "Ayuda a dar forma a Labora. Propón funciones, informa de errores o cuéntanos lo que piensas, y vota lo que más importa.",
+      "kind": { "feature": "Petición de función", "bug": "Informe de error", "general": "Comentario general" },
+      "status": { "open": "Abierto", "planned": "Planificado", "in_progress": "En curso", "done": "Hecho" },
+      "newPost": "Comparte tu opinión", "postTitle": "Título", "postTitlePlaceholder": "Un resumen breve", "postBody": "Detalles", "postBodyPlaceholder": "¿Qué te gustaría ver o qué ha fallado?",
+      "post": "Publicar", "posted": "Gracias: tu publicación ya está visible.", "signIn": "Inicia sesión para publicar y votar.", "sortVotes": "Más votados", "sortNew": "Más recientes", "filterAll": "Todos",
+      "count_one": "{count} publicación", "count_other": "{count} publicaciones", "empty": "Aún no hay nada: sé el primero en publicar.", "vote": "Votar", "voted": "Votado", "by": "por {name}"
+    },
+    "contact": {
+      "title": "Ponte en contacto", "subtitle": "¿Preguntas, ideas o necesitas ayuda con tu cuenta? Leemos todos los mensajes.", "name": "Tu nombre", "email": "Tu correo",
+      "message": "Mensaje", "messagePlaceholder": "¿En qué podemos ayudarte?", "send": "Enviar mensaje", "sent": "Gracias: te responderemos pronto.",
+      "professorsTitle": "¿Eres profesor?",
+      "professorsBody": "Verificamos las cuentas de profesor antes de que los laboratorios sean públicos. Si tu institución usa un dominio de correo que no reconocemos, cuéntanoslo aquí.",
+      "privacy": "Solo usaremos tus datos para responder a este mensaje."
+    }
+  }
+}

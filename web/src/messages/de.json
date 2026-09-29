@@ -1,0 +1,1826 @@
+{
+  "common": {
+    "save": "Speichern",
+    "saving": "Wird gespeichert …",
+    "saved": "Gespeichert",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "search": "Suchen",
+    "loading": "Wird geladen …",
+    "retry": "Erneut versuchen",
+    "viewAll": "Alle anzeigen",
+    "learnMore": "Mehr erfahren",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "yes": "Ja",
+    "no": "Nein",
+    "optional": "Optional",
+    "or": "oder",
+    "remove": "Entfernen",
+    "add": "Hinzufügen",
+    "confirm": "Bestätigen",
+    "continue": "Weiter",
+    "submit": "Absenden",
+    "send": "Senden",
+    "download": "Herunterladen",
+    "clear": "Leeren",
+    "clearAll": "Alles leeren",
+    "open": "Öffnen",
+    "closedLabel": "Geschlossen",
+    "unlimited": "Unbegrenzt",
+    "upgrade": "Upgraden",
+    "verified": "Verifiziert",
+    "pending": "Ausstehend",
+    "free": "Kostenlos",
+    "pro": "Pro",
+    "today": "Heute",
+    "hoursPerWeek": "{n} Std./Woche",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "none": "Keine",
+    "required": "Pflichtfeld",
+    "notSet": "Nicht festgelegt",
+    "poweredByAi": "KI-unterstützt",
+    "illustrative": "Beispiel zur Veranschaulichung",
+    "external": "Öffnet in einem neuen Tab",
+    "results_one": "{count} Ergebnis",
+    "results_other": "{count} Ergebnisse"
+  },
+  "nav": {
+    "home": "Labora Startseite",
+    "skip": "Zum Inhalt springen",
+    "discover": "Entdecken",
+    "positions": "Stellen",
+    "aiMatch": "KI-Match",
+    "resources": "Ressourcen",
+    "pricing": "Preise",
+    "signIn": "Anmelden",
+    "getStarted": "Kostenlos starten",
+    "dashboard": "Dashboard",
+    "signOut": "Abmelden",
+    "account": "Kontomenü",
+    "language": "Sprache",
+    "theme": "Darstellung",
+    "themeLight": "Hell",
+    "themeDark": "Dunkel",
+    "themeSystem": "System",
+    "menu": "Menü öffnen",
+    "feedback": "Feedback",
+    "emailChecker": "E-Mail-Check",
+    "emailCheckerDesc": "Erhalte konkretes Feedback zu deiner E-Mail, bevor du sie abschickst.",
+    "followUp": "Nachfass-Planer",
+    "followUpDesc": "Zwei gut getimte Nachfass-Mails für E-Mails ohne Antwort.",
+    "framework": "E-Mail-Gerüst",
+    "frameworkDesc": "Eine Lückentext-Struktur, auf die Professor:innen antworten.",
+    "examples": "E-Mails, die funktioniert haben",
+    "examplesDesc": "Kommentierte Beispiele, die zeigen, warum jede Zeile wirkt.",
+    "fields": "Fachgebiets-Leitfäden",
+    "fieldsDesc": "Finde Forschende und Tipps zur Kontaktaufnahme für dein Fach.",
+    "blog": "Leitfäden & Tipps",
+    "blogDesc": "So findest du Betreuung für die Forschung, nimmst Kontakt auf und überzeugst."
+  },
+  "footer": {
+    "product": "Produkt",
+    "tools": "Tools",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "howItWorks": "So funktioniert’s",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "tagline": "Finde das Forschungslabor, das zu dir passt – und die Studierenden, die zu deinem Labor passen.",
+    "copyright": "© {year} Labora. Alle Rechte vorbehalten.",
+    "dataBy": "Wissenschaftliche Daten von"
+  },
+  "errors": {
+    "email_not_academic": "Bitte verwende deine Hochschul-E-Mail-Adresse (zum Beispiel .edu, .ac.uk oder .uni-xxx.de).",
+    "email_taken": "Diese E-Mail-Adresse ist bereits registriert. Versuche stattdessen, dich anzumelden.",
+    "invalid_credentials": "E-Mail-Adresse oder Passwort ist falsch.",
+    "invalid_token": "Deine Sitzung ist abgelaufen. Bitte melde dich erneut an.",
+    "user_not_found": "Wir konnten dieses Konto nicht finden. Bitte melde dich erneut an.",
+    "forbidden": "Du hast darauf keinen Zugriff.",
+    "student_only": "Das ist nur für Studierendenkonten verfügbar.",
+    "professor_only": "Das ist nur für Professor:innenkonten verfügbar.",
+    "admin_only": "Dieser Bereich ist nur für Administrator:innen.",
+    "professor_unverified": "Dein Professor:innenkonto wartet auf die Verifizierung. Sobald es freigegeben ist, wird das freigeschaltet.",
+    "lab_required": "Richte zuerst dein Laborprofil ein.",
+    "lab_exists": "Du hast bereits ein Laborprofil.",
+    "lab_not_found": "Wir konnten dieses Labor nicht finden.",
+    "material_not_found": "Dieses Forschungsmaterial existiert nicht mehr.",
+    "position_not_found": "Wir konnten diese Stelle nicht finden.",
+    "position_not_open": "Diese Stelle nimmt keine Bewerbungen an.",
+    "position_has_applications": "Auf diese Stelle gibt es bereits Bewerbungen – schließe sie, statt sie zu löschen.",
+    "already_applied": "Du hast dich auf diese Stelle bereits beworben.",
+    "application_not_found": "Wir konnten diese Bewerbung nicht finden.",
+    "already_invited": "Du hast diese:n Studierende:n bereits zu dieser Stelle eingeladen.",
+    "invitation_not_found": "Wir konnten diese Einladung nicht finden.",
+    "invitation_closed": "Diese Einladung ist nicht mehr offen.",
+    "student_not_discoverable": "Diese:r Studierende nimmt keine Einladungen an.",
+    "quota_exceeded": "Du hast dein kostenloses Kontingent für diese Funktion aufgebraucht. Upgrade für unbegrenzten Zugriff.",
+    "rate_limited": "Du bist etwas zu schnell. Warte einen Moment und versuche es erneut.",
+    "professor_not_found": "Wir konnten diese:n Forscher:in nicht finden.",
+    "upstream_unavailable": "Die wissenschaftliche Datenbank ist gerade ausgelastet. Bitte versuche es gleich noch einmal.",
+    "billing_disabled": "Zahlungen sind noch nicht verfügbar.",
+    "invalid_signature": "Diese Anfrage konnte nicht verifiziert werden.",
+    "invalid_referral_code": "Diesen Empfehlungscode gibt es nicht.",
+    "own_referral_code": "Du kannst deinen eigenen Empfehlungscode nicht verwenden.",
+    "referral_already_used": "Du hast bereits einen Empfehlungscode eingelöst.",
+    "feedback_not_found": "Wir konnten diesen Beitrag nicht finden.",
+    "outreach_not_found": "Wir konnten diesen Eintrag nicht finden.",
+    "network": "Wir erreichen den Server nicht. Prüfe deine Verbindung und versuche es erneut.",
+    "unknown": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+  },
+  "enums": {
+    "compensation": {
+      "paid": "Bezahlt",
+      "credit": "Für Credits",
+      "volunteer": "Ehrenamtlich"
+    },
+    "term": {
+      "fall": "Herbst",
+      "spring": "Frühling",
+      "summer": "Sommer",
+      "year_round": "Ganzjährig",
+      "flexible": "Flexibel"
+    },
+    "location": {
+      "on_site": "Auf dem Campus",
+      "remote": "Remote",
+      "hybrid": "Hybrid"
+    },
+    "appStatus": {
+      "pending": "In Prüfung",
+      "accepted": "Angenommen",
+      "rejected": "Nicht ausgewählt",
+      "withdrawn": "Zurückgezogen"
+    },
+    "invStatus": {
+      "pending": "Wartet auf Antwort",
+      "accepted": "Angenommen",
+      "declined": "Abgelehnt",
+      "withdrawn": "Zurückgezogen"
+    },
+    "outreach": {
+      "saved": "Gemerkt",
+      "drafted": "Im Entwurf",
+      "sent": "Gesendet",
+      "replied": "Antwort erhalten",
+      "meeting": "Termin vereinbart",
+      "positive": "Zusage",
+      "no_reply": "Keine Antwort",
+      "declined": "Abgelehnt"
+    },
+    "materialKind": {
+      "paper": "Paper",
+      "dataset": "Datensatz",
+      "poster": "Poster",
+      "other": "Sonstiges"
+    },
+    "role": {
+      "student": "Studierende:r",
+      "professor": "Professor:in"
+    },
+    "year": {
+      "freshman": "1. Studienjahr",
+      "sophomore": "2. Studienjahr",
+      "junior": "3. Studienjahr",
+      "senior": "4. Studienjahr",
+      "masters": "Master",
+      "phd": "Promotion"
+    },
+    "style": {
+      "autonomy": "Eigenständigkeit",
+      "autonomyLow": "Enge Anleitung",
+      "autonomyHigh": "Selbstständig",
+      "collaboration": "Zusammenarbeit",
+      "collaborationLow": "Konzentriert allein",
+      "collaborationHigh": "Teamorientiert",
+      "pace": "Tempo",
+      "paceLow": "Stetig und gründlich",
+      "paceHigh": "Schnell und iterativ",
+      "structure": "Struktur",
+      "structureLow": "Offen",
+      "structureHigh": "Klar definiert"
+    },
+    "grade": {
+      "excellent": "Ausgezeichnet",
+      "good": "Gut",
+      "needs_work": "Überarbeiten",
+      "risky": "Riskant"
+    },
+    "sort": {
+      "relevance": "Beste Passung",
+      "cited": "Am häufigsten zitiert",
+      "recent": "Zuletzt am aktivsten"
+    }
+  },
+  "meta": {
+    "homeTitle": "Labora – Finde die Professur, die zu dir passt",
+    "homeDescription": "Entdecke Forschende aus dem weltweiten wissenschaftlichen Bestand, verstehe ihre Arbeit in einfacher Sprache und lass dich per KI mit Laboren zusammenbringen, die zu deinen Fähigkeiten und deiner Arbeitsweise passen.",
+    "discoverTitle": "Forschende Professor:innen finden",
+    "discoverDescription": "Suche Forschende, die aktiv zu deinem Interesse publizieren – an jeder Universität, aus einer offenen wissenschaftlichen Datenbank.",
+    "professorTitle": "Forscher:innenprofil",
+    "professorDescription": "Publikationen, Themen, eine Zusammenfassung in einfacher Sprache und Tools zur Kontaktaufnahme.",
+    "positionsTitle": "Offene Forschungsstellen",
+    "positionsDescription": "Forschungsstellen, die direkt von verifizierten Professor:innen ausgeschrieben werden – bezahlt, für Credits oder ehrenamtlich.",
+    "positionTitle": "Forschungsstelle",
+    "positionDescription": "Lies etwas über die Stelle und die Forschung des Labors – und bewirb dich dann.",
+    "labTitle": "Forschungslabor",
+    "labDescription": "Forschung, Kultur, offene Stellen und Materialien eines Labors.",
+    "checkerTitle": "E-Mail-Check für die Kontaktaufnahme mit Professor:innen",
+    "checkerDescription": "Füge deine E-Mail ein und sieh, welche Formulierungen beliebig, schmeichelhaft oder vage klingen – ohne dass wir sie für dich umschreiben.",
+    "followUpTitle": "Nachfass-Planer",
+    "followUpDescription": "Zwei gut getimte Nachfass-Entwürfe für unbeantwortete E-Mails an Professor:innen, samt Kalendererinnerungen.",
+    "frameworkTitle": "Das Erstkontakt-E-Mail-Gerüst",
+    "frameworkDescription": "Eine Lückentext-Struktur für E-Mails an Professor:innen – plus die Formulierungen, die du vermeiden solltest.",
+    "examplesTitle": "Kommentierte E-Mails, die funktionieren",
+    "examplesDescription": "Drei Beispiel-E-Mails mit Zeile-für-Zeile-Anmerkungen dazu, warum sie wirken.",
+    "fieldsTitle": "Fachgebiets-Leitfäden",
+    "fieldsDescription": "Finde Forschende und Tipps zur Kontaktaufnahme für dein Fach.",
+    "blogTitle": "Leitfäden & Tipps",
+    "blogDescription": "So findest du Betreuung für die Forschung, nimmst Kontakt auf und überzeugst.",
+    "pricingTitle": "Preise",
+    "pricingDescription": "Die Suche ist kostenlos. Pässe schalten die E-Mail-Suche, unbegrenzte Zusammenfassungen und unbegrenzte E-Mail-Checks frei.",
+    "aiMatchTitle": "KI-Match",
+    "aiMatchDescription": "Bringe Studierende und Labore anhand von Fähigkeiten, Interessen, Verfügbarkeit und Arbeitsstil zusammen – mit einer Erklärung zu jedem Ergebnis.",
+    "howTitle": "So funktioniert’s",
+    "howDescription": "Vier Schritte von der Neugier zum echten Gespräch mit einer Professur.",
+    "playbookTitle": "Der Leitfaden für Erstkontakt-E-Mails",
+    "playbookDescription": "Aufbau, Timing und Nachfass-Stufen hinter E-Mails, die Antworten bekommen.",
+    "feedbackTitle": "Feedback-Board",
+    "feedbackDescription": "Schlage Funktionen vor, melde Fehler und stimme darüber ab, was wir als Nächstes bauen.",
+    "contactTitle": "Kontakt",
+    "contactDescription": "Fragen, Ideen oder Hilfe zu deinem Konto – wir lesen jede Nachricht.",
+    "loginTitle": "Anmelden",
+    "registerTitle": "Konto erstellen"
+  },
+  "states": {
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+      "home": "Zurück zur Startseite",
+      "search": "Professor:innen finden"
+    },
+    "error": {
+      "title": "Etwas ist schiefgelaufen",
+      "body": "Es ist ein unerwarteter Fehler aufgetreten. Du kannst es erneut versuchen oder zur Startseite zurückkehren.",
+      "retry": "Erneut versuchen",
+      "home": "Zurück zur Startseite"
+    }
+  },
+  "legal": {
+    "privacyTitle": "Datenschutzerklärung",
+    "termsTitle": "Nutzungsbedingungen",
+    "updated": "Zuletzt aktualisiert: {date}",
+    "englishNote": "Dieses Dokument liegt auf Englisch vor. Wenn du Hilfe beim Verständnis brauchst, melde dich bei uns.",
+    "questions": "Fragen zu diesem Dokument?",
+    "contactUs": "Kontakt aufnehmen"
+  },
+  "playbook": {
+    "eyebrow": "In jedem Pass enthalten",
+    "title": "Der Leitfaden für Erstkontakt-E-Mails",
+    "subtitle": "Aufbau, Timing und Nachfass-Stufen hinter E-Mails, die Antworten bekommen – auf einer Seite zusammengefasst.",
+    "lockedTitle": "Schalte den Rest des Leitfadens frei",
+    "lockedBody": "Timing, Nachfass-Stufen, der Umgang mit einem „Nein“ und die Checkliste vor dem Absenden sind in jedem Pass enthalten.",
+    "seePlans": "Tarife ansehen",
+    "signIn": "Anmelden",
+    "englishNote": "Der Leitfaden ist derzeit nur auf Englisch verfügbar.",
+    "cta": "Meine E-Mail prüfen"
+  },
+  "blog": {
+    "eyebrow": "Die Labora-Bibliothek",
+    "title": "So findest du Betreuung für die Forschung, nimmst Kontakt auf und überzeugst",
+    "subtitle": "Praktische Leitfäden dazu, wie du Professor:innen findest, E-Mails schreibst, die gelesen werden, und nachfasst – geschrieben für alle, die bei null anfangen.",
+    "all": "Alle Leitfäden",
+    "cat": {
+      "finding": "Forschung finden",
+      "writing": "Die E-Mail schreiben",
+      "after": "Nach dem Absenden",
+      "goals": "Ziele & nächste Schritte"
+    },
+    "minRead": "{minutes} Min. Lesezeit",
+    "read": "Leitfaden lesen",
+    "back": "Alle Leitfäden",
+    "englishNote": "Die Leitfäden sind derzeit nur auf Englisch verfügbar.",
+    "ctaTitle": "Setze es in die Praxis um",
+    "ctaBody": "Finde Forschende in deinem Fach, verstehe ihre Arbeit und prüfe deine E-Mail, bevor du sie abschickst.",
+    "ctaFind": "Professor:innen finden",
+    "ctaCheck": "Meine E-Mail prüfen",
+    "keepReading": "Weiterlesen",
+    "notFound": "Leitfaden nicht gefunden"
+  },
+  "fields": {
+    "eyebrow": "Fachgebiets-Leitfäden",
+    "title": "Finde eine Forschungsstelle nach Fachgebiet",
+    "subtitle": "Wähle ein Fach und sieh, wer dort aktiv publiziert, woran diese Personen arbeiten und wie du sie erreichst.",
+    "blurb": "Finde Forschende in {field}, die aktiv publizieren, verstehe, woran sie arbeiten, und schreibe eine konkrete Nachricht, die wirklich gelesen wird.",
+    "cta": "Forschende in {field} ansehen",
+    "pageTitle": "{field}: Forschende und Stellen finden",
+    "pageSubtitle": "Entdecke, wer gerade in {field} publiziert, verstehe die Arbeit und nimm auf die richtige Weise Kontakt auf.",
+    "searchNow": "Forschende in {field} suchen",
+    "openPositions": "Offene Stellen in {field}",
+    "backToAll": "Alle Fachgebiete",
+    "tipsTitle": "So gehst du auf Labore in {field} zu",
+    "tip1": "Überfliege vor dem Schreiben zwei, drei aktuelle Abstracts – du brauchst nur genug, um eine gute Frage zu stellen.",
+    "tip2": "Nenne eine konkrete Fähigkeit: einen Kurs, einen Datensatz, ein Tool oder ein kleines Projekt. Laboraufgaben sind meist praktisch.",
+    "tip3": "Biete eine konkrete Stundenzahl und ein Startdatum an. Das macht ein Ja leichter.",
+    "tip4": "Wenn die Professur keine Studierenden aufnimmt, frage, wer in der Gruppe es könnte.",
+    "related": "Verwandte Fachgebiete",
+    "names": {
+      "astrophysics": "Astrophysik",
+      "physics": "Physik",
+      "quantum-computing": "Quantencomputing",
+      "chemistry": "Chemie",
+      "materials-science": "Materialwissenschaft",
+      "machine-learning": "Maschinelles Lernen",
+      "computer-science": "Informatik",
+      "robotics": "Robotik",
+      "mathematics": "Mathematik",
+      "biochemistry": "Biochemie",
+      "molecular-biology": "Molekularbiologie",
+      "genetics": "Genetik",
+      "bioinformatics": "Bioinformatik",
+      "neuroscience": "Neurowissenschaften",
+      "cognitive-science": "Kognitionswissenschaft",
+      "psychology": "Psychologie",
+      "immunology": "Immunologie",
+      "public-health": "Öffentliche Gesundheit",
+      "epidemiology": "Epidemiologie",
+      "environmental-science": "Umweltwissenschaften",
+      "climate-science": "Klimawissenschaft",
+      "economics": "Wirtschaftswissenschaften",
+      "linguistics": "Linguistik",
+      "sociology": "Soziologie"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Neu: KI-Matching für Studierende und Labore",
+      "title": "Finde die Professur, die <em>zu dir passt.</em>",
+      "subtitle": "Durchsuche den weltweiten wissenschaftlichen Bestand, verstehe die Arbeit jeder Forscherin und jedes Forschers in einfacher Sprache und lass dich mit Laboren zusammenbringen, die zu deinen Fähigkeiten und deiner Arbeitsweise passen.",
+      "modeInterest": "Nach Interesse",
+      "modeName": "Nach Name",
+      "interestLabel": "Forschungsinteresse",
+      "interestPlaceholder": "z. B. Computational Neuroscience",
+      "nameLabel": "Name der Person",
+      "namePlaceholder": "z. B. Jane Smith",
+      "universityLabel": "Universität",
+      "universityPlaceholder": "z. B. MIT, Stanford …",
+      "search": "Professor:innen finden",
+      "try": "Probiere",
+      "trust": "Auf offenen wissenschaftlichen Daten aufgebaut: {works} Publikationen · {institutions} Institutionen",
+      "trustFallback": "Auf offenen wissenschaftlichen Daten aufgebaut: 300 Mio.+ Publikationen · 140.000+ Institutionen",
+      "ex": {
+        "ml": "Maschinelles Lernen",
+        "neuro": "Neurowissenschaften",
+        "genomics": "Genomik",
+        "climate": "Klimawissenschaft",
+        "quantum": "Quantencomputing",
+        "psych": "Psychologie"
+      },
+      "modeLabel": "Suchen nach"
+    },
+    "mock": {
+      "preview": "Vorschau zur Veranschaulichung",
+      "results": "Forschende",
+      "summary": "Zusammenfassung in einfacher Sprache",
+      "summaryBody": "Erforscht, wie Maschinen mit nur wenigen beschrifteten Beispielen sehen lernen können, damit ein Roboter alltägliche Gegenstände erkennt und greift, die er noch nie gesehen hat.",
+      "keyFinding": "Zentrales Ergebnis",
+      "keyFindingBody": "Ein selbstüberwachter Ansatz senkte die für die Greif-Erkennung nötigen beschrifteten Bilder um 80 % (2025).",
+      "starters": "Fragen, die sich lohnen",
+      "starter1": "Wie hat die Gruppe die Testobjekte ausgewählt?",
+      "starter2": "Funktioniert die Methode auch außerhalb des Labors?",
+      "save": "Merken",
+      "writeEmail": "E-Mail schreiben",
+      "match": "Passung",
+      "whyFit": "Warum du passt",
+      "reasonTopics": "Gemeinsame Themen: Computer Vision, PyTorch",
+      "reasonStyle": "Ähnlicher Arbeitsstil: selbstständig, schnelles Tempo",
+      "gap": "Lücke: Lineare Algebra",
+      "emailScore": "E-Mail-Score",
+      "emailFlags": "2 Dinge zu verbessern",
+      "hIndex": "h-Index",
+      "papers": "Publikationen",
+      "flagFlattery": "Schmeichelei",
+      "flagGeneric": "Floskel",
+      "mustHave": "Muss",
+      "niceToHave": "Wünschenswert",
+      "invite": "Einladen",
+      "idealStudent": "Ideale Kandidat:in",
+      "followUpOn": "Nachfassen am {date}",
+      "tracker": "Kontakt-Tracker",
+      "openPositions": "Offene Stellen",
+      "apply": "Bewerben"
+    },
+    "marquee": {
+      "label": "Forschende von Institutionen wie"
+    },
+    "problem": {
+      "eyebrow": "Das Problem",
+      "title": "Die meisten Nachrichten an Professor:innen <em>werden nie gelesen.</em>",
+      "description": "Studierende schicken beliebige E-Mails an die falschen Leute zur falschen Zeit, und Professor:innen haben Sekunden für ihre Entscheidung. Das läuft meistens schief.",
+      "generic": {
+        "title": "Die E-Mail klingt wie alle anderen",
+        "body": "Schmeichelei und Textbausteine fallen sofort auf. Eine konkrete Frage zu echter Arbeit sticht heraus."
+      },
+      "who": {
+        "title": "Man weiß nicht, wer Studierende aufnimmt",
+        "body": "Lehrstuhlseiten sind veraltet, und Labore, die einstellen, kündigen das selten dort an, wo Studierende suchen."
+      },
+      "read": {
+        "title": "Papers lesen dauert Stunden",
+        "body": "Du musst die Arbeit verstehen, bevor du etwas Konkretes schreiben kannst – doch Abstracts sind dicht."
+      }
+    },
+    "features": {
+      "eyebrow": "Die Plattform",
+      "title": "Alles zwischen „Ich bin neugierig“ und „Ich bin im Labor“",
+      "description": "Ein Ort, um Menschen zu finden, ihre Arbeit zu verstehen, gut Kontakt aufzunehmen und den Überblick zu behalten.",
+      "discover": {
+        "title": "Den wissenschaftlichen Bestand durchsuchen",
+        "body": "Gib ein beliebiges Interesse und eine Universität ein. Wir zeigen dir Forschende, die aktiv dazu publizieren – echte Menschen, echte Papers."
+      },
+      "summaries": {
+        "title": "Zusammenfassungen in einfacher Sprache",
+        "body": "Zu jeder Person gibt es eine kurze Erklärung, woran sie forscht, samt einem aktuellen Ergebnis – geschrieben für alle, die neu im Fach sind."
+      },
+      "email": {
+        "title": "Ein E-Mail-Coach, kein Ghostwriter",
+        "body": "Füge deinen Entwurf ein und sieh, welche Formulierungen beliebig, schmeichelhaft oder vage klingen – und warum. Deine eigene Stimme bleibt."
+      },
+      "match": {
+        "title": "KI-Matching in beide Richtungen",
+        "body": "Studierende sehen die Labore und Professor:innen, die zu ihren Fähigkeiten und ihrem Arbeitsstil passen. Professor:innen beschreiben die ideale Person und sehen, wer passt."
+      },
+      "positions": {
+        "title": "Stellen aus verifizierten Laboren",
+        "body": "Stöbere in Stellen, die direkt von Professor:innen ausgeschrieben sind, lies zuerst deren Forschung und bewirb dich in einem Schritt."
+      },
+      "tracker": {
+        "title": "Ein Kontakt-Tracker, der dich erinnert",
+        "body": "Halte fest, wen du angeschrieben hast und was passiert ist. Erhalte Nachfass-Termine, damit nichts untergeht."
+      }
+    },
+    "how": {
+      "eyebrow": "So funktioniert’s",
+      "title": "Von der Neugier zum echten Gespräch",
+      "s1": {
+        "title": "Suchen",
+        "body": "Gib ein Interesse und eine Universität ein – oder den Namen einer Person."
+      },
+      "s2": {
+        "title": "Verstehen",
+        "body": "Lies eine Zusammenfassung in einfacher Sprache, aktuelle Papers und gute Fragen, die du stellen kannst."
+      },
+      "s3": {
+        "title": "Kontakt aufnehmen",
+        "body": "Schreibe deine eigene E-Mail, prüfe sie und sende sie mit gutem Gefühl ab."
+      },
+      "s4": {
+        "title": "Nachfassen",
+        "body": "Verfolge Antworten und sende zwei gut getimte Nachfass-Mails."
+      }
+    },
+    "match": {
+      "eyebrow": "KI-Match",
+      "title": "Passung bei Fähigkeiten – und bei <em>deiner Arbeitsweise.</em>",
+      "description": "Thematische Überschneidung ist nur die halbe Wahrheit. Labora vergleicht auch Arbeitsstile: wie viel Eigenständigkeit du magst, wie kooperativ du bist, welches Tempo du bevorzugst und wie viel Struktur dir hilft.",
+      "students": "Für Studierende",
+      "s1": "Rangliste von Stellen und Professor:innen, jeweils mit klaren Gründen",
+      "s2": "Erkenne deine Lücken und wie du dich abhebst",
+      "s3": "Du bestimmst, was Professor:innen sehen können",
+      "professors": "Für Professor:innen",
+      "p1": "Beschreibe deine ideale Person – oder lass die KI sie aus deiner Stelle entwerfen",
+      "p2": "Stöbere unter Studierenden, die zugestimmt haben, sortiert mit Begründung",
+      "p3": "Lade die besten Treffer mit einer einzigen Nachricht ein",
+      "privacy": "Die Auffindbarkeit von Studierenden ist freiwillig und lässt sich jederzeit abschalten. Kontaktdaten werden Professor:innen nie gezeigt, bevor die Person zugestimmt hat.",
+      "cta": "KI-Match entdecken",
+      "styleTitle": "Arbeitsstil",
+      "candidate": "Kandidat:in",
+      "you": "Du",
+      "lab": "Labor"
+    },
+    "compare": {
+      "title": "Warum nicht einfach einen Chatbot fragen?",
+      "description": "Allgemeine Chatbots schreiben gut, sind aber kein Verzeichnis echter Menschen.",
+      "colChatbot": "Ein allgemeiner Chatbot",
+      "colLabora": "Labora",
+      "r1": "Woher Personen und Papers stammen",
+      "r1a": "Aus dem Gedächtnis erzeugt – er kann Professor:innen, Papers und Zahlen erfinden.",
+      "r1b": "Aus dem wissenschaftlichen Bestand (OpenAlex) abgerufen. Nichts ist erfunden.",
+      "r2": "Wer deine E-Mail schreibt",
+      "r2a": "Oft schreibt er sie für dich, und Professor:innen merken das.",
+      "r2b": "Du schreibst sie. Labora sagt dir, was du verbessern solltest.",
+      "r3": "Wie viel Aufwand es kostet",
+      "r3a": "Viele Prompts, um Forschende zu finden, zu lesen und zu vergleichen.",
+      "r3b": "Eine Suche: Forschende, Zusammenfassungen und E-Mail-Feedback in einem."
+    },
+    "professors": {
+      "eyebrow": "Für Professor:innen",
+      "title": "Gewinne Studierende, die <em>wirklich passen.</em>",
+      "description": "Schreibe Stellen aus, teile deine Forschung und lass die KI Studierende finden, deren Fähigkeiten und Arbeitsstil zu deinem Labor passen.",
+      "b1": "Kostenlos für verifizierte Lehrende",
+      "b2": "Papers, Datensätze und Poster präsentieren",
+      "b3": "Bewerbungen und Einladungen an einem Ort prüfen",
+      "cta": "Stelle ausschreiben"
+    },
+    "stats": {
+      "eyebrow": "Auf offenen Daten aufgebaut",
+      "title": "Ein Verzeichnis, das echt ist – nicht generiert",
+      "works": "Indexierte wissenschaftliche Arbeiten",
+      "institutions": "Institutionen weltweit",
+      "researchers": "Forschende",
+      "labs": "Labore auf Labora",
+      "positions": "Offene Stellen",
+      "attribution": "Wissenschaftliche Metadaten von OpenAlex."
+    },
+    "pricing": {
+      "title": "Kostenlos starten. Upgrade, wenn du bereit bist.",
+      "description": "Die Suche ist immer kostenlos. Pässe schalten die E-Mail-Suche, unbegrenzte Zusammenfassungen und unbegrenzte E-Mail-Checks frei – so lange, wie du sie brauchst.",
+      "cta": "Tarife ansehen"
+    },
+    "faq": {
+      "title": "Fragen und Antworten",
+      "q1": "Woher stammen die Daten zu den Forschenden?",
+      "a1": "Aus OpenAlex, einem offenen Katalog der weltweiten wissenschaftlichen Arbeit. Wir zeigen nur Personen und Papers, die in diesem Bestand existieren. Wir erfinden nie Professor:innen oder Publikationen.",
+      "q2": "Schreibt Labora meine E-Mail für mich?",
+      "a2": "Nein – mit Absicht. Professor:innen merken es, und Antworten gehen an Studierende, die wie sie selbst klingen. Labora findet heraus, wen du anschreiben solltest, erklärt deren Arbeit und gibt konkretes Feedback zu deinem eigenen Entwurf.",
+      "q3": "Wie funktioniert das KI-Matching?",
+      "a3": "Wir vergleichen deine Fähigkeiten, Interessen, Erfahrung, Verfügbarkeit und deinen Arbeitsstil mit Stellen, Laboren und Forschenden und erklären jeden Treffer. Ein KI-Prüfer verfeinert die besten Ergebnisse. Namen, Hochschulen, Geschlecht, Nationalität oder andere geschützte Merkmale nutzen wir nie.",
+      "q4": "Wer kann mein Profil sehen?",
+      "a4": "Niemand, es sei denn, du schaltest die Auffindbarkeit ein. Dann sehen nur verifizierte Professor:innen dein Profil – niemals deine E-Mail-Adresse. Sie können dich einladen, und du entscheidest, ob du antwortest.",
+      "q5": "Müssen Professor:innen bei Labora sein?",
+      "a5": "Nein. Du kannst Forschende überall im wissenschaftlichen Bestand finden und kontaktieren. Professor:innen, die beitreten, können Stellen ausschreiben, ihre Forschung teilen und Studierende finden.",
+      "q6": "Was kostet es?",
+      "a6": "Die Suche ist kostenlos, und ein kostenloses Konto enthält einen Vorgeschmack auf Zusammenfassungen, E-Mail-Checks und KI-Matching. Pässe schalten unbegrenzte Nutzung frei – siehe Preise."
+    },
+    "cta": {
+      "title": "Deine nächste Forschungsstelle beginnt mit <em>einer guten E-Mail.</em>",
+      "subtitle": "Kostenlos suchen – ohne Karte.",
+      "button": "Professor:innen finden"
+    }
+  },
+  "how": {
+    "eyebrow": "So funktioniert’s",
+    "title": "Vier Schritte von der Neugier zum Gespräch",
+    "subtitle": "Labora ist darauf ausgelegt, was Professor:innen tatsächlich zum Antworten bringt.",
+    "s1": {
+      "title": "Den wissenschaftlichen Bestand durchsuchen",
+      "body": "Gib ein Forschungsinteresse und eine Universität ein – oder den Namen einer Person. Wir zeigen dir Menschen, die aktiv dazu publizieren.",
+      "b1": "Ergebnisse aus einer offenen wissenschaftlichen Datenbank",
+      "b2": "Nach Universität filtern, nach aktueller Aktivität sortieren"
+    },
+    "s2": {
+      "title": "Ihre Arbeit verstehen",
+      "body": "Lies eine Zusammenfassung in einfacher Sprache, ein aktuelles Ergebnis und Fragen, die sich lohnen – und überfliege dann die Papers selbst.",
+      "b1": "Zusammenfassungen für alle, die neu im Fach sind",
+      "b2": "Aktuelle und meistzitierte Papers auf einen Blick"
+    },
+    "s3": {
+      "title": "Eine E-Mail schreiben, die gelesen wird",
+      "body": "Schreibe sie selbst und prüfe sie dann. Wir markieren Schmeichelei, Textbausteine und Vagheit – und schreiben die E-Mail nie für dich.",
+      "b1": "Ein Gerüst und kommentierte Beispiele",
+      "b2": "Konkretes Feedback, Zeile für Zeile"
+    },
+    "s4": {
+      "title": "Nachfassen und verfolgen",
+      "body": "Halte fest, wen du kontaktiert hast, erhalte gut getimte Nachfass-Mails und behalte jede Spur an einem Ort im Blick.",
+      "b1": "Zwei Nachfass-Entwürfe und Kalendererinnerungen",
+      "b2": "Ein Kontakt-Tracker, der Buch führt"
+    },
+    "cta": "Mit der Suche beginnen",
+    "ctaMatch": "Oder lass die KI deine Passung finden"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "KI-Match",
+      "title": "Ein Match, das versteht, <em>wie du arbeitest.</em>",
+      "subtitle": "Labora vergleicht mehr als Schlagwörter. Es betrachtet deine Fähigkeiten, Interessen, Verfügbarkeit und deinen Arbeitsstil – und erklärt jedes Match in einfacher Sprache.",
+      "student": "Meine Matches finden",
+      "professor": "Meine idealen Studierenden finden",
+      "signUp": "Kostenloses Konto erstellen"
+    },
+    "signals": {
+      "eyebrow": "So funktioniert’s",
+      "title": "Vier Signale, ein erklärbarer Score",
+      "topics": {
+        "title": "Themen",
+        "body": "Wie stark sich deine Interessen, Kurse und Erfahrungen mit dem überschneiden, woran ein Labor oder eine Person arbeitet."
+      },
+      "skills": {
+        "title": "Fähigkeiten",
+        "body": "Welche der für eine Stelle nötigen Fähigkeiten du schon hast – und welche du aufbauen könntest."
+      },
+      "style": {
+        "title": "Arbeitsstil",
+        "body": "Eigenständigkeit, Teamarbeit, Tempo und Struktur: wie du am liebsten arbeitest im Vergleich dazu, wie das Labor arbeitet."
+      },
+      "hours": {
+        "title": "Verfügbarkeit",
+        "body": "Ob die Stunden, die du einbringen kannst, das abdecken, was die Stelle erwartet."
+      }
+    },
+    "demo": {
+      "eyebrow": "Probier’s aus",
+      "title": "Sieh dir den Arbeitsstil-Abgleich an",
+      "description": "Bewege die Regler so, wie du am liebsten arbeitest. Das Beispiellabor arbeitet selbstständig, kooperativ und in schnellem Tempo, mit locker definierten Aufgaben.",
+      "you": "Du",
+      "lab": "Beispiellabor",
+      "fit": "Stil-Passung",
+      "aligned": "Übereinstimmung bei: {items}",
+      "differs": "Unterschied bei: {items}",
+      "none": "Bewege einen Regler, um zu vergleichen."
+    },
+    "directions": {
+      "title": "Zwei Richtungen, eine Idee",
+      "students": {
+        "title": "Für Studierende",
+        "s1": "Gib deine Fähigkeiten, Interessen, Erfahrungen und deinen Arbeitsstil einmal an.",
+        "s2": "Erhalte Stellen und Professor:innen nach Passung sortiert, jeweils mit Gründen und Lücken.",
+        "s3": "Nutze die Tipps „So hebst du dich ab“ für eine stärkere Bewerbung oder E-Mail."
+      },
+      "professors": {
+        "title": "Für Professor:innen",
+        "s1": "Beschreibe deine ideale Person – oder lass die KI sie aus deiner Stelle und deinem Labor entwerfen.",
+        "s2": "Sieh Studierende, die zugestimmt haben, sortiert mit Gründen und Lücken.",
+        "s3": "Lade die besten Treffer mit einer Nachricht ein. Ihre E-Mail bleibt privat, bis sie antworten."
+      }
+    },
+    "trust": {
+      "eyebrow": "Fair von Anfang an",
+      "title": "Du behältst die Kontrolle",
+      "t1": {
+        "title": "Freiwillige Sichtbarkeit",
+        "body": "Studierende sind nur auffindbar, wenn sie es einschalten – und können es jederzeit ausschalten."
+      },
+      "t2": {
+        "title": "Private Kontaktdaten",
+        "body": "Professor:innen sehen die E-Mail-Adresse von Studierenden erst, wenn diese sich bewerben oder eine Einladung annehmen."
+      },
+      "t3": {
+        "title": "Keine geschützten Merkmale",
+        "body": "Namen, Hochschulen, Geschlecht, Nationalität und ähnliche Merkmale fließen nie in die Bewertung ein."
+      },
+      "t4": {
+        "title": "Gründe statt Blackbox",
+        "body": "Jeder Score zeigt, was gepasst hat und was nicht – damit du widersprechen kannst."
+      }
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Ist der Score eine Vorhersage, dass ich die Stelle bekomme?",
+      "a1": "Nein. Er ist ein Anhaltspunkt für die Passung, keine Vorhersage. Viele Dinge beeinflussen echte Entscheidungen – Timing, Finanzierung und andere Bewerbende.",
+      "q2": "Was macht die KI eigentlich?",
+      "a2": "Zuerst berechnen wir aus den obigen Signalen einen transparenten Score. Dann prüft ein KI-Prüfer die besten Ergebnisse, verfeinert die Rangfolge und schreibt die Erklärungen. Ist keine KI verfügbar, bekommst du trotzdem den transparenten Score.",
+      "q3": "Kann ich KI-Match ohne Profil nutzen?",
+      "a3": "Du kannst es ausführen, aber mit einem vollständigeren Profil werden die Ergebnisse deutlich besser. Wir zeigen dir, was fehlt."
+    },
+    "cta": {
+      "title": "Finde die Labore – und Menschen –, die passen.",
+      "button": "Kostenlos loslegen"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "title": "Wähle den Pass, der zu deinem Semester passt",
+    "subtitle": "Die Suche nach Forschenden ist immer kostenlos. Pässe schalten die Tools frei, die dir am meisten Zeit sparen – eine Zahlung, kein Abo, keine automatische Verlängerung.",
+    "plans": {
+      "free": {
+        "name": "Kostenlos",
+        "desc": "für immer"
+      },
+      "weekly": {
+        "name": "Wochen-Sprint",
+        "desc": "1 Woche Zugang"
+      },
+      "semester": {
+        "name": "Semester-Pass",
+        "desc": "4 Monate Zugang",
+        "badge": "Bestes Preis-Leistungs-Verhältnis"
+      },
+      "lifetime": {
+        "name": "Lebenslang",
+        "desc": "Für immer dein"
+      }
+    },
+    "cta": {
+      "free": "Kostenlos starten",
+      "weekly": "Wochen-Sprint starten",
+      "semester": "Semester-Pass holen",
+      "lifetime": "Lebenslangen Zugang holen",
+      "current": "Dein aktueller Tarif",
+      "signIn": "Zum Fortfahren anmelden"
+    },
+    "features": {
+      "unlimited_search": "Unbegrenzte Suche nach Forschenden",
+      "summaries_2": "2 Zusammenfassungen in einfacher Sprache",
+      "email_check_1": "1 E-Mail-Check",
+      "ai_match_3": "3 KI-Matches",
+      "outreach_tracker": "Kontakt-Tracker",
+      "positions_board": "Board mit offenen Stellen",
+      "everything_pro": "Alles aus Kostenlos, plus:",
+      "unlimited_summaries": "Unbegrenzte Zusammenfassungen",
+      "email_finder": "E-Mail-Suche",
+      "responsiveness": "Antwortbereitschafts-Scores",
+      "unlimited_checks": "Unbegrenzte E-Mail-Checks & Nachfass-Mails",
+      "playbook": "Der Leitfaden für Erstkontakt-E-Mails",
+      "everything_semester": "Alles aus dem Semester-Pass, plus:",
+      "never_pay_again": "Nie wieder zahlen",
+      "priority_features": "Frühzugang zu neuen Funktionen"
+    },
+    "payments": "Zahlungen werden sicher von Stripe verarbeitet. Wir sehen deine Kartendaten nie.",
+    "devMode": "In dieser Umgebung sind Zahlungen nicht angebunden – Pässe werden sofort aktiviert, damit du sie testen kannst.",
+    "activated": "Dein Pass ist aktiv. Viel Erfolg!",
+    "cancelled": "Der Bezahlvorgang wurde abgebrochen – es wurde nichts abgebucht.",
+    "referral": {
+      "title": "Bring eine:n Freund:in mit – ihr bekommt beide eine Woche",
+      "body": "Teile deinen Code unter Tarif & Abrechnung. Wenn sich jemand damit registriert, bekommt ihr beide 7 Tage Pro.",
+      "haveCode": "Hast du den Code einer Freundin oder eines Freundes?",
+      "placeholder": "Code eingeben",
+      "redeem": "Einlösen",
+      "redeemed": "Code eingelöst – 7 Tage Pro hinzugefügt.",
+      "signIn": "Zum Einlösen eines Codes anmelden"
+    },
+    "waitlist": {
+      "title": "Ein Tarif mit Antwortgarantie kommt",
+      "body": "Wir arbeiten an einem Tarif, der dir echte Gespräche verschafft. Trag dich in die Warteliste ein, dann erfährst du es als Erste:r.",
+      "placeholder": "du@universitaet.edu",
+      "join": "Zur Warteliste hinzufügen",
+      "joined": "Du stehst auf der Liste. Danke!"
+    },
+    "faq": {
+      "title": "Fragen zur Abrechnung",
+      "q1": "Ist das ein Abo?",
+      "a1": "Nein. Jeder Pass ist eine Einmalzahlung. Nichts verlängert sich automatisch, also gibt es nichts zu kündigen.",
+      "q2": "Was passiert, wenn mein Pass endet?",
+      "a2": "Dein Konto, deine gemerkten Forschenden und dein Tracker bleiben erhalten. Du fällst einfach auf das kostenlose Kontingent zurück.",
+      "q3": "Brauche ich einen Pass zum Suchen oder Bewerben?",
+      "a3": "Nein. Suchen, Stellen ansehen und Bewerben sind immer kostenlos.",
+      "q4": "Zahlen Professor:innen?",
+      "a4": "Nein. Verifizierte Professor:innen schreiben Stellen aus, teilen Forschung und finden Studierende kostenlos.",
+      "q5": "An wen wende ich mich bei Fragen zur Abrechnung?",
+      "a5": "Nutze die Kontaktseite, wir melden uns bei dir."
+    }
+  },
+  "dash": {
+    "nav": {
+      "overview": "Übersicht",
+      "matches": "KI-Match",
+      "talent": "Studierende finden",
+      "applications": "Bewerbungen",
+      "invitations": "Einladungen",
+      "outreach": "Kontakt-Tracker",
+      "saved": "Gemerkt",
+      "profile": "Mein Profil",
+      "billing": "Tarif & Abrechnung",
+      "settings": "Einstellungen",
+      "positions": "Stellen",
+      "lab": "Labor & Forschung",
+      "admin": "Admin"
+    },
+    "greeting": "Hallo, {name}",
+    "welcomeProfessor": "Willkommen, {name}",
+    "overview": {
+      "studentSubtitle": "So steht es um deine Forschungssuche.",
+      "professorSubtitle": "Verwalte dein Labor, deine Stellen und Bewerbungen.",
+      "findPositions": "Stellen finden",
+      "newPosition": "Neue Stelle",
+      "applications": "Bewerbungen",
+      "inReview": "In Prüfung",
+      "accepted": "Angenommen",
+      "invitations": "Einladungen",
+      "openPositions": "Offene Stellen",
+      "applicants": "Bewerbende",
+      "lab": "Labor",
+      "live": "Live",
+      "notSetUp": "Nicht eingerichtet",
+      "completeTitle": "Vervollständige dein Profil",
+      "completeBody": "Professor:innen sehen dein Profil bei jeder Bewerbung, und das Matching wird umso genauer, je mehr du teilst.",
+      "completeCta": "Profil aktualisieren",
+      "discoverTitle": "Lass dich von Professor:innen finden",
+      "discoverBody": "Schalte die Auffindbarkeit ein, und verifizierte Professor:innen können dich zur Bewerbung einladen. Deine E-Mail bleibt privat, bis du antwortest.",
+      "discoverCta": "Im Profil auswählen",
+      "recentApplications": "Letzte Bewerbungen",
+      "noApplications": "Du hast dich noch nicht beworben.",
+      "browse": "Offene Stellen durchsuchen",
+      "matchTitle": "Deine besten Matches",
+      "matchBody": "Sieh dir Stellen und Professor:innen an, sortiert danach, wie gut sie zu dir passen.",
+      "matchCta": "KI-Match öffnen",
+      "yourPositions": "Deine Stellen",
+      "noPositions": "Noch keine Stellen.",
+      "createLabTitle": "Richte dein Labor ein, um Studierende zu gewinnen",
+      "createLabBody": "Studierende sehen dein Laborprofil und deine Forschung bei jeder Stelle, die du ausschreibst.",
+      "createLabCta": "Laborprofil erstellen",
+      "unverifiedTitle": "Dein Konto wartet auf die Verifizierung",
+      "unverifiedBody": "Wir prüfen Professor:innenkonten, bevor Labore und Stellen öffentlich werden. In der Zwischenzeit kannst du alles vorbereiten.",
+      "talentTitle": "Finde Studierende, die passen",
+      "talentBody": "Beschreibe deine ideale Person und lass die KI die Studierenden ranken, die zugestimmt haben.",
+      "talentCta": "Studierende finden",
+      "pendingInvitations_one": "Du hast {count} wartende Einladung",
+      "pendingInvitations_other": "Du hast {count} wartende Einladungen",
+      "viewInvitations": "Einladungen ansehen",
+      "applicantsCount_one": "{count} Bewerbung",
+      "applicantsCount_other": "{count} Bewerbungen",
+      "newForYou": "Neu für dich"
+    },
+    "profile": {
+      "title": "Mein Profil",
+      "subtitle": "Professor:innen sehen das bei deiner Bewerbung, und das KI-Match nutzt es, um deine Passung zu finden.",
+      "strength": "Profilstärke",
+      "basics": "Die Basics",
+      "university": "Universität",
+      "major": "Studienfach",
+      "year": "Studienjahr",
+      "selectYear": "Auswählen …",
+      "about": "Über dich",
+      "bio": "Kurzvorstellung",
+      "bioHint": "Wer bist du, und was interessiert dich?",
+      "skills": "Fähigkeiten",
+      "skillsHint": "Kommagetrennt, z. B. Python, PyTorch, R, Laborsicherheit",
+      "interests": "Forschungsinteressen",
+      "interestsHint": "Themen, an denen du gern arbeiten würdest, z. B. Computer Vision, Zellschicksal.",
+      "experience": "Was du bisher gemacht hast",
+      "experienceHint": "Projekte, Kurse, frühere Forschung – je konkreter, desto besser das Match.",
+      "availability": "Stunden pro Woche, die du einbringen kannst",
+      "workStyle": "Wie du gern arbeitest",
+      "workStyleHint": "Stelle jeden Regler dorthin, wo du dich am wohlsten fühlst. Damit wirst du mit Laboren verglichen.",
+      "links": "Links",
+      "resume": "Link zum Lebenslauf",
+      "resumeHint": "Ein Link zu einer PDF-Datei (Drive, Dropbox, deine Website).",
+      "website": "Persönliche Website",
+      "github": "GitHub-Profil",
+      "visibility": "Sichtbarkeit",
+      "discoverable": "Verifizierten Professor:innen erlauben, mich zu finden",
+      "discoverableDesc": "Professor:innen können dein Profil sehen und dich zur Bewerbung einladen. Deine E-Mail bleibt privat, bis du antwortest. Du kannst das jederzeit ausschalten.",
+      "save": "Profil speichern",
+      "saved": "Profil gespeichert",
+      "welcome": "Willkommen bei Labora! Erzähl uns von dir, um bessere Matches zu bekommen."
+    },
+    "applications": {
+      "title": "Bewerbungen",
+      "subtitle": "Alles, worauf du dich beworben hast, an einem Ort.",
+      "emptyTitle": "Noch keine Bewerbungen",
+      "emptyBody": "Wenn du dich auf eine Stelle bewirbst, erscheint sie hier, damit du den Status verfolgen kannst.",
+      "browse": "Stellen durchsuchen",
+      "applied": "Beworben {when}",
+      "withdraw": "Zurückziehen",
+      "withdrawConfirm": "Diese Bewerbung zurückziehen?",
+      "withdrawn": "Bewerbung zurückgezogen",
+      "invited": "Eingeladen",
+      "decided": "Entschieden {when}"
+    },
+    "invitations": {
+      "title": "Einladungen",
+      "subtitleStudent": "Professor:innen, die sich deine Bewerbung wünschen.",
+      "subtitleProfessor": "Studierende, die du eingeladen hast.",
+      "emptyStudentTitle": "Noch keine Einladungen",
+      "emptyStudentBody": "Schalte die Auffindbarkeit in deinem Profil ein, damit verifizierte Professor:innen dich einladen können.",
+      "emptyProfessorTitle": "Du hast noch niemanden eingeladen",
+      "emptyProfessorBody": "Nutze „Studierende finden“, um Studierende zu entdecken, die zu deinem Labor passen.",
+      "from": "Von {name}",
+      "to": "An {name}",
+      "match": "{score} % Passung",
+      "accept": "Annehmen & bewerben",
+      "decline": "Ablehnen",
+      "replyPlaceholder": "Füge eine Nachricht an die Professur hinzu (optional)",
+      "accepted": "Du hast angenommen – eine Bewerbung wurde erstellt.",
+      "declined": "Einladung abgelehnt",
+      "withdraw": "Einladung zurückziehen",
+      "receivedAgo": "Gesendet {when}",
+      "findStudents": "Studierende finden"
+    },
+    "outreach": {
+      "title": "Kontakt-Tracker",
+      "subtitle": "Halte fest, wen du kontaktiert hast, wann du nachfassen solltest und was passiert ist.",
+      "emptyTitle": "Noch nichts erfasst",
+      "emptyBody": "Füge Forschende über deren Profil hinzu, um deine Kontakte im Blick zu behalten und Nachfass-Termine zu erhalten.",
+      "find": "Professor:innen finden",
+      "followUpDue": "Nachfassen {when}",
+      "overdue": "Nachfassen überfällig",
+      "sentOn": "Gesendet am {date}",
+      "repliedOn": "Antwort am {date}",
+      "notes": "Notizen",
+      "notesPlaceholder": "Alles, was du dir merken solltest …",
+      "status": "Status",
+      "remove": "Entfernen",
+      "removeConfirm": "Diese Person aus deinem Tracker entfernen?",
+      "planFollowUp": "Nachfass-Mails planen",
+      "helpTitle": "Deine Einträge helfen allen",
+      "helpBody": "Die auf Forschendenprofilen angezeigten Antwortquoten stammen aus anonymen, aggregierten Kontaktprotokollen wie deinen – einzelne Einträge werden nie angezeigt.",
+      "stats": {
+        "total": "Erfasst",
+        "sent": "Gesendet",
+        "replied": "Beantwortet",
+        "due": "Nachfassen fällig"
+      }
+    },
+    "saved": {
+      "title": "Gemerkt",
+      "subtitle": "Forschende und Stellen, die du dir gemerkt hast.",
+      "professors": "Forschende",
+      "positions": "Stellen",
+      "emptyProfessors": "Noch keine Forschenden gemerkt",
+      "emptyProfessorsBody": "Tippe bei einer Person auf das Lesezeichen, um sie deiner Merkliste hinzuzufügen.",
+      "emptyPositions": "Noch keine Stellen gemerkt",
+      "emptyPositionsBody": "Tippe bei einer Stelle auf das Lesezeichen, um sie für später aufzuheben."
+    },
+    "billing": {
+      "title": "Tarif & Abrechnung",
+      "subtitle": "Dein Zugang, deine Nutzung und Empfehlungsprämien.",
+      "currentPlan": "Aktueller Tarif",
+      "plan": {
+        "free": "Kostenlos",
+        "weekly": "Wochen-Sprint",
+        "semester": "Semester-Pass",
+        "lifetime": "Lebenslang"
+      },
+      "activeUntil": "Aktiv bis {date}",
+      "lifetimeNote": "Du hast lebenslangen Zugang.",
+      "freeNote": "Du nutzt den kostenlosen Tarif.",
+      "upgrade": "Tarife ansehen",
+      "usage": "Kostenloses Kontingent",
+      "usageItem": "{used} von {limit} genutzt",
+      "unlimited": "Unbegrenzt",
+      "features": {
+        "summary": "Zusammenfassungen zu Professor:innen",
+        "email_check": "E-Mail-Checks",
+        "follow_up": "Nachfass-Pläne",
+        "match_positions": "Stellen-Matches",
+        "match_professors": "Professor:innen-Matches"
+      },
+      "referral": "Freund:in einladen",
+      "referralBody": "Teile deinen Code. Wenn sich jemand damit registriert, bekommt ihr beide {days} Tage Pro.",
+      "yourCode": "Dein Code",
+      "copyCode": "Code kopieren",
+      "copyLink": "Einladungslink kopieren",
+      "copied": "Kopiert",
+      "redeemed_one": "{count} Freund:in ist mit deinem Code beigetreten",
+      "redeemed_other": "{count} Freund:innen sind mit deinem Code beigetreten",
+      "redeem": "Hast du den Code einer Freundin oder eines Freundes?",
+      "redeemPlaceholder": "Code eingeben",
+      "redeemCta": "Einlösen",
+      "redeemedOk": "Code eingelöst – {days} Tage Pro hinzugefügt.",
+      "checkoutSuccess": "Danke! Dein Tarif ist gleich aktiv.",
+      "devMode": "In dieser Umgebung sind Zahlungen nicht angebunden – Tarife werden zum Testen sofort aktiviert."
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "subtitle": "Dein Konto, deine Sprache und deine Sicherheit.",
+      "account": "Konto",
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "emailNote": "Deine E-Mail-Adresse kann nicht geändert werden.",
+      "language": "Sprache",
+      "languageHint": "Wird auch für KI-geschriebene Zusammenfassungen und Feedback verwendet.",
+      "saveChanges": "Änderungen speichern",
+      "saved": "Einstellungen gespeichert",
+      "password": "Passwort",
+      "currentPassword": "Aktuelles Passwort",
+      "newPassword": "Neues Passwort",
+      "changePassword": "Passwort ändern",
+      "passwordChanged": "Passwort aktualisiert",
+      "danger": "Konto löschen",
+      "dangerBody": "Dadurch werden dein Profil, deine Bewerbungen und alles, was zu deinem Konto gehört, dauerhaft entfernt. Das lässt sich nicht rückgängig machen.",
+      "dangerConfirm": "Gib zur Bestätigung dein Passwort ein",
+      "deleteCta": "Mein Konto löschen",
+      "deleted": "Dein Konto wurde gelöscht."
+    },
+    "lab": {
+      "title": "Labor & Forschung",
+      "subtitle": "Das sehen Studierende, wenn sie deine Stellen in Betracht ziehen.",
+      "createTitle": "Erstelle dein Labor",
+      "profileTitle": "Laborprofil",
+      "name": "Laborname",
+      "university": "Universität",
+      "department": "Fachbereich",
+      "description": "Beschreibung",
+      "descriptionHint": "Woran arbeitet dein Labor? Halte es für Bachelor-Studierende verständlich.",
+      "keywords": "Forschungsschlagwörter",
+      "keywordsHint": "Kommagetrennt",
+      "website": "Website des Labors",
+      "culture": "Wie es ist, hier zu arbeiten",
+      "cultureHint": "Betreuungsstil, Besprechungsrhythmus, wofür Studierende verantwortlich sind. Studierende schätzen Ehrlichkeit.",
+      "teamSize": "Teamgröße",
+      "workStyle": "Wie dein Labor arbeitet",
+      "workStyleHint": "Wird genutzt, um Arbeitsstile mit Studierenden zu vergleichen.",
+      "openalex": "OpenAlex-Autor-ID",
+      "openalexHint": "Optional. Verknüpft dein Labora-Labor mit deinem Publikationsprofil (beginnt mit A …).",
+      "saveLab": "Labor speichern",
+      "createLab": "Labor erstellen",
+      "created": "Labor erstellt – füge jetzt Forschungsmaterialien hinzu und schreibe eine Stelle aus.",
+      "updated": "Labor aktualisiert",
+      "materials": "Forschungsmaterialien",
+      "materialsHint": "Teile Papers, Datensätze oder Poster, damit Studierende deine Arbeit kennenlernen.",
+      "nothingShared": "Noch nichts geteilt.",
+      "addMaterial": "Material hinzufügen",
+      "materialTitle": "Titel",
+      "materialType": "Art",
+      "materialLink": "Link",
+      "materialLinkHint": "arXiv, DOI, Google Drive, GitHub …",
+      "materialDescription": "Kurzbeschreibung",
+      "removeMaterial": "Dieses Material entfernen?",
+      "verificationTitle": "Verifizierung ausstehend",
+      "verificationBody": "Dein Labor wird öffentlich, sobald wir dein Professor:innenkonto verifiziert haben. Ergänze eine Labor-Website, um das zu beschleunigen."
+    },
+    "positions": {
+      "title": "Stellen",
+      "subtitle": "Deine Ausschreibungen und wer sich beworben hat.",
+      "new": "Neue Stelle",
+      "emptyTitle": "Noch keine Stellen",
+      "emptyBody": "Schreibe eine Stelle aus und erhalte Bewerbungen.",
+      "emptyLab": "Erstelle zuerst dein Laborprofil.",
+      "post": "Erste Stelle ausschreiben",
+      "open": "Offen",
+      "closed": "Geschlossen",
+      "close": "Schließen",
+      "reopen": "Wieder öffnen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "deleteConfirm": "Diese Stelle löschen? Das lässt sich nicht rückgängig machen.",
+      "applicants": "Bewerbende",
+      "postedAgo": "Ausgeschrieben {when}",
+      "viewPublic": "Öffentliche Seite ansehen",
+      "newTitle": "Neue Stelle",
+      "newSubtitle": "Beschreibe die Stelle. Du kannst sie jederzeit bearbeiten.",
+      "editTitle": "Stelle bearbeiten",
+      "needLab": "Du brauchst ein Laborprofil, bevor du eine Stelle ausschreiben kannst.",
+      "createLab": "Erstelle dein Labor",
+      "noApplicants": "Noch keine Bewerbungen",
+      "noApplicantsBody": "Teile deine Stelle oder lade passende Studierende über „Studierende finden“ ein.",
+      "decline": "Ablehnen",
+      "accept": "Annehmen",
+      "email": "Bewerbende:n anschreiben",
+      "resume": "Lebenslauf",
+      "invitedBadge": "Von dir eingeladen",
+      "profileIncomplete": "Profil unvollständig",
+      "form": {
+        "title": "Stellentitel",
+        "titlePlaceholder": "Studentische Hilfskraft: Self-Supervised Vision",
+        "description": "Beschreibung",
+        "descriptionHint": "Woran arbeitet die Person? Was lernt sie?",
+        "requirements": "Anforderungen",
+        "requirementsHint": "Kurse oder Erfahrung (optional)",
+        "skills": "Erforderliche Fähigkeiten",
+        "skillsHint": "Kommagetrennt – wird fürs Matching genutzt, z. B. python, pytorch",
+        "compensation": "Vergütung",
+        "hours": "Stunden / Woche",
+        "term": "Zeitraum",
+        "location": "Ort",
+        "slots": "Anzahl Stellen",
+        "deadline": "Bewerbung bis",
+        "keywords": "Schlagwörter",
+        "keywordsHint": "Hilft Studierenden, deine Stelle zu finden",
+        "publish": "Stelle veröffentlichen",
+        "saveChanges": "Änderungen speichern",
+        "saved": "Stelle gespeichert",
+        "notSpecified": "Nicht angegeben"
+      }
+    },
+    "admin": {
+      "title": "Admin",
+      "subtitle": "Verifiziere Professor:innen und prüfe, was Leute einsenden.",
+      "overview": "Übersicht",
+      "stats": {
+        "users": "Nutzende",
+        "students": "Studierende",
+        "professors": "Professor:innen",
+        "pending_professors": "Warten auf Verifizierung",
+        "labs": "Labore",
+        "open_positions": "Offene Stellen",
+        "applications": "Bewerbungen",
+        "invitations": "Einladungen",
+        "feedback": "Feedback-Beiträge",
+        "waitlist": "Warteliste",
+        "paid_users": "Zahlende Nutzende"
+      },
+      "verification": "Professor:innen-Verifizierung",
+      "onlyPending": "Nur ausstehende",
+      "verify": "Verifizieren",
+      "unverify": "Widerrufen",
+      "verifiedAt": "Verifiziert",
+      "pendingBadge": "Ausstehend",
+      "lab": "Labor",
+      "waitlist": "Warteliste",
+      "contact": "Kontaktnachrichten",
+      "empty": "Hier ist noch nichts.",
+      "notAdmin": "Dieser Bereich ist nur für Administrator:innen.",
+      "verifiedToast": "Professor:in verifiziert",
+      "revokedToast": "Verifizierung widerrufen"
+    }
+  },
+  "auth": {
+    "shell": {
+      "headline": "Dein nächster Durchbruch beginnt mit dem richtigen Labor.",
+      "p1": "Entdecke Forschende aus dem weltweiten wissenschaftlichen Bestand",
+      "p2": "Verstehe ihre Arbeit, bevor du ein Wort schreibst",
+      "p3": "Lass dich nach Fähigkeiten und Arbeitsweise zusammenbringen",
+      "footer": "Für Studierende und Professor:innen – in deiner Sprache."
+    },
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melde dich an, um fortzufahren.",
+      "email": "E-Mail",
+      "emailPlaceholder": "du@universitaet.edu",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren",
+      "forgot": "Passwort vergessen?",
+      "forgotHelp": "Melde dich bei uns, dann helfen wir dir, wieder hineinzukommen.",
+      "demo": "Demokonten (Passwort: password123)",
+      "demoStudent": "Studierende:r",
+      "demoProfessor": "Professor:in",
+      "demoAdmin": "Admin"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Registriere dich mit deiner Hochschul-E-Mail. Das dauert eine Minute.",
+      "iAm": "Ich bin …",
+      "student": "Studierende:r",
+      "studentDesc": "Forschung finden und zusammengebracht werden",
+      "professor": "Professor:in",
+      "professorDesc": "Studierende gewinnen, eigene Arbeit teilen",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholderStudent": "Jamie Park",
+      "fullNamePlaceholderProfessor": "Prof. Jane Smith",
+      "email": "Hochschul-E-Mail",
+      "emailHint": "Verwende eine Adresse, die auf .edu, .ac.uk oder eine ähnliche akademische Domain endet.",
+      "password": "Passwort",
+      "passwordHint": "Mindestens 8 Zeichen.",
+      "referral": "Code einer Freundin oder eines Freundes",
+      "referralHint": "Du hast einen Code bekommen? Ihr beide erhaltet eine Woche Pro.",
+      "consent": "Mit der Erstellung eines Kontos stimmst du unseren <terms>Nutzungsbedingungen</terms> und der <privacy>Datenschutzerklärung</privacy> zu.",
+      "submit": "Konto erstellen",
+      "haveAccount": "Du hast schon ein Konto?",
+      "signIn": "Anmelden",
+      "professorNote": "Professor:innenkonten werden von unserem Team verifiziert, bevor dein Labor und deine Stellen öffentlich werden."
+    }
+  },
+  "discover": {
+    "title": "Finde deine Professur für die Forschung",
+    "subtitle": "Suche Forschende, die aktiv zu dem publizieren, was dir wichtig ist – aus dem weltweiten wissenschaftlichen Bestand.",
+    "modeInterest": "Nach Interesse",
+    "modeName": "Nach Name",
+    "interestLabel": "Forschungsinteresse",
+    "interestPlaceholder": "z. B. Computational Neuroscience",
+    "nameLabel": "Name der Person",
+    "namePlaceholder": "z. B. Jane Smith",
+    "universityLabel": "Universität",
+    "universityPlaceholder": "Beliebige Universität",
+    "universityHint": "Wähle aus der Liste, um eine einzelne Institution zu durchsuchen.",
+    "search": "Suchen",
+    "searching": "Suche läuft …",
+    "sortBy": "Sortieren nach",
+    "minH": "Mindest-h-Index",
+    "minHAny": "Beliebig",
+    "filters": "Filter",
+    "resultsFor": "Forschende zu „{q}“",
+    "resultsAt": "· {university}",
+    "resultsCount_one": "{count} Forscher:in",
+    "resultsCount_other": "{count} Forschende",
+    "noResults": "Keine Forschenden gefunden",
+    "noResultsBody": "Versuche ein breiteres Interesse, eine andere Schreibweise oder entferne den Universitätsfilter.",
+    "startTitle": "Beginne mit etwas, das dich neugierig macht",
+    "startBody": "Probiere ein Thema wie „Proteinfaltung“ oder „Klimapolitik“, ergänze eine Universität, falls du eine im Blick hast, und wir zeigen dir, wer dazu publiziert.",
+    "noteTitle": "So werden die Ergebnisse sortiert",
+    "noteBody": "Forschende werden danach sortiert, wie viel sie zuletzt zu deinem Thema publiziert haben, gewichtet nach ihrem Standing im Fach. Titel wie „Professor:in“ werden in wissenschaftlichen Datenbanken nicht erfasst – nutze daher die Zusammenfassung und die Papers, um die Passung einzuschätzen.",
+    "hIndex": "h-Index",
+    "papers": "Publikationen",
+    "citations": "Zitationen",
+    "recentWorks": "Letzte 3 Jahre",
+    "onTopic": "Zu diesem Thema",
+    "onLabora": "Auf Labora",
+    "viewProfile": "Profil ansehen",
+    "save": "Merken",
+    "saved": "Gemerkt",
+    "loadMore": "Mehr Forschende anzeigen",
+    "yourInterest": "Dein Interesse",
+    "disclaimer": "Daten von OpenAlex. Zugehörigkeiten spiegeln die neuesten Publikationseinträge wider und können der Realität hinterherhinken.",
+    "signInToSave": "Melde dich an, um Forschende auf deiner Merkliste zu speichern.",
+    "savedToast": "Zur Merkliste hinzugefügt",
+    "removedToast": "Von der Merkliste entfernt",
+    "clearFilters": "Filter zurücksetzen",
+    "universityAny": "Beliebige Universität",
+    "searchingAt": "Forschende an {university} werden gesucht",
+    "lookingUp": "Institutionen werden gesucht …"
+  },
+  "professor": {
+    "back": "Zurück zur Suche",
+    "notFoundTitle": "Wir konnten diese:n Forscher:in nicht finden",
+    "notFoundBody": "Der Link ist möglicherweise falsch, oder die wissenschaftliche Datenbank ist ausgelastet. Versuche die Suche erneut.",
+    "orcid": "ORCID",
+    "openalex": "OpenAlex-Profil",
+    "onLabora": "Leitet ein Labor auf Labora",
+    "viewLab": "Labor ansehen",
+    "stats": {
+      "hIndex": "h-Index",
+      "papers": "Publikationen",
+      "citations": "Zitationen",
+      "recent": "Letzte 3 Jahre",
+      "i10": "i10-Index"
+    },
+    "tabs": {
+      "overview": "Überblick",
+      "papers": "Publikationen",
+      "contact": "Kontakt"
+    },
+    "summary": {
+      "title": "Die Arbeit in einfacher Sprache",
+      "cta": "Arbeit erklären",
+      "ctaBody": "Erhalte eine kurze Zusammenfassung dessen, was die Person erforscht, ein aktuelles Ergebnis und Fragen, die sich lohnen.",
+      "loading": "Aktuelle Papers werden gelesen …",
+      "overview": "Woran geforscht wird",
+      "keyFinding": "Ein aktuelles Ergebnis",
+      "fromPaper": "Aus: {title}",
+      "topics": "Forschungsgebiete, einfach erklärt",
+      "goodFit": "Du könntest gut passen, wenn …",
+      "starters": "Fragen, die sich lohnen",
+      "startersHint": "Nutze sie als Anstoß für deine eigene Neugier – Professor:innen merken, wenn eine Frage ehrlich gemeint ist.",
+      "aiBadge": "KI-Zusammenfassung",
+      "extractiveBadge": "Automatische Zusammenfassung",
+      "extractiveNote": "KI-Zusammenfassungen sind auf diesem Server nicht aktiviert, daher wurde dies direkt aus den Publikationsdaten zusammengestellt (auf Englisch).",
+      "aiNote": "Von einer KI anhand öffentlicher Abstracts geschrieben. Prüfe immer die Papers.",
+      "quota": "{used} von {limit} kostenlosen Zusammenfassungen genutzt",
+      "quotaPro": "Unbegrenzte Zusammenfassungen",
+      "signInTitle": "Melde dich an, um die Zusammenfassung zu lesen",
+      "signInBody": "Kostenlose Konten erhalten für ein paar Forschende Zusammenfassungen in einfacher Sprache, ein zentrales Ergebnis und Gesprächseinstiege.",
+      "upgrade": "Unbegrenzte Zusammenfassungen holen",
+      "limitTitle": "Du hast deine kostenlosen Zusammenfassungen aufgebraucht",
+      "limitBody": "Pässe schalten unbegrenzte Zusammenfassungen, die E-Mail-Suche und mehr frei."
+    },
+    "topics": "Forschungsthemen",
+    "activity": "Publikationen pro Jahr",
+    "papers": {
+      "recent": "Neueste",
+      "top": "Am häufigsten zitiert",
+      "empty": "Keine Papers gefunden.",
+      "abstract": "Abstract",
+      "cited": "{n} Zitationen",
+      "openAccess": "Open Access",
+      "viewPaper": "Paper ansehen"
+    },
+    "contact": {
+      "title": "E-Mail-Suche",
+      "lockedTitle": "Schalte E-Mail-Suche und Antwortbereitschaft frei",
+      "lockedBody": "Sieh wahrscheinliche institutionelle Adressen und wie oft Studierende eine Antwort bekommen. In jedem Pass enthalten.",
+      "seePlans": "Tarife ansehen",
+      "guessNote": "Das sind Vermutungen auf Basis üblicher Namensmuster, keine verifizierten Adressen. Bestätige sie im Personenverzeichnis, bevor du sendest.",
+      "pattern": "Muster: {pattern}",
+      "mostCommon": "Am häufigsten",
+      "copy": "Adresse kopieren",
+      "copied": "Adresse kopiert",
+      "compose": "In der E-Mail-App öffnen",
+      "directory": "Im Personenverzeichnis suchen",
+      "noDomain": "Wir konnten die E-Mail-Domain dieser Institution nicht ermitteln.",
+      "responsiveness": "Antwortbereitschaft",
+      "resp": {
+        "high": "Antwortet oft",
+        "medium": "Antwortet manchmal",
+        "low": "Antwortet selten",
+        "unknown": "Noch nicht genug Meldungen"
+      },
+      "respBody": "Basierend auf {n} Kontaktprotokollen von Studierenden. {rate} haben eine Antwort erhalten{days}.",
+      "respDays": ", in der Regel innerhalb von {days} Tagen",
+      "respUnknown": "Das zeigen wir erst, wenn mindestens 3 Studierende ihren Kontakt zu dieser Person protokolliert haben. Protokolliere deinen, um anderen zu helfen.",
+      "labDays": "Das Labor auf Labora beantwortet Bewerbungen in der Regel innerhalb von {days} Tagen.",
+      "logOutreach": "Meinen Kontakt protokollieren"
+    },
+    "sidebar": {
+      "writeTitle": "Bereit für die Kontaktaufnahme?",
+      "writeBody": "Entwirf deine E-Mail und prüfe sie dann gegen das, was laut Professor:innen im Papierkorb landet.",
+      "writeCta": "Meine E-Mail prüfen",
+      "trackTitle": "Kontakt-Tracker",
+      "trackBody": "Behalte im Blick, wen du kontaktiert hast und wann du nachfassen solltest.",
+      "trackStart": "Zum Tracker hinzufügen",
+      "status": "Status",
+      "tracked": "Zu deinem Tracker hinzugefügt",
+      "saveError": "Der Tracker konnte nicht aktualisiert werden"
+    }
+  },
+  "positions": {
+    "title": "Offene Stellen",
+    "subtitle": "Forschungsstellen, die direkt von verifizierten Professor:innen ausgeschrieben werden. Lies zuerst ihre Arbeit, dann bewirb dich.",
+    "searchLabel": "Suchen",
+    "searchPlaceholder": "Thema, Fähigkeit oder Laborname",
+    "filters": "Filter",
+    "compensation": "Vergütung",
+    "location": "Ort",
+    "term": "Zeitraum",
+    "university": "Universität",
+    "universityPlaceholder": "z. B. MIT",
+    "department": "Fachbereich",
+    "departmentPlaceholder": "z. B. Biologie",
+    "any": "Beliebig",
+    "count_one": "{count} Stelle",
+    "count_other": "{count} Stellen",
+    "searching": "Suche läuft …",
+    "noResults": "Keine Stellen passen zu deiner Suche",
+    "noResultsBody": "Versuche ein breiteres Stichwort oder entferne einen Filter. Oder suche direkt nach Professor:innen – für eine Kontaktaufnahme brauchst du keine ausgeschriebene Stelle.",
+    "discoverCta": "Professor:innen finden",
+    "clear": "Filter zurücksetzen",
+    "postedAgo": "Ausgeschrieben {when}",
+    "closes": "Endet {when}",
+    "applyBy": "Bewerbung bis {date}",
+    "deadlinePassed": "Frist abgelaufen",
+    "slots_one": "{count} Platz",
+    "slots_other": "{count} Plätze",
+    "backToAll": "Alle Stellen",
+    "about": "Über diese Stelle",
+    "requirements": "Was wir suchen",
+    "skills": "Fähigkeiten",
+    "research": "Lies die Forschung des Labors",
+    "researchHint": "Mach dich mit der Arbeit vertraut, bevor du dich bewirbst.",
+    "noMaterials": "Noch keine Forschungsmaterialien geteilt.",
+    "aboutLab": "Über das Labor",
+    "viewLab": "Laborprofil ansehen",
+    "website": "Website des Labors",
+    "notFound": "Stelle nicht gefunden",
+    "verifiedLab": "Verifiziertes Labor",
+    "apply": {
+      "title": "Bewerben",
+      "label": "Warum passt du gut?",
+      "placeholder": "Teile dein Interesse, relevante Kurse und deine Verfügbarkeit …",
+      "submit": "Bewerbung absenden",
+      "shared": "Dein Profil wird mit der Professur geteilt.",
+      "sent": "Bewerbung gesendet",
+      "status": "Status",
+      "track": "Bewerbungen verfolgen",
+      "signIn": "Melde dich mit deinem Studierendenkonto an, um dich zu bewerben.",
+      "signInCta": "Zum Bewerben anmelden",
+      "newHere": "Neu hier?",
+      "createAccount": "Konto erstellen",
+      "professorNote": "Du bist als Professor:in angemeldet. Nur Studierende können sich bewerben.",
+      "closedNote": "Diese Stelle nimmt keine Bewerbungen mehr an.",
+      "completeProfile": "Vervollständige dein Profil, damit Professor:innen sehen, was du schon gemacht hast.",
+      "toProfile": "Profil aktualisieren",
+      "fitHint": "Sei konkret: eine Sache, die du gemacht hast, eine Sache, die du lernen möchtest, und wann du verfügbar bist."
+    }
+  },
+  "lab": {
+    "notFound": "Labor nicht gefunden",
+    "notFoundBody": "Das Labor ist möglicherweise privat, oder der Link ist falsch.",
+    "openPositions": "Offene Stellen",
+    "noPositions": "Derzeit keine offenen Stellen",
+    "noPositionsBody": "Schau bald wieder vorbei – dieses Labor schreibt vielleicht neue Stellen aus. Du kannst auch direkt Kontakt aufnehmen.",
+    "materials": "Forschungsmaterialien",
+    "culture": "Wie es ist, hier zu arbeiten",
+    "teamSize": "Team mit {count}",
+    "workStyle": "Wie das Labor arbeitet",
+    "website": "Website des Labors",
+    "professor": "Leitung",
+    "verified": "Verifiziert"
+  },
+  "community": {
+    "feedback": {
+      "title": "Feedback-Board",
+      "subtitle": "Gestalte Labora mit. Schlage Funktionen vor, melde Fehler oder teile, was dich beschäftigt – und stimme darüber ab, was am wichtigsten ist.",
+      "kind": {
+        "feature": "Funktionswunsch",
+        "bug": "Fehlermeldung",
+        "general": "Allgemeines Feedback"
+      },
+      "status": {
+        "open": "Offen",
+        "planned": "Geplant",
+        "in_progress": "In Arbeit",
+        "done": "Erledigt"
+      },
+      "newPost": "Teile deine Gedanken",
+      "postTitle": "Titel",
+      "postTitlePlaceholder": "Eine kurze Zusammenfassung",
+      "postBody": "Details",
+      "postBodyPlaceholder": "Was würdest du dir wünschen, oder was ist schiefgelaufen?",
+      "post": "Veröffentlichen",
+      "posted": "Danke – dein Beitrag ist online.",
+      "signIn": "Melde dich an, um zu posten und abzustimmen.",
+      "sortVotes": "Meiste Stimmen",
+      "sortNew": "Neueste",
+      "filterAll": "Alle",
+      "count_one": "{count} Beitrag",
+      "count_other": "{count} Beiträge",
+      "empty": "Hier ist noch nichts – sei die oder der Erste.",
+      "vote": "Abstimmen",
+      "voted": "Abgestimmt",
+      "by": "von {name}"
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "subtitle": "Fragen, Ideen oder Hilfe zu deinem Konto? Wir lesen jede Nachricht.",
+      "name": "Dein Name",
+      "email": "Deine E-Mail",
+      "message": "Nachricht",
+      "messagePlaceholder": "Wie können wir helfen?",
+      "send": "Nachricht senden",
+      "sent": "Danke – wir melden uns bald.",
+      "professorsTitle": "Bist du Professor:in?",
+      "professorsBody": "Wir verifizieren Professor:innenkonten, bevor Labore öffentlich werden. Wenn deine Institution eine E-Mail-Domain nutzt, die wir nicht kennen, teile sie uns hier mit.",
+      "privacy": "Wir verwenden deine Angaben nur, um auf diese Nachricht zu antworten."
+    }
+  },
+  "tools": {
+    "emailChecker": {
+      "title": "E-Mail-Check",
+      "subtitle": "Füge deinen Entwurf ein und sieh genau, welche Formulierungen Professor:innen zum Aufhören bringen. Wir schreiben deine E-Mail nie um – du behältst deine eigene Stimme.",
+      "subject": "Betreff",
+      "subjectPlaceholder": "z. B. Frage zu Ihrem Paper über Tiefenschätzung",
+      "body": "Deine E-Mail",
+      "bodyPlaceholder": "Sehr geehrte Frau Professorin, sehr geehrter Herr Professor …",
+      "professorContext": "Abgleich mit der aktuellen Arbeit von {name}",
+      "removeContext": "Entfernen",
+      "check": "Meine E-Mail prüfen",
+      "checking": "Deine E-Mail wird gelesen …",
+      "example": "Fehlerhaftes Beispiel ausprobieren",
+      "clear": "Leeren",
+      "words": "{count} Wörter",
+      "wordsHint": "Ziel: 90–180 Wörter",
+      "resultsTitle": "Deine Ergebnisse",
+      "emptyTitle": "Dein Feedback erscheint hier",
+      "emptyBody": "Schreibe oder füge links eine E-Mail ein und klicke dann auf „Meine E-Mail prüfen“.",
+      "score": "Score",
+      "highlights": "Deine E-Mail, markiert",
+      "issues": "Was zu verbessern ist",
+      "noIssues": "Nichts zu verbessern – das liest sich gut.",
+      "strengths": "Was gut funktioniert",
+      "aiSummary": "Gesamteindruck",
+      "soundsGeneric": "Könnte an jeden gehen",
+      "soundsGenericHint": "Wie leicht sich diese E-Mail unverändert an beliebige Professor:innen senden ließe.",
+      "aiUsed": "Mit KI-Prüfung",
+      "rulesOnly": "Regelbasierte Prüfung",
+      "englishOnly": "Formulierungs-Checks funktionieren derzeit nur bei englischen E-Mails. Längen- und Strukturprüfungen gelten weiterhin.",
+      "signInTitle": "Melde dich an, um deine E-Mail zu prüfen",
+      "signInBody": "Kostenlose Konten enthalten einen Check. Pässe schalten unbegrenzte Checks frei.",
+      "limitTitle": "Du hast deinen kostenlosen Check verbraucht",
+      "limitBody": "Pässe schalten unbegrenzte E-Mail-Checks, die E-Mail-Suche und unbegrenzte Zusammenfassungen frei.",
+      "quota": "{used} von {limit} kostenlosen Checks genutzt",
+      "quotaPro": "Unbegrenzte Checks",
+      "noRewrite": "Wir zeigen Probleme auf, schreiben die E-Mail aber nie für dich – Professor:innen antworten Studierenden, die wie sie selbst klingen.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": {
+        "tone": "Ton",
+        "specificity": "Konkretheit",
+        "voice": "Eigene Stimme",
+        "clarity": "Klarheit",
+        "ask": "Die Bitte",
+        "etiquette": "Etikette",
+        "subject": "Betreff"
+      },
+      "gradeDesc": {
+        "excellent": "Konkret, knapp und klar. Abschicken.",
+        "good": "Ein solider Entwurf – ein paar schnelle Korrekturen helfen.",
+        "needs_work": "Einiges könnte dazu führen, dass die E-Mail ignoriert wird. Behebe zuerst die roten Punkte.",
+        "risky": "Das wird wahrscheinlich gelöscht. Überarbeite es vor dem Absenden."
+      },
+      "severity": {
+        "high": "Zuerst beheben",
+        "medium": "Lohnt sich",
+        "low": "Geringfügig"
+      },
+      "flags": {
+        "flattery": {
+          "title": "Schmeichelei",
+          "tip": "Professor:innen hören täglich „bahnbrechend“. Nenne stattdessen das konkrete Ergebnis oder die Methode, die dir aufgefallen ist."
+        },
+        "generic_phrase": {
+          "title": "Floskel",
+          "tip": "Formulierungen wie „hoch motiviert“ passen auf jeden. Zeige es mit etwas, das du tatsächlich getan hast."
+        },
+        "ai_sounding": {
+          "title": "Klingt maschinell geschrieben",
+          "tip": "Diese Wendung ist in KI-Texten häufig. Sage es so, wie du es laut sagen würdest."
+        },
+        "bad_salutation": {
+          "title": "Unpersönliche Anrede",
+          "tip": "„Dear Sir“ wirkt wie eine Massen-Mail. Nutze „Dear Professor [Nachname]“ und prüfe die Schreibweise."
+        },
+        "informal": {
+          "title": "Zu locker",
+          "tip": "Bleib freundlich, aber professionell – vermeide Chat-Sprache und Abkürzungen."
+        },
+        "missing_name": {
+          "title": "Anrede ohne Namen",
+          "tip": "Sprich die Professur mit Namen an: „Dear Professor Rivera,“."
+        },
+        "name_not_mentioned": {
+          "title": "Name der Professur nicht verwendet",
+          "tip": "Stelle sicher, dass die E-Mail klar an genau diese Person gerichtet ist."
+        },
+        "no_specific_reference": {
+          "title": "Bezieht sich nicht auf die Arbeit",
+          "tip": "Nenne ein konkretes Paper, eine Methode oder ein Ergebnis dieser Person – und stelle eine Frage, die dich beschäftigt hat."
+        },
+        "low_specificity": {
+          "title": "Nichts Konkretes",
+          "tip": "Hier steht nichts, was sich nicht an beliebige Professor:innen schicken ließe. Ergänze ein Paper, eine Jahreszahl, ein Ergebnis oder eine konkrete Frage."
+        },
+        "no_own_work": {
+          "title": "Zeigt nichts von dem, was du getan hast",
+          "tip": "Ergänze eine konkrete Sache, die du gebaut, analysiert, gelesen oder belegt hast – auch ein kleines Projekt zählt."
+        },
+        "no_clear_ask": {
+          "title": "Keine klare Bitte",
+          "tip": "Sage genau, worum du bittest: ein Gespräch, eine ehrenamtliche Mitarbeit oder einen Hinweis auf jemand anderen."
+        },
+        "no_signoff": {
+          "title": "Kein Schluss",
+          "tip": "Beende die E-Mail mit einem kurzen Dank und deinem vollständigen Namen."
+        },
+        "exclamation": {
+          "title": "Zu viele Ausrufezeichen",
+          "tip": "Eines ist in Ordnung; zwei oder mehr wirken übereifrig. Lass den Inhalt die Begeisterung tragen."
+        },
+        "emoji": {
+          "title": "Emoji",
+          "tip": "Verzichte in einer ersten E-Mail an eine Professur auf Emojis."
+        },
+        "all_caps": {
+          "title": "GROSSBUCHSTABEN",
+          "tip": "Wörter in Großbuchstaben wirken wie Schreien. Schreibe normal."
+        },
+        "too_short": {
+          "title": "Zu kurz",
+          "tip": "Unter etwa 45 Wörtern lässt sich selten genug sagen. Ergänze, was du getan hast und worum du bittest."
+        },
+        "too_long": {
+          "title": "Zu lang",
+          "tip": "Ziel: 90–180 Wörter. Streiche Hintergrund, den die Professur für ihre Entscheidung nicht braucht."
+        },
+        "wall_of_text": {
+          "title": "Textwüste",
+          "tip": "Teile den Text in 2–3 kurze Absätze, damit er sich überfliegen lässt."
+        },
+        "no_subject": {
+          "title": "Kein Betreff",
+          "tip": "Ein klarer Betreff sorgt dafür, dass die E-Mail geöffnet wird: nenne das Thema oder das Paper."
+        },
+        "subject_generic": {
+          "title": "Beliebiger Betreff",
+          "tip": "„Research“ kann alles sein. Nenne besser das Paper oder Thema, um das es geht."
+        },
+        "subject_short": {
+          "title": "Betreff zu kurz",
+          "tip": "Ergänze ein paar Wörter Kontext, damit die Professur weiß, worum es geht."
+        },
+        "subject_long": {
+          "title": "Betreff zu lang",
+          "tip": "Halte ihn unter etwa 90 Zeichen."
+        },
+        "subject_shouty": {
+          "title": "Reißerischer Betreff",
+          "tip": "Vermeide Großbuchstaben und Wörter wie „urgent“ – sie wirken wie Spam."
+        },
+        "ai_note": {
+          "title": "Hinweis der Prüfung",
+          "tip": ""
+        }
+      },
+      "strengthLabels": {
+        "personal_greeting": "Spricht die Professur mit Namen an",
+        "specific_reference": "Bezieht sich auf die konkrete Arbeit",
+        "shows_own_work": "Zeigt etwas, das du getan hast",
+        "clear_ask": "Formuliert eine klare Bitte",
+        "redirect_offer": "Bietet einen einfachen Weg, dich weiterzuleiten",
+        "states_availability": "Nennt deine Verfügbarkeit oder deinen Zeitplan",
+        "concise": "Eine gute Länge"
+      }
+    },
+    "followUp": {
+      "title": "Nachfass-Planer",
+      "subtitle": "Noch keine Antwort? Füge die gesendete E-Mail ein und erhalte zwei gut getimte Nachfass-Mails, die nach dir klingen.",
+      "email": "Die E-Mail, die du gesendet hast",
+      "emailPlaceholder": "Füge deine ursprüngliche E-Mail ein …",
+      "subject": "Ursprünglicher Betreff",
+      "sentOn": "Sendedatum",
+      "professorName": "Name der Professur",
+      "professorPlaceholder": "z. B. Elena Rivera",
+      "generate": "Meine Nachfass-Mails planen",
+      "generating": "Wird entworfen …",
+      "timeline": "Dein Nachfass-Zeitplan",
+      "step": "Nachfassen {n}",
+      "sendOn": "Senden am {date}",
+      "daysAfter": "{days} Tage nach deiner ersten E-Mail",
+      "copy": "Nachricht kopieren",
+      "copied": "Kopiert",
+      "addToCalendar": "Zum Kalender hinzufügen",
+      "editHint": "Bearbeite sie frei – das sind Entwürfe, die du zu deinen machen kannst.",
+      "emptyTitle": "Dein Zeitplan erscheint hier",
+      "emptyBody": "Zwei Nachfass-Mails mit passendem Abstand, damit du im Blick bleibst, ohne zu nerven.",
+      "tipsTitle": "Timing-Tipps",
+      "tip1": "Meide Klausurenphasen, Antragsfristen und Feiertage.",
+      "tip2": "Sende frühmorgens an einem Werktag.",
+      "tip3": "Ziehe nach zwei Nachfass-Mails weiter – und bitte um eine Weiterleitung.",
+      "aiUsed": "Von KI personalisiert",
+      "templated": "Vorlagenbasiert",
+      "signInTitle": "Melde dich an, um deine Nachfass-Mails zu planen",
+      "limitTitle": "Du hast deinen kostenlosen Nachfass-Plan verbraucht",
+      "quota": "{used} von {limit} kostenlosen Plänen genutzt"
+    },
+    "framework": {
+      "title": "Das Erstkontakt-E-Mail-Gerüst",
+      "subtitle": "Eine Lückentext-Struktur auf Basis dessen, was Professor:innen zum Antworten bringt. Tippe auf eine Klammer für Hinweise.",
+      "template": "Vorlage",
+      "tapHint": "Tippe auf eine Klammer, um zu sehen, wie du sie füllst.",
+      "guidance": "Hinweise",
+      "redFlags": "Warnsignal-Formulierungen",
+      "redFlagsSub": "Sie zeigen, dass du deine Hausaufgaben nicht gemacht hast. Ersetze sie durch etwas Konkretes.",
+      "instead": "Stattdessen:",
+      "cta": "Prüfe deine eigene E-Mail",
+      "b1": {
+        "label": "KONKRETES THEMA",
+        "tip": "Nenne das genaue Gebiet, die Methode oder die Frage – nicht das ganze Fach. „Schlafabhängige Gedächtniskonsolidierung“ ist besser als „Neurowissenschaften“."
+      },
+      "b2": {
+        "label": "KONKRETES ERGEBNIS ODER ZITAT",
+        "tip": "Verweise auf ein echtes Ergebnis, eine Abbildung oder einen Satz aus einem ihrer aktuellen Papers. Diese Zeile beweist, dass du es gelesen hast."
+      },
+      "b3": {
+        "label": "DEIN FORSCHUNGSANSATZ",
+        "tip": "Verknüpfe es mit etwas, das du getan hast oder erkunden möchtest – einem Kurs, einem Datensatz, einem Projekt."
+      },
+      "b4": {
+        "label": "EIN AUFRICHTIGER PERSÖNLICHER GRUND",
+        "tip": "Ein ehrlicher Satz dazu, warum es dir wichtig ist. Kurz und wahr."
+      },
+      "b5": {
+        "label": "KLUGE FRAGE, DIE ZEIGT, DASS DU ES GELESEN HAST",
+        "tip": "Frage nach etwas, das dich beim Lesen beschäftigt hat – eine Einschränkung, eine Erweiterung, ein Datensatz. Vermeide „Erzählen Sie mir mehr über Ihre Forschung“."
+      },
+      "rf1": {
+        "phrase": "I found your work fascinating and groundbreaking",
+        "why": "Professor:innen hören das täglich.",
+        "instead": "Nenne das konkrete Ergebnis, das dir aufgefallen ist."
+      },
+      "rf2": {
+        "phrase": "I am a highly motivated student",
+        "why": "Es sagt ihnen nichts.",
+        "instead": "Zeige deine Motivation durch das, was du getan hast."
+      },
+      "rf3": {
+        "phrase": "Your research aligns perfectly with my interests",
+        "why": "Zu vage, um glaubwürdig zu sein.",
+        "instead": "Erkläre die konkrete Verbindung."
+      },
+      "rf4": {
+        "phrase": "I would love to learn from you",
+        "why": "Es macht die E-Mail zu einer über dich, nicht über ihre Arbeit.",
+        "instead": "Frage nach einem konkreten Teil ihrer Forschung."
+      },
+      "rf5": {
+        "phrase": "I am passionate about this field",
+        "why": "Das sagt jeder.",
+        "instead": "Beschreibe, was du in diesem Feld tatsächlich getan hast."
+      }
+    },
+    "examples": {
+      "title": "E-Mails, die funktionieren – kommentiert",
+      "subtitle": "Drei Beispiel-E-Mails, die wir geschrieben haben, um Muster zu zeigen, die Antworten bringen. Lies die Anmerkungen neben jeder Zeile.",
+      "disclaimer": "Das sind Beispiele des Labora-Teams zur Veranschaulichung, keine echte Korrespondenz. Namen und Details sind erfunden.",
+      "example": "Beispiel {n}",
+      "cta": "Prüfe jetzt deine eigene",
+      "e1": {
+        "label": "Erstes Studienjahr, Autodidakt:in",
+        "note1": "Beginnt mit deinem eigenen Interesse und einer echten Fähigkeit und verbindet sie dann mit ihrer Arbeit.",
+        "note2": "Eine konkrete Frage, die nur aus dem Lesen des Papers entstehen kann.",
+        "note3": "Eine direkte Bitte mit niedriger Hürde – und eine Weiterleitung, die aus einem „Nein“ eine Spur macht."
+      },
+      "e2": {
+        "label": "Drittes Studienjahr mit einem Nebenprojekt",
+        "note1": "Zeigt ein Projekt, an dem du schon arbeitest – Beweis für praktisches Interesse.",
+        "note2": "Fachliche Tiefe: Die Frage zeigt, dass du die Methode verstanden hast, nicht nur das Abstract.",
+        "note3": "Ein Zeitrahmen (diesen Sommer) und das Angebot zu helfen, auch ehrenamtlich."
+      },
+      "e3": {
+        "label": "Geistes- / Sozialwissenschaften",
+        "note1": "Begründet die Bitte mit einem belegten Kurs und einer gelesenen Quelle.",
+        "note2": "Fragt nach der Überlegung hinter einer Entscheidung statt nach einer Zusammenfassung.",
+        "note3": "Bietet etwas Konkretes an: ein paar Stunden pro Woche Archiv-Kodierung."
+      }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Gemeinsame Themen: {items}",
+      "skills_covered": "Fähigkeiten, die du schon hast: {items}",
+      "style_aligned": "Ähnlicher Arbeitsstil ({items})",
+      "hours_fit": "Deine Verfügbarkeit deckt die Stunden ab",
+      "bonus_skills": "Zusätzliche Fähigkeiten: {items}",
+      "published_on_topics": "Publiziert zu: {items}",
+      "active_recently": "{items} Publikationen in den letzten 3 Jahren",
+      "partial_topic_overlap": "Geringere Überschneidung bei: {items}",
+      "missing_skills": "Fähigkeiten zum Aufbauen: {items}",
+      "style_differs": "Anderer Arbeitsstil ({items})",
+      "hours_short": "Weniger Stunden verfügbar, als die Stelle erwartet"
+    },
+    "strong": "Hohe Passung",
+    "good": "Gute Passung",
+    "partial": "Teilweise Passung",
+    "tip": "So hebst du dich ab",
+    "why": "Warum es passt",
+    "gaps": "Gut zu wissen",
+    "breakdown": {
+      "topic": "Themen",
+      "skills": "Fähigkeiten",
+      "bonus": "Bonus",
+      "style": "Arbeitsstil",
+      "hours": "Verfügbarkeit"
+    },
+    "aiRefined": "KI-verfeinert",
+    "explainable": "Erklärbarer Score",
+    "student": {
+      "title": "KI-Match",
+      "subtitle": "Stellen und Professor:innen, sortiert danach, wie gut sie zu deinen Fähigkeiten, Interessen und deiner Arbeitsweise passen.",
+      "tabPositions": "Offene Stellen",
+      "tabProfessors": "Professor:innen weltweit",
+      "run": "Meine Matches finden",
+      "rerun": "Matches aktualisieren",
+      "running": "Matching läuft …",
+      "strengthTitle": "Dein Match-Profil",
+      "strengthBody": "Je mehr du teilst, desto treffsicherer sind deine Matches. {score} % vollständig.",
+      "improve": "Profil verbessern",
+      "missing": {
+        "skills": "Ergänze deine Fähigkeiten",
+        "interests": "Beschreibe deine Interessen",
+        "experience": "Ergänze, was du bisher gemacht hast",
+        "bio": "Schreibe eine Kurzvorstellung",
+        "major": "Ergänze dein Studienfach",
+        "availability": "Lege deine wöchentliche Verfügbarkeit fest",
+        "work_style": "Lege deinen Arbeitsstil fest"
+      },
+      "howTitle": "So funktioniert das Matching",
+      "how1": "Wir vergleichen deine Interessen, Fähigkeiten, Erfahrung und Verfügbarkeit mit jeder Stelle bzw. Person.",
+      "how2": "Wir vergleichen auch Arbeitsstile – Eigenständigkeit, Teamarbeit, Tempo und Struktur.",
+      "how3": "Ein KI-Prüfer verfeinert die besten Ergebnisse und erklärt jedes einzelne. Namen, Hochschulen und andere persönliche Merkmale werden nie verwendet.",
+      "noResultsTitle": "Noch keine Matches",
+      "noResultsBody": "Derzeit gibt es keine offenen Stellen zum Abgleichen. Probiere stattdessen Professor:innen weltweit.",
+      "searchedFor": "Gesucht nach: {keywords}",
+      "direction": "Suche lenken",
+      "directionPlaceholder": "z. B. neuronale Kodierung, medizinische Bildgebung",
+      "university": "Nur an einer Universität",
+      "apply": "Ansehen & bewerben",
+      "viewProfessor": "Profil ansehen",
+      "writeEmail": "E-Mail schreiben",
+      "quota": "{used} von {limit} kostenlosen Matches genutzt",
+      "quotaPro": "Unbegrenzte Matches",
+      "limitTitle": "Du hast deine kostenlosen Matches aufgebraucht",
+      "limitBody": "Pässe schalten unbegrenztes Matching, Zusammenfassungen und die E-Mail-Suche frei.",
+      "professorsIntro": "Wir übersetzen dein Profil in Forschungsthemen und suchen Menschen, die aktiv dazu publizieren.",
+      "emptyProfile": "Ergänze zuerst ein paar Fähigkeiten und Interessen, damit wir etwas zum Abgleichen haben.",
+      "positionsFirst": "Starte das Matching, um die am besten passenden Stellen zu sehen."
+    },
+    "professor": {
+      "title": "Finde deine idealen Studierenden",
+      "subtitle": "Beschreibe, wen du suchst – oder lass die KI es aus deiner Stelle entwerfen – und sieh die Studierenden, die passen.",
+      "unverifiedTitle": "Verifizierung ausstehend",
+      "unverifiedBody": "Die Talentsuche wird freigeschaltet, sobald dein Professor:innenkonto verifiziert ist. Wir prüfen es in Kürze.",
+      "step1": "1. Von einer Stelle ausgehen",
+      "step1Hint": "Optional. Wähle eine Ausschreibung als Grundlage für das Profil.",
+      "noPosition": "Keine bestimmte Stelle",
+      "step2": "2. Die gesuchte Person",
+      "notes": "In deinen eigenen Worten",
+      "notesPlaceholder": "z. B. Jemand Selbstständiges, der oder die gern debuggt, PyTorch genutzt hat und 10 Stunden pro Woche einbringen kann.",
+      "draft": "Profil mit KI entwerfen",
+      "draftRule": "Profil erstellen",
+      "drafting": "Wird entworfen …",
+      "personaHint": "Bearbeite alles – mit diesem Profil werden Studierende verglichen.",
+      "headline": "Überschrift",
+      "summary": "Zusammenfassung",
+      "mustHave": "Muss",
+      "niceToHave": "Wünschenswert",
+      "traits": "Persönliche Eigenschaften",
+      "keywords": "Themen",
+      "addChip": "Eingeben und Enter drücken",
+      "workStyle": "Gesuchter Arbeitsstil",
+      "step3": "3. Passende Studierende",
+      "find": "Studierende finden",
+      "finding": "Suche läuft …",
+      "pool": "{count} Studierende haben der Auffindbarkeit zugestimmt",
+      "poolEmpty": "Noch hat niemand der Auffindbarkeit zugestimmt. Sobald Studierende sie einschalten, erscheinen sie hier.",
+      "left": "Heute noch {count} Suchen übrig",
+      "invite": "Zur Bewerbung einladen",
+      "invited": "Eingeladen",
+      "inviteTitle": "{name} einladen",
+      "inviteBody": "Die Person sieht deine Nachricht und kann annehmen oder ablehnen. Ihre Kontaktdaten bleiben privat, bis sie antwortet.",
+      "position": "Stelle",
+      "message": "Deine Nachricht",
+      "messageDefault": "Hallo {name}, dein Hintergrund passt sehr gut zu „{position}“ in unserem Labor. Möchtest du dich bewerben? Ich beantworte gern alle Fragen.",
+      "sendInvite": "Einladung senden",
+      "sent": "Einladung gesendet",
+      "selectPosition": "Wähle die Stelle, für die du einladen möchtest",
+      "privacy": "Hier erscheinen nur Studierende, die sich für die Auffindbarkeit entschieden haben. E-Mail-Adressen werden nie angezeigt.",
+      "noStudents": "Noch keine passenden Studierenden",
+      "noStudentsBody": "Lockere die Muss-Liste oder schau später wieder vorbei, wenn mehr Studierende beigetreten sind.",
+      "available": "{hours} Std./Woche verfügbar",
+      "skills": "Fähigkeiten",
+      "createPositionFirst": "Schreibe eine Stelle aus, um Studierende zur Bewerbung einzuladen.",
+      "labFirst": "Richte zuerst dein Laborprofil ein."
+    },
+    "ai": {
+      "notEnabled": "Die KI-Verfeinerung ist auf diesem Server nicht aktiviert – Matches nutzen den erklärbaren regelbasierten Score."
+    }
+  }
+}

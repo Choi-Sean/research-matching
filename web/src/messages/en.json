@@ -1,0 +1,1826 @@
+{
+  "aimatch": {
+    "hero": {
+      "eyebrow": "AI Match",
+      "title": "A match that understands <em>how you work.</em>",
+      "subtitle": "Labora compares more than keywords. It looks at your skills, your interests, your availability and your working style — then explains every match in plain language.",
+      "student": "Find my matches",
+      "professor": "Find my ideal students",
+      "signUp": "Create a free account"
+    },
+    "signals": {
+      "eyebrow": "How it works",
+      "title": "Four signals, one explainable score",
+      "topics": {
+        "title": "Topics",
+        "body": "How closely your interests, courses and experience overlap with what a lab or researcher works on."
+      },
+      "skills": {
+        "title": "Skills",
+        "body": "Which of the skills a role needs you already have — and which you could build."
+      },
+      "style": {
+        "title": "Working style",
+        "body": "Independence, teamwork, pace and structure: how you like to work compared with how the lab works."
+      },
+      "hours": {
+        "title": "Availability",
+        "body": "Whether the hours you can offer cover what the role expects."
+      }
+    },
+    "demo": {
+      "eyebrow": "Try it",
+      "title": "See the working-style match",
+      "description": "Move the dials for how you like to work. The example lab is independent, collaborative and fast-paced, with loosely defined tasks.",
+      "you": "You",
+      "lab": "Example lab",
+      "fit": "Style fit",
+      "aligned": "Aligned on: {items}",
+      "differs": "Different on: {items}",
+      "none": "Move a dial to compare."
+    },
+    "directions": {
+      "title": "Two directions, one idea",
+      "students": {
+        "title": "For students",
+        "s1": "Fill in your skills, interests, experience and working style once.",
+        "s2": "Get positions and professors ranked by fit, each with reasons and gaps.",
+        "s3": "Use the “how to stand out” tips to write a stronger application or email."
+      },
+      "professors": {
+        "title": "For professors",
+        "s1": "Describe your ideal student — or let AI draft it from your position and lab.",
+        "s2": "See students who opted in, ranked with reasons and gaps.",
+        "s3": "Invite the best fits with one message. Their email stays private until they reply."
+      }
+    },
+    "trust": {
+      "eyebrow": "Fair by design",
+      "title": "You stay in control",
+      "t1": {
+        "title": "Opt-in visibility",
+        "body": "Students are only discoverable if they turn it on, and can turn it off any time."
+      },
+      "t2": {
+        "title": "Private contact details",
+        "body": "Professors never see a student's email until the student applies or accepts an invitation."
+      },
+      "t3": {
+        "title": "No protected traits",
+        "body": "Names, schools, gender, nationality and similar traits are never used to score anyone."
+      },
+      "t4": {
+        "title": "Reasons, not black boxes",
+        "body": "Every score shows what matched and what didn't, so you can disagree with it."
+      }
+    },
+    "faq": {
+      "title": "Common questions",
+      "q1": "Is the score a prediction that I'll get the position?",
+      "a1": "No. It is a guide to fit, not a prediction. Many things affect real decisions — timing, funding and other applicants.",
+      "q2": "What does the AI actually do?",
+      "a2": "First we compute a transparent score from the signals above. Then an AI reviewer looks at the top results, refines the ranking and writes the explanations. If AI isn't available, you still get the transparent score.",
+      "q3": "Can I use AI Match without a profile?",
+      "a3": "You can run it, but results improve a lot with a fuller profile. We show you what's missing."
+    },
+    "cta": {
+      "title": "Find the labs — and people — that fit.",
+      "button": "Get started free"
+    }
+  },
+  "auth": {
+    "shell": {
+      "headline": "Your next breakthrough starts with the right lab.",
+      "p1": "Discover researchers from the world's scholarly record",
+      "p2": "Understand their work before you write a word",
+      "p3": "Get matched on skills and how you like to work",
+      "footer": "For students and professors, in your language."
+    },
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to continue.",
+      "email": "Email",
+      "emailPlaceholder": "you@university.edu",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "forgot": "Forgot your password?",
+      "forgotHelp": "Contact us and we'll help you get back in.",
+      "demo": "Demo accounts (password: password123)",
+      "demoStudent": "Student",
+      "demoProfessor": "Professor",
+      "demoAdmin": "Admin"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Join with your university email. It takes a minute.",
+      "iAm": "I am a…",
+      "student": "Student",
+      "studentDesc": "Find research and get matched",
+      "professor": "Professor",
+      "professorDesc": "Recruit students, share your work",
+      "fullName": "Full name",
+      "fullNamePlaceholderStudent": "Jamie Park",
+      "fullNamePlaceholderProfessor": "Prof. Jane Smith",
+      "email": "University email",
+      "emailHint": "Use an address ending in .edu, .ac.uk or a similar academic domain.",
+      "password": "Password",
+      "passwordHint": "At least 8 characters.",
+      "referral": "Friend's code",
+      "referralHint": "Got a code from a friend? You both get a week of Pro.",
+      "consent": "By creating an account you agree to our <terms>Terms</terms> and <privacy>Privacy Policy</privacy>.",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "professorNote": "Professor accounts are verified by our team before your lab and positions become public."
+    }
+  },
+  "blog": {
+    "eyebrow": "The Labora library",
+    "title": "How to find, contact and impress a research mentor",
+    "subtitle": "Practical guides on finding professors, writing emails that get read, and following up — written for students starting from zero.",
+    "all": "All guides",
+    "cat": {
+      "finding": "Finding research",
+      "writing": "Writing the email",
+      "after": "After you send",
+      "goals": "Goals & next steps"
+    },
+    "minRead": "{minutes} min read",
+    "read": "Read the guide",
+    "back": "All guides",
+    "englishNote": "Guides are currently available in English only.",
+    "ctaTitle": "Put it into practice",
+    "ctaBody": "Find researchers in your field, understand their work and check your email before you send it.",
+    "ctaFind": "Find professors",
+    "ctaCheck": "Check my email",
+    "keepReading": "Keep reading",
+    "notFound": "Guide not found"
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "copy": "Copy",
+    "copied": "Copied",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "Optional",
+    "or": "or",
+    "remove": "Remove",
+    "add": "Add",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "submit": "Submit",
+    "send": "Send",
+    "download": "Download",
+    "clear": "Clear",
+    "clearAll": "Clear all",
+    "open": "Open",
+    "closedLabel": "Closed",
+    "unlimited": "Unlimited",
+    "upgrade": "Upgrade",
+    "verified": "Verified",
+    "pending": "Pending",
+    "free": "Free",
+    "pro": "Pro",
+    "today": "Today",
+    "hoursPerWeek": "{n} hrs/week",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "none": "None",
+    "required": "Required",
+    "notSet": "Not set",
+    "poweredByAi": "AI-assisted",
+    "illustrative": "Illustrative example",
+    "external": "Opens in a new tab",
+    "results_one": "{count} result",
+    "results_other": "{count} results"
+  },
+  "community": {
+    "feedback": {
+      "title": "Feedback board",
+      "subtitle": "Help shape Labora. Suggest features, report bugs or share what's on your mind — and vote on what matters most.",
+      "kind": {
+        "feature": "Feature request",
+        "bug": "Bug report",
+        "general": "General feedback"
+      },
+      "status": {
+        "open": "Open",
+        "planned": "Planned",
+        "in_progress": "In progress",
+        "done": "Done"
+      },
+      "newPost": "Share your thoughts",
+      "postTitle": "Title",
+      "postTitlePlaceholder": "A short summary",
+      "postBody": "Details",
+      "postBodyPlaceholder": "What would you like to see, or what went wrong?",
+      "post": "Post",
+      "posted": "Thanks — your post is live.",
+      "signIn": "Sign in to post and vote.",
+      "sortVotes": "Most voted",
+      "sortNew": "Newest",
+      "filterAll": "All",
+      "count_one": "{count} post",
+      "count_other": "{count} posts",
+      "empty": "Nothing here yet — be the first to post.",
+      "vote": "Vote",
+      "voted": "Voted",
+      "by": "by {name}"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "subtitle": "Questions, ideas, or need help with your account? We read every message.",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "send": "Send message",
+      "sent": "Thanks — we'll be in touch soon.",
+      "professorsTitle": "Are you a professor?",
+      "professorsBody": "We verify professor accounts before labs go public. If your institution uses an email domain we don't recognise, tell us here.",
+      "privacy": "We'll only use your details to reply to this message."
+    }
+  },
+  "dash": {
+    "nav": {
+      "overview": "Overview",
+      "matches": "AI Match",
+      "talent": "Find students",
+      "applications": "Applications",
+      "invitations": "Invitations",
+      "outreach": "Outreach tracker",
+      "saved": "Saved",
+      "profile": "My profile",
+      "billing": "Plan & billing",
+      "settings": "Settings",
+      "positions": "Positions",
+      "lab": "Lab & research",
+      "admin": "Admin"
+    },
+    "greeting": "Hi, {name}",
+    "welcomeProfessor": "Welcome, {name}",
+    "overview": {
+      "studentSubtitle": "Here's where your research search stands.",
+      "professorSubtitle": "Manage your lab, openings and applicants.",
+      "findPositions": "Find positions",
+      "newPosition": "New position",
+      "applications": "Applications",
+      "inReview": "In review",
+      "accepted": "Accepted",
+      "invitations": "Invitations",
+      "openPositions": "Open positions",
+      "applicants": "Applicants",
+      "lab": "Lab",
+      "live": "Live",
+      "notSetUp": "Not set up",
+      "completeTitle": "Complete your profile",
+      "completeBody": "Professors see your profile with every application, and matching gets sharper the more you share.",
+      "completeCta": "Update profile",
+      "discoverTitle": "Let professors find you",
+      "discoverBody": "Turn on discoverability and verified professors can invite you to apply. Your email stays private until you reply.",
+      "discoverCta": "Choose in profile",
+      "recentApplications": "Recent applications",
+      "noApplications": "You haven't applied yet.",
+      "browse": "Browse open positions",
+      "matchTitle": "Your top matches",
+      "matchBody": "See positions and professors ranked by how well they fit you.",
+      "matchCta": "Open AI Match",
+      "yourPositions": "Your positions",
+      "noPositions": "No positions yet.",
+      "createLabTitle": "Set up your lab to start recruiting",
+      "createLabBody": "Students see your lab profile and research on every position you post.",
+      "createLabCta": "Create lab profile",
+      "unverifiedTitle": "Your account is awaiting verification",
+      "unverifiedBody": "We review professor accounts before labs and positions become public. You can prepare everything in the meantime.",
+      "talentTitle": "Find students who fit",
+      "talentBody": "Describe your ideal student and let AI rank the students who opted in.",
+      "talentCta": "Find students",
+      "pendingInvitations_other": "You have {count} invitations waiting",
+      "viewInvitations": "View invitations",
+      "applicantsCount_one": "{count} applicant",
+      "applicantsCount_other": "{count} applicants",
+      "pendingInvitations_one": "You have {count} invitation waiting",
+      "newForYou": "New for you"
+    },
+    "profile": {
+      "title": "My profile",
+      "subtitle": "Professors see this with your application, and AI Match uses it to find your fit.",
+      "strength": "Profile strength",
+      "basics": "The basics",
+      "university": "University",
+      "major": "Major",
+      "year": "Year",
+      "selectYear": "Select…",
+      "about": "About you",
+      "bio": "Short bio",
+      "bioHint": "Who are you, and what are you curious about?",
+      "skills": "Skills",
+      "skillsHint": "Comma-separated, e.g. Python, PyTorch, R, lab safety",
+      "interests": "Research interests",
+      "interestsHint": "Topics you'd love to work on, e.g. computer vision, cell fate.",
+      "experience": "What you've done so far",
+      "experienceHint": "Projects, courses, past research — the more concrete, the better the match.",
+      "availability": "Hours per week you can commit",
+      "workStyle": "How you like to work",
+      "workStyleHint": "Move each dial to where you're most comfortable. It's used to compare you with labs.",
+      "links": "Links",
+      "resume": "Resume link",
+      "resumeHint": "A link to a PDF (Drive, Dropbox, your site).",
+      "website": "Personal website",
+      "github": "GitHub profile",
+      "visibility": "Visibility",
+      "discoverable": "Let verified professors find me",
+      "discoverableDesc": "Professors can see your profile and invite you to apply. Your email stays private until you reply. You can switch this off any time.",
+      "save": "Save profile",
+      "saved": "Profile saved",
+      "welcome": "Welcome to Labora! Tell us about yourself to get better matches."
+    },
+    "applications": {
+      "title": "Applications",
+      "subtitle": "Everything you've applied to, in one place.",
+      "emptyTitle": "No applications yet",
+      "emptyBody": "When you apply to a position, it shows up here so you can track its status.",
+      "browse": "Browse positions",
+      "applied": "Applied {when}",
+      "withdraw": "Withdraw",
+      "withdrawConfirm": "Withdraw this application?",
+      "withdrawn": "Application withdrawn",
+      "invited": "Invited",
+      "decided": "Decided {when}"
+    },
+    "invitations": {
+      "title": "Invitations",
+      "subtitleStudent": "Professors who'd like you to apply.",
+      "subtitleProfessor": "Students you've invited.",
+      "emptyStudentTitle": "No invitations yet",
+      "emptyStudentBody": "Turn on discoverability in your profile to let verified professors invite you.",
+      "emptyProfessorTitle": "You haven't invited anyone yet",
+      "emptyProfessorBody": "Use “Find students” to discover students who fit your lab.",
+      "from": "From {name}",
+      "to": "To {name}",
+      "match": "{score}% match",
+      "accept": "Accept & apply",
+      "decline": "Decline",
+      "replyPlaceholder": "Add a note to the professor (optional)",
+      "accepted": "You accepted — an application was created.",
+      "declined": "Invitation declined",
+      "withdraw": "Withdraw invitation",
+      "receivedAgo": "Sent {when}",
+      "findStudents": "Find students"
+    },
+    "outreach": {
+      "title": "Outreach tracker",
+      "subtitle": "Log who you've contacted, when to follow up, and what happened.",
+      "emptyTitle": "Nothing tracked yet",
+      "emptyBody": "Add researchers from their profile to keep tabs on your outreach and get follow-up dates.",
+      "find": "Find professors",
+      "followUpDue": "Follow up {when}",
+      "overdue": "Follow-up overdue",
+      "sentOn": "Sent {date}",
+      "repliedOn": "Replied {date}",
+      "notes": "Notes",
+      "notesPlaceholder": "Anything worth remembering…",
+      "status": "Status",
+      "remove": "Remove",
+      "removeConfirm": "Remove this researcher from your tracker?",
+      "planFollowUp": "Plan follow-ups",
+      "helpTitle": "Your logs help everyone",
+      "helpBody": "Reply rates shown on researcher profiles come from anonymous, aggregated outreach logs like yours — no individual entry is ever shown.",
+      "stats": {
+        "total": "Tracked",
+        "sent": "Sent",
+        "replied": "Replied",
+        "due": "Follow-ups due"
+      }
+    },
+    "saved": {
+      "title": "Saved",
+      "subtitle": "Researchers and positions you've bookmarked.",
+      "professors": "Researchers",
+      "positions": "Positions",
+      "emptyProfessors": "No saved researchers yet",
+      "emptyProfessorsBody": "Tap the bookmark on any researcher to add them to your shortlist.",
+      "emptyPositions": "No saved positions yet",
+      "emptyPositionsBody": "Tap the bookmark on a position to keep it for later."
+    },
+    "billing": {
+      "title": "Plan & billing",
+      "subtitle": "Your access, usage and referral rewards.",
+      "currentPlan": "Current plan",
+      "plan": {
+        "free": "Free",
+        "weekly": "Weekly sprint",
+        "semester": "Semester pass",
+        "lifetime": "Lifetime"
+      },
+      "activeUntil": "Active until {date}",
+      "lifetimeNote": "You have lifetime access.",
+      "freeNote": "You're on the free plan.",
+      "upgrade": "See plans",
+      "usage": "Free allowance",
+      "usageItem": "{used} of {limit} used",
+      "unlimited": "Unlimited",
+      "features": {
+        "summary": "Professor summaries",
+        "email_check": "Email checks",
+        "follow_up": "Follow-up plans",
+        "match_positions": "Position matches",
+        "match_professors": "Professor matches"
+      },
+      "referral": "Invite a friend",
+      "referralBody": "Share your code. When a friend signs up with it, you both get {days} days of Pro.",
+      "yourCode": "Your code",
+      "copyCode": "Copy code",
+      "copyLink": "Copy invite link",
+      "copied": "Copied",
+      "redeemed_other": "{count} friends joined with your code",
+      "redeem": "Have a friend's code?",
+      "redeemPlaceholder": "Enter code",
+      "redeemCta": "Redeem",
+      "redeemedOk": "Code redeemed — {days} days of Pro added.",
+      "checkoutSuccess": "Thanks! Your plan will be active in a moment.",
+      "devMode": "Payments aren't connected in this environment — plans activate instantly for testing.",
+      "redeemed_one": "{count} friend joined with your code"
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Your account, language and security.",
+      "account": "Account",
+      "name": "Full name",
+      "email": "Email",
+      "emailNote": "Your email can't be changed.",
+      "language": "Language",
+      "languageHint": "Also used for AI-written summaries and feedback.",
+      "saveChanges": "Save changes",
+      "saved": "Settings saved",
+      "password": "Password",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "changePassword": "Change password",
+      "passwordChanged": "Password updated",
+      "danger": "Delete account",
+      "dangerBody": "This permanently removes your profile, applications and everything attached to your account. It can't be undone.",
+      "dangerConfirm": "Enter your password to confirm",
+      "deleteCta": "Delete my account",
+      "deleted": "Your account was deleted."
+    },
+    "lab": {
+      "title": "Lab & research",
+      "subtitle": "This is what students see when they consider your positions.",
+      "createTitle": "Create your lab",
+      "profileTitle": "Lab profile",
+      "name": "Lab name",
+      "university": "University",
+      "department": "Department",
+      "description": "Description",
+      "descriptionHint": "What does your lab work on? Keep it approachable for undergraduates.",
+      "keywords": "Research keywords",
+      "keywordsHint": "Comma-separated",
+      "website": "Lab website",
+      "culture": "What it's like to work here",
+      "cultureHint": "Mentoring style, meeting rhythm, what students own. Students value honesty.",
+      "teamSize": "Team size",
+      "workStyle": "How your lab works",
+      "workStyleHint": "Used to compare working styles with students.",
+      "openalex": "OpenAlex author ID",
+      "openalexHint": "Optional. Links your Labora lab to your publication profile (starts with A…).",
+      "saveLab": "Save lab",
+      "createLab": "Create lab",
+      "created": "Lab created — now add research materials and post a position.",
+      "updated": "Lab updated",
+      "materials": "Research materials",
+      "materialsHint": "Share papers, datasets or posters so students can learn about your work.",
+      "nothingShared": "Nothing shared yet.",
+      "addMaterial": "Add material",
+      "materialTitle": "Title",
+      "materialType": "Type",
+      "materialLink": "Link",
+      "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…",
+      "materialDescription": "Short description",
+      "removeMaterial": "Remove this material?",
+      "verificationTitle": "Verification pending",
+      "verificationBody": "Your lab becomes public once we've verified your professor account. Add a lab website to speed this up."
+    },
+    "positions": {
+      "title": "Positions",
+      "subtitle": "Your openings and who has applied.",
+      "new": "New position",
+      "emptyTitle": "No positions yet",
+      "emptyBody": "Post an opening and start receiving applications.",
+      "emptyLab": "Create your lab profile first.",
+      "post": "Post your first position",
+      "open": "Open",
+      "closed": "Closed",
+      "close": "Close",
+      "reopen": "Reopen",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this position? This can't be undone.",
+      "applicants": "Applicants",
+      "postedAgo": "Posted {when}",
+      "viewPublic": "View public page",
+      "newTitle": "New position",
+      "newSubtitle": "Describe the opening. You can edit it any time.",
+      "editTitle": "Edit position",
+      "needLab": "You need a lab profile before posting.",
+      "createLab": "Create your lab",
+      "noApplicants": "No applicants yet",
+      "noApplicantsBody": "Share your position or invite students who fit with “Find students”.",
+      "decline": "Decline",
+      "accept": "Accept",
+      "email": "Email applicant",
+      "resume": "Resume",
+      "invitedBadge": "Invited by you",
+      "profileIncomplete": "Profile incomplete",
+      "form": {
+        "title": "Position title",
+        "titlePlaceholder": "Undergraduate RA: Self-supervised Vision",
+        "description": "Description",
+        "descriptionHint": "What will the student work on? What will they learn?",
+        "requirements": "Requirements",
+        "requirementsHint": "Coursework or experience (optional)",
+        "skills": "Required skills",
+        "skillsHint": "Comma-separated — used for matching, e.g. python, pytorch",
+        "compensation": "Compensation",
+        "hours": "Hours / week",
+        "term": "Term",
+        "location": "Location",
+        "slots": "Openings",
+        "deadline": "Apply by",
+        "keywords": "Keywords",
+        "keywordsHint": "Helps students find your position",
+        "publish": "Publish position",
+        "saveChanges": "Save changes",
+        "saved": "Position saved",
+        "notSpecified": "Not specified"
+      }
+    },
+    "admin": {
+      "title": "Admin",
+      "subtitle": "Verify professors and review what people are sending in.",
+      "overview": "Overview",
+      "stats": {
+        "users": "Users",
+        "students": "Students",
+        "professors": "Professors",
+        "pending_professors": "Awaiting verification",
+        "labs": "Labs",
+        "open_positions": "Open positions",
+        "applications": "Applications",
+        "invitations": "Invitations",
+        "feedback": "Feedback posts",
+        "waitlist": "Waitlist",
+        "paid_users": "Paid users"
+      },
+      "verification": "Professor verification",
+      "onlyPending": "Only pending",
+      "verify": "Verify",
+      "unverify": "Revoke",
+      "verifiedAt": "Verified",
+      "pendingBadge": "Pending",
+      "lab": "Lab",
+      "waitlist": "Waitlist",
+      "contact": "Contact messages",
+      "empty": "Nothing here yet.",
+      "notAdmin": "This area is for administrators only.",
+      "verifiedToast": "Professor verified",
+      "revokedToast": "Verification revoked"
+    }
+  },
+  "discover": {
+    "title": "Find your research professor",
+    "subtitle": "Search researchers who are actively publishing on what you care about — from the world's scholarly record.",
+    "modeInterest": "By interest",
+    "modeName": "By name",
+    "interestLabel": "Research interest",
+    "interestPlaceholder": "e.g. computational neuroscience",
+    "nameLabel": "Researcher name",
+    "namePlaceholder": "e.g. Jane Smith",
+    "universityLabel": "University",
+    "universityPlaceholder": "Any university",
+    "universityHint": "Choose from the list to search one institution.",
+    "search": "Search",
+    "searching": "Searching…",
+    "sortBy": "Sort by",
+    "minH": "Minimum h-index",
+    "minHAny": "Any",
+    "filters": "Filters",
+    "resultsFor": "Researchers for “{q}”",
+    "resultsAt": "at {university}",
+    "resultsCount_one": "{count} researcher",
+    "resultsCount_other": "{count} researchers",
+    "noResults": "No researchers found",
+    "noResultsBody": "Try a broader interest, another spelling, or remove the university filter.",
+    "startTitle": "Start with something you're curious about",
+    "startBody": "Try a topic like “protein folding” or “climate policy”, add a university if you have one in mind, and we'll show who is publishing on it.",
+    "noteTitle": "How results are ranked",
+    "noteBody": "Researchers are ranked by how much they have published on your topic recently, weighted by their standing in the field. Titles like “professor” aren't recorded in scholarly databases, so use the summary and papers to judge fit.",
+    "hIndex": "h-index",
+    "papers": "papers",
+    "citations": "citations",
+    "recentWorks": "Last 3 yrs",
+    "onTopic": "On this topic",
+    "onLabora": "On Labora",
+    "viewProfile": "View profile",
+    "save": "Save",
+    "saved": "Saved",
+    "loadMore": "Show more researchers",
+    "yourInterest": "Your interest",
+    "disclaimer": "Data from OpenAlex. Affiliations reflect the latest publication records and can lag behind real life.",
+    "signInToSave": "Sign in to save researchers to your shortlist.",
+    "savedToast": "Saved to your shortlist",
+    "removedToast": "Removed from your shortlist",
+    "clearFilters": "Clear filters",
+    "universityAny": "Any university",
+    "searchingAt": "Searching researchers at {university}",
+    "lookingUp": "Looking up institutions…"
+  },
+  "enums": {
+    "compensation": {
+      "paid": "Paid",
+      "credit": "For credit",
+      "volunteer": "Volunteer"
+    },
+    "term": {
+      "fall": "Fall",
+      "spring": "Spring",
+      "summer": "Summer",
+      "year_round": "Year-round",
+      "flexible": "Flexible"
+    },
+    "location": {
+      "on_site": "On campus",
+      "remote": "Remote",
+      "hybrid": "Hybrid"
+    },
+    "appStatus": {
+      "pending": "In review",
+      "accepted": "Accepted",
+      "rejected": "Not selected",
+      "withdrawn": "Withdrawn"
+    },
+    "invStatus": {
+      "pending": "Waiting for reply",
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "withdrawn": "Withdrawn"
+    },
+    "outreach": {
+      "saved": "Saved",
+      "drafted": "Drafting",
+      "sent": "Sent",
+      "replied": "Replied",
+      "meeting": "Meeting set",
+      "positive": "Offer / yes",
+      "no_reply": "No reply",
+      "declined": "Declined"
+    },
+    "materialKind": {
+      "paper": "Paper",
+      "dataset": "Dataset",
+      "poster": "Poster",
+      "other": "Other"
+    },
+    "role": {
+      "student": "Student",
+      "professor": "Professor"
+    },
+    "year": {
+      "freshman": "Freshman",
+      "sophomore": "Sophomore",
+      "junior": "Junior",
+      "senior": "Senior",
+      "masters": "Master's",
+      "phd": "PhD"
+    },
+    "style": {
+      "autonomy": "Autonomy",
+      "autonomyLow": "Close guidance",
+      "autonomyHigh": "Independent",
+      "collaboration": "Collaboration",
+      "collaborationLow": "Solo focus",
+      "collaborationHigh": "Team-oriented",
+      "pace": "Pace",
+      "paceLow": "Steady & deep",
+      "paceHigh": "Fast & iterative",
+      "structure": "Structure",
+      "structureLow": "Open-ended",
+      "structureHigh": "Well-defined"
+    },
+    "grade": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "needs_work": "Needs work",
+      "risky": "Risky"
+    },
+    "sort": {
+      "relevance": "Best match",
+      "cited": "Most cited",
+      "recent": "Most active"
+    }
+  },
+  "errors": {
+    "email_not_academic": "Please use your university email address (for example .edu or .ac.uk).",
+    "email_taken": "That email is already registered. Try signing in instead.",
+    "invalid_credentials": "Incorrect email or password.",
+    "invalid_token": "Your session has expired. Please sign in again.",
+    "user_not_found": "We couldn't find that account. Please sign in again.",
+    "forbidden": "You don't have access to this.",
+    "student_only": "This is only available to student accounts.",
+    "professor_only": "This is only available to professor accounts.",
+    "admin_only": "This area is for administrators only.",
+    "professor_unverified": "Your professor account is waiting for verification. This unlocks as soon as it is approved.",
+    "lab_required": "Set up your lab profile first.",
+    "lab_exists": "You already have a lab profile.",
+    "lab_not_found": "We couldn't find that lab.",
+    "material_not_found": "That research material no longer exists.",
+    "position_not_found": "We couldn't find that position.",
+    "position_not_open": "This position isn't open for applications.",
+    "position_has_applications": "This position already has applicants — close it instead of deleting it.",
+    "already_applied": "You've already applied to this position.",
+    "application_not_found": "We couldn't find that application.",
+    "already_invited": "You've already invited this student to this position.",
+    "invitation_not_found": "We couldn't find that invitation.",
+    "invitation_closed": "This invitation is no longer open.",
+    "student_not_discoverable": "This student isn't accepting invitations.",
+    "quota_exceeded": "You've used your free allowance for this feature. Upgrade for unlimited access.",
+    "rate_limited": "You're going a little fast — please wait a moment and try again.",
+    "professor_not_found": "We couldn't find that researcher.",
+    "upstream_unavailable": "The scholarly database is busy right now. Please try again in a moment.",
+    "billing_disabled": "Payments aren't available yet.",
+    "invalid_signature": "That request couldn't be verified.",
+    "invalid_referral_code": "That referral code doesn't exist.",
+    "own_referral_code": "You can't use your own referral code.",
+    "referral_already_used": "You've already redeemed a referral code.",
+    "feedback_not_found": "We couldn't find that post.",
+    "outreach_not_found": "We couldn't find that entry.",
+    "network": "We can't reach the server. Check your connection and try again.",
+    "unknown": "Something went wrong. Please try again."
+  },
+  "fields": {
+    "eyebrow": "Field guides",
+    "title": "Find a research position by field",
+    "subtitle": "Pick a discipline to see researchers who are actively publishing in it, what they work on, and how to reach out.",
+    "blurb": "Find {field} researchers who are actively publishing, understand what they work on, and write a specific note that actually gets read.",
+    "cta": "See {field} researchers",
+    "pageTitle": "{field}: find researchers and positions",
+    "pageSubtitle": "Discover who is publishing in {field} right now, understand their work, and reach out the right way.",
+    "searchNow": "Search {field} researchers",
+    "openPositions": "Open {field} positions",
+    "backToAll": "All fields",
+    "tipsTitle": "How to approach {field} labs",
+    "tip1": "Skim two or three recent abstracts before writing — you only need enough to ask one good question.",
+    "tip2": "Mention a concrete skill: a course, a dataset, a tool or a small project. Lab tasks are usually practical.",
+    "tip3": "Offer a specific number of hours and a start date. It makes yes easier.",
+    "tip4": "If the professor isn't taking students, ask who in the group might be.",
+    "related": "Related fields",
+    "names": {
+      "astrophysics": "Astrophysics",
+      "physics": "Physics",
+      "quantum-computing": "Quantum computing",
+      "chemistry": "Chemistry",
+      "materials-science": "Materials science",
+      "machine-learning": "Machine learning",
+      "computer-science": "Computer science",
+      "robotics": "Robotics",
+      "mathematics": "Mathematics",
+      "biochemistry": "Biochemistry",
+      "molecular-biology": "Molecular biology",
+      "genetics": "Genetics",
+      "bioinformatics": "Bioinformatics",
+      "neuroscience": "Neuroscience",
+      "cognitive-science": "Cognitive science",
+      "psychology": "Psychology",
+      "immunology": "Immunology",
+      "public-health": "Public health",
+      "epidemiology": "Epidemiology",
+      "environmental-science": "Environmental science",
+      "climate-science": "Climate science",
+      "economics": "Economics",
+      "linguistics": "Linguistics",
+      "sociology": "Sociology"
+    }
+  },
+  "footer": {
+    "product": "Product",
+    "tools": "Tools",
+    "resources": "Resources",
+    "legal": "Legal",
+    "howItWorks": "How it works",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "tagline": "Find the research lab that fits you — and the students who fit your lab.",
+    "copyright": "© {year} Labora. All rights reserved.",
+    "dataBy": "Scholarly data from"
+  },
+  "home": {
+    "hero": {
+      "badge": "New: AI matching for students and labs",
+      "title": "Find the professor who <em>fits you.</em>",
+      "subtitle": "Search the world's scholarly record, understand any researcher's work in plain language, and get matched with labs that fit your skills and the way you like to work.",
+      "modeInterest": "By interest",
+      "modeName": "By name",
+      "interestLabel": "Research interest",
+      "interestPlaceholder": "e.g. computational neuroscience",
+      "nameLabel": "Researcher name",
+      "namePlaceholder": "e.g. Jane Smith",
+      "universityLabel": "University",
+      "universityPlaceholder": "e.g. MIT, Stanford…",
+      "search": "Find professors",
+      "try": "Try",
+      "trust": "Built on open scholarly data: {works} papers · {institutions} institutions",
+      "trustFallback": "Built on open scholarly data: 300M+ papers · 140K+ institutions",
+      "ex": {
+        "ml": "Machine learning",
+        "neuro": "Neuroscience",
+        "genomics": "Genomics",
+        "climate": "Climate science",
+        "quantum": "Quantum computing",
+        "psych": "Psychology"
+      },
+      "modeLabel": "Search by"
+    },
+    "mock": {
+      "preview": "Illustrative preview",
+      "results": "Researchers",
+      "summary": "Plain-English summary",
+      "summaryBody": "Studies how machines can learn to see with very few labelled examples, so a robot can recognise and pick up everyday objects it has never met.",
+      "keyFinding": "Key finding",
+      "keyFindingBody": "A self-supervised approach cut the labelled images needed for grasp detection by 80% (2025).",
+      "starters": "Questions worth asking",
+      "starter1": "How did the group choose which objects to test on?",
+      "starter2": "Does the method hold up outside the lab?",
+      "save": "Save",
+      "writeEmail": "Write email",
+      "match": "Match",
+      "whyFit": "Why you fit",
+      "reasonTopics": "Shared topics: computer vision, PyTorch",
+      "reasonStyle": "Similar working style: independent, fast-paced",
+      "gap": "Gap: linear algebra",
+      "emailScore": "Email score",
+      "emailFlags": "2 things to fix",
+      "hIndex": "h-index",
+      "papers": "papers",
+      "flagFlattery": "Flattery",
+      "flagGeneric": "Generic phrase",
+      "mustHave": "Must have",
+      "niceToHave": "Nice to have",
+      "invite": "Invite",
+      "idealStudent": "Ideal candidate",
+      "followUpOn": "Follow up {date}",
+      "tracker": "Outreach tracker",
+      "openPositions": "Open positions",
+      "apply": "Apply"
+    },
+    "marquee": {
+      "label": "Researchers from institutions like"
+    },
+    "problem": {
+      "eyebrow": "The problem",
+      "title": "Most outreach to professors <em>never gets read.</em>",
+      "description": "Students send generic emails to the wrong people at the wrong time, and professors have seconds to decide. Here is what usually goes wrong.",
+      "generic": {
+        "title": "The email sounds like everyone else's",
+        "body": "Flattery and boilerplate are easy to spot. A specific question about real work stands out."
+      },
+      "who": {
+        "title": "You can't tell who is taking students",
+        "body": "Faculty pages go stale, and labs that are hiring rarely announce it where students look."
+      },
+      "read": {
+        "title": "Reading the papers takes hours",
+        "body": "You must understand the work before you can write something specific — but abstracts are dense."
+      }
+    },
+    "features": {
+      "eyebrow": "The platform",
+      "title": "Everything between “I'm curious” and “I'm in the lab”",
+      "description": "One place to find people, understand their work, reach out well and keep track.",
+      "discover": {
+        "title": "Search the scholarly record",
+        "body": "Type any interest and a university. We surface researchers who are actively publishing on it — real people, real papers."
+      },
+      "summaries": {
+        "title": "Plain-English summaries",
+        "body": "Every researcher gets a short explanation of what they study and one recent finding, written for someone new to the field."
+      },
+      "email": {
+        "title": "An email coach, not a ghostwriter",
+        "body": "Paste your draft and see which phrases sound generic, flattering or vague — and why. You keep your own voice."
+      },
+      "match": {
+        "title": "AI matching, both ways",
+        "body": "Students see the labs and professors that fit their skills and working style. Professors describe an ideal student and see who fits."
+      },
+      "positions": {
+        "title": "Openings from verified labs",
+        "body": "Browse roles posted directly by professors, read their research first, and apply in one step."
+      },
+      "tracker": {
+        "title": "An outreach tracker that reminds you",
+        "body": "Log who you emailed and what happened. Get follow-up dates so nothing slips through."
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From curiosity to a real conversation",
+      "s1": {
+        "title": "Search",
+        "body": "Enter an interest and a university, or a researcher's name."
+      },
+      "s2": {
+        "title": "Understand",
+        "body": "Read a plain-English summary, recent papers and good questions to ask."
+      },
+      "s3": {
+        "title": "Reach out",
+        "body": "Write your own email, check it, and send it with confidence."
+      },
+      "s4": {
+        "title": "Follow up",
+        "body": "Track replies and send two well-timed follow-ups."
+      }
+    },
+    "match": {
+      "eyebrow": "AI Match",
+      "title": "Matched on skills — and on <em>how you work.</em>",
+      "description": "Topic overlap is only half the story. Labora also compares working styles: how much independence you like, how collaborative you are, the pace you prefer and how much structure helps you.",
+      "students": "For students",
+      "s1": "Ranked positions and professors, each with plain reasons",
+      "s2": "See your gaps and how to stand out",
+      "s3": "You decide what professors can see",
+      "professors": "For professors",
+      "p1": "Describe your ideal student — or let AI draft it from your position",
+      "p2": "Browse students who opted in, ranked with reasons",
+      "p3": "Invite the best fits with a single message",
+      "privacy": "Student discoverability is opt-in and can be switched off at any time. Contact details are never shown to a professor until the student says yes.",
+      "cta": "Explore AI Match",
+      "styleTitle": "Working style",
+      "candidate": "Candidate",
+      "you": "You",
+      "lab": "Lab"
+    },
+    "compare": {
+      "title": "Why not just ask a chatbot?",
+      "description": "General chatbots are great writers, but they are not a directory of real people.",
+      "colChatbot": "A general chatbot",
+      "colLabora": "Labora",
+      "r1": "Where the people and papers come from",
+      "r1a": "Generated from memory — it can invent professors, papers and numbers.",
+      "r1b": "Retrieved from the scholarly record (OpenAlex). Nothing is made up.",
+      "r2": "Who writes your email",
+      "r2a": "Often writes it for you, and professors can tell.",
+      "r2b": "You write it. Labora tells you what to fix.",
+      "r3": "How much effort it takes",
+      "r3a": "Many prompts to find, read and compare researchers.",
+      "r3b": "One search: researchers, summaries and email feedback together."
+    },
+    "professors": {
+      "eyebrow": "For professors",
+      "title": "Recruit students who <em>actually fit.</em>",
+      "description": "Post openings, share your research, and let AI surface students whose skills and working style match your lab.",
+      "b1": "Free for verified faculty",
+      "b2": "Showcase papers, datasets and posters",
+      "b3": "Review applicants and invitations in one place",
+      "cta": "Post a position"
+    },
+    "stats": {
+      "eyebrow": "Built on open data",
+      "title": "A directory that is real, not generated",
+      "works": "Scholarly works indexed",
+      "institutions": "Institutions worldwide",
+      "researchers": "Researchers",
+      "labs": "Labs on Labora",
+      "positions": "Open positions",
+      "attribution": "Scholarly metadata provided by OpenAlex."
+    },
+    "pricing": {
+      "title": "Free to start. Upgrade when you're ready.",
+      "description": "Searching is always free. Passes unlock email finder, unlimited summaries and unlimited email checks for as long as you need them.",
+      "cta": "See plans"
+    },
+    "faq": {
+      "title": "Questions, answered",
+      "q1": "Where does the researcher data come from?",
+      "a1": "From OpenAlex, an open catalogue of the world's scholarly work. We only show people and papers that exist in that record. We never invent professors or publications.",
+      "q2": "Will Labora write my email for me?",
+      "a2": "No — on purpose. Professors can tell, and replies go to students who sound like themselves. Labora finds who to write to, explains their work, and gives specific feedback on your own draft.",
+      "q3": "How does AI matching work?",
+      "a3": "We compare your skills, interests, experience, availability and working style with positions, labs and researchers, then explain every match. An AI reviewer refines the top results. We never use names, schools, gender, nationality or other protected traits.",
+      "q4": "Who can see my profile?",
+      "a4": "Nobody, unless you turn on discoverability. Then only verified professors can see your profile — never your email. They can invite you, and you decide whether to reply.",
+      "q5": "Do professors have to be on Labora?",
+      "a5": "No. You can find and contact researchers anywhere in the scholarly record. Professors who join can post positions, share their research and find students.",
+      "q6": "How much does it cost?",
+      "a6": "Searching is free, and a free account includes a taste of summaries, email checks and AI matching. Passes unlock unlimited use — see Pricing."
+    },
+    "cta": {
+      "title": "Your next research position starts with one <em>good email.</em>",
+      "subtitle": "Search free — no card required.",
+      "button": "Find professors"
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Four steps from curiosity to conversation",
+    "subtitle": "Labora is built around what actually gets a professor to reply.",
+    "s1": {
+      "title": "Search the scholarly record",
+      "body": "Type a research interest and a university — or a researcher's name. We surface people who are actively publishing on it.",
+      "b1": "Results drawn from an open scholarly database",
+      "b2": "Filter by university, sort by recent activity"
+    },
+    "s2": {
+      "title": "Understand their work",
+      "body": "Read a plain-English summary, a recent finding and questions worth asking — then skim the papers themselves.",
+      "b1": "Summaries written for someone new to the field",
+      "b2": "Recent and most-cited papers at a glance"
+    },
+    "s3": {
+      "title": "Write an email that gets read",
+      "body": "Draft it yourself, then check it. We highlight flattery, boilerplate and vagueness — and never write the email for you.",
+      "b1": "A framework and annotated examples",
+      "b2": "Specific, line-by-line feedback"
+    },
+    "s4": {
+      "title": "Follow up and track",
+      "body": "Log who you contacted, get well-timed follow-ups, and keep every lead in one place.",
+      "b1": "Two follow-up drafts and calendar reminders",
+      "b2": "An outreach tracker that keeps score"
+    },
+    "cta": "Start searching",
+    "ctaMatch": "Or let AI find your fit"
+  },
+  "lab": {
+    "notFound": "Lab not found",
+    "notFoundBody": "The lab may be private or the link may be wrong.",
+    "openPositions": "Open positions",
+    "noPositions": "No open positions right now",
+    "noPositionsBody": "Check back soon — this lab may post new openings. You can also reach out directly.",
+    "materials": "Research materials",
+    "culture": "What it's like to work here",
+    "teamSize": "Team of {count}",
+    "workStyle": "How the lab works",
+    "website": "Lab website",
+    "professor": "Principal investigator",
+    "verified": "Verified"
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service",
+    "updated": "Last updated {date}",
+    "englishNote": "This document is provided in English. If you need help understanding it, contact us.",
+    "questions": "Questions about this document?",
+    "contactUs": "Contact us"
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "Shared topics: {items}",
+      "skills_covered": "Skills you already have: {items}",
+      "style_aligned": "Similar working style ({items})",
+      "hours_fit": "Your availability covers the hours",
+      "bonus_skills": "Bonus skills: {items}",
+      "published_on_topics": "Publishes on: {items}",
+      "active_recently": "{items} papers in the last 3 years",
+      "partial_topic_overlap": "Less overlap on: {items}",
+      "missing_skills": "Skills to build: {items}",
+      "style_differs": "Different working style ({items})",
+      "hours_short": "Fewer hours available than the role expects"
+    },
+    "strong": "Strong match",
+    "good": "Good match",
+    "partial": "Partial match",
+    "tip": "How to stand out",
+    "why": "Why it fits",
+    "gaps": "Worth knowing",
+    "breakdown": {
+      "topic": "Topics",
+      "skills": "Skills",
+      "bonus": "Bonus",
+      "style": "Working style",
+      "hours": "Availability"
+    },
+    "aiRefined": "AI-refined",
+    "explainable": "Explainable score",
+    "student": {
+      "title": "AI Match",
+      "subtitle": "Positions and professors ranked by how well they fit your skills, interests and the way you like to work.",
+      "tabPositions": "Open positions",
+      "tabProfessors": "Professors worldwide",
+      "run": "Find my matches",
+      "rerun": "Refresh matches",
+      "running": "Matching…",
+      "strengthTitle": "Your match profile",
+      "strengthBody": "The more you share, the sharper your matches. {score}% complete.",
+      "improve": "Improve profile",
+      "missing": {
+        "skills": "Add your skills",
+        "interests": "Describe your interests",
+        "experience": "Add what you've done so far",
+        "bio": "Write a short bio",
+        "major": "Add your major",
+        "availability": "Set your weekly availability",
+        "work_style": "Set your working style"
+      },
+      "howTitle": "How matching works",
+      "how1": "We compare your interests, skills, experience and availability with each position or researcher.",
+      "how2": "We also compare working styles — independence, teamwork, pace and structure.",
+      "how3": "An AI reviewer refines the top results and explains each one. Names, schools and other personal traits are never used.",
+      "noResultsTitle": "No matches yet",
+      "noResultsBody": "There are no open positions to match against right now. Try professors worldwide instead.",
+      "searchedFor": "Searched for: {keywords}",
+      "direction": "Steer the search",
+      "directionPlaceholder": "e.g. neural coding, medical imaging",
+      "university": "Only at a university",
+      "apply": "View & apply",
+      "viewProfessor": "View profile",
+      "writeEmail": "Write email",
+      "quota": "{used} of {limit} free matches used",
+      "quotaPro": "Unlimited matches",
+      "limitTitle": "You've used your free matches",
+      "limitBody": "Passes unlock unlimited matching, summaries and the email finder.",
+      "professorsIntro": "We turn your profile into research topics and look for people actively publishing on them.",
+      "emptyProfile": "Add some skills and interests first so we have something to match.",
+      "positionsFirst": "Run the match to see the best-fitting positions."
+    },
+    "professor": {
+      "title": "Find your ideal students",
+      "subtitle": "Describe who you're looking for — or let AI draft it from your position — and see the students who fit.",
+      "unverifiedTitle": "Verification pending",
+      "unverifiedBody": "Talent search unlocks when your professor account is verified. We'll review it shortly.",
+      "step1": "1. Start from a position",
+      "step1Hint": "Optional. Choose an opening to base the profile on.",
+      "noPosition": "No specific position",
+      "step2": "2. The candidate you're looking for",
+      "notes": "In your own words",
+      "notesPlaceholder": "e.g. Someone self-directed who enjoys debugging, has used PyTorch, and can commit 10 hours a week.",
+      "draft": "Draft the profile with AI",
+      "draftRule": "Build the profile",
+      "drafting": "Drafting…",
+      "personaHint": "Edit anything — this is what students are compared against.",
+      "headline": "Headline",
+      "summary": "Summary",
+      "mustHave": "Must have",
+      "niceToHave": "Nice to have",
+      "traits": "Personal qualities",
+      "keywords": "Topics",
+      "addChip": "Add and press Enter",
+      "workStyle": "Working style you're looking for",
+      "step3": "3. Students who fit",
+      "find": "Find students",
+      "finding": "Searching…",
+      "pool": "{count} students have opted in to be discovered",
+      "poolEmpty": "No students have opted in yet. As students turn on discoverability, they'll appear here.",
+      "left": "{count} searches left today",
+      "invite": "Invite to apply",
+      "invited": "Invited",
+      "inviteTitle": "Invite {name}",
+      "inviteBody": "They'll see your message and can accept or decline. Their contact details stay private until they reply.",
+      "position": "Position",
+      "message": "Your message",
+      "messageDefault": "Hi {name}, your background looks like a strong fit for “{position}” in our lab. Would you like to apply? I'm happy to answer any questions.",
+      "sendInvite": "Send invitation",
+      "sent": "Invitation sent",
+      "selectPosition": "Choose a position to invite for",
+      "privacy": "Only students who chose to be discoverable appear here. Emails are never shown.",
+      "noStudents": "No matching students yet",
+      "noStudentsBody": "Try loosening the must-have list, or check back as more students join.",
+      "available": "{hours} hrs/week available",
+      "skills": "Skills",
+      "createPositionFirst": "Post a position to invite students to apply.",
+      "labFirst": "Set up your lab profile first."
+    },
+    "ai": {
+      "notEnabled": "AI refinement isn't enabled on this server — matches use the explainable rule-based score."
+    }
+  },
+  "meta": {
+    "homeTitle": "Labora — Find the professor who fits you",
+    "homeDescription": "Discover researchers from the world's scholarly record, understand their work in plain language, and get AI-matched with labs that fit your skills and working style.",
+    "discoverTitle": "Find research professors",
+    "discoverDescription": "Search researchers who are actively publishing on your interest, at any university, from an open scholarly database.",
+    "professorTitle": "Researcher profile",
+    "professorDescription": "A researcher's publications, topics, plain-English summary and outreach tools.",
+    "positionsTitle": "Open research positions",
+    "positionsDescription": "Research roles posted directly by verified professors — paid, for credit or volunteer.",
+    "positionTitle": "Research position",
+    "positionDescription": "Read about the role and the lab's research, then apply.",
+    "labTitle": "Research lab",
+    "labDescription": "A lab's research, culture, open positions and materials.",
+    "checkerTitle": "Cold email checker for professors",
+    "checkerDescription": "Paste your outreach email and see which phrases sound generic, flattering or vague — without rewriting it for you.",
+    "followUpTitle": "Follow-up planner",
+    "followUpDescription": "Two well-timed follow-up drafts for emails to professors that got no reply, with calendar reminders.",
+    "frameworkTitle": "The cold-email framework",
+    "frameworkDescription": "A fill-in-the-blank structure for emailing professors, plus the phrases to avoid.",
+    "examplesTitle": "Annotated emails that work",
+    "examplesDescription": "Three illustrative outreach emails with line-by-line notes on why they work.",
+    "fieldsTitle": "Field guides",
+    "fieldsDescription": "Find researchers and outreach tips for your discipline.",
+    "blogTitle": "Guides & advice",
+    "blogDescription": "How to find, contact and impress a research mentor.",
+    "pricingTitle": "Pricing",
+    "pricingDescription": "Search is free. Passes unlock the email finder, unlimited summaries and unlimited email checks.",
+    "aiMatchTitle": "AI Match",
+    "aiMatchDescription": "Match students and labs on skills, interests, availability and working style — with explanations for every result.",
+    "howTitle": "How it works",
+    "howDescription": "Four steps from curiosity to a real conversation with a professor.",
+    "playbookTitle": "The Cold Email Playbook",
+    "playbookDescription": "Structure, timing and the follow-up ladder behind emails that get replies.",
+    "feedbackTitle": "Feedback board",
+    "feedbackDescription": "Suggest features, report bugs and vote on what we build next.",
+    "contactTitle": "Contact",
+    "contactDescription": "Questions, ideas or account help — we read every message.",
+    "loginTitle": "Sign in",
+    "registerTitle": "Create your account"
+  },
+  "nav": {
+    "home": "Labora home",
+    "skip": "Skip to content",
+    "discover": "Discover",
+    "positions": "Positions",
+    "aiMatch": "AI Match",
+    "resources": "Resources",
+    "pricing": "Pricing",
+    "signIn": "Sign in",
+    "getStarted": "Get started",
+    "dashboard": "Dashboard",
+    "signOut": "Sign out",
+    "account": "Account menu",
+    "language": "Language",
+    "theme": "Appearance",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "menu": "Open menu",
+    "feedback": "Feedback",
+    "emailChecker": "Email checker",
+    "emailCheckerDesc": "Get specific feedback on your outreach email before you send it.",
+    "followUp": "Follow-up planner",
+    "followUpDesc": "Two well-timed follow-ups for emails that got no reply.",
+    "framework": "Email framework",
+    "frameworkDesc": "A fill-in-the-blank structure professors respond to.",
+    "examples": "Emails that worked",
+    "examplesDesc": "Annotated examples showing why each line works.",
+    "fields": "Field guides",
+    "fieldsDesc": "Find researchers and outreach tips for your discipline.",
+    "blog": "Guides & advice",
+    "blogDesc": "How to find, contact and impress a research mentor."
+  },
+  "playbook": {
+    "eyebrow": "Included with every pass",
+    "title": "The Cold Email Playbook",
+    "subtitle": "The structure, timing and follow-up ladder behind emails that get replies — condensed into one page.",
+    "lockedTitle": "Unlock the rest of the playbook",
+    "lockedBody": "Timing, the follow-up ladder, handling a “no” and the pre-send checklist are included with any pass.",
+    "seePlans": "See plans",
+    "signIn": "Sign in",
+    "englishNote": "The playbook is currently available in English only.",
+    "cta": "Check my email"
+  },
+  "positions": {
+    "title": "Open positions",
+    "subtitle": "Research roles posted directly by verified professors. Read their work first, then apply.",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Topic, skill or lab name",
+    "filters": "Filters",
+    "compensation": "Compensation",
+    "location": "Location",
+    "term": "Term",
+    "university": "University",
+    "universityPlaceholder": "e.g. MIT",
+    "department": "Department",
+    "departmentPlaceholder": "e.g. Biology",
+    "any": "Any",
+    "count_one": "{count} position",
+    "count_other": "{count} positions",
+    "searching": "Searching…",
+    "noResults": "No positions match your search",
+    "noResultsBody": "Try a broader keyword or remove a filter. Or search for professors directly — you don't need an opening to reach out.",
+    "discoverCta": "Find professors",
+    "clear": "Clear filters",
+    "postedAgo": "Posted {when}",
+    "closes": "Closes {when}",
+    "applyBy": "Apply by {date}",
+    "deadlinePassed": "Deadline passed",
+    "slots_one": "{count} opening",
+    "slots_other": "{count} openings",
+    "backToAll": "All positions",
+    "about": "About this role",
+    "requirements": "What we're looking for",
+    "skills": "Skills",
+    "research": "Read the lab's research",
+    "researchHint": "Get familiar with the work before you apply.",
+    "noMaterials": "No research materials shared yet.",
+    "aboutLab": "About the lab",
+    "viewLab": "View lab profile",
+    "website": "Lab website",
+    "notFound": "Position not found",
+    "verifiedLab": "Verified lab",
+    "apply": {
+      "title": "Apply",
+      "label": "Why are you a good fit?",
+      "placeholder": "Share your interest, relevant coursework and availability…",
+      "submit": "Submit application",
+      "shared": "Your profile is shared with the professor.",
+      "sent": "Application sent",
+      "status": "Status",
+      "track": "Track applications",
+      "signIn": "Sign in with your student account to apply.",
+      "signInCta": "Sign in to apply",
+      "newHere": "New here?",
+      "createAccount": "Create an account",
+      "professorNote": "You're signed in as a professor. Only students can apply.",
+      "closedNote": "This position is no longer accepting applications.",
+      "completeProfile": "Complete your profile so professors can see what you've done.",
+      "toProfile": "Update profile",
+      "fitHint": "Be specific: one thing you've done, one thing you'd like to learn, and when you're available."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Pick the pass that fits your semester",
+    "subtitle": "Searching for researchers is always free. Passes unlock the tools that save you the most time — one payment, no subscription, no auto-renewal.",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "desc": "forever"
+      },
+      "weekly": {
+        "name": "Weekly sprint",
+        "desc": "1 week of access"
+      },
+      "semester": {
+        "name": "Semester pass",
+        "desc": "4 months of access",
+        "badge": "Best value"
+      },
+      "lifetime": {
+        "name": "Lifetime",
+        "desc": "Yours forever"
+      }
+    },
+    "cta": {
+      "free": "Start free",
+      "weekly": "Start the weekly sprint",
+      "semester": "Get the semester pass",
+      "lifetime": "Get lifetime access",
+      "current": "Your current plan",
+      "signIn": "Sign in to continue"
+    },
+    "features": {
+      "unlimited_search": "Unlimited researcher searches",
+      "summaries_2": "2 plain-English summaries",
+      "email_check_1": "1 email check",
+      "ai_match_3": "3 AI matches",
+      "outreach_tracker": "Outreach tracker",
+      "positions_board": "Open positions board",
+      "everything_pro": "Everything in Free, plus:",
+      "unlimited_summaries": "Unlimited summaries",
+      "email_finder": "Email finder",
+      "responsiveness": "Responsiveness scores",
+      "unlimited_checks": "Unlimited email checks & follow-ups",
+      "playbook": "The Cold Email Playbook",
+      "everything_semester": "Everything in the Semester pass, plus:",
+      "never_pay_again": "Never pay again",
+      "priority_features": "Early access to new features"
+    },
+    "payments": "Payments are processed securely by Stripe. We never see your card details.",
+    "devMode": "Payments aren't connected in this environment — passes activate instantly so you can test them.",
+    "activated": "Your pass is active. Enjoy!",
+    "cancelled": "Checkout was cancelled — no charge was made.",
+    "referral": {
+      "title": "Bring a friend, both get a week",
+      "body": "Share your code from Plan & billing. When a friend signs up with it, you both get 7 days of Pro.",
+      "haveCode": "Have a friend's code?",
+      "placeholder": "Enter code",
+      "redeem": "Redeem",
+      "redeemed": "Code redeemed — 7 days of Pro added.",
+      "signIn": "Sign in to redeem a code"
+    },
+    "waitlist": {
+      "title": "A guaranteed-reply plan is coming",
+      "body": "We're exploring a plan built around getting you real conversations. Join the waitlist and we'll tell you first.",
+      "placeholder": "you@university.edu",
+      "join": "Join the waitlist",
+      "joined": "You're on the list. Thank you!"
+    },
+    "faq": {
+      "title": "Billing questions",
+      "q1": "Is it a subscription?",
+      "a1": "No. Every pass is a one-time payment. Nothing renews automatically, so there's nothing to cancel.",
+      "q2": "What happens when my pass ends?",
+      "a2": "You keep your account, saved researchers and tracker. You simply go back to the free allowance.",
+      "q3": "Do I need a pass to search or apply?",
+      "a3": "No. Searching for researchers, browsing positions and applying are always free.",
+      "q4": "Are professors charged?",
+      "a4": "No. Verified professors post positions, share research and find students for free.",
+      "q5": "Who do I contact about billing?",
+      "a5": "Use the contact page and we'll get back to you."
+    }
+  },
+  "professor": {
+    "back": "Back to search",
+    "notFoundTitle": "We couldn't find that researcher",
+    "notFoundBody": "The link may be wrong, or the scholarly database is busy. Try searching again.",
+    "orcid": "ORCID",
+    "openalex": "OpenAlex profile",
+    "onLabora": "Runs a lab on Labora",
+    "viewLab": "View their lab",
+    "stats": {
+      "hIndex": "h-index",
+      "papers": "Papers",
+      "citations": "Citations",
+      "recent": "Last 3 years",
+      "i10": "i10-index"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "papers": "Papers",
+      "contact": "Contact"
+    },
+    "summary": {
+      "title": "Their work, in plain English",
+      "cta": "Explain their work",
+      "ctaBody": "Get a short summary of what they study, one recent finding, and questions worth asking.",
+      "loading": "Reading their recent papers…",
+      "overview": "What they study",
+      "keyFinding": "A recent finding",
+      "fromPaper": "From: {title}",
+      "topics": "Research areas, simply put",
+      "goodFit": "You might be a good fit if…",
+      "starters": "Questions worth asking",
+      "startersHint": "Use these as prompts for your own curiosity — professors can tell when a question is genuine.",
+      "aiBadge": "AI summary",
+      "extractiveBadge": "Auto summary",
+      "extractiveNote": "AI summaries aren't enabled on this server, so this is assembled directly from their publication data (in English).",
+      "aiNote": "Written by AI from public abstracts. Always check the papers.",
+      "quota": "{used} of {limit} free summaries used",
+      "quotaPro": "Unlimited summaries",
+      "signInTitle": "Sign in to read the summary",
+      "signInBody": "Free accounts get plain-English summaries, a key finding and conversation starters for a couple of researchers.",
+      "upgrade": "Get unlimited summaries",
+      "limitTitle": "You've used your free summaries",
+      "limitBody": "Passes unlock unlimited summaries, the email finder and more."
+    },
+    "topics": "Research topics",
+    "activity": "Publications per year",
+    "papers": {
+      "recent": "Most recent",
+      "top": "Most cited",
+      "empty": "No papers found.",
+      "abstract": "Abstract",
+      "cited": "{n} citations",
+      "openAccess": "Open access",
+      "viewPaper": "View paper"
+    },
+    "contact": {
+      "title": "Email finder",
+      "lockedTitle": "Unlock the email finder and responsiveness",
+      "lockedBody": "See likely institutional addresses and how often students hear back. Included with any pass.",
+      "seePlans": "See plans",
+      "guessNote": "These are guesses based on common naming patterns, not verified addresses. Confirm on the faculty directory before you send.",
+      "pattern": "Pattern: {pattern}",
+      "mostCommon": "Most common",
+      "copy": "Copy address",
+      "copied": "Address copied",
+      "compose": "Open in email app",
+      "directory": "Search the faculty directory",
+      "noDomain": "We couldn't work out this institution's email domain.",
+      "responsiveness": "Responsiveness",
+      "resp": {
+        "high": "Often replies",
+        "medium": "Sometimes replies",
+        "low": "Rarely replies",
+        "unknown": "Not enough reports yet"
+      },
+      "respBody": "Based on {n} student outreach logs. {rate} replied{days}.",
+      "respDays": ", typically within {days} days",
+      "respUnknown": "We only show this once at least 3 students have logged their outreach to this researcher. Log yours to help others.",
+      "labDays": "Their lab on Labora typically answers applications within {days} days.",
+      "logOutreach": "Log your outreach"
+    },
+    "sidebar": {
+      "writeTitle": "Ready to reach out?",
+      "writeBody": "Draft your email, then check it against what professors say gets deleted.",
+      "writeCta": "Check my email",
+      "trackTitle": "Outreach tracker",
+      "trackBody": "Keep track of who you contacted and when to follow up.",
+      "trackStart": "Add to tracker",
+      "status": "Status",
+      "tracked": "Added to your tracker",
+      "saveError": "Couldn't update the tracker"
+    }
+  },
+  "states": {
+    "notFound": {
+      "title": "Page not found",
+      "body": "The page you're looking for doesn't exist or has moved.",
+      "home": "Back to home",
+      "search": "Find professors"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "body": "An unexpected error occurred. You can try again, or head back home.",
+      "retry": "Try again",
+      "home": "Back to home"
+    }
+  },
+  "tools": {
+    "emailChecker": {
+      "title": "Email checker",
+      "subtitle": "Paste your draft and see exactly which phrases make professors stop reading. We never rewrite your email — you keep your own voice.",
+      "subject": "Subject line",
+      "subjectPlaceholder": "e.g. Question about your depth-estimation paper",
+      "body": "Your email",
+      "bodyPlaceholder": "Dear Professor …",
+      "professorContext": "Checking against {name}'s recent work",
+      "removeContext": "Remove",
+      "check": "Check my email",
+      "checking": "Reading your email…",
+      "example": "Try a flawed example",
+      "clear": "Clear",
+      "words": "{count} words",
+      "wordsHint": "Aim for 90–180 words",
+      "resultsTitle": "Your results",
+      "emptyTitle": "Your feedback will appear here",
+      "emptyBody": "Write or paste an email on the left, then press “Check my email”.",
+      "score": "Score",
+      "highlights": "Your email, highlighted",
+      "issues": "What to fix",
+      "noIssues": "Nothing to fix — this reads well.",
+      "strengths": "What's working",
+      "aiSummary": "Overall impression",
+      "soundsGeneric": "Could be sent to anyone",
+      "soundsGenericHint": "How easily this email could be sent unchanged to any professor.",
+      "aiUsed": "Includes AI review",
+      "rulesOnly": "Rule-based review",
+      "englishOnly": "Phrase checks currently run on English emails. Length and structure checks still apply.",
+      "signInTitle": "Sign in to check your email",
+      "signInBody": "Free accounts include one check. Passes unlock unlimited checks.",
+      "limitTitle": "You've used your free check",
+      "limitBody": "Passes unlock unlimited email checks, the email finder and unlimited summaries.",
+      "quota": "{used} of {limit} free checks used",
+      "quotaPro": "Unlimited checks",
+      "noRewrite": "We point out problems but never write the email for you — professors reply to students who sound like themselves.",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": {
+        "tone": "Tone",
+        "specificity": "Specificity",
+        "voice": "Voice",
+        "clarity": "Clarity",
+        "ask": "The ask",
+        "etiquette": "Etiquette",
+        "subject": "Subject"
+      },
+      "gradeDesc": {
+        "excellent": "Specific, concise and clear. Send it.",
+        "good": "A solid draft — a couple of quick fixes will help.",
+        "needs_work": "Several things could get this ignored. Fix the red items first.",
+        "risky": "This is likely to be deleted. Rework it before sending."
+      },
+      "severity": {
+        "high": "Fix first",
+        "medium": "Worth fixing",
+        "low": "Minor"
+      },
+      "flags": {
+        "flattery": {
+          "title": "Flattery",
+          "tip": "Professors hear “groundbreaking” daily. Name the specific result or method that caught your attention instead."
+        },
+        "generic_phrase": {
+          "title": "Generic phrase",
+          "tip": "Lines like “highly motivated” could describe anyone. Show it with something you have actually done."
+        },
+        "ai_sounding": {
+          "title": "Sounds machine-written",
+          "tip": "This phrase is common in AI-generated text. Say it the way you would say it out loud."
+        },
+        "bad_salutation": {
+          "title": "Impersonal greeting",
+          "tip": "“Dear Sir” signals a mass email. Use “Dear Professor [Last name]” — check the spelling."
+        },
+        "informal": {
+          "title": "Too informal",
+          "tip": "Keep the tone friendly but professional — avoid text-speak and abbreviations."
+        },
+        "missing_name": {
+          "title": "Greeting has no name",
+          "tip": "Address the professor by name: “Dear Professor Rivera,”."
+        },
+        "name_not_mentioned": {
+          "title": "Professor's name not used",
+          "tip": "Make sure the email is clearly addressed to this specific person."
+        },
+        "no_specific_reference": {
+          "title": "Doesn't reference their work",
+          "tip": "Mention a specific paper, method or finding from this professor — and ask something it made you wonder."
+        },
+        "low_specificity": {
+          "title": "Nothing specific",
+          "tip": "Nothing here couldn't be sent to any professor. Add a paper, a year, a result or a concrete question."
+        },
+        "no_own_work": {
+          "title": "Shows nothing you've done",
+          "tip": "Add one concrete thing you have built, analysed, read or taken — even a small project."
+        },
+        "no_clear_ask": {
+          "title": "No clear ask",
+          "tip": "Say exactly what you're asking for: a conversation, a volunteer role, or a pointer to someone else."
+        },
+        "no_signoff": {
+          "title": "No sign-off",
+          "tip": "End with a short thank-you and your full name."
+        },
+        "exclamation": {
+          "title": "Too many exclamation marks",
+          "tip": "One is fine; two or more reads as over-excited. Let the content carry the enthusiasm."
+        },
+        "emoji": {
+          "title": "Emoji",
+          "tip": "Skip emoji in a first email to a professor."
+        },
+        "all_caps": {
+          "title": "ALL CAPS",
+          "tip": "Capitalised words read as shouting. Use normal case."
+        },
+        "too_short": {
+          "title": "Too short",
+          "tip": "Under about 45 words rarely says enough. Add what you've done and what you're asking."
+        },
+        "too_long": {
+          "title": "Too long",
+          "tip": "Aim for 90–180 words. Cut background that the professor doesn't need to decide."
+        },
+        "wall_of_text": {
+          "title": "Wall of text",
+          "tip": "Break it into 2–3 short paragraphs so it can be skimmed."
+        },
+        "no_subject": {
+          "title": "No subject line",
+          "tip": "A clear subject helps it get opened: mention the topic or paper."
+        },
+        "subject_generic": {
+          "title": "Generic subject",
+          "tip": "“Research” could be anything. Try naming the paper or topic you're writing about."
+        },
+        "subject_short": {
+          "title": "Subject too short",
+          "tip": "Add a few words of context so the professor knows what it's about."
+        },
+        "subject_long": {
+          "title": "Subject too long",
+          "tip": "Keep it under about 90 characters."
+        },
+        "subject_shouty": {
+          "title": "Shouty subject",
+          "tip": "Avoid capitals and words like “urgent” — they look like spam."
+        },
+        "ai_note": {
+          "title": "Reviewer note",
+          "tip": ""
+        }
+      },
+      "strengthLabels": {
+        "personal_greeting": "Addresses the professor by name",
+        "specific_reference": "References their specific work",
+        "shows_own_work": "Shows something you've done",
+        "clear_ask": "Makes a clear ask",
+        "redirect_offer": "Gives them an easy way to redirect you",
+        "states_availability": "States your availability or timeline",
+        "concise": "A good length"
+      }
+    },
+    "followUp": {
+      "title": "Follow-up planner",
+      "subtitle": "No reply yet? Paste the email you sent and get two well-timed follow-ups that sound like you.",
+      "email": "The email you sent",
+      "emailPlaceholder": "Paste your original email…",
+      "subject": "Original subject line",
+      "sentOn": "Date you sent it",
+      "professorName": "Professor's name",
+      "professorPlaceholder": "e.g. Elena Rivera",
+      "generate": "Plan my follow-ups",
+      "generating": "Drafting…",
+      "timeline": "Your follow-up timeline",
+      "step": "Follow-up {n}",
+      "sendOn": "Send on {date}",
+      "daysAfter": "{days} days after your first email",
+      "copy": "Copy message",
+      "copied": "Copied",
+      "addToCalendar": "Add to calendar",
+      "editHint": "Edit freely — these are drafts to make your own.",
+      "emptyTitle": "Your timeline will appear here",
+      "emptyBody": "Two follow-ups, spaced so you stay on their radar without being a nuisance.",
+      "tipsTitle": "Timing tips",
+      "tip1": "Avoid finals weeks, grant deadlines and holidays.",
+      "tip2": "Send early in the morning on a weekday.",
+      "tip3": "After two follow-ups, move on — and ask for a redirect.",
+      "aiUsed": "Personalised by AI",
+      "templated": "Template-based",
+      "signInTitle": "Sign in to plan your follow-ups",
+      "limitTitle": "You've used your free follow-up plan",
+      "quota": "{used} of {limit} free plans used"
+    },
+    "framework": {
+      "title": "The cold-email framework",
+      "subtitle": "A fill-in-the-blank structure built on what makes professors reply. Tap any bracket for guidance.",
+      "template": "Template",
+      "tapHint": "Tap a bracket to see how to fill it in.",
+      "guidance": "Guidance",
+      "redFlags": "Red-flag phrases",
+      "redFlagsSub": "These signal that you haven't done your homework. Swap them for something specific.",
+      "instead": "Instead:",
+      "cta": "Check your own email",
+      "b1": {
+        "label": "SPECIFIC TOPIC",
+        "tip": "Name the exact area, method or question — not the whole field. “Sleep-dependent memory consolidation” beats “neuroscience”."
+      },
+      "b2": {
+        "label": "SPECIFIC FINDING OR QUOTE",
+        "tip": "Point to a real result, figure or sentence in one of their recent papers. This is the line that proves you read it."
+      },
+      "b3": {
+        "label": "YOUR RESEARCH ANGLE",
+        "tip": "Connect it to something you've done or want to explore — a course, a dataset, a project."
+      },
+      "b4": {
+        "label": "ONE GENUINE PERSONAL REASON",
+        "tip": "One honest sentence about why it matters to you. Keep it short and true."
+      },
+      "b5": {
+        "label": "INTELLIGENT QUESTION THAT SHOWS YOU READ IT",
+        "tip": "Ask something the paper made you wonder — a limitation, an extension, a dataset. Avoid “tell me more about your research”."
+      },
+      "rf1": {
+        "phrase": "I found your work fascinating and groundbreaking",
+        "why": "Professors hear this every day.",
+        "instead": "Name the specific finding that caught your attention."
+      },
+      "rf2": {
+        "phrase": "I am a highly motivated student",
+        "why": "It tells them nothing.",
+        "instead": "Show motivation through what you have done."
+      },
+      "rf3": {
+        "phrase": "Your research aligns perfectly with my interests",
+        "why": "Too vague to be believable.",
+        "instead": "Explain the specific connection."
+      },
+      "rf4": {
+        "phrase": "I would love to learn from you",
+        "why": "It makes the email about you, not their work.",
+        "instead": "Ask about a specific part of their research."
+      },
+      "rf5": {
+        "phrase": "I am passionate about this field",
+        "why": "Everyone says it.",
+        "instead": "Describe what you've actually done in the field."
+      }
+    },
+    "examples": {
+      "title": "Emails that work — annotated",
+      "subtitle": "Three illustrative emails we wrote to show the patterns that earn replies. Read the notes beside each line.",
+      "disclaimer": "These are illustrative examples written by the Labora team, not real correspondence. Names and details are fictional.",
+      "example": "Example {n}",
+      "cta": "Now check your own",
+      "e1": {
+        "label": "First-year, self-taught",
+        "note1": "Leads with your own interest and a real skill, then connects it to their work.",
+        "note2": "A specific question that could only come from reading the paper.",
+        "note3": "A direct ask with a low bar — and a redirect that turns “no” into a lead."
+      },
+      "e2": {
+        "label": "Junior with a side project",
+        "note1": "Shows a project you're already working on — proof of hands-on interest.",
+        "note2": "Technical depth: the question shows you understood the method, not just the abstract.",
+        "note3": "A timeline (this summer) and an offer to help even as a volunteer."
+      },
+      "e3": {
+        "label": "Humanities / social science",
+        "note1": "Grounds the request in a course you took and a source you read.",
+        "note2": "Asks about the reasoning behind a choice, not for a summary.",
+        "note3": "Offers something concrete: a few hours a week of archival coding."
+      }
+    }
+  }
+}

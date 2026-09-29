@@ -1,0 +1,149 @@
+{
+  "dash": {
+    "nav": {
+      "overview": "개요", "matches": "AI 매칭", "talent": "학생 찾기", "applications": "지원 내역", "invitations": "초대",
+      "outreach": "연락 트래커", "saved": "저장함", "profile": "내 프로필", "billing": "요금제 & 결제", "settings": "설정",
+      "positions": "공고", "lab": "연구실 & 연구", "admin": "관리자"
+    },
+    "greeting": "{name}님, 안녕하세요",
+    "welcomeProfessor": "{name} 교수님, 환영합니다",
+    "overview": {
+      "studentSubtitle": "지금 연구 탐색이 어디까지 왔는지 확인하세요.",
+      "professorSubtitle": "연구실, 공고, 지원자를 관리하세요.",
+      "findPositions": "공고 찾기", "newPosition": "새 공고",
+      "applications": "지원", "inReview": "검토 중", "accepted": "합격", "invitations": "초대",
+      "openPositions": "진행 중인 공고", "applicants": "지원자", "lab": "연구실", "live": "공개 중", "notSetUp": "미설정",
+      "completeTitle": "프로필을 완성하세요",
+      "completeBody": "교수님은 지원서와 함께 프로필을 봅니다. 많이 알려 줄수록 매칭도 정확해져요.",
+      "completeCta": "프로필 수정",
+      "discoverTitle": "교수님이 나를 찾게 하세요",
+      "discoverBody": "공개를 켜면 인증된 교수가 지원을 권하는 초대를 보낼 수 있어요. 답하기 전까지 이메일은 비공개입니다.",
+      "discoverCta": "프로필에서 선택",
+      "recentApplications": "최근 지원 내역", "noApplications": "아직 지원한 곳이 없습니다.", "browse": "진행 중인 공고 보기",
+      "matchTitle": "나의 추천 매칭", "matchBody": "나에게 잘 맞는 순서로 공고와 교수를 확인하세요.", "matchCta": "AI 매칭 열기",
+      "yourPositions": "내 공고", "noPositions": "아직 공고가 없습니다.",
+      "createLabTitle": "연구실을 설정하고 모집을 시작하세요",
+      "createLabBody": "올리는 모든 공고에 학생이 볼 수 있도록 연구실 프로필과 연구가 함께 표시됩니다.",
+      "createLabCta": "연구실 프로필 만들기",
+      "unverifiedTitle": "계정 인증을 기다리고 있습니다",
+      "unverifiedBody": "연구실과 공고가 공개되기 전에 교수 계정을 검토합니다. 그동안 모든 준비를 해 두실 수 있어요.",
+      "talentTitle": "맞는 학생 찾기", "talentBody": "이상적인 학생을 설명하면 공개에 동의한 학생을 AI가 순위로 보여 드립니다.", "talentCta": "학생 찾기",
+      "pendingInvitations_other": "대기 중인 초대가 {count}건 있습니다", "viewInvitations": "초대 보기",
+      "applicantsCount_other": "지원자 {count}명", "newForYou": "새로 올라온 공고"
+    },
+    "profile": {
+      "title": "내 프로필", "subtitle": "교수님은 지원서와 함께 이 프로필을 보고, AI 매칭은 이를 바탕으로 나에게 맞는 곳을 찾습니다.",
+      "strength": "프로필 완성도", "basics": "기본 정보", "university": "대학", "major": "전공", "year": "학년", "selectYear": "선택…",
+      "about": "자기소개", "bio": "짧은 소개", "bioHint": "나는 누구이고, 무엇이 궁금한가요?",
+      "skills": "역량", "skillsHint": "쉼표로 구분. 예: Python, PyTorch, R, 실험실 안전",
+      "interests": "연구 관심사", "interestsHint": "하고 싶은 주제. 예: 컴퓨터 비전, 세포 운명.",
+      "experience": "지금까지 한 일", "experienceHint": "프로젝트, 수업, 연구 경험 — 구체적일수록 매칭이 정확해집니다.",
+      "availability": "주당 투입 가능 시간", "workStyle": "내가 일하는 방식",
+      "workStyleHint": "가장 편한 위치로 각 다이얼을 옮겨 주세요. 연구실과 비교하는 데 쓰입니다.",
+      "links": "링크", "resume": "이력서 링크", "resumeHint": "PDF 링크 (Drive, Dropbox, 개인 사이트).",
+      "website": "개인 웹사이트", "github": "GitHub 프로필", "visibility": "공개 설정",
+      "discoverable": "인증된 교수가 나를 찾을 수 있게 하기",
+      "discoverableDesc": "교수가 내 프로필을 보고 지원을 권하는 초대를 보낼 수 있습니다. 답하기 전까지 이메일은 비공개예요. 언제든 끌 수 있습니다.",
+      "save": "프로필 저장", "saved": "프로필이 저장되었습니다",
+      "welcome": "Labora에 오신 것을 환영합니다! 나를 소개해 주시면 더 좋은 매칭을 받을 수 있어요."
+    },
+    "applications": {
+      "title": "지원 내역", "subtitle": "지원한 모든 곳을 한눈에.",
+      "emptyTitle": "아직 지원 내역이 없습니다", "emptyBody": "공고에 지원하면 여기에 표시되어 진행 상태를 확인할 수 있어요.", "browse": "공고 둘러보기",
+      "applied": "{when} 지원", "withdraw": "철회", "withdrawConfirm": "이 지원을 철회할까요?", "withdrawn": "지원을 철회했습니다",
+      "invited": "초대받음", "decided": "{when} 결정"
+    },
+    "invitations": {
+      "title": "초대", "subtitleStudent": "지원을 권하는 교수님들입니다.", "subtitleProfessor": "내가 초대한 학생들입니다.",
+      "emptyStudentTitle": "아직 초대가 없습니다", "emptyStudentBody": "프로필에서 공개를 켜면 인증된 교수가 초대를 보낼 수 있어요.",
+      "emptyProfessorTitle": "아직 초대한 학생이 없습니다", "emptyProfessorBody": "“학생 찾기”로 연구실에 맞는 학생을 찾아보세요.",
+      "from": "{name} 교수님", "to": "{name} 학생에게", "match": "{score}% 매칭",
+      "accept": "수락하고 지원", "decline": "거절", "replyPlaceholder": "교수님께 남길 메모 (선택)",
+      "accepted": "수락했습니다. 지원서가 생성되었어요.", "declined": "초대를 거절했습니다",
+      "withdraw": "초대 철회", "receivedAgo": "{when} 발송", "findStudents": "학생 찾기"
+    },
+    "outreach": {
+      "title": "연락 트래커", "subtitle": "누구에게 연락했고, 언제 후속 연락을 하고, 어떻게 됐는지 기록하세요.",
+      "emptyTitle": "아직 기록이 없습니다", "emptyBody": "연구자 프로필에서 추가하면 연락 현황과 후속 연락 날짜를 챙길 수 있어요.", "find": "교수 찾기",
+      "followUpDue": "후속 연락 {when}", "overdue": "후속 연락 기한 지남", "sentOn": "{date} 발송", "repliedOn": "{date} 답장",
+      "notes": "메모", "notesPlaceholder": "기억해 둘 내용…", "status": "상태", "remove": "제거",
+      "removeConfirm": "트래커에서 이 연구자를 제거할까요?", "planFollowUp": "후속 메일 계획",
+      "helpTitle": "내 기록이 모두에게 도움이 됩니다",
+      "helpBody": "연구자 프로필에 표시되는 응답률은 여러분과 같은 익명의 집계 기록에서 나오며, 개별 기록은 절대 공개되지 않습니다.",
+      "stats": { "total": "추적 중", "sent": "발송", "replied": "답장", "due": "후속 연락 필요" }
+    },
+    "saved": {
+      "title": "저장함", "subtitle": "북마크한 연구자와 공고입니다.", "professors": "연구자", "positions": "공고",
+      "emptyProfessors": "저장한 연구자가 없습니다", "emptyProfessorsBody": "연구자의 북마크를 눌러 관심 목록에 추가하세요.",
+      "emptyPositions": "저장한 공고가 없습니다", "emptyPositionsBody": "공고의 북마크를 눌러 나중을 위해 보관하세요."
+    },
+    "billing": {
+      "title": "요금제 & 결제", "subtitle": "이용 현황, 사용량, 추천 보상을 확인하세요.",
+      "currentPlan": "현재 요금제",
+      "plan": { "free": "무료", "weekly": "1주 스프린트", "semester": "학기 이용권", "lifetime": "평생" },
+      "activeUntil": "{date}까지 이용 가능", "lifetimeNote": "평생 이용 중입니다.", "freeNote": "무료 요금제를 사용 중입니다.", "upgrade": "요금제 보기",
+      "usage": "무료 이용량", "usageItem": "{used}/{limit} 사용", "unlimited": "무제한",
+      "features": { "summary": "연구자 요약", "email_check": "메일 점검", "follow_up": "후속 메일 계획", "match_positions": "공고 매칭", "match_professors": "교수 매칭" },
+      "referral": "친구 초대", "referralBody": "코드를 공유하세요. 친구가 그 코드로 가입하면 두 사람 모두 프로 {days}일을 받아요.",
+      "yourCode": "내 코드", "copyCode": "코드 복사", "copyLink": "초대 링크 복사", "copied": "복사됨",
+      "redeemed_other": "친구 {count}명이 내 코드로 가입했어요",
+      "redeem": "친구의 코드가 있나요?", "redeemPlaceholder": "코드 입력", "redeemCta": "적용",
+      "redeemedOk": "코드가 적용되었습니다. 프로 {days}일이 추가되었어요.",
+      "checkoutSuccess": "감사합니다! 잠시 후 이용권이 활성화됩니다.",
+      "devMode": "이 환경은 결제가 연결되어 있지 않아, 테스트를 위해 이용권이 즉시 활성화됩니다."
+    },
+    "settings": {
+      "title": "설정", "subtitle": "계정, 언어, 보안을 관리하세요.",
+      "account": "계정", "name": "이름", "email": "이메일", "emailNote": "이메일은 변경할 수 없습니다.",
+      "language": "언어", "languageHint": "AI가 쓰는 요약과 피드백에도 사용됩니다.",
+      "saveChanges": "변경 사항 저장", "saved": "설정이 저장되었습니다",
+      "password": "비밀번호", "currentPassword": "현재 비밀번호", "newPassword": "새 비밀번호", "changePassword": "비밀번호 변경", "passwordChanged": "비밀번호가 변경되었습니다",
+      "danger": "계정 삭제", "dangerBody": "프로필, 지원 내역 등 계정에 연결된 모든 것이 영구적으로 삭제되며 되돌릴 수 없습니다.",
+      "dangerConfirm": "확인을 위해 비밀번호를 입력하세요", "deleteCta": "내 계정 삭제", "deleted": "계정이 삭제되었습니다."
+    },
+    "lab": {
+      "title": "연구실 & 연구", "subtitle": "학생들이 내 공고를 볼 때 보게 되는 정보입니다.",
+      "createTitle": "연구실 만들기", "profileTitle": "연구실 프로필", "name": "연구실 이름", "university": "대학", "department": "학과",
+      "description": "소개", "descriptionHint": "연구실은 무엇을 연구하나요? 학부생도 이해할 수 있게 써 주세요.",
+      "keywords": "연구 키워드", "keywordsHint": "쉼표로 구분", "website": "연구실 웹사이트",
+      "culture": "이곳에서 일한다는 것", "cultureHint": "멘토링 방식, 미팅 주기, 학생이 맡는 일. 학생들은 솔직함을 좋아해요.",
+      "teamSize": "구성원 수", "workStyle": "연구실이 일하는 방식", "workStyleHint": "학생과 일하는 방식을 비교하는 데 사용됩니다.",
+      "openalex": "OpenAlex 저자 ID", "openalexHint": "선택 사항. Labora 연구실을 논문 프로필과 연결합니다 (A로 시작).",
+      "saveLab": "연구실 저장", "createLab": "연구실 만들기", "created": "연구실을 만들었습니다. 이제 연구 자료를 추가하고 공고를 올려 보세요.", "updated": "연구실이 업데이트되었습니다",
+      "materials": "연구 자료", "materialsHint": "논문, 데이터셋, 포스터를 공유해 학생들이 연구를 알 수 있게 하세요.",
+      "nothingShared": "아직 공유한 자료가 없습니다.", "addMaterial": "자료 추가",
+      "materialTitle": "제목", "materialType": "유형", "materialLink": "링크", "materialLinkHint": "arXiv, DOI, Google Drive, GitHub…", "materialDescription": "짧은 설명",
+      "removeMaterial": "이 자료를 삭제할까요?",
+      "verificationTitle": "인증 대기 중", "verificationBody": "교수 계정 인증이 끝나면 연구실이 공개됩니다. 연구실 웹사이트를 추가하면 더 빨라져요."
+    },
+    "positions": {
+      "title": "공고", "subtitle": "내 공고와 지원 현황.", "new": "새 공고",
+      "emptyTitle": "아직 공고가 없습니다", "emptyBody": "공고를 올리고 지원을 받아 보세요.", "emptyLab": "먼저 연구실 프로필을 만들어 주세요.", "post": "첫 공고 올리기",
+      "open": "모집 중", "closed": "마감", "close": "마감하기", "reopen": "다시 열기", "edit": "수정", "delete": "삭제",
+      "deleteConfirm": "이 공고를 삭제할까요? 되돌릴 수 없습니다.", "applicants": "지원자", "postedAgo": "{when} 게시", "viewPublic": "공개 페이지 보기",
+      "newTitle": "새 공고", "newSubtitle": "자리를 설명해 주세요. 언제든 수정할 수 있어요.", "editTitle": "공고 수정",
+      "needLab": "공고를 올리려면 먼저 연구실 프로필이 필요합니다.", "createLab": "연구실 만들기",
+      "noApplicants": "아직 지원자가 없습니다", "noApplicantsBody": "공고를 공유하거나 “학생 찾기”로 맞는 학생을 초대해 보세요.",
+      "decline": "거절", "accept": "수락", "email": "지원자에게 메일", "resume": "이력서", "invitedBadge": "내가 초대함", "profileIncomplete": "프로필 미완성",
+      "form": {
+        "title": "공고 제목", "titlePlaceholder": "학부 연구 조교: 자기지도 비전",
+        "description": "설명", "descriptionHint": "학생은 무엇을 하게 되나요? 무엇을 배울 수 있나요?",
+        "requirements": "지원 자격", "requirementsHint": "수강 과목이나 경험 (선택)",
+        "skills": "필수 역량", "skillsHint": "쉼표로 구분 — 매칭에 쓰입니다. 예: python, pytorch",
+        "compensation": "보수", "hours": "주당 시간", "term": "학기", "location": "장소", "slots": "모집 인원", "deadline": "지원 마감일",
+        "keywords": "키워드", "keywordsHint": "학생이 공고를 찾는 데 도움이 됩니다",
+        "publish": "공고 게시", "saveChanges": "변경 사항 저장", "saved": "공고가 저장되었습니다", "notSpecified": "지정 안 함"
+      }
+    },
+    "admin": {
+      "title": "관리자", "subtitle": "교수를 인증하고 들어온 내용을 검토하세요.", "overview": "개요",
+      "stats": {
+        "users": "사용자", "students": "학생", "professors": "교수", "pending_professors": "인증 대기", "labs": "연구실",
+        "open_positions": "진행 중인 공고", "applications": "지원", "invitations": "초대", "feedback": "피드백 게시글", "waitlist": "대기자", "paid_users": "유료 사용자"
+      },
+      "verification": "교수 인증", "onlyPending": "대기 중만", "verify": "인증", "unverify": "취소", "verifiedAt": "인증됨", "pendingBadge": "대기 중",
+      "lab": "연구실", "waitlist": "대기자", "contact": "문의 메시지", "empty": "아직 아무것도 없습니다.", "notAdmin": "관리자 전용 영역입니다.",
+      "verifiedToast": "교수를 인증했습니다", "revokedToast": "인증을 취소했습니다"
+    }
+  }
+}

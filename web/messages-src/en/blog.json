@@ -1,0 +1,22 @@
+{
+  "eyebrow": "The Labora library",
+  "title": "How to find, contact and impress a research mentor",
+  "subtitle": "Practical guides on finding professors, writing emails that get read, and following up — written for students starting from zero.",
+  "all": "All guides",
+  "cat": {
+    "finding": "Finding research",
+    "writing": "Writing the email",
+    "after": "After you send",
+    "goals": "Goals & next steps"
+  },
+  "minRead": "{minutes} min read",
+  "read": "Read the guide",
+  "back": "All guides",
+  "englishNote": "Guides are currently available in English only.",
+  "ctaTitle": "Put it into practice",
+  "ctaBody": "Find researchers in your field, understand their work and check your email before you send it.",
+  "ctaFind": "Find professors",
+  "ctaCheck": "Check my email",
+  "keepReading": "Keep reading",
+  "notFound": "Guide not found"
+}

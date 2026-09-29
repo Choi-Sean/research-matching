@@ -1,0 +1,184 @@
+{
+  "home": {
+    "hero": {
+      "badge": "Neu: KI-Matching für Studierende und Labore",
+      "title": "Finde die Professur, die <em>zu dir passt.</em>",
+      "subtitle": "Durchsuche den weltweiten wissenschaftlichen Bestand, verstehe die Arbeit jeder Forscherin und jedes Forschers in einfacher Sprache und lass dich mit Laboren zusammenbringen, die zu deinen Fähigkeiten und deiner Arbeitsweise passen.",
+      "modeInterest": "Nach Interesse", "modeName": "Nach Name", "interestLabel": "Forschungsinteresse", "interestPlaceholder": "z. B. Computational Neuroscience",
+      "nameLabel": "Name der Person", "namePlaceholder": "z. B. Jane Smith", "universityLabel": "Universität", "universityPlaceholder": "z. B. MIT, Stanford …",
+      "search": "Professor:innen finden", "try": "Probiere",
+      "trust": "Auf offenen wissenschaftlichen Daten aufgebaut: {works} Publikationen · {institutions} Institutionen",
+      "trustFallback": "Auf offenen wissenschaftlichen Daten aufgebaut: 300 Mio.+ Publikationen · 140.000+ Institutionen",
+      "ex": { "ml": "Maschinelles Lernen", "neuro": "Neurowissenschaften", "genomics": "Genomik", "climate": "Klimawissenschaft", "quantum": "Quantencomputing", "psych": "Psychologie" },
+      "modeLabel": "Suchen nach"
+    },
+    "mock": {
+      "preview": "Vorschau zur Veranschaulichung", "results": "Forschende", "summary": "Zusammenfassung in einfacher Sprache",
+      "summaryBody": "Erforscht, wie Maschinen mit nur wenigen beschrifteten Beispielen sehen lernen können, damit ein Roboter alltägliche Gegenstände erkennt und greift, die er noch nie gesehen hat.",
+      "keyFinding": "Zentrales Ergebnis", "keyFindingBody": "Ein selbstüberwachter Ansatz senkte die für die Greif-Erkennung nötigen beschrifteten Bilder um 80 % (2025).",
+      "starters": "Fragen, die sich lohnen", "starter1": "Wie hat die Gruppe die Testobjekte ausgewählt?", "starter2": "Funktioniert die Methode auch außerhalb des Labors?",
+      "save": "Merken", "writeEmail": "E-Mail schreiben", "match": "Passung", "whyFit": "Warum du passt",
+      "reasonTopics": "Gemeinsame Themen: Computer Vision, PyTorch", "reasonStyle": "Ähnlicher Arbeitsstil: selbstständig, schnelles Tempo", "gap": "Lücke: Lineare Algebra",
+      "emailScore": "E-Mail-Score", "emailFlags": "2 Dinge zu verbessern", "hIndex": "h-Index", "papers": "Publikationen",
+      "flagFlattery": "Schmeichelei", "flagGeneric": "Floskel", "mustHave": "Muss", "niceToHave": "Wünschenswert", "invite": "Einladen",
+      "idealStudent": "Ideale Kandidat:in", "followUpOn": "Nachfassen am {date}", "tracker": "Kontakt-Tracker", "openPositions": "Offene Stellen", "apply": "Bewerben"
+    },
+    "marquee": { "label": "Forschende von Institutionen wie" },
+    "problem": {
+      "eyebrow": "Das Problem", "title": "Die meisten Nachrichten an Professor:innen <em>werden nie gelesen.</em>",
+      "description": "Studierende schicken beliebige E-Mails an die falschen Leute zur falschen Zeit, und Professor:innen haben Sekunden für ihre Entscheidung. Das läuft meistens schief.",
+      "generic": { "title": "Die E-Mail klingt wie alle anderen", "body": "Schmeichelei und Textbausteine fallen sofort auf. Eine konkrete Frage zu echter Arbeit sticht heraus." },
+      "who": { "title": "Man weiß nicht, wer Studierende aufnimmt", "body": "Lehrstuhlseiten sind veraltet, und Labore, die einstellen, kündigen das selten dort an, wo Studierende suchen." },
+      "read": { "title": "Papers lesen dauert Stunden", "body": "Du musst die Arbeit verstehen, bevor du etwas Konkretes schreiben kannst – doch Abstracts sind dicht." }
+    },
+    "features": {
+      "eyebrow": "Die Plattform", "title": "Alles zwischen „Ich bin neugierig“ und „Ich bin im Labor“",
+      "description": "Ein Ort, um Menschen zu finden, ihre Arbeit zu verstehen, gut Kontakt aufzunehmen und den Überblick zu behalten.",
+      "discover": { "title": "Den wissenschaftlichen Bestand durchsuchen", "body": "Gib ein beliebiges Interesse und eine Universität ein. Wir zeigen dir Forschende, die aktiv dazu publizieren – echte Menschen, echte Papers." },
+      "summaries": { "title": "Zusammenfassungen in einfacher Sprache", "body": "Zu jeder Person gibt es eine kurze Erklärung, woran sie forscht, samt einem aktuellen Ergebnis – geschrieben für alle, die neu im Fach sind." },
+      "email": { "title": "Ein E-Mail-Coach, kein Ghostwriter", "body": "Füge deinen Entwurf ein und sieh, welche Formulierungen beliebig, schmeichelhaft oder vage klingen – und warum. Deine eigene Stimme bleibt." },
+      "match": { "title": "KI-Matching in beide Richtungen", "body": "Studierende sehen die Labore und Professor:innen, die zu ihren Fähigkeiten und ihrem Arbeitsstil passen. Professor:innen beschreiben die ideale Person und sehen, wer passt." },
+      "positions": { "title": "Stellen aus verifizierten Laboren", "body": "Stöbere in Stellen, die direkt von Professor:innen ausgeschrieben sind, lies zuerst deren Forschung und bewirb dich in einem Schritt." },
+      "tracker": { "title": "Ein Kontakt-Tracker, der dich erinnert", "body": "Halte fest, wen du angeschrieben hast und was passiert ist. Erhalte Nachfass-Termine, damit nichts untergeht." }
+    },
+    "how": {
+      "eyebrow": "So funktioniert’s", "title": "Von der Neugier zum echten Gespräch",
+      "s1": { "title": "Suchen", "body": "Gib ein Interesse und eine Universität ein – oder den Namen einer Person." },
+      "s2": { "title": "Verstehen", "body": "Lies eine Zusammenfassung in einfacher Sprache, aktuelle Papers und gute Fragen, die du stellen kannst." },
+      "s3": { "title": "Kontakt aufnehmen", "body": "Schreibe deine eigene E-Mail, prüfe sie und sende sie mit gutem Gefühl ab." },
+      "s4": { "title": "Nachfassen", "body": "Verfolge Antworten und sende zwei gut getimte Nachfass-Mails." }
+    },
+    "match": {
+      "eyebrow": "KI-Match", "title": "Passung bei Fähigkeiten – und bei <em>deiner Arbeitsweise.</em>",
+      "description": "Thematische Überschneidung ist nur die halbe Wahrheit. Labora vergleicht auch Arbeitsstile: wie viel Eigenständigkeit du magst, wie kooperativ du bist, welches Tempo du bevorzugst und wie viel Struktur dir hilft.",
+      "students": "Für Studierende", "s1": "Rangliste von Stellen und Professor:innen, jeweils mit klaren Gründen", "s2": "Erkenne deine Lücken und wie du dich abhebst", "s3": "Du bestimmst, was Professor:innen sehen können",
+      "professors": "Für Professor:innen", "p1": "Beschreibe deine ideale Person – oder lass die KI sie aus deiner Stelle entwerfen", "p2": "Stöbere unter Studierenden, die zugestimmt haben, sortiert mit Begründung", "p3": "Lade die besten Treffer mit einer einzigen Nachricht ein",
+      "privacy": "Die Auffindbarkeit von Studierenden ist freiwillig und lässt sich jederzeit abschalten. Kontaktdaten werden Professor:innen nie gezeigt, bevor die Person zugestimmt hat.",
+      "cta": "KI-Match entdecken", "styleTitle": "Arbeitsstil", "candidate": "Kandidat:in", "you": "Du", "lab": "Labor"
+    },
+    "compare": {
+      "title": "Warum nicht einfach einen Chatbot fragen?", "description": "Allgemeine Chatbots schreiben gut, sind aber kein Verzeichnis echter Menschen.",
+      "colChatbot": "Ein allgemeiner Chatbot", "colLabora": "Labora",
+      "r1": "Woher Personen und Papers stammen", "r1a": "Aus dem Gedächtnis erzeugt – er kann Professor:innen, Papers und Zahlen erfinden.", "r1b": "Aus dem wissenschaftlichen Bestand (OpenAlex) abgerufen. Nichts ist erfunden.",
+      "r2": "Wer deine E-Mail schreibt", "r2a": "Oft schreibt er sie für dich, und Professor:innen merken das.", "r2b": "Du schreibst sie. Labora sagt dir, was du verbessern solltest.",
+      "r3": "Wie viel Aufwand es kostet", "r3a": "Viele Prompts, um Forschende zu finden, zu lesen und zu vergleichen.", "r3b": "Eine Suche: Forschende, Zusammenfassungen und E-Mail-Feedback in einem."
+    },
+    "professors": {
+      "eyebrow": "Für Professor:innen", "title": "Gewinne Studierende, die <em>wirklich passen.</em>",
+      "description": "Schreibe Stellen aus, teile deine Forschung und lass die KI Studierende finden, deren Fähigkeiten und Arbeitsstil zu deinem Labor passen.",
+      "b1": "Kostenlos für verifizierte Lehrende", "b2": "Papers, Datensätze und Poster präsentieren", "b3": "Bewerbungen und Einladungen an einem Ort prüfen", "cta": "Stelle ausschreiben"
+    },
+    "stats": {
+      "eyebrow": "Auf offenen Daten aufgebaut", "title": "Ein Verzeichnis, das echt ist – nicht generiert",
+      "works": "Indexierte wissenschaftliche Arbeiten", "institutions": "Institutionen weltweit", "researchers": "Forschende", "labs": "Labore auf Labora", "positions": "Offene Stellen",
+      "attribution": "Wissenschaftliche Metadaten von OpenAlex."
+    },
+    "pricing": {
+      "title": "Kostenlos starten. Upgrade, wenn du bereit bist.",
+      "description": "Die Suche ist immer kostenlos. Pässe schalten die E-Mail-Suche, unbegrenzte Zusammenfassungen und unbegrenzte E-Mail-Checks frei – so lange, wie du sie brauchst.",
+      "cta": "Tarife ansehen"
+    },
+    "faq": {
+      "title": "Fragen und Antworten",
+      "q1": "Woher stammen die Daten zu den Forschenden?",
+      "a1": "Aus OpenAlex, einem offenen Katalog der weltweiten wissenschaftlichen Arbeit. Wir zeigen nur Personen und Papers, die in diesem Bestand existieren. Wir erfinden nie Professor:innen oder Publikationen.",
+      "q2": "Schreibt Labora meine E-Mail für mich?",
+      "a2": "Nein – mit Absicht. Professor:innen merken es, und Antworten gehen an Studierende, die wie sie selbst klingen. Labora findet heraus, wen du anschreiben solltest, erklärt deren Arbeit und gibt konkretes Feedback zu deinem eigenen Entwurf.",
+      "q3": "Wie funktioniert das KI-Matching?",
+      "a3": "Wir vergleichen deine Fähigkeiten, Interessen, Erfahrung, Verfügbarkeit und deinen Arbeitsstil mit Stellen, Laboren und Forschenden und erklären jeden Treffer. Ein KI-Prüfer verfeinert die besten Ergebnisse. Namen, Hochschulen, Geschlecht, Nationalität oder andere geschützte Merkmale nutzen wir nie.",
+      "q4": "Wer kann mein Profil sehen?",
+      "a4": "Niemand, es sei denn, du schaltest die Auffindbarkeit ein. Dann sehen nur verifizierte Professor:innen dein Profil – niemals deine E-Mail-Adresse. Sie können dich einladen, und du entscheidest, ob du antwortest.",
+      "q5": "Müssen Professor:innen bei Labora sein?",
+      "a5": "Nein. Du kannst Forschende überall im wissenschaftlichen Bestand finden und kontaktieren. Professor:innen, die beitreten, können Stellen ausschreiben, ihre Forschung teilen und Studierende finden.",
+      "q6": "Was kostet es?",
+      "a6": "Die Suche ist kostenlos, und ein kostenloses Konto enthält einen Vorgeschmack auf Zusammenfassungen, E-Mail-Checks und KI-Matching. Pässe schalten unbegrenzte Nutzung frei – siehe Preise."
+    },
+    "cta": { "title": "Deine nächste Forschungsstelle beginnt mit <em>einer guten E-Mail.</em>", "subtitle": "Kostenlos suchen – ohne Karte.", "button": "Professor:innen finden" }
+  },
+  "how": {
+    "eyebrow": "So funktioniert’s", "title": "Vier Schritte von der Neugier zum Gespräch", "subtitle": "Labora ist darauf ausgelegt, was Professor:innen tatsächlich zum Antworten bringt.",
+    "s1": { "title": "Den wissenschaftlichen Bestand durchsuchen", "body": "Gib ein Forschungsinteresse und eine Universität ein – oder den Namen einer Person. Wir zeigen dir Menschen, die aktiv dazu publizieren.", "b1": "Ergebnisse aus einer offenen wissenschaftlichen Datenbank", "b2": "Nach Universität filtern, nach aktueller Aktivität sortieren" },
+    "s2": { "title": "Ihre Arbeit verstehen", "body": "Lies eine Zusammenfassung in einfacher Sprache, ein aktuelles Ergebnis und Fragen, die sich lohnen – und überfliege dann die Papers selbst.", "b1": "Zusammenfassungen für alle, die neu im Fach sind", "b2": "Aktuelle und meistzitierte Papers auf einen Blick" },
+    "s3": { "title": "Eine E-Mail schreiben, die gelesen wird", "body": "Schreibe sie selbst und prüfe sie dann. Wir markieren Schmeichelei, Textbausteine und Vagheit – und schreiben die E-Mail nie für dich.", "b1": "Ein Gerüst und kommentierte Beispiele", "b2": "Konkretes Feedback, Zeile für Zeile" },
+    "s4": { "title": "Nachfassen und verfolgen", "body": "Halte fest, wen du kontaktiert hast, erhalte gut getimte Nachfass-Mails und behalte jede Spur an einem Ort im Blick.", "b1": "Zwei Nachfass-Entwürfe und Kalendererinnerungen", "b2": "Ein Kontakt-Tracker, der Buch führt" },
+    "cta": "Mit der Suche beginnen", "ctaMatch": "Oder lass die KI deine Passung finden"
+  },
+  "aimatch": {
+    "hero": {
+      "eyebrow": "KI-Match", "title": "Ein Match, das versteht, <em>wie du arbeitest.</em>",
+      "subtitle": "Labora vergleicht mehr als Schlagwörter. Es betrachtet deine Fähigkeiten, Interessen, Verfügbarkeit und deinen Arbeitsstil – und erklärt jedes Match in einfacher Sprache.",
+      "student": "Meine Matches finden", "professor": "Meine idealen Studierenden finden", "signUp": "Kostenloses Konto erstellen"
+    },
+    "signals": {
+      "eyebrow": "So funktioniert’s", "title": "Vier Signale, ein erklärbarer Score",
+      "topics": { "title": "Themen", "body": "Wie stark sich deine Interessen, Kurse und Erfahrungen mit dem überschneiden, woran ein Labor oder eine Person arbeitet." },
+      "skills": { "title": "Fähigkeiten", "body": "Welche der für eine Stelle nötigen Fähigkeiten du schon hast – und welche du aufbauen könntest." },
+      "style": { "title": "Arbeitsstil", "body": "Eigenständigkeit, Teamarbeit, Tempo und Struktur: wie du am liebsten arbeitest im Vergleich dazu, wie das Labor arbeitet." },
+      "hours": { "title": "Verfügbarkeit", "body": "Ob die Stunden, die du einbringen kannst, das abdecken, was die Stelle erwartet." }
+    },
+    "demo": {
+      "eyebrow": "Probier’s aus", "title": "Sieh dir den Arbeitsstil-Abgleich an",
+      "description": "Bewege die Regler so, wie du am liebsten arbeitest. Das Beispiellabor arbeitet selbstständig, kooperativ und in schnellem Tempo, mit locker definierten Aufgaben.",
+      "you": "Du", "lab": "Beispiellabor", "fit": "Stil-Passung", "aligned": "Übereinstimmung bei: {items}", "differs": "Unterschied bei: {items}", "none": "Bewege einen Regler, um zu vergleichen."
+    },
+    "directions": {
+      "title": "Zwei Richtungen, eine Idee",
+      "students": { "title": "Für Studierende", "s1": "Gib deine Fähigkeiten, Interessen, Erfahrungen und deinen Arbeitsstil einmal an.", "s2": "Erhalte Stellen und Professor:innen nach Passung sortiert, jeweils mit Gründen und Lücken.", "s3": "Nutze die Tipps „So hebst du dich ab“ für eine stärkere Bewerbung oder E-Mail." },
+      "professors": { "title": "Für Professor:innen", "s1": "Beschreibe deine ideale Person – oder lass die KI sie aus deiner Stelle und deinem Labor entwerfen.", "s2": "Sieh Studierende, die zugestimmt haben, sortiert mit Gründen und Lücken.", "s3": "Lade die besten Treffer mit einer Nachricht ein. Ihre E-Mail bleibt privat, bis sie antworten." }
+    },
+    "trust": {
+      "eyebrow": "Fair von Anfang an", "title": "Du behältst die Kontrolle",
+      "t1": { "title": "Freiwillige Sichtbarkeit", "body": "Studierende sind nur auffindbar, wenn sie es einschalten – und können es jederzeit ausschalten." },
+      "t2": { "title": "Private Kontaktdaten", "body": "Professor:innen sehen die E-Mail-Adresse von Studierenden erst, wenn diese sich bewerben oder eine Einladung annehmen." },
+      "t3": { "title": "Keine geschützten Merkmale", "body": "Namen, Hochschulen, Geschlecht, Nationalität und ähnliche Merkmale fließen nie in die Bewertung ein." },
+      "t4": { "title": "Gründe statt Blackbox", "body": "Jeder Score zeigt, was gepasst hat und was nicht – damit du widersprechen kannst." }
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "q1": "Ist der Score eine Vorhersage, dass ich die Stelle bekomme?",
+      "a1": "Nein. Er ist ein Anhaltspunkt für die Passung, keine Vorhersage. Viele Dinge beeinflussen echte Entscheidungen – Timing, Finanzierung und andere Bewerbende.",
+      "q2": "Was macht die KI eigentlich?",
+      "a2": "Zuerst berechnen wir aus den obigen Signalen einen transparenten Score. Dann prüft ein KI-Prüfer die besten Ergebnisse, verfeinert die Rangfolge und schreibt die Erklärungen. Ist keine KI verfügbar, bekommst du trotzdem den transparenten Score.",
+      "q3": "Kann ich KI-Match ohne Profil nutzen?",
+      "a3": "Du kannst es ausführen, aber mit einem vollständigeren Profil werden die Ergebnisse deutlich besser. Wir zeigen dir, was fehlt."
+    },
+    "cta": { "title": "Finde die Labore – und Menschen –, die passen.", "button": "Kostenlos loslegen" }
+  },
+  "pricing": {
+    "eyebrow": "Preise", "title": "Wähle den Pass, der zu deinem Semester passt",
+    "subtitle": "Die Suche nach Forschenden ist immer kostenlos. Pässe schalten die Tools frei, die dir am meisten Zeit sparen – eine Zahlung, kein Abo, keine automatische Verlängerung.",
+    "plans": {
+      "free": { "name": "Kostenlos", "desc": "für immer" },
+      "weekly": { "name": "Wochen-Sprint", "desc": "1 Woche Zugang" },
+      "semester": { "name": "Semester-Pass", "desc": "4 Monate Zugang", "badge": "Bestes Preis-Leistungs-Verhältnis" },
+      "lifetime": { "name": "Lebenslang", "desc": "Für immer dein" }
+    },
+    "cta": { "free": "Kostenlos starten", "weekly": "Wochen-Sprint starten", "semester": "Semester-Pass holen", "lifetime": "Lebenslangen Zugang holen", "current": "Dein aktueller Tarif", "signIn": "Zum Fortfahren anmelden" },
+    "features": {
+      "unlimited_search": "Unbegrenzte Suche nach Forschenden", "summaries_2": "2 Zusammenfassungen in einfacher Sprache", "email_check_1": "1 E-Mail-Check", "ai_match_3": "3 KI-Matches",
+      "outreach_tracker": "Kontakt-Tracker", "positions_board": "Board mit offenen Stellen", "everything_pro": "Alles aus Kostenlos, plus:",
+      "unlimited_summaries": "Unbegrenzte Zusammenfassungen", "email_finder": "E-Mail-Suche", "responsiveness": "Antwortbereitschafts-Scores", "unlimited_checks": "Unbegrenzte E-Mail-Checks & Nachfass-Mails",
+      "playbook": "Der Leitfaden für Erstkontakt-E-Mails", "everything_semester": "Alles aus dem Semester-Pass, plus:", "never_pay_again": "Nie wieder zahlen", "priority_features": "Frühzugang zu neuen Funktionen"
+    },
+    "payments": "Zahlungen werden sicher von Stripe verarbeitet. Wir sehen deine Kartendaten nie.",
+    "devMode": "In dieser Umgebung sind Zahlungen nicht angebunden – Pässe werden sofort aktiviert, damit du sie testen kannst.",
+    "activated": "Dein Pass ist aktiv. Viel Erfolg!",
+    "cancelled": "Der Bezahlvorgang wurde abgebrochen – es wurde nichts abgebucht.",
+    "referral": {
+      "title": "Bring eine:n Freund:in mit – ihr bekommt beide eine Woche", "body": "Teile deinen Code unter Tarif & Abrechnung. Wenn sich jemand damit registriert, bekommt ihr beide 7 Tage Pro.",
+      "haveCode": "Hast du den Code einer Freundin oder eines Freundes?", "placeholder": "Code eingeben", "redeem": "Einlösen", "redeemed": "Code eingelöst – 7 Tage Pro hinzugefügt.", "signIn": "Zum Einlösen eines Codes anmelden"
+    },
+    "waitlist": {
+      "title": "Ein Tarif mit Antwortgarantie kommt", "body": "Wir arbeiten an einem Tarif, der dir echte Gespräche verschafft. Trag dich in die Warteliste ein, dann erfährst du es als Erste:r.",
+      "placeholder": "du@universitaet.edu", "join": "Zur Warteliste hinzufügen", "joined": "Du stehst auf der Liste. Danke!"
+    },
+    "faq": {
+      "title": "Fragen zur Abrechnung",
+      "q1": "Ist das ein Abo?", "a1": "Nein. Jeder Pass ist eine Einmalzahlung. Nichts verlängert sich automatisch, also gibt es nichts zu kündigen.",
+      "q2": "Was passiert, wenn mein Pass endet?", "a2": "Dein Konto, deine gemerkten Forschenden und dein Tracker bleiben erhalten. Du fällst einfach auf das kostenlose Kontingent zurück.",
+      "q3": "Brauche ich einen Pass zum Suchen oder Bewerben?", "a3": "Nein. Suchen, Stellen ansehen und Bewerben sind immer kostenlos.",
+      "q4": "Zahlen Professor:innen?", "a4": "Nein. Verifizierte Professor:innen schreiben Stellen aus, teilen Forschung und finden Studierende kostenlos.",
+      "q5": "An wen wende ich mich bei Fragen zur Abrechnung?", "a5": "Nutze die Kontaktseite, wir melden uns bei dir."
+    }
+  }
+}

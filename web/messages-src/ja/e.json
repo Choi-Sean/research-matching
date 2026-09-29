@@ -1,0 +1,143 @@
+{
+  "tools": {
+    "emailChecker": {
+      "title": "メールチェッカー",
+      "subtitle": "下書きを貼り付けると、教授が読むのをやめてしまう表現をはっきり指摘します。メールを書き直すことはありません。あなたらしい文章のままです。",
+      "subject": "件名", "subjectPlaceholder": "例：深度推定の論文についての質問", "body": "メール本文", "bodyPlaceholder": "○○教授…",
+      "professorContext": "{name}さんの最近の研究と照らして確認中", "removeContext": "解除",
+      "check": "メールをチェック", "checking": "メールを読んでいます…", "example": "粗のある例を試す", "clear": "クリア",
+      "words": "{count}語", "wordsHint": "90〜180語が目安です",
+      "resultsTitle": "チェック結果", "emptyTitle": "ここにフィードバックが表示されます", "emptyBody": "左側にメールを書くか貼り付けて、「メールをチェック」を押してください。",
+      "score": "スコア", "highlights": "ハイライトされたメール", "issues": "直したい点", "noIssues": "直すところはありません。よく読めるメールです。", "strengths": "うまくいっている点",
+      "aiSummary": "全体の印象", "soundsGeneric": "誰にでも送れそうなメール",
+      "soundsGenericHint": "このメールを、書き換えずにどの教授にも送れてしまう度合いです。",
+      "aiUsed": "AIレビューを含む", "rulesOnly": "ルールベースのレビュー",
+      "englishOnly": "表現のチェックは現在、英語のメールにのみ対応しています。長さと構成のチェックは引き続き適用されます。",
+      "signInTitle": "メールをチェックするにはログインしてください", "signInBody": "無料アカウントには1回分のチェックが含まれます。パスで無制限にチェックできます。",
+      "limitTitle": "無料のチェックを使い切りました", "limitBody": "パスで、メールチェックの無制限利用、メール検索、要約の無制限利用が可能になります。",
+      "quota": "無料チェック {limit}回中{used}回使用", "quotaPro": "チェックは無制限",
+      "noRewrite": "問題点は指摘しますが、メールを代筆することはありません。教授が返信するのは、自分らしい言葉で書く学生だからです。",
+      "sampleSubject": "Research",
+      "sampleBody": "Dear Sir,\n\nI am a highly motivated and passionate student. I found your work fascinating and groundbreaking!! I would love to learn from you and your research aligns perfectly with my interests. I hope this email finds you well.\n\nSincerely,\nAlex",
+      "categories": { "tone": "トーン", "specificity": "具体性", "voice": "文体", "clarity": "明瞭さ", "ask": "お願い", "etiquette": "マナー", "subject": "件名" },
+      "gradeDesc": {
+        "excellent": "具体的で簡潔、明快です。そのまま送りましょう。",
+        "good": "しっかりした下書きです。いくつかの簡単な修正でさらに良くなります。",
+        "needs_work": "無視されかねない点がいくつかあります。まず赤の項目を直しましょう。",
+        "risky": "削除される可能性が高いです。送る前に見直しましょう。"
+      },
+      "severity": { "high": "最優先で直す", "medium": "直す価値あり", "low": "軽微" },
+      "flags": {
+        "flattery": { "title": "お世辞", "tip": "教授は毎日「画期的」という言葉を聞いています。代わりに、目に留まった具体的な成果や手法を挙げましょう。" },
+        "generic_phrase": { "title": "ありきたりな表現", "tip": "「意欲的」のような表現は誰にでも当てはまります。実際にやったことで示しましょう。" },
+        "ai_sounding": { "title": "機械的に聞こえる", "tip": "AI生成の文章によくある表現です。声に出して話すときの言い方に直しましょう。" },
+        "bad_salutation": { "title": "宛名が事務的", "tip": "“Dear Sir”は一斉送信のサインです。“Dear Professor [姓]”にして、綴りも確認しましょう。" },
+        "informal": { "title": "くだけすぎ", "tip": "親しみやすく、かつ丁寧に。ネットスラングや略語は避けましょう。" },
+        "missing_name": { "title": "宛名に名前がない", "tip": "教授の名前で呼びかけましょう。“Dear Professor Rivera,”のように。" },
+        "name_not_mentioned": { "title": "教授の名前がない", "tip": "このメールが特定のその方に宛てたものだと、はっきりわかるようにしましょう。" },
+        "no_specific_reference": { "title": "教授の研究に触れていない", "tip": "この教授の具体的な論文、手法、発見に触れ、それを読んで浮かんだ疑問を聞いてみましょう。" },
+        "low_specificity": { "title": "具体的な内容がない", "tip": "どの教授にも送れる内容ばかりです。論文、年、結果、具体的な質問を加えましょう。" },
+        "no_own_work": { "title": "自分がやったことが見えない", "tip": "作った、分析した、読んだ、履修した具体的なことを1つ加えましょう。小さなプロジェクトでも構いません。" },
+        "no_clear_ask": { "title": "お願いが明確でない", "tip": "何をお願いしたいのかを具体的に書きましょう。対話、ボランティア参加、または別の方の紹介など。" },
+        "no_signoff": { "title": "結びがない", "tip": "短い感謝の言葉とフルネームで締めくくりましょう。" },
+        "exclamation": { "title": "感嘆符が多すぎる", "tip": "1つなら問題ありませんが、2つ以上だと舞い上がって見えます。熱意は内容で伝えましょう。" },
+        "emoji": { "title": "絵文字", "tip": "教授への最初のメールでは、絵文字は控えましょう。" },
+        "all_caps": { "title": "すべて大文字", "tip": "大文字の単語は叫んでいるように読めます。通常の表記にしましょう。" },
+        "too_short": { "title": "短すぎる", "tip": "45語未満では、たいていの場合、内容が足りません。やったことと、お願いを加えましょう。" },
+        "too_long": { "title": "長すぎる", "tip": "90〜180語を目指しましょう。教授が判断するのに不要な背景は削ります。" },
+        "wall_of_text": { "title": "文字がびっしり", "tip": "短い2〜3段落に分けて、さっと読めるようにしましょう。" },
+        "no_subject": { "title": "件名がない", "tip": "明確な件名が開封につながります。テーマや論文に触れましょう。" },
+        "subject_generic": { "title": "ありきたりな件名", "tip": "“Research”では何にでも当てはまります。論文やテーマの名前を入れてみましょう。" },
+        "subject_short": { "title": "件名が短すぎる", "tip": "何の話か伝わるように、少し言葉を足しましょう。" },
+        "subject_long": { "title": "件名が長すぎる", "tip": "90文字以内に収めましょう。" },
+        "subject_shouty": { "title": "大げさな件名", "tip": "大文字や“urgent”などの言葉はスパムに見えるので避けましょう。" },
+        "ai_note": { "title": "レビュアーのメモ", "tip": "" }
+      },
+      "strengthLabels": {
+        "personal_greeting": "教授の名前で呼びかけている", "specific_reference": "教授の具体的な研究に触れている", "shows_own_work": "自分がやったことを示している",
+        "clear_ask": "お願いが明確", "redirect_offer": "他の方を紹介してもらう余地を残している", "states_availability": "稼働できる時間や時期を伝えている", "concise": "ちょうどよい長さ"
+      }
+    },
+    "followUp": {
+      "title": "フォローアップ・プランナー", "subtitle": "まだ返信がありませんか？送ったメールを貼り付けると、あなたらしい口調で、タイミングを考えた2通のフォローアップが作れます。",
+      "email": "送ったメール", "emailPlaceholder": "最初に送ったメールを貼り付けてください…", "subject": "元の件名", "sentOn": "送信した日付",
+      "professorName": "教授の名前", "professorPlaceholder": "例：Elena Rivera", "generate": "フォローアップを計画", "generating": "下書き中…",
+      "timeline": "フォローアップのスケジュール", "step": "フォローアップ{n}", "sendOn": "{date}に送信", "daysAfter": "最初のメールから{days}日後",
+      "copy": "メッセージをコピー", "copied": "コピーしました", "addToCalendar": "カレンダーに追加", "editHint": "自由に編集してください。あなたのものにするための下書きです。",
+      "emptyTitle": "ここにスケジュールが表示されます", "emptyBody": "うるさがられずに、忘れられない間隔で送る2通のフォローアップ。",
+      "tipsTitle": "タイミングのコツ", "tip1": "期末試験期間、研究費の締切、休暇中は避けましょう。", "tip2": "平日の朝早くに送りましょう。",
+      "tip3": "2回フォローアップしたら、次へ進みましょう。そして、他の方の紹介をお願いしてみましょう。",
+      "aiUsed": "AIが個別に作成", "templated": "テンプレートベース", "signInTitle": "フォローアップを計画するにはログインしてください",
+      "limitTitle": "無料のフォローアップ計画を使い切りました", "quota": "無料の計画 {limit}回中{used}回使用"
+    },
+    "framework": {
+      "title": "コールドメールの型", "subtitle": "教授が返信したくなる要素をもとにした、穴埋め式の構成です。かっこをタップすると、書き方のヒントが表示されます。",
+      "template": "テンプレート", "tapHint": "かっこをタップすると、書き方が表示されます。", "guidance": "ヒント", "redFlags": "避けたい表現",
+      "redFlagsSub": "準備不足に見えてしまう表現です。具体的な内容に置き換えましょう。", "instead": "代わりに：", "cta": "自分のメールをチェック",
+      "b1": { "label": "具体的なテーマ", "tip": "分野全体ではなく、正確な領域、手法、問いを書きましょう。「神経科学」より「睡眠依存的な記憶の固定化」のほうが伝わります。" },
+      "b2": { "label": "具体的な発見や引用", "tip": "最近の論文にある実際の結果、図、文を挙げましょう。読んだことを示す一文です。" },
+      "b3": { "label": "あなたの研究の切り口", "tip": "授業、データセット、プロジェクトなど、やったことや探りたいこととつなげましょう。" },
+      "b4": { "label": "率直な個人的理由を1つ", "tip": "なぜそれがあなたにとって大切なのか、正直な一文で。短く、本当のことを。" },
+      "b5": { "label": "読んだことが伝わる鋭い質問", "tip": "論文を読んで気になった点（限界、発展、データセット）を聞きましょう。「研究についてもっと教えてください」は避けましょう。" },
+      "rf1": { "phrase": "I found your work fascinating and groundbreaking", "why": "教授は毎日これを聞いています。", "instead": "目に留まった具体的な発見を挙げましょう。" },
+      "rf2": { "phrase": "I am a highly motivated student", "why": "何も伝わりません。", "instead": "やったことで意欲を示しましょう。" },
+      "rf3": { "phrase": "Your research aligns perfectly with my interests", "why": "曖昧すぎて信じてもらえません。", "instead": "具体的にどうつながるのかを説明しましょう。" },
+      "rf4": { "phrase": "I would love to learn from you", "why": "教授の研究ではなく、あなたについてのメールになってしまいます。", "instead": "研究の具体的な部分について聞きましょう。" },
+      "rf5": { "phrase": "I am passionate about this field", "why": "誰もが言うことです。", "instead": "この分野で実際にやったことを説明しましょう。" }
+    },
+    "examples": {
+      "title": "うまくいくメール（注釈付き）", "subtitle": "返信をもらえるパターンを示すために書いた、3通のイメージ例です。各行の横にある解説を読んでみてください。",
+      "disclaimer": "これらはLaboraチームが説明のために書いた例で、実際のやり取りではありません。名前や内容はすべて架空です。",
+      "example": "例{n}", "cta": "次は、自分のメールをチェック",
+      "e1": { "label": "1年生・独学", "note1": "自分の関心と実際のスキルから入り、教授の研究へつなげています。", "note2": "論文を読まなければ出てこない、具体的な質問です。", "note3": "ハードルの低い直接的なお願いと、「お断り」を新しいつながりに変える紹介の依頼。" },
+      "e2": { "label": "個人プロジェクトのある3年生", "note1": "すでに取り組んでいるプロジェクトを示しています。実践的な関心の証拠です。", "note2": "技術的な深さ：要旨だけでなく手法を理解していることが伝わる質問です。", "note3": "時期（この夏）と、ボランティアでも手伝うという申し出。" },
+      "e3": { "label": "人文・社会科学", "note1": "履修した授業と読んだ資料に基づいてお願いしています。", "note2": "要約ではなく、選択の背景にある考え方を聞いています。", "note3": "具体的な提案：週数時間のアーカイブ資料のコーディング。" }
+    }
+  },
+  "match": {
+    "reasons": {
+      "shared_topics": "共通のテーマ：{items}", "skills_covered": "すでに持っているスキル：{items}", "style_aligned": "似た働き方（{items}）", "hours_fit": "稼働時間が必要な時間をカバー",
+      "bonus_skills": "追加スキル：{items}", "published_on_topics": "論文のテーマ：{items}", "active_recently": "直近3年で{items}本の論文", "partial_topic_overlap": "重なりが少ないテーマ：{items}",
+      "missing_skills": "伸ばしたいスキル：{items}", "style_differs": "働き方が異なる（{items}）", "hours_short": "募集が想定する時間より稼働できる時間が少ない"
+    },
+    "strong": "高い適合", "good": "良い適合", "partial": "部分的に適合", "tip": "目立つ方法", "why": "合う理由", "gaps": "知っておきたい点",
+    "breakdown": { "topic": "テーマ", "skills": "スキル", "bonus": "ボーナス", "style": "働き方", "hours": "稼働時間" },
+    "aiRefined": "AIが調整", "explainable": "説明できるスコア",
+    "student": {
+      "title": "AIマッチ", "subtitle": "スキル、関心、好みの働き方に合う順に、ポジションと教授を表示します。",
+      "tabPositions": "募集中のポジション", "tabProfessors": "世界の教授", "run": "マッチを探す", "rerun": "マッチを更新", "running": "マッチング中…",
+      "strengthTitle": "あなたのマッチプロフィール", "strengthBody": "情報が多いほど、マッチの精度が上がります。{score}%完了。", "improve": "プロフィールを改善",
+      "missing": {
+        "skills": "スキルを追加", "interests": "関心を書く", "experience": "これまでの経験を追加", "bio": "短い自己紹介を書く", "major": "専攻を追加",
+        "availability": "週の稼働時間を設定", "work_style": "働き方を設定"
+      },
+      "howTitle": "マッチングの仕組み",
+      "how1": "あなたの関心、スキル、経験、稼働時間を、各ポジションや研究者と比較します。",
+      "how2": "働き方（自主性、チームワーク、ペース、枠組み）も比較します。",
+      "how3": "AIレビュアーが上位の結果を調整し、それぞれを説明します。名前、学校、その他の個人的な属性は使用しません。",
+      "noResultsTitle": "まだマッチがありません", "noResultsBody": "現在、照合できる募集中のポジションがありません。代わりに世界の教授を探してみましょう。",
+      "searchedFor": "検索キーワード：{keywords}", "direction": "検索の方向を決める", "directionPlaceholder": "例：ニューラルコーディング、医用画像",
+      "university": "特定の大学のみ", "apply": "見て応募する", "viewProfessor": "プロフィールを見る", "writeEmail": "メールを書く",
+      "quota": "無料マッチ {limit}回中{used}回使用", "quotaPro": "マッチは無制限", "limitTitle": "無料のマッチを使い切りました", "limitBody": "パスで、マッチング、要約、メール検索が無制限になります。",
+      "professorsIntro": "あなたのプロフィールを研究テーマに変換し、そのテーマで活発に論文を発表している人を探します。",
+      "emptyProfile": "照合の材料になるよう、まずスキルと関心を追加してください。", "positionsFirst": "マッチを実行すると、最も合うポジションが表示されます。"
+    },
+    "professor": {
+      "title": "理想の学生を探す", "subtitle": "探している学生像を書く、またはポジションからAIに下書きさせて、合う学生を確認しましょう。",
+      "unverifiedTitle": "認証待ち", "unverifiedBody": "教授アカウントが認証されると、人材検索が使えるようになります。まもなく審査します。",
+      "step1": "1. ポジションから始める", "step1Hint": "任意。プロフィールの土台にする募集を選びます。", "noPosition": "特定のポジションなし",
+      "step2": "2. 探している学生像", "notes": "自分の言葉で",
+      "notesPlaceholder": "例：自分で方向を決めて動け、デバッグが好きで、PyTorchの経験があり、週10時間確保できる人。",
+      "draft": "AIでプロフィールを下書き", "draftRule": "プロフィールを作成", "drafting": "下書き中…", "personaHint": "自由に編集してください。学生はこの内容と比較されます。",
+      "headline": "見出し", "summary": "概要", "mustHave": "必須", "niceToHave": "あれば尚良い", "traits": "人柄", "keywords": "テーマ", "addChip": "入力してEnterキーを押す",
+      "workStyle": "求める働き方", "step3": "3. 合う学生", "find": "学生を探す", "finding": "検索中…", "pool": "公開を選んだ学生：{count}名",
+      "poolEmpty": "公開を選んだ学生はまだいません。学生が公開をオンにすると、ここに表示されます。", "left": "本日の残り検索回数：{count}回", "invite": "応募に招待", "invited": "招待済み",
+      "inviteTitle": "{name}さんを招待", "inviteBody": "メッセージが表示され、承諾または辞退できます。返信があるまで、連絡先は非公開です。", "position": "ポジション", "message": "メッセージ",
+      "messageDefault": "{name}さん、経歴を拝見し、当研究室の「{position}」にぴったりだと感じました。ご応募いただけませんか？ご質問があれば、喜んでお答えします。",
+      "sendInvite": "招待を送信", "sent": "招待を送信しました", "selectPosition": "招待するポジションを選択", "privacy": "公開を選んだ学生だけが表示されます。メールアドレスは表示されません。",
+      "noStudents": "合う学生はまだいません", "noStudentsBody": "必須リストを緩めるか、学生が増えたころにもう一度ご確認ください。", "available": "週{hours}時間稼働可能", "skills": "スキル",
+      "createPositionFirst": "学生を応募に招待するには、まずポジションを掲載してください。", "labFirst": "先に研究室プロフィールを設定してください。"
+    },
+    "ai": { "notEnabled": "このサーバーではAIによる調整が無効です。説明できるルールベースのスコアでマッチングします。" }
+  }
+}

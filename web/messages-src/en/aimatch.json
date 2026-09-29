@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "eyebrow": "AI Match",
+    "title": "A match that understands <em>how you work.</em>",
+    "subtitle": "Labora compares more than keywords. It looks at your skills, your interests, your availability and your working style — then explains every match in plain language.",
+    "student": "Find my matches",
+    "professor": "Find my ideal students",
+    "signUp": "Create a free account"
+  },
+  "signals": {
+    "eyebrow": "How it works",
+    "title": "Four signals, one explainable score",
+    "topics": { "title": "Topics", "body": "How closely your interests, courses and experience overlap with what a lab or researcher works on." },
+    "skills": { "title": "Skills", "body": "Which of the skills a role needs you already have — and which you could build." },
+    "style": { "title": "Working style", "body": "Independence, teamwork, pace and structure: how you like to work compared with how the lab works." },
+    "hours": { "title": "Availability", "body": "Whether the hours you can offer cover what the role expects." }
+  },
+  "demo": {
+    "eyebrow": "Try it",
+    "title": "See the working-style match",
+    "description": "Move the dials for how you like to work. The example lab is independent, collaborative and fast-paced, with loosely defined tasks.",
+    "you": "You",
+    "lab": "Example lab",
+    "fit": "Style fit",
+    "aligned": "Aligned on: {items}",
+    "differs": "Different on: {items}",
+    "none": "Move a dial to compare."
+  },
+  "directions": {
+    "title": "Two directions, one idea",
+    "students": {
+      "title": "For students",
+      "s1": "Fill in your skills, interests, experience and working style once.",
+      "s2": "Get positions and professors ranked by fit, each with reasons and gaps.",
+      "s3": "Use the “how to stand out” tips to write a stronger application or email."
+    },
+    "professors": {
+      "title": "For professors",
+      "s1": "Describe your ideal student — or let AI draft it from your position and lab.",
+      "s2": "See students who opted in, ranked with reasons and gaps.",
+      "s3": "Invite the best fits with one message. Their email stays private until they reply."
+    }
+  },
+  "trust": {
+    "eyebrow": "Fair by design",
+    "title": "You stay in control",
+    "t1": { "title": "Opt-in visibility", "body": "Students are only discoverable if they turn it on, and can turn it off any time." },
+    "t2": { "title": "Private contact details", "body": "Professors never see a student's email until the student applies or accepts an invitation." },
+    "t3": { "title": "No protected traits", "body": "Names, schools, gender, nationality and similar traits are never used to score anyone." },
+    "t4": { "title": "Reasons, not black boxes", "body": "Every score shows what matched and what didn't, so you can disagree with it." }
+  },
+  "faq": {
+    "title": "Common questions",
+    "q1": "Is the score a prediction that I'll get the position?",
+    "a1": "No. It is a guide to fit, not a prediction. Many things affect real decisions — timing, funding and other applicants.",
+    "q2": "What does the AI actually do?",
+    "a2": "First we compute a transparent score from the signals above. Then an AI reviewer looks at the top results, refines the ranking and writes the explanations. If AI isn't available, you still get the transparent score.",
+    "q3": "Can I use AI Match without a profile?",
+    "a3": "You can run it, but results improve a lot with a fuller profile. We show you what's missing."
+  },
+  "cta": {
+    "title": "Find the labs — and people — that fit.",
+    "button": "Get started free"
+  }
+}
